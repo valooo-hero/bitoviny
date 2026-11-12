@@ -203,7 +203,13 @@
         "kredit": "",
         "licencia": "",
         "zaradenie": "nejasne",
-        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+        "dovod": "Rozhodnutie editora: Skúška uloženia pri vývoji, stav sa nemení.",
+        "automaticke_zaradenie": "nejasne",
+        "automaticky_dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené.",
+        "rozhodol_editor": {
+          "kto": "valooo-hero",
+          "kedy": "2026-11-12T22:04:47Z"
+        }
       },
       {
         "url": "https://secure.gravatar.com/avatar/af01c840dac8281fd5f1986a8504e54222700437fa19c3083e578c1ddf6386a6?s=96&d=mm&r=r",
