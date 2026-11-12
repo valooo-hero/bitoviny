@@ -1,0 +1,32 @@
+---
+import Base from '../../layouts/Base.astro';
+import Karta from '../../components/Karta.astro';
+import { SEKCIE } from '../../data/sekcie';
+import { vsetkyClanky } from '../../lib/clanky';
+
+export async function getStaticPaths() {
+  const clanky = await vsetkyClanky();
+  return SEKCIE.map((s) => ({
+    params: { id: s.id },
+    props: { s, clanky: clanky.filter((c) => c.data.sekcia === s.id) },
+  }));
+}
+
+const { s, clanky } = Astro.props;
+---
+
+<Base title={s.nazov} description={s.popis} aktivnaSekcia={s.id}>
+  <h1>{s.nazov}</h1>
+  <p class="meta">{s.popis}</p>
+  {
+    clanky.length > 0 ? (
+      <div class="mriezka" style="margin-top:24px">
+        {clanky.map((c) => (
+          <Karta clanok={c} ukazSekciu={false} />
+        ))}
+      </div>
+    ) : (
+      <p>V tejto sekcii zatiaľ nie je žiadny článok.</p>
+    )
+  }
+</Base>

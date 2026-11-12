@@ -1,0 +1,157 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Karta from '../../components/Karta.astro';
+import { sekcia } from '../../data/sekcie';
+import { redaktor } from '../../data/redakcia';
+import { vsetkyClanky, datumCas, datum, slug } from '../../lib/clanky';
+
+export async function getStaticPaths() {
+  const clanky = await vsetkyClanky();
+  return clanky.map((clanok) => ({ params: { id: clanok.id }, props: { clanok, clanky } }));
+}
+
+const { clanok, clanky } = Astro.props;
+const d = clanok.data;
+const { Content } = await render(clanok);
+const s = sekcia(d.sekcia);
+
+const meno = (id: string) => redaktor(id)?.meno ?? id;
+const suvisiace = clanky
+  .filter((c) => c.id !== clanok.id)
+  .map((c) => ({
+    c,
+    skore: (c.data.sekcia === d.sekcia ? 2 : 0) + c.data.tagy.filter((t) => d.tagy.includes(t)).length,
+  }))
+  .sort((a, b) => b.skore - a.skore)
+  .slice(0, 3)
+  .map((x) => x.c);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: d.title,
+  description: d.perex,
+  datePublished: d.publikovane.toISOString(),
+  dateModified: (d.aktualizovane ?? d.publikovane).toISOString(),
+  image: [new URL(d.obrazok.src, Astro.site).href],
+  articleSection: s.nazov,
+  inLanguage: 'sk',
+  author: { '@type': 'Organization', name: 'Redakcia Bitoviny', url: new URL('/redakcia/', Astro.site).href },
+  publisher: { '@type': 'Organization', name: 'Bitoviny' },
+  mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).href,
+};
+---
+
+<Base title={d.title} description={d.perex} image={d.obrazok.src} typ="article" aktivnaSekcia={d.sekcia} jsonLd={jsonLd}>
+  <article class="clanok" data-pagefind-body>
+    <a class="stitok" href={`/sekcia/${d.sekcia}/`}>{s.nazov}</a>
+    <h1>{d.title}</h1>
+    <p class="perex">{d.perex}</p>
+
+    <div class="podpis meta" data-pagefind-ignore>
+      <time datetime={d.publikovane.toISOString()}>{datumCas(d.publikovane)}</time>
+      {d.aktualizovane && <span>Aktualizované {datumCas(d.aktualizovane)}</span>}
+      {
+        d.redaktori ? (
+          <span>
+            Napísal(a) {meno(d.redaktori.autor)}, overil(a) {meno(d.redaktori.factcheck)}, korektúra{' '}
+            {meno(d.redaktori.korektura)}, schválil(a) {meno(d.redaktori.schvalil)}
+          </span>
+        ) : (
+          <span>Redakcia Bitoviny</span>
+        )
+      }
+      <a class="ai-oznacenie" href="/ako-to-funguje/">
+        {d.vzorovy ? 'Vzorový článok, napísala AI' : 'Pripravené AI, schválené redaktorom'}
+      </a>
+    </div>
+
+    {
+      d.vzorovy && (
+        <p class="upozornenie" data-pagefind-ignore>
+          Tento článok vznikol pri vývoji portálu ako ukážka vzhľadu. Napísala ho AI na pokyn vývojára, neprešiel
+          redakčnou pipeline.
+        </p>
+      )
+    }
+
+    <figure>
+      <img src={d.obrazok.src} alt={d.obrazok.alt} width="1200" height="675" />
+      <figcaption>
+        {d.obrazok.popisok}
+        {' '}Zdroj: {d.obrazok.kredit}. Licencia: {d.obrazok.licencia}.
+        {d.obrazok.ai && ' Ilustračný obrázok, vytvorené AI.'}
+      </figcaption>
+    </figure>
+
+    <div class="proza">
+      <Content />
+    </div>
+
+    <footer class="pata-clanku" data-pagefind-ignore>
+      {
+        d.opravy.length > 0 && (
+          <>
+            <h2>Opravy</h2>
+            <ul>
+              {d.opravy.map((o) => (
+                <li>
+                  {datum(o.datum)}: {o.text}
+                </li>
+              ))}
+            </ul>
+          </>
+        )
+      }
+      <h2>Zdroje</h2>
+      <ul>
+        {
+          d.zdroje.map((z) => (
+            <li>
+              <a href={z.url} rel="noopener">
+                {z.nazov}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+      {
+        d.trace && (
+          <p>
+            <a href={d.trace} rel="noopener">
+              Záznam práce agentov na tomto článku (Langfuse)
+            </a>
+          </p>
+        )
+      }
+      {
+        d.tagy.length > 0 && (
+          <>
+            <h2>Tagy</h2>
+            <ul class="tagy">
+              {d.tagy.map((t) => (
+                <li>
+                  <a href={`/tag/${slug(t)}/`}>{t}</a>
+                </li>
+              ))}
+            </ul>
+          </>
+        )
+      }
+    </footer>
+  </article>
+
+  {
+    suvisiace.length > 0 && (
+      <section>
+        <h2 class="nadpis-bloku">Súvisiace články</h2>
+        <div class="mriezka">
+          {suvisiace.map((c) => (
+            <Karta clanok={c} />
+          ))}
+        </div>
+      </section>
+    )
+  }
+</Base>

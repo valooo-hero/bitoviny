@@ -22,4 +22,32 @@ Projekt je **demonštrácia agentových AI systémov** (LangChain, LangGraph, La
 
 ## Stav
 
-Fáza 0 (základy) je hotová. Kód portálu ani pipeline zatiaľ neexistuje, nasleduje Fáza 1.
+Hotová je Fáza 0 (základy) a Fáza 1 (portál). Redakčná pipeline zatiaľ neexistuje, články na webe sú vzorové. Nasleduje Fáza 2 (Zberač).
+
+## Lokálny vývoj
+
+Potrebný je Node 24.
+
+```bash
+npm install
+npm run dev      # vývojový server na http://localhost:4321
+npm run build    # statický web do dist/ a vyhľadávací index
+npm run preview  # náhľad zostaveného webu
+```
+
+Vyhľadávanie funguje až po `npm run build`, vo vývojovom serveri index neexistuje.
+
+## Nasadenie
+
+Cloudflare Pages napojené na tento repozitár: príkaz `npm run build`, výstupný priečinok `dist`.
+
+## Štruktúra
+
+| Cesta | Obsah |
+|---|---|
+| `content/clanky/` | Články v Markdowne, schéma v `src/content.config.ts` |
+| `src/data/` | Sekcie a redaktori |
+| `src/pages/` | Stránky portálu |
+| `public/obrazky/` | Obrázky k článkom |
+| `config/sources.yaml` | Zdroje pre Zberača |
+| `docs/` | Plán, zásady, zdroje, LLM limity |

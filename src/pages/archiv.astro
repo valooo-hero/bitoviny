@@ -1,0 +1,27 @@
+---
+import Base from '../layouts/Base.astro';
+import { sekcia } from '../data/sekcie';
+import { vsetkyClanky, datum } from '../lib/clanky';
+
+const clanky = await vsetkyClanky();
+---
+
+<Base title="Archív" description="Všetky články portálu Bitoviny od najnovšieho.">
+  <h1>Archív</h1>
+  <p class="meta">Všetky články od najnovšieho, spolu {clanky.length}.</p>
+  <ul class="zoznam">
+    {
+      clanky.map((c) => (
+        <li>
+          <time class="meta" datetime={c.data.publikovane.toISOString()}>
+            {datum(c.data.publikovane)}
+          </time>
+          <a href={`/clanok/${c.id}/`}>{c.data.title}</a>
+          <a class="stitok" href={`/sekcia/${c.data.sekcia}/`}>
+            {sekcia(c.data.sekcia).nazov}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</Base>

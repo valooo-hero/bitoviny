@@ -1,0 +1,44 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="Hľadať" description="Vyhľadávanie v článkoch portálu Bitoviny." noindex>
+  <h1>Hľadať</h1>
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+  <div id="hladanie" style="margin-top:20px;max-width:720px"></div>
+  <noscript><p>Vyhľadávanie vyžaduje JavaScript. Všetky články nájdete v <a href="/archiv/">archíve</a>.</p></noscript>
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+  <script is:inline>
+    window.addEventListener('DOMContentLoaded', () => {
+      if (!window.PagefindUI) {
+        document.getElementById('hladanie').textContent =
+          'Vyhľadávací index je dostupný až po zostavení webu (npm run build).';
+        return;
+      }
+      new PagefindUI({
+        element: '#hladanie',
+        showSubResults: false,
+        showImages: false,
+        translations: {
+          placeholder: 'Hľadať v článkoch',
+          clear_search: 'Zmazať',
+          load_more: 'Načítať ďalšie',
+          zero_results: 'Pre „[SEARCH_TERM]“ sme nič nenašli',
+          many_results: 'Počet výsledkov pre „[SEARCH_TERM]“: [COUNT]',
+          one_result: 'Jeden výsledok pre „[SEARCH_TERM]“',
+          searching: 'Hľadám „[SEARCH_TERM]“…',
+        },
+      });
+    });
+  </script>
+  <style is:global>
+    :root {
+      --pagefind-ui-primary: var(--accent);
+      --pagefind-ui-text: var(--text);
+      --pagefind-ui-background: var(--surface);
+      --pagefind-ui-border: var(--line);
+      --pagefind-ui-tag: var(--line);
+      --pagefind-ui-font: var(--sans);
+    }
+  </style>
+</Base>

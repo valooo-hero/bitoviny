@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import Karta from '../../components/Karta.astro';
+import { vsetkyClanky, slug } from '../../lib/clanky';
+
+export async function getStaticPaths() {
+  const clanky = await vsetkyClanky();
+  const tagy = new Map<string, string>();
+  for (const c of clanky) for (const t of c.data.tagy) tagy.set(slug(t), t);
+  return [...tagy].map(([id, nazov]) => ({
+    params: { tag: id },
+    props: { nazov, clanky: clanky.filter((c) => c.data.tagy.some((t) => slug(t) === id)) },
+  }));
+}
+
+const { nazov, clanky } = Astro.props;
+---
+
+<Base title={`Tag: ${nazov}`} description={`Články označené tagom ${nazov}.`}>
+  <p class="stitok">Tag</p>
+  <h1>{nazov}</h1>
+  <div class="mriezka" style="margin-top:24px">
+    {clanky.map((c) => <Karta clanok={c} />)}
+  </div>
+</Base>

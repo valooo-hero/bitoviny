@@ -1,0 +1,30 @@
+---
+import Stranka from '../layouts/Stranka.astro';
+import { vsetkyClanky, datum } from '../lib/clanky';
+
+const clanky = await vsetkyClanky();
+const opravy = clanky
+  .flatMap((c) => c.data.opravy.map((o) => ({ ...o, clanok: c })))
+  .sort((a, b) => b.datum.getTime() - a.datum.getTime());
+---
+
+<Stranka title="Opravy" description="Verejný zoznam opráv v článkoch portálu Bitoviny.">
+  <h1>Opravy</h1>
+  <p>
+    Keď v článku nájdeme vecnú chybu, opravíme ju a zapíšeme sem aj pod článok, čo sa zmenilo a kedy. Chybu môžete
+    nahlásiť cez <a href="/kontakt/">kontakt</a>.
+  </p>
+  {
+    opravy.length > 0 ? (
+      <ul>
+        {opravy.map((o) => (
+          <li>
+            {datum(o.datum)}, <a href={`/clanok/${o.clanok.id}/`}>{o.clanok.data.title}</a>: {o.text}
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>Zatiaľ sme neopravovali žiadny článok.</p>
+    )
+  }
+</Stranka>

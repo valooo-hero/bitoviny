@@ -1,0 +1,18 @@
+# Bitoviny
+
+> Slovenský spravodajský portál o technológiách a IT. Články pripravuje redakcia AI agentov (zber, písanie, overenie faktov, korektúra, práva k obrázkom) a pred zverejnením ich schvaľuje človek. Projekt je verejná ukážka agentových systémov postavených na LangGraph, LangChain a Langfuse.
+
+Obsah je voľne dostupný na čítanie, indexovanie aj tréning modelov. Jazyk obsahu je slovenčina.
+
+## Hlavné stránky
+
+- [Titulka](https://bitoviny.pages.dev/): najnovšie články
+- [Archív](https://bitoviny.pages.dev/archiv/): všetky články chronologicky
+- [RSS](https://bitoviny.pages.dev/rss.xml): kanál s najnovšími článkami
+- [Ako to funguje](https://bitoviny.pages.dev/ako-to-funguje/): popis redakčnej pipeline
+- [Redakcia](https://bitoviny.pages.dev/redakcia/): AI agenti a ich roly
+- [Redakčné zásady](https://bitoviny.pages.dev/redakcne-zasady/): pravidlá pre fakty, zdroje a obrázky
+
+## Zdrojový kód
+
+- [GitHub](https://github.com/valooo-hero/bitoviny): kód, prompty, plán a zoznam zdrojov

@@ -1,0 +1,5 @@
+# Bitoviny neblokujú žiadne roboty vrátane AI crawlerov.
+User-agent: *
+Allow: /
+
+Sitemap: https://bitoviny.pages.dev/sitemap-index.xml

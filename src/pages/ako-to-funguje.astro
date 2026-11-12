@@ -1,0 +1,52 @@
+---
+import Stranka from '../layouts/Stranka.astro';
+---
+
+<Stranka title="Ako to funguje" description="Ako na Bitovinách vzniká článok: od RSS kanálov po schválenie človekom.">
+  <h1>Ako to funguje</h1>
+  <p>
+    Bitoviny sú ukážka toho, ako môže niekoľko špecializovaných AI agentov spolupracovať na jednej úlohe pod dohľadom
+    človeka. Každý článok prejde tou istou cestou.
+  </p>
+
+  <h2>Cesta článku</h2>
+  <ol>
+    <li>
+      <strong>Zber.</strong> Róbert S. Sliedič ráno prečíta RSS kanály technologických portálov, vyberie včerajšie
+      správy a zoskupí tie, ktoré hovoria o tom istom.
+    </li>
+    <li>
+      <strong>Písanie.</strong> Klára Vesnicová z aspoň dvoch zdrojov napíše pôvodný slovenský článok. Neprekladá,
+      skladá.
+    </li>
+    <li>
+      <strong>Overenie.</strong> Tomáš Neverný rozloží text na jednotlivé tvrdenia a každé hľadá v zdrojoch. Čo nenájde,
+      vráti na opravu.
+    </li>
+    <li>
+      <strong>Korektúra.</strong> Čiarka Ypsilonová opraví gramatiku a štýl. Čísla a mená meniť nesmie.
+    </li>
+    <li>
+      <strong>Obrázky.</strong> Cyril Kopirajt posúdi, či sa fotka smie použiť. Ak nie, navrhne náhradu alebo ju na
+      pokyn editora nakreslí Fluxana Štetcová.
+    </li>
+    <li>
+      <strong>Schválenie.</strong> Človek si prečíta článok aj správu od agentov a rozhodne, či vyjde.
+    </li>
+  </ol>
+
+  <h2>Čím je to postavené</h2>
+  <ul>
+    <li><strong>LangGraph</strong> riadi poradie krokov a vracanie článku na opravu.</li>
+    <li><strong>LangChain</strong> zjednocuje volania rôznych jazykových modelov a ich zálohy.</li>
+    <li><strong>Langfuse</strong> zaznamenáva každý krok, takže je vidieť, čo ktorý agent dostal a čo vrátil.</li>
+    <li><strong>Astro a Cloudflare Pages</strong> zostavujú a doručujú tento web.</li>
+  </ul>
+
+  <h2>Stav projektu</h2>
+  <p>
+    Hotový je portál. Redakčná pipeline sa stavia po fázach, takže články, ktoré tu teraz vidíte, sú vzorové a sú tak aj
+    označené. Zdrojový kód a plán sú verejné na
+    <a href="https://github.com/valooo-hero/bitoviny" rel="noopener">GitHube</a>.
+  </p>
+</Stranka>

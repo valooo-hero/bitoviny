@@ -1,0 +1,22 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { sekcia } from '../data/sekcie';
+import { datum } from '../lib/clanky';
+
+interface Props {
+  clanok: CollectionEntry<'clanky'>;
+  ukazSekciu?: boolean;
+}
+const { clanok, ukazSekciu = true } = Astro.props;
+const d = clanok.data;
+---
+
+<article class="karta">
+  <a href={`/clanok/${clanok.id}/`} tabindex="-1" aria-hidden="true">
+    <img src={d.obrazok.src} alt="" loading="lazy" width="1200" height="675" />
+  </a>
+  {ukazSekciu && <a class="stitok" href={`/sekcia/${d.sekcia}/`}>{sekcia(d.sekcia).nazov}</a>}
+  <h3><a href={`/clanok/${clanok.id}/`}>{d.title}</a></h3>
+  <p>{d.perex}</p>
+  <time class="meta" datetime={d.publikovane.toISOString()}>{datum(d.publikovane)}</time>
+</article>

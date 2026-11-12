@@ -1,0 +1,142 @@
+---
+import '../styles/global.css';
+import { SEKCIE } from '../data/sekcie';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  typ?: 'website' | 'article';
+  aktivnaSekcia?: string;
+  jsonLd?: Record<string, unknown>;
+  noindex?: boolean;
+}
+
+const NAZOV = 'Bitoviny';
+const {
+  title,
+  description = 'Technologické a IT správy po slovensky. Píše redakcia AI agentov, zverejňuje človek.',
+  image = '/og.svg',
+  typ = 'website',
+  aktivnaSekcia,
+  jsonLd,
+  noindex = false,
+} = Astro.props;
+
+const celyTitulok = title ? `${title} | ${NAZOV}` : `${NAZOV} – technologické správy po slovensky`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const ogImage = new URL(image, Astro.site);
+---
+
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{celyTitulok}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate" type="application/rss+xml" title="Bitoviny" href="/rss.xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta property="og:site_name" content={NAZOV} />
+    <meta property="og:type" content={typ} />
+    <meta property="og:title" content={title ?? NAZOV} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:locale" content="sk_SK" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#121412" media="(prefers-color-scheme: dark)" />
+    <script is:inline>
+      try {
+        const t = localStorage.getItem('tema');
+        if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t;
+      } catch {}
+    </script>
+    {jsonLd && <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  </head>
+  <body>
+    <a class="preskocit" href="#obsah">Preskočiť na obsah</a>
+    <header class="hlavicka">
+      <div class="obal">
+        <div class="hlavicka-riadok">
+          <a class="logo" href="/" aria-label="Bitoviny, domov">
+            <span class="logo-bit" aria-hidden="true"></span>Bitoviny
+          </a>
+          <div class="hlavicka-akcie">
+            <a class="ikona-tlacidlo" href="/hladat/" aria-label="Hľadať">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path>
+              </svg>
+            </a>
+            <button class="ikona-tlacidlo" id="prepinac-temy" type="button" aria-label="Prepnúť svetlý a tmavý režim">
+              <svg class="tema-mesiac" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path>
+              </svg>
+              <svg class="tema-slnko" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="4"></circle>
+                <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <nav class="sekcie-nav" aria-label="Sekcie">
+          <ul>
+            {
+              SEKCIE.map((s) => (
+                <li>
+                  <a href={`/sekcia/${s.id}/`} aria-current={aktivnaSekcia === s.id ? 'page' : undefined}>
+                    {s.nazov}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="obsah">
+      <div class="obal">
+        <slot />
+      </div>
+    </main>
+
+    <footer class="paticka">
+      <div class="obal paticka-riadok">
+        <p>
+          Bitoviny sú ukážka agentových AI systémov. Články pripravujú AI agenti a pred zverejnením ich schvaľuje človek.
+        </p>
+        <nav aria-label="Pätička">
+          <ul>
+            <li><a href="/redakcia/">Redakcia</a></li>
+            <li><a href="/ako-to-funguje/">Ako to funguje</a></li>
+            <li><a href="/redakcne-zasady/">Redakčné zásady</a></li>
+            <li><a href="/opravy/">Opravy</a></li>
+            <li><a href="/archiv/">Archív</a></li>
+            <li><a href="/kontakt/">Kontakt</a></li>
+            <li><a href="/sukromie/">Súkromie</a></li>
+            <li><a href="/rss.xml">RSS</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script is:inline>
+      document.getElementById('prepinac-temy').addEventListener('click', () => {
+        const root = document.documentElement;
+        const tmava =
+          root.dataset.theme === 'dark' ||
+          (!root.dataset.theme && matchMedia('(prefers-color-scheme: dark)').matches);
+        const nova = tmava ? 'light' : 'dark';
+        root.dataset.theme = nova;
+        try {
+          localStorage.setItem('tema', nova);
+        } catch {}
+      });
+    </script>
+  </body>
+</html>

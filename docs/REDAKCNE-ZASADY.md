@@ -1,6 +1,6 @@
 # Redakčné zásady
 
-Tento text je podklad pre verejnú stránku Redakčné zásady a zároveň záväzné pravidlá pre prompty agentov.
+Tieto zásady platia pre celú redakciu, ľudskú aj strojovú. Rovnaký text dostávajú AI agenti ako súčasť svojich pokynov.
 
 ## Kto píše
 

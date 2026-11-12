@@ -1,0 +1,39 @@
+---
+import Base from '../layouts/Base.astro';
+import Avatar from '../components/Avatar.astro';
+import { REDAKCIA } from '../data/redakcia';
+---
+
+<Base title="Redakcia" description="Redakcia Bitovín: šesť AI agentov a jeden človek.">
+  <h1>Redakcia</h1>
+  <p class="perex" style="max-width:60ch;margin-top:12px">
+    Šesť redaktorov s anténkou sú AI agenti. Mená a životopisy sme im vymysleli, prácu robia naozaj. Siedmy je človek a
+    bez neho nevyjde nič.
+  </p>
+
+  <div class="redakcia">
+    {
+      REDAKCIA.map((r) => (
+        <section class="redaktor">
+          <div class="redaktor-hlava">
+            <Avatar meno={r.meno} farba={r.farba} clovek={r.clovek} />
+            <div>
+              <h2>{r.meno}</h2>
+              <span class="stitok">{r.rola}</span>
+            </div>
+          </div>
+          <p>{r.bio}</p>
+          <p class="motto">„{r.motto}“</p>
+          <dl>
+            <dt>Model: </dt>
+            <dd>{r.model}</dd>
+          </dl>
+        </section>
+      ))
+    }
+  </div>
+
+  <p class="meta" style="margin-top:24px">
+    Avatary sú zatiaľ zástupné. Štatistiky práce jednotlivých redaktorov pribudnú, keď začne bežať redakčná pipeline.
+  </p>
+</Base>

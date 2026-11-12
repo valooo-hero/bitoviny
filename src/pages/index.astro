@@ -1,0 +1,68 @@
+---
+import Base from '../layouts/Base.astro';
+import Karta from '../components/Karta.astro';
+import { SEKCIE, sekcia } from '../data/sekcie';
+import { vsetkyClanky, datum } from '../lib/clanky';
+
+const clanky = await vsetkyClanky();
+const [hlavna, ...ostatne] = clanky;
+const najnovsie = ostatne.slice(0, 6);
+const bloky = SEKCIE.map((s) => ({
+  sekcia: s,
+  clanky: clanky.filter((c) => c.data.sekcia === s.id).slice(0, 3),
+})).filter((b) => b.clanky.length > 0);
+---
+
+<Base>
+  {
+    hlavna && (
+      <section class="hlavna-sprava" aria-label="Hlavná správa">
+        <a href={`/clanok/${hlavna.id}/`} tabindex="-1" aria-hidden="true">
+          <img src={hlavna.data.obrazok.src} alt="" width="1200" height="675" />
+        </a>
+        <div>
+          <a class="stitok" href={`/sekcia/${hlavna.data.sekcia}/`}>
+            {sekcia(hlavna.data.sekcia).nazov}
+          </a>
+          <h2>
+            <a href={`/clanok/${hlavna.id}/`}>{hlavna.data.title}</a>
+          </h2>
+          <p>{hlavna.data.perex}</p>
+          <time class="meta" datetime={hlavna.data.publikovane.toISOString()}>
+            {datum(hlavna.data.publikovane)}
+          </time>
+        </div>
+      </section>
+    )
+  }
+
+  {
+    najnovsie.length > 0 && (
+      <section>
+        <h2 class="nadpis-bloku">
+          Najnovšie <a href="/archiv/">Archív →</a>
+        </h2>
+        <div class="mriezka">
+          {najnovsie.map((c) => (
+            <Karta clanok={c} />
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  {
+    bloky.map((b) => (
+      <section>
+        <h2 class="nadpis-bloku">
+          {b.sekcia.nazov} <a href={`/sekcia/${b.sekcia.id}/`}>Všetko →</a>
+        </h2>
+        <div class="mriezka">
+          {b.clanky.map((c) => (
+            <Karta clanok={c} ukazSekciu={false} />
+          ))}
+        </div>
+      </section>
+    ))
+  }
+</Base>
