@@ -21,6 +21,7 @@ Projekt je **demonštrácia agentových AI systémov** (LangChain, LangGraph, La
 - [Redakčné zásady](docs/REDAKCNE-ZASADY.md)
 - [Factcheck](docs/FACTCHECK.md)
 - [Korektúra a obrázky](docs/KOREKTURA-A-OBRAZKY.md)
+- [Redakčné rozhranie a zverejňovanie](docs/REDAKCNE-ROZHRANIE.md)
 
 ## Stav
 
@@ -67,5 +68,7 @@ Cloudflare Pages napojené na tento repozitár: príkaz `npm run build`, výstup
 | `src/pages/` | Stránky portálu |
 | `public/obrazky/` | Obrázky k článkom |
 | `pipeline/bitoviny/` | Redakčná pipeline v Pythone |
+| `functions/api/` | API redakčného rozhrania (Cloudflare Pages Functions) |
+| `src/pages/admin/` | Redakčné rozhranie |
 | `config/sources.yaml` | Zdroje pre Zberača |
 | `docs/` | Plán, zásady, zdroje, LLM limity |

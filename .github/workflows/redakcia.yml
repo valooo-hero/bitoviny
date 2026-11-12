@@ -1,0 +1,62 @@
+name: Redakcia
+
+# Denný beh: zber včerajších správ, písanie, factcheck, korektúra, obrázky.
+# Výsledkom sú pull requesty s konceptmi. Zverejňuje až človek v /admin/.
+
+on:
+  schedule:
+    # 23:30 UTC je 00:30 slovenského zimného času (v lete 01:30). Krátko po polnoci
+    # sú včerajšie správy ešte v krátkych RSS kanáloch.
+    - cron: "30 23 * * *"
+  workflow_dispatch:
+    inputs:
+      datum:
+        description: "Deň správ (RRRR-MM-DD), prázdne = včera"
+        required: false
+      pocet:
+        description: "Počet článkov"
+        required: false
+        default: "3"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: redakcia
+  cancel-in-progress: false
+
+jobs:
+  redakcia:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: pipeline/pyproject.toml
+      - run: pip install -e pipeline
+      - name: Zber a redakcia
+        working-directory: pipeline
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          LANGFUSE_PUBLIC_KEY: ${{ secrets.LANGFUSE_PUBLIC_KEY }}
+          LANGFUSE_SECRET_KEY: ${{ secrets.LANGFUSE_SECRET_KEY }}
+          LANGFUSE_HOST: https://cloud.langfuse.com
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          DATUM: ${{ inputs.datum }}
+          POCET: ${{ inputs.pocet || '3' }}
+        run: |
+          if [ -z "$GOOGLE_API_KEY" ] || [ -z "$GROQ_API_KEY" ] || [ -z "$OPENROUTER_API_KEY" ]; then
+            echo "::notice::Chýbajú API kľúče v GitHub Secrets, beh sa preskakuje."
+            exit 0
+          fi
+          ARGS=()
+          if [ -n "$DATUM" ]; then ARGS+=(--datum "$DATUM"); fi
+          python -m bitoviny.zber --pocet 12 "${ARGS[@]}"
+          python -m bitoviny.redakcia --pocet "$POCET" --pr "${ARGS[@]}"
