@@ -67,3 +67,15 @@ Všetky štyri kľúče sa úspešne prihlásili.
 Limit 8 000 tokenov za minútu na Groq znamená, že dlhé zdrojové texty sa doň nezmestia. Groq sa preto hodí na krátke úlohy, factcheck s celými zdrojmi musí bežať na Gemini.
 
 Denné limity Gemini API nevracia, treba ich pozrieť v Google AI Studio.
+
+## Skúsenosti z prvých ostrých behov (12. 11. 2026)
+
+Platné priradenie modelov je v `config/modely.yaml`, tabuľka „Priradenie modelov“ vyššie je pôvodný návrh.
+
+- **Gemini je nespoľahlivé.** `gemini-3.8-flash` aj `gemini-3.5-flash` a Flash-Lite pri dlhom vstupe opakovane vracali 503 a 504. Prvý koncept nakoniec napísal až štvrtý model v poradí, `baidu/ernie-5.5-flash-preview:free` cez OpenRouter, v použiteľnej slovenčine.
+- **Modely Gemini 2.5 už nie sú dostupné** novým používateľom.
+- **Groq Qwen kazí volanie nástrojov** (skomolí názov schémy). Funguje so štruktúrovaným výstupom cez JSON schému. Výber tém preto robí `openai/gpt-oss-120b`, ktorý lepšie triafal aj sekcie.
+- **Gemma na OpenRouter** bola v bezplatnej tarife dočasne obmedzená (429).
+- **Bezplatné modely na OpenRouter sa menia.** Zoznam treba občas skontrolovať, inak záloha potichu prestane existovať.
+
+Pri výpadku všetkých modelov pipeline článok preskočí a pokračuje ďalším.

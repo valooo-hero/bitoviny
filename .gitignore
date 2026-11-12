@@ -28,3 +28,4 @@ Thumbs.db
 .idea/
 
 *.egg-info/
+data/koncepty/

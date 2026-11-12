@@ -84,7 +84,7 @@ Zverejnenie je zablokované, kým je v článku chránený obrázok bez výslovn
 | 0. Základy | Repozitár, plán, zdroje, zásady, overenie limitov | Hotové |
 | 1. Portál | Astro šablóny, sekcie, schéma článku, tmavý režim, stránka Redakcia s avatarmi, 3 ručné vzorové články, nasadenie | Hotové, beží na bitoviny.pages.dev. Avatary sú zástupné, news sitemap chýba |
 | 2. Zberač | RSS, sťahovanie textov a obrázkov, zoskupovanie tém, výber | Hotové: `python -m bitoviny.zber` vytvorí denný JSON s témami. Alternatívne obrázky sa presunuli do Fázy 5, výber tém cez LLM do Fázy 3 |
-| 3. Autorka a Langfuse | Graf v LangGraphe, prompty v Langfuse, záložné modely | Z témy vznikne slovenský koncept s trace |
+| 3. Autorka a Langfuse | Graf v LangGraphe, výber tém modelom, prompty, záložné modely, trasovanie | Hotové: `python -m bitoviny.redakcia` napíše koncepty do `data/koncepty/` s odkazom na trace. Prompty sú v repozitári, nie v Langfuse |
 | 4. Factcheck | Extrakcia tvrdení, overenie, slučka opráv | Správa s verdiktmi, test na zámerne chybných článkoch |
 | 5. Korektúra a fotky | Korektorka, klasifikácia práv | Diff korektúry a varovania k obrázkom |
 | 6. Redakčné rozhranie | Admin za Cloudflare Access, výmena a generovanie obrázkov, Zverejniť, cron | Prvý článok zverejnený celým procesom |

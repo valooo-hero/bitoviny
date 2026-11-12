@@ -22,7 +22,7 @@ Projekt je **demonštrácia agentových AI systémov** (LangChain, LangGraph, La
 
 ## Stav
 
-Hotové sú Fázy 0 až 2: základy, portál na https://bitoviny.pages.dev a Zberač správ. Články na webe sú zatiaľ vzorové. Nasleduje Fáza 3 (Autorka a Langfuse).
+Hotové sú Fázy 0 až 3: základy, portál na https://bitoviny.pages.dev, Zberač správ a Autorka s trasovaním v Langfuse. Články na webe sú zatiaľ vzorové, koncepty od agentov sa nezverejňujú. Nasleduje Fáza 4 (Factcheck).
 
 ## Lokálny vývoj
 
@@ -46,8 +46,11 @@ python -m venv .venv
 .venv/Scripts/python -m pip install -e "pipeline[dev]"   # na Linuxe .venv/bin/python
 cd pipeline
 ../.venv/Scripts/python -m pytest
-../.venv/Scripts/python -m bitoviny.zber                 # včerajšie správy do data/raw/
+../.venv/Scripts/python -m bitoviny.zber --pocet 12      # včerajšie správy do data/raw/
+../.venv/Scripts/python -m bitoviny.redakcia --max-clankov 1   # koncept do data/koncepty/
 ```
+
+Redakcia potrebuje kľúče v súbore `.env` podľa vzoru `.env.example`. Modely a ich zálohy sú v `config/modely.yaml`, prompty v `pipeline/bitoviny/redakcia/prompty/`.
 
 ## Nasadenie
 

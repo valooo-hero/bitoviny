@@ -1,0 +1,25 @@
+# Priradenie jazykových modelov k rolám. Prvý v zozname je hlavný, ďalšie sú zálohy
+# (LangChain with_fallbacks). Všetko sú bezplatné tarify, pozri docs/LLM-PROVIDERY.md.
+# provider: google | groq | openrouter
+# metoda: nepovinný spôsob štruktúrovaného výstupu (napr. json_schema)
+
+roly:
+  # Krátka úloha nad titulkami, zmestí sa do limitu Groq 8 000 tokenov za minútu.
+  vyber_tem:
+    teplota: 0.2
+    modely:
+      - { provider: groq, model: openai/gpt-oss-120b }
+      # Qwen na Groq kazí volanie nástrojov, preto výstup cez JSON schému.
+      - { provider: groq, model: qwen/qwen3.8-27b, metoda: json_schema }
+      - { provider: google, model: gemini-3.5-flash-lite }
+
+  # Najlepšia dostupná slovenčina. Vstup sú celé zdrojové texty, preto nie Groq.
+  autorka:
+    teplota: 0.6
+    modely:
+      # Najnovší Flash býva preťažený (503), preto dve ďalšie generácie v zálohe.
+      # Každý model Gemini má vlastný denný limit.
+      - { provider: google, model: gemini-3.8-flash }
+      - { provider: google, model: gemini-3.5-flash }
+      - { provider: google, model: gemini-3.5-flash-lite }
+      - { provider: openrouter, model: "baidu/ernie-5.5-flash-preview:free" }
