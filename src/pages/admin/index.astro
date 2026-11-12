@@ -66,7 +66,7 @@ import Base from '../../layouts/Base.astro';
         <figure id="aktualny"></figure>
 
         <h2 class="nadpis-bloku">Obrázky zo zdrojov</h2>
-        <p class="meta">Chránené a nejasné obrázky sa použiť nedajú. Sú tu len na vysvetlenie, prečo treba náhradu.</p>
+        <p class="meta">Zaradenie je automatické odporúčanie. Stav môžete zmeniť podľa vlastného úsudku, zmena sa zapíše do redakčnej správy aj s dôvodom.</p>
         <div id="povodne" class="galeria"></div>
 
         <h2 class="nadpis-bloku">Vymeniť obrázok: voľné náhrady</h2>
@@ -127,11 +127,61 @@ import Base from '../../layouts/Base.astro';
       </div>
     </section>
     </div>
+
+    <dialog id="dlg-pouzit">
+      <form id="form-pouzit">
+        <h2>Použiť obrázok</h2>
+        <p id="pouzit-prava" class="meta"></p>
+        <label>Popisok pod obrázkom (po slovensky)
+          <textarea id="pouzit-popisok" rows="3" minlength="5" maxlength="300" required></textarea>
+        </label>
+        <p class="dlg-chyba" role="alert"></p>
+        <div class="riadok">
+          <button id="pouzit-ulozit" class="tl hlavne" type="submit">Použiť obrázok</button>
+          <button class="tl dlg-zrusit" type="button">Zrušiť</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="dlg-prava">
+      <form id="form-prava">
+        <h2>Zmeniť stav obrázka</h2>
+        <p id="prava-auto" class="meta"></p>
+        <label>Stav
+          <select id="prava-zaradenie">
+            <option value="volne">voľné: smie sa použiť (voľná licencia)</option>
+            <option value="tlacove">tlačové: smie sa použiť (tlačový materiál, súhlas autora)</option>
+            <option value="nejasne">nejasné: nepoužiť</option>
+            <option value="chranene">chránené: nepoužiť</option>
+          </select>
+        </label>
+        <label>Autor alebo zdroj (zobrazí sa pod obrázkom)
+          <input id="prava-kredit" maxlength="150" />
+        </label>
+        <label>Licencia alebo právny základ (zobrazí sa pod obrázkom)
+          <input id="prava-licencia" maxlength="80" placeholder="napr. tlačový materiál, CC BY 4.0, so súhlasom autora" />
+        </label>
+        <label>Dôvod rozhodnutia (ostane v redakčnej správe)
+          <textarea id="prava-dovod" rows="3" maxlength="500" placeholder="napr. Obrázok je z oficiálnej tlačovej správy výrobcu."></textarea>
+        </label>
+        <p class="dlg-chyba" role="alert"></p>
+        <div class="riadok">
+          <button id="prava-ulozit" class="tl hlavne" type="submit">Uložiť stav</button>
+          <button class="tl dlg-zrusit" type="button">Zrušiť</button>
+        </div>
+      </form>
+    </dialog>
   </div>
 </Base>
 
 <style is:global>
   #admin { --ok: #0a7d5a; --zle: #c0392b; --pozor: #b7791f; }
+  #admin dialog { width: min(560px, calc(100vw - 32px)); border: 1px solid var(--line); border-radius: 10px; background: var(--bg); color: var(--text); padding: 20px; }
+  #admin dialog::backdrop { background: rgb(0 0 0 / 0.6); }
+  #admin dialog h2 { font-size: 1.3rem; margin-bottom: 10px; }
+  #admin select { display: block; width: 100%; margin-top: 6px; padding: 10px; font: inherit; font-weight: 400; color: var(--text); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
+  .dlg-chyba { color: var(--zle); font-size: 0.9rem; margin: 0; }
+  .dlg-chyba:empty { display: none; }
   /* Atribút hidden musí vyhrať aj nad pravidlami s display: flex či grid. */
   #admin [hidden] { display: none !important; }
   .admin-hlava { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
@@ -329,7 +379,10 @@ import Base from '../../layouts/Base.astro';
           el('div', {}, el('span', { class: `znacka ${p.zaradenie}` }, p.zaradenie), ` ${p.zdroj_clanku}`),
           el('div', {}, p.dovod),
           p.kredit ? el('div', { class: 'meta' }, `Kredit: ${p.kredit}`) : '',
-          pouzitelny ? el('button', { class: 'tl', type: 'button', onclick: (e: Event) => pouziUrl(e, p.url, p.popisok || p.alt) }, p.zaradenie === 'tlacove' ? 'Použiť (potvrdzujem tlačový pôvod)' : 'Použiť') : '',
+          p.licencia ? el('div', { class: 'meta' }, `Licencia: ${p.licencia}`) : '',
+          p.automaticke_zaradenie ? el('div', { class: 'meta' }, `Pôvodné automatické zaradenie: ${p.automaticke_zaradenie}`) : '',
+          el('button', { class: 'tl', type: 'button', onclick: () => otvorPrava(p) }, 'Zmeniť stav'),
+          pouzitelny ? el('button', { class: 'tl hlavne', type: 'button', onclick: () => otvorPouzitie(p.url, p.popisok || p.alt, p.kredit || p.zdroj_clanku, p.licencia || (p.zaradenie === 'tlacove' ? 'tlačový materiál' : 'voľná licencia')) }, 'Použiť') : '',
         );
       }),
     );
@@ -344,23 +397,66 @@ import Base from '../../layouts/Base.astro';
           el('div', {}, a.nazov.slice(0, 80)),
           el('div', { class: 'meta' }, `Autor: ${a.autor || 'neuvedený'}`),
           el('a', { href: a.stranka, target: '_blank', rel: 'noopener' }, 'Stránka pôvodu a licencia'),
-          el('button', { class: 'tl', type: 'button', onclick: (e: Event) => pouziUrl(e, a.url, a.nazov) }, 'Použiť'),
+          el('button', { class: 'tl', type: 'button', onclick: () => otvorPouzitie(a.url, a.nazov, [a.autor, a.povod === 'wikimedia' ? 'Wikimedia Commons' : 'Openverse'].filter(Boolean).join(' / '), a.licencia) }, 'Použiť'),
         ),
       ),
     );
     if (!s?.alternativy?.length) $('alternativy').append(el('p', { class: 'meta' }, 'Nenašli sa žiadne voľné náhrady.'));
   }
 
-  function pouziUrl(e: Event, url: string, navrhPopisku: string) {
-    const popisok = prompt('Popisok pod obrázkom (po slovensky):', (navrhPopisku || '').replace(/\.(jpe?g|png|webp)$/i, ''));
-    if (popisok === null) return;
-    pracuj(e.currentTarget as HTMLButtonElement, 'Ukladám…', async () => {
-      await api(`/api/koncept/${stav.pr}/obrazok`, 'POST', { typ: 'url', url, popisok });
+  // Použitie obrázka: popisok sa zadáva vo formulári, kredit a licencia sa len ukážu.
+  let pouzivanaUrl = '';
+  function otvorPouzitie(url: string, navrhPopisku: string, kredit: string, licencia: string) {
+    pouzivanaUrl = url;
+    ($('pouzit-popisok') as HTMLTextAreaElement).value = (navrhPopisku || '').replace(/\.(jpe?g|png|webp)$/i, '');
+    $('pouzit-prava').textContent = `Zdroj: ${kredit || 'neuvedený'}. Licencia: ${licencia || 'neuvedená'}.`;
+    ($('dlg-pouzit') as HTMLDialogElement).showModal();
+  }
+  $('form-pouzit').addEventListener('submit', (e) => {
+    e.preventDefault();
+    pracuj($('pouzit-ulozit') as HTMLButtonElement, 'Ukladám…', async () => {
+      await api(`/api/koncept/${stav.pr}/obrazok`, 'POST', { typ: 'url', url: pouzivanaUrl, popisok: ($('pouzit-popisok') as HTMLTextAreaElement).value });
+      ($('dlg-pouzit') as HTMLDialogElement).close();
       stav = await api(`/api/koncept/${stav.pr}`);
       vykresliObrazky();
       hlas('Obrázok je uložený.');
     });
+  });
+
+  // Zmena stavu obrázka zo zdroja: automatické zaradenie je len odporúčanie, rozhoduje editor.
+  let menenaUrl = '';
+  function otvorPrava(p: any) {
+    menenaUrl = p.url;
+    ($('prava-zaradenie') as HTMLSelectElement).value = p.zaradenie;
+    ($('prava-kredit') as HTMLInputElement).value = p.kredit || '';
+    ($('prava-licencia') as HTMLInputElement).value = p.licencia || '';
+    ($('prava-dovod') as HTMLTextAreaElement).value = '';
+    $('prava-auto').textContent = `Automatické posúdenie: ${p.automaticke_zaradenie || p.zaradenie}. ${p.automaticky_dovod || p.dovod}`;
+    ($('dlg-prava') as HTMLDialogElement).showModal();
   }
+  $('form-prava').addEventListener('submit', (e) => {
+    e.preventDefault();
+    pracuj($('prava-ulozit') as HTMLButtonElement, 'Ukladám…', async () => {
+      await api(`/api/koncept/${stav.pr}/prava`, 'POST', {
+        url: menenaUrl,
+        zaradenie: ($('prava-zaradenie') as HTMLSelectElement).value,
+        kredit: ($('prava-kredit') as HTMLInputElement).value,
+        licencia: ($('prava-licencia') as HTMLInputElement).value,
+        dovod: ($('prava-dovod') as HTMLTextAreaElement).value,
+      });
+      ($('dlg-prava') as HTMLDialogElement).close();
+      stav = await api(`/api/koncept/${stav.pr}`);
+      vykresliObrazky();
+      hlas('Stav obrázka je zmenený.');
+    });
+  });
+  for (const id of ['dlg-pouzit', 'dlg-prava']) {
+    $(id).querySelector('.dlg-zrusit')!.addEventListener('click', () => ($(id) as HTMLDialogElement).close());
+  }
+  // Chyby počas uloženia sa ukazujú pod dialógom, preto ich treba zopakovať aj v ňom.
+  new MutationObserver(() => {
+    for (const d of document.querySelectorAll<HTMLElement>('.dlg-chyba')) d.textContent = $('hlasenie').classList.contains('chyba') ? $('hlasenie').textContent : '';
+  }).observe($('hlasenie'), { childList: true, characterData: true, subtree: true, attributes: true });
 
   // Generovanie v dvoch krokoch: najprv ukázať prompt na úpravu, až potom odoslať.
   $('gen-ukaz').addEventListener('click', () => {

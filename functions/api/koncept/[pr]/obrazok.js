@@ -5,7 +5,7 @@ import { chyba } from '../../../../functions-lib/pristup.js';
 const MAX_BAJTOV = 6 * 1024 * 1024;
 const PRIPONY = { 'image/jpeg': 'jpg', 'image/png': 'png', 'image/webp': 'webp' };
 
-/** Adresy, ktoré smie editor použiť: len tie, čo ponúkla redakčná správa a nie sú chránené. */
+/** Adresy, ktoré smie editor použiť: voľné náhrady a obrázky zo zdrojov v stave voľné alebo tlačové. */
 function povoleneObrazky(sprava) {
   const povolene = new Map();
   for (const a of sprava?.obrazky?.alternativy ?? []) {
@@ -13,7 +13,8 @@ function povoleneObrazky(sprava) {
   }
   for (const p of sprava?.obrazky?.povodne ?? []) {
     if (p.zaradenie === 'volne' || p.zaradenie === 'tlacove') {
-      povolene.set(p.url, { kredit: p.kredit || p.zdroj_clanku, licencia: p.zaradenie === 'volne' ? p.licencia || 'voľná licencia' : 'tlačový materiál', popisok: p.popisok || p.alt });
+      // Zaradenie mohol zmeniť editor (/prava), potom platí kredit a licencia, ktoré zadal.
+      povolene.set(p.url, { kredit: p.kredit || p.zdroj_clanku, licencia: p.licencia || (p.zaradenie === 'volne' ? 'voľná licencia' : 'tlačový materiál'), popisok: p.popisok || p.alt });
     }
   }
   return povolene;
@@ -39,7 +40,7 @@ export async function onRequestPost({ env, params, request, data }) {
   let obrazok, meta;
   if (vstup.typ === 'url') {
     const info = povoleneObrazky(sprava).get(vstup.url);
-    if (!info) return chyba(400, 'Tento obrázok nie je v ponuke redakčnej správy alebo je chránený.');
+    if (!info) return chyba(400, 'Tento obrázok nie je v ponuke redakčnej správy alebo je v stave chránené či nejasné. Najprv zmeňte jeho stav.');
     obrazok = await stiahni(vstup.url);
     meta = { kredit: info.kredit, licencia: info.licencia, popisok: bezHtml(vstup.popisok || info.popisok || ''), ai: false };
   } else if (vstup.typ === 'generovany') {
