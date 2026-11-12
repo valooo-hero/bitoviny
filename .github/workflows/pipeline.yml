@@ -1,0 +1,54 @@
+name: Pipeline
+
+on:
+  push:
+    branches: [main]
+    paths: ["pipeline/**", "config/**", ".github/workflows/pipeline.yml"]
+  pull_request:
+    paths: ["pipeline/**", "config/**"]
+  workflow_dispatch:
+    inputs:
+      datum:
+        description: "Deň zberu (RRRR-MM-DD), prázdne = včera"
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  testy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: pipeline/pyproject.toml
+      - run: pip install -e "pipeline[dev]"
+      - run: pytest
+        working-directory: pipeline
+
+  zber:
+    # Ručný skúšobný beh Zberača. Vypíše len súhrn: zdrojové texty sa nikam neukladajú.
+    if: github.event_name == 'workflow_dispatch'
+    needs: testy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: pipeline/pyproject.toml
+      - run: pip install -e pipeline
+      - name: Zber
+        working-directory: pipeline
+        env:
+          DATUM: ${{ inputs.datum }}
+        run: |
+          if [ -n "$DATUM" ]; then
+            python -m bitoviny.zber --datum "$DATUM"
+          else
+            python -m bitoviny.zber
+          fi

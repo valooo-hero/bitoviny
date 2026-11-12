@@ -22,7 +22,7 @@ Projekt je **demonštrácia agentových AI systémov** (LangChain, LangGraph, La
 
 ## Stav
 
-Hotová je Fáza 0 (základy) a Fáza 1 (portál). Redakčná pipeline zatiaľ neexistuje, články na webe sú vzorové. Nasleduje Fáza 2 (Zberač).
+Hotové sú Fázy 0 až 2: základy, portál na https://bitoviny.pages.dev a Zberač správ. Články na webe sú zatiaľ vzorové. Nasleduje Fáza 3 (Autorka a Langfuse).
 
 ## Lokálny vývoj
 
@@ -37,6 +37,18 @@ npm run preview  # náhľad zostaveného webu
 
 Vyhľadávanie funguje až po `npm run build`, vo vývojovom serveri index neexistuje.
 
+## Pipeline
+
+Potrebný je Python 3.12 alebo novší.
+
+```bash
+python -m venv .venv
+.venv/Scripts/python -m pip install -e "pipeline[dev]"   # na Linuxe .venv/bin/python
+cd pipeline
+../.venv/Scripts/python -m pytest
+../.venv/Scripts/python -m bitoviny.zber                 # včerajšie správy do data/raw/
+```
+
 ## Nasadenie
 
 Cloudflare Pages napojené na tento repozitár: príkaz `npm run build`, výstupný priečinok `dist`.
@@ -49,5 +61,6 @@ Cloudflare Pages napojené na tento repozitár: príkaz `npm run build`, výstup
 | `src/data/` | Sekcie a redaktori |
 | `src/pages/` | Stránky portálu |
 | `public/obrazky/` | Obrázky k článkom |
+| `pipeline/bitoviny/` | Redakčná pipeline v Pythone |
 | `config/sources.yaml` | Zdroje pre Zberača |
 | `docs/` | Plán, zásady, zdroje, LLM limity |
