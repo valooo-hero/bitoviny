@@ -9,11 +9,12 @@ tagy:
   - iOS
 publikovane: 2026-11-12T20:26:56+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/google-spristupnil-aplikaciu-gemini-pre-platformu-apple-carplay.jpg
+  alt: Rozhranie Apple CarPlay na displeji auta.
+  popisok: Rozhranie Apple CarPlay na displeji auta.
+  kredit: PascalHD / Wikimedia Commons
+  licencia: Public domain
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
