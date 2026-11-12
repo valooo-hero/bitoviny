@@ -88,7 +88,7 @@ const jsonLd = {
       <figcaption>
         {d.obrazok.popisok}
         {' '}Zdroj: {d.obrazok.kredit}. Licencia: {d.obrazok.licencia}.
-        {d.obrazok.ai && ' Ilustračný obrázok, vytvorené AI.'}
+        {d.obrazok.ai && !/AI/.test(d.obrazok.licencia) && ' Vytvorené AI.'}
       </figcaption>
     </figure>
 
