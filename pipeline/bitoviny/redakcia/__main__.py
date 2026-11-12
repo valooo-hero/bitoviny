@@ -37,7 +37,8 @@ def slug(text: str) -> str:
 
 
 def koncept_na_markdown(k: Koncept, stav: StavClanku, den: date, trace: str | None) -> str:
-    """Markdown s frontmatterom v tvare, aký čaká web. Obrázok doplní fotoeditor (Fáza 5)."""
+    """Markdown s frontmatterom v tvare, aký čaká web, plus redakčná správa v kľúči „koncept“.
+    Hlavný obrázok vyberie až editor z ponuky v koncept.obrazky."""
     nazvy = {s["url"]: s["zdroj_nazov"] + ": " + s["titulok"] for s in stav["tema"]["spravy"]}
     fm = {
         "title": k.titulok,
@@ -45,7 +46,7 @@ def koncept_na_markdown(k: Koncept, stav: StavClanku, den: date, trace: str | No
         "sekcia": k.sekcia,
         "tagy": k.tagy,
         "zdroje": [{"nazov": nazvy.get(u, u), "url": u} for u in k.pouzite_zdroje],
-        "redaktori": {"autor": "klara", "factcheck": "tomas"},
+        "redaktori": {"autor": "klara", "factcheck": "tomas", "korektura": "ciarka"},
         "trace": trace,
         "koncept": {
             "datum_sprav": den.isoformat(),
@@ -54,6 +55,8 @@ def koncept_na_markdown(k: Koncept, stav: StavClanku, den: date, trace: str | No
             "poznamky_pre_editora": k.poznamky_pre_editora,
             "upozornenia": stav.get("upozornenia", []),
             "factcheck": factcheck_do_spravy(stav),
+            "korektura": stav.get("korektura"),
+            "obrazky": stav.get("obrazky"),
         },
     }
     import yaml

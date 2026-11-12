@@ -86,7 +86,7 @@ Zverejnenie je zablokované, kým je v článku chránený obrázok bez výslovn
 | 2. Zberač | RSS, sťahovanie textov a obrázkov, zoskupovanie tém, výber | Hotové: `python -m bitoviny.zber` vytvorí denný JSON s témami. Alternatívne obrázky sa presunuli do Fázy 5, výber tém cez LLM do Fázy 3 |
 | 3. Autorka a Langfuse | Graf v LangGraphe, výber tém modelom, prompty, záložné modely, trasovanie | Hotové: `python -m bitoviny.redakcia` napíše koncepty do `data/koncepty/` s odkazom na trace. Prompty sú v repozitári, nie v Langfuse |
 | 4. Factcheck | Extrakcia tvrdení, overenie voči zdrojom, mechanické kontroly, slučka opráv | Hotové: v skúške na zámerne pokazenom článku zachytil 5 z 5 chýb (`pipeline/evaly/factcheck_chyby.py`). Ide o jeden článok, nie o štatistiku |
-| 5. Korektúra a fotky | Korektorka, klasifikácia práv | Diff korektúry a varovania k obrázkom |
+| 5. Korektúra a fotky | Korektorka s ochranou čísel a mien, pravidlá pre práva k obrázkom, voľné náhrady z Wikimedia Commons a Openverse | Hotové. Mechanizmus a ochrany fungujú, kvalita jazykových opráv na bezplatných modeloch je slabá, pozri `docs/KOREKTURA-A-OBRAZKY.md` |
 | 6. Redakčné rozhranie | Admin za Cloudflare Access, výmena a generovanie obrázkov, Zverejniť, cron | Prvý článok zverejnený celým procesom |
 | 7. Kvalita | Evaly, ladenie modelov, štatistiky redaktorov, stránka Ako to funguje | Známa miera zásahov editora |
 | 8. Rozšírenia | Newsletter, sociálne siete, vlastná doména | Podľa priorít |

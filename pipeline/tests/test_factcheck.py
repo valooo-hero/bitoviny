@@ -10,12 +10,22 @@ from bitoviny.redakcia.factcheck import (
     zostav_nalezy,
 )
 from bitoviny.redakcia.graf import MAX_OPRAV, sprava_opravy, zostav_graf
+from bitoviny.redakcia.korektura import Korektura
 from bitoviny.redakcia.modely import Koncept
+from bitoviny.redakcia.obrazky import Dopyty
 
 ZDROJ = (
     "AMD says servers kept 95% of performance with half the DRAM. MEXT runs on 145 servers today, "
     "with plans to expand to 2,000 servers in 2027. Flash is about 1.5 times cheaper, “Five minutes "
     "is an eternity for Epyc,” Smerdon said."
+)
+
+
+# Uzly za factcheckom nahradíme falošnými, aby testy nevolali modely ani fotobanky.
+BEZ_SIETE = dict(
+    model_korektury=RunnableLambda(lambda _: Korektura(upravy=[])),
+    model_fotoeditora=RunnableLambda(lambda _: Dopyty(dopyty=["server"])),
+    hladac_obrazkov=lambda dopyty: [],
 )
 
 
@@ -125,7 +135,7 @@ def test_slucka_opravi_chybu_a_skonci():
             return _koncept("MEXT beží na 145 serveroch. " + "slovo " * 300)
         return _koncept("MEXT beží na 450 serveroch. " + "slovo " * 300)
 
-    graf = zostav_graf(model_autorky=RunnableLambda(autorka), model_factchecku=_falosny_factchecker())
+    graf = zostav_graf(model_autorky=RunnableLambda(autorka), model_factchecku=_falosny_factchecker(), **BEZ_SIETE)
     v = graf.invoke({"tema": _tema()})
     assert volania["n"] == 2
     assert v["kolo"] == 2 and "145" in v["koncept"].telo
@@ -135,7 +145,7 @@ def test_slucka_opravi_chybu_a_skonci():
 
 def test_slucka_sa_zastavi_ked_autorka_chybu_neopravi():
     tvrdohlava = RunnableLambda(lambda _: _koncept("MEXT beží na 450 serveroch. " + "slovo " * 300))
-    graf = zostav_graf(model_autorky=tvrdohlava, model_factchecku=_falosny_factchecker())
+    graf = zostav_graf(model_autorky=tvrdohlava, model_factchecku=_falosny_factchecker(), **BEZ_SIETE)
     v = graf.invoke({"tema": _tema()})
     # Jedno písanie, MAX_OPRAV opráv, po každej factcheck: nálezy ostanú pre editora.
     assert v["kolo"] == MAX_OPRAV + 1

@@ -1,10 +1,8 @@
 """Redakčný graf v LangGraphe.
 
-    START -> autorka -> factcheck -+-> END
+    START -> autorka -> factcheck -+-> korektura -> fotoeditor -> END
                            ^       |
                            +- oprava (najviac MAX_OPRAV kôl)
-
-Ďalšie fázy pridajú uzly korektúra a fotoeditor.
 """
 
 from __future__ import annotations
@@ -18,6 +16,8 @@ from langgraph.graph import END, START, StateGraph
 
 from ..llm import KOREN, model_pre
 from .factcheck import Factcheck, treba_opravit, zostav_nalezy
+from .korektura import Korektura, rozdiel, vykonaj
+from .obrazky import Dopyty, hladaj_alternativy, odporucanie, posud_obrazky
 from .modely import Koncept, StavClanku, VyberTem
 
 PROMPTY = Path(__file__).parent / "prompty"
@@ -180,13 +180,74 @@ def uzol_oprava(model: Any | None = None) -> Callable[[StavClanku], dict]:
     return oprava
 
 
-def zostav_graf(model_autorky: Any | None = None, model_factchecku: Any | None = None):
+# ---------- korektúra ----------
+
+
+def clanok_ako_text(k: Koncept) -> str:
+    return "\n".join(["<clanok>", f"[titulok] {k.titulok}", "", f"[perex] {k.perex}", "", "[telo]", k.telo, "</clanok>"])
+
+
+def uzol_korektura(model: Any | None = None) -> Callable[[StavClanku], dict]:
+    def korektura(stav: StavClanku) -> dict:
+        pred = stav["koncept"]
+        try:
+            m = model or model_pre("korektura", Korektura)
+            navrh: Korektura = m.invoke([SystemMessage(_prompt("korektura")), HumanMessage(clanok_ako_text(pred))])
+        except Exception as e:  # výpadok korektorky nesmie zahodiť overený článok
+            return {"korektura": {"chyba": f"Korektúra neprebehla: {str(e)[:200]}", "upravy": [], "diff": ""}}
+        po, vysledky = vykonaj(pred, navrh)
+        return {
+            "koncept": po,
+            "korektura": {"upravy": [v.model_dump() for v in vysledky], "diff": rozdiel(pred, po)},
+        }
+
+    return korektura
+
+
+# ---------- fotoeditor ----------
+
+
+def uzol_fotoeditor(model: Any | None = None, hladac: Callable[[list[str]], list] | None = None) -> Callable[[StavClanku], dict]:
+    def fotoeditor(stav: StavClanku) -> dict:
+        k = stav["koncept"]
+        povodne = posud_obrazky(stav["tema"], firmy=set(k.tagy))
+        try:
+            m = model or model_pre("fotoeditor", Dopyty)
+            vstup = f"Titulok: {k.titulok}\nPerex: {k.perex}\nTagy: {', '.join(k.tagy)}"
+            dopyty = [d.strip() for d in m.invoke([SystemMessage(_prompt("fotoeditor")), HumanMessage(vstup)]).dopyty if d.strip()]
+        except Exception:
+            dopyty = k.tagy[:2]  # bez modelu hľadáme aspoň podľa tagov
+        alternativy = (hladac or hladaj_alternativy)(dopyty)
+        return {
+            "obrazky": {
+                "odporucanie": odporucanie(povodne, alternativy),
+                "povodne": [p.model_dump() for p in povodne],
+                "dopyty": dopyty,
+                "alternativy": [a.model_dump() for a in alternativy],
+                "prompt_ilustracie": k.prompt_ilustracie,
+            }
+        }
+
+    return fotoeditor
+
+
+def zostav_graf(
+    model_autorky: Any | None = None,
+    model_factchecku: Any | None = None,
+    model_korektury: Any | None = None,
+    model_fotoeditora: Any | None = None,
+    hladac_obrazkov: Callable[[list[str]], list] | None = None,
+):
     g = StateGraph(StavClanku)
     g.add_node("autorka", uzol_autorka(model_autorky))
     g.add_node("factcheck", uzol_factcheck(model_factchecku))
     g.add_node("oprava", uzol_oprava(model_autorky))
+    g.add_node("korektura", uzol_korektura(model_korektury))
+    g.add_node("fotoeditor", uzol_fotoeditor(model_fotoeditora, hladac_obrazkov))
     g.add_edge(START, "autorka")
     g.add_edge("autorka", "factcheck")
-    g.add_conditional_edges("factcheck", po_factchecku, {"oprava": "oprava", "koniec": END})
+    g.add_conditional_edges("factcheck", po_factchecku, {"oprava": "oprava", "koniec": "korektura"})
     g.add_edge("oprava", "factcheck")
+    g.add_edge("korektura", "fotoeditor")
+    g.add_edge("fotoeditor", END)
     return g.compile()

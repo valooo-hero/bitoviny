@@ -33,3 +33,20 @@ roly:
       - { provider: google, model: gemini-3.5-flash-lite }
       - { provider: google, model: gemini-3.8-flash }
       - { provider: openrouter, model: "baidu/ernie-5.5-flash-preview:free" }
+
+  # Krátky vstup aj výstup (len zoznam úprav). V porovnaní na texte so známymi
+  # chybami našiel Gemini Flash-Lite aspoň zjavnú chybu, Qwen nevrátil nič.
+  korektura:
+    teplota: 0.0
+    modely:
+      - { provider: google, model: gemini-3.5-flash-lite }
+      - { provider: google, model: gemini-3.5-flash }
+      - { provider: groq, model: openai/gpt-oss-120b, metoda: json_schema }
+      - { provider: groq, model: qwen/qwen3.8-27b, metoda: json_schema }
+
+  # Len vymýšľa hľadané výrazy pre fotobanky. Práva posudzujú pravidlá v kóde.
+  fotoeditor:
+    teplota: 0.3
+    modely:
+      - { provider: groq, model: openai/gpt-oss-20b }
+      - { provider: groq, model: qwen/qwen3.8-27b, metoda: json_schema }
