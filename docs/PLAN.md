@@ -15,7 +15,7 @@ Cieľ: verejný portál `bitoviny.pages.dev`, ktorý denne zverejní niekoľko p
 | Vrstva | Riešenie |
 |---|---|
 | Web | Astro, statický výstup, Cloudflare Pages |
-| Redakčné rozhranie | `/admin` v tom istom projekte, Pages Functions, prístup cez Cloudflare Access |
+| Redakčné rozhranie | `/admin` v tom istom projekte, Pages Functions, prihlásenie účtom GitHub (OAuth) |
 | Úložisko konceptov | GitHub: jeden pull request na článok, admin ho číta a upravuje cez GitHub API |
 | Články | Markdown s frontmatterom v `content/clanky/` |
 | Obrázky | Repozitár, pri väčšom objeme Cloudflare R2 |
@@ -87,7 +87,7 @@ Zverejnenie je zablokované, kým je v článku chránený obrázok bez výslovn
 | 3. Autorka a Langfuse | Graf v LangGraphe, výber tém modelom, prompty, záložné modely, trasovanie | Hotové: `python -m bitoviny.redakcia` napíše koncepty do `data/koncepty/` s odkazom na trace. Prompty sú v repozitári, nie v Langfuse |
 | 4. Factcheck | Extrakcia tvrdení, overenie voči zdrojom, mechanické kontroly, slučka opráv | Hotové: v skúške na zámerne pokazenom článku zachytil 5 z 5 chýb (`pipeline/evaly/factcheck_chyby.py`). Ide o jeden článok, nie o štatistiku |
 | 5. Korektúra a fotky | Korektorka s ochranou čísel a mien, pravidlá pre práva k obrázkom, voľné náhrady z Wikimedia Commons a Openverse | Hotové. Mechanizmus a ochrany fungujú, kvalita jazykových opráv na bezplatných modeloch je slabá, pozri `docs/KOREKTURA-A-OBRAZKY.md` |
-| 6. Redakčné rozhranie | Admin za Cloudflare Access, výmena a generovanie obrázkov, Zverejniť, koncept ako pull request, denný cron | Kód hotový a nasadený, API bez prihlásenia odmieta. Čaká na nastavenie Access, tokenu a tajomstiev, potom skúška naostro. Pozri `docs/REDAKCNE-ROZHRANIE.md` |
+| 6. Redakčné rozhranie | Admin s prihlásením cez GitHub, výmena a generovanie obrázkov, Zverejniť, koncept ako pull request, denný cron | Hotové a overené naostro na koncepte č. 1: prihlásenie, úprava textu, výmena obrázka, generovanie cez Workers AI. Zverejnenie a denný beh ešte neprebehli naostro. Pozri `docs/REDAKCNE-ROZHRANIE.md` |
 | 7. Kvalita | Evaly, ladenie modelov, štatistiky redaktorov, stránka Ako to funguje | Známa miera zásahov editora |
 | 8. Rozšírenia | Newsletter, sociálne siete, vlastná doména | Podľa priorít |
 
