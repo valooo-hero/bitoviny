@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from typing import Literal, TypedDict
+from typing import Any, Literal, TypedDict
 
 from pydantic import BaseModel, Field
 
@@ -36,3 +36,7 @@ class StavClanku(TypedDict, total=False):
     dovod_vyberu: str
     koncept: Koncept
     upozornenia: list[str]
+    factcheck: Any  # Factcheck z posledného kola
+    nalezy: list  # list[Nalez] z posledného kola
+    kolo: int  # počet dokončených kôl factchecku
+    historia: list[dict]  # súhrn každého kola pre redakčnú správu

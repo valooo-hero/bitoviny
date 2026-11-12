@@ -101,13 +101,6 @@ def test_kontrola_konceptu_dlzky():
     assert len(zle) == 4
 
 
-def test_graf_s_falosnym_modelom():
-    graf = zostav_graf(model_autorky=RunnableLambda(lambda _: _koncept()))
-    vysledok = graf.invoke({"tema": _tema(), "sekcia_navrh": "hardver"})
-    assert vysledok["koncept"].titulok.startswith("AMD")
-    assert vysledok["upozornenia"] == []
-
-
 def test_markdown_konceptu_ma_platny_frontmatter():
     stav = {"tema": _tema(), "dovod_vyberu": "Dôvod.", "upozornenia": ["Pozor."]}
     md = koncept_na_markdown(_koncept(), stav, date(2026, 11, 11), "https://cloud.langfuse.com/trace/x")

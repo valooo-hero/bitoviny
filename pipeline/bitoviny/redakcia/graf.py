@@ -1,7 +1,10 @@
 """Redakčný graf v LangGraphe.
 
-Fáza 3: výber tém a autorka. Ďalšie fázy pridajú uzly factcheck (so slučkou
-späť na autorku), korektúra a fotoeditor.
+    START -> autorka -> factcheck -+-> END
+                           ^       |
+                           +- oprava (najviac MAX_OPRAV kôl)
+
+Ďalšie fázy pridajú uzly korektúra a fotoeditor.
 """
 
 from __future__ import annotations
@@ -14,6 +17,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from langgraph.graph import END, START, StateGraph
 
 from ..llm import KOREN, model_pre
+from .factcheck import Factcheck, treba_opravit, zostav_nalezy
 from .modely import Koncept, StavClanku, VyberTem
 
 PROMPTY = Path(__file__).parent / "prompty"
@@ -21,6 +25,7 @@ ZASADY = KOREN / "docs" / "REDAKCNE-ZASADY.md"
 
 MAX_ZNAKOV_ZDROJA = 7000
 MAX_ZDROJOV = 5
+MAX_OPRAV = 2  # koľkokrát smie factchecker vrátiť článok autorke
 
 
 def _prompt(nazov: str) -> str:
@@ -115,9 +120,73 @@ def uzol_autorka(model: Any | None = None) -> Callable[[StavClanku], dict]:
     return autorka
 
 
-def zostav_graf(model_autorky: Any | None = None):
+# ---------- factcheck a oprava ----------
+
+
+def zdrojove_texty(tema: dict) -> list[str]:
+    # Adresa je súčasť toho, čo model vidí, a jej slug býva plný titulok s číslami.
+    return ["\n".join([s["titulok"], s["url"], s.get("zhrnutie", ""), s.get("text", "")]) for s in tema["spravy"]]
+
+
+def koncept_ako_text(k: Koncept) -> str:
+    return "\n".join(["<koncept>", f"Titulok: {k.titulok}", "", f"Perex: {k.perex}", "", k.telo, "</koncept>"])
+
+
+def uzol_factcheck(model: Any | None = None) -> Callable[[StavClanku], dict]:
+    def factcheck(stav: StavClanku) -> dict:
+        m = model or model_pre("factcheck", Factcheck)
+        k = stav["koncept"]
+        sprava = "\n".join([sprava_autorky(stav), koncept_ako_text(k)])
+        fc: Factcheck = m.invoke([SystemMessage(_prompt("factcheck")), HumanMessage(sprava)])
+        nalezy = zostav_nalezy(fc, k, zdrojove_texty(stav["tema"]))
+        kolo = stav.get("kolo", 0) + 1
+        zaznam = {
+            "kolo": kolo,
+            "tvrdeni": len(fc.tvrdenia),
+            "potvrdenych": sum(t.verdikt == "potvrdene" for t in fc.tvrdenia),
+            "chyb": sum(n.zavaznost == "chyba" for n in nalezy),
+            "upozorneni": sum(n.zavaznost == "upozornenie" for n in nalezy),
+        }
+        return {"factcheck": fc, "nalezy": nalezy, "kolo": kolo, "historia": stav.get("historia", []) + [zaznam]}
+
+    return factcheck
+
+
+def po_factchecku(stav: StavClanku) -> str:
+    if treba_opravit(stav["nalezy"]) and stav["kolo"] <= MAX_OPRAV:
+        return "oprava"
+    return "koniec"
+
+
+def sprava_opravy(stav: StavClanku) -> str:
+    riadky = []
+    for i, n in enumerate((n for n in stav["nalezy"] if n.zavaznost == "chyba"), 1):
+        riadky += [
+            f"{i}. {n.text}",
+            f"   Problém: {n.komentar}",
+            f"   Návrh: {n.navrh_opravy or 'opraviť podľa zdroja'}",
+        ]
+    return "\n".join([sprava_autorky(stav), koncept_ako_text(stav["koncept"]), "<nalezy>", *riadky, "</nalezy>"])
+
+
+def uzol_oprava(model: Any | None = None) -> Callable[[StavClanku], dict]:
+    def oprava(stav: StavClanku) -> dict:
+        m = model or model_pre("autorka", Koncept)
+        system = _prompt("oprava").replace("{zasady}", ZASADY.read_text(encoding="utf-8"))
+        koncept: Koncept = m.invoke([SystemMessage(system), HumanMessage(sprava_opravy(stav))])
+        koncept, upozornenia = skontroluj_koncept(koncept, stav["tema"])
+        return {"koncept": koncept, "upozornenia": upozornenia}
+
+    return oprava
+
+
+def zostav_graf(model_autorky: Any | None = None, model_factchecku: Any | None = None):
     g = StateGraph(StavClanku)
     g.add_node("autorka", uzol_autorka(model_autorky))
+    g.add_node("factcheck", uzol_factcheck(model_factchecku))
+    g.add_node("oprava", uzol_oprava(model_autorky))
     g.add_edge(START, "autorka")
-    g.add_edge("autorka", END)
+    g.add_edge("autorka", "factcheck")
+    g.add_conditional_edges("factcheck", po_factchecku, {"oprava": "oprava", "koniec": END})
+    g.add_edge("oprava", "factcheck")
     return g.compile()

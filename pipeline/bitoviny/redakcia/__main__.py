@@ -45,7 +45,7 @@ def koncept_na_markdown(k: Koncept, stav: StavClanku, den: date, trace: str | No
         "sekcia": k.sekcia,
         "tagy": k.tagy,
         "zdroje": [{"nazov": nazvy.get(u, u), "url": u} for u in k.pouzite_zdroje],
-        "redaktori": {"autor": "klara"},
+        "redaktori": {"autor": "klara", "factcheck": "tomas"},
         "trace": trace,
         "koncept": {
             "datum_sprav": den.isoformat(),
@@ -53,11 +53,25 @@ def koncept_na_markdown(k: Koncept, stav: StavClanku, den: date, trace: str | No
             "prompt_ilustracie": k.prompt_ilustracie,
             "poznamky_pre_editora": k.poznamky_pre_editora,
             "upozornenia": stav.get("upozornenia", []),
+            "factcheck": factcheck_do_spravy(stav),
         },
     }
     import yaml
 
     return "---\n" + yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000) + "---\n\n" + k.telo.strip() + "\n"
+
+
+def factcheck_do_spravy(stav: StavClanku) -> dict | None:
+    """Súhrn factchecku pre editora: priebeh kôl, otvorené nálezy a tabuľka tvrdení."""
+    fc = stav.get("factcheck")
+    if fc is None:
+        return None
+    return {
+        "hodnotenie": fc.celkove_hodnotenie,
+        "kola": stav.get("historia", []),
+        "otvorene_nalezy": [n.model_dump() for n in stav.get("nalezy", [])],
+        "tvrdenia": [t.model_dump() for t in fc.tvrdenia],
+    }
 
 
 def spusti(den: date, pocet: int, max_clankov: int | None = None) -> list[Path]:

@@ -23,3 +23,13 @@ roly:
       - { provider: google, model: gemini-3.5-flash }
       - { provider: google, model: gemini-3.5-flash-lite }
       - { provider: openrouter, model: "baidu/ernie-5.5-flash-preview:free" }
+
+  # Iný model než autorka, aby nekontrolovala vlastnú prácu ten istý model.
+  # Vstup sú celé zdroje aj koncept, preto nie Groq.
+  factcheck:
+    teplota: 0.0
+    modely:
+      - { provider: google, model: gemini-3.5-flash }
+      - { provider: google, model: gemini-3.5-flash-lite }
+      - { provider: google, model: gemini-3.8-flash }
+      - { provider: openrouter, model: "baidu/ernie-5.5-flash-preview:free" }

@@ -19,10 +19,11 @@ Projekt je **demonštrácia agentových AI systémov** (LangChain, LangGraph, La
 - [Zdroje správ](docs/ZDROJE.md)
 - [LLM poskytovatelia a limity](docs/LLM-PROVIDERY.md)
 - [Redakčné zásady](docs/REDAKCNE-ZASADY.md)
+- [Factcheck](docs/FACTCHECK.md)
 
 ## Stav
 
-Hotové sú Fázy 0 až 3: základy, portál na https://bitoviny.pages.dev, Zberač správ a Autorka s trasovaním v Langfuse. Články na webe sú zatiaľ vzorové, koncepty od agentov sa nezverejňujú. Nasleduje Fáza 4 (Factcheck).
+Hotové sú Fázy 0 až 4: základy, portál na https://bitoviny.pages.dev, Zberač správ, Autorka s trasovaním v Langfuse a Factcheck so slučkou opráv. Články na webe sú zatiaľ vzorové, koncepty od agentov sa nezverejňujú. Nasleduje Fáza 5 (Korektúra a fotky).
 
 ## Lokálny vývoj
 
