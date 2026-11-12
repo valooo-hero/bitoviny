@@ -8,7 +8,7 @@ tagy:
   - Anthropic
   - umelá inteligencia
   - polovodiče
-publikovane: 2026-11-12T22:34:53+00:00
+publikovane: 2026-11-12T22:43:03Z
 obrazok:
   src: /obrazky/tsmc-chysta-investiciu-do-vyvoja-umelej-inteligencie.jpg
   alt: Ilustračný obrázok.
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Ars Technica: Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI"
     url: https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/
