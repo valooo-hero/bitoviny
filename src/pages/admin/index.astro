@@ -6,10 +6,20 @@ import Base from '../../layouts/Base.astro';
   <div id="admin" data-pagefind-ignore>
     <div class="admin-hlava">
       <h1>Redakčné rozhranie</h1>
-      <button id="obnovit" class="tl" type="button">Obnoviť zoznam</button>
+      <div id="prihlaseny" class="riadok" hidden>
+        <span class="meta">Prihlásený: <strong id="kto"></strong></span>
+        <button id="obnovit" class="tl" type="button">Obnoviť zoznam</button>
+        <button id="odhlasit" class="tl" type="button">Odhlásiť</button>
+      </div>
     </div>
     <p id="hlasenie" class="hlasenie" role="status" aria-live="polite" hidden></p>
 
+    <section id="prihlasenie" hidden>
+      <p>Do redakcie sa prihlasuje účtom GitHub. Prístup má len šéfredaktor.</p>
+      <p><a class="tl hlavne" href="/api/auth/login" style="display:inline-block;text-decoration:none">Prihlásiť cez GitHub</a></p>
+    </section>
+
+    <div id="obsah" hidden>
     <section id="zoznam" aria-label="Koncepty">
       <p class="meta">Načítavam koncepty…</p>
     </section>
@@ -116,6 +126,7 @@ import Base from '../../layouts/Base.astro';
         </div>
       </div>
     </section>
+    </div>
   </div>
 </Base>
 
@@ -481,7 +492,23 @@ import Base from '../../layouts/Base.astro';
   $('spat').addEventListener('click', () => { if (!neulozene() || confirm('Text má neuložené zmeny. Naozaj odísť?')) zavriDetail(); });
   $('obnovit').addEventListener('click', () => { zavriDetail(); nacitajZoznam(); });
 
-  await nacitajZoznam();
-  const zHashu = Number(location.hash.slice(1));
-  if (zHashu) otvor(zHashu);
+  $('odhlasit').addEventListener('click', async () => {
+    await fetch('/api/auth/odhlasit', { method: 'POST' });
+    location.reload();
+  });
+
+  // Najprv zistiť, či je editor prihlásený. Bez prihlásenia sa ukáže len tlačidlo.
+  const ja = await fetch('/api/ja');
+  if (ja.ok) {
+    $('kto').textContent = (await ja.json()).login;
+    $('prihlaseny').hidden = false;
+    $('obsah').hidden = false;
+    await nacitajZoznam();
+    const zHashu = Number(location.hash.slice(1));
+    if (zHashu) otvor(zHashu);
+  } else if (ja.status === 401) {
+    $('prihlasenie').hidden = false;
+  } else {
+    hlas((await ja.json().catch(() => ({}))).chyba || `Chyba ${ja.status}`, true);
+  }
 </script>

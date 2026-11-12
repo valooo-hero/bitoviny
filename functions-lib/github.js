@@ -15,10 +15,11 @@ export function zBase64NaText(b64) {
 }
 
 export class GitHub {
-  constructor(env) {
-    if (!env.GITHUB_TOKEN) throw new Error('Chýba GITHUB_TOKEN.');
+  /** token je oprávnenie prihláseného editora z relácie, nie trvalý token servera. */
+  constructor(env, token) {
+    if (!token) throw new Error('Chýba prístupový token.');
     this.repo = env.GITHUB_REPO || 'valooo-hero/bitoviny';
-    this.token = env.GITHUB_TOKEN;
+    this.token = token;
   }
 
   async api(metoda, cesta, telo) {

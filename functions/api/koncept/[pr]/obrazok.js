@@ -30,9 +30,9 @@ async function stiahni(url) {
 }
 
 // Nastaví hlavný obrázok článku: voľnú náhradu, obrázok zo zdroja, alebo vygenerovanú ilustráciu.
-export async function onRequestPost({ env, params, request }) {
+export async function onRequestPost({ env, params, request, data }) {
   const vstup = await request.json();
-  const gh = new GitHub(env);
+  const gh = new GitHub(env, data.token);
   const k = await gh.koncept(Number(params.pr));
   const sprava = k.sprava ? JSON.parse((await gh.subor(k.sprava, k.vetva)).text) : null;
 

@@ -9,8 +9,8 @@ function cisloPr(params) {
 }
 
 // Detail konceptu: článok, redakčná správa a adresa náhľadu.
-export async function onRequestGet({ env, params }) {
-  const gh = new GitHub(env);
+export async function onRequestGet({ env, params, data }) {
+  const gh = new GitHub(env, data.token);
   const k = await gh.koncept(cisloPr(params));
   const { hlavicka, telo } = rozdel((await gh.subor(k.clanok, k.vetva)).text);
   let sprava = null;
@@ -33,7 +33,7 @@ export async function onRequestGet({ env, params }) {
 }
 
 // Úprava textu editorom.
-export async function onRequestPut({ env, params, request }) {
+export async function onRequestPut({ env, params, request, data }) {
   const vstup = await request.json();
   const texty = {
     titulok: bezHtml(vstup.titulok).trim(),
@@ -43,7 +43,7 @@ export async function onRequestPut({ env, params, request }) {
   const chyby = overTexty(texty);
   if (chyby.length) return chyba(400, chyby.join(' '));
 
-  const gh = new GitHub(env);
+  const gh = new GitHub(env, data.token);
   const k = await gh.koncept(cisloPr(params));
   const subor = await gh.subor(k.clanok, k.vetva);
   const { hlavicka } = rozdel(subor.text);

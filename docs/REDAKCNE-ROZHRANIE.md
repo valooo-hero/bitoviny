@@ -28,11 +28,17 @@ Pull requesty konceptov sa nezlučujú ručne na GitHube. Ak by sa to stalo, web
 
 ## Bezpečnosť
 
-- `/admin/` a `/api/*` chráni **Cloudflare Access**.
-- Každá požiadavka na API navyše overuje podpis tokenu Access (`functions-lib/pristup.js`). Bez nakonfigurovaného Access API neodpovedá vôbec (stav 503), takže nenastavené rozhranie nie je otvorené.
-- Zápisy sa prijímajú len z vlastnej stránky.
+- Do rozhrania sa prihlasuje **účtom GitHub** (OAuth). Pustí len účet uvedený v `ADMIN_GITHUB_LOGIN`.
+- S repozitárom pracuje rozhranie oprávnením prihláseného editora. Na serveri nie je uložený žiadny trvalý token k repozitáru.
+- Relácia je šifrovaný cookie (AES-GCM, kľúč odvodený z tajomstva OAuth aplikácie), označený `HttpOnly`, `Secure` a `SameSite=Strict`. Platí 8 hodín.
+- Každá požiadavka na API reláciu overuje (`functions-lib/pristup.js`). Bez nakonfigurovanej OAuth aplikácie API neodpovedá vôbec (stav 503), takže nenastavené rozhranie nie je otvorené.
+- Prihlásenie funguje len na produkčnej adrese, nie na náhľadových nasadeniach pull requestov.
+- Zápisy sa prijímajú len z vlastnej stránky (kontrola hlavičky `Origin`).
 - Text od modelov a z cudzích webov sa nikde nevkladá ako HTML. Značky a odkazy s inou schémou než `http`, `https` a `mailto` sa odstraňujú v pipeline, v API aj v náhľade.
-- Token pre GitHub je uložený ako tajomstvo v Cloudflare a má prístup len k tomuto repozitáru.
+
+Pôvodný návrh počítal s Cloudflare Access. Ten vyžaduje aktiváciu Zero Trust s platobnou metódou aj pri bezplatnom pláne, preto ho nahradilo prihlásenie cez GitHub.
+
+**Kompromis:** OAuth rozsah `public_repo` dáva prihlásenej relácii zápis do všetkých verejných repozitárov editora, nie len do tohto. GitHub užší rozsah pre OAuth aplikácie neponúka. Oprávnenie sa dá kedykoľvek odvolať v Settings > Applications > Authorized OAuth Apps.
 
 ## Nastavenie (jednorazovo)
 
@@ -45,13 +51,15 @@ Pull requesty konceptov sa nezlučujú ručne na GitHube. Ak by sa to stalo, web
    ```
 
 2. **Povoliť Actions vytvárať pull requesty.** Settings > Actions > General > Workflow permissions > „Allow GitHub Actions to create and approve pull requests“.
-3. **Token pre rozhranie.** Settings > Developer settings > Fine-grained tokens: prístup len k repozitáru `bitoviny`, oprávnenia Contents a Pull requests na čítanie aj zápis.
+3. **OAuth aplikácia pre rozhranie.** Settings > Developer settings > OAuth Apps > New OAuth App:
+   - Homepage URL: `https://bitoviny.pages.dev`
+   - Authorization callback URL: `https://bitoviny.pages.dev/api/auth/callback`
+
+   Po vytvorení skopírovať **Client ID** do `wrangler.toml` (`GITHUB_CLIENT_ID`) a vygenerovať **Client secret**.
 
 ### Cloudflare
 
-1. **Zero Trust > Access > Applications:** aplikácia typu Self-hosted pre `bitoviny.pages.dev` s cestami `/admin` a `/api`, pravidlo povoľujúce e-mail editora.
-2. Z aplikácie skopírovať **Application Audience (AUD) tag** a názov tímu. Oba údaje patria do `wrangler.toml` ako `ACCESS_AUD` a `ACCESS_TEAM_DOMAIN`.
-3. **Pages > bitoviny > Settings > Variables and Secrets:** tajomstvo `GITHUB_TOKEN` s tokenom z GitHubu.
+**Pages > bitoviny > Settings > Variables and Secrets:** tajomstvo `GITHUB_CLIENT_SECRET` s hodnotou Client secret z GitHubu.
 
 Workers AI je pripojené cez `wrangler.toml` (`[ai] binding = "AI"`), nič ďalšie netreba.
 

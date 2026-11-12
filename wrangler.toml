@@ -1,5 +1,6 @@
-# Konfigurácia Cloudflare Pages. Tajomstvá (GITHUB_TOKEN) sem nepatria,
-# nastavujú sa v dashboarde: Settings > Variables and Secrets.
+# Konfigurácia Cloudflare Pages. Tajomstvá sem nepatria, nastavujú sa
+# v dashboarde: Settings > Variables and Secrets.
+#   GITHUB_CLIENT_SECRET   tajomstvo OAuth aplikácie GitHubu
 name = "bitoviny"
 pages_build_output_dir = "dist"
 compatibility_date = "2026-11-01"
@@ -10,6 +11,9 @@ binding = "AI"
 
 [vars]
 GITHUB_REPO = "valooo-hero/bitoviny"
-# Doplní sa po vytvorení aplikácie v Cloudflare Access (Fáza 6, krok nasadenia):
-# ACCESS_TEAM_DOMAIN = "<tim>.cloudflareaccess.com"
-# ACCESS_AUD = "<Application Audience tag>"
+# Jediný účet GitHubu, ktorý smie do redakčného rozhrania.
+ADMIN_GITHUB_LOGIN = "valooo-hero"
+# Prihlásenie funguje len na tejto adrese, nie na náhľadových nasadeniach.
+ADMIN_ORIGIN = "https://bitoviny.pages.dev"
+# Client ID OAuth aplikácie GitHubu (nie je tajné). Doplní sa po jej vytvorení:
+# GITHUB_CLIENT_ID = "..."
