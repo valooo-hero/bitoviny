@@ -52,3 +52,18 @@ Keď všetky modely narazia na denný limit, pipeline článok odloží na ďal�
 - https://www.aifreeapi.com/en/posts/google-gemini-api-free-tier
 - https://tokenmix.ai/blog/gemini-api-free-tier-limits
 - https://benchlm.ai/free-tier/groq
+
+## Overené s vlastnými kľúčmi (12. 11. 2026)
+
+Všetky štyri kľúče sa úspešne prihlásili.
+
+| Služba | Zistenie |
+|---|---|
+| Gemini | Dostupné sú `gemini-3.8-flash` a `gemini-3.5-flash-lite`. Flash-Lite opravil slovenskú vetu správne. Flash pri teste vrátil 503 (preťaženie), takže záloha je nutná |
+| Groq | Modely Llama v ponuke už nie sú. Použiteľné sú `qwen/qwen3.8-27b`, `openai/gpt-oss-20b` a `openai/gpt-oss-120b`. Limit 1 000 požiadaviek denne a 8 000 tokenov za minútu na model. Qwen opravil slovenskú vetu správne |
+| OpenRouter | Bezplatná tarifa, 50 požiadaviek denne na modely `:free` |
+| Langfuse | Kľúče platia pre projekt „My Project“ |
+
+Limit 8 000 tokenov za minútu na Groq znamená, že dlhé zdrojové texty sa doň nezmestia. Groq sa preto hodí na krátke úlohy, factcheck s celými zdrojmi musí bežať na Gemini.
+
+Denné limity Gemini API nevracia, treba ich pozrieť v Google AI Studio.
