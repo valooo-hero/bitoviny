@@ -1,0 +1,28 @@
+# tajomstvá
+.env
+.env.*
+!.env.example
+.dev.vars
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Node / Astro
+node_modules/
+dist/
+.astro/
+.wrangler/
+
+# pracovné dáta pipeline (zdrojové texty sa neukladajú do repozitára)
+data/raw/
+data/cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

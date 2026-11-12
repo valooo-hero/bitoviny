@@ -1,0 +1,81 @@
+# Zdroje správ pre Zberača. Overené 2026-11-12.
+# role: source = podklad pre články, signal = len váha pri výbere tém
+# fetch_page: true = RSS neobsahuje plný text alebo obrázky, treba stiahnuť stránku
+
+sources:
+  - id: theverge
+    name: The Verge
+    feed: https://www.theverge.com/rss/index.xml
+    role: source
+    fetch_page: true
+    sections: [ai, mobil, hardver, biznis]
+
+  - id: arstechnica
+    name: Ars Technica
+    feed: https://feeds.arstechnica.com/arstechnica/index
+    role: source
+    fetch_page: false
+    sections: [veda, softver, bezpecnost, ai]
+
+  - id: techcrunch
+    name: TechCrunch
+    feed: https://techcrunch.com/feed/
+    role: source
+    fetch_page: true
+    sections: [biznis, ai]
+
+  - id: wired
+    name: Wired
+    feed: https://www.wired.com/feed/rss
+    role: source
+    fetch_page: true
+    sections: [ai, bezpecnost, veda]
+
+  - id: engadget
+    name: Engadget
+    feed: https://www.engadget.com/rss.xml
+    role: source
+    fetch_page: false
+    sections: [mobil, hardver]
+
+  - id: theregister
+    name: The Register
+    feed: https://www.theregister.com/headlines.atom
+    role: source
+    fetch_page: false
+    sections: [softver, bezpecnost, biznis]
+
+  - id: bleepingcomputer
+    name: BleepingComputer
+    feed: https://www.bleepingcomputer.com/feed/
+    role: source
+    fetch_page: true
+    sections: [bezpecnost]
+
+  - id: tomshardware
+    name: Tom's Hardware
+    feed: https://www.tomshardware.com/feeds/all
+    role: source
+    fetch_page: false
+    sections: [hardver]
+
+  - id: technologyreview
+    name: MIT Technology Review
+    feed: https://www.technologyreview.com/feed/
+    role: source
+    fetch_page: true
+    sections: [veda, ai]
+
+  - id: 9to5mac
+    name: 9to5Mac
+    feed: https://9to5mac.com/feed/
+    role: source
+    fetch_page: true
+    sections: [mobil, hardver]
+
+  - id: hackernews
+    name: Hacker News
+    feed: https://news.ycombinator.com/rss
+    role: signal
+    fetch_page: false
+    sections: []
