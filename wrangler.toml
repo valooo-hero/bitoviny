@@ -15,5 +15,5 @@ GITHUB_REPO = "valooo-hero/bitoviny"
 ADMIN_GITHUB_LOGIN = "valooo-hero"
 # Prihlásenie funguje len na tejto adrese, nie na náhľadových nasadeniach.
 ADMIN_ORIGIN = "https://bitoviny.pages.dev"
-# Client ID OAuth aplikácie GitHubu (nie je tajné). Doplní sa po jej vytvorení:
-# GITHUB_CLIENT_ID = "..."
+# Client ID OAuth aplikácie GitHubu „Bitoviny redakcia“ (nie je tajné).
+GITHUB_CLIENT_ID = "Ov23lim5NhJm2eii9ApW"
