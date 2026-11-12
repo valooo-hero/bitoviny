@@ -82,7 +82,7 @@ Zverejnenie je zablokované, kým je v článku chránený obrázok bez výslovn
 | Fáza | Obsah | Hotovo, keď |
 |---|---|---|
 | 0. Základy | Repozitár, plán, zdroje, zásady, overenie limitov | Hotové |
-| 1. Portál | Astro šablóny, sekcie, schéma článku, tmavý režim, stránka Redakcia s avatarmi, 3 ručné vzorové články, nasadenie | Kód hotový, čaká na napojenie Cloudflare Pages. Avatary sú zástupné, news sitemap chýba |
+| 1. Portál | Astro šablóny, sekcie, schéma článku, tmavý režim, stránka Redakcia s avatarmi, 3 ručné vzorové články, nasadenie | Hotové, beží na bitoviny.pages.dev. Avatary sú zástupné, news sitemap chýba |
 | 2. Zberač | RSS, sťahovanie textov a obrázkov, zoskupovanie tém, výber, alternatívne obrázky | Denný JSON s témami a podkladmi |
 | 3. Autorka a Langfuse | Graf v LangGraphe, prompty v Langfuse, záložné modely | Z témy vznikne slovenský koncept s trace |
 | 4. Factcheck | Extrakcia tvrdení, overenie, slučka opráv | Správa s verdiktmi, test na zámerne chybných článkoch |
