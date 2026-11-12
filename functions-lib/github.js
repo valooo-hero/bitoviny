@@ -92,8 +92,21 @@ export class GitHub {
     }
   }
 
-  async zluc(cislo, titulok) {
-    return this.api('PUT', `/pulls/${cislo}/merge`, { merge_method: 'squash', commit_title: titulok });
+  async zluc(cislo, titulok, sha) {
+    // Tesne po zápise do vetvy GitHub ešte prepočítava, či sa dá zlúčiť, a zlúčenie
+    // odmieta stavom 405 alebo 409. Preto sa pokus niekoľkokrát zopakuje. Parameter
+    // sha zaručí, že sa zlúči presne tá verzia, ktorú editor schválil.
+    let posledna;
+    for (let pokus = 0; pokus < 10; pokus++) {
+      try {
+        return await this.api('PUT', `/pulls/${cislo}/merge`, { merge_method: 'squash', commit_title: titulok, ...(sha ? { sha } : {}) });
+      } catch (e) {
+        posledna = e;
+        if (!/: 40[59] /.test(e.message)) throw e;
+        await new Promise((r) => setTimeout(r, 1500));
+      }
+    }
+    throw new Error(`Zlúčenie sa nepodarilo ani po opakovaní. ${posledna.message}`);
   }
 
   async zavri(cislo) {

@@ -18,9 +18,9 @@ export async function onRequestPost({ env, params, request, data }) {
 
   hlavicka.publikovane = new Date().toISOString().replace(/\.\d+Z$/, 'Z');
   hlavicka.redaktori = { ...(hlavicka.redaktori || {}), schvalil: 'sefredaktor' };
-  await gh.zapisText(k.clanok, k.vetva, zloz(hlavicka, telo), 'Schválenie editorom', subor.sha);
+  const zapis = await gh.zapisText(k.clanok, k.vetva, zloz(hlavicka, telo), 'Schválenie editorom', subor.sha);
 
-  await gh.zluc(k.pr.number, `Článok: ${hlavicka.title}`);
+  await gh.zluc(k.pr.number, `Článok: ${hlavicka.title}`, zapis?.commit?.sha);
   await gh.zmazVetvu(k.vetva);
   return Response.json({ ok: true, clanok: `/clanok/${k.slug}/` });
 }
