@@ -171,9 +171,15 @@
         "alt": "TSMC's Fab 18 is a leading-edge chipmaking facility in Tainan, Taiwan.",
         "popisok": "",
         "kredit": "Taiwan Semiconductor Manufacturing Co., Ltd",
-        "licencia": "",
-        "zaradenie": "chranene",
-        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Taiwan Semiconductor Manufacturing Co., Ltd."
+        "licencia": "Taiwan Semiconductor Manufacturing Co., Ltd",
+        "zaradenie": "tlacove",
+        "dovod": "Rozhodnutie editora: Taiwan Semiconductor Manufacturing Co., Ltd",
+        "automaticke_zaradenie": "chranene",
+        "automaticky_dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Taiwan Semiconductor Manufacturing Co., Ltd.",
+        "rozhodol_editor": {
+          "kto": "valooo-hero",
+          "kedy": "2026-11-12T22:42:13Z"
+        }
       },
       {
         "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-500x500.jpg",
