@@ -132,6 +132,8 @@ import Base from '../../layouts/Base.astro';
 
 <style is:global>
   #admin { --ok: #0a7d5a; --zle: #c0392b; --pozor: #b7791f; }
+  /* Atribút hidden musí vyhrať aj nad pravidlami s display: flex či grid. */
+  #admin [hidden] { display: none !important; }
   .admin-hlava { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
   #admin .tl { font: inherit; padding: 8px 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text); cursor: pointer; }
   #admin .tl:hover:not(:disabled) { border-color: var(--accent); }
