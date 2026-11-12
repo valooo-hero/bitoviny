@@ -10,11 +10,11 @@ tagy:
 publikovane: 2026-11-12T20:26:56+00:00
 obrazok:
   src: /obrazky/google-spristupnil-aplikaciu-gemini-pre-platformu-apple-carplay.jpg
-  alt: Rozhranie Apple CarPlay na displeji auta.
-  popisok: Rozhranie Apple CarPlay na displeji auta.
-  kredit: PascalHD / Wikimedia Commons
-  licencia: Public domain
-  ai: false
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
