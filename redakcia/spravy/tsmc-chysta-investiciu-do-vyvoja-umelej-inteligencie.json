@@ -1,0 +1,294 @@
+{
+  "slug": "tsmc-chysta-investiciu-do-vyvoja-umelej-inteligencie",
+  "datum_sprav": "2026-11-11",
+  "dovod_vyberu": "Investícia TSMC do Anthropic a OpenAI je významná pre európsky AI ekosystém a ukazuje globálny trend veľkých kapitálových vstupov do generatívnej AI.",
+  "poznamky_pre_editora": "Na základe nálezu factcheckera bola vypustená nepodložená veta o vplyve rozhodnutí TSMC na trhy v Európskej únii. Ostatný text a štruktúra zostali zachované.",
+  "upozornenia": [
+    "Telo má 240 slov, cieľ je 350 až 600."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept článku je plne spoľahlivý a presne vychádza zo zdrojového materiálu bez skreslení či vymyslených faktov. Všetky tvrdenia o finančných čiastkach, zámeroch investícií aj výrobnom zázemí TSMC sú v zdroji jednoznačne potvrdzené.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 16,
+        "potvrdenych": 15,
+        "chyb": 1,
+        "upozorneni": 2
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 14,
+        "potvrdenych": 14,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "TSMC plánuje investovať celkovo 1 miliardu dolárov do spoločností OpenAI a Anthropic.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Top chip manufacturer TSMC is ready to invest $1 billion in Anthropic and OpenAI.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TSMC získa priamy podiel v popredných vývojároch umelej inteligencie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "give the Taiwanese chipmaker direct stakes in leading AI developers",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Predstavenstvo TSMC schválilo plány na investíciu 500 miliónov USD do OpenAI a 500 miliónov USD do Anthropic.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "The chipmaker’s board approved plans to invest up to $500 million in OpenAI preferred stock reserved for large investors and another $500 million",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa agentúry Reuters smeruje 500 miliónov USD do preferovaných akcií OpenAI vyhradených pre veľkých investorov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "to invest up to $500 million in OpenAI preferred stock reserved for large investors... according to Reuters.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Investícia do Anthropic vo výške 500 miliónov USD je určená na nákup kmeňových akcií pri ich očakávanom IPO.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "another $500 million to purchase Anthropic common shares at the latter’s expected IPO price",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa The Wall Street Journal môže investícia posilniť dôveru trhu v čase napätia v AI obchode.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "give markets “a shot of confidence as the artificial-intelligence trade shows signs of strain,” The Wall Street Journal reported.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Analytici podľa WSJ varujú pred rizikami cirkulárneho financovania medzi investormi, dodávateľmi a zákazníkmi.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "analysts also warned that such circular financing among investors, suppliers, and customers has made it difficult to evaluate real market demand",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Cirkulárne financovanie sťažuje vyhodnotenie reálneho dopytu po AI hardvéri a službách.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "made it difficult to evaluate real market demand for AI-related hardware and services",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zmluvný výrobný biznis TSMC doteraz výrazne profitoval z rozvoja AI dátových centier.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "even as its own contract chipmaking business has profited enormously from the AI data center buildout.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Závody TSMC fyzicky vyrábajú väčšinu čipov Nvidia určených pre systémy umelej inteligencie.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "TSMC’s chip fabrication plants physically produce the vast majority of Nvidia’s chips designed for AI data center workloads",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TSMC vyrába väčšinu zákazkových čipov pre Apple používaných v iPhonoch, Macoch a serveroch pre AI.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "make most of Apple’s custom chips used in iPhones, Mac laptops and desktops, plus Apple’s planned AI computing server.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Väčšina výrobností TSMC sa nachádza na Tchajwane.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Most of these fabs are located in Taiwan",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TSMC prevádzkuje fabriky aj v Japonsku a Číne.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "TSMC also operates fabs in Japan and China",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TSMC rozširuje výrobčný klaster v Arizone a stavia novú fabriku v Nemecku.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "expanding US manufacturing cluster in Arizona. It is also building a new fab in Germany.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/TSMC_Fab5.JPG/1280px-TSMC_Fab5.JPG",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-1152x648.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "TSMC's Fab 18 is a leading-edge chipmaking facility in Tainan, Taiwan.",
+        "popisok": "",
+        "kredit": "Taiwan Semiconductor Manufacturing Co., Ltd",
+        "licencia": "Taiwan Semiconductor Manufacturing Co., Ltd",
+        "zaradenie": "tlacove",
+        "dovod": "Rozhodnutie editora: Taiwan Semiconductor Manufacturing Co., Ltd",
+        "automaticke_zaradenie": "chranene",
+        "automaticky_dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Taiwan Semiconductor Manufacturing Co., Ltd.",
+        "rozhodol_editor": {
+          "kto": "valooo-hero",
+          "kedy": "2026-11-12T22:42:13Z"
+        }
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/TSMC-Fab-18-500x500.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Taiwan Semiconductor Manufacturing Co., Ltd",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Taiwan Semiconductor Manufacturing Co., Ltd."
+      }
+    ],
+    "dopyty": [
+      "TSMC factory",
+      "semiconductor wafer",
+      "AI chip"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/TSMC_Fab5.JPG/1280px-TSMC_Fab5.JPG",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/TSMC_Fab5.JPG/1280px-TSMC_Fab5.JPG",
+        "nazov": "TSMC Fab5.JPG",
+        "autor": "Peellden",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:TSMC_Fab5.JPG",
+        "povod": "wikimedia",
+        "dopyt": "TSMC factory"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/TSMC_factory_in_Taichung%27s_Central_Taiwan_Science_Park.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/fa05f4dc-f94b-49b6-8c9c-dcf3490ae064/thumb/",
+        "nazov": "TSMC factory in Taichung's Central Taiwan Science Park",
+        "autor": "Briáxis F. Mendes (孟必思)",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=91599168",
+        "povod": "openverse",
+        "dopyt": "TSMC factory"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/A_semiconductor_wafer_being_removed_from_processing_equipment.jpg/1280px-A_semiconductor_wafer_being_removed_from_processing_equipment.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/A_semiconductor_wafer_being_removed_from_processing_equipment.jpg/1280px-A_semiconductor_wafer_being_removed_from_processing_equipment.jpg",
+        "nazov": "A semiconductor wafer being removed from processing equipment.jpg",
+        "autor": "YouTube — Purdue Engineering",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:A_semiconductor_wafer_being_removed_from_processing_equipment.jpg",
+        "povod": "wikimedia",
+        "dopyt": "semiconductor wafer"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/A_semiconductor_wafer_on_a_dicing_%28blue%29_tape._Few_chips_%28dies%29_from_the_wafer_have_already_been_picked_up_%28removed%29_for_further_manufacturing.png",
+        "nahlad": "https://api.openverse.org/v1/images/0224f9f3-e50f-43b0-9c6c-6d35c752b2ae/thumb/",
+        "nazov": "A semiconductor wafer on a dicing (blue) tape. Few chips (dies) from the wafer have already been picked up (removed) for further manufacturing",
+        "autor": "Khpsoi",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=103681126",
+        "povod": "openverse",
+        "dopyt": "semiconductor wafer"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/AI_Designed_Customized_Cookies.jpg/1280px-AI_Designed_Customized_Cookies.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/AI_Designed_Customized_Cookies.jpg/1280px-AI_Designed_Customized_Cookies.jpg",
+        "nazov": "AI Designed Customized Cookies.jpg",
+        "autor": "Stilfehler",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:AI_Designed_Customized_Cookies.jpg",
+        "povod": "wikimedia",
+        "dopyt": "AI chip"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Jeff_Fryer_fractional_CMO_for_AI_chip_and_semiconductor_companies_headshot_2025.png",
+        "nahlad": "https://api.openverse.org/v1/images/b1b252f5-dc33-4449-a5a7-6b7c2f4255ab/thumb/",
+        "nazov": "Jeff Fryer fractional CMO for AI chip and semiconductor companies headshot 2025",
+        "autor": "JeffFryer",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=163434192",
+        "povod": "openverse",
+        "dopyt": "AI chip"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/%E6%9B%BE%E6%B3%B0%E6%98%8E%E6%94%9D_%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8_TSMC%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%BE%B5%E6%89%8D.jpg/1280px-%E6%9B%BE%E6%B3%B0%E6%98%8E%E6%94%9D_%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8_TSMC%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%BE%B5%E6%89%8D.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/%E6%9B%BE%E6%B3%B0%E6%98%8E%E6%94%9D_%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8_TSMC%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%BE%B5%E6%89%8D.jpg/1280px-%E6%9B%BE%E6%B3%B0%E6%98%8E%E6%94%9D_%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8_TSMC%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%BE%B5%E6%89%8D.jpg",
+        "nazov": "曾泰明攝 國立臺灣科技大學 TSMC台積電徵才.jpg",
+        "autor": "Taiming2003",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:%E6%9B%BE%E6%B3%B0%E6%98%8E%E6%94%9D_%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8_TSMC%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%BE%B5%E6%89%8D.jpg",
+        "povod": "wikimedia",
+        "dopyt": "TSMC factory"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/TSMC_logo_on_Taichung_factory_building.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/7fb1a082-6822-4c70-ab56-af33a3e7b927/thumb/",
+        "nazov": "TSMC logo on Taichung factory building",
+        "autor": "Briáxis F. Mendes (孟必思)",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=91599184",
+        "povod": "openverse",
+        "dopyt": "TSMC factory"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic illustration showing silicon microchips interconnecting with glowing digital neural networks."
+  },
+  "prompt_ilustracie": "A symbolic illustration showing silicon microchips interconnecting with glowing digital neural networks.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/872f74a5a82ac7f1902fdb2188082e6c"
+}
