@@ -56,14 +56,21 @@ const jsonLd = {
         d.redaktori ? (
           <span>
             Napísal(a) {meno(d.redaktori.autor)}, overil(a) {meno(d.redaktori.factcheck)}, korektúra{' '}
-            {meno(d.redaktori.korektura)}, schválil(a) {meno(d.redaktori.schvalil)}
+            {meno(d.redaktori.korektura)}
+            {d.redaktori.schvalil ? `, schválil(a) ${meno(d.redaktori.schvalil)}` : ', čaká na schválenie'}
           </span>
         ) : (
           <span>Redakcia Bitoviny</span>
         )
       }
       <a class="ai-oznacenie" href="/ako-to-funguje/">
-        {d.vzorovy ? 'Vzorový článok, napísala AI' : 'Pripravené AI, schválené redaktorom'}
+        {
+          d.vzorovy
+            ? 'Vzorový článok, napísala AI'
+            : d.redaktori?.schvalil
+              ? 'Pripravené AI, schválené redaktorom'
+              : 'Koncept, pripravené AI'
+        }
       </a>
     </div>
 

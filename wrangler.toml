@@ -1,0 +1,15 @@
+# Konfigurácia Cloudflare Pages. Tajomstvá (GITHUB_TOKEN) sem nepatria,
+# nastavujú sa v dashboarde: Settings > Variables and Secrets.
+name = "bitoviny"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-11-01"
+
+# Workers AI pre generovanie ilustrácií (FLUX.1-schnell), bezplatný denný limit.
+[ai]
+binding = "AI"
+
+[vars]
+GITHUB_REPO = "valooo-hero/bitoviny"
+# Doplní sa po vytvorení aplikácie v Cloudflare Access (Fáza 6, krok nasadenia):
+# ACCESS_TEAM_DOMAIN = "<tim>.cloudflareaccess.com"
+# ACCESS_AUD = "<Application Audience tag>"

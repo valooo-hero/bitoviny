@@ -11,9 +11,12 @@
   "dependencies": {
     "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.7.4",
-    "astro": "^7.4.11"
+    "astro": "^7.4.11",
+    "marked": "^18.2.0",
+    "yaml": "^2.9.1"
   },
   "devDependencies": {
-    "pagefind": "^1.6.0"
+    "pagefind": "^1.6.0",
+    "wrangler": "^4.161.0"
   }
 }

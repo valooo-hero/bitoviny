@@ -1,0 +1,487 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+
+<Base title="Redakčné rozhranie" noindex>
+  <div id="admin" data-pagefind-ignore>
+    <div class="admin-hlava">
+      <h1>Redakčné rozhranie</h1>
+      <button id="obnovit" class="tl" type="button">Obnoviť zoznam</button>
+    </div>
+    <p id="hlasenie" class="hlasenie" role="status" aria-live="polite" hidden></p>
+
+    <section id="zoznam" aria-label="Koncepty">
+      <p class="meta">Načítavam koncepty…</p>
+    </section>
+
+    <section id="detail" hidden>
+      <button id="spat" class="tl" type="button">← Späť na zoznam</button>
+
+      <div class="karty" role="tablist">
+        <button class="karta-tl" role="tab" data-karta="clanok" aria-selected="true">Článok</button>
+        <button class="karta-tl" role="tab" data-karta="obrazok" aria-selected="false">Obrázok</button>
+        <button class="karta-tl" role="tab" data-karta="factcheck" aria-selected="false">Factcheck</button>
+        <button class="karta-tl" role="tab" data-karta="korektura" aria-selected="false">Korektúra</button>
+      </div>
+
+      <div class="panel" data-panel="clanok">
+        <div class="dvojstlpec">
+          <form id="form-text">
+            <label>Titulok <span class="pocet" data-pre="titulok"></span>
+              <input id="titulok" name="titulok" maxlength="110" required />
+            </label>
+            <label>Perex <span class="pocet" data-pre="perex"></span>
+              <textarea id="perex" name="perex" rows="3" maxlength="320" required></textarea>
+            </label>
+            <label>Telo článku (Markdown)
+              <textarea id="telo" name="telo" rows="22" required></textarea>
+            </label>
+            <button class="tl hlavne" type="submit">Uložiť text</button>
+          </form>
+          <div>
+            <h2 class="nadpis-bloku">Náhľad</h2>
+            <article class="clanok">
+              <h1 id="nahlad-titulok"></h1>
+              <p class="perex" id="nahlad-perex"></p>
+              <div class="proza" id="nahlad-telo"></div>
+            </article>
+            <h2 class="nadpis-bloku">Poznámky od agentov</h2>
+            <div id="poznamky" class="poznamky"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" data-panel="obrazok" hidden>
+        <h2 class="nadpis-bloku">Aktuálny obrázok</h2>
+        <figure id="aktualny"></figure>
+
+        <h2 class="nadpis-bloku">Obrázky zo zdrojov</h2>
+        <p class="meta">Chránené a nejasné obrázky sa použiť nedajú. Sú tu len na vysvetlenie, prečo treba náhradu.</p>
+        <div id="povodne" class="galeria"></div>
+
+        <h2 class="nadpis-bloku">Vymeniť obrázok: voľné náhrady</h2>
+        <p class="meta">Pred použitím otvorte stránku pôvodu a overte licenciu. Logá môžu byť chránené ako ochranná známka.</p>
+        <div id="alternativy" class="galeria"></div>
+
+        <h2 class="nadpis-bloku">Vygenerovať obrázok</h2>
+        <div id="generator">
+          <button id="gen-ukaz" class="tl" type="button">Vygenerovať obrázok…</button>
+          <div id="gen-krok2" hidden>
+            <label>Prompt, ktorý sa odošle modelu FLUX.1-schnell (dá sa upraviť)
+              <textarea id="gen-prompt" rows="4" maxlength="1500"></textarea>
+            </label>
+            <label>Popisok pod obrázkom
+              <input id="gen-popisok" maxlength="300" value="Ilustračný obrázok." />
+            </label>
+            <div class="riadok">
+              <button id="gen-odoslat" class="tl hlavne" type="button">Odoslať</button>
+              <button id="gen-zrusit" class="tl" type="button">Zrušiť</button>
+            </div>
+          </div>
+          <div id="gen-vysledok" hidden>
+            <img id="gen-obrazok" alt="Vygenerovaný náhľad" width="1024" height="1024" />
+            <div class="riadok">
+              <button id="gen-pouzit" class="tl hlavne" type="button">Použiť</button>
+              <button id="gen-znova" class="tl" type="button">Skúsiť znova</button>
+              <button id="gen-zahodit" class="tl" type="button">Zahodiť</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" data-panel="factcheck" hidden>
+        <div id="fc-suhrn"></div>
+        <h2 class="nadpis-bloku">Neuzavreté nálezy</h2>
+        <div id="fc-nalezy"></div>
+        <h2 class="nadpis-bloku">Všetky tvrdenia</h2>
+        <div class="tabulka-obal"><table id="fc-tvrdenia"></table></div>
+      </div>
+
+      <div class="panel" data-panel="korektura" hidden>
+        <div id="kor-upravy"></div>
+        <h2 class="nadpis-bloku">Diff</h2>
+        <pre id="kor-diff" class="diff"></pre>
+      </div>
+
+      <div class="zverejnenie">
+        <ul id="prekazky"></ul>
+        <label class="potvrdenie">
+          <input type="checkbox" id="potvrdenie" />
+          Článok som prečítal, skontroloval fakty, obrázok aj licenciu a zodpovedám za jeho zverejnenie.
+        </label>
+        <div class="riadok">
+          <button id="zverejnit" class="tl hlavne" type="button" disabled>Zverejniť</button>
+          <button id="zahodit" class="tl nebezpecne" type="button">Zahodiť koncept</button>
+          <a id="pr-odkaz" class="meta" target="_blank" rel="noopener">Pull request na GitHube</a>
+        </div>
+      </div>
+    </section>
+  </div>
+</Base>
+
+<style is:global>
+  #admin { --ok: #0a7d5a; --zle: #c0392b; --pozor: #b7791f; }
+  .admin-hlava { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+  #admin .tl { font: inherit; padding: 8px 14px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text); cursor: pointer; }
+  #admin .tl:hover:not(:disabled) { border-color: var(--accent); }
+  #admin .tl:disabled { opacity: 0.5; cursor: not-allowed; }
+  #admin .tl.hlavne { background: var(--accent); color: var(--accent-text); border-color: var(--accent); font-weight: 600; }
+  #admin .tl.nebezpecne { color: var(--zle); }
+  .hlasenie { padding: 10px 14px; border-radius: 6px; background: var(--warn-bg); color: var(--warn-text); }
+  .hlasenie.chyba { background: color-mix(in srgb, var(--zle) 15%, var(--surface)); color: var(--text); border: 1px solid var(--zle); }
+  .koncept-riadok { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+  .koncept-riadok button { font-family: var(--serif); font-size: 1.15rem; font-weight: 700; background: none; border: 0; color: inherit; text-align: left; cursor: pointer; padding: 0; }
+  .koncept-riadok button:hover { color: var(--accent); }
+  .karty { display: flex; gap: 4px; border-bottom: 1px solid var(--line); margin: 16px 0; overflow-x: auto; }
+  .karta-tl { font: inherit; font-weight: 600; padding: 10px 14px; background: none; border: 0; border-bottom: 2px solid transparent; color: var(--muted); cursor: pointer; white-space: nowrap; }
+  .karta-tl[aria-selected='true'] { color: var(--accent); border-bottom-color: var(--accent); }
+  .dvojstlpec { display: grid; gap: 28px; }
+  @media (min-width: 1000px) { .dvojstlpec { grid-template-columns: 1fr 1fr; } }
+  #admin label { display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 14px; }
+  #admin input:not([type='checkbox']), #admin textarea { display: block; width: 100%; margin-top: 6px; padding: 10px; font: inherit; font-weight: 400; color: var(--text); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
+  #admin textarea#telo { font-family: var(--mono); font-size: 0.9rem; line-height: 1.5; }
+  .pocet { font-weight: 400; color: var(--muted); }
+  .pocet.zle { color: var(--zle); }
+  .poznamky { font-size: 0.95rem; }
+  .poznamky p { margin: 0 0 10px; }
+  .galeria { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+  .obr-karta { border: 1px solid var(--line); border-radius: 8px; padding: 10px; background: var(--surface); font-size: 0.85rem; display: flex; flex-direction: column; gap: 6px; }
+  .obr-karta img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 4px; background: var(--line); }
+  .obr-karta.chranene, .obr-karta.nejasne { border-color: var(--zle); }
+  .znacka { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 0.75rem; font-weight: 700; color: #fff; }
+  .znacka.volne, .znacka.potvrdene, .znacka.vykonana { background: var(--ok); }
+  .znacka.tlacove, .znacka.nepresne, .znacka.nenajdena, .znacka.upozornenie { background: var(--pozor); }
+  .znacka.chranene, .znacka.nejasne, .znacka.nepodlozene, .znacka.v_rozpore, .znacka.zamietnuta, .znacka.chyba { background: var(--zle); }
+  #aktualny img, #gen-obrazok { max-width: 520px; width: 100%; border-radius: 6px; height: auto; }
+  .riadok { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-top: 10px; }
+  .tabulka-obal { overflow-x: auto; }
+  #fc-tvrdenia { border-collapse: collapse; font-size: 0.85rem; width: 100%; min-width: 760px; }
+  #fc-tvrdenia th, #fc-tvrdenia td { text-align: left; vertical-align: top; padding: 8px; border-bottom: 1px solid var(--line); }
+  .nalez { border-left: 3px solid var(--zle); padding: 6px 12px; margin-bottom: 10px; font-size: 0.95rem; }
+  .nalez.upozornenie { border-left-color: var(--pozor); }
+  .diff { font-family: var(--mono); font-size: 0.85rem; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px; overflow-x: auto; white-space: pre-wrap; }
+  .diff .plus { color: var(--ok); }
+  .diff .minus { color: var(--zle); }
+  .zverejnenie { margin-top: 32px; padding: 18px; border: 2px solid var(--line); border-radius: 10px; background: var(--surface); }
+  #prekazky { margin: 0 0 12px; padding-left: 20px; color: var(--zle); font-size: 0.95rem; }
+  #prekazky:empty { display: none; }
+  #admin label.potvrdenie { font-weight: 400; font-size: 0.95rem; display: flex; gap: 10px; align-items: flex-start; }
+</style>
+
+<script>
+  import { marked } from 'marked';
+
+  const $ = (id: string) => document.getElementById(id)!;
+  const el = (tag: string, vlastnosti: Record<string, any> = {}, ...deti: (Node | string)[]) => {
+    const e = document.createElement(tag);
+    for (const [k, v] of Object.entries(vlastnosti)) {
+      if (k === 'class') e.className = v;
+      else if (k.startsWith('on')) e.addEventListener(k.slice(2), v);
+      else if (v !== undefined && v !== false) e.setAttribute(k, String(v));
+    }
+    e.append(...deti);
+    return e;
+  };
+  // Text od modelov a z cudzích webov sa do stránky vkladá len ako text, nikdy ako HTML.
+  const bezHtml = (t: string) =>
+    String(t ?? '')
+      .replace(/<\/?[a-zA-Z!][^>]{0,500}>/g, '')
+      .replace(/\]\(\s*(?!https?:|mailto:|\/|#)(?:[^()]|\([^()]*\))*\)/gi, ']()');
+  const md = (t: string) => marked.parse(bezHtml(t), { async: false }) as string;
+
+  let stav: any = null; // otvorený koncept
+  let vygenerovany: string | null = null;
+
+  function hlas(text: string, chyba = false) {
+    const h = $('hlasenie');
+    h.textContent = text;
+    h.classList.toggle('chyba', chyba);
+    h.hidden = !text;
+    if (text) h.scrollIntoView({ block: 'nearest' });
+  }
+
+  async function api(cesta: string, metoda = 'GET', telo?: unknown) {
+    const r = await fetch(cesta, {
+      method: metoda,
+      headers: telo ? { 'Content-Type': 'application/json' } : undefined,
+      body: telo ? JSON.stringify(telo) : undefined,
+    });
+    const data = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(data.chyba || `Chyba ${r.status}`);
+    return data;
+  }
+
+  async function pracuj(tlacidlo: HTMLButtonElement | null, popis: string, fn: () => Promise<void>) {
+    const povodny = tlacidlo?.textContent;
+    if (tlacidlo) { tlacidlo.disabled = true; tlacidlo.textContent = popis; }
+    hlas('');
+    try { await fn(); } catch (e: any) { hlas(e.message, true); } finally {
+      if (tlacidlo) { tlacidlo.disabled = false; tlacidlo.textContent = povodny!; }
+      aktualizujPrekazky();
+    }
+  }
+
+  // ---------- zoznam ----------
+
+  async function nacitajZoznam() {
+    const z = $('zoznam');
+    z.replaceChildren(el('p', { class: 'meta' }, 'Načítavam koncepty…'));
+    try {
+      const { koncepty } = await api('/api/koncepty');
+      if (!koncepty.length) return z.replaceChildren(el('p', {}, 'Žiadny koncept nečaká na schválenie.'));
+      z.replaceChildren(
+        ...koncepty.map((k: any) =>
+          el('div', { class: 'koncept-riadok' },
+            el('button', { type: 'button', onclick: () => otvor(k.pr) }, k.titulok),
+            el('span', { class: 'meta' }, new Date(k.vytvorene).toLocaleString('sk-SK')),
+          ),
+        ),
+      );
+    } catch (e: any) {
+      z.replaceChildren();
+      hlas(e.message, true);
+    }
+  }
+
+  // ---------- detail ----------
+
+  async function otvor(pr: number) {
+    hlas('Načítavam koncept…');
+    try {
+      stav = await api(`/api/koncept/${pr}`);
+    } catch (e: any) {
+      return hlas(e.message, true);
+    }
+    hlas('');
+    $('zoznam').hidden = true;
+    $('detail').hidden = false;
+    ($('potvrdenie') as HTMLInputElement).checked = false;
+    vygenerovany = null;
+    $('gen-krok2').hidden = $('gen-vysledok').hidden = true;
+    vykresli();
+    prepniKartu('clanok');
+    history.replaceState(null, '', `#${pr}`);
+  }
+
+  function vykresli() {
+    const { hlavicka, telo, sprava } = stav;
+    ($('titulok') as HTMLInputElement).value = hlavicka.title;
+    ($('perex') as HTMLTextAreaElement).value = hlavicka.perex;
+    ($('telo') as HTMLTextAreaElement).value = telo;
+    ($('pr-odkaz') as HTMLAnchorElement).href = stav.prUrl;
+    nahlad();
+    vykresliPoznamky(sprava);
+    vykresliObrazky();
+    vykresliFactcheck(sprava?.factcheck);
+    vykresliKorekturu(sprava?.korektura);
+    aktualizujPrekazky();
+  }
+
+  function nahlad() {
+    const t = ($('titulok') as HTMLInputElement).value, p = ($('perex') as HTMLTextAreaElement).value;
+    $('nahlad-titulok').textContent = t;
+    $('nahlad-perex').textContent = p;
+    $('nahlad-telo').innerHTML = md(($('telo') as HTMLTextAreaElement).value);
+    for (const [pole, dlzka, min, max] of [['titulok', t.length, 10, 110], ['perex', p.length, 40, 320]] as const) {
+      const s = document.querySelector(`.pocet[data-pre="${pole}"]`)!;
+      s.textContent = `${dlzka} / ${max}`;
+      s.classList.toggle('zle', dlzka < min || dlzka > max);
+    }
+  }
+
+  function vykresliPoznamky(s: any) {
+    const p = $('poznamky');
+    p.replaceChildren();
+    if (!s) return p.append(el('p', { class: 'meta' }, 'Koncept nemá redakčnú správu.'));
+    if (s.dovod_vyberu) p.append(el('p', {}, el('strong', {}, 'Prečo táto téma: '), s.dovod_vyberu));
+    if (s.poznamky_pre_editora) p.append(el('p', {}, el('strong', {}, 'Autorka: '), s.poznamky_pre_editora));
+    for (const u of s.upozornenia ?? []) p.append(el('p', {}, el('span', { class: 'znacka upozornenie' }, 'upozornenie'), ' ', u));
+    p.append(el('p', { class: 'meta' }, 'Zdroje: ', ...stav.hlavicka.zdroje.flatMap((z: any, i: number) => [i ? ', ' : '', el('a', { href: z.url, target: '_blank', rel: 'noopener' }, z.nazov.slice(0, 60))])));
+  }
+
+  // ---------- obrázky ----------
+
+  function vykresliObrazky() {
+    const o = stav.hlavicka.obrazok, s = stav.sprava?.obrazky;
+    $('aktualny').replaceChildren(
+      el('img', { src: stav.obrazokUrl, alt: o.alt }),
+      el('figcaption', {}, `${o.popisok} Zdroj: ${o.kredit}. Licencia: ${o.licencia}.`, stav.cakaNaObrazok ? ' Treba vybrať obrázok.' : ''),
+    );
+
+    $('povodne').replaceChildren(
+      ...(s?.povodne ?? []).map((p: any) => {
+        const pouzitelny = p.zaradenie === 'volne' || p.zaradenie === 'tlacove';
+        return el('div', { class: `obr-karta ${p.zaradenie}` },
+          el('img', { src: p.url, alt: p.alt || '', loading: 'lazy', referrerpolicy: 'no-referrer' }),
+          el('div', {}, el('span', { class: `znacka ${p.zaradenie}` }, p.zaradenie), ` ${p.zdroj_clanku}`),
+          el('div', {}, p.dovod),
+          p.kredit ? el('div', { class: 'meta' }, `Kredit: ${p.kredit}`) : '',
+          pouzitelny ? el('button', { class: 'tl', type: 'button', onclick: (e: Event) => pouziUrl(e, p.url, p.popisok || p.alt) }, p.zaradenie === 'tlacove' ? 'Použiť (potvrdzujem tlačový pôvod)' : 'Použiť') : '',
+        );
+      }),
+    );
+    if (!s?.povodne?.length) $('povodne').append(el('p', { class: 'meta' }, 'Zdroje neobsahovali žiadne obrázky.'));
+
+    $('alternativy').replaceChildren(
+      ...(s?.alternativy ?? []).map((a: any) =>
+        el('div', { class: 'obr-karta' },
+          el('img', { src: a.nahlad || a.url, alt: a.nazov, loading: 'lazy', referrerpolicy: 'no-referrer' }),
+          el('div', {}, el('span', { class: 'znacka volne' }, a.licencia), ` ${a.povod}`),
+          el('div', {}, a.nazov.slice(0, 80)),
+          el('div', { class: 'meta' }, `Autor: ${a.autor || 'neuvedený'}`),
+          el('a', { href: a.stranka, target: '_blank', rel: 'noopener' }, 'Stránka pôvodu a licencia'),
+          el('button', { class: 'tl', type: 'button', onclick: (e: Event) => pouziUrl(e, a.url, a.nazov) }, 'Použiť'),
+        ),
+      ),
+    );
+    if (!s?.alternativy?.length) $('alternativy').append(el('p', { class: 'meta' }, 'Nenašli sa žiadne voľné náhrady.'));
+  }
+
+  function pouziUrl(e: Event, url: string, navrhPopisku: string) {
+    const popisok = prompt('Popisok pod obrázkom (po slovensky):', (navrhPopisku || '').replace(/\.(jpe?g|png|webp)$/i, ''));
+    if (popisok === null) return;
+    pracuj(e.currentTarget as HTMLButtonElement, 'Ukladám…', async () => {
+      await api(`/api/koncept/${stav.pr}/obrazok`, 'POST', { typ: 'url', url, popisok });
+      stav = await api(`/api/koncept/${stav.pr}`);
+      vykresliObrazky();
+      hlas('Obrázok je uložený.');
+    });
+  }
+
+  // Generovanie v dvoch krokoch: najprv ukázať prompt na úpravu, až potom odoslať.
+  $('gen-ukaz').addEventListener('click', () => {
+    ($('gen-prompt') as HTMLTextAreaElement).value ||= stav.sprava?.prompt_ilustracie || stav.sprava?.obrazky?.prompt_ilustracie || '';
+    $('gen-krok2').hidden = false;
+    $('gen-prompt').focus();
+  });
+  $('gen-zrusit').addEventListener('click', () => ($('gen-krok2').hidden = true));
+  const generuj = (tl: HTMLButtonElement) =>
+    pracuj(tl, 'Generujem…', async () => {
+      const { obrazokB64 } = await api('/api/generuj', 'POST', { prompt: ($('gen-prompt') as HTMLTextAreaElement).value });
+      vygenerovany = obrazokB64;
+      ($('gen-obrazok') as HTMLImageElement).src = `data:image/jpeg;base64,${obrazokB64}`;
+      $('gen-vysledok').hidden = false;
+    });
+  $('gen-odoslat').addEventListener('click', (e) => generuj(e.currentTarget as HTMLButtonElement));
+  $('gen-znova').addEventListener('click', (e) => generuj(e.currentTarget as HTMLButtonElement));
+  $('gen-zahodit').addEventListener('click', () => { vygenerovany = null; $('gen-vysledok').hidden = true; });
+  $('gen-pouzit').addEventListener('click', (e) =>
+    pracuj(e.currentTarget as HTMLButtonElement, 'Ukladám…', async () => {
+      await api(`/api/koncept/${stav.pr}/obrazok`, 'POST', { typ: 'generovany', obrazokB64: vygenerovany, popisok: ($('gen-popisok') as HTMLInputElement).value });
+      stav = await api(`/api/koncept/${stav.pr}`);
+      vykresliObrazky();
+      $('gen-vysledok').hidden = $('gen-krok2').hidden = true;
+      hlas('Vygenerovaný obrázok je uložený.');
+    }),
+  );
+
+  // ---------- factcheck a korektúra ----------
+
+  function vykresliFactcheck(fc: any) {
+    if (!fc) { $('fc-suhrn').textContent = 'Factcheck neprebehol.'; $('fc-nalezy').replaceChildren(); $('fc-tvrdenia').replaceChildren(); return; }
+    $('fc-suhrn').replaceChildren(
+      el('p', {}, fc.hodnotenie),
+      el('p', { class: 'meta' }, (fc.kola ?? []).map((k: any) => `Kolo ${k.kolo}: ${k.potvrdenych}/${k.tvrdeni} potvrdených, ${k.chyb} chýb`).join(' · ')),
+    );
+    const nalezy = fc.otvorene_nalezy ?? [];
+    $('fc-nalezy').replaceChildren(
+      ...(nalezy.length ? nalezy.map((n: any) =>
+        el('div', { class: `nalez ${n.zavaznost}` },
+          el('span', { class: `znacka ${n.zavaznost}` }, n.zavaznost), ` ${n.povod}`,
+          el('div', {}, el('strong', {}, n.text)), el('div', {}, n.komentar),
+          n.navrh_opravy ? el('div', { class: 'meta' }, `Návrh: ${n.navrh_opravy}`) : '')) : [el('p', { class: 'meta' }, 'Žiadne.')]),
+    );
+    $('fc-tvrdenia').replaceChildren(
+      el('tr', {}, ...['Tvrdenie', 'Verdikt', 'Zdroj', 'Úryvok zo zdroja', 'Komentár'].map((h) => el('th', {}, h))),
+      ...(fc.tvrdenia ?? []).map((t: any) =>
+        el('tr', {}, el('td', {}, t.text), el('td', {}, el('span', { class: `znacka ${t.verdikt}` }, t.verdikt)), el('td', {}, t.zdroj), el('td', {}, t.dokaz), el('td', {}, t.komentar))),
+    );
+  }
+
+  function vykresliKorekturu(k: any) {
+    if (!k) { $('kor-upravy').textContent = 'Korektúra neprebehla.'; $('kor-diff').textContent = ''; return; }
+    $('kor-upravy').replaceChildren(
+      ...(k.chyba ? [el('p', {}, k.chyba)] : []),
+      ...(k.upravy?.length ? k.upravy.map((u: any) =>
+        el('div', { class: 'nalez upozornenie' }, el('span', { class: `znacka ${u.stav}` }, u.stav), ` ${u.dovod}`,
+          el('div', { class: 'meta' }, `„${u.povodne}“ → „${u.opravene}“${u.poznamka ? ` (${u.poznamka})` : ''}`))) : [el('p', { class: 'meta' }, 'Korektorka nenavrhla žiadne úpravy. Jazyk skontrolujte sami.')]),
+    );
+    $('kor-diff').replaceChildren(
+      ...String(k.diff || 'Bez zmien.').split('\n').map((r) => el('div', { class: r.startsWith('+') ? 'plus' : r.startsWith('-') ? 'minus' : '' }, r || ' ')),
+    );
+  }
+
+  // ---------- text ----------
+
+  for (const id of ['titulok', 'perex', 'telo']) $(id).addEventListener('input', nahlad);
+  $('form-text').addEventListener('submit', (e) => {
+    e.preventDefault();
+    pracuj((e.target as HTMLFormElement).querySelector('button'), 'Ukladám…', async () => {
+      await api(`/api/koncept/${stav.pr}`, 'PUT', {
+        titulok: ($('titulok') as HTMLInputElement).value,
+        perex: ($('perex') as HTMLTextAreaElement).value,
+        telo: ($('telo') as HTMLTextAreaElement).value,
+      });
+      stav = await api(`/api/koncept/${stav.pr}`);
+      hlas('Text je uložený.');
+    });
+  });
+
+  // ---------- zverejnenie ----------
+
+  function neulozene() {
+    return stav && (($('titulok') as HTMLInputElement).value !== stav.hlavicka.title || ($('perex') as HTMLTextAreaElement).value !== stav.hlavicka.perex || ($('telo') as HTMLTextAreaElement).value.trim() !== stav.telo);
+  }
+
+  function aktualizujPrekazky() {
+    if (!stav) return;
+    const p: string[] = [];
+    if (stav.cakaNaObrazok) p.push('Článok nemá vybraný obrázok.');
+    if (neulozene()) p.push('Text má neuložené zmeny.');
+    const chyby = (stav.sprava?.factcheck?.otvorene_nalezy ?? []).filter((n: any) => n.zavaznost === 'chyba').length;
+    $('prekazky').replaceChildren(...p.map((t) => el('li', {}, t)), ...(chyby ? [el('li', { style: 'color:var(--pozor)' }, `Factcheck má ${chyby} neuzavretý nález. Skontrolujte ho na karte Factcheck.`)] : []));
+    ($('zverejnit') as HTMLButtonElement).disabled = p.length > 0 || !($('potvrdenie') as HTMLInputElement).checked;
+  }
+  $('potvrdenie').addEventListener('change', aktualizujPrekazky);
+  for (const id of ['titulok', 'perex', 'telo']) $(id).addEventListener('input', aktualizujPrekazky);
+
+  $('zverejnit').addEventListener('click', (e) => {
+    if (!confirm(`Zverejniť článok „${stav.hlavicka.title}“ na verejnom webe?`)) return;
+    pracuj(e.currentTarget as HTMLButtonElement, 'Zverejňujem…', async () => {
+      const { clanok } = await api(`/api/koncept/${stav.pr}/zverejnit`, 'POST', { potvrdenie: true });
+      zavriDetail();
+      await nacitajZoznam();
+      hlas(`Článok je zverejnený. Na webe sa objaví po zostavení, zhruba o minútu: ${clanok}`);
+    });
+  });
+  $('zahodit').addEventListener('click', (e) => {
+    if (!confirm('Zahodiť tento koncept? Pull request sa zavrie a vetva zmaže.')) return;
+    pracuj(e.currentTarget as HTMLButtonElement, 'Zahadzujem…', async () => {
+      await api(`/api/koncept/${stav.pr}/zahodit`, 'POST', {});
+      zavriDetail();
+      await nacitajZoznam();
+      hlas('Koncept je zahodený.');
+    });
+  });
+
+  // ---------- navigácia ----------
+
+  function prepniKartu(nazov: string) {
+    document.querySelectorAll<HTMLElement>('.karta-tl').forEach((t) => t.setAttribute('aria-selected', String(t.dataset.karta === nazov)));
+    document.querySelectorAll<HTMLElement>('.panel').forEach((p) => (p.hidden = p.dataset.panel !== nazov));
+  }
+  document.querySelectorAll<HTMLElement>('.karta-tl').forEach((t) => t.addEventListener('click', () => prepniKartu(t.dataset.karta!)));
+
+  function zavriDetail() {
+    stav = null;
+    $('detail').hidden = true;
+    $('zoznam').hidden = false;
+    history.replaceState(null, '', location.pathname);
+  }
+  $('spat').addEventListener('click', () => { if (!neulozene() || confirm('Text má neuložené zmeny. Naozaj odísť?')) zavriDetail(); });
+  $('obnovit').addEventListener('click', () => { zavriDetail(); nacitajZoznam(); });
+
+  await nacitajZoznam();
+  const zHashu = Number(location.hash.slice(1));
+  if (zHashu) otvor(zHashu);
+</script>

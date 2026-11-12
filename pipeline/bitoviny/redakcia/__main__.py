@@ -140,6 +140,7 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--datum", type=date.fromisoformat, default=None, help="deň správ, predvolene včera")
     p.add_argument("--pocet", type=int, default=5, help="počet tém, ktoré má model vybrať")
     p.add_argument("--max-clankov", type=int, default=None, help="napísať najviac toľko konceptov (šetrí limity)")
+    p.add_argument("--pr", action="store_true", help="z každého konceptu otvoriť pull request (treba GITHUB_TOKEN)")
     a = p.parse_args(argv)
 
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
@@ -154,6 +155,13 @@ def main(argv: list[str] | None = None) -> int:
     print(f"\n{den}: {len(hotove)} konceptov")
     for h in hotove:
         print(f"  {h}")
+        if a.pr:
+            from .publikacia import publikuj
+
+            try:
+                print(f"    PR: {publikuj(h) or 'už existuje'}")
+            except Exception as e:  # zlyhanie jedného PR nesmie zastaviť ostatné
+                log.error("Pull request pre %s sa nepodarilo vytvoriť: %s", h.name, str(e)[:300])
     return 0 if hotove else 1
 
 
