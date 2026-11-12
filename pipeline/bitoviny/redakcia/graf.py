@@ -86,12 +86,17 @@ def sprava_autorky(stav: StavClanku) -> str:
 def skontroluj_koncept(k: Koncept, tema: dict) -> tuple[Koncept, list[str]]:
     """Mechanické kontroly, ktoré nepotrebujú jazykový model."""
     upozornenia: list[str] = []
-    zname = {s["url"] for s in tema["spravy"]}
+    # Modely pri prepise adresy menia veľkosť písmen alebo koncové lomítko, preto
+    # porovnávame normalizovane a do článku dávame pôvodnú adresu zo Zberača.
+    def norm(u: str) -> str:
+        return u.strip().lower().rstrip("/")
 
-    nezname = [u for u in k.pouzite_zdroje if u not in zname]
+    zname = {norm(s["url"]): s["url"] for s in tema["spravy"]}
+
+    nezname = [u for u in k.pouzite_zdroje if norm(u) not in zname]
     if nezname:
         upozornenia.append(f"Autorka uviedla zdroje, ktoré nedostala: {nezname}. Boli odstránené.")
-    zdroje = [u for u in k.pouzite_zdroje if u in zname] or sorted(zname)
+    zdroje = list(dict.fromkeys(zname[norm(u)] for u in k.pouzite_zdroje if norm(u) in zname)) or sorted(zname.values())
     if len(zdroje) < 2 and len(zname) >= 2:
         upozornenia.append("Článok čerpá len z jedného zdroja, hoci ich bolo viac.")
 

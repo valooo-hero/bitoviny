@@ -338,7 +338,8 @@ import Base from '../../layouts/Base.astro';
     $('alternativy').replaceChildren(
       ...(s?.alternativy ?? []).map((a: any) =>
         el('div', { class: 'obr-karta' },
-          el('img', { src: a.nahlad || a.url, alt: a.nazov, loading: 'lazy', referrerpolicy: 'no-referrer' }),
+          // Náhľady z Openverse občas nefungujú, vtedy sa skúsi plný obrázok.
+          el('img', { src: a.nahlad || a.url, alt: a.nazov, loading: 'lazy', referrerpolicy: 'no-referrer', onerror: (e: Event) => { const i = e.currentTarget as HTMLImageElement; if (i.src !== a.url) i.src = a.url; } }),
           el('div', {}, el('span', { class: 'znacka volne' }, a.licencia), ` ${a.povod}`),
           el('div', {}, a.nazov.slice(0, 80)),
           el('div', { class: 'meta' }, `Autor: ${a.autor || 'neuvedený'}`),

@@ -116,3 +116,11 @@ def test_markdown_konceptu_ma_platny_frontmatter():
 def test_slug():
     assert slug("AMD tvrdí, že s MEXT udrží 95 % výkonu!") == "amd-tvrdi-ze-s-mext-udrzi-95-vykonu"
     assert len(slug("slovo " * 50)) <= 80
+
+
+def test_zdroj_s_inou_velkostou_pismen_sa_neodstrani():
+    k, upozornenia = skontroluj_koncept(
+        _koncept(pouzite_zdroje=["https://Z0.example/clanok/", "https://z1.example/clanok"]), _tema()
+    )
+    assert k.pouzite_zdroje == ["https://z0.example/clanok", "https://z1.example/clanok"]
+    assert upozornenia == []
