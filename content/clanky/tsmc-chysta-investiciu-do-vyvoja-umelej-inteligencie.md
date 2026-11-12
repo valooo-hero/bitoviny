@@ -3,25 +3,26 @@ title: TSMC chystá investíciu do vývoja umelej inteligencie
 perex: Najväčší svetový výrobca čipov TSMC plánuje vložiť po 500 miliónov dolárov do spoločností OpenAI a Anthropic. Získa tak priamy podiel v popredných firmách.
 sekcia: ai
 tagy:
-- TSMC
-- OpenAI
-- Anthropic
-- umelá inteligencia
-- polovodiče
-publikovane: '2026-11-12T22:34:53+00:00'
+  - TSMC
+  - OpenAI
+  - Anthropic
+  - umelá inteligencia
+  - polovodiče
+publikovane: 2026-11-12T22:34:53+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/tsmc-chysta-investiciu-do-vyvoja-umelej-inteligencie.jpg
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Ars Technica: Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI'
-  url: https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/
+  - nazov: "Ars Technica: Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI"
+    url: https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/
 ---
 
 Spoločnosť TSMC, ktorá je najväčším výrobcom polovodičov na svete, sa chystá investovať celkovo jednu miliardu dolárov do dvoch popredných firiem vyvíjajúcich umelú inteligenciu. Ako informoval portál Ars Technica, predstavenstvo tchajwanského gigantu schválilo plány na investíciu do spoločností OpenAI a Anthropic.
