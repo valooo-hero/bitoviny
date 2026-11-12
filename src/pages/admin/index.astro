@@ -19,7 +19,7 @@ import Base from '../../layouts/Base.astro';
       <p><a class="tl hlavne" href="/api/auth/login" style="display:inline-block;text-decoration:none">Prihlásiť cez GitHub</a></p>
     </section>
 
-    <div id="obsah" hidden>
+    <div id="redakcia-obsah" hidden>
     <section id="zoznam" aria-label="Koncepty">
       <p class="meta">Načítavam koncepty…</p>
     </section>
@@ -504,7 +504,7 @@ import Base from '../../layouts/Base.astro';
   if (ja.ok) {
     $('kto').textContent = (await ja.json()).login;
     $('prihlaseny').hidden = false;
-    $('obsah').hidden = false;
+    $('redakcia-obsah').hidden = false;
     await nacitajZoznam();
     const zHashu = Number(location.hash.slice(1));
     if (zHashu) otvor(zHashu);
