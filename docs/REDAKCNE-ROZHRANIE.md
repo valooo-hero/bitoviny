@@ -20,7 +20,9 @@ Pull requesty konceptov sa nezlučujú ručne na GitHube. Ak by sa to stalo, web
 | Factcheck | Hodnotenie, priebeh kôl, neuzavreté nálezy, tabuľka tvrdení s úryvkami |
 | Korektúra | Vykonané a zamietnuté úpravy, diff |
 
-**Výmena obrázka.** Použiť sa dá len obrázok, ktorý ponúkla redakčná správa a nie je chránený. Server to overuje, nestačí poslať ľubovoľnú adresu. Obrázok sa stiahne a uloží do vetvy konceptu ako `public/obrazky/<slug>.<prípona>` spolu s popiskom, kreditom a licenciou.
+**Výmena obrázka.** Použiť sa dá voľná náhrada alebo obrázok zo zdroja v stave `volne` či `tlacove`. Server to overuje, nestačí poslať ľubovoľnú adresu. Obrázok sa stiahne a uloží do vetvy konceptu ako `public/obrazky/<slug>.<prípona>` spolu s popiskom, kreditom a licenciou.
+
+**Zmena stavu obrázka zo zdroja.** Automatické zaradenie je len odporúčanie, posledné slovo má editor. Tlačidlo „Zmeniť stav“ otvorí formulár so stavom, autorom, licenciou a dôvodom. Ak editor obrázok označí za použiteľný, dôvod, autor aj licencia sú povinné. Zmena sa zapíše do redakčnej správy spolu s pôvodným automatickým zaradením, menom editora a časom, takže je dohľadateľné, kto a prečo rozhodol.
 
 **Generovanie obrázka** má dva kroky. Prvé tlačidlo ukáže prompt, ktorý pripravila autorka, a dá sa upraviť. Až druhé tlačidlo ho odošle modelu FLUX.1-schnell na Cloudflare Workers AI. Výsledok sa zobrazí na náhľad s voľbami Použiť, Skúsiť znova a Zahodiť. Použitý obrázok je na webe označený ako vytvorený AI.
 

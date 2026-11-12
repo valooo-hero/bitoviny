@@ -38,6 +38,8 @@ Zaradenie robia pravidlá v kóde, nie jazykový model, aby bolo predvídateľn�
 
 Agentúra má prednosť aj pred uvedenou voľnou licenciou.
 
+Tabuľka opisuje, čo pipeline navrhne sama. Editor môže stav ktoréhokoľvek obrázka v redakčnom rozhraní zmeniť podľa vlastného úsudku a zodpovedá za to, pozri `docs/REDAKCNE-ROZHRANIE.md`.
+
 ## Voľné náhrady
 
 Model navrhne dva až tri anglické hľadané výrazy a kód nimi prehľadá Wikimedia Commons a Openverse. Berú sa len licencie CC0, public domain, CC BY a CC BY-SA. Výsledky sa striedajú medzi výrazmi a fotobankami, aby ponuku nezaplnil prvý výraz.
