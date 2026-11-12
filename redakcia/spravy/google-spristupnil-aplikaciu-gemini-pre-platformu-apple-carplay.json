@@ -1,0 +1,338 @@
+{
+  "slug": "google-spristupnil-aplikaciu-gemini-pre-platformu-apple-carplay",
+  "datum_sprav": "2026-11-11",
+  "dovod_vyberu": "Google spúšťa Gemini na Apple CarPlay, čo prináša AI asistenta priamo do áut a zaujme európskych vodičov.",
+  "poznamky_pre_editora": "Zdroje sa mierne líšili v dňoch oznámenia a vydania (Engadget uvádza dostupnosť 'starting today' 11. novembra, 9to5Mac píše o strede a štvrtku). V texte je to zjednotené podľa oboch zdrojov. Zdroje tiež spomínajú Android Auto a Google built-in, čo bolo vynechané, keďže hlavnou témou bol CarPlay.",
+  "upozornenia": [
+    "Autorka uviedla zdroje, ktoré nedostala: ['https://9to5Mac.com/2026/11/11/google-confirms-gemini-app-coming-to-apple-carplay/']. Boli odstránené.",
+    "Článok čerpá len z jedného zdroja, hoci ich bolo viac."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý: všetky overiteľné tvrdenia vrátane čísel, dátumov, mien funkcií a citátov majú oporu v zdrojoch Engadget a 9to5Mac, bez rozporov a bez vymyslených detailov. Najväčším problémom je posun v druhom odseku, kde sa streda pripisuje začiatku celosvetového zavádzania, pričom zdroj ju viaže na potvrdenie spoločnosti Google (sám 9to5Mac si vnútorne protirečí, keďže aktualizácia podľa neho dorazila až vo štvrtok), a drobnosťou je pridané slovo „automaticky“ pri synchronizácii konverzácií; v zdrojoch ani kontexte nie je nič adresované mne, takže tu nie je čo riešiť z hľadiska bezpečnosti.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 18,
+        "potvrdenych": 18,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Titulok: Google sprístupnil aplikáciu Gemini pre Apple CarPlay.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Google has brought the Gemini app to Apple CarPlay.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Perex: používatelia iPhonov môžu využívať Gemini priamo cez Apple CarPlay vrátane Gemini Live.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "The Gemini app is now available directly on Apple CarPlay.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Gemini bol doteraz dostupný iba nepriamo cez aplikáciu Google Maps.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Google previously made the AI assistant available on CarPlay through the Google Maps app.",
+        "komentar": "9to5Mac spresňuje, že predtým išlo len o funkcie Gemini v Mapách, nie o Gemini Live v samostatnej aplikácii.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Aktualizácia prináša samostatnú ikonu Gemini na displeji auta.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Now, you'll be able to access it just by tapping the Gemini icon on your display.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Funkcia je dostupná pre všetky podporované jazyky Gemini Live.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "It's available starting today for all supported Gemini Live languages.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Aplikácia sa začala celosvetovo zavádzať v stredu.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Gemini on Apple CarPlay is rolling out globally starting today to all Gemini users on iOS across every supported Gemini Live language",
+        "komentar": "Globálne zavádzanie potvrdzuje Google; 9to5Mac však dátum viaže na deň potvrdenia, nie na začiatok rolloutu.",
+        "navrh_opravy": "Podľa vyjadrení spoločnosti Google, ktoré priniesol portál 9to5Mac, sa aplikácia zavádza celosvetovo, pričom spoločnosť to potvrdila v stredu a aktualizácia dorazila vo štvrtok."
+      },
+      {
+        "text": "Samotná aktualizácia dorazila vo štvrtok.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "The company confirmed that it is bringing the full Gemini Live conversation experience to CarPlay on Wednesday, and the app update arrived on Thursday.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podmienkou je aktualizácia aplikácie Gemini na najnovšiu verziu, povolený prístup k mikrofónu a aspoň jedno použitie Gemini Live v telefóne.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "you’ve updated to the latest version of the Gemini app on your iPhone, enabled microphone permissions, and used Gemini Live on your phone",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Po pripojení telefónu k vozidlu stačí klepnúť na ikonu Gemini na displeji.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "The next time you connect your phone to your car, tap the Gemini icon on your CarPlay display, then start a new conversation",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ide o hlasovú komunikáciu bez nutnosti držať telefón v rukách.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "iOS users can have free-flowing conversations with Gemini Live right from their car's display, hands-free.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vodiči môžu Gemini použiť na prípravu na stretnutie, kontrolu e-mailov, vypočutie Daily Brief alebo odporúčania na miesta v okolí.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "The company suggested drivers could use Gemini to prep for a meeting during their commute, catch up on emails, hear their Daily Brief",
+        "komentar": "Zdroj tiež spomína odporúčania na miesta v okolí; ide o návrhy spoločnosti, čo koncept nevydáva za hotovú funkciu.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Konverzácie sa synchronizujú s aplikáciou Gemini v iPhone a zostávajú v histórii chatov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Your conversations will sync with the Gemini iPhone app and remain in your chat history.",
+        "komentar": "Slovo „automaticky“ je mierny dodak, no synchronizácia zo zdroja nič iné neznamená.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Používatelia môžu nadviazať na predchádzajúcu konverzáciu alebo začať novú.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "you can pick up where you left off with Gemini in your car or start a new conversation with the chatbot.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "CarPlay má už pokryté všetky hlavné systémy umelej inteligencie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "CarPlay now supports every major AI chatbot",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "ChatGPT, Perplexity, Claude, Copilot, Meta AI a Grok mali podporu CarPlay už skôr.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "iPhone apps including ChatGPT, Perplexity, Claude, Copilot, Meta AI, and Grok all shipped CarPlay support already.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Siri má vlastnú samostatnú aplikáciu v systéme.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Siri includes a standalone app in iOS 27, which also supports CarPlay.",
+        "komentar": "Koncept vynechal, že samostatná aplikácia Siri prichádza v iOS 27.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Google bol posledným veľkým gigantom, ktorý CarPlay nemal pokryté.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Gemini was the last major AI chatbot holdout.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Google predtým ponúkal len obmedzené funkcie cez mapové podklady.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Google has previously supported Gemini features through Google Maps on CarPlay, but not the Gemini Live experience through the dedicated chatbot app.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Google_Gemini_screenshot.png/1280px-Google_Gemini_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/04/gemini-mac.jpg?quality=82&strip=all&w=800",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/af01c840dac8281fd5f1986a8504e54222700437fa19c3083e578c1ddf6386a6?s=96&d=mm&r=r",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Zac Hall",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/google-brings-the-gemini-app-to-apple-carplay/l-intro-1794426857.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/google-brings-the-gemini-app-to-apple-carplay/intro-1794426857.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Google Gemini logo",
+      "Apple CarPlay interface",
+      "iPhone CarPlay"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Google_Gemini_screenshot.png/1280px-Google_Gemini_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Google_Gemini_screenshot.png/1280px-Google_Gemini_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "nazov": "Google Gemini screenshot.png",
+        "autor": "Google",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Google_Gemini_screenshot.png",
+        "povod": "wikimedia",
+        "dopyt": "Google Gemini logo"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Google_Gemini_Please_die._message.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/4/49/Google_Gemini_Please_die._message.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "nazov": "Google Gemini Please die. message.png",
+        "autor": "Gemini",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Google_Gemini_Please_die._message.png",
+        "povod": "wikimedia",
+        "dopyt": "Google Gemini logo"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Gemini_language_model_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/4/45/Gemini_language_model_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "nazov": "Gemini language model logo.png",
+        "autor": "Gemini",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Gemini_language_model_logo.png",
+        "povod": "wikimedia",
+        "dopyt": "Google Gemini logo"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Google_Gemini_in_Google_Messages_20240918.png/1280px-Google_Gemini_in_Google_Messages_20240918.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Google_Gemini_in_Google_Messages_20240918.png/1280px-Google_Gemini_in_Google_Messages_20240918.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "nazov": "Google Gemini in Google Messages 20240918.png",
+        "autor": "PantheraLeo1359531",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Google_Gemini_in_Google_Messages_20240918.png",
+        "povod": "wikimedia",
+        "dopyt": "Google Gemini logo"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Gemini-Bard.png",
+        "nahlad": "https://api.openverse.org/v1/images/ecec8490-ae12-4515-a320-de5abf02b6bd/thumb/",
+        "nazov": "Google Gemini-Bard",
+        "autor": "Google",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=145179215",
+        "povod": "openverse",
+        "dopyt": "Google Gemini logo"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Wright_Eclipse_Gemini%2C_Volvo_B9TL_-_First_West_Yorkshire_%28Halifax%29%2C_YJ58_GMO%2C_37361.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/ff675293-58a8-4e20-888c-b0960c78d13a/thumb/",
+        "nazov": "Wright Eclipse Gemini, Volvo B9TL - First West Yorkshire (Halifax), YJ58 GMO, 37361",
+        "autor": "Cardinator25",
+        "licencia": "BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=188948880",
+        "povod": "openverse",
+        "dopyt": "Google Gemini logo"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/2024-05-27_Event%2C_Konferenz%2C_re-publica_STP_5182_by_Stepro.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/0643449f-87b8-48af-962a-a8f2542d515c/thumb/",
+        "nazov": "2024-05-27 Event, Konferenz, re-publica STP 5182 by Stepro",
+        "autor": "Steffen Prößdorf",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=149479662",
+        "povod": "openverse",
+        "dopyt": "Google Gemini logo"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Carplay_Apple_Music_Interface.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Carplay_Apple_Music_Interface.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "nazov": "Carplay Apple Music Interface.jpg",
+        "autor": "PascalHD",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Carplay_Apple_Music_Interface.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Apple CarPlay interface"
+      }
+    ],
+    "prompt_ilustracie": "An abstract illustration of a modern car dashboard display glowing with a digital assistant interface and connection waves, minimalist tech style."
+  },
+  "prompt_ilustracie": "An abstract illustration of a modern car dashboard display glowing with a digital assistant interface and connection waves, minimalist tech style.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/68caa9e6c5c7e91d65a2c29cfd36dc83"
+}
