@@ -7,7 +7,7 @@ tagy:
   - Gemini
   - Apple CarPlay
   - iOS
-publikovane: 2026-11-12T22:28:50Z
+publikovane: 2026-11-12T22:29:41Z
 obrazok:
   src: /obrazky/google-spristupnil-aplikaciu-gemini-pre-platformu-apple-carplay.jpg
   alt: Ilustračný obrázok.
