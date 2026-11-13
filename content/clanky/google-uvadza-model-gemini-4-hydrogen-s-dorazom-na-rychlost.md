@@ -3,30 +3,35 @@ title: Google uvádza model Gemini 4 Hydrogen s dôrazom na rýchlosť
 perex: Nový model umelej inteligencie nahradil doterajší rad Flash a prináša výrazné zlepšenia do vyhľadávania aj aplikácií.
 sekcia: ai
 tagy:
-- Google
-- Gemini
-- AI modely
-- Google Search
-publikovane: '2026-11-13T03:39:53+00:00'
+  - Google
+  - Gemini
+  - AI modely
+  - Google Search
+publikovane: 2026-11-13T03:39:53+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/google-uvadza-model-gemini-4-hydrogen-s-dorazom-na-rychlost.png
+  alt: Hydrogen compared to the mid-tier options from OpenAI and Anthropic.
+  popisok: Hydrogen compared to the mid-tier options from OpenAI and Anthropic.
+  kredit: |-
+    Credit:
+
+              
+              Google
+  licencia: tlačový materiál
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: '9to5Mac: Google announces Gemini 4 Hydrogen with ‘significant leaps’ in speed, intelligence'
-  url: https://9to5google.com/2026/11/12/gemini-4-hydrogen-launch/
-- nazov: 'TechCrunch: Google’s latest Search upgrade promises better answers to your most complicated questions'
-  url: https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/
-- nazov: 'The Verge: Google’s new Gemini model is better at understanding complicated questions'
-  url: https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen
-- nazov: 'Ars Technica: Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash'
-  url: https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/
+  - nazov: "9to5Mac: Google announces Gemini 4 Hydrogen with ‘significant leaps’ in speed, intelligence"
+    url: https://9to5google.com/2026/11/12/gemini-4-hydrogen-launch/
+  - nazov: "TechCrunch: Google’s latest Search upgrade promises better answers to your most complicated questions"
+    url: https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/
+  - nazov: "The Verge: Google’s new Gemini model is better at understanding complicated questions"
+    url: https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen
+  - nazov: "Ars Technica: Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash"
+    url: https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/
 ---
 
 Spoločnosť Google oznámila vydanie nového modelu umelej inteligencie s názvom Gemini 4 Hydrogen. Táto novinka nahradila doterajšie označenie „Flash“ a podľa vyjadrení firmy prináša podstatný skok v rýchlosti aj celkovej inteligencii systému. Model je navrhnutý tak, aby priniesol špičkové schopnosti širšiemu okruhu používateľov. Ako uviedol portál Ars Technica, model priamo nahrádza starší variant Gemini 3.8 Flash v celej ponuke produktov spoločnosti.
