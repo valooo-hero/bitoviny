@@ -9,10 +9,10 @@ tagy:
   - iOS
 publikovane: 2026-11-13T10:29:54+00:00
 obrazok:
-  src: /obrazky/skusobny-koncept-obrazky-mweu6ih7.png
-  alt: Aplikácia Gemini po spustení.
-  popisok: Aplikácia Gemini po spustení.
-  kredit: Google / Wikimedia Commons
+  src: /obrazky/skusobny-koncept-obrazky-mweuo9gs.png
+  alt: Gemini language model logo
+  popisok: Gemini language model logo
+  kredit: Gemini / Wikimedia Commons
   licencia: Public domain
   ai: false
 redaktori:
