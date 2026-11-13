@@ -7,7 +7,7 @@ tagy:
   - Gemini
   - AI modely
   - Google Search
-publikovane: 2026-11-13T03:39:53+00:00
+publikovane: 2026-11-13T09:52:53Z
 obrazok:
   src: /obrazky/google-uvadza-model-gemini-4-hydrogen-s-dorazom-na-rychlost.png
   alt: Hydrogen compared to the mid-tier options from OpenAI and Anthropic.
@@ -23,6 +23,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "9to5Mac: Google announces Gemini 4 Hydrogen with ‘significant leaps’ in speed, intelligence"
     url: https://9to5google.com/2026/11/12/gemini-4-hydrogen-launch/
