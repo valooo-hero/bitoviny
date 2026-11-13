@@ -168,7 +168,7 @@ const jsonLd = {
             <summary>Ako vznikol tento článok</summary>
             <ul>
               <li>
-                Tému vybral Róbert S. Sliedič, článok napísala Klára Vesnicová z {sklon(st.zdrojov, 'zdroja', 'zdrojov', 'zdrojov')}
+                Tému vybral Róbert S. Sliedič, článok napísala Klára Vesnicová z {sklon(st.zdrojov, 'zdroja', 'zdrojov', 'zdrojov')}{' '}
                 ({sklon(st.slovAgentov ?? st.slovZverejnenych, 'slovo', 'slová', 'slov')}).
               </li>
               <li>
@@ -182,7 +182,7 @@ const jsonLd = {
                 Čiarka Ypsilonová {st.upravVykonanych ? `vykonala ${sklon(st.upravVykonanych, 'jazykovú opravu', 'jazykové opravy', 'jazykových opráv')}.` : 'nenavrhla žiadnu jazykovú opravu.'}
               </li>
               <li>
-                Cyril Kopirajt posúdil {sklon(st.obrazkovZoZdrojov, 'obrázok', 'obrázky', 'obrázkov')} zo zdrojov, použiť sa
+                Cyril Kopirajt posúdil {sklon(st.obrazkovZoZdrojov, 'obrázok', 'obrázky', 'obrázkov')} zo zdrojov, použiť sa{' '}
                 {st.obrazkovChranenych === st.obrazkovZoZdrojov ? 'nedal žiadny' : `nedalo ${st.obrazkovChranenych}`}.
               </li>
               <li>
