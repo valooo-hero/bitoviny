@@ -41,6 +41,8 @@ galeria:
                 Google
     licencia: tlačový materiál
     ai: false
+stiahnute: true
+stiahnute_kedy: 2026-11-13T12:08:48Z
 ---
 
 Spoločnosť Google oznámila vydanie nového modelu umelej inteligencie s názvom Gemini 4 Hydrogen. Táto novinka nahradila doterajšie označenie „Flash“ a podľa vyjadrení firmy prináša podstatný skok v rýchlosti aj celkovej inteligencii systému. Model je navrhnutý tak, aby priniesol špičkové schopnosti širšiemu okruhu používateľov. Ako uviedol portál Ars Technica, model priamo nahrádza starší variant Gemini 3.8 Flash v celej ponuke produktov spoločnosti.
