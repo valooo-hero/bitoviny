@@ -9,10 +9,10 @@ tagy:
   - iOS
 publikovane: 2026-11-13T10:29:54+00:00
 obrazok:
-  src: /obrazky/skusobny-koncept-obrazky-mweu6fg3.jpg
-  alt: Rozhranie Apple CarPlay na displeji auta.
-  popisok: Rozhranie Apple CarPlay na displeji auta.
-  kredit: PascalHD / Wikimedia Commons
+  src: /obrazky/skusobny-koncept-obrazky-mweu6ih7.png
+  alt: Úvodná obrazovka aplikácie Gemini.
+  popisok: Úvodná obrazovka aplikácie Gemini.
+  kredit: Google / Wikimedia Commons
   licencia: Public domain
   ai: false
 redaktori:
@@ -23,10 +23,10 @@ zdroje:
   - nazov: "Engadget: Google brings the Gemini app to Apple CarPlay"
     url: https://www.engadget.com/2314093/google-brings-the-gemini-app-to-apple-carplay/
 galeria:
-  - src: /obrazky/skusobny-koncept-obrazky-mweu6ih7.png
-    alt: Úvodná obrazovka aplikácie Gemini.
-    popisok: Úvodná obrazovka aplikácie Gemini.
-    kredit: Google / Wikimedia Commons
+  - src: /obrazky/skusobny-koncept-obrazky-mweu6fg3.jpg
+    alt: Rozhranie Apple CarPlay na displeji auta.
+    popisok: Rozhranie Apple CarPlay na displeji auta.
+    kredit: PascalHD / Wikimedia Commons
     licencia: Public domain
     ai: false
 ---
