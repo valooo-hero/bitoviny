@@ -1,5 +1,6 @@
 import { bezHtml, rozdel, zloz } from '../../../functions-lib/clanok.js';
-import { GitHub } from '../../../functions-lib/github.js';
+import { GitHub, ZASTUPNY_OBRAZOK } from '../../../functions-lib/github.js';
+import { zoznamObrazkov } from '../../../functions-lib/obrazky.js';
 import { chyba } from '../../../functions-lib/pristup.js';
 import { cestaClanku, spracujVstup, teraz, zapisDoHlavicky } from '../../../functions-lib/uprava.js';
 
@@ -14,7 +15,18 @@ export async function onRequestGet({ env, params, data }) {
   } catch {
     // vzorové a ručne písané články redakčnú správu nemajú
   }
-  return Response.json({ slug, hlavicka, telo, sprava, obrazokUrl: hlavicka.obrazok?.src, zverejneny: true });
+  // Obrázky sa čítajú priamo z repozitára, aby boli vidno hneď po zmene, ešte pred zostavením webu.
+  const obrazky = zoznamObrazkov(gh, 'main', hlavicka);
+  return Response.json({
+    slug,
+    hlavicka,
+    telo,
+    sprava,
+    obrazky,
+    obrazokUrl: obrazky[0].nahlad,
+    cakaNaObrazok: hlavicka.obrazok.src === ZASTUPNY_OBRAZOK,
+    zverejneny: true,
+  });
 }
 
 // Úprava zverejneného článku. Zapisuje sa priamo do main, web sa potom sám znovu zostaví.

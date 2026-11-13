@@ -1,6 +1,7 @@
 import { rozdel, zloz } from '../../../functions-lib/clanok.js';
 import { GitHub, ZASTUPNY_OBRAZOK } from '../../../functions-lib/github.js';
 import { chyba } from '../../../functions-lib/pristup.js';
+import { zoznamObrazkov } from '../../../functions-lib/obrazky.js';
 import { spracujVstup, zapisDoHlavicky } from '../../../functions-lib/uprava.js';
 
 function cisloPr(params) {
@@ -16,17 +17,8 @@ export async function onRequestGet({ env, params, data }) {
   const { hlavicka, telo } = rozdel((await gh.subor(k.clanok, k.vetva)).text);
   let sprava = null;
   if (k.sprava) sprava = JSON.parse((await gh.subor(k.sprava, k.vetva)).text);
-  // Obrázky sú zatiaľ len vo vetve konceptu, preto ich rozhranie číta priamo z GitHubu.
-  const nahlad = (src) =>
-    src.startsWith('/obrazky/') && src !== ZASTUPNY_OBRAZOK
-      ? `https://raw.githubusercontent.com/${gh.repo}/${encodeURIComponent(k.vetva).replace(/%2F/g, '/')}/public${src}`
-      : src;
-  const obrazokUrl = nahlad(hlavicka.obrazok.src);
-  // Všetky obrázky článku v poradí: titulný, potom galéria.
-  const obrazky = [
-    { ...hlavicka.obrazok, titulny: true, nahlad: obrazokUrl },
-    ...(hlavicka.galeria ?? []).map((o) => ({ ...o, titulny: false, nahlad: nahlad(o.src) })),
-  ];
+  const obrazky = zoznamObrazkov(gh, k.vetva, hlavicka);
+  const obrazokUrl = obrazky[0].nahlad;
   return Response.json({
     pr: k.pr.number,
     slug: k.slug,

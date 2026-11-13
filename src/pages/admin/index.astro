@@ -99,6 +99,29 @@ import Base from '../../layouts/Base.astro';
         <p class="meta">Pred použitím otvorte stránku pôvodu a overte licenciu. Logá môžu byť chránené ako ochranná známka.</p>
         <div id="alternativy" class="galeria"></div>
 
+        <h2 class="nadpis-bloku">Nahrať vlastný obrázok</h2>
+        <form id="form-nahrat" class="uzky">
+          <label>Súbor (JPEG, PNG alebo WebP, najviac 6 MB)
+            <input type="file" id="nahrat-subor" accept="image/jpeg,image/png,image/webp" required />
+          </label>
+          <label>Popisok pod obrázkom
+            <input id="nahrat-popisok" minlength="5" maxlength="300" required />
+          </label>
+          <label>Autor alebo zdroj
+            <input id="nahrat-kredit" minlength="2" maxlength="150" required />
+          </label>
+          <label>Licencia alebo právny základ
+            <input id="nahrat-licencia" minlength="2" maxlength="80" required placeholder="napr. vlastná fotografia, tlačový materiál, CC BY 4.0" />
+          </label>
+          <label>Umiestnenie
+            <select id="nahrat-umiestnenie">
+              <option value="titulny">Titulný obrázok (nahradí doterajší)</option>
+              <option value="galeria">Ďalší obrázok pod textom</option>
+            </select>
+          </label>
+          <button id="nahrat-odoslat" class="tl hlavne" type="submit">Nahrať obrázok</button>
+        </form>
+
         <h2 class="nadpis-bloku">Vygenerovať obrázok</h2>
         <div id="generator">
           <button id="gen-ukaz" class="tl" type="button">Vygenerovať obrázok…</button>
@@ -228,6 +251,7 @@ import Base from '../../layouts/Base.astro';
   #admin dialog::backdrop { background: rgb(0 0 0 / 0.6); }
   #admin dialog h2 { font-size: 1.3rem; margin-bottom: 10px; }
   #admin select { display: block; width: 100%; margin-top: 6px; padding: 10px; font: inherit; font-weight: 400; color: var(--text); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
+  #admin .uzky, #generator { max-width: 560px; }
   .dlg-chyba { color: var(--zle); font-size: 0.9rem; margin: 0; }
   .dlg-chyba:empty { display: none; }
   /* Atribút hidden musí vyhrať aj nad pravidlami s display: flex či grid. */
@@ -425,13 +449,12 @@ import Base from '../../layouts/Base.astro';
     ($('oprava') as HTMLInputElement).value = '';
     ulozenyOdtlacok = odtlacok();
 
-    // Zverejnený článok: úpravy idú rovno na web, obrázok a redakčná správa sa tu nemenia.
+    // Zverejnený článok: úpravy textu aj obrázkov idú rovno na web.
     const zv = Boolean(stav.zverejneny);
     $('oprava-obal').hidden = !zv;
     $('blok-koncept').hidden = zv;
     $('blok-zverejneny').hidden = !zv;
     $('ulozit-text').textContent = zv ? 'Uložiť zmeny na web' : 'Uložiť';
-    document.querySelectorAll<HTMLElement>('.karta-tl').forEach((t) => (t.hidden = zv && t.dataset.karta !== 'clanok'));
     if (zv) {
       const stiahnute = hlavicka.stiahnute === true;
       $('stav-zverejnenia').textContent = stiahnute ? 'Článok je stiahnutý zo zverejnenia. Na webe sa nezobrazuje.' : 'Článok je zverejnený.';
@@ -528,10 +551,10 @@ import Base from '../../layouts/Base.astro';
   // Akcie nad obrázkom, ktorý už v článku je: nastaviť ako titulný, odstrániť.
   function upravObrazok(e: Event, akcia: string, src: string) {
     pracuj(e.currentTarget as HTMLButtonElement, 'Ukladám…', async () => {
-      await api(`/api/koncept/${stav.pr}/galeria`, 'POST', { akcia, src });
-      stav = await api(`/api/koncept/${stav.pr}`);
+      await api(`${adresa()}/galeria`, 'POST', { akcia, src });
+      stav = await api(adresa());
       vykresliObrazky();
-      hlas(akcia === 'titulny' ? 'Titulný obrázok je zmenený.' : 'Obrázok je odstránený.');
+      hlas(hlaskaPoObrazku(akcia === 'titulny' ? 'Titulný obrázok je zmenený.' : 'Obrázok je odstránený.'));
     });
   }
   // Zmena popisku používa ten istý formulár ako použitie nového obrázka.
@@ -563,12 +586,12 @@ import Base from '../../layouts/Base.astro';
     e.preventDefault();
     pracuj($('pouzit-ulozit') as HTMLButtonElement, 'Ukladám…', async () => {
       const popisok = ($('pouzit-popisok') as HTMLTextAreaElement).value;
-      if (menenyObrazok) await api(`/api/koncept/${stav.pr}/galeria`, 'POST', { akcia: 'popisok', src: menenyObrazok, popisok });
-      else await api(`/api/koncept/${stav.pr}/obrazok`, 'POST', { typ: 'url', url: pouzivanaUrl, popisok, umiestnenie: hodnota('pouzit-umiestnenie') });
+      if (menenyObrazok) await api(`${adresa()}/galeria`, 'POST', { akcia: 'popisok', src: menenyObrazok, popisok });
+      else await api(`${adresa()}/obrazok`, 'POST', { typ: 'url', url: pouzivanaUrl, popisok, umiestnenie: hodnota('pouzit-umiestnenie') });
       ($('dlg-pouzit') as HTMLDialogElement).close();
-      stav = await api(`/api/koncept/${stav.pr}`);
+      stav = await api(adresa());
       vykresliObrazky();
-      hlas('Obrázok je uložený.');
+      hlas(hlaskaPoObrazku('Obrázok je uložený.'));
     });
   });
 
@@ -586,7 +609,7 @@ import Base from '../../layouts/Base.astro';
   $('form-prava').addEventListener('submit', (e) => {
     e.preventDefault();
     pracuj($('prava-ulozit') as HTMLButtonElement, 'Ukladám…', async () => {
-      await api(`/api/koncept/${stav.pr}/prava`, 'POST', {
+      await api(`${adresa()}/prava`, 'POST', {
         url: menenaUrl,
         zaradenie: ($('prava-zaradenie') as HTMLSelectElement).value,
         kredit: ($('prava-kredit') as HTMLInputElement).value,
@@ -594,7 +617,7 @@ import Base from '../../layouts/Base.astro';
         dovod: ($('prava-dovod') as HTMLTextAreaElement).value,
       });
       ($('dlg-prava') as HTMLDialogElement).close();
-      stav = await api(`/api/koncept/${stav.pr}`);
+      stav = await api(adresa());
       vykresliObrazky();
       hlas('Stav obrázka je zmenený.');
     });
@@ -606,6 +629,35 @@ import Base from '../../layouts/Base.astro';
   new MutationObserver(() => {
     for (const d of document.querySelectorAll<HTMLElement>('.dlg-chyba')) d.textContent = $('hlasenie').classList.contains('chyba') ? $('hlasenie').textContent : '';
   }).observe($('hlasenie'), { childList: true, characterData: true, subtree: true, attributes: true });
+
+  // Nahranie vlastného obrázka. Za pôvod a práva ručí editor, preto sú autor a licencia povinné.
+  const hlaskaPoObrazku = (text: string) => (stav.zverejneny ? `${text} Na webe sa zmena objaví po zostavení, zhruba o minútu.` : text);
+  $('form-nahrat').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const subor = ($('nahrat-subor') as HTMLInputElement).files?.[0];
+    if (!subor) return;
+    if (subor.size > 6 * 1024 * 1024) return hlas('Obrázok je väčší než 6 MB.', true);
+    pracuj($('nahrat-odoslat') as HTMLButtonElement, 'Nahrávam…', async () => {
+      const dataUrl: string = await new Promise((ok, zle) => {
+        const citac = new FileReader();
+        citac.onload = () => ok(String(citac.result));
+        citac.onerror = () => zle(new Error('Súbor sa nepodarilo prečítať.'));
+        citac.readAsDataURL(subor);
+      });
+      await api(`${adresa()}/obrazok`, 'POST', {
+        typ: 'vlastny',
+        obrazokB64: dataUrl.slice(dataUrl.indexOf(',') + 1),
+        popisok: hodnota('nahrat-popisok'),
+        kredit: hodnota('nahrat-kredit'),
+        licencia: hodnota('nahrat-licencia'),
+        umiestnenie: hodnota('nahrat-umiestnenie'),
+      });
+      ($('form-nahrat') as HTMLFormElement).reset();
+      stav = await api(adresa());
+      vykresliObrazky();
+      hlas(hlaskaPoObrazku('Obrázok je nahraný.'));
+    });
+  });
 
   // Generovanie v dvoch krokoch: najprv ukázať prompt na úpravu, až potom odoslať.
   $('gen-ukaz').addEventListener('click', () => {
@@ -627,11 +679,11 @@ import Base from '../../layouts/Base.astro';
   $('gen-zahodit').addEventListener('click', () => { vygenerovany = null; $('gen-vysledok').hidden = true; });
   $('gen-pouzit').addEventListener('click', (e) =>
     pracuj(e.currentTarget as HTMLButtonElement, 'Ukladám…', async () => {
-      await api(`/api/koncept/${stav.pr}/obrazok`, 'POST', { typ: 'generovany', obrazokB64: vygenerovany, popisok: ($('gen-popisok') as HTMLInputElement).value, umiestnenie: hodnota('gen-umiestnenie') });
-      stav = await api(`/api/koncept/${stav.pr}`);
+      await api(`${adresa()}/obrazok`, 'POST', { typ: 'generovany', obrazokB64: vygenerovany, popisok: ($('gen-popisok') as HTMLInputElement).value, umiestnenie: hodnota('gen-umiestnenie') });
+      stav = await api(adresa());
       vykresliObrazky();
       $('gen-vysledok').hidden = $('gen-krok2').hidden = true;
-      hlas('Vygenerovaný obrázok je uložený.');
+      hlas(hlaskaPoObrazku('Vygenerovaný obrázok je uložený.'));
     }),
   );
 
