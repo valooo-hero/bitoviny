@@ -30,8 +30,15 @@ galeria:
     kredit: PascalHD / Wikimedia Commons
     licencia: Public domain
     ai: false
+  - src: /obrazky/skusobny-koncept-obrazky-mwexgftb.png
+    alt: Skúšobný obrázok nahraný pri teste.
+    popisok: Skúšobný obrázok nahraný pri teste.
+    kredit: Bitoviny
+    licencia: vlastná ilustrácia
+    ai: false
 stiahnute: true
 stiahnute_kedy: 2026-11-13T10:49:21Z
+aktualizovane: 2026-11-13T12:02:47Z
 ---
 
 Spoločnosť Google oznámila rozšírenie dostupnosti svojej umelej inteligencie a prináša aplikáciu Gemini priamo do systému Apple CarPlay. Ako informoval portál Engadget, četbot bol doteraz pre používateľov jablčných zariadení dostupný iba nepriamo prostredníctvom aplikácie Google Maps. Nová aktualizácia prináša samostatnú ikonu na displeji auta a sprístupňuje funkciu Gemini Live pre všetky podporované jazyky.
