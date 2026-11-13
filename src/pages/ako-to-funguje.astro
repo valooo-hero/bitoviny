@@ -254,6 +254,9 @@ const zmena = (x: number | null) => (x === null ? '–' : x < 0.005 ? 'bez zmeny
     display: table;
     min-width: 640px;
   }
+  .tabulka td:first-child {
+    min-width: 240px;
+  }
   .tabulka td:not(:first-child),
   .tabulka th:not(:first-child) {
     text-align: right;
