@@ -9,7 +9,7 @@ tagy:
   - Google Search
 publikovane: 2026-11-13T09:52:53Z
 obrazok:
-  src: /obrazky/google-uvadza-model-gemini-4-hydrogen-s-dorazom-na-rychlost.png
+  src: /obrazky/google-uvadza-model-gemini-4-hydrogen-s-dorazom-na-rychlost-mwexlc3o.png
   alt: Hydrogen compared to the mid-tier options from OpenAI and Anthropic.
   popisok: Hydrogen compared to the mid-tier options from OpenAI and Anthropic.
   kredit: |-
@@ -33,18 +33,7 @@ zdroje:
     url: https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen
   - nazov: "Ars Technica: Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash"
     url: https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/
-galeria:
-  - src: /obrazky/google-uvadza-model-gemini-4-hydrogen-s-dorazom-na-rychlost-mwexlc3o.png
-    alt: Hydrogen compared to the mid-tier options from OpenAI and Anthropic.
-    popisok: Hydrogen compared to the mid-tier options from OpenAI and Anthropic.
-    kredit: |-
-      Credit:
-
-                
-                Google
-    licencia: tlačový materiál
-    ai: false
-aktualizovane: 2026-11-13T12:06:36Z
+aktualizovane: 2026-11-13T12:06:49Z
 ---
 
 Spoločnosť Google oznámila vydanie nového modelu umelej inteligencie s názvom Gemini 4 Hydrogen. Táto novinka nahradila doterajšie označenie „Flash“ a podľa vyjadrení firmy prináša podstatný skok v rýchlosti aj celkovej inteligencii systému. Model je navrhnutý tak, aby priniesol špičkové schopnosti širšiemu okruhu používateľov. Ako uviedol portál Ars Technica, model priamo nahrádza starší variant Gemini 3.8 Flash v celej ponuke produktov spoločnosti.
