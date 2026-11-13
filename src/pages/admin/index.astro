@@ -718,6 +718,20 @@ import Base from '../../layouts/Base.astro';
         el('div', { class: 'nalez upozornenie' }, el('span', { class: `znacka ${u.stav}` }, u.stav), ` ${u.dovod}`,
           el('div', { class: 'meta' }, `„${u.povodne}“ → „${u.opravene}“${u.poznamka ? ` (${u.poznamka})` : ''}`))) : [el('p', { class: 'meta' }, 'Korektorka nenavrhla žiadne úpravy. Jazyk skontrolujte sami.')]),
     );
+    // Podozrivé miesta z LanguageTool sa nevykonali samy: návrhy pri preklepoch bývajú zlé.
+    const podozrive = k.podozrive ?? [];
+    if (podozrive.length) {
+      $('kor-upravy').append(
+        el('h3', {}, 'Podozrivé slová na kontrolu'),
+        el('p', { class: 'meta' }, 'LanguageTool ich považuje za možné chyby. Nič sa nezmenilo, posúďte ich sami.'),
+        ...podozrive.map((x: any) =>
+          el('div', { class: 'nalez upozornenie' },
+            el('strong', {}, x.text), ` v poli ${x.pole}`,
+            el('div', { class: 'meta' }, `…${x.kontext}…`),
+            x.navrhy?.length ? el('div', { class: 'meta' }, `Návrhy: ${x.navrhy.join(', ')}`) : '',
+          )),
+      );
+    }
     $('kor-diff').replaceChildren(
       ...String(k.diff || 'Bez zmien.').split('\n').map((r) => el('div', { class: r.startsWith('+') ? 'plus' : r.startsWith('-') ? 'minus' : '' }, r || ' ')),
     );

@@ -88,7 +88,7 @@ Zverejnenie je zablokované, kým je v článku chránený obrázok bez výslovn
 | 4. Factcheck | Extrakcia tvrdení, overenie voči zdrojom, mechanické kontroly, slučka opráv | Hotové: v skúške na zámerne pokazenom článku zachytil 5 z 5 chýb (`pipeline/evaly/factcheck_chyby.py`). Ide o jeden článok, nie o štatistiku |
 | 5. Korektúra a fotky | Korektorka s ochranou čísel a mien, pravidlá pre práva k obrázkom, voľné náhrady z Wikimedia Commons a Openverse | Hotové. Mechanizmus a ochrany fungujú, kvalita jazykových opráv na bezplatných modeloch je slabá, pozri `docs/KOREKTURA-A-OBRAZKY.md` |
 | 6. Redakčné rozhranie | Admin s prihlásením cez GitHub, výmena a generovanie obrázkov, zmena stavu obrázkov editorom, Zverejniť, koncept ako pull request, denný cron | Hotové a overené naostro: 12. 11. 2026 prešli dva články celou cestou od zberu po zverejnenie editorom. Pozri `docs/REDAKCNE-ROZHRANIE.md` |
-| 7. Kvalita | Evaly, ladenie modelov, štatistiky redaktorov, stránka Ako to funguje | Známa miera zásahov editora |
+| 7. Kvalita | Štatistiky redaktorov, miera zásahov editora, stránka Ako to funguje so schémou, box pri článku, korektúra s pevnými pravidlami a LanguageTool, evaly | Hotové: miera zásahov editora je známa (0 % pri 5 článkoch). Pozri `docs/KVALITA.md` |
 | 8. Rozšírenia | Newsletter, sociálne siete, vlastná doména | Podľa priorít |
 
 ## Účty, ktoré treba založiť ručne

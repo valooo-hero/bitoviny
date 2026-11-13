@@ -22,10 +22,11 @@ Projekt je **demonštrácia agentových AI systémov** (LangChain, LangGraph, La
 - [Factcheck](docs/FACTCHECK.md)
 - [Korektúra a obrázky](docs/KOREKTURA-A-OBRAZKY.md)
 - [Redakčné rozhranie a zverejňovanie](docs/REDAKCNE-ROZHRANIE.md)
+- [Kvalita, štatistiky a evaly](docs/KVALITA.md)
 
 ## Stav
 
-Hotové sú Fázy 0 až 6: portál na https://bitoviny.pages.dev, celá redakčná pipeline (zber, písanie, factcheck, korektúra, práva k obrázkom) 
+Hotové sú Fázy 0 až 7: portál na https://bitoviny.pages.dev, celá redakčná pipeline s trasovaním v Langfuse, redakčné rozhranie, denný beh a štatistiky kvality. Ostáva voliteľná Fáza 8 (newsletter, sociálne siete, vlastná doména).
 s trasovaním v Langfuse, redakčné rozhranie a denný beh. Prvé články od agentov schválil a zverejnil editor 12. 11. 2026. 
 Nasleduje Fáza 7 (kvalita a štatistiky).
 

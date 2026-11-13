@@ -23,6 +23,8 @@ Editor dostane v `koncept.korektura` každú úpravu so stavom (`vykonana`, `zam
 - **Bezplatné modely korigujú slabo.** Na texte so známymi chybami („V virtualizovanom“, „klastéri“) našiel Gemini Flash-Lite jednu z dvoch, Qwen na Groq žiadnu a ďalší model vrátil prázdnu úpravu s dôvodom „text je bez chýb“. Mechanizmus a ochrany fungujú, kvalita opráv závisí od modelu. Jazykovú kontrolu musí zatiaľ robiť editor.
 - **Kontrola mien pozná len kmeň slova** (prvé štyri písmená). Preklep v koncovke mena preto prejde.
 
+Od Fázy 7 korektúru dopĺňajú pevné pravidlá a LanguageTool, pozri `docs/KVALITA.md`.
+
 ## Práva k obrázkom
 
 Kód: `pipeline/bitoviny/redakcia/obrazky.py`.

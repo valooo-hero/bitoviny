@@ -2,7 +2,7 @@ from langchain_core.runnables import RunnableLambda
 
 from bitoviny.redakcia.factcheck import Factcheck
 from bitoviny.redakcia.graf import zostav_graf
-from bitoviny.redakcia.korektura import Korektura, Uprava, dovod_zamietnutia, rozdiel, vykonaj
+from bitoviny.redakcia.korektura import Korektura, Uprava, dovod_zamietnutia, languagetool, pevne_pravidla, rozdiel, vykonaj
 from bitoviny.redakcia.modely import Koncept
 from bitoviny.redakcia.obrazky import Alternativa, Dopyty, ocisti_kredit, odporucanie, posud_obrazky, zarad
 
@@ -155,6 +155,7 @@ def test_cely_graf_s_falosnymi_modelmi():
         ])),
         model_fotoeditora=RunnableLambda(lambda _: Dopyty(dopyty=["AMD Epyc server", "server rack"])),
         hladac_obrazkov=hladac,
+        jazykova_sluzba=None,
     )
     v = graf.invoke({"tema": _tema_s_obrazkami()})
     assert v["koncept"].telo.startswith("Vo virtualizovanom") and "145 serveroch" in v["koncept"].telo
@@ -174,8 +175,55 @@ def test_vypadok_korektorky_nezahodi_clanok():
         model_korektury=RunnableLambda(spadne),
         model_fotoeditora=RunnableLambda(spadne),
         hladac_obrazkov=lambda d: [],
+        jazykova_sluzba=None,
     )
     v = graf.invoke({"tema": _tema_s_obrazkami()})
-    assert "neprebehla" in v["korektura"]["chyba"]
-    assert v["koncept"].telo.startswith("V virtualizovanom")  # text ostal nedotknutý
+    assert "neprebehol" in v["korektura"]["chyba"]
+    # Model vypadol, pevné pravidlá aj tak opravili vokalizáciu; ostatný text je nedotknutý.
+    assert v["koncept"].telo.startswith("Vo virtualizovanom") and "tvrdí že" in v["koncept"].telo
     assert v["obrazky"]["dopyty"] == ["AMD", "MEXT"]  # bez modelu sa hľadá podľa tagov
+
+
+# ---------- pevné pravidlá a LanguageTool ----------
+
+
+def test_pevne_pravidla_vokalizacia_a_percento():
+    k = _koncept("V virtualizovanom prostredí s svojim tímom z Slovenska k kolegom, výkon 95% a 3 %.\n\n## Vo vnútri\n\nVo firme s nami.")
+    po, vysledky = vykonaj(k, Korektura(upravy=pevne_pravidla(k)))
+    assert all(v.stav == "vykonana" for v in vysledky)
+    assert po.telo.startswith("Vo virtualizovanom prostredí so svojim tímom zo Slovenska ku kolegom, výkon 95\u00a0% a 3 %.")
+    assert "Vo firme s nami." in po.telo  # „s nami“ sa nemení
+
+
+class _FalosnyLT:
+    def __init__(self, odpovede):
+        self.odpovede = odpovede
+
+    def post(self, url, data, headers):
+        import httpx
+
+        nalezy = self.odpovede.get(data["text"][:12], [])
+        return httpx.Response(200, json={"matches": nalezy}, request=httpx.Request("POST", url))
+
+
+def test_languagetool_spolahlive_pravidla_sa_vykonaju_preklepy_nie():
+    telo = "Smerdon tvrdí že výkon v virtualizovanom prostredí ostáva."
+    k = _koncept(telo)
+    nalezy = [
+        {"offset": telo.index(" že"), "length": 3, "replacements": [{"value": ", že"}], "rule": {"id": "ZE"}, "message": "Dajte čiarku pred že"},
+        {"offset": telo.index("virtualizovanom"), "length": 15, "replacements": [{"value": "aktualizovanom"}], "rule": {"id": "MORFOLOGIK_RULE_SK_SK"}, "message": "Preklep"},
+    ]
+    upravy, podozrive = languagetool(k, klient=_FalosnyLT({telo[:12]: nalezy}))
+    po, vysledky = vykonaj(k, Korektura(upravy=upravy))
+    assert "tvrdí, že" in po.telo and "virtualizovanom" in po.telo
+    assert [p["text"] for p in podozrive] == ["virtualizovanom"]
+
+
+def test_languagetool_vypadok_nic_nezmeni():
+    class Padajuci:
+        def post(self, *a, **kw):
+            import httpx
+
+            raise httpx.ConnectError("nedostupné")
+
+    assert languagetool(_koncept(), klient=Padajuci()) == ([], [])

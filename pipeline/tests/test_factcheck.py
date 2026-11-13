@@ -26,6 +26,7 @@ BEZ_SIETE = dict(
     model_korektury=RunnableLambda(lambda _: Korektura(upravy=[])),
     model_fotoeditora=RunnableLambda(lambda _: Dopyty(dopyty=["server"])),
     hladac_obrazkov=lambda dopyty: [],
+    jazykova_sluzba=None,
 )
 
 

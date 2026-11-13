@@ -16,7 +16,7 @@ from langgraph.graph import END, START, StateGraph
 
 from ..llm import KOREN, model_pre
 from .factcheck import Factcheck, treba_opravit, zostav_nalezy
-from .korektura import Korektura, rozdiel, vykonaj
+from .korektura import Korektura, languagetool, pevne_pravidla, rozdiel, vykonaj
 from .obrazky import Dopyty, hladaj_alternativy, odporucanie, posud_obrazky
 from .modely import Koncept, StavClanku, VyberTem
 
@@ -199,19 +199,34 @@ def clanok_ako_text(k: Koncept) -> str:
     return "\n".join(["<clanok>", f"[titulok] {k.titulok}", "", f"[perex] {k.perex}", "", "[telo]", k.telo, "</clanok>"])
 
 
-def uzol_korektura(model: Any | None = None) -> Callable[[StavClanku], dict]:
+def uzol_korektura(model: Any | None = None, jazykova_sluzba: Callable | None = languagetool) -> Callable[[StavClanku], dict]:
+    """Tri vrstvy: jazykový model, pevné pravidlá a LanguageTool. Každá úprava prejde
+    tou istou kontrolou (čísla, mená, rozsah) a vykoná sa nad textom po predošlej vrstve."""
+
     def korektura(stav: StavClanku) -> dict:
         pred = stav["koncept"]
+        aktualny, vysledky, chyba = pred, [], ""
         try:
             m = model or model_pre("korektura", Korektura)
             navrh: Korektura = m.invoke([SystemMessage(_prompt("korektura")), HumanMessage(clanok_ako_text(pred))])
+            aktualny, vysledky = vykonaj(aktualny, navrh)
         except Exception as e:  # výpadok korektorky nesmie zahodiť overený článok
-            return {"korektura": {"chyba": f"Korektúra neprebehla: {str(e)[:200]}", "upravy": [], "diff": ""}}
-        po, vysledky = vykonaj(pred, navrh)
-        return {
-            "koncept": po,
-            "korektura": {"upravy": [v.model_dump() for v in vysledky], "diff": rozdiel(pred, po)},
+            chyba = f"Jazykový model neprebehol: {str(e)[:200]}"
+
+        aktualny, z_pravidiel = vykonaj(aktualny, Korektura(upravy=pevne_pravidla(aktualny)))
+        z_lt, podozrive = [], []
+        if jazykova_sluzba is not None:
+            upravy_lt, podozrive = jazykova_sluzba(aktualny)
+            aktualny, z_lt = vykonaj(aktualny, Korektura(upravy=upravy_lt))
+
+        vysledok = {
+            "upravy": [v.model_dump() for v in [*vysledky, *z_pravidiel, *z_lt]],
+            "podozrive": podozrive,
+            "diff": rozdiel(pred, aktualny),
         }
+        if chyba:
+            vysledok["chyba"] = chyba
+        return {"koncept": aktualny, "korektura": vysledok}
 
     return korektura
 
@@ -245,6 +260,7 @@ def uzol_fotoeditor(model: Any | None = None, hladac: Callable[[list[str]], list
 
 def zostav_graf(
     model_autorky: Any | None = None,
+    jazykova_sluzba: Callable | None = languagetool,
     model_factchecku: Any | None = None,
     model_korektury: Any | None = None,
     model_fotoeditora: Any | None = None,
@@ -254,7 +270,7 @@ def zostav_graf(
     g.add_node("autorka", uzol_autorka(model_autorky))
     g.add_node("factcheck", uzol_factcheck(model_factchecku))
     g.add_node("oprava", uzol_oprava(model_autorky))
-    g.add_node("korektura", uzol_korektura(model_korektury))
+    g.add_node("korektura", uzol_korektura(model_korektury, jazykova_sluzba))
     g.add_node("fotoeditor", uzol_fotoeditor(model_fotoeditora, hladac_obrazkov))
     g.add_edge(START, "autorka")
     g.add_edge("autorka", "factcheck")
