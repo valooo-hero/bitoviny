@@ -1,0 +1,452 @@
+{
+  "slug": "google-uvadza-model-gemini-4-hydrogen-s-dorazom-na-rychlost",
+  "datum_sprav": "2026-11-12",
+  "dovod_vyberu": "Google predstavuje Gemini 4 Hydrogen, významný krok v AI, ktorý môže ovplyvniť vývoj a adopciu generatívnych modelov v Európe.",
+  "poznamky_pre_editora": "Opravené podľa nálezu factcheckera: 1) V poslednej vete sekcie Dostupnosť a integrácia vypustená zmienka o používateľoch v Európskej únii – zdroje (TechCrunch) uvádzajú len celosvetové zavádzanie aktualizácie Search, EÚ špecificky nespomínajú. Veta teraz znie: „Aktualizácia sa postupne zavádza pre používateľov vyhľadávania po celom svete.“ Ostatné časti konceptu bez zmeny.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept článku je plne spoľahlivý a presný, pričom všetky uvedené faktické tvrdenia majú priamu oporu vo vložených zdrojoch. V texte sa nevyskytujú žiadne nepresnosti, vymyslené údaje ani rozporuplné informácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 15,
+        "potvrdenych": 14,
+        "chyb": 1,
+        "upozorneni": 1
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 19,
+        "potvrdenych": 19,
+        "chyb": 0,
+        "upozorneni": 2
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "Robby Stein je viceprezident pre produkt v Google Search.",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „Robby Stein, VP of product at Google Search, says it’s ‘the biggest model upgrade to Search yet.’“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      },
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "Robby Stein označil zmenu za doteraz najväčšie vylepšenie vyhľadávania.",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „Robby Stein, VP of product at Google Search, says it’s ‘the biggest model upgrade to Search yet.’“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Google uvádza model Gemini 4 Hydrogen s dôrazom na rýchlosť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Google announces Gemini 4 Hydrogen with ‘significant leaps’ in speed, intelligence",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nový model umelej inteligencie nahradil doterajší rad Flash a prináša výrazné zlepšenia do vyhľadávania aj aplikácií.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "unveiled Gemini 4 Hydrogen instead of keeping the “Flash” branding.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť Google oznámila vydanie nového modelu umelej inteligencie s názvom Gemini 4 Hydrogen.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Google today unveiled Gemini 4 Hydrogen",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Novinka nahradila doterajšie označenie „Flash“ a prináša podstatný skok v rýchlosti aj celkovej inteligencii systému.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "significant leaps in both speed and intelligence",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Model je navrhnutý tak, aby priniesol špičkové schopnosti širšiemu okruhu používateľov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "bringing “cutting-edge intelligence to everyone.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Model priamo nahrádza starší variant Gemini 3.8 Flash v celej ponuke produktov spoločnosti.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "This model has replaced Gemini 3.8 Flash across the company's products.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Google Search prechádza zmenou, kde sa Hydrogen stal novým predvoleným modelom pre AI Mode.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "now the new default model in AI Mode",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Robby Stein je viceprezident pre produkt v Google Search.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Robby Stein, VP of product at Google Search, says it’s ‘the biggest model upgrade to Search yet.’",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Robby Stein označil zmenu za doteraz najväčšie vylepšenie vyhľadávania.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Robby Stein, VP of product at Google Search, says it’s ‘the biggest model upgrade to Search yet.’",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Systém dokáže lepšie spracovať zložité dotazy obsahujúce viacero častí, špecifické požiadavky či nejasné preklepy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "questions with multiple parts, hard-to-understand typos, or highly specific requests",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vyhľadávanie generuje vizuálnejšie odpovede vrátane obrázkov, porovnávacích tabuliek či grafov a ponúka širšiu škálu relevantných odkazov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Its responses have more visuals, too, like images, comparison tables, graphs, and maps.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Hydrogen dosahuje pri predvolenom nastavení 2,5-násobne vyššiu rýchlosť pri plnení úloh v porovnaní s modelom 3.8 Flash.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "tasks 2.5 times faster at its high default setting",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Počet vymyslených tvrdení klesol viac než päťnásobne.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "fabricated claims by more than 5x",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Model funguje v štyroch úrovniach uvažovania: nízka, stredná, vysoká a nová úroveň „xhigh“.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "four thinking levels (low, medium, high, and the new xhigh)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri najvyššom nastavení dokáže Hydrogen v Artificial Analysis Intelligence Index prekonať model Argon.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "managed a score of 54 in the popular Artificial Analysis Intelligence Index with xhigh mode versus 50 for Argon.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Model je dostupný v aplikácii Gemini, Google AI Studio, Gemini API a Google Antigravity pre predplatiteľov AI Pro a Ultra.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "available starting today in search, the Gemini app, all tiers of Google AI Studio",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Bezplatní používatelia aplikácie získavajú k modelu prístup prostredníctvom automatického výberu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Free users in the Gemini app get access to Hydrogen via the “[Auto] model selection",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Cena pre vývojárov je 1,50 USD za milión vstupných tokenov a 7,50 USD za milión výstupných tokenov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Hydrogen costs $1.50 per million input tokens and $7.50 per million output tokens.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Aktualizácia sa zavádza pre používateľov vyhľadávania po celom svete.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Google says the Hydrogen update is rolling out to all Search users globally.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "povodny",
+      "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/gemini-4-hydrogen_benchmarks.png",
+      "poznamka": "Pravdepodobne tlačový materiál. Editor musí potvrdiť pôvod."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/gemini-4-hydrogen_benchmarks.png",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "Hydrogen compared to the mid-tier options from OpenAI and Anthropic.",
+        "kredit": "Credit:\n\n          \n          Google",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (Google): pravdepodobne tlačový materiál."
+      },
+      {
+        "url": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/Gemini-4-Hydrogen-cover.jpg?quality=82&strip=all&w=800",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "",
+        "kredit": "google",
+        "licencia": "google",
+        "zaradenie": "nejasne",
+        "dovod": "Rozhodnutie editora: google",
+        "automaticke_zaradenie": "nejasne",
+        "automaticky_dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené.",
+        "rozhodol_editor": {
+          "kto": "valooo-hero",
+          "kedy": "2026-11-13T09:52:27Z"
+        }
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/d8da06fcba2b80ec1f2d301d7376dae8e055ac48d88994a8042b1d6b2c352534?s=96&d=mm&r=r",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Abner Li",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/Gemini-4-Hydrogen-cover.jpg?quality=82&strip=all&w=1600",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/11/hydrogen-at-2.01.42-PM.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/16d23d1acf41600294bf8b07d8b50f14f44415d88f76bf0ab725ad5405e748ca?s=96&d=identicon&r=g",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Sarah Perez",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25290329/STK255_Google_Gemini_A.jpg?quality=90&strip=all&crop=0,9.9676601489831,100,80.064679702034",
+        "zdroj_clanku": "The Verge",
+        "alt": "Vector illustration of the Google Gemini logo.",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-6-1152x648.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Aurich Lawson",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Aurich Lawson."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-6-500x500.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Aurich Lawson",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Aurich Lawson."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/11/hydrogen-at-2.02.07-PM.jpg?w=680",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Image Credits: Google",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: s: Google."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/11/hydrogen-at-2.02.20-PM.jpg?w=680",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Image Credits: Google",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: s: Google."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-12-at-2.04.25-PM.jpg?w=680",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Image Credits: Google",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: s: Google."
+      }
+    ],
+    "dopyty": [
+      "Google Gemini logo",
+      "AI server rack",
+      "data center"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Google_Gemini_screenshot.png/1280px-Google_Gemini_screenshot.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Google_Gemini_screenshot.png/1280px-Google_Gemini_screenshot.png",
+        "nazov": "Google Gemini screenshot.png",
+        "autor": "Google",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Google_Gemini_screenshot.png",
+        "povod": "wikimedia",
+        "dopyt": "Google Gemini logo"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Gemini-Bard.png",
+        "nahlad": "https://api.openverse.org/v1/images/ecec8490-ae12-4515-a320-de5abf02b6bd/thumb/",
+        "nazov": "Google Gemini-Bard",
+        "autor": "Google",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=145179215",
+        "povod": "openverse",
+        "dopyt": "Google Gemini logo"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Sparkles_Beckett_LeClair_Better_Images_of_AI.png/1280px-Sparkles_Beckett_LeClair_Better_Images_of_AI.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Sparkles_Beckett_LeClair_Better_Images_of_AI.png/1280px-Sparkles_Beckett_LeClair_Better_Images_of_AI.png",
+        "nazov": "Sparkles Beckett LeClair Better Images of AI.png",
+        "autor": "Beckett LeClair",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Sparkles_Beckett_LeClair_Better_Images_of_AI.png",
+        "povod": "wikimedia",
+        "dopyt": "AI server rack"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Sparkles_Beckett_LeClair_Better_Images_of_AI.png",
+        "nahlad": "https://api.openverse.org/v1/images/3a411dfb-cd88-47b1-bce4-e617a873b946/thumb/",
+        "nazov": "Sparkles Beckett LeClair Better Images of AI",
+        "autor": "Beckett LeClair",
+        "licencia": "BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=182489025",
+        "povod": "openverse",
+        "dopyt": "AI server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/1280px-Virginia_Tech_-_data_center.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/1280px-Virginia_Tech_-_data_center.jpg",
+        "nazov": "Virginia Tech - data center.jpg",
+        "autor": "Christopher Bowns",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Virginia_Tech_-_data_center.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center"
+      },
+      {
+        "url": "https://live.staticflickr.com/6156/6205315211_fe458e509e_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/ace73214-3ddb-4fba-92bd-12b15dd2d911/thumb/",
+        "nazov": "Mediq Utrecht Data center Gwan Kho",
+        "autor": "Gwan Kho",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/43669498@N05/6205315211",
+        "povod": "openverse",
+        "dopyt": "data center"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Google_Gemini_Please_die._message.png",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/4/49/Google_Gemini_Please_die._message.png",
+        "nazov": "Google Gemini Please die. message.png",
+        "autor": "Gemini",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Google_Gemini_Please_die._message.png",
+        "povod": "wikimedia",
+        "dopyt": "Google Gemini logo"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Wright_Eclipse_Gemini%2C_Volvo_B9TL_-_First_West_Yorkshire_%28Halifax%29%2C_YJ58_GMO%2C_37361.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/ff675293-58a8-4e20-888c-b0960c78d13a/thumb/",
+        "nazov": "Wright Eclipse Gemini, Volvo B9TL - First West Yorkshire (Halifax), YJ58 GMO, 37361",
+        "autor": "Cardinator25",
+        "licencia": "BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=188948880",
+        "povod": "openverse",
+        "dopyt": "Google Gemini logo"
+      }
+    ],
+    "prompt_ilustracie": "Ilustračný obrázok, vytvorené AI: abstraktné vizualizácia rýchleho digitálneho vyhľadávania – farebné dátové prúdy a sieť prepojení na tmavom podklade, bez log a bez zobrazenia reálnych osôb."
+  },
+  "prompt_ilustracie": "Ilustračný obrázok, vytvorené AI: abstraktné vizualizácia rýchleho digitálneho vyhľadávania – farebné dátové prúdy a sieť prepojení na tmavom podklade, bez log a bez zobrazenia reálnych osôb.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/c578528653f4283ad577358d19d02de1"
+}
