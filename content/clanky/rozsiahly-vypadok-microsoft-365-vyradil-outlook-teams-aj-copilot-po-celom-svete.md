@@ -3,33 +3,34 @@ title: Rozsiahly výpadok Microsoft 365 vyradil Outlook, Teams aj Copilot po cel
 perex: Služby spoločnosti Microsoft čelia rozsiahlemu globálnemu výpadku. Používatelia z celého sveta hlásia nedostupnosť e-mailov, správ a cloudových nástrojov.
 sekcia: softver
 tagy:
-- Microsoft
-- Outlook
-- Teams
-- výpadok
-- technológie
-publikovane: '2026-11-13T03:39:49+00:00'
+  - Microsoft
+  - Outlook
+  - Teams
+  - výpadok
+  - technológie
+publikovane: 2026-11-13T03:39:49+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/rozsiahly-vypadok-microsoft-365-vyradil-outlook-teams-aj-copilot-po-celom-svete.jpg
+  alt: Building92microsoft
+  popisok: Building92microsoft
+  kredit: Coolcaesar / Wikimedia Commons
+  licencia: CC BY-SA 4.0
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'BleepingComputer: Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide'
-  url: https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/
-- nazov: 'Wired: Major Microsoft Outlook Outage Leaves People With Email Jobs Unable to Email'
-  url: https://www.wired.com/story/major-microsoft-outlook-outage-hits-365-customers-north-america/
-- nazov: 'Engadget: Multiple Microsoft 365 services are experiencing an outage'
-  url: https://www.engadget.com/2315259/multiple-microsoft-365-services-are-experiencing-an-outage/
-- nazov: 'TechCrunch: Microsoft’s Outlook email hit by new outage'
-  url: https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/
-- nazov: '9to5Mac: Microsoft Outlook experiencing widespread outage'
-  url: https://9to5mac.com/2026/11/12/microsoft-outlook-experiencing-widespread-outage/
+  - nazov: "BleepingComputer: Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide"
+    url: https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/
+  - nazov: "Wired: Major Microsoft Outlook Outage Leaves People With Email Jobs Unable to Email"
+    url: https://www.wired.com/story/major-microsoft-outlook-outage-hits-365-customers-north-america/
+  - nazov: "Engadget: Multiple Microsoft 365 services are experiencing an outage"
+    url: https://www.engadget.com/2315259/multiple-microsoft-365-services-are-experiencing-an-outage/
+  - nazov: "TechCrunch: Microsoft’s Outlook email hit by new outage"
+    url: https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/
+  - nazov: "9to5Mac: Microsoft Outlook experiencing widespread outage"
+    url: https://9to5mac.com/2026/11/12/microsoft-outlook-experiencing-widespread-outage/
 ---
 
 Vo štvrtok zasiahol používateľov služieb Microsoft 365 rozsiahly globálny výpadok, ktorý vyradil z prevádzky kľúčové pracovné nástroje. Problémy hlásia používatelia po celom svete, kde firmy aj jednotlivci využívajú cloudový balík na dennú prácu.
