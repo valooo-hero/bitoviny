@@ -1,26 +1,27 @@
 ---
-title: 'SKÚŠOBNÝ KONCEPT: nezverejňovať, slúži na test obrázkov'
+title: "SKÚŠOBNÝ KONCEPT: nezverejňovať, slúži na test obrázkov"
 perex: Používatelia iPhonov môžu teraz využívať umelú inteligenciu Gemini priamo cez rozhranie Apple CarPlay vrátane podpory pre Gemini Live.
 sekcia: mobil
 tagy:
-- Google
-- Gemini
-- Apple CarPlay
-- iOS
-publikovane: '2026-11-13T10:29:54+00:00'
+  - Google
+  - Gemini
+  - Apple CarPlay
+  - iOS
+publikovane: 2026-11-13T10:29:54+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/skusobny-koncept-obrazky-mweu6fg3.jpg
+  alt: Rozhranie Apple CarPlay na displeji auta.
+  popisok: Rozhranie Apple CarPlay na displeji auta.
+  kredit: PascalHD / Wikimedia Commons
+  licencia: Public domain
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Engadget: Google brings the Gemini app to Apple CarPlay'
-  url: https://www.engadget.com/2314093/google-brings-the-gemini-app-to-apple-carplay/
+  - nazov: "Engadget: Google brings the Gemini app to Apple CarPlay"
+    url: https://www.engadget.com/2314093/google-brings-the-gemini-app-to-apple-carplay/
 ---
 
 Spoločnosť Google oznámila rozšírenie dostupnosti svojej umelej inteligencie a prináša aplikáciu Gemini priamo do systému Apple CarPlay. Ako informoval portál Engadget, četbot bol doteraz pre používateľov jablčných zariadení dostupný iba nepriamo prostredníctvom aplikácie Google Maps. Nová aktualizácia prináša samostatnú ikonu na displeji auta a sprístupňuje funkciu Gemini Live pre všetky podporované jazyky.
