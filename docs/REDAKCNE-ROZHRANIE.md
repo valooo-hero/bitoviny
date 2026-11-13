@@ -81,6 +81,7 @@ Do súboru `.dev.vars` (je v `.gitignore`) patrí `ADMIN_DEV_BYPASS=1` a `GITHUB
 - Pri použití voľnej náhrady, obrázka zo zdroja alebo vygenerovanej ilustrácie editor zvolí umiestnenie: titulný (nahradí doterajší) alebo ďalší obrázok pod textom.
 - Na karte Obrázok je zoznam obrázkov článku. Pri každom sa dá zmeniť popisok, odstrániť ho alebo ho nastaviť ako titulný. Doterajší titulný sa vtedy presunie medzi ostatné.
 - Po odstránení titulného sa titulným stane prvý z ostatných. Ak žiadny nie je, článok sa vráti k zástupnému obrázku a nedá sa zverejniť.
+- **Vlastný obrázok** sa dá nahrať vždy, pri koncepte aj pri zverejnenom článku: JPEG, PNG alebo WebP do 6 MB. Typ súboru sa overuje podľa jeho obsahu, nie podľa názvu. Autor a licencia sú povinné, lebo za pôvod a práva ručí editor.
 - Každý obrázok má vlastný súbor `public/obrazky/<slug>-<kód>.<prípona>`. Súbor odstráneného alebo nahradeného obrázka sa z vetvy zmaže.
 
 ## Zverejnené články
@@ -89,13 +90,13 @@ Pod zoznamom konceptov je zoznam všetkých článkov na webe. Po otvorení sa d
 
 - **Úprava** sa zapíše priamo do vetvy `main` a web sa znovu zostaví. Článok dostane označenie „Aktualizované“ s časom. Nepovinná poznámka k oprave sa zobrazí pod článkom a na stránke Opravy.
 - **Stiahnutie zo zverejnenia** nastaví v článku príznak `stiahnute`. Web ho prestane zobrazovať na všetkých stránkach vrátane RSS a vyhľadávania. Súbor ostáva v repozitári a článok sa dá tlačidlom vrátiť.
-- Stiahnutý článok nie je vymazaný: text, obrázok aj história úprav ostávajú verejne dostupné v repozitári na GitHube.
-- Obrázky zverejneného článku sa v rozhraní zatiaľ meniť nedajú.
+- Stiahnutý článok nie je vymazaný: text, obrázok aj história úprav ostávajú verejne dostupné v repozitári na GitHube. Súbory obrázkov ostávajú dostupné aj na webe pod svojou priamou adresou.
+- **Obrázky** sa dajú meniť rovnako ako pri koncepte, aj keď je článok zverejnený alebo stiahnutý. Redakčná správa s voľnými náhradami, obrázkami zo zdrojov a promptom autorky sa pri zverejnení ukladá do `redakcia/spravy/<slug>.json` a ostáva k článku natrvalo.
+- **Stiahnutý článok má na svojej adrese oznam** „Článok bol stiahnutý“. Samotné odstránenie stránky nestačí: Cloudflare Pages podáva zmazané stránky z vyrovnávacej pamäte ešte až týždeň. Nová stránka na tej istej adrese starú kópiu nahradí.
 
 Zoznam zverejnených článkov je statický súbor `/admin/clanky.json`, ktorý vzniká pri zostavení webu. Po zmene sa preto aktualizuje až o minútu.
 
 ## Čo zatiaľ chýba
 
 - Vrátiť článok agentom s komentárom. Editor zatiaľ môže text upraviť sám alebo koncept zahodiť.
-- Nahranie vlastného obrázka z disku.
-- Zmena obrázkov pri už zverejnenom článku.
+- Zmenšovanie a orezávanie nahraných obrázkov. Ukladajú sa v pôvodnej veľkosti.
