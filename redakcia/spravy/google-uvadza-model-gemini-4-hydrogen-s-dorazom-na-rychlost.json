@@ -240,13 +240,13 @@
         "popisok": "",
         "kredit": "google",
         "licencia": "google",
-        "zaradenie": "nejasne",
-        "dovod": "Rozhodnutie editora: google",
+        "zaradenie": "tlacove",
+        "dovod": "Rozhodnutie editora: google google",
         "automaticke_zaradenie": "nejasne",
         "automaticky_dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené.",
         "rozhodol_editor": {
           "kto": "valooo-hero",
-          "kedy": "2026-11-13T12:05:35Z"
+          "kedy": "2026-11-13T12:06:20Z"
         }
       },
       {
