@@ -22,13 +22,6 @@ redaktori:
 zdroje:
   - nazov: "Engadget: Google brings the Gemini app to Apple CarPlay"
     url: https://www.engadget.com/2314093/google-brings-the-gemini-app-to-apple-carplay/
-galeria:
-  - src: /obrazky/skusobny-koncept-obrazky-mweu6fg3.jpg
-    alt: Rozhranie Apple CarPlay na displeji auta.
-    popisok: Rozhranie Apple CarPlay na displeji auta.
-    kredit: PascalHD / Wikimedia Commons
-    licencia: Public domain
-    ai: false
 ---
 
 Spoločnosť Google oznámila rozšírenie dostupnosti svojej umelej inteligencie a prináša aplikáciu Gemini priamo do systému Apple CarPlay. Ako informoval portál Engadget, četbot bol doteraz pre používateľov jablčných zariadení dostupný iba nepriamo prostredníctvom aplikácie Google Maps. Nová aktualizácia prináša samostatnú ikonu na displeji auta a sprístupňuje funkciu Gemini Live pre všetky podporované jazyky.
