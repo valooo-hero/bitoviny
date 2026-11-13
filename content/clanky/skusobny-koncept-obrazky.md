@@ -36,8 +36,6 @@ galeria:
     kredit: Bitoviny
     licencia: vlastná ilustrácia
     ai: false
-stiahnute: true
-stiahnute_kedy: 2026-11-13T10:49:21Z
 aktualizovane: 2026-11-13T12:02:47Z
 ---
 
