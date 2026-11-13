@@ -12,7 +12,8 @@ export async function vsetkyClanky() {
   const clanky = (await getCollection('clanky')).filter((c) => {
     const jeKoncept =
       c.data.obrazok.src === ZASTUPNY_OBRAZOK || (c.data.redaktori !== undefined && !c.data.redaktori.schvalil);
-    return !(SKRY_KONCEPTY && jeKoncept);
+    // Stiahnutý článok sa nezobrazí nikde, ani v náhľadoch.
+    return !c.data.stiahnute && !(SKRY_KONCEPTY && jeKoncept);
   });
   return clanky.sort((a, b) => b.data.publikovane.getTime() - a.data.publikovane.getTime());
 }

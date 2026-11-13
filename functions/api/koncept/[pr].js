@@ -1,6 +1,7 @@
-import { bezHtml, overTexty, rozdel, zloz } from '../../../functions-lib/clanok.js';
+import { rozdel, zloz } from '../../../functions-lib/clanok.js';
 import { GitHub, ZASTUPNY_OBRAZOK } from '../../../functions-lib/github.js';
 import { chyba } from '../../../functions-lib/pristup.js';
+import { spracujVstup, zapisDoHlavicky } from '../../../functions-lib/uprava.js';
 
 function cisloPr(params) {
   const n = Number(params.pr);
@@ -34,21 +35,14 @@ export async function onRequestGet({ env, params, data }) {
 
 // Úprava textu editorom.
 export async function onRequestPut({ env, params, request, data }) {
-  const vstup = await request.json();
-  const texty = {
-    titulok: bezHtml(vstup.titulok).trim(),
-    perex: bezHtml(vstup.perex).trim(),
-    telo: bezHtml(vstup.telo).trim(),
-  };
-  const chyby = overTexty(texty);
-  if (chyby.length) return chyba(400, chyby.join(' '));
+  const vysledok = spracujVstup(await request.json());
+  if (vysledok.chyby) return chyba(400, vysledok.chyby.join(' '));
 
   const gh = new GitHub(env, data.token);
   const k = await gh.koncept(cisloPr(params));
   const subor = await gh.subor(k.clanok, k.vetva);
   const { hlavicka } = rozdel(subor.text);
-  hlavicka.title = texty.titulok;
-  hlavicka.perex = texty.perex;
-  await gh.zapisText(k.clanok, k.vetva, zloz(hlavicka, texty.telo), 'Úprava textu editorom', subor.sha);
+  zapisDoHlavicky(hlavicka, vysledok.polia);
+  await gh.zapisText(k.clanok, k.vetva, zloz(hlavicka, vysledok.polia.telo), 'Úprava konceptu editorom', subor.sha);
   return Response.json({ ok: true });
 }

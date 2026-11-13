@@ -20,8 +20,12 @@ import Base from '../../layouts/Base.astro';
     </section>
 
     <div id="redakcia-obsah" hidden>
-    <section id="zoznam" aria-label="Koncepty">
-      <p class="meta">Načítavam koncepty…</p>
+    <section id="zoznam">
+      <h2 class="nadpis-bloku">Koncepty na schválenie</h2>
+      <div id="zoznam-koncepty"><p class="meta">Načítavam koncepty…</p></div>
+      <h2 class="nadpis-bloku">Zverejnené články</h2>
+      <p class="meta">Zoznam sa po zmene aktualizuje až po zostavení webu, zhruba o minútu.</p>
+      <div id="zoznam-zverejnene"><p class="meta">Načítavam články…</p></div>
     </section>
 
     <section id="detail" hidden>
@@ -46,7 +50,28 @@ import Base from '../../layouts/Base.astro';
             <label>Telo článku (Markdown)
               <textarea id="telo" name="telo" rows="22" required></textarea>
             </label>
-            <button class="tl hlavne" type="submit">Uložiť text</button>
+            <label>Sekcia
+              <select id="sekcia">
+                <option value="ai">AI</option>
+                <option value="bezpecnost">Bezpečnosť</option>
+                <option value="hardver">Hardvér</option>
+                <option value="mobil">Mobil</option>
+                <option value="softver">Softvér a vývoj</option>
+                <option value="veda">Veda a vesmír</option>
+                <option value="biznis">Biznis</option>
+                <option value="slovensko-eu">Slovensko a EÚ</option>
+              </select>
+            </label>
+            <label>Tagy (oddelené čiarkou)
+              <input id="tagy" maxlength="300" />
+            </label>
+            <label>Zdroje (jeden na riadok v tvare: Názov | adresa)
+              <textarea id="zdroje" rows="4" required placeholder="Ars Technica: Titulok článku | https://arstechnica.com/..."></textarea>
+            </label>
+            <label id="oprava-obal" hidden>Poznámka k oprave (nepovinná, zobrazí sa pod článkom a na stránke Opravy)
+              <input id="oprava" maxlength="500" placeholder="napr. Opravili sme počet serverov z 450 na 145." />
+            </label>
+            <button id="ulozit-text" class="tl hlavne" type="submit">Uložiť</button>
           </form>
           <div>
             <h2 class="nadpis-bloku">Náhľad</h2>
@@ -113,7 +138,17 @@ import Base from '../../layouts/Base.astro';
         <pre id="kor-diff" class="diff"></pre>
       </div>
 
-      <div class="zverejnenie">
+      <div class="zverejnenie" id="blok-zverejneny" hidden>
+        <p id="stav-zverejnenia"></p>
+        <div class="riadok">
+          <button id="stiahnut" class="tl nebezpecne" type="button">Stiahnuť zo zverejnenia</button>
+          <button id="vratit" class="tl hlavne" type="button">Vrátiť na web</button>
+          <a id="clanok-odkaz" class="meta" target="_blank" rel="noopener">Otvoriť článok na webe</a>
+        </div>
+        <p class="meta">Stiahnutý článok ostáva v repozitári a dá sa vrátiť. Jeho obrázok a história úprav ostávajú verejne dostupné na GitHube.</p>
+      </div>
+
+      <div class="zverejnenie" id="blok-koncept">
         <ul id="prekazky"></ul>
         <label class="potvrdenie">
           <input type="checkbox" id="potvrdenie" />
@@ -287,12 +322,12 @@ import Base from '../../layouts/Base.astro';
   // ---------- zoznam ----------
 
   async function nacitajZoznam() {
-    const z = $('zoznam');
+    const z = $('zoznam-koncepty');
     z.replaceChildren(el('p', { class: 'meta' }, 'Načítavam koncepty…'));
     try {
       const { koncepty } = await api('/api/koncepty');
-      if (!koncepty.length) return z.replaceChildren(el('p', {}, 'Žiadny koncept nečaká na schválenie.'));
-      z.replaceChildren(
+      if (!koncepty.length) z.replaceChildren(el('p', {}, 'Žiadny koncept nečaká na schválenie.'));
+      else z.replaceChildren(
         ...koncepty.map((k: any) =>
           el('div', { class: 'koncept-riadok' },
             el('button', { type: 'button', onclick: () => otvor(k.pr) }, k.titulok),
@@ -304,14 +339,40 @@ import Base from '../../layouts/Base.astro';
       z.replaceChildren();
       hlas(e.message, true);
     }
+    nacitajZverejnene();
+  }
+
+  // Zoznam článkov vzniká pri zostavení webu (statický súbor), preto je bez volania API.
+  async function nacitajZverejnene() {
+    const z = $('zoznam-zverejnene');
+    try {
+      const { clanky } = await fetch(`/admin/clanky.json?t=${Date.now()}`).then((r) => r.json());
+      z.replaceChildren(
+        ...clanky.map((c: any) =>
+          el('div', { class: 'koncept-riadok' },
+            el('button', { type: 'button', onclick: () => otvorZverejneny(c.slug) }, c.titulok),
+            el('span', { class: 'meta' },
+              c.stiahnute ? el('span', { class: 'znacka chranene' }, 'stiahnuté') : '',
+              c.vzorovy ? el('span', { class: 'znacka upozornenie' }, 'vzorový') : '',
+              ` ${new Date(c.publikovane).toLocaleDateString('sk-SK')}`,
+            ),
+          ),
+        ),
+      );
+    } catch {
+      z.replaceChildren(el('p', { class: 'meta' }, 'Zoznam článkov sa nepodarilo načítať.'));
+    }
   }
 
   // ---------- detail ----------
 
-  async function otvor(pr: number) {
-    hlas('Načítavam koncept…');
+  // Koncept sa číta a zapisuje cez pull request, zverejnený článok priamo vo vetve main.
+  const adresa = () => (stav.zverejneny ? `/api/clanok/${stav.slug}` : `/api/koncept/${stav.pr}`);
+
+  async function otvorDetail(cesta: string, hash: string) {
+    hlas('Načítavam…');
     try {
-      stav = await api(`/api/koncept/${pr}`);
+      stav = await api(cesta);
     } catch (e: any) {
       return hlas(e.message, true);
     }
@@ -323,15 +384,51 @@ import Base from '../../layouts/Base.astro';
     $('gen-krok2').hidden = $('gen-vysledok').hidden = true;
     vykresli();
     prepniKartu('clanok');
-    history.replaceState(null, '', `#${pr}`);
+    history.replaceState(null, '', hash);
   }
+  const otvor = (pr: number) => otvorDetail(`/api/koncept/${pr}`, `#${pr}`);
+  const otvorZverejneny = (slug: string) => otvorDetail(`/api/clanok/${slug}`, `#clanok/${slug}`);
+
+  const zdrojeNaText = (zdroje: any[]) => (zdroje ?? []).map((z) => `${z.nazov} | ${z.url}`).join('\n');
+  function zdrojeZTextu(text: string) {
+    return text.split('\n').map((r) => r.trim()).filter(Boolean).map((r) => {
+      const i = r.lastIndexOf('|');
+      return i < 0 ? { nazov: '', url: r } : { nazov: r.slice(0, i).trim(), url: r.slice(i + 1).trim() };
+    });
+  }
+  const hodnota = (id: string) => ($(id) as HTMLInputElement).value;
+  // Odtlačok formulára: podľa neho sa pozná, či sú v ňom neuložené zmeny.
+  const odtlacok = () => JSON.stringify(['titulok', 'perex', 'telo', 'sekcia', 'tagy', 'zdroje'].map((id) => hodnota(id).trim()));
+  let ulozenyOdtlacok = '';
 
   function vykresli() {
     const { hlavicka, telo, sprava } = stav;
     ($('titulok') as HTMLInputElement).value = hlavicka.title;
     ($('perex') as HTMLTextAreaElement).value = hlavicka.perex;
     ($('telo') as HTMLTextAreaElement).value = telo;
-    ($('pr-odkaz') as HTMLAnchorElement).href = stav.prUrl;
+    ($('sekcia') as HTMLSelectElement).value = hlavicka.sekcia;
+    ($('tagy') as HTMLInputElement).value = (hlavicka.tagy ?? []).join(', ');
+    ($('zdroje') as HTMLTextAreaElement).value = zdrojeNaText(hlavicka.zdroje);
+    ($('oprava') as HTMLInputElement).value = '';
+    ulozenyOdtlacok = odtlacok();
+
+    // Zverejnený článok: úpravy idú rovno na web, obrázok a redakčná správa sa tu nemenia.
+    const zv = Boolean(stav.zverejneny);
+    $('oprava-obal').hidden = !zv;
+    $('blok-koncept').hidden = zv;
+    $('blok-zverejneny').hidden = !zv;
+    $('ulozit-text').textContent = zv ? 'Uložiť zmeny na web' : 'Uložiť';
+    document.querySelectorAll<HTMLElement>('.karta-tl').forEach((t) => (t.hidden = zv && t.dataset.karta !== 'clanok'));
+    if (zv) {
+      const stiahnute = hlavicka.stiahnute === true;
+      $('stav-zverejnenia').textContent = stiahnute ? 'Článok je stiahnutý zo zverejnenia. Na webe sa nezobrazuje.' : 'Článok je zverejnený.';
+      $('stiahnut').hidden = stiahnute;
+      $('vratit').hidden = !stiahnute;
+      ($('clanok-odkaz') as HTMLAnchorElement).href = `/clanok/${stav.slug}/`;
+      $('clanok-odkaz').hidden = stiahnute;
+    } else {
+      ($('pr-odkaz') as HTMLAnchorElement).href = stav.prUrl;
+    }
     nahlad();
     vykresliPoznamky(sprava);
     vykresliObrazky();
@@ -526,21 +623,42 @@ import Base from '../../layouts/Base.astro';
   for (const id of ['titulok', 'perex', 'telo']) $(id).addEventListener('input', nahlad);
   $('form-text').addEventListener('submit', (e) => {
     e.preventDefault();
-    pracuj((e.target as HTMLFormElement).querySelector('button'), 'Ukladám…', async () => {
-      await api(`/api/koncept/${stav.pr}`, 'PUT', {
-        titulok: ($('titulok') as HTMLInputElement).value,
-        perex: ($('perex') as HTMLTextAreaElement).value,
-        telo: ($('telo') as HTMLTextAreaElement).value,
+    if (stav.zverejneny && !confirm('Uložiť zmeny priamo na verejný web?')) return;
+    pracuj($('ulozit-text') as HTMLButtonElement, 'Ukladám…', async () => {
+      await api(adresa(), 'PUT', {
+        titulok: hodnota('titulok'),
+        perex: hodnota('perex'),
+        telo: hodnota('telo'),
+        sekcia: hodnota('sekcia'),
+        tagy: hodnota('tagy').split(',').map((t) => t.trim()).filter(Boolean),
+        zdroje: zdrojeZTextu(hodnota('zdroje')),
+        ...(stav.zverejneny ? { oprava: hodnota('oprava') } : {}),
       });
-      stav = await api(`/api/koncept/${stav.pr}`);
-      hlas('Text je uložený.');
+      const bolZverejneny = stav.zverejneny;
+      stav = await api(adresa());
+      vykresli();
+      hlas(bolZverejneny ? 'Zmeny sú uložené. Na webe sa objavia po zostavení, zhruba o minútu.' : 'Koncept je uložený.');
     });
   });
+
+  // Stiahnutie zverejneného článku a jeho vrátenie.
+  const zmenZverejnenie = (stiahnut: boolean) => (e: Event) => {
+    const otazka = stiahnut ? `Stiahnuť článok „${stav.hlavicka.title}“ z verejného webu?` : `Vrátiť článok „${stav.hlavicka.title}“ na verejný web?`;
+    if (!confirm(otazka)) return;
+    pracuj(e.currentTarget as HTMLButtonElement, 'Ukladám…', async () => {
+      await api(`${adresa()}/stiahnut`, 'POST', { stiahnut });
+      stav = await api(adresa());
+      vykresli();
+      hlas(stiahnut ? 'Článok je stiahnutý. Z webu zmizne po zostavení, zhruba o minútu.' : 'Článok je vrátený. Na webe sa objaví po zostavení, zhruba o minútu.');
+    });
+  };
+  $('stiahnut').addEventListener('click', zmenZverejnenie(true));
+  $('vratit').addEventListener('click', zmenZverejnenie(false));
 
   // ---------- zverejnenie ----------
 
   function neulozene() {
-    return stav && (($('titulok') as HTMLInputElement).value !== stav.hlavicka.title || ($('perex') as HTMLTextAreaElement).value !== stav.hlavicka.perex || ($('telo') as HTMLTextAreaElement).value.trim() !== stav.telo);
+    return Boolean(stav) && odtlacok() !== ulozenyOdtlacok;
   }
 
   function aktualizujPrekazky() {
@@ -548,12 +666,13 @@ import Base from '../../layouts/Base.astro';
     const p: string[] = [];
     if (stav.cakaNaObrazok) p.push('Článok nemá vybraný obrázok.');
     if (neulozene()) p.push('Text má neuložené zmeny.');
+    const malo = (stav.hlavicka.zdroje ?? []).length < 2;
     const chyby = (stav.sprava?.factcheck?.otvorene_nalezy ?? []).filter((n: any) => n.zavaznost === 'chyba').length;
-    $('prekazky').replaceChildren(...p.map((t) => el('li', {}, t)), ...(chyby ? [el('li', { style: 'color:var(--pozor)' }, `Factcheck má ${chyby} neuzavretý nález. Skontrolujte ho na karte Factcheck.`)] : []));
+    $('prekazky').replaceChildren(...p.map((t) => el('li', {}, t)), ...(malo ? [el('li', { style: 'color:var(--pozor)' }, 'Článok uvádza len jeden zdroj. Redakčné zásady žiadajú aspoň dva.')] : []), ...(chyby ? [el('li', { style: 'color:var(--pozor)' }, `Factcheck má ${chyby} neuzavretý nález. Skontrolujte ho na karte Factcheck.`)] : []));
     ($('zverejnit') as HTMLButtonElement).disabled = p.length > 0 || !($('potvrdenie') as HTMLInputElement).checked;
   }
   $('potvrdenie').addEventListener('change', aktualizujPrekazky);
-  for (const id of ['titulok', 'perex', 'telo']) $(id).addEventListener('input', aktualizujPrekazky);
+  for (const id of ['titulok', 'perex', 'telo', 'sekcia', 'tagy', 'zdroje']) $(id).addEventListener('input', aktualizujPrekazky);
 
   $('zverejnit').addEventListener('click', (e) => {
     if (!confirm(`Zverejniť článok „${stav.hlavicka.title}“ na verejnom webe?`)) return;
@@ -603,8 +722,9 @@ import Base from '../../layouts/Base.astro';
     $('prihlaseny').hidden = false;
     $('redakcia-obsah').hidden = false;
     await nacitajZoznam();
-    const zHashu = Number(location.hash.slice(1));
-    if (zHashu) otvor(zHashu);
+    const hash = location.hash.slice(1);
+    if (hash.startsWith('clanok/')) otvorZverejneny(hash.slice(7));
+    else if (Number(hash)) otvor(Number(hash));
   } else if (ja.status === 401) {
     $('prihlasenie').hidden = false;
   } else {

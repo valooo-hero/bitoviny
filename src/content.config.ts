@@ -34,6 +34,8 @@ const clanky = defineCollection({
     zdroje: z.array(z.object({ nazov: z.string(), url: z.string() })).min(1),
     trace: z.string().optional(),
     vzorovy: z.boolean().default(false),
+    // Editor článok stiahol zo zverejnenia. Súbor ostáva v repozitári, web ho nezobrazí.
+    stiahnute: z.boolean().default(false),
     opravy: z.array(z.object({ datum: z.coerce.date(), text: z.string() })).default([]),
   }),
 });
