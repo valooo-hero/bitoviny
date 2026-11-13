@@ -79,3 +79,11 @@ Platné priradenie modelov je v `config/modely.yaml`, tabuľka „Priradenie mod
 - **Bezplatné modely na OpenRouter sa menia.** Zoznam treba občas skontrolovať, inak záloha potichu prestane existovať.
 
 Pri výpadku všetkých modelov pipeline článok preskočí a pokračuje ďalším.
+
+## Platená posledná záloha: DeepInfra (od 13. 11. 2026)
+
+Každá rola má ako posledný model `deepseek-ai/DeepSeek-V4-Flash-0731` cez DeepInfra (0,06 USD za milión vstupných a 0,18 USD za milión výstupných tokenov). Použije sa len vtedy, keď zlyhajú všetky bezplatné modely v reťazci, takže bežne nestojí nič.
+
+- Kľúč je v premennej `DEEPINFRA_API_KEY`: lokálne v `.env`, pre nočný beh v GitHub Secrets. Bez kľúča sa záloha preskočí a pipeline funguje ako predtým.
+- Podľa prepočtu z Langfuse by celý článok cez tento model stál okolo 0,002 USD.
+- Langfuse tento model nepozná, preto pri ňom ukáže cenu 0, kým sa jeho cena nezadá v nastaveniach projektu (Settings > Models).

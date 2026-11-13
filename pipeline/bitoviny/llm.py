@@ -46,6 +46,20 @@ def _vytvor(spec: dict, teplota: float):
             base_url="https://openrouter.ai/api/v1",
             api_key=os.environ["OPENROUTER_API_KEY"],
         )
+    if provider == "deepinfra":
+        from langchain_openai import ChatOpenAI
+
+        # Platená záloha: bez kľúča sa vynechá a reťazec skončí pri bezplatných modeloch.
+        if not os.getenv("DEEPINFRA_API_KEY"):
+            return None
+        return ChatOpenAI(
+            model=model,
+            temperature=teplota,
+            max_retries=1,
+            timeout=120,
+            base_url="https://api.deepinfra.com/v1/openai",
+            api_key=os.environ["DEEPINFRA_API_KEY"],
+        )
     raise ValueError(f"Neznámy provider: {provider}")
 
 
@@ -56,6 +70,8 @@ def model_pre(rola: str, schema: Any | None = None):
     modely = []
     for s in cfg["modely"]:
         m = _vytvor(s, teplota)
+        if m is None:
+            continue
         if schema is not None:
             kw = {"method": s["metoda"]} if s.get("metoda") else {}
             m = m.with_structured_output(schema, **kw)

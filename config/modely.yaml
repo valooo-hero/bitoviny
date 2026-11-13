@@ -1,6 +1,7 @@
 # Priradenie jazykových modelov k rolám. Prvý v zozname je hlavný, ďalšie sú zálohy
-# (LangChain with_fallbacks). Všetko sú bezplatné tarify, pozri docs/LLM-PROVIDERY.md.
-# provider: google | groq | openrouter
+# (LangChain with_fallbacks). Všetko sú bezplatné tarify okrem poslednej zálohy DeepInfra,
+# ktorá sa použije, len keď zlyhajú všetky bezplatné. Pozri docs/LLM-PROVIDERY.md.
+# provider: google | groq | openrouter | deepinfra
 # metoda: nepovinný spôsob štruktúrovaného výstupu (napr. json_schema)
 
 roly:
@@ -12,6 +13,8 @@ roly:
       # Qwen na Groq kazí volanie nástrojov, preto výstup cez JSON schému.
       - { provider: groq, model: qwen/qwen3.8-27b, metoda: json_schema }
       - { provider: google, model: gemini-3.5-flash-lite }
+      # Platená posledná záloha (0,06 / 0,18 USD za milión tokenov). Bez kľúča DEEPINFRA_API_KEY sa preskočí.
+      - { provider: deepinfra, model: deepseek-ai/DeepSeek-V4-Flash-0731 }
 
   # Najlepšia dostupná slovenčina. Vstup sú celé zdrojové texty, preto nie Groq.
   autorka:
@@ -23,6 +26,8 @@ roly:
       - { provider: google, model: gemini-3.5-flash }
       - { provider: google, model: gemini-3.5-flash-lite }
       - { provider: openrouter, model: "baidu/ernie-5.5-flash-preview:free" }
+      # Platená posledná záloha (0,06 / 0,18 USD za milión tokenov). Bez kľúča DEEPINFRA_API_KEY sa preskočí.
+      - { provider: deepinfra, model: deepseek-ai/DeepSeek-V4-Flash-0731 }
 
   # Iný model než autorka, aby nekontrolovala vlastnú prácu ten istý model.
   # Vstup sú celé zdroje aj koncept, preto nie Groq.
@@ -33,6 +38,8 @@ roly:
       - { provider: google, model: gemini-3.5-flash-lite }
       - { provider: google, model: gemini-3.8-flash }
       - { provider: openrouter, model: "baidu/ernie-5.5-flash-preview:free" }
+      # Platená posledná záloha (0,06 / 0,18 USD za milión tokenov). Bez kľúča DEEPINFRA_API_KEY sa preskočí.
+      - { provider: deepinfra, model: deepseek-ai/DeepSeek-V4-Flash-0731 }
 
   # Krátky vstup aj výstup (len zoznam úprav). V porovnaní na texte so známymi
   # chybami našiel Gemini Flash-Lite aspoň zjavnú chybu, Qwen nevrátil nič.
@@ -43,6 +50,8 @@ roly:
       - { provider: google, model: gemini-3.5-flash }
       - { provider: groq, model: openai/gpt-oss-120b, metoda: json_schema }
       - { provider: groq, model: qwen/qwen3.8-27b, metoda: json_schema }
+      # Platená posledná záloha (0,06 / 0,18 USD za milión tokenov). Bez kľúča DEEPINFRA_API_KEY sa preskočí.
+      - { provider: deepinfra, model: deepseek-ai/DeepSeek-V4-Flash-0731 }
 
   # Len vymýšľa hľadané výrazy pre fotobanky. Práva posudzujú pravidlá v kóde.
   fotoeditor:
@@ -50,3 +59,5 @@ roly:
     modely:
       - { provider: groq, model: openai/gpt-oss-20b }
       - { provider: groq, model: qwen/qwen3.8-27b, metoda: json_schema }
+      # Platená posledná záloha (0,06 / 0,18 USD za milión tokenov). Bez kľúča DEEPINFRA_API_KEY sa preskočí.
+      - { provider: deepinfra, model: deepseek-ai/DeepSeek-V4-Flash-0731 }

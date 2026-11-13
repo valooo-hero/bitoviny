@@ -45,7 +45,10 @@ def test_konfiguracia_modelov():
     assert {"vyber_tem", "autorka"} <= set(cfg)
     for rola in cfg.values():
         assert len(rola["modely"]) >= 2, "každá rola má mať aspoň jednu zálohu"
-        assert all(m["provider"] in {"google", "groq", "openrouter"} for m in rola["modely"])
+        assert all(m["provider"] in {"google", "groq", "openrouter", "deepinfra"} for m in rola["modely"])
+        # Platená záloha je vždy posledná.
+        poskytovatelia = [m["provider"] for m in rola["modely"]]
+        assert poskytovatelia[-1] == "deepinfra" and poskytovatelia.count("deepinfra") == 1
 
 
 def test_vyber_tem_zahodi_neplatne_cisla_a_duplicity():
@@ -192,3 +195,13 @@ def test_rozsirenie_ktore_text_skrati_sa_zahodi():
     v = zostav_graf(model_autorky=model, **BEZ_SIETE).invoke({"tema": _tema()})
     assert len(volania) == 2  # druhý pokus už nie je
     assert 300 <= len(v["koncept"].telo.split()) < 310
+
+
+def test_deepinfra_bez_kluca_sa_vynecha(monkeypatch):
+    from bitoviny import llm
+
+    monkeypatch.delenv("DEEPINFRA_API_KEY", raising=False)
+    assert llm._vytvor({"provider": "deepinfra", "model": "x"}, 0.1) is None
+    monkeypatch.setenv("DEEPINFRA_API_KEY", "testovaci")
+    m = llm._vytvor({"provider": "deepinfra", "model": "deepseek-ai/DeepSeek-V4-Flash-0731"}, 0.1)
+    assert "deepinfra.com" in str(m.openai_api_base)
