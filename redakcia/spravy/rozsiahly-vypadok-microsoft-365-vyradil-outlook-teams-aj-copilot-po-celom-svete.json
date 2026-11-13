@@ -1,0 +1,391 @@
+{
+  "slug": "rozsiahly-vypadok-microsoft-365-vyradil-outlook-teams-aj-copilot-po-celom-svete",
+  "datum_sprav": "2026-11-12",
+  "dovod_vyberu": "Masívny výpadok Microsoft Outlook ovplyvnil milióny používateľov v EÚ a vyžaduje informovať čitateľov o dopade na pracovný a osobný život.",
+  "poznamky_pre_editora": "Opravila som nepodložené zmienky o Európe a Slovensku, upresnila som pôvod informácií o službách ako Planner či To Do (ktoré uvádzal Microsoft, nie Downdetector) a nahradila som slovo 'špekulovalo' presným faktom o počiatočnom vyhlásení samotného Microsoftu.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Predložený koncept článku je plne spoľahlivý a presne zodpovedá všetkým informáciám uvedeným v poskytnutých anglických zdrojoch. V celom texte sa nenachádzajú žiadne nepresnosti, vymyslené tvrdenia ani rozporuplné fakty.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 22,
+        "potvrdenych": 18,
+        "chyb": 4,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 18,
+        "potvrdenych": 18,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Rozsiahly výpadok Microsoft 365 vyradil Outlook, Teams aj Copilot po celom svete.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Služby spoločnosti Microsoft čelia rozsiahlemu globálnemu výpadku a používatelia hlásia problémy s konektivitou.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vo štvrtok zasiahol používateľov služieb Microsoft 365 rozsiahly globálny výpadok.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Microsoft’s 365 business and enterprise services suffered a major outage on Thursday, preventing users of its popular cloud suite from accessing their accounts.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zasiahnuté boli služby Outlook, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot aj Microsoft Defender XDR.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Exchange Online, Microsoft Teams, SharePoint Online, Microsoft 365 Copilot, and Microsoft Defender XDR.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa hlásení na portáli Downdetector sa ťažkosti dotkli aj služieb OneDrive či Microsoft Store.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "complaints surged Thursday afternoon across numerous Microsoft services, including Outlook, Microsoft 365, Teams, Copilot, Azure, OneDrive, and the Microsoft Store.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Neskôr Microsoft pridal na zoznam dotknutých služieb aj Planner, To Do či Power BI.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Around 5PM ET, Microsoft Planner, Microsoft To Do, Microsoft Intune, Microsoft Defender for Office 365 and Microsoft Purview had been added to the list of impacted services.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výpadok zasiahol firemných zákazníkov aj bežných používateľov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "preventing both business and consumer users from accessing their inboxes.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft najprv hlásil problémy v Amerike, neskôr potvrdil možný dopad na používateľov v ktoromkoľvek regióne.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "While the company initially reported Exchange Online connectivity problems in the Americas, it later confirmed that users in any region could be affected.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V rovnaký deň dopoludnia došlo k samostatnému výpadku Teams v Amerike, ktorý bol pred hlavným výpadkom vyriešený.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The outage follows a separate Microsoft Teams incident earlier Thursday that caused an outage for users in North and South America.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft spočiatku pripisoval výpadok zvýšenému zaťaženiu infraštruktúry.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Microsoft initially attributed the disruption to elevated infrastructure load across multiple regions",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft vo vyhlásení na X spresnil, že zvýšená záťaž nebola spôsobená nárastom prevádzky, ale nečakanou nedostupnosťou serverov.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "We determined the elevated load isn't driven by an increase in traffic, but by a number of servers being unexpectedly unavailable",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zlyhanie kľúčového procesu na serveroch spôsobilo ich preťaženie a výpadky v kontrolách.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Our investigation has found that a core process on the affected servers is becoming overwhelmed, which causes the servers to stop responding",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nedostupnosť serverov viedla k preťaženiu zvyšných funkčných serverov a k strate kapacity.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "straining the remaining infrastructure.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V súčasnosti nič nenasvedčuje tomu, že by za výpadkom stál kybernetický útok.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "There is currently no indication that a cyberattack caused the current Microsoft outage.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť preventívne zastavila nasadzovanie nových verzí softvéru aj zmeny konfigurácií.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "As a precaution, we’ve paused all deployments and configuration changes",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Inžinieri presmerovávajú sieťový tok na alternatívne trasy a reštartujú zasiahnuté servery.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "We're also shifting traffic to alternate routes wherever possible and observing limited recovery",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vo večerných hodinách Microsoft potvrdil obmedzenú obnovu služieb po spustení časti serverov.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Microsoft says it is seeing limited recovery from the widespread Microsoft 365 outage after successfully returning some affected servers to service.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Obnova kapacít prebieha postupne spolu s opätovným pripájaním aplikácií.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "warned that users may experience a gradual recovery as their applications reconnect.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Building92microsoft.jpg/1280px-Building92microsoft.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2023/04/outlook-profiles.jpg?quality=82&strip=all&w=800",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Microsoft updates Outlook for Mac with Profiles feature",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/af01c840dac8281fd5f1986a8504e54222700437fa19c3083e578c1ddf6386a6?s=96&d=mm&r=r",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Zac Hall",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2017/09/gettyimages-632791848-e1720623049887.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "A Microsoft Corp. Store As Company Exceeds Sales, Profit Estimates On Cloud Gains",
+        "popisok": "A Microsoft Corp. Store As Company Exceeds Sales, Profit Estimates On Cloud Gains",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/1099c2a5bc8d3b9d36c58466359702654ca1d0824999adb24660b78d8e685d76?s=96&d=identicon&r=g",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Zack Whittaker",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/multiple-microsoft-365-services-are-experiencing-an-outage/l-intro-1794524102.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/multiple-microsoft-365-services-are-experiencing-an-outage/intro-1794524102.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6af61a41cf6e4fa5fe151116/191:100/w_1280,c_limit/Security_Microsoft365_OutOfService_v1.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6af619fa66909349c1be40f4/master/pass/Security_Microsoft365Outage-ezgif.com-video-to-gif-converter%20(1).gif",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.bleepstatic.com/content/hl-images/2025/07/25/Microsoft-365.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Microsoft",
+      "Outlook"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Building92microsoft.jpg/1280px-Building92microsoft.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Building92microsoft.jpg/1280px-Building92microsoft.jpg",
+        "nazov": "Building92microsoft.jpg",
+        "autor": "Coolcaesar",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Building92microsoft.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft"
+      },
+      {
+        "url": "https://live.staticflickr.com/96/262054171_ea710e83d4.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/fcc5f6a5-4360-4e10-a93d-a688793c53bf/thumb/",
+        "nazov": "Microsoft Wireless Mouse",
+        "autor": "FHKE",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/16226024@N00/262054171",
+        "povod": "openverse",
+        "dopyt": "Microsoft"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Outlook_Saskatchewan_Franklin_Street_2010.jpg/1280px-Outlook_Saskatchewan_Franklin_Street_2010.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Outlook_Saskatchewan_Franklin_Street_2010.jpg/1280px-Outlook_Saskatchewan_Franklin_Street_2010.jpg",
+        "nazov": "Outlook Saskatchewan Franklin Street 2010.jpg",
+        "autor": "Canadian2006",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Outlook_Saskatchewan_Franklin_Street_2010.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Outlook"
+      },
+      {
+        "url": "https://live.staticflickr.com/158/351667894_3bb37c7141_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/aaed209d-c2bc-4bf0-95b4-6ddca9b16b72/thumb/",
+        "nazov": "Chamber's Annual Business Outlook Conference",
+        "autor": "curtis palmer",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/46453719@N00/351667894",
+        "povod": "openverse",
+        "dopyt": "Outlook"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Microsoft_Atlanta.jpg/1280px-Microsoft_Atlanta.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Microsoft_Atlanta.jpg/1280px-Microsoft_Atlanta.jpg",
+        "nazov": "Microsoft Atlanta.jpg",
+        "autor": "Tyler Lahti",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Microsoft_Atlanta.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft"
+      },
+      {
+        "url": "https://live.staticflickr.com/7556/15966145248_edb7dceafd_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/dad8b5ef-e72b-4ac0-9016-d6581160f33f/thumb/",
+        "nazov": "Microsoft",
+        "autor": "JeepersMedia",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/39160147@N03/15966145248",
+        "povod": "openverse",
+        "dopyt": "Microsoft"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Outlook_hundreds_bus_W49_%26_11_Av_jeh.jpg/1280px-Outlook_hundreds_bus_W49_%26_11_Av_jeh.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Outlook_hundreds_bus_W49_%26_11_Av_jeh.jpg/1280px-Outlook_hundreds_bus_W49_%26_11_Av_jeh.jpg",
+        "nazov": "Outlook hundreds bus W49 & 11 Av jeh.jpg",
+        "autor": "Jim.henderson",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Outlook_hundreds_bus_W49_%26_11_Av_jeh.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Outlook"
+      },
+      {
+        "url": "https://live.staticflickr.com/3322/3637814200_c12dbc0b2d_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/eeb5fa2c-cbb9-460e-9732-3797abf19ea5/thumb/",
+        "nazov": "Outlook 2000 vs 2010",
+        "autor": "Campaign Monitor",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/14672697@N00/3637814200",
+        "povod": "openverse",
+        "dopyt": "Outlook"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic abstract illustration of a digital cloud network outage with glowing blue servers and broken connection lines."
+  },
+  "prompt_ilustracie": "A symbolic abstract illustration of a digital cloud network outage with glowing blue servers and broken connection lines.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/a1f92d964f5e629b2595ac9077ee835b"
+}
