@@ -5,6 +5,7 @@ import Karta from '../../components/Karta.astro';
 import { sekcia } from '../../data/sekcie';
 import { redaktor } from '../../data/redakcia';
 import { vsetkyClanky, stiahnuteClanky, datumCas, datum, slug } from '../../lib/clanky';
+import { statistikaClanku, percento, sklon } from '../../lib/statistiky';
 
 export async function getStaticPaths() {
   const clanky = await vsetkyClanky();
@@ -21,6 +22,7 @@ const { Content } = await render(clanok);
 const s = sekcia(d.sekcia);
 
 const meno = (id: string) => redaktor(id)?.meno ?? id;
+const st = statistikaClanku(clanok);
 const suvisiace = clanky
   .filter((c) => c.id !== clanok.id)
   .map((c) => ({
@@ -161,12 +163,37 @@ const jsonLd = {
         }
       </ul>
       {
-        d.trace && (
-          <p>
-            <a href={d.trace} rel="noopener">
-              Záznam práce agentov na tomto článku (Langfuse)
-            </a>
-          </p>
+        st.tvrdeni !== null && (
+          <details class="vznik">
+            <summary>Ako vznikol tento článok</summary>
+            <ul>
+              <li>
+                Tému vybral Róbert S. Sliedič, článok napísala Klára Vesnicová z {sklon(st.zdrojov, 'zdroja', 'zdrojov', 'zdrojov')}
+                ({sklon(st.slovAgentov ?? st.slovZverejnenych, 'slovo', 'slová', 'slov')}).
+              </li>
+              <li>
+                Tomáš Neverný overil {sklon(st.tvrdeni ?? 0, 'tvrdenie', 'tvrdenia', 'tvrdení')} voči zdrojom
+                {(st.kolFactchecku ?? 0) > 1
+                  ? `, v prvom kole našiel ${sklon(st.chybVPrvomKole ?? 0, 'chybu', 'chyby', 'chýb')} a vrátil článok na opravu`
+                  : ' a nenašiel chybu'}
+                {(st.otvorenychNalezov ?? 0) > 0 ? `. ${st.otvorenychNalezov} nález ostal na posúdenie šéfredaktorovi.` : '.'}
+              </li>
+              <li>
+                Čiarka Ypsilonová {st.upravVykonanych ? `vykonala ${sklon(st.upravVykonanych, 'jazykovú opravu', 'jazykové opravy', 'jazykových opráv')}.` : 'nenavrhla žiadnu jazykovú opravu.'}
+              </li>
+              <li>
+                Cyril Kopirajt posúdil {sklon(st.obrazkovZoZdrojov, 'obrázok', 'obrázky', 'obrázkov')} zo zdrojov, použiť sa
+                {st.obrazkovChranenych === st.obrazkovZoZdrojov ? 'nedal žiadny' : `nedalo ${st.obrazkovChranenych}`}.
+              </li>
+              <li>
+                Šéfredaktor článok schválil
+                {st.zasahEditora === null ? '.' : st.zasahEditora < 0.005 ? ' bez zmeny textu.' : ` a zmenil ${percento(st.zasahEditora)} textu.`}
+              </li>
+            </ul>
+            <p class="meta">
+              Ako redakcia pracuje, opisuje stránka <a href="/ako-to-funguje/">Ako to funguje</a>.
+            </p>
+          </details>
         )
       }
       {

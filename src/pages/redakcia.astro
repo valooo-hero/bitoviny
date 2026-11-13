@@ -1,7 +1,58 @@
 ---
+import { readFileSync } from 'node:fs';
+import { parse } from 'yaml';
 import Base from '../layouts/Base.astro';
 import Avatar from '../components/Avatar.astro';
 import { REDAKCIA } from '../data/redakcia';
+import { statistikyRedakcie, percento, cislo } from '../lib/statistiky';
+
+const s = await statistikyRedakcie();
+
+// Modely sa berú zo skutočnej konfigurácie pipeline, prvý v poradí je hlavný, ostatné zálohy.
+const roly = parse(readFileSync('config/modely.yaml', 'utf8')).roly as Record<string, { modely: { model: string }[] }>;
+const retazec = (rola: string) => roly[rola]?.modely.map((m) => m.model.replace(/^.*\//, '').replace(/:free$/, '')).join(', ') ?? '';
+const modely: Record<string, string> = {
+  robert: `výber tém: ${retazec('vyber_tem')}; zoskupovanie: lokálny bge-small`,
+  klara: retazec('autorka'),
+  tomas: retazec('factcheck'),
+  ciarka: retazec('korektura'),
+  cyril: `hľadanie náhrad: ${retazec('fotoeditor')}; práva posudzujú pravidlá v kóde`,
+  fluxana: 'FLUX.1-schnell, Cloudflare Workers AI',
+  sefredaktor: 'žiadny',
+};
+
+const prace: Record<string, [string, string][]> = {
+  robert: [
+    ['Tém dodaných do článkov', cislo(s.clankov)],
+    ['Priemerne zdrojov na článok', cislo(s.priemerZdrojov, 1)],
+    ['Článkov len z jedného zdroja', cislo(s.jednozdrojovych)],
+  ],
+  klara: [
+    ['Napísaných článkov', cislo(s.clankov)],
+    ['Priemerná dĺžka', `${cislo(s.priemerSlovAgentov)} slov`],
+    ['Text, ktorý editor zmenil', percento(s.priemernyZasah)],
+  ],
+  tomas: [
+    ['Overených tvrdení', cislo(s.tvrdeni)],
+    ['Chýb nájdených v prvom kole', cislo(s.chybVPrvomKole)],
+    ['Článkov vrátených autorke', `${cislo(s.vratenych)} z ${cislo(s.clankov)}`],
+  ],
+  ciarka: [
+    ['Vykonaných opráv', cislo(s.upravVykonanych)],
+    ['Zamietnutých návrhov', cislo(s.upravZamietnutych)],
+  ],
+  cyril: [
+    ['Posúdených obrázkov zo zdrojov', cislo(s.obrazkovZoZdrojov)],
+    ['Z nich označených ako nepoužiteľné', cislo(s.obrazkovChranenych)],
+    ['Rozhodnutí, ktoré editor zmenil', cislo(s.obrazkovZmenilEditor)],
+  ],
+  fluxana: [['Titulných ilustrácií v článkoch', `${cislo(s.titulnychAi)} z ${cislo(s.clankov)}`]],
+  sefredaktor: [
+    ['Schválených článkov', cislo(s.clankov + s.stiahnutych)],
+    ['Stiahnutých zo zverejnenia', cislo(s.stiahnutych)],
+    ['Článkov bez jedinej zmeny textu', `${cislo(s.bezZasahu)} z ${cislo(s.clankovSTextom)}`],
+  ],
+};
 ---
 
 <Base title="Redakcia" description="Redakcia Bitovín: šesť AI agentov a jeden človek.">
@@ -24,9 +75,17 @@ import { REDAKCIA } from '../data/redakcia';
           </div>
           <p>{r.bio}</p>
           <p class="motto">„{r.motto}“</p>
+          <dl class="prace">
+            {(prace[r.id] ?? []).map(([nazov, hodnota]) => (
+              <div>
+                <dt>{nazov}</dt>
+                <dd>{hodnota}</dd>
+              </div>
+            ))}
+          </dl>
           <dl>
             <dt>Model: </dt>
-            <dd>{r.model}</dd>
+            <dd>{modely[r.id] ?? r.model}</dd>
           </dl>
         </section>
       ))
@@ -34,6 +93,9 @@ import { REDAKCIA } from '../data/redakcia';
   </div>
 
   <p class="meta" style="margin-top:24px">
-    Avatary AI redaktorov nakreslila Fluxana Štetcová, teda model FLUX.1-schnell. Šéfredaktor dostal namiesto tváre symbol, aby sme nevymýšľali podobu skutočného človeka. Štatistiky práce jednotlivých redaktorov pribudnú, keď začne bežať redakčná pipeline.
+    Čísla sa počítajú pri každom zostavení webu zo zverejnených článkov a ich redakčných správ, bez vzorových článkov.
+    Ako vznikajú, opisuje stránka <a href="/ako-to-funguje/">Ako to funguje</a>. Avatary AI redaktorov nakreslila Fluxana
+    Štetcová, teda model FLUX.1-schnell. Šéfredaktor dostal namiesto tváre symbol, aby sme nevymýšľali podobu skutočného
+    človeka.
   </p>
 </Base>

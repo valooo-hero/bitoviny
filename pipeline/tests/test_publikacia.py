@@ -89,6 +89,8 @@ def test_publikuj_vytvori_clanok_a_spravu(tmp_path):
     sprava = json.loads(gh.subory["redakcia/spravy/amd-udrzi-vykon.json"])
     assert sprava["slug"] == "amd-udrzi-vykon" and sprava["prompt_ilustracie"] == "A memory chip."
     assert sprava["factcheck"]["kola"][0]["tvrdeni"] == 3
+    assert sprava["text_agentov"]["titulok"].startswith("AMD") and "## Medzititulok" in sprava["text_agentov"]["telo"]
+    assert "<script>" not in sprava["text_agentov"]["telo"]
     assert "Nezlučovať ručne" in gh.pr[2] and "Pozor." in gh.pr[2]
 
 

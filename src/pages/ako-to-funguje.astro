@@ -1,52 +1,262 @@
 ---
 import Stranka from '../layouts/Stranka.astro';
+import { statistikyRedakcie, percento, cislo } from '../lib/statistiky';
+
+const s = await statistikyRedakcie();
+const zmena = (x: number | null) => (x === null ? '–' : x < 0.005 ? 'bez zmeny' : percento(x));
 ---
 
-<Stranka title="Ako to funguje" description="Ako na Bitovinách vzniká článok: od RSS kanálov po schválenie človekom.">
+<Stranka title="Ako to funguje" description="Ako na Bitovinách vzniká článok: od RSS kanálov po schválenie človekom, s číslami z redakcie.">
   <h1>Ako to funguje</h1>
   <p>
     Bitoviny sú ukážka toho, ako môže niekoľko špecializovaných AI agentov spolupracovať na jednej úlohe pod dohľadom
-    človeka. Každý článok prejde tou istou cestou.
+    človeka. Každý článok prejde tou istou cestou a nič nevyjde bez schválenia.
   </p>
 
-  <h2>Cesta článku</h2>
+  <figure class="schema">
+    <svg viewBox="0 0 900 262" role="img" aria-label="Agenti pripravia koncept v noci v GitHub Actions, factcheck ho môže dvakrát vrátiť autorke, a koncept ide ako pull request k šéfredaktorovi, ktorý ho v redakčnom rozhraní zverejní na web.">
+      <defs>
+        <marker id="sipka" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="currentColor"></path>
+        </marker>
+      </defs>
+      <g fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="4 4" opacity="0.45">
+        <rect x="2" y="16" width="884" height="128" rx="10"></rect>
+        <rect x="150" y="160" width="736" height="96" rx="10"></rect>
+      </g>
+      <g font-family="system-ui, sans-serif" font-size="11" fill="currentColor" opacity="0.7">
+        <text x="14" y="136">GitHub Actions, každú noc o 00:30</text>
+        <text x="162" y="248">Cloudflare Pages, redakčné rozhranie a web</text>
+      </g>
+
+      <g font-family="system-ui, sans-serif" text-anchor="middle" fill="currentColor">
+        <g>
+          <rect x="10" y="70" width="100" height="48" rx="8" fill="none" stroke="currentColor"></rect>
+          <text x="60" y="90" font-size="13" font-weight="700">Zdroje</text>
+          <text x="60" y="107" font-size="11">11 RSS kanálov</text>
+        </g>
+        <g>
+          <rect x="160" y="70" width="100" height="48" rx="8" fill="none" stroke="currentColor"></rect>
+          <text x="210" y="90" font-size="13" font-weight="700">Zberač</text>
+          <text x="210" y="107" font-size="11">výber tém</text>
+        </g>
+        <g>
+          <rect x="310" y="70" width="100" height="48" rx="8" fill="none" stroke="currentColor"></rect>
+          <text x="360" y="90" font-size="13" font-weight="700">Autorka</text>
+          <text x="360" y="107" font-size="11">píše a opravuje</text>
+        </g>
+        <g>
+          <rect x="460" y="70" width="100" height="48" rx="8" fill="none" stroke="currentColor"></rect>
+          <text x="510" y="90" font-size="13" font-weight="700">Factcheck</text>
+          <text x="510" y="107" font-size="11">tvrdenia vs. zdroje</text>
+        </g>
+        <g>
+          <rect x="610" y="70" width="100" height="48" rx="8" fill="none" stroke="currentColor"></rect>
+          <text x="660" y="90" font-size="13" font-weight="700">Korektúra</text>
+          <text x="660" y="107" font-size="11">jazyk, nie fakty</text>
+        </g>
+        <g>
+          <rect x="760" y="70" width="110" height="48" rx="8" fill="none" stroke="currentColor"></rect>
+          <text x="815" y="90" font-size="13" font-weight="700">Fotoeditor</text>
+          <text x="815" y="107" font-size="11">práva, náhrady</text>
+        </g>
+
+        <g>
+          <rect x="760" y="186" width="110" height="48" rx="8" fill="none" stroke="currentColor"></rect>
+          <text x="815" y="206" font-size="13" font-weight="700">Pull request</text>
+          <text x="815" y="223" font-size="11">koncept + správa</text>
+        </g>
+        <g class="clovek">
+          <rect x="460" y="186" width="100" height="48" rx="8" fill="none" stroke="currentColor" stroke-width="2.5"></rect>
+          <text x="510" y="206" font-size="13" font-weight="700">Šéfredaktor</text>
+          <text x="510" y="223" font-size="11">človek</text>
+        </g>
+        <g>
+          <rect x="160" y="186" width="100" height="48" rx="8" fill="none" stroke="currentColor"></rect>
+          <text x="210" y="206" font-size="13" font-weight="700">Web</text>
+          <text x="210" y="223" font-size="11">bitoviny.pages.dev</text>
+        </g>
+      </g>
+
+      <g fill="none" stroke="currentColor" stroke-width="1.5" marker-end="url(#sipka)">
+        <line x1="110" y1="94" x2="158" y2="94"></line>
+        <line x1="260" y1="94" x2="308" y2="94"></line>
+        <line x1="410" y1="94" x2="458" y2="94"></line>
+        <line x1="560" y1="94" x2="608" y2="94"></line>
+        <line x1="710" y1="94" x2="758" y2="94"></line>
+        <path d="M510,70 C510,34 360,34 360,68"></path>
+        <line x1="815" y1="118" x2="815" y2="184"></line>
+        <line x1="760" y1="210" x2="562" y2="210"></line>
+        <line class="clovek" x1="460" y1="210" x2="262" y2="210"></line>
+      </g>
+
+      <g font-family="system-ui, sans-serif" font-size="11" fill="currentColor" text-anchor="middle">
+        <text x="134" y="86">správy</text>
+        <text x="284" y="86">téma</text>
+        <text x="434" y="86">koncept</text>
+        <text x="584" y="86">overené</text>
+        <text x="734" y="86">text</text>
+        <text x="435" y="34">chyby: späť na opravu, najviac 2×</text>
+        <text x="661" y="202">úpravy, obrázky</text>
+        <text class="clovek" x="361" y="202" font-weight="700">Zverejniť</text>
+      </g>
+    </svg>
+    <figcaption>
+      Agenti pracujú v noci a ich výsledkom je len návrh. Factcheck môže článok dvakrát vrátiť autorke. Na web sa dostane
+      až po tom, čo ho šéfredaktor v redakčnom rozhraní prečíta, prípadne upraví a stlačí Zverejniť.
+    </figcaption>
+  </figure>
+
+  <h2>Čo robí ktorý redaktor</h2>
   <ol>
     <li>
-      <strong>Zber.</strong> Róbert S. Sliedič ráno prečíta RSS kanály technologických portálov, vyberie včerajšie
-      správy a zoskupí tie, ktoré hovoria o tom istom.
+      <strong>Zber.</strong> Róbert S. Sliedič krátko po polnoci prečíta RSS kanály technologických portálov, ponechá
+      včerajšie správy, zoskupí tie o tej istej udalosti a jazykový model vyberie najzaujímavejšie témy s aspoň dvoma
+      zdrojmi.
     </li>
     <li>
-      <strong>Písanie.</strong> Klára Vesnicová z aspoň dvoch zdrojov napíše pôvodný slovenský článok. Neprekladá,
-      skladá.
+      <strong>Písanie.</strong> Klára Vesnicová zo zdrojov napíše pôvodný slovenský článok. Zdrojové texty dostane
+      označené ako nedôveryhodné údaje, nie ako pokyny.
     </li>
     <li>
-      <strong>Overenie.</strong> Tomáš Neverný rozloží text na jednotlivé tvrdenia a každé hľadá v zdrojoch. Čo nenájde,
-      vráti na opravu.
+      <strong>Overenie.</strong> Tomáš Neverný rozloží text na tvrdenia a každé hľadá v zdrojoch. Kód potom overí aj
+      jeho: čísla z článku musia byť v zdrojoch a citovaný dôkaz sa v zdroji musí nachádzať doslova.
     </li>
     <li>
-      <strong>Korektúra.</strong> Čiarka Ypsilonová opraví gramatiku a štýl. Čísla a mená meniť nesmie.
+      <strong>Korektúra.</strong> Čiarka Ypsilonová navrhne jazykové opravy. Kód ich vykoná, len ak nemenia čísla, mená
+      ani zmysel vety.
     </li>
     <li>
-      <strong>Obrázky.</strong> Cyril Kopirajt posúdi, či sa fotka smie použiť. Ak nie, navrhne náhradu alebo ju na
-      pokyn editora nakreslí Fluxana Štetcová.
+      <strong>Obrázky.</strong> Cyril Kopirajt podľa pevných pravidiel posúdi práva k obrázkom zo zdrojov a nájde voľné
+      náhrady. Fluxana Štetcová na pokyn editora nakreslí ilustráciu.
     </li>
     <li>
-      <strong>Schválenie.</strong> Človek si prečíta článok aj správu od agentov a rozhodne, či vyjde.
+      <strong>Schválenie.</strong> Šéfredaktor v redakčnom rozhraní vidí článok, tabuľku overených tvrdení, opravy aj
+      posúdenie obrázkov. Rozhodne, čo vyjde. Zverejnený článok vie neskôr upraviť alebo stiahnuť.
     </li>
   </ol>
+
+  <h2>Čísla z redakcie</h2>
+  <p class="meta">
+    Počítajú sa pri každom zostavení webu zo zverejnených článkov, ktoré pripravili agenti. Vzorové články sa nerátajú.
+  </p>
+  <div class="cisla">
+    <div><strong>{cislo(s.clankov)}</strong><span>zverejnených článkov</span></div>
+    <div><strong>{cislo(s.tvrdeni)}</strong><span>overených tvrdení</span></div>
+    <div><strong>{cislo(s.vratenych)} z {cislo(s.clankov)}</strong><span>článkov vrátených na opravu</span></div>
+    <div><strong>{percento(s.priemernyZasah)}</strong><span>textu zmenil editor</span></div>
+    <div><strong>{cislo(s.obrazkovChranenych)} z {cislo(s.obrazkovZoZdrojov)}</strong><span>obrázkov zo zdrojov bolo nepoužiteľných</span></div>
+    <div><strong>{cislo(s.priemerSlovAgentov)}</strong><span>slov má priemerný článok</span></div>
+  </div>
+
+  <h3>Článok po článku</h3>
+  <div class="tabulka">
+    <table>
+      <thead>
+        <tr><th>Článok</th><th>Tvrdení</th><th>Kôl overenia</th><th>Chýb v 1. kole</th><th>Jazykových opráv</th><th>Zmena editorom</th></tr>
+      </thead>
+      <tbody>
+        {
+          s.clanky.map((c) => (
+            <tr>
+              <td><a href={`/clanok/${c.slug}/`}>{c.titulok}</a></td>
+              <td>{cislo(c.tvrdeni)}</td>
+              <td>{cislo(c.kolFactchecku)}</td>
+              <td>{cislo(c.chybVPrvomKole)}</td>
+              <td>{cislo(c.upravVykonanych)}</td>
+              <td>{zmena(c.zasahEditora)}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Čo z čísel vyplýva</h3>
+  <ul>
+    <li>
+      <strong>Factcheck má prácu.</strong> V prvom kole našiel chyby v {cislo(s.vratenych)} z {cislo(s.clankov)} článkov.
+      Bez neho by sa tieto nepresnosti dostali až k editorovi.
+    </li>
+    <li>
+      <strong>Korektúra na bezplatných modeloch takmer nepracuje.</strong> Vykonala {cislo(s.upravVykonanych)}
+      {s.upravVykonanych === 1 ? 'opravu' : 'opráv'} za všetky články. Jazyk preto stále musí kontrolovať človek.
+    </li>
+    <li>
+      <strong>Obrázky zo zdrojov sa takmer nedajú použiť.</strong> Väčšina nemá strojovo čitateľný kredit ani licenciu,
+      preto ich pravidlá predvolene považujú za chránené. Titulné obrázky sú voľné fotografie alebo ilustrácie AI.
+    </li>
+    <li>
+      <strong>Články sú kratšie, než by mali byť.</strong> Cieľ je 350 až 600 slov, priemer je {cislo(s.priemerSlovAgentov)}.
+    </li>
+  </ul>
 
   <h2>Čím je to postavené</h2>
   <ul>
     <li><strong>LangGraph</strong> riadi poradie krokov a vracanie článku na opravu.</li>
-    <li><strong>LangChain</strong> zjednocuje volania rôznych jazykových modelov a ich zálohy.</li>
+    <li><strong>LangChain</strong> zjednocuje volania jazykových modelov a prepína na zálohu, keď model vypadne.</li>
     <li><strong>Langfuse</strong> zaznamenáva každý krok, takže je vidieť, čo ktorý agent dostal a čo vrátil.</li>
-    <li><strong>Astro a Cloudflare Pages</strong> zostavujú a doručujú tento web.</li>
+    <li><strong>Astro a Cloudflare Pages</strong> zostavujú a doručujú web, <strong>Workers AI</strong> kreslí ilustrácie.</li>
+    <li>Všetko beží na bezplatných tarifách. Zdrojový kód je verejný na <a href="https://github.com/valooo-hero/bitoviny" rel="noopener">GitHube</a>.</li>
   </ul>
-
-  <h2>Stav projektu</h2>
-  <p>
-    Hotový je portál. Redakčná pipeline sa stavia po fázach, takže články, ktoré tu teraz vidíte, sú vzorové a sú tak aj
-    označené. Zdrojový kód a plán sú verejné na
-    <a href="https://github.com/valooo-hero/bitoviny" rel="noopener">GitHube</a>.
-  </p>
 </Stranka>
+
+<style>
+  .schema {
+    margin: 24px 0 32px;
+  }
+  .schema svg {
+    width: 100%;
+    height: auto;
+    color: var(--text);
+  }
+  .schema .clovek {
+    color: var(--accent);
+    stroke: var(--accent);
+  }
+  .schema text.clovek {
+    fill: var(--accent);
+    stroke: none;
+  }
+  .schema g.clovek text {
+    fill: var(--accent);
+  }
+  .cisla {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px;
+    margin: 16px 0 28px;
+  }
+  .cisla div {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .cisla strong {
+    font-family: var(--serif);
+    font-size: 1.6rem;
+    line-height: 1.1;
+  }
+  .cisla span {
+    font-size: 0.9rem;
+    color: var(--muted);
+    line-height: 1.3;
+  }
+  .tabulka {
+    overflow-x: auto;
+    margin-bottom: 24px;
+  }
+  .tabulka table {
+    display: table;
+    min-width: 640px;
+  }
+  .tabulka td:not(:first-child),
+  .tabulka th:not(:first-child) {
+    text-align: right;
+    white-space: nowrap;
+  }
+</style>

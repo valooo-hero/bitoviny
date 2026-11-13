@@ -67,7 +67,7 @@ def clanok_pre_web(fm: dict, telo: str, teraz: datetime) -> str:
     return "---\n" + yaml.safe_dump(web, allow_unicode=True, sort_keys=False, width=1000) + "---\n\n" + bez_html(telo) + "\n"
 
 
-def redakcna_sprava(fm: dict, slug: str) -> dict:
+def redakcna_sprava(fm: dict, slug: str, telo: str = "") -> dict:
     k = fm.get("koncept", {})
     return {
         "slug": slug,
@@ -80,6 +80,9 @@ def redakcna_sprava(fm: dict, slug: str) -> dict:
         "obrazky": k.get("obrazky"),
         "prompt_ilustracie": k.get("prompt_ilustracie", ""),
         "trace": fm.get("trace"),
+        # Text tak, ako ho odovzdali agenti. Porovnaním so zverejnenou verziou
+        # vzniká miera zásahov editora na stránke Ako to funguje.
+        "text_agentov": {"titulok": bez_html(fm["title"]), "perex": bez_html(fm["perex"]), "telo": bez_html(telo).strip()},
     }
 
 
@@ -146,7 +149,7 @@ def publikuj(subor: Path, gh: GitHub | None = None, teraz: datetime | None = Non
         return None
 
     teraz = teraz or datetime.now(timezone.utc)
-    sprava = redakcna_sprava(fm, slug)
+    sprava = redakcna_sprava(fm, slug, telo)
     gh.vytvor_vetvu(vetva)
     gh.zapis_subor(f"content/clanky/{slug}.md", clanok_pre_web(fm, telo, teraz), vetva, f"Koncept: {fm['title']}")
     gh.zapis_subor(
