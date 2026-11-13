@@ -8,7 +8,7 @@ tagy:
   - Teams
   - výpadok
   - technológie
-publikovane: 2026-11-13T03:39:49+00:00
+publikovane: 2026-11-13T09:50:49Z
 obrazok:
   src: /obrazky/rozsiahly-vypadok-microsoft-365-vyradil-outlook-teams-aj-copilot-po-celom-svete.jpg
   alt: Building92microsoft
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "BleepingComputer: Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide"
     url: https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/
