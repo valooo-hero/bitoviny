@@ -74,8 +74,28 @@ npx wrangler pages dev dist
 
 Do súboru `.dev.vars` (je v `.gitignore`) patrí `ADMIN_DEV_BYPASS=1` a `GITHUB_TOKEN=...`. Obídenie prihlásenia platí len na `localhost`.
 
+## Viac obrázkov v článku
+
+Článok má jeden **titulný obrázok** (`obrazok`, hore v článku a na titulke webu) a ľubovoľne ďalších v `galeria`, ktoré sa zobrazia pod textom. Spolu najviac 8.
+
+- Pri použití voľnej náhrady, obrázka zo zdroja alebo vygenerovanej ilustrácie editor zvolí umiestnenie: titulný (nahradí doterajší) alebo ďalší obrázok pod textom.
+- Na karte Obrázok je zoznam obrázkov článku. Pri každom sa dá zmeniť popisok, odstrániť ho alebo ho nastaviť ako titulný. Doterajší titulný sa vtedy presunie medzi ostatné.
+- Po odstránení titulného sa titulným stane prvý z ostatných. Ak žiadny nie je, článok sa vráti k zástupnému obrázku a nedá sa zverejniť.
+- Každý obrázok má vlastný súbor `public/obrazky/<slug>-<kód>.<prípona>`. Súbor odstráneného alebo nahradeného obrázka sa z vetvy zmaže.
+
+## Zverejnené články
+
+Pod zoznamom konceptov je zoznam všetkých článkov na webe. Po otvorení sa dá meniť titulok, perex, telo, sekcia, tagy a zdroje.
+
+- **Úprava** sa zapíše priamo do vetvy `main` a web sa znovu zostaví. Článok dostane označenie „Aktualizované“ s časom. Nepovinná poznámka k oprave sa zobrazí pod článkom a na stránke Opravy.
+- **Stiahnutie zo zverejnenia** nastaví v článku príznak `stiahnute`. Web ho prestane zobrazovať na všetkých stránkach vrátane RSS a vyhľadávania. Súbor ostáva v repozitári a článok sa dá tlačidlom vrátiť.
+- Stiahnutý článok nie je vymazaný: text, obrázok aj história úprav ostávajú verejne dostupné v repozitári na GitHube.
+- Obrázky zverejneného článku sa v rozhraní zatiaľ meniť nedajú.
+
+Zoznam zverejnených článkov je statický súbor `/admin/clanky.json`, ktorý vzniká pri zostavení webu. Po zmene sa preto aktualizuje až o minútu.
+
 ## Čo zatiaľ chýba
 
 - Vrátiť článok agentom s komentárom. Editor zatiaľ môže text upraviť sám alebo koncept zahodiť.
 - Nahranie vlastného obrázka z disku.
-- Úprava tagov a sekcie v rozhraní.
+- Zmena obrázkov pri už zverejnenom článku.
