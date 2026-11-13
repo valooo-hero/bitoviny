@@ -18,6 +18,12 @@ export async function vsetkyClanky() {
   return clanky.sort((a, b) => b.data.publikovane.getTime() - a.data.publikovane.getTime());
 }
 
+// Stiahnuté články nie sú v žiadnom zozname, ale ich adresa musí ďalej existovať:
+// Cloudflare inak ešte týždeň podáva pôvodnú stránku z vyrovnávacej pamäte.
+export async function stiahnuteClanky() {
+  return (await getCollection('clanky')).filter((c) => c.data.stiahnute);
+}
+
 const fmtDatum = new Intl.DateTimeFormat('sk-SK', {
   day: 'numeric',
   month: 'long',

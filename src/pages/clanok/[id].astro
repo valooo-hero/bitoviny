@@ -4,14 +4,18 @@ import Base from '../../layouts/Base.astro';
 import Karta from '../../components/Karta.astro';
 import { sekcia } from '../../data/sekcie';
 import { redaktor } from '../../data/redakcia';
-import { vsetkyClanky, datumCas, datum, slug } from '../../lib/clanky';
+import { vsetkyClanky, stiahnuteClanky, datumCas, datum, slug } from '../../lib/clanky';
 
 export async function getStaticPaths() {
   const clanky = await vsetkyClanky();
-  return clanky.map((clanok) => ({ params: { id: clanok.id }, props: { clanok, clanky } }));
+  return [
+    ...clanky.map((clanok) => ({ params: { id: clanok.id }, props: { clanok, clanky, stiahnuty: false } })),
+    // Stiahnutý článok dostane na svojej adrese len oznam, bez obsahu.
+    ...(await stiahnuteClanky()).map((clanok) => ({ params: { id: clanok.id }, props: { clanok, clanky, stiahnuty: true } })),
+  ];
 }
 
-const { clanok, clanky } = Astro.props;
+const { clanok, clanky, stiahnuty } = Astro.props;
 const d = clanok.data;
 const { Content } = await render(clanok);
 const s = sekcia(d.sekcia);
@@ -43,6 +47,22 @@ const jsonLd = {
 };
 ---
 
+{
+  stiahnuty && (
+    <Base title="Článok bol stiahnutý" description="Tento článok redakcia stiahla zo zverejnenia." noindex>
+      <article class="clanok proza">
+        <h1>Článok bol stiahnutý</h1>
+        <p>Tento článok redakcia stiahla zo zverejnenia.</p>
+        <p>
+          <a href="/">Späť na titulku</a>
+        </p>
+      </article>
+    </Base>
+  )
+}
+
+{
+  !stiahnuty && (
 <Base title={d.title} description={d.perex} image={d.obrazok.src} typ="article" aktivnaSekcia={d.sekcia} jsonLd={jsonLd}>
   <article class="clanok" data-pagefind-body>
     <a class="stitok" href={`/sekcia/${d.sekcia}/`}>{s.nazov}</a>
@@ -179,3 +199,5 @@ const jsonLd = {
     )
   }
 </Base>
+  )
+}
