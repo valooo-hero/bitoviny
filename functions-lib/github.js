@@ -84,6 +84,17 @@ export class GitHub {
     return this.zapis(cesta, vetva, naBase64(new TextEncoder().encode(text)), sprava, sha);
   }
 
+  /** Zmaže súbor vo vetve. Chýbajúci súbor nie je chyba. */
+  async zmazSubor(cesta, vetva, sprava) {
+    const sha = await this.shaSuboru(cesta, vetva);
+    if (!sha) return;
+    try {
+      await this.api('DELETE', `/contents/${cesta}`, { message: sprava, branch: vetva, sha });
+    } catch {
+      // nepoužitý súbor vo vetve neškodí, zlyhanie mazania nesmie pokaziť hlavnú akciu
+    }
+  }
+
   async shaSuboru(cesta, vetva) {
     try {
       return (await this.api('GET', `/contents/${cesta}?ref=${encodeURIComponent(vetva)}`)).sha;

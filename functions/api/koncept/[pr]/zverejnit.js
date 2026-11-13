@@ -13,6 +13,9 @@ export async function onRequestPost({ env, params, request, data }) {
   const prekazky = overTexty({ titulok: hlavicka.title, perex: hlavicka.perex, telo });
   if (hlavicka.obrazok.src === ZASTUPNY_OBRAZOK) prekazky.push('Článok nemá vybraný obrázok.');
   if (!hlavicka.obrazok.popisok || !hlavicka.obrazok.kredit || !hlavicka.obrazok.licencia) prekazky.push('Obrázku chýba popisok, kredit alebo licencia.');
+  for (const o of hlavicka.galeria ?? []) {
+    if (!o.popisok || !o.kredit || !o.licencia) prekazky.push('Niektorému obrázku v článku chýba popisok, kredit alebo licencia.');
+  }
   if (vstup.potvrdenie !== true) prekazky.push('Chýba potvrdenie, že editor článok skontroloval.');
   if (prekazky.length) return chyba(400, prekazky.join(' '));
 

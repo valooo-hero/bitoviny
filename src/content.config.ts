@@ -3,6 +3,15 @@ import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 import { SEKCIA_IDS } from './data/sekcie';
 
+const obrazok = z.object({
+  src: z.string(),
+  alt: z.string().min(5),
+  popisok: z.string().min(5),
+  kredit: z.string().min(2),
+  licencia: z.string().min(2),
+  ai: z.boolean().default(false),
+});
+
 const clanky = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './content/clanky' }),
   schema: z.object({
@@ -12,15 +21,10 @@ const clanky = defineCollection({
     tagy: z.array(z.string()).default([]),
     publikovane: z.coerce.date(),
     aktualizovane: z.coerce.date().optional(),
-    // Popisok, kredit aj licencia sú povinné: bez nich build zlyhá.
-    obrazok: z.object({
-      src: z.string(),
-      alt: z.string().min(5),
-      popisok: z.string().min(5),
-      kredit: z.string().min(2),
-      licencia: z.string().min(2),
-      ai: z.boolean().default(false),
-    }),
+    // Titulný obrázok. Popisok, kredit aj licencia sú povinné: bez nich build zlyhá.
+    obrazok: obrazok,
+    // Ďalšie obrázky v článku, zobrazia sa pod textom.
+    galeria: z.array(obrazok).default([]),
     // ID redaktorov zo src/data/redakcia.ts. Vzorové články ich nemajú.
     redaktori: z
       .object({

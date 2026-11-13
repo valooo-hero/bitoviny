@@ -377,6 +377,15 @@ figcaption {
   color: var(--muted);
   margin-top: 8px;
 }
+.galeria-clanku {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  margin-top: 28px;
+}
+.galeria-clanku figure {
+  margin: 0;
+}
 .proza {
   font-size: 1.1rem;
   line-height: 1.7;

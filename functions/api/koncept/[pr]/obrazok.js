@@ -1,8 +1,9 @@
 import { bezHtml, rozdel, zloz } from '../../../../functions-lib/clanok.js';
-import { GitHub, naBase64 } from '../../../../functions-lib/github.js';
+import { GitHub, ZASTUPNY_OBRAZOK, naBase64 } from '../../../../functions-lib/github.js';
 import { chyba } from '../../../../functions-lib/pristup.js';
 
 const MAX_BAJTOV = 6 * 1024 * 1024;
+const MAX_OBRAZKOV = 8;
 const PRIPONY = { 'image/jpeg': 'jpg', 'image/png': 'png', 'image/webp': 'webp' };
 
 /** Adresy, ktoré smie editor použiť: voľné náhrady a obrázky zo zdrojov v stave voľné alebo tlačové. */
@@ -30,9 +31,16 @@ async function stiahni(url) {
   return { bajty, pripona: PRIPONY[typ] };
 }
 
-// Nastaví hlavný obrázok článku: voľnú náhradu, obrázok zo zdroja, alebo vygenerovanú ilustráciu.
+/** Súbor obrázka patrí konceptu, ak leží v /obrazky/ a začína jeho slugom. Len také sa smú mazať. */
+export function patriKonceptu(src, slug) {
+  return typeof src === 'string' && src.startsWith(`/obrazky/${slug}`) && /^\/obrazky\/[a-z0-9-]+\.(jpg|png|webp)$/.test(src);
+}
+
+// Pridá obrázok do článku: voľnú náhradu, obrázok zo zdroja alebo vygenerovanú ilustráciu.
+// umiestnenie „titulny“ nahradí titulný obrázok, „galeria“ pridá ďalší obrázok pod text.
 export async function onRequestPost({ env, params, request, data }) {
   const vstup = await request.json();
+  const umiestnenie = vstup.umiestnenie === 'galeria' ? 'galeria' : 'titulny';
   const gh = new GitHub(env, data.token);
   const k = await gh.koncept(Number(params.pr));
   const sprava = k.sprava ? JSON.parse((await gh.subor(k.sprava, k.vetva)).text) : null;
@@ -56,19 +64,36 @@ export async function onRequestPost({ env, params, request, data }) {
   }
   if (meta.popisok.length < 5) return chyba(400, 'Popisok obrázka musí mať aspoň 5 znakov.');
 
-  const cesta = `public/obrazky/${k.slug}.${obrazok.pripona}`;
-  await gh.zapis(cesta, k.vetva, naBase64(obrazok.bajty), 'Hlavný obrázok článku', await gh.shaSuboru(cesta, k.vetva));
-
   const subor = await gh.subor(k.clanok, k.vetva);
   const { hlavicka, telo } = rozdel(subor.text);
-  hlavicka.obrazok = {
-    src: `/obrazky/${k.slug}.${obrazok.pripona}`,
+  const galeria = hlavicka.galeria ?? [];
+  if (umiestnenie === 'galeria' && galeria.length >= MAX_OBRAZKOV - 1) return chyba(400, `Článok môže mať najviac ${MAX_OBRAZKOV} obrázkov.`);
+
+  // Každý obrázok má vlastný súbor, aby sa obrázky neprepisovali navzájom.
+  const src = `/obrazky/${k.slug}-${Date.now().toString(36)}.${obrazok.pripona}`;
+  await gh.zapis(`public${src}`, k.vetva, naBase64(obrazok.bajty), 'Obrázok k článku');
+
+  const novy = {
+    src,
     alt: bezHtml(vstup.alt || meta.popisok).slice(0, 200),
     popisok: meta.popisok.slice(0, 300),
     kredit: meta.kredit.slice(0, 150),
     licencia: meta.licencia.slice(0, 80),
     ai: meta.ai,
   };
-  await gh.zapisText(k.clanok, k.vetva, zloz(hlavicka, telo), 'Výber hlavného obrázka', subor.sha);
-  return Response.json({ ok: true, obrazok: hlavicka.obrazok });
+
+  let nahradeny = null;
+  if (umiestnenie === 'galeria') {
+    hlavicka.galeria = [...galeria, novy];
+  } else {
+    nahradeny = hlavicka.obrazok?.src;
+    hlavicka.obrazok = novy;
+  }
+  // Čerstvé sha: zápis obrázka medzitým posunul vetvu.
+  const aktualny = await gh.subor(k.clanok, k.vetva);
+  await gh.zapisText(k.clanok, k.vetva, zloz(hlavicka, telo), umiestnenie === 'galeria' ? 'Ďalší obrázok v článku' : 'Výber titulného obrázka', aktualny.sha);
+
+  // Súbor nahradeného titulného obrázka už nič nepoužíva.
+  if (nahradeny && nahradeny !== ZASTUPNY_OBRAZOK && patriKonceptu(nahradeny, k.slug)) await gh.zmazSubor(`public${nahradeny}`, k.vetva, 'Nepoužitý obrázok');
+  return Response.json({ ok: true, obrazok: novy, umiestnenie });
 }

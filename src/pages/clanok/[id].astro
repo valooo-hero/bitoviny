@@ -96,6 +96,23 @@ const jsonLd = {
       <Content />
     </div>
 
+    {
+      d.galeria.length > 0 && (
+        <div class="galeria-clanku" data-pagefind-ignore>
+          {d.galeria.map((o) => (
+            <figure>
+              <img src={o.src} alt={o.alt} loading="lazy" />
+              <figcaption>
+                {o.popisok}
+                {' '}Zdroj: {o.kredit}. Licencia: {o.licencia}.
+                {o.ai && !/AI/.test(o.licencia) && ' Vytvorené AI.'}
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+      )
+    }
+
     <footer class="pata-clanku" data-pagefind-ignore>
       {
         d.opravy.length > 0 && (

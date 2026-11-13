@@ -16,10 +16,17 @@ export async function onRequestGet({ env, params, data }) {
   const { hlavicka, telo } = rozdel((await gh.subor(k.clanok, k.vetva)).text);
   let sprava = null;
   if (k.sprava) sprava = JSON.parse((await gh.subor(k.sprava, k.vetva)).text);
-  // Obrázok je zatiaľ len vo vetve konceptu, preto ho rozhranie číta priamo z GitHubu.
-  const obrazokUrl = hlavicka.obrazok.src.startsWith('/obrazky/') && hlavicka.obrazok.src !== ZASTUPNY_OBRAZOK
-    ? `https://raw.githubusercontent.com/${gh.repo}/${encodeURIComponent(k.vetva).replace(/%2F/g, '/')}/public${hlavicka.obrazok.src}`
-    : hlavicka.obrazok.src;
+  // Obrázky sú zatiaľ len vo vetve konceptu, preto ich rozhranie číta priamo z GitHubu.
+  const nahlad = (src) =>
+    src.startsWith('/obrazky/') && src !== ZASTUPNY_OBRAZOK
+      ? `https://raw.githubusercontent.com/${gh.repo}/${encodeURIComponent(k.vetva).replace(/%2F/g, '/')}/public${src}`
+      : src;
+  const obrazokUrl = nahlad(hlavicka.obrazok.src);
+  // Všetky obrázky článku v poradí: titulný, potom galéria.
+  const obrazky = [
+    { ...hlavicka.obrazok, titulny: true, nahlad: obrazokUrl },
+    ...(hlavicka.galeria ?? []).map((o) => ({ ...o, titulny: false, nahlad: nahlad(o.src) })),
+  ];
   return Response.json({
     pr: k.pr.number,
     slug: k.slug,
@@ -29,6 +36,7 @@ export async function onRequestGet({ env, params, data }) {
     telo,
     sprava,
     obrazokUrl,
+    obrazky,
     cakaNaObrazok: hlavicka.obrazok.src === ZASTUPNY_OBRAZOK,
   });
 }

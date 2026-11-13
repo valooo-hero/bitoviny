@@ -87,14 +87,15 @@ import Base from '../../layouts/Base.astro';
       </div>
 
       <div class="panel" data-panel="obrazok" hidden>
-        <h2 class="nadpis-bloku">Aktuálny obrázok</h2>
-        <figure id="aktualny"></figure>
+        <h2 class="nadpis-bloku">Obrázky v článku</h2>
+        <p class="meta">Titulný obrázok je hore v článku a na titulke webu. Ostatné sa zobrazia pod textom.</p>
+        <div id="v-clanku" class="galeria"></div>
 
         <h2 class="nadpis-bloku">Obrázky zo zdrojov</h2>
         <p class="meta">Zaradenie je automatické odporúčanie. Stav môžete zmeniť podľa vlastného úsudku, zmena sa zapíše do redakčnej správy aj s dôvodom.</p>
         <div id="povodne" class="galeria"></div>
 
-        <h2 class="nadpis-bloku">Vymeniť obrázok: voľné náhrady</h2>
+        <h2 class="nadpis-bloku">Pridať obrázok: voľné náhrady</h2>
         <p class="meta">Pred použitím otvorte stránku pôvodu a overte licenciu. Logá môžu byť chránené ako ochranná známka.</p>
         <div id="alternativy" class="galeria"></div>
 
@@ -107,6 +108,12 @@ import Base from '../../layouts/Base.astro';
             </label>
             <label>Popisok pod obrázkom
               <input id="gen-popisok" maxlength="300" value="Ilustračný obrázok." />
+            </label>
+            <label>Umiestnenie
+              <select id="gen-umiestnenie">
+                <option value="titulny">Titulný obrázok (nahradí doterajší)</option>
+                <option value="galeria">Ďalší obrázok pod textom</option>
+              </select>
             </label>
             <div class="riadok">
               <button id="gen-odoslat" class="tl hlavne" type="button">Odoslať</button>
@@ -169,6 +176,12 @@ import Base from '../../layouts/Base.astro';
         <p id="pouzit-prava" class="meta"></p>
         <label>Popisok pod obrázkom (po slovensky)
           <textarea id="pouzit-popisok" rows="3" minlength="5" maxlength="300" required></textarea>
+        </label>
+        <label>Umiestnenie
+          <select id="pouzit-umiestnenie">
+            <option value="titulny">Titulný obrázok (nahradí doterajší)</option>
+            <option value="galeria">Ďalší obrázok pod textom</option>
+          </select>
         </label>
         <p class="dlg-chyba" role="alert"></p>
         <div class="riadok">
@@ -462,10 +475,21 @@ import Base from '../../layouts/Base.astro';
   // ---------- obrázky ----------
 
   function vykresliObrazky() {
-    const o = stav.hlavicka.obrazok, s = stav.sprava?.obrazky;
-    $('aktualny').replaceChildren(
-      el('img', { src: stav.obrazokUrl, alt: o.alt }),
-      el('figcaption', {}, `${o.popisok} Zdroj: ${o.kredit}. Licencia: ${o.licencia}.`, stav.cakaNaObrazok ? ' Treba vybrať obrázok.' : ''),
+    const s = stav.sprava?.obrazky;
+    $('v-clanku').replaceChildren(
+      ...(stav.obrazky ?? []).map((x: any) => {
+        const zastupny = stav.cakaNaObrazok && x.titulny;
+        return el('div', { class: 'obr-karta' },
+          el('img', { src: x.nahlad, alt: x.alt }),
+          el('div', {}, x.titulny ? el('span', { class: 'znacka volne' }, 'titulný') : el('span', { class: 'znacka upozornenie' }, 'pod textom'), x.ai ? ' vytvorené AI' : ''),
+          el('div', {}, x.popisok),
+          el('div', { class: 'meta' }, `Zdroj: ${x.kredit}. Licencia: ${x.licencia}.`),
+          zastupny ? el('div', { class: 'meta' }, 'Treba vybrať obrázok.') : '',
+          !x.titulny ? el('button', { class: 'tl', type: 'button', onclick: (e: Event) => upravObrazok(e, 'titulny', x.src) }, 'Nastaviť ako titulný') : '',
+          !zastupny ? el('button', { class: 'tl', type: 'button', onclick: () => otvorPopisok(x) }, 'Zmeniť popisok') : '',
+          !zastupny ? el('button', { class: 'tl nebezpecne', type: 'button', onclick: (e: Event) => { if (confirm('Odstrániť tento obrázok z článku?')) upravObrazok(e, 'odstranit', x.src); } }, 'Odstrániť') : '',
+        );
+      }),
     );
 
     $('povodne').replaceChildren(
@@ -501,10 +525,36 @@ import Base from '../../layouts/Base.astro';
     if (!s?.alternativy?.length) $('alternativy').append(el('p', { class: 'meta' }, 'Nenašli sa žiadne voľné náhrady.'));
   }
 
+  // Akcie nad obrázkom, ktorý už v článku je: nastaviť ako titulný, odstrániť.
+  function upravObrazok(e: Event, akcia: string, src: string) {
+    pracuj(e.currentTarget as HTMLButtonElement, 'Ukladám…', async () => {
+      await api(`/api/koncept/${stav.pr}/galeria`, 'POST', { akcia, src });
+      stav = await api(`/api/koncept/${stav.pr}`);
+      vykresliObrazky();
+      hlas(akcia === 'titulny' ? 'Titulný obrázok je zmenený.' : 'Obrázok je odstránený.');
+    });
+  }
+  // Zmena popisku používa ten istý formulár ako použitie nového obrázka.
+  let menenyObrazok: string | null = null;
+  function otvorPopisok(x: any) {
+    menenyObrazok = x.src;
+    ($('pouzit-popisok') as HTMLTextAreaElement).value = x.popisok;
+    $('pouzit-prava').textContent = `Zdroj: ${x.kredit}. Licencia: ${x.licencia}.`;
+    $('pouzit-umiestnenie').parentElement!.hidden = true;
+    $('dlg-pouzit').querySelector('h2')!.textContent = 'Zmeniť popisok';
+    $('pouzit-ulozit').textContent = 'Uložiť popisok';
+    ($('dlg-pouzit') as HTMLDialogElement).showModal();
+  }
+
   // Použitie obrázka: popisok sa zadáva vo formulári, kredit a licencia sa len ukážu.
   let pouzivanaUrl = '';
   function otvorPouzitie(url: string, navrhPopisku: string, kredit: string, licencia: string) {
     pouzivanaUrl = url;
+    menenyObrazok = null;
+    $('pouzit-umiestnenie').parentElement!.hidden = false;
+    ($('pouzit-umiestnenie') as HTMLSelectElement).value = stav.cakaNaObrazok ? 'titulny' : 'galeria';
+    $('dlg-pouzit').querySelector('h2')!.textContent = 'Použiť obrázok';
+    $('pouzit-ulozit').textContent = 'Použiť obrázok';
     ($('pouzit-popisok') as HTMLTextAreaElement).value = (navrhPopisku || '').replace(/\.(jpe?g|png|webp)$/i, '');
     $('pouzit-prava').textContent = `Zdroj: ${kredit || 'neuvedený'}. Licencia: ${licencia || 'neuvedená'}.`;
     ($('dlg-pouzit') as HTMLDialogElement).showModal();
@@ -512,7 +562,9 @@ import Base from '../../layouts/Base.astro';
   $('form-pouzit').addEventListener('submit', (e) => {
     e.preventDefault();
     pracuj($('pouzit-ulozit') as HTMLButtonElement, 'Ukladám…', async () => {
-      await api(`/api/koncept/${stav.pr}/obrazok`, 'POST', { typ: 'url', url: pouzivanaUrl, popisok: ($('pouzit-popisok') as HTMLTextAreaElement).value });
+      const popisok = ($('pouzit-popisok') as HTMLTextAreaElement).value;
+      if (menenyObrazok) await api(`/api/koncept/${stav.pr}/galeria`, 'POST', { akcia: 'popisok', src: menenyObrazok, popisok });
+      else await api(`/api/koncept/${stav.pr}/obrazok`, 'POST', { typ: 'url', url: pouzivanaUrl, popisok, umiestnenie: hodnota('pouzit-umiestnenie') });
       ($('dlg-pouzit') as HTMLDialogElement).close();
       stav = await api(`/api/koncept/${stav.pr}`);
       vykresliObrazky();
@@ -558,6 +610,7 @@ import Base from '../../layouts/Base.astro';
   // Generovanie v dvoch krokoch: najprv ukázať prompt na úpravu, až potom odoslať.
   $('gen-ukaz').addEventListener('click', () => {
     ($('gen-prompt') as HTMLTextAreaElement).value ||= stav.sprava?.prompt_ilustracie || stav.sprava?.obrazky?.prompt_ilustracie || '';
+    ($('gen-umiestnenie') as HTMLSelectElement).value = stav.cakaNaObrazok ? 'titulny' : 'galeria';
     $('gen-krok2').hidden = false;
     $('gen-prompt').focus();
   });
@@ -574,7 +627,7 @@ import Base from '../../layouts/Base.astro';
   $('gen-zahodit').addEventListener('click', () => { vygenerovany = null; $('gen-vysledok').hidden = true; });
   $('gen-pouzit').addEventListener('click', (e) =>
     pracuj(e.currentTarget as HTMLButtonElement, 'Ukladám…', async () => {
-      await api(`/api/koncept/${stav.pr}/obrazok`, 'POST', { typ: 'generovany', obrazokB64: vygenerovany, popisok: ($('gen-popisok') as HTMLInputElement).value });
+      await api(`/api/koncept/${stav.pr}/obrazok`, 'POST', { typ: 'generovany', obrazokB64: vygenerovany, popisok: ($('gen-popisok') as HTMLInputElement).value, umiestnenie: hodnota('gen-umiestnenie') });
       stav = await api(`/api/koncept/${stav.pr}`);
       vykresliObrazky();
       $('gen-vysledok').hidden = $('gen-krok2').hidden = true;
