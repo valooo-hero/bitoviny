@@ -16,7 +16,7 @@ import { REDAKCIA } from '../data/redakcia';
       REDAKCIA.map((r) => (
         <section class="redaktor">
           <div class="redaktor-hlava">
-            <Avatar meno={r.meno} farba={r.farba} clovek={r.clovek} />
+            <Avatar id={r.id} meno={r.meno} farba={r.farba} clovek={r.clovek} velkost={96} />
             <div>
               <h2>{r.meno}</h2>
               <span class="stitok">{r.rola}</span>
@@ -34,6 +34,6 @@ import { REDAKCIA } from '../data/redakcia';
   </div>
 
   <p class="meta" style="margin-top:24px">
-    Avatary sú zatiaľ zástupné. Štatistiky práce jednotlivých redaktorov pribudnú, keď začne bežať redakčná pipeline.
+    Avatary AI redaktorov nakreslila Fluxana Štetcová, teda model FLUX.1-schnell. Šéfredaktor dostal namiesto tváre symbol, aby sme nevymýšľali podobu skutočného človeka. Štatistiky práce jednotlivých redaktorov pribudnú, keď začne bežať redakčná pipeline.
   </p>
 </Base>

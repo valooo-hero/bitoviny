@@ -9,7 +9,7 @@ export interface Redaktor {
   clovek?: boolean;
 }
 
-// Avatary sú zatiaľ zástupné (iniciály). Vo Fáze 6 ich nahradia obrázky z FLUX.1-schnell.
+// Avatary sú v public/avatary/<id>.webp (FLUX.1-schnell). Bez súboru sa zobrazia iniciály.
 export const REDAKCIA: Redaktor[] = [
   {
     id: 'robert',

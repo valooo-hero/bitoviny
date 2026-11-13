@@ -1,12 +1,17 @@
 ---
-// Zástupný avatar: iniciály na farebnom kruhu. AI redaktori majú anténku, človek nie.
+// Avatar redaktora. Ak je v public/avatary/ obrázok (vygenerovaný cez FLUX.1-schnell),
+// použije sa ten. Inak zástupný avatar: iniciály na farebnom kruhu, AI redaktori s anténkou.
+import { existsSync } from 'node:fs';
+
 interface Props {
+  id: string;
   meno: string;
   farba: string;
   clovek?: boolean;
   velkost?: number;
 }
-const { meno, farba, clovek = false, velkost = 64 } = Astro.props;
+const { id, meno, farba, clovek = false, velkost = 64 } = Astro.props;
+const obrazok = ['webp', 'jpg', 'png'].map((p) => `/avatary/${id}.${p}`).find((src) => existsSync(`public${src}`));
 const inicialy = meno
   .split(/\s+/)
   .filter((s) => /^\p{Lu}/u.test(s))
@@ -15,24 +20,21 @@ const inicialy = meno
   .join('');
 ---
 
-<svg class="avatar" width={velkost} height={velkost} viewBox="0 0 64 64" role="img" aria-label={`Avatar: ${meno}`}>
-  <circle cx="32" cy="34" r="28" fill={farba}></circle>
-  {
-    !clovek && (
-      <g stroke={farba} stroke-width="3" stroke-linecap="round">
-        <line x1="32" y1="8" x2="32" y2="2" />
-        <circle cx="32" cy="2" r="1.5" fill={farba} />
-      </g>
-    )
-  }
-  <text
-    x="32"
-    y="35"
-    text-anchor="middle"
-    dominant-baseline="central"
-    font-family="system-ui, sans-serif"
-    font-size="22"
-    font-weight="700"
-    fill="#fff">{inicialy}</text
-  >
-</svg>
+{
+  obrazok ? (
+    <img class="avatar" src={obrazok} width={velkost} height={velkost} alt={`Avatar: ${meno}`} loading="lazy" style={`background:${farba}`} />
+  ) : (
+    <svg class="avatar" width={velkost} height={velkost} viewBox="0 0 64 64" role="img" aria-label={`Avatar: ${meno}`}>
+      <circle cx="32" cy="34" r="28" fill={farba} />
+      {!clovek && (
+        <g stroke={farba} stroke-width="3" stroke-linecap="round">
+          <line x1="32" y1="8" x2="32" y2="2" />
+          <circle cx="32" cy="2" r="1.5" fill={farba} />
+        </g>
+      )}
+      <text x="32" y="35" text-anchor="middle" dominant-baseline="central" font-family="system-ui, sans-serif" font-size="22" font-weight="700" fill="#fff">
+        {inicialy}
+      </text>
+    </svg>
+  )
+}

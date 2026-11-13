@@ -517,6 +517,7 @@ figcaption {
 .avatar {
   flex: none;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 /* Pätička */
