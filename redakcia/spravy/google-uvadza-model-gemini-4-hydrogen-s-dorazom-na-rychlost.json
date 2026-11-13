@@ -238,10 +238,16 @@
         "zdroj_clanku": "9to5Mac",
         "alt": "",
         "popisok": "",
-        "kredit": "",
-        "licencia": "",
+        "kredit": "google",
+        "licencia": "google",
         "zaradenie": "nejasne",
-        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+        "dovod": "Rozhodnutie editora: google",
+        "automaticke_zaradenie": "nejasne",
+        "automaticky_dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené.",
+        "rozhodol_editor": {
+          "kto": "valooo-hero",
+          "kedy": "2026-11-13T09:52:27Z"
+        }
       },
       {
         "url": "https://secure.gravatar.com/avatar/d8da06fcba2b80ec1f2d301d7376dae8e055ac48d88994a8042b1d6b2c352534?s=96&d=mm&r=r",
