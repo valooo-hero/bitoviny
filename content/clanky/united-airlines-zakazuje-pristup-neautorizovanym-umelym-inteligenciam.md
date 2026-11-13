@@ -7,7 +7,7 @@ tagy:
   - umelá inteligencia
   - kyberbezpečnosť
   - letecká doprava
-publikovane: 2026-11-13T03:39:57+00:00
+publikovane: 2026-11-13T09:55:10Z
 obrazok:
   src: /obrazky/united-airlines-zakazuje-pristup-neautorizovanym-umelym-inteligenciam.jpg
   alt: United Airlines plane, Heathrow - geograph.org.uk - 5988800
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Register: United Airlines wants you to check in, not your chatbot"
     url: https://www.theregister.com/ai-and-ml/2026/11/12/united-airlines-wants-you-to-check-in-not-your-chatbot/5309373
