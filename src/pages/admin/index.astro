@@ -493,6 +493,13 @@ import Base from '../../layouts/Base.astro';
     if (s.poznamky_pre_editora) p.append(el('p', {}, el('strong', {}, 'Autorka: '), s.poznamky_pre_editora));
     for (const u of s.upozornenia ?? []) p.append(el('p', {}, el('span', { class: 'znacka upozornenie' }, 'upozornenie'), ' ', u));
     p.append(el('p', { class: 'meta' }, 'Zdroje: ', ...stav.hlavicka.zdroje.flatMap((z: any, i: number) => [i ? ', ' : '', el('a', { href: z.url, target: '_blank', rel: 'noopener' }, z.nazov.slice(0, 60))])));
+    // Záznam práce agentov: všetky volania modelov, tokeny a cena. Len pre redakciu,
+    // čitateľom sa nezobrazuje. Odkaz sa pustí len na Langfuse.
+    if (typeof s.trace === 'string' && s.trace.startsWith('https://cloud.langfuse.com/')) {
+      p.append(el('p', {}, el('strong', {}, 'Záznam práce agentov: '),
+        el('a', { href: s.trace, target: '_blank', rel: 'noopener' }, 'otvoriť v Langfuse'),
+        el('span', { class: 'meta' }, ' (volania modelov, tokeny a cena; treba byť prihlásený v Langfuse)')));
+    }
   }
 
   // ---------- obrázky ----------
