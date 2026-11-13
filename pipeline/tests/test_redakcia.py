@@ -46,10 +46,6 @@ def test_konfiguracia_modelov():
     for rola in cfg.values():
         assert len(rola["modely"]) >= 2, "každá rola má mať aspoň jednu zálohu"
         assert all(m["provider"] in {"google", "groq", "openrouter", "deepinfra"} for m in rola["modely"])
-        # Platená záloha je vždy posledná.
-        poskytovatelia = [m["provider"] for m in rola["modely"]]
-        assert poskytovatelia[-1] == "deepinfra" and poskytovatelia.count("deepinfra") == 1
-
 
 def test_vyber_tem_zahodi_neplatne_cisla_a_duplicity():
     kandidati = [_tema() for _ in range(4)]

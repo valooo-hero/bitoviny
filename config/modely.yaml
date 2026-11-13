@@ -1,6 +1,6 @@
 # Priradenie jazykových modelov k rolám. Prvý v zozname je hlavný, ďalšie sú zálohy
-# (LangChain with_fallbacks). Všetko sú bezplatné tarify okrem poslednej zálohy DeepInfra,
-# ktorá sa použije, len keď zlyhajú všetky bezplatné. Pozri docs/LLM-PROVIDERY.md.
+# (LangChain with_fallbacks). Všetko sú bezplatné tarify okrem DeepInfra (platená, bez kľúča
+# sa preskočí). Poradie sa mení len presunom riadkov. Pozri docs/LLM-PROVIDERY.md.
 # provider: google | groq | openrouter | deepinfra
 # metoda: nepovinný spôsob štruktúrovaného výstupu (napr. json_schema)
 
