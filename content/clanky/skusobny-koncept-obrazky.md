@@ -10,8 +10,8 @@ tagy:
 publikovane: 2026-11-13T10:29:54+00:00
 obrazok:
   src: /obrazky/skusobny-koncept-obrazky-mweu6ih7.png
-  alt: Úvodná obrazovka aplikácie Gemini.
-  popisok: Úvodná obrazovka aplikácie Gemini.
+  alt: Aplikácia Gemini po spustení.
+  popisok: Aplikácia Gemini po spustení.
   kredit: Google / Wikimedia Commons
   licencia: Public domain
   ai: false
