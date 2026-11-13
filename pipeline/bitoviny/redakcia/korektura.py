@@ -201,6 +201,9 @@ def languagetool(k: Koncept, klient: httpx.Client | None = None) -> tuple[list[U
                     if u:
                         upravy.append(u)
                         continue
+                # Slová s veľkým písmenom sú takmer vždy mená firiem, produktov a ľudí, ktoré slovník nepozná.
+                if pravidlo.startswith("MORFOLOGIK") and text[zaciatok:koniec][:1].isupper():
+                    continue
                 podozrive.append({
                     "pole": pole,
                     "text": text[zaciatok:koniec],

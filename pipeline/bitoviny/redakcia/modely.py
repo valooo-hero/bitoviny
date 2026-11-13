@@ -40,5 +40,7 @@ class StavClanku(TypedDict, total=False):
     nalezy: list  # list[Nalez] z posledného kola
     kolo: int  # počet dokončených kôl factchecku
     historia: list[dict]  # súhrn každého kola pre redakčnú správu
+    rozsirene: bool  # krátky koncept už dostal pokus o rozšírenie
+    slov_pred_rozsirenim: int
     korektura: dict  # vykonané a zamietnuté úpravy, diff
     obrazky: dict  # posúdené obrázky zo zdrojov, voľné náhrady, odporúčanie

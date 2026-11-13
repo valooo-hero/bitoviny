@@ -1,6 +1,6 @@
 """Redakčný graf v LangGraphe.
 
-    START -> autorka -> factcheck -+-> korektura -> fotoeditor -> END
+    START -> autorka -(krátky? rozšírenie)-> factcheck -+-> korektura -> fotoeditor -> END
                            ^       |
                            +- oprava (najviac MAX_OPRAV kôl)
 """
@@ -26,6 +26,7 @@ ZASADY = KOREN / "docs" / "REDAKCNE-ZASADY.md"
 MAX_ZNAKOV_ZDROJA = 7000
 MAX_ZDROJOV = 5
 MAX_OPRAV = 2  # koľkokrát smie factchecker vrátiť článok autorke
+MIN_SLOV = 350  # kratší koncept dostane jeden pokus o rozšírenie zo zdrojov
 
 
 def _prompt(nazov: str) -> str:
@@ -113,7 +114,7 @@ def skontroluj_koncept(k: Koncept, tema: dict) -> tuple[Koncept, list[str]]:
         upozornenia.append(f"Perex má {len(k.perex)} znakov, web vyžaduje 40 až 320.")
     slov = len(k.telo.split())
     if not (250 <= slov <= 800):
-        upozornenia.append(f"Telo má {slov} slov, cieľ je 350 až 600.")
+        upozornenia.append(f"Telo má {slov} slov, cieľ je 400 až 600.")
     if re.search(r"^#\s", k.telo, flags=re.MULTILINE):
         upozornenia.append("Telo obsahuje nadpis prvej úrovne.")
 
@@ -130,6 +131,38 @@ def uzol_autorka(model: Any | None = None) -> Callable[[StavClanku], dict]:
         return {"koncept": koncept, "upozornenia": upozornenia}
 
     return autorka
+
+
+def pocet_slov(k: Koncept) -> int:
+    return len(k.telo.split())
+
+
+def po_autorke(stav: StavClanku) -> str:
+    """Krátky koncept sa raz vráti autorke na rozšírenie, ešte pred factcheckom,
+    aby factchecker overoval aj doplnené fakty."""
+    if pocet_slov(stav["koncept"]) < MIN_SLOV and not stav.get("rozsirene"):
+        return "rozsirenie"
+    return "factcheck"
+
+
+def uzol_rozsirenie(model: Any | None = None) -> Callable[[StavClanku], dict]:
+    def rozsirenie(stav: StavClanku) -> dict:
+        pred = stav["koncept"]
+        slov_pred = pocet_slov(pred)
+        try:
+            m = model or model_pre("autorka", Koncept)
+            system = _prompt("rozsirenie").replace("{zasady}", ZASADY.read_text(encoding="utf-8"))
+            sprava = "\n".join([sprava_autorky(stav), koncept_ako_text(pred), f"Koncept má teraz {slov_pred} slov."])
+            koncept: Koncept = m.invoke([SystemMessage(system), HumanMessage(sprava)])
+        except Exception as e:  # rozšírenie je bonus, jeho zlyhanie článok nezastaví
+            return {"rozsirene": True, "upozornenia": [*stav.get("upozornenia", []), f"Rozšírenie krátkeho konceptu zlyhalo: {str(e)[:150]}"]}
+        # Model občas text skráti alebo prepíše na niečo iné: také rozšírenie sa zahodí.
+        if pocet_slov(koncept) <= slov_pred:
+            return {"rozsirene": True}
+        koncept, upozornenia = skontroluj_koncept(koncept, stav["tema"])
+        return {"koncept": koncept, "upozornenia": upozornenia, "rozsirene": True, "slov_pred_rozsirenim": slov_pred}
+
+    return rozsirenie
 
 
 # ---------- factcheck a oprava ----------
@@ -268,12 +301,14 @@ def zostav_graf(
 ):
     g = StateGraph(StavClanku)
     g.add_node("autorka", uzol_autorka(model_autorky))
+    g.add_node("rozsirenie", uzol_rozsirenie(model_autorky))
     g.add_node("factcheck", uzol_factcheck(model_factchecku))
     g.add_node("oprava", uzol_oprava(model_autorky))
     g.add_node("korektura", uzol_korektura(model_korektury, jazykova_sluzba))
     g.add_node("fotoeditor", uzol_fotoeditor(model_fotoeditora, hladac_obrazkov))
     g.add_edge(START, "autorka")
-    g.add_edge("autorka", "factcheck")
+    g.add_conditional_edges("autorka", po_autorke, {"rozsirenie": "rozsirenie", "factcheck": "factcheck"})
+    g.add_edge("rozsirenie", "factcheck")
     g.add_conditional_edges("factcheck", po_factchecku, {"oprava": "oprava", "koniec": "korektura"})
     g.add_edge("oprava", "factcheck")
     g.add_edge("korektura", "fotoeditor")

@@ -39,6 +39,15 @@ Korektúra má od Fázy 7 tri vrstvy. Každá úprava z ktorejkoľvek vrstvy pre
 
 Výpadok ktorejkoľvek vrstvy článok nezastaví.
 
+## Dĺžka článkov
+
+Prvých päť článkov malo priemerne 272 slov, hoci zadanie žiadalo 350 až 600. Od 13. 11. 2026:
+
+- Pokyn autorky žiada 400 až 600 slov a radí, ako dĺžku dosiahnuť bez vymýšľania: využiť všetky zdroje a typické časti správy (podrobnosti, súvislosti, vyjadrenia, dôsledky).
+- Koncept kratší než 350 slov dostane v grafe jeden pokus o **rozšírenie** (`prompty/rozsirenie.md`) ešte pred factcheckom, takže factchecker overí aj doplnené fakty. Rozšírenie, ktoré text skráti, sa zahodí.
+
+Skúška na tej istej téme (výpadok Microsoft 365, 5 zdrojov): pôvodne 313 slov, po zmene 417 slov, factcheck po jednej oprave bez chýb.
+
 ## Evaly
 
 Oba skripty používajú skutočné modely a služby, spúšťajú sa ručne:

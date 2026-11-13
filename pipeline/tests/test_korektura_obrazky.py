@@ -147,7 +147,7 @@ def test_cely_graf_s_falosnymi_modelmi():
         return [Alternativa(url="https://commons.example/x.jpg", licencia="CC0", stranka="https://commons.example/x", povod="wikimedia")]
 
     graf = zostav_graf(
-        model_autorky=RunnableLambda(lambda _: _koncept(TELO + " " + "slovo " * 300)),
+        model_autorky=RunnableLambda(lambda _: _koncept(TELO + " " + "slovo " * 400)),
         model_factchecku=RunnableLambda(lambda _: Factcheck(tvrdenia=[], celkove_hodnotenie="V poriadku.")),
         model_korektury=RunnableLambda(lambda _: Korektura(upravy=[
             _u("V virtualizovanom prostredí", "Vo virtualizovanom prostredí"),
@@ -170,7 +170,7 @@ def test_vypadok_korektorky_nezahodi_clanok():
         raise RuntimeError("limit")
 
     graf = zostav_graf(
-        model_autorky=RunnableLambda(lambda _: _koncept(TELO + " " + "slovo " * 300)),
+        model_autorky=RunnableLambda(lambda _: _koncept(TELO + " " + "slovo " * 400)),
         model_factchecku=RunnableLambda(lambda _: Factcheck(tvrdenia=[], celkove_hodnotenie="")),
         model_korektury=RunnableLambda(spadne),
         model_fotoeditora=RunnableLambda(spadne),
@@ -212,6 +212,7 @@ def test_languagetool_spolahlive_pravidla_sa_vykonaju_preklepy_nie():
     nalezy = [
         {"offset": telo.index(" že"), "length": 3, "replacements": [{"value": ", že"}], "rule": {"id": "ZE"}, "message": "Dajte čiarku pred že"},
         {"offset": telo.index("virtualizovanom"), "length": 15, "replacements": [{"value": "aktualizovanom"}], "rule": {"id": "MORFOLOGIK_RULE_SK_SK"}, "message": "Preklep"},
+        {"offset": 0, "length": 7, "replacements": [{"value": "Smer don"}], "rule": {"id": "MORFOLOGIK_RULE_SK_SK"}, "message": "Preklep"},
     ]
     upravy, podozrive = languagetool(k, klient=_FalosnyLT({telo[:12]: nalezy}))
     po, vysledky = vykonaj(k, Korektura(upravy=upravy))

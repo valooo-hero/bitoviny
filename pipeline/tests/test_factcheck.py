@@ -68,9 +68,9 @@ def test_cisla_sa_normalizuju_podla_jazyka():
 
 
 def test_cisla_bez_opory_najdu_len_vymyslene():
-    dobry = _koncept("Flash je asi 1,5-krát lacnejší. " + "slovo " * 300)
+    dobry = _koncept("Flash je asi 1,5-krát lacnejší. " + "slovo " * 400)
     assert cisla_bez_opory(dobry, [ZDROJ]) == []
-    zly = _koncept("Server udrží 85 % výkonu na 450 serveroch. Má 3 fázy. " + "slovo " * 300)
+    zly = _koncept("Server udrží 85 % výkonu na 450 serveroch. Má 3 fázy. " + "slovo " * 400)
     # 85 a 450 v zdroji nie sú; jednociferná 3 sa zámerne nehlási.
     assert cisla_bez_opory(zly, [ZDROJ]) == ["85", "450"]
 
@@ -84,7 +84,7 @@ def test_dokaz_musi_byt_v_zdroji_doslova():
 
 
 def test_nalezy_spajaju_model_a_mechanicke_kontroly():
-    k = _koncept("MEXT beží na 450 serveroch. Výkon je 85 %. " + "slovo " * 300)
+    k = _koncept("MEXT beží na 450 serveroch. Výkon je 85 %. " + "slovo " * 400)
     fc = Factcheck(
         tvrdenia=[
             _tvrdenie("MEXT beží na 450 serveroch", "v_rozpore", "MEXT runs on 145 servers today",
@@ -104,7 +104,7 @@ def test_nalezy_spajaju_model_a_mechanicke_kontroly():
 
 
 def test_cisty_koncept_nema_nalezy():
-    k = _koncept("Výkon ostáva na 95 %. " + "slovo " * 300)
+    k = _koncept("Výkon ostáva na 95 %. " + "slovo " * 400)
     fc = Factcheck(tvrdenia=[_tvrdenie("95 % výkonu", dokaz="kept 95% of performance")], celkove_hodnotenie="V poriadku.")
     assert zostav_nalezy(fc, k, [ZDROJ]) == []
 
@@ -133,8 +133,8 @@ def test_slucka_opravi_chybu_a_skonci():
         volania["n"] += 1
         # Prvé volanie je písanie, druhé oprava (v správe sú nálezy).
         if "<nalezy>" in spravy[-1].content:
-            return _koncept("MEXT beží na 145 serveroch. " + "slovo " * 300)
-        return _koncept("MEXT beží na 450 serveroch. " + "slovo " * 300)
+            return _koncept("MEXT beží na 145 serveroch. " + "slovo " * 400)
+        return _koncept("MEXT beží na 450 serveroch. " + "slovo " * 400)
 
     graf = zostav_graf(model_autorky=RunnableLambda(autorka), model_factchecku=_falosny_factchecker(), **BEZ_SIETE)
     v = graf.invoke({"tema": _tema()})
@@ -145,7 +145,7 @@ def test_slucka_opravi_chybu_a_skonci():
 
 
 def test_slucka_sa_zastavi_ked_autorka_chybu_neopravi():
-    tvrdohlava = RunnableLambda(lambda _: _koncept("MEXT beží na 450 serveroch. " + "slovo " * 300))
+    tvrdohlava = RunnableLambda(lambda _: _koncept("MEXT beží na 450 serveroch. " + "slovo " * 400))
     graf = zostav_graf(model_autorky=tvrdohlava, model_factchecku=_falosny_factchecker(), **BEZ_SIETE)
     v = graf.invoke({"tema": _tema()})
     # Jedno písanie, MAX_OPRAV opráv, po každej factcheck: nálezy ostanú pre editora.
@@ -154,7 +154,7 @@ def test_slucka_sa_zastavi_ked_autorka_chybu_neopravi():
 
 
 def test_sprava_opravy_obsahuje_len_chyby():
-    k = _koncept("MEXT beží na 450 serveroch. " + "slovo " * 300)
+    k = _koncept("MEXT beží na 450 serveroch. " + "slovo " * 400)
     fc = Factcheck(
         tvrdenia=[
             _tvrdenie("MEXT beží na 450 serveroch", "v_rozpore", "MEXT runs on 145 servers today", navrh_opravy="145"),

@@ -145,3 +145,50 @@ def test_vyber_ponukne_len_viaczdrojove_temy_ak_ich_je_dost():
 def test_jednozdrojova_tema_ma_upozornenie():
     _, upozornenia = skontroluj_koncept(_koncept(pouzite_zdroje=["https://z0.example/clanok"]), _tema(n=1))
     assert any("len jeden zdroj" in u for u in upozornenia)
+
+
+# ---------- rozšírenie krátkeho konceptu ----------
+
+from bitoviny.redakcia.factcheck import Factcheck  # noqa: E402
+from bitoviny.redakcia.korektura import Korektura  # noqa: E402
+from bitoviny.redakcia.obrazky import Dopyty  # noqa: E402
+
+BEZ_SIETE = dict(
+    model_factchecku=RunnableLambda(lambda _: Factcheck(tvrdenia=[], celkove_hodnotenie="V poriadku.")),
+    model_korektury=RunnableLambda(lambda _: Korektura(upravy=[])),
+    model_fotoeditora=RunnableLambda(lambda _: Dopyty(dopyty=["server"])),
+    hladac_obrazkov=lambda dopyty: [],
+    jazykova_sluzba=None,
+)
+
+
+def _autorka(dlzky: list[int]):
+    """Falošná autorka: pri každom volaní vráti koncept s ďalšou dĺžkou zo zoznamu."""
+    volania = []
+
+    def fn(spravy):
+        volania.append(spravy[0].content[:120])
+        n = dlzky[min(len(volania) - 1, len(dlzky) - 1)]
+        return _koncept(telo="## Medzititulok\n\n" + "slovo " * n)
+
+    return RunnableLambda(fn), volania
+
+
+def test_kratky_koncept_sa_rozsiri_raz():
+    model, volania = _autorka([200, 450])
+    v = zostav_graf(model_autorky=model, **BEZ_SIETE).invoke({"tema": _tema()})
+    assert len(volania) == 2 and "príliš krátky" in volania[1]
+    assert len(v["koncept"].telo.split()) > 400 and v["slov_pred_rozsirenim"] < 210
+
+
+def test_dlhy_koncept_sa_nerozsiruje():
+    model, volania = _autorka([450])
+    zostav_graf(model_autorky=model, **BEZ_SIETE).invoke({"tema": _tema()})
+    assert len(volania) == 1
+
+
+def test_rozsirenie_ktore_text_skrati_sa_zahodi():
+    model, volania = _autorka([300, 120])
+    v = zostav_graf(model_autorky=model, **BEZ_SIETE).invoke({"tema": _tema()})
+    assert len(volania) == 2  # druhý pokus už nie je
+    assert 300 <= len(v["koncept"].telo.split()) < 310
