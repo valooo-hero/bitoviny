@@ -3,26 +3,27 @@ title: United Airlines zakazuje prístup neautorizovaným umelým inteligenciám
 perex: Letecká spoločnosť United Airlines zavádza obmedzenia pre externých AI agentov. Dôvodom sú obavy o kybernetickú bezpečnosť a porušovanie predpisov.
 sekcia: biznis
 tagy:
-- United Airlines
-- umelá inteligencia
-- kyberbezpečnosť
-- letecká doprava
-publikovane: '2026-11-13T03:39:57+00:00'
+  - United Airlines
+  - umelá inteligencia
+  - kyberbezpečnosť
+  - letecká doprava
+publikovane: 2026-11-13T03:39:57+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/united-airlines-zakazuje-pristup-neautorizovanym-umelym-inteligenciam.jpg
+  alt: United Airlines plane, Heathrow - geograph.org.uk - 5988800
+  popisok: United Airlines plane, Heathrow - geograph.org.uk - 5988800
+  kredit: Hugh Venables / Wikimedia Commons
+  licencia: CC BY-SA 2.0
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'The Register: United Airlines wants you to check in, not your chatbot'
-  url: https://www.theregister.com/ai-and-ml/2026/11/12/united-airlines-wants-you-to-check-in-not-your-chatbot/5309373
-- nazov: 'TechCrunch: United Airlines blocks AI agents from booking flights, citing cybersecurity risks'
-  url: https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/
+  - nazov: "The Register: United Airlines wants you to check in, not your chatbot"
+    url: https://www.theregister.com/ai-and-ml/2026/11/12/united-airlines-wants-you-to-check-in-not-your-chatbot/5309373
+  - nazov: "TechCrunch: United Airlines blocks AI agents from booking flights, citing cybersecurity risks"
+    url: https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/
 ---
 
 Letecká spoločnosť United Airlines sa pripojila k rastúcemu zoznamu firiem, ktoré obmedzujú prístup neautorizovaným externým AI agentom. Podľa vyhlásenia aerolínií môžu autonómne systémy viesť k neúmyselným nákupom, úniku údajov alebo k obchádzaniu dôležitých kontrol, ktoré vyžadujú priamu reakciu človeka.
