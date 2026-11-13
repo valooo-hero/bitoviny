@@ -82,7 +82,7 @@ Zverejnenie je zablokované, kým je v článku chránený obrázok bez výslovn
 | Fáza | Obsah | Hotovo, keď |
 |---|---|---|
 | 0. Základy | Repozitár, plán, zdroje, zásady, overenie limitov | Hotové |
-| 1. Portál | Astro šablóny, sekcie, schéma článku, tmavý režim, stránka Redakcia s avatarmi, 3 ručné vzorové články, nasadenie | Hotové, beží na bitoviny.pages.dev. Avatary sú zástupné, news sitemap chýba |
+| 1. Portál | Astro šablóny, sekcie, schéma článku, tmavý režim, stránka Redakcia s avatarmi, 3 ručné vzorové články, nasadenie | Hotové, beží na bitoviny.pages.dev. Avatary redaktorov sú z FLUX.1-schnell (13. 11. 2026), news sitemap chýba |
 | 2. Zberač | RSS, sťahovanie textov a obrázkov, zoskupovanie tém, výber | Hotové: `python -m bitoviny.zber` vytvorí denný JSON s témami. Alternatívne obrázky sa presunuli do Fázy 5, výber tém cez LLM do Fázy 3 |
 | 3. Autorka a Langfuse | Graf v LangGraphe, výber tém modelom, prompty, záložné modely, trasovanie | Hotové: `python -m bitoviny.redakcia` napíše koncepty do `data/koncepty/` s odkazom na trace. Prompty sú v repozitári, nie v Langfuse |
 | 4. Factcheck | Extrakcia tvrdení, overenie voči zdrojom, mechanické kontroly, slučka opráv | Hotové: v skúške na zámerne pokazenom článku zachytil 5 z 5 chýb (`pipeline/evaly/factcheck_chyby.py`). Ide o jeden článok, nie o štatistiku |
