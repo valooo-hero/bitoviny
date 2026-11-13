@@ -124,3 +124,24 @@ def test_zdroj_s_inou_velkostou_pismen_sa_neodstrani():
     )
     assert k.pouzite_zdroje == ["https://z0.example/clanok", "https://z1.example/clanok"]
     assert upozornenia == []
+
+
+def test_vyber_ponukne_len_viaczdrojove_temy_ak_ich_je_dost():
+    kandidati = [_tema(n=1), _tema(n=2), _tema(n=1), _tema(n=3)]
+    videne = {}
+
+    def falosny(spravy):
+        videne["text"] = spravy[-1].content
+        return VyberTem(vybrane=[VybranaTema(cislo=1, sekcia="ai", dovod="a"), VybranaTema(cislo=2, sekcia="ai", dovod="b")])
+
+    stavy = vyber_temy(kandidati, pocet=2, model=RunnableLambda(falosny))
+    assert "[1 zdroje" not in videne["text"] and "[2 zdroje" in videne["text"] and "[3 zdroje" in videne["text"]
+    assert [s["tema"]["pocet_zdrojov"] for s in stavy] == [2, 3]
+    # Keď viaczdrojových nie je dosť, ponúknu sa všetky.
+    vyber_temy(kandidati, pocet=3, model=RunnableLambda(falosny))
+    assert "[1 zdroje" in videne["text"]
+
+
+def test_jednozdrojova_tema_ma_upozornenie():
+    _, upozornenia = skontroluj_koncept(_koncept(pouzite_zdroje=["https://z0.example/clanok"]), _tema(n=1))
+    assert any("len jeden zdroj" in u for u in upozornenia)

@@ -49,6 +49,11 @@ def sprava_vyberu(kandidati: list[dict], pocet: int) -> str:
 
 
 def vyber_temy(kandidati: list[dict], pocet: int, model: Any | None = None, config: dict | None = None) -> list[StavClanku]:
+    # Článok má stáť na aspoň dvoch nezávislých zdrojoch. Jednozdrojové témy sa
+    # modelu ponúknu len vtedy, keď viaczdrojových nie je dosť.
+    viac = [t for t in kandidati if t.get("pocet_zdrojov", 0) >= 2]
+    if len(viac) >= pocet:
+        kandidati = viac
     model = model or model_pre("vyber_tem", VyberTem)
     vyber: VyberTem = model.invoke(
         [SystemMessage(_prompt("vyber_tem")), HumanMessage(sprava_vyberu(kandidati, pocet))], config=config
@@ -99,6 +104,8 @@ def skontroluj_koncept(k: Koncept, tema: dict) -> tuple[Koncept, list[str]]:
     zdroje = list(dict.fromkeys(zname[norm(u)] for u in k.pouzite_zdroje if norm(u) in zname)) or sorted(zname.values())
     if len(zdroje) < 2 and len(zname) >= 2:
         upozornenia.append("Článok čerpá len z jedného zdroja, hoci ich bolo viac.")
+    if len(zname) < 2:
+        upozornenia.append("Téma má len jeden zdroj. Redakčné zásady žiadajú aspoň dva, zvážte doplnenie alebo zahodenie.")
 
     if len(k.titulok) > 110:
         upozornenia.append(f"Titulok má {len(k.titulok)} znakov, limit webu je 110.")
