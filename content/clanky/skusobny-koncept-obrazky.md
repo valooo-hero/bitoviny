@@ -7,7 +7,7 @@ tagy:
   - Gemini
   - Apple CarPlay
   - iOS
-publikovane: 2026-11-13T10:29:54+00:00
+publikovane: 2026-11-13T10:45:42Z
 obrazok:
   src: /obrazky/skusobny-koncept-obrazky-mweuo9gs.png
   alt: Gemini language model logo
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Engadget: Google brings the Gemini app to Apple CarPlay"
     url: https://www.engadget.com/2314093/google-brings-the-gemini-app-to-apple-carplay/
