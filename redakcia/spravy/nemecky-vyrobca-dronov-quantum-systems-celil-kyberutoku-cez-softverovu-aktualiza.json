@@ -355,10 +355,16 @@
         "zdroj_clanku": "BleepingComputer",
         "alt": "",
         "popisok": "",
-        "kredit": "",
-        "licencia": "",
-        "zaradenie": "nejasne",
-        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+        "kredit": "Quantum Systems",
+        "licencia": "tlačový materiál",
+        "zaradenie": "tlacove",
+        "dovod": "Rozhodnutie editora: tlačový materiál",
+        "automaticke_zaradenie": "nejasne",
+        "automaticky_dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené.",
+        "rozhodol_editor": {
+          "kto": "valooo-hero",
+          "kedy": "2026-11-14T09:31:35Z"
+        }
       }
     ],
     "dopyty": [
