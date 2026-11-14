@@ -1,0 +1,468 @@
+{
+  "slug": "nemecky-vyrobca-dronov-quantum-systems-celil-kyberutoku-cez-softverovu-aktualiza",
+  "datum_sprav": "2026-11-13",
+  "dovod_vyberu": "Malware útok na nemecké vojenské drony poukazuje na rastúce kybernetické hrozby v európskom obrannom sektore.",
+  "poznamky_pre_editora": "Opravila som vety na základe pripomienok factcheckera: upravila som tvrdenie o novovyrobených dronoch pre Ukrajinu (budú sa vyrábať na Ukrajine a podporia zachytávacie systémy na fronte) a vypustila som nepodloženú záverečnú vetu spomínajúcu EÚ a Slovensko.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý a presne vychádza zo zadaných zdrojov bez skreslenia údajov. V texte neboli zistené žiadne vecné chyby ani nepodložené tvrdenia.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 17,
+        "potvrdenych": 15,
+        "chyb": 2,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 15,
+        "potvrdenych": 15,
+        "chyb": 0,
+        "upozorneni": 1
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "Bundeswehr bol podľa vyjadrenia pre Reuters jediným odberateľom, ktorý drony preventívne uzemnil.",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „“The Bundeswehr was the only customer to ground their systems as a precaution,” Quantum Systems told Reuters.“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Spoločnosť Quantum Systems čelila kybernetickému útoku koncom októbra.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "German defense technology company Quantum Systems confirmed that it detected an incident in late October that was part of an active cyberattack",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Útočníci zasiahli infraštruktúru určenú na distribuovanie softvérových aktualizácií.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "the point of the compromise was the vendor’s update distribution server.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť Quantum Systems bola založená v roku 2015.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Founded in 2015, Quantum Systems has been providing drones to the Ukrainian war effort for years.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa Der Spiegel a Financial Times sa útočníkom podarilo kompromitovať server s aktualizáciami riadiaceho softvéru QBase.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "According to reports from Der Spiegel and the Financial Times, citing internal sources, the compromise occurred via a malicious QBase update file.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Program QBase slúži operátorom na plánovanie misií, monitorovanie letov a spracovanie zozbieraných dát.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "QBase lets operators plan missions, monitor flights, and process data from the ground.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Škodlivý súbor sa prostredníctvom neplánovanej aktualizácie dostal na servery nemeckých ozbrojených síl aj ďalších zákazníkov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The malicious update reportedly reached servers belonging to the German military and other customers",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Samotné drony ako prieskumné lietadlo Vector (Falke) neboli priamo infikované.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The malicious update reportedly reached servers belonging to the German military and other customers, but did not directly infect the drones.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Neplánovaná aktualizácia vyvolala v spoločnosti poplach, pričom nebolo jasné, koľko zákazníkov si balík nainštalovalo.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "the unscheduled update delivered to customers raised alarms within Quantum Systems, but it is unclear how many actually installed it.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nemecký Bundeswehr reagoval preventívnym uzemnením celého parku dronov a ich vyradením z cvičenia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Additional reports claim that the German armed forces grounded Quantum Systems drones as a precaution, excluding the company's systems from a recent military exercise.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Bundeswehr bol podľa vyjadrenia pre Reuters jediným odberateľom, ktorý drony preventívne uzemnil.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "“The Bundeswehr was the only customer to ground their systems as a precaution,” Quantum Systems told Reuters.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Do vyšetrovania sa zapojili nemecké zložky MAD, BfV a BSI.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The response reportedly involves the military counterintelligence (MAD), the domestic intelligence service (BfV), and the federal cybersecurity agency (BSI).",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Flotila bezpilotných prostriedkov Quantum Systems opäť normálne a bezpečne lietala po celom svete.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "“The fleet is operating normally around the globe – including Germany and the Bundeswehr,” Quantum Systems told Reuters.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kancelár Friedrich Merz v októbrovom oznámení prísľubu pomoci uviedol financovanie desiatok tisíc zachytávacích dronov na Ukrajine.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Last month, Chancellor Friedrich Merz announced funding for \"several tens of thousands\" of the company's interceptor drones as part of Germany's winter aid package.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Európsky obranný priemysel čelí trvalým kybernetickým hrozbám už niekoľko rokov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "“The European defense industry has been facing persistent cyberattacks for years,” Quantum Systems stated",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V júli čelil DNS hijacking útoku aj austrálsky výrobca dronov CubePilot.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "In July, another drone manufacturer, the Australian CubePilot, which also openly supports Ukraine, was targeted by a DNS hijacking attack",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "pole": "titulok",
+        "text": "dronov",
+        "kontext": "Nemecký výrobca dronov Quantum Systems čelil kyberútoku cez so",
+        "navrhy": [
+          "Hronov",
+          "Ronov",
+          "donov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "titulok",
+        "text": "kyberútoku",
+        "kontext": "ký výrobca dronov Quantum Systems čelil kyberútoku cez softvérovú aktualizáciu",
+        "navrhy": [
+          "kybernetiku"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "perex",
+        "text": "drony",
+        "kontext": "a preventívne uzemnila svoje prieskumné drony po tom, čo útočníci zasiahli server s a",
+        "navrhy": [
+          "Dony",
+          "Hrony",
+          "Rony"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "bezpilotné",
+        "kontext": "ems, ktorá vyvíja obranné technológie a bezpilotné lietadlá, sa koncom októbra stala terčo",
+        "navrhy": [
+          "bez pilotné"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "dronov",
+        "kontext": "ne pozastavila letovú prevádzku svojich dronov od tohto dodávateľa, pričom lietadlá sú",
+        "navrhy": [
+          "Hronov",
+          "Ronov",
+          "donov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "zachytávacie",
+        "kontext": "rmáde aj ukrajinským silám prieskumné a zachytávacie drony. Podľa informácií nemeckého týžde",
+        "navrhy": [
+          "zachytávanie",
+          "zachytávače",
+          "zachytávači"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "drony",
+        "kontext": "jinským silám prieskumné a zachytávacie drony. Podľa informácií nemeckého týždenníka ",
+        "navrhy": [
+          "Dony",
+          "Hrony",
+          "Rony"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "drony",
+        "kontext": "ných síl aj ďalších zákazníkov. Samotné drony, ako napríklad prieskumné lietadlo Vect",
+        "navrhy": [
+          "Dony",
+          "Hrony",
+          "Rony"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "dronov",
+        "kontext": "ent preventívnym uzemnením celého parku dronov od Quantum Systems. Armáda navyše tieto",
+        "navrhy": [
+          "Hronov",
+          "Ronov",
+          "donov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "bezpilotných",
+        "kontext": "úradmi bolo riziko odstránené a flotila bezpilotných prostriedkov opäť bezpečne lietala po c",
+        "navrhy": [
+          "bez pilotných"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "zachytávacích",
+        "kontext": "ámil financovanie výroby desiatok tisíc zachytávacích dronov tejto značky priamo na území Ukr",
+        "navrhy": [
+          "zachytávaných",
+          "zachytávači"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "dronov",
+        "kontext": "nie výroby desiatok tisíc zachytávacích dronov tejto značky priamo na území Ukrajiny v",
+        "navrhy": [
+          "Hronov",
+          "Ronov",
+          "donov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "drony",
+        "kontext": "iny v rámci zimného balíka pomoci. Nové drony budú vyrobené na Ukrajine a majú podpor",
+        "navrhy": [
+          "Dony",
+          "Hrony",
+          "Rony"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "zachytávacie",
+        "kontext": "dú vyrobené na Ukrajine a majú podporiť zachytávacie systémy už používané na fronte.\n\nSpoloč",
+        "navrhy": [
+          "zachytávanie",
+          "zachytávače",
+          "zachytávači"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "dronov",
+        "kontext": "odobným problémom aj austrálsky výrobca dronov CubePilot, ktorého prevádzku narušil út",
+        "navrhy": [
+          "Hronov",
+          "Ronov",
+          "donov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/QS_HQ_20201.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://image.theregister.com/?imageId=246156&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.bleepstatic.com/content/hl-images/2026/11/13/quantumsystems.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Quantum Systems drone",
+      "military drone",
+      "server rack"
+    ],
+    "alternativy": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/QS_HQ_20201.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/2/22/QS_HQ_20201.jpg",
+        "nazov": "QS HQ 20201.jpg",
+        "autor": "Skyscrab",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:QS_HQ_20201.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Quantum Systems drone"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/53210652349_744f947879_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/526bb583-fdac-4855-a286-dca59e2860ea/thumb/",
+        "nazov": "Surveillance from within",
+        "autor": "₡ґǘșϯγ Ɗᶏ Ⱪᶅṏⱳդ",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "stranka": "https://www.flickr.com/photos/148598741@N02/53210652349",
+        "povod": "openverse",
+        "dopyt": "Quantum Systems drone"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/UA_military_FPV_drones_02.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/4/4a/UA_military_FPV_drones_02.jpg",
+        "nazov": "UA military FPV drones 02.jpg",
+        "autor": "АрміяInform",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:UA_military_FPV_drones_02.jpg",
+        "povod": "wikimedia",
+        "dopyt": "military drone"
+      },
+      {
+        "url": "https://live.staticflickr.com/8397/8625784588_b8b68c7ef1_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/4fcea18c-8e1a-4697-9b8b-7e73b9644b47/thumb/",
+        "nazov": "Protest against US wars and military drones",
+        "autor": "Fibonacci Blue",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/44550450@N04/8625784588",
+        "povod": "openverse",
+        "dopyt": "military drone"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Quantum_Systems_UAVs_-_Dutch_Army_%281%29.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Quantum_Systems_UAVs_-_Dutch_Army_%281%29.jpg",
+        "nazov": "Quantum Systems UAVs - Dutch Army (1).jpg",
+        "autor": "Unknown author Unknown author",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Quantum_Systems_UAVs_-_Dutch_Army_(1).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Quantum Systems drone"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/UA_military_FPV_drones_01.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/2/26/UA_military_FPV_drones_01.jpg",
+        "nazov": "UA military FPV drones 01.jpg",
+        "autor": "АрміяInform",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:UA_military_FPV_drones_01.jpg",
+        "povod": "wikimedia",
+        "dopyt": "military drone"
+      }
+    ],
+    "prompt_ilustracie": "Symbolic illustration of a military reconnaissance drone silhouette overlaid with glowing digital circuitry and a shield icon, cybersecurity theme."
+  },
+  "prompt_ilustracie": "Symbolic illustration of a military reconnaissance drone silhouette overlaid with glowing digital circuitry and a shield icon, cybersecurity theme.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/0746f62dc3aacb428d473a912e017354",
+  "text_agentov": {
+    "titulok": "Nemecký výrobca dronov Quantum Systems čelil kyberútoku cez softvérovú aktualizáciu",
+    "perex": "Nemecká armáda preventívne uzemnila svoje prieskumné drony po tom, čo útočníci zasiahli server s aktualizáciami riadiaceho softvéru. Výrobca Quantum Systems potvrdil, že systémy sú už opäť v prevádzke.",
+    "telo": "Nemecká spoločnosť Quantum Systems, ktorá vyvíja obranné technológie a bezpilotné lietadlá, sa koncom októbra stala terčom kybernetického útoku. Útočníci zasiahli infraštruktúru určenú na distribuovanie softvérových aktualizácií. V reakcii na incident nemecká armáda preventívne pozastavila letovú prevádzku svojich dronov od tohto dodávateľa, pričom lietadlá sú dnes už opäť plne funkčné a bezpečné.\n\n## Kompromitovaný server s aktualizáciami\n\nSpoločnosť Quantum Systems, založená v roku 2015, dodáva nemeckej armáde aj ukrajinským silám prieskumné a zachytávacie drony. Podľa informácií nemeckého týždenníka Der Spiegel a denníka Financial Times sa útočníkom podarilo kompromitovať server, ktorý distribuuje aktualizácie pre pozemný riadiaci softvér QBase. Tento program slúži operátorom na plánovanie misií, monitorovanie letov a spracovanie zozbieraných dát.\n\nŠkodlivý súbor sa prostredníctvom neplánovanej aktualizácie dostal na servery nemeckých ozbrojených síl aj ďalších zákazníkov. Samotné drony, ako napríklad prieskumné lietadlo Vector používané nemeckou armádou pod názvom Falke, však neboli priamo infikované. Neplánovaná aktualizácia vyvolala v spoločnosti poplach, pričom nebolo bezprostredne jasné, koľko zákazníkov si škodlivý balík reálne nainštalovalo.\n\n## Preventívne uzemnenie nemeckej flotily\n\nNemecký Bundeswehr reagoval na incident preventívnym uzemnením celého parku dronov od Quantum Systems. Armáda navyše tieto systémy vyradila z nedávneho vojenského cvičenia. Podľa vyjadrenia spoločnosti pre agentúru Reuters bol Bundeswehr jediným odberateľom, ktorý sa rozhodol pre takéto preventívne opatrenie.\n\nDo vyšetrovania a riešenia kybernetického incidentu sa zapojili kľúčové nemecké bezpečnostné zložky. Ide o vojenskú kontrarozviedku MAD, civilnú tajnú službu BfV aj spolkový úrad pre bezpečnosť v informačných technológiách BSI. Výrobca uviedol, že vďaka rýchlemu zásahu IT tímov v spolupráci s úradmi bolo riziko odstránené a flotila bezpilotných prostriedkov opäť bezpečne lietala po celom svete.\n\n## Súvislosť s pomocou Ukrajine\n\nZástupcovia Quantum Systems spájajú útok so svojou verejnou podporou Ukrajiny. Nemecký kancelár Friedrich Merz len nedávno v októbri oznámil financovanie výroby desiatok tisíc zachytávacích dronov tejto značky priamo na území Ukrajiny v rámci zimného balíka pomoci. Nové drony budú vyrobené na Ukrajine a majú podporiť zachytávacie systémy už používané na fronte.\n\nSpoločnosť upozornila, že európsky obranný priemysel čelí trvalým kybernetickým hrozbám už niekoľko rokov. Útoky sa podľa nej zameriavajú najmä na firmy, ktorých produkty zohrávajú kľúčovú úlohu pri podpore ukrajinskej obrany. V júli čelil podobným problémom aj austrálsky výrobca dronov CubePilot, ktorého prevádzku narušil útok na doménové servery."
+  }
+}
