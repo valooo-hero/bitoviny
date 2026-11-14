@@ -8,7 +8,7 @@ tagy:
   - nemecko
   - quantum-systems
   - software
-publikovane: 2026-11-14T03:41:48+00:00
+publikovane: 2026-11-14T09:32:24Z
 obrazok:
   src: /obrazky/nemecky-vyrobca-dronov-quantum-systems-celil-kyberutoku-cez-softverovu-aktualiza-mwg7i98o.jpg
   alt: Quantum Systems
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "BleepingComputer: German military drone operations disrupted by cyberattack"
     url: https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/
