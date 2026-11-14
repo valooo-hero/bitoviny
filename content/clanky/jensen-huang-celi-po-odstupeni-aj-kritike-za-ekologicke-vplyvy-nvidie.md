@@ -31,6 +31,13 @@ zdroje:
     url: https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-and-singapore-step-up-nvidia-ai-chip-probes-as-charges-brought-against-chinese-national-over-917-smuggled-servers-firm-at-center-of-jensen-huang-controversy-announces-inventory-audit-to-account-for-all-restricted-gpus
   - nazov: "Engadget: Bloomberg details web of Chinese AI companies with smuggled NVIDIA chips linked to Alice Huang"
     url: https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang/
+galeria:
+  - src: /obrazky/jensen-huang-celi-po-odstupeni-aj-kritike-za-ekologicke-vplyvy-nvidie-mwg7dh1s.jpg
+    alt: Nvidia HQ
+    popisok: Nvidia HQ
+    kredit: Kevin McCarthy / Wikimedia Commons
+    licencia: CC BY 2.0
+    ai: false
 ---
 
 Po odstúpení spoluzakladateľa Nvidie Jensena Huanga v dôsledku škandálu s mimomanželským vzťahom a podozreniami zo špionáže čelí spoločnosť ďalšej vlne kritiky. Ako uviedol portál The Verge, pod Huangovým vedením sa Nvidia stala nielen motorom rozmachu umelej inteligencie, ale aj jednou z najväčších environmentálnych záťaží technologického sektora.
