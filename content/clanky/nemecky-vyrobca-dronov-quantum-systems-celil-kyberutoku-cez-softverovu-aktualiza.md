@@ -3,27 +3,28 @@ title: Nemecký výrobca dronov Quantum Systems čelil kyberútoku cez softvéro
 perex: Nemecká armáda preventívne uzemnila svoje prieskumné drony po tom, čo útočníci zasiahli server s aktualizáciami riadiaceho softvéru. Výrobca Quantum Systems potvrdil, že systémy sú už opäť v prevádzke.
 sekcia: bezpecnost
 tagy:
-- kyberbezpecnost
-- drony
-- nemecko
-- quantum-systems
-- software
-publikovane: '2026-11-14T03:41:48+00:00'
+  - kyberbezpecnost
+  - drony
+  - nemecko
+  - quantum-systems
+  - software
+publikovane: 2026-11-14T03:41:48+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/nemecky-vyrobca-dronov-quantum-systems-celil-kyberutoku-cez-softverovu-aktualiza-mwg7i98o.jpg
+  alt: Quantum Systems
+  popisok: Quantum Systems
+  kredit: Quantum Systems
+  licencia: tlačový materiál
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'BleepingComputer: German military drone operations disrupted by cyberattack'
-  url: https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/
-- nazov: 'The Register: Quantum Systems drones back in the air after malware scare'
-  url: https://www.theregister.com/security/2026/11/13/quantum-systems-drones-back-in-the-air-after-malware-scare/5309658
+  - nazov: "BleepingComputer: German military drone operations disrupted by cyberattack"
+    url: https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/
+  - nazov: "The Register: Quantum Systems drones back in the air after malware scare"
+    url: https://www.theregister.com/security/2026/11/13/quantum-systems-drones-back-in-the-air-after-malware-scare/5309658
 ---
 
 Nemecká spoločnosť Quantum Systems, ktorá vyvíja obranné technológie a bezpilotné lietadlá, sa koncom októbra stala terčom kybernetického útoku. Útočníci zasiahli infraštruktúru určenú na distribuovanie softvérových aktualizácií. V reakcii na incident nemecká armáda preventívne pozastavila letovú prevádzku svojich dronov od tohto dodávateľa, pričom lietadlá sú dnes už opäť plne funkčné a bezpečné.
