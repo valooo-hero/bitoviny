@@ -8,7 +8,7 @@ tagy:
   - ekologia
   - AI
   - Cina
-publikovane: 2026-11-14T03:41:44+00:00
+publikovane: 2026-11-14T09:59:07Z
 obrazok:
   src: /obrazky/jensen-huang-celi-po-odstupeni-aj-kritike-za-ekologicke-vplyvy-nvidie-mwg7clxt.jpg
   alt: Jensen Huang
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Verge: Jensen Huang was reckless with the environment, too"
     url: https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution
