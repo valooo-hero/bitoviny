@@ -1,0 +1,553 @@
+{
+  "slug": "jensen-huang-celi-po-odstupeni-aj-kritike-za-ekologicke-vplyvy-nvidie",
+  "datum_sprav": "2026-11-13",
+  "dovod_vyberu": "Odhalenie siete čínskych AI firiem s pašovanými NVIDIA čipmi má dopad na európsky trh a bezpečnosť dodávateľského reťazca.",
+  "poznamky_pre_editora": "Opravila som nepresnosť týkajúcu sa roku dosiahnutia 100% obnoviteľnej energie pre vlastné zariadenia (upravené na rok 2025 podľa zdroja). Upravila som rolu Alice Huang v spoločnosti Megaspeed z 'výkonnej riaditeľky' na 'manažérku', keďže CEO spoločnosti je James Tan Yong Pong.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Predložený koncept je mimoriadne spoľahlivý a presný, pričom všetky uvádzané tvrdenia majú plnú oporu v poskytnutých anglických zdrojoch. Pri overovaní neboli zistené žiadne vecné nepresnosti ani nepodložené informácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 20,
+        "potvrdenych": 19,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 23,
+        "potvrdenych": 21,
+        "chyb": 2,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 22,
+        "potvrdenych": 22,
+        "chyb": 0,
+        "upozorneni": 1
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "DePue analyzoval inicializačné vzory algoritmu Philox v knižnici cuRAND od Nvidie.",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „One method for doing so involves a pseudorandom number generation (PRNG) algorithm called Philox. Using PyTorch, initialization can be done by creating multiple“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Pod Huangovým vedením sa Nvidia stala nielen motorom rozmachu AI, ale aj jednou z najväčších environmentálnych záťaží technologického sektora.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Under cofounder Jensen Huang, Nvidia has become the engine for the AI boom — and one of the tech industry’s biggest environmental liabilities.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jensen Huang odstúpil z čela Nvidie v dôsledku škandálu s mimomanželským vzťahom a podozreniami zo špionáže.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Now, after the CEO’s shocking resignation amid a sprawling sex-and-espionage scandal, advocates are urging Nvidia to turn the page.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rastúci dopyt po čipoch pre AI vedie k obrovskej spotrebe vody, chemikálií a elektrickej energie v dátových centrách.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Its sought-after chips have triggered a new wave of water- and chemical-intensive factories, drained power grids from inside massive data centers",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa Greenpeace Huang nedokázal postaviť klimatickú zodpovednosť do centra stratégie firmy.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Jensen Huang has failed to put climate responsibility at the heart of the company’s growth strategy",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nvidia sama navrhuje čipy a ich výrobu zveruje partnerom ako TSMC.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "because Nvidia designs chips that other companies like TSMC then manufacture.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zariadenia Nvidie vyprodukovali vo fiškálnom roku 2026 len 9 822 ton skleníkových plynov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Greenhouse gas emissions coming directly from Nvidia-operated facilities and vehicles only reached 9,822 metric tons in fiscal year 2026",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V roku 2025 Nvidia dosiahla cieľ pokryť 100 percent spotreby elektriny svojich zariadení nákupom čistej energie.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "And in 2025, the company reached a goal of matching 100 percent of its facilities’ electricity use with clean energy purchases.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Väčšina ekologickej záťaže Nvidie sa skrýva v nepriamych emisiách z dodávateľského reťazca a používania čipov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Those “indirect” emissions — from its supply chain and the use of its products — make up the bulk of Nvidia’s climate impact.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Emisie dodávateľského reťazca Nvidie vzrástli od roku 2020 o 725 percent.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Nvidia’s supply-chain emissions have grown 725 percent since 2020",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Emisie dodávateľského reťazca dosiahli vo fiškálnom roku 2026 približne 10,7 milióna ton CO2.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Supply chain emissions the company disclosed for fiscal year 2026 reached around 10.7 million metric tons of CO2",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Emisie z používania predaných čipov mohli v roku 2025 dosiahnuť až 21 miliónov ton CO2.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Those emissions could have reached 21 million metric tons in 2025, according to the report",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Úroveň znečistenia z predaných čipov je podľa Joshiho porovnateľná s ruským štátnym uhoľným podnikom.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "That level of pollution puts Nvidia on par with Russia’s state-owned coal company, according to Joshi.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Huang v relácii The Ezra Klein Show tvrdil, že AI je najlepšou príležitosťou na dosiahnutie udržateľnosti.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "If you want to turn a corner on climate change, if you want a future that’s sustainable, lean into A.I. It is the best opportunity we have to get there",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Huang priznal, že budovanie AI infraštruktúry prinesie obrovské množstvo bolesti a utrpenia a prirovnal AI k chirurgovi.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "building up the infrastructure for AI will likely result in “an enormous amount of pain and suffering.” He compared AI to a surgeon who has “to cut you open to save you.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Will DePue z Unemployment Labs zverejnil dôkazy, že čínske laboratóriá DeepSeek, Moonshot AI, MiniMax a Ant Group trénovali modely na čipoch Blackwell.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "DeepSeek, Moonshot AI, MiniMax and Ant Group have gained access to Nvidia's Blackwell GPUs, despite restrictions on exporting these chips to China",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "DePue analyzoval inicializačné vzory algoritmu Philox v knižnici cuRAND od Nvidie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "One method for doing so involves a pseudorandom number generation (PRNG) algorithm called Philox. Using PyTorch, initialization can be done by creating multiple GPU threads that work in parallel, with the help of Nvidia's cuRAND library.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Každá kombinácia hardvéru a štartovacej hodnoty vytvára jedinečný vzor a odtlačok v publikovaných váhach modelu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Each combination of GPU and seed number produces a unique pattern – a sort of fingerprint of the hardware used to create the model.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Analýza viac ako šiestich biliónov kombinácií potvrdila prítomnosť architektúry Blackwell v šiestich čínskych modeloch vrátane DeepSeek-V4-Pro a Kimi K3.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "I searched more than six trillion combinations of chip layout and seed number and matched them to open-weights models... In doing so, I found conclusive evidence that six Chinese AI models – including DeepSeek-V4-Pro, Kimi K3, and MiniMax-M3 – were initialized on Nvidia Blackwell systems.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jensen Huang priznal pomer s Alice Huang, manažérkou spoločnosti Megaspeed.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "admitting to his affair with Alice Huang, executive of Megaspeed",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Americké orgány podozrievajú Alice Huang z práce pre čínsku rozviedku.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Alice Huang has also been alleged to be an agent of China’s intelligence service.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vyšetrovanie podozrivých zásielok hardvéru prebieha v Malajzii aj v Singapure.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Malaysia and Singapore have intensified scrutiny of AI hardware shipments amid concerns about the potential circumvention of U.S. export restrictions on China.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Singapurské úrady vzniesli 41 trestných obvinení voči Shi Bingzhemu za nákup 917 serverov s hardvérom Nvidia.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "brought 41 criminal charges against Shi Bingzhe, a 34-year-old Chinese citizen who served as director of Superphi and chief operating officer of NJ Global Financial. The two companies purchased 917 servers containing restricted Nvidia hardware",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "titulok",
+        "povodne": "kritike za ekologické dopady Nvidie",
+        "opravene": "kritike za ekologické vplyvy Nvidie",
+        "dovod": "zahraničný vplyv / dopad",
+        "stav": "vykonana",
+        "poznamka": ""
+      },
+      {
+        "pole": "telo",
+        "povodne": "Ešte väčší dopad má používanie",
+        "opravene": "Ešte väčší vplyv má používanie",
+        "dovod": "zahraničný vplyv / dopad",
+        "stav": "vykonana",
+        "poznamka": ""
+      }
+    ],
+    "podozrive": [
+      {
+        "pole": "telo",
+        "text": "špionáže",
+        "kontext": "imomanželským vzťahom a podozreniami zo špionáže čelí spoločnosť ďalšej vlne kritiky. Ak",
+        "navrhy": [
+          "špionáž",
+          "špionážne",
+          "špionáž e"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "najväčších",
+        "kontext": "hu umelej inteligencie, ale aj jednou z najväčších environmentálnych záťaží technologickéh",
+        "navrhy": [
+          "veľkých"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (najväčších) \"veľkých\""
+      },
+      {
+        "pole": "telo",
+        "text": "záťaží",
+        "kontext": "j jednou z najväčších environmentálnych záťaží technologického sektora.\n\nRastúci dopyt",
+        "navrhy": [
+          "zaťaží",
+          "zapaží",
+          "zarazí"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "je čipy, no ich výrobu zveruje partnerom ako TSMC. Zariadenia, ktoré Nvidia priamo p",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "pole": "telo",
+        "text": "záťaže",
+        "kontext": "om čistej energie.\n\nVäčšina ekologickej záťaže sa však skrýva v dodávateľskom reťazci ",
+        "navrhy": [
+          "zakáže",
+          "zamaže",
+          "zaťaté"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "udržateľnosti",
+        "kontext": " najlepšou príležitosťou na dosiahnutie udržateľnosti, no zároveň priznal, že budovanie infra",
+        "navrhy": [
+          "neudržateľnosti",
+          "neudržateľností"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": " zverejnil dôkazy, že čínske laboratóriá ako DeepSeek, Moonshot AI, MiniMax či Ant G",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "pole": "telo",
+        "text": "cuRAND",
+        "kontext": "začné vzory algoritmu Philox v knižnici cuRAND od Nvidie. Každá kombinácia hardvéru a ",
+        "navrhy": [
+          "Buran",
+          "Burana",
+          "Juran"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": " modelu jedinečný odtlačok. Analýza viac ako šiestich biliónov kombinácií potvrdila ",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -1 +1 @@\n-# Jensen Huang čelí po odstúpení aj kritike za ekologické dopady Nvidie\n+# Jensen Huang čelí po odstúpení aj kritike za ekologické vplyvy Nvidie\n@@ -15 +15 @@\n-Ešte väčší dopad má používanie predaných čipov v dátových centrách. Tieto takzvané nepriame emisie mohli v roku 2025 dosiahnuť až 21 miliónov ton CO2, čo je podľa Joshiho úroveň porovnateľná s ruským štátnym uhoľným podnikom. Huang v septembri v rozhovore pre reláciu The Ezra Klein Show tvrdil, že AI je najlepšou príležitosťou na dosiahnutie udržateľnosti, no zároveň priznal, že budovanie infraštruktúry prinesie „obrovské množstvo bolesti a utrpenia“ a prirovnal AI k chirurgovi, ktorý vás musí rozrezať, aby vás zachránil.\n+Ešte väčší vplyv má používanie predaných čipov v dátových centrách. Tieto takzvané nepriame emisie mohli v roku 2025 dosiahnuť až 21 miliónov ton CO2, čo je podľa Joshiho úroveň porovnateľná s ruským štátnym uhoľným podnikom. Huang v septembri v rozhovore pre reláciu The Ezra Klein Show tvrdil, že AI je najlepšou príležitosťou na dosiahnutie udržateľnosti, no zároveň priznal, že budovanie infraštruktúry prinesie „obrovské množstvo bolesti a utrpenia“ a prirovnal AI k chirurgovi, ktorý vás musí rozrezať, aby vás zachránil."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://www.engadget.com/img/gallery/companies-linked-to-alice-huang-reportedly-smuggled-nvidia-chips-installed-at-shanghai-data-center/l-intro-1794574510.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Nvidia",
+        "licencia": "tlačový materiál",
+        "zaradenie": "tlacove",
+        "dovod": "Rozhodnutie editora: Tlačový materiál",
+        "automaticke_zaradenie": "nejasne",
+        "automaticky_dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené.",
+        "rozhodol_editor": {
+          "kto": "valooo-hero",
+          "kedy": "2026-11-14T09:27:07Z"
+        }
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/companies-linked-to-alice-huang-reportedly-smuggled-nvidia-chips-installed-at-shanghai-data-center/intro-1794574510.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/02/TIm.jpg?w=150",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Tim Fernholz",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://image.theregister.com/?imageId=5309895&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/Shoacr4XJZW9Mkip4RDNCA-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Tom's Hardware",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Vlastný obrázok vydavateľa (Tom's Hardware)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/p2QqhVFP7dTRWfeVBCYBYV-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "tsmc",
+        "popisok": "",
+        "kredit": "(Image credit: tsmc)",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: tsmc."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2301295182.jpg?quality=90&strip=all&crop=0,12.121468677824,100,75.757062644352",
+        "zdroj_clanku": "The Verge",
+        "alt": "NVIDIA Holds Berlin GTC",
+        "popisok": "Jensen Huang gives a keynote address at the Berlin GPU Technology Conference on October 21st in Berlin. | Photo: Getty Images",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2301327883.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "BERLIN, GERMANY - OCTOBER 21: Jensen Huang, CEO of NVIDIA, presents new NVIDIA Vera computers as he gives a keynote address at the Berlin GPU Technology Conference (GTC) on October 21, 2026 in Berlin, Germany. The three-day event is bringing together developers, researchers, and industry leaders in artificial intelligence infrastructure. (Photo by Sean Gallup/Getty Images)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "Nvidia HQ",
+      "Nvidia RTX 3080",
+      "AI server rack"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg",
+        "nazov": "Nvidia HQ.jpg",
+        "autor": "Kevin McCarthy",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Nvidia_HQ.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia HQ"
+      },
+      {
+        "url": "https://live.staticflickr.com/10/16111108_d0a0da4a90_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/41405f07-1fb4-49c8-8690-06990531f85e/thumb/",
+        "nazov": "Nvidia HQ",
+        "autor": "kevin1024",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/62742868@N00/16111108",
+        "povod": "openverse",
+        "dopyt": "Nvidia HQ"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_13.png/1280px-Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_13.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_13.png/1280px-Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_13.png",
+        "nazov": "Video über die RTX 4080 Super und Vergleichskarten (极客湾Geekerwan) 13.png",
+        "autor": "极客湾Geekerwan",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_13.png",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia RTX 3080"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/CUDA_Cores_and_Memory_Bandwidth_per_USD_for_RTX_30-series.png",
+        "nahlad": "https://api.openverse.org/v1/images/cf3c85e2-8f57-439f-bbb7-005289cc781e/thumb/",
+        "nazov": "CUDA Cores and Memory Bandwidth per USD for RTX 30-series",
+        "autor": "WikiEwout",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=169218965",
+        "povod": "openverse",
+        "dopyt": "Nvidia RTX 3080"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Sparkles_Beckett_LeClair_Better_Images_of_AI.png/1280px-Sparkles_Beckett_LeClair_Better_Images_of_AI.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Sparkles_Beckett_LeClair_Better_Images_of_AI.png/1280px-Sparkles_Beckett_LeClair_Better_Images_of_AI.png",
+        "nazov": "Sparkles Beckett LeClair Better Images of AI.png",
+        "autor": "Beckett LeClair",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Sparkles_Beckett_LeClair_Better_Images_of_AI.png",
+        "povod": "wikimedia",
+        "dopyt": "AI server rack"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Sparkles_Beckett_LeClair_Better_Images_of_AI.png",
+        "nahlad": "https://api.openverse.org/v1/images/3a411dfb-cd88-47b1-bce4-e617a873b946/thumb/",
+        "nazov": "Sparkles Beckett LeClair Better Images of AI",
+        "autor": "Beckett LeClair",
+        "licencia": "BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=182489025",
+        "povod": "openverse",
+        "dopyt": "AI server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Nvidia_Melanox.jpg/1280px-Nvidia_Melanox.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Nvidia_Melanox.jpg/1280px-Nvidia_Melanox.jpg",
+        "nazov": "Nvidia Melanox.jpg",
+        "autor": "דוד שי",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Nvidia_Melanox.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia HQ"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Nvidia_HQ.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/560b5129-a5f8-427d-9aff-1911b8592188/thumb/",
+        "nazov": "Nvidia HQ",
+        "autor": "Kevin McCarthy",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=150379957",
+        "povod": "openverse",
+        "dopyt": "Nvidia HQ"
+      }
+    ],
+    "prompt_ilustracie": "A glowing semiconductor chip sitting on dry cracked earth beside industrial power lines and smoking cooling towers, rendered in a modern dark tech style."
+  },
+  "prompt_ilustracie": "A glowing semiconductor chip sitting on dry cracked earth beside industrial power lines and smoking cooling towers, rendered in a modern dark tech style.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/5abec95f31660f54980d424dce87ce88",
+  "text_agentov": {
+    "titulok": "Jensen Huang čelí po odstúpení aj kritike za ekologické vplyvy Nvidie",
+    "perex": "Bývalý šéf Nvidie Jensen Huang nezanechal po svojom rezignovaní len škandál okolo pašovania čipov do Číny, ale aj masívnu uhlíkovú stopu. Mimovládne organizácie upozorňujú na prudký nárast emisií a obchádzanie pravidiel.",
+    "telo": "Po odstúpení spoluzakladateľa Nvidie Jensena Huanga v dôsledku škandálu s mimomanželským vzťahom a podozreniami zo špionáže čelí spoločnosť ďalšej vlne kritiky. Ako uviedol portál The Verge, pod Huangovým vedením sa Nvidia stala nielen motorom rozmachu umelej inteligencie, ale aj jednou z najväčších environmentálnych záťaží technologického sektora.\n\nRastúci dopyt po čipoch pre AI vedie k obrovskej spotrebe vody, chemikálií a elektrickej energie v dátových centrách. Podľa ekologických organizácií Huang nedokázal postaviť klimatickú zodpovednosť do centra stratégie firmy.\n\n## Emisie dodávateľského reťazca výrazne narástli\n\nSamotná Nvidia navrhuje čipy, no ich výrobu zveruje partnerom ako TSMC. Zariadenia, ktoré Nvidia priamo prevádzkuje, vyprodukovali vo fiškálnom roku 2026 len 9 822 metrických ton skleníkových plynov a v roku 2025 dosiahla cieľ vyrovnať 100 percent spotreby elektriny svojich zariadení nákupom čistej energie.\n\nVäčšina ekologickej záťaže sa však skrýva v dodávateľskom reťazci a v samotnom používaní čipov. Analýza výskumníka Ketana Joshiho a organizácie Greenpeace ukázala, že emisie dodávateľského reťazca Nvidie vzrástli od roku 2020 o 725 percent. Vo fiškálnom roku 2026 dosiahli približne 10,7 milióna metrických ton CO2.\n\nEšte väčší vplyv má používanie predaných čipov v dátových centrách. Tieto takzvané nepriame emisie mohli v roku 2025 dosiahnuť až 21 miliónov ton CO2, čo je podľa Joshiho úroveň porovnateľná s ruským štátnym uhoľným podnikom. Huang v septembri v rozhovore pre reláciu The Ezra Klein Show tvrdil, že AI je najlepšou príležitosťou na dosiahnutie udržateľnosti, no zároveň priznal, že budovanie infraštruktúry prinesie „obrovské množstvo bolesti a utrpenia“ a prirovnal AI k chirurgovi, ktorý vás musí rozrezať, aby vás zachránil.\n\n## Zakázané čipy v čínskych modeloch\n\nPopri ekologických problémoch rieši Nvidia aj obchádzanie exportných obmedzení USA. Ako informoval portál TechCrunch, bývalý výskumník OpenAI Will DePue z organizácie Unemployment Labs zverejnil dôkazy, že čínske laboratóriá ako DeepSeek, Moonshot AI, MiniMax či Ant Group trénovali svoje pokročilé AI modely na čipoch Nvidia Blackwell, ktorých vývoz do Číny je zakázaný.\n\nDePue analyzoval inicializačné vzory algoritmu Philox v knižnici cuRAND od Nvidie. Každá kombinácia hardvéru a štartovacej hodnoty zanecháva v publikovaných váhach modelu jedinečný odtlačok. Analýza viac ako šiestich biliónov kombinácií potvrdila prítomnosť architektúry Blackwell v šiestich čínskych modeloch, vrátane DeepSeek-V4-Pro a Kimi K3.\n\n## Špionážny škandál a vyšetrovanie v Ázii\n\nÚniky čipov súvisia aj s odchodom Jensena Huanga, ktorý priznal vzťah s Alice Huang, manažérkou singapurskej spoločnosti Megaspeed. Americké orgány ju podozrievajú z práce pre čínsku rozviedku a z pašovania čipov. Ako doplnil portál Tom's Hardware, vyšetrovanie prebieha aj v Malajzii a Singapure. Singapurské úrady vzniesli 41 trestných obvinení voči čínskemu občanovi Shi Bingzhemu za nákup 917 serverov s obmedzeným hardvérom Nvidia."
+  }
+}
