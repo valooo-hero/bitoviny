@@ -1,0 +1,467 @@
+{
+  "slug": "sluzby-microsoft-365-vypadli-po-celom-svete-firma-obnovuje-ich-prevadzku",
+  "datum_sprav": "2026-11-13",
+  "dovod_vyberu": "Masívny výpadok Microsoft Outlook a ďalších služieb ukazuje zraniteľnosť kritickej cloud infraštruktúry pre podniky v EÚ.",
+  "poznamky_pre_editora": "Opravila som obe pripomienky factcheckera: 1. Upravila som tvrdenie o regionálnom postupe obnovy presne podľa zdroja Engadget (širšie zlepšenie v Severnej Amerike, trvalé zlepšovanie vo väčšine Európy a povzbudivé signály obnovy v ázijsko-tichomorskom regióne). 2. Odstránila som vložený časový zápis '(12:00 PM ET)', ktorý nebol doslovne podložený zdrojom, a ponechala som text 'krátko po poludní ET'.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý a prakticky všetky uvádzané faktické tvrdenia presne zodpovedajú informáciám z dodaných zdrojov. Jedinou drobnou nepresnosťou je označenie Jonathana Leitschuha za bezpečnostného výskumníka, hoci zdroj ho uvádza iba ako nezávislého výskumníka.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 16,
+        "potvrdenych": 15,
+        "chyb": 2,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 22,
+        "potvrdenych": 21,
+        "chyb": 2,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 16,
+        "potvrdenych": 15,
+        "chyb": 1,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "factchecker",
+        "zavaznost": "chyba",
+        "text": "Nezávislý bezpečnostný výskumník Jonathan Leitschuh pre magazín Wired upozornil na vlnu nahromadených notifikácií.",
+        "komentar": "[nepresne] Zdroj označuje Jonathana Leitschuha ako nezávislého výskumníka, neuvádza prívlastok bezpečnostný.",
+        "navrh_opravy": "Nezávislý výskumník Jonathan Leitschuh pre magazín Wired upozornil, že používatelia by mali počítať s vlnou nahromadených notifikácií a meškajúcich správ, keďže jednotlivé podsystémy nabiehajú postupne."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Rozsiahly celosvetový výpadok cloudových služieb Microsoft 365 sa začal vo štvrtok okolo poludnia ET a zasiahol milióny používateľov vo viac ako 70 krajinách.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "began around lunchtime on the East Coast on Thursday... spread to impact more than 70 countries around the world.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Používatelia nahlásili prvé problémy na portáli Downdetector krátko po poludní ET.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "users reporting Outlook outages to the service-tracking website Downdetector just after 12 pm ET.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výpadok ochromil kľúčové nástroje vrátane služieb Outlook, Teams, SharePoint Online či Copilot AI.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "SharePoint Online, Teams, Copilot AI, and 365 apps.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V piatok dopoludnia Microsoft informoval o zlepšení v Severnej Amerike, Európe a ázijsko-tichomorskom regióne.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "broader improvements in North America, sustained improvements across much of Europe and encouraging recovery signals in Asia Pacific.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft opakovane zdôraznil, že za výpadkom nestál kybernetický útok, DDoS útok ani zlyhanie systémov umelej inteligencie či AI agentov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "isn't related to 'cyber, AI/agents, DDOS, etc.'",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Porucha vznikla počas predchádzajúcej modernizácie sieťovej kapacity a prejavila sa po nedávnej zmene v sieti.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "The incident was introduced by an issue during an earlier network capacity upgrade that surfaced following a recent network change",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tom Warren z The Verge uviedol, že incident súvisel so zmenami v konfigurácii Azure VNet.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Senior Verge correspondent Tom Warren reports that according to his sources, the outage is linked to Azure VNet config changes.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť postupovala pri obnovovaní služieb zámerne pomaly, aby po etapách preverovala stabilitu systému.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Given the scale of demand, we restored services gradually, validating stability at each stage.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft sa ospravedlnil za narušenie a prísľubil zverejnenie podrobnej správy po dokončení celkovej revízie.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "We are deeply sorry for the disruption this incident has caused our customers and partners.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zlyhanie komunikácie zasiahlo nemocnice, policajné zložky, núdzové linky, súdne systémy, školy a americkú Snemovňu reprezentantov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "affecting calls to emergency services, governments, the House of Representatives, court systems, schools and other organizations.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Letecké spoločnosti hlásili problémy pri komunikácii s cestujúcimi a Národná asociácia lekární vo Veľkej Británii varovala pred meškaním liekov na predpis.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "The UK's National Pharmacy Association said the email issues could cause 'delays to some prescriptions.'",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V Japonsku museli niektoré spoločnosti dočasne prejsť na používanie faxových prístrojov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "some companies seemingly went back to using fax machines on a temporary basis.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Časť zamestnancov v Austrálii a vo Veľkej Británii skončila v práci skôr a odišla do pubu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "some workers in Australia and the UK used it as an excuse to clock off early on Friday and go to the pub.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Japan Times citoval používateľa, podľa ktorého neprítomnosť e-mailov vyzerala ako nebo, no v skutočnosti len čaká v rade pri bránach pekla.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "'I thought it was heaven because I wasn't getting any emails at all, but this is just a Microsoft outage...",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft počas incidentu predĺžil čas v poradovníku pre odosielanie e-mailov na 48 hodín.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Microsoft said it had increased the queue time for emails to 48 hours in an attempt to ensure that every message",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nezávislý bezpečnostný výskumník Jonathan Leitschuh pre magazín Wired upozornil na vlnu nahromadených notifikácií.",
+        "typ": "meno",
+        "verdikt": "nepresne",
+        "zdroj": "Wired",
+        "dokaz": "says Jonathan Leitschuh, an independent researcher.",
+        "komentar": "Zdroj označuje Jonathana Leitschuha ako nezávislého výskumníka, neuvádza prívlastok bezpečnostný.",
+        "navrh_opravy": "Nezávislý výskumník Jonathan Leitschuh pre magazín Wired upozornil, že používatelia by mali počítať s vlnou nahromadených notifikácií a meškajúcich správ, keďže jednotlivé podsystémy nabiehajú postupne."
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "pole": "telo",
+        "text": "cloudových",
+        "kontext": "Rozsiahly celosvetový výpadok cloudových služieb Microsoft 365, ktorý sa začal v",
+        "navrhy": [
+          "chodových",
+          "clonových",
+          "loďových"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "u, zasiahol milióny používateľov vo viac ako 70 krajinách sveta. Používatelia nahlás",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "pole": "telo",
+        "text": "ázijsko-tichomorskom",
+        "kontext": "urópy a povzbudivých signáloch obnovy v ázijsko-tichomorskom regióne, ako uviedol portál Engadget.\n\n",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "korespondent",
+        "kontext": "a sa po nedávnej zmene v sieti.\n\nSenior korespondent portálu The Verge Tom Warren s odvolaní",
+        "navrhy": [
+          "korešpondent",
+          "korešpondenta",
+          "korešpondenti"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "prísľubil",
+        "kontext": "níkom a partnerom,“ uviedol Microsoft a prísľubil zverejnenie podrobnej správy po dokonče",
+        "navrhy": [
+          "prisľúbil",
+          "prisľúbi",
+          "prisľúbia"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "cloud",
+        "kontext": "kde väčšina firiem a inštitúcií využíva cloud od Microsoftu, museli niektoré spoločno",
+        "navrhy": [
+          "clou",
+          "clou d",
+          "iCloud"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "pubu",
+        "kontext": "u, že skončili v práci skôr a odišli do pubu. Portál Japan Times citoval jedného zo ",
+        "navrhy": [
+          "Kubu",
+          "dubu",
+          "gubu"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ovami, že neprítomnosť e-mailov vyzerala ako neba, no v skutočnosti len čaká v rade ",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "pole": "telo",
+        "text": "zahlteným",
+        "kontext": "telia môžu v najbližších hodinách čeliť zahlteným doručeným schránkam. Microsoft počas in",
+        "navrhy": [
+          "zahltený",
+          "zahltený m"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "meškajúcich",
+        "kontext": "tať s vlnou nahromadených notifikácií a meškajúcich správ, keďže jednotlivé podsystémy nabi",
+        "navrhy": [
+          "meškajúc ich",
+          "meškajúci ch"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "cloudových",
+        "kontext": "lužieb jediného dominantného dodávateľa cloudových riešení.",
+        "navrhy": [
+          "chodových",
+          "clonových",
+          "loďových"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Microsoft_Policies.jpg/1280px-Microsoft_Policies.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/STK153_MICROSOFT_OUTLOOK_A.jpg?quality=90&strip=all&crop=0,10.732984293194,100,78.534031413613",
+        "zdroj_clanku": "The Verge",
+        "alt": "STK153_MICROSOFT_OUTLOOK_A",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/microsoft-services-are-gradually-returning-after-an-outage-took-down-outlook-teams-and-more/l-intro-1794594459.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/microsoft-services-are-gradually-returning-after-an-outage-took-down-outlook-teams-and-more/intro-1794594459.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6af75c7bac6958eb8481a5e6/191:100/w_1280,c_limit/Security_MicrosoftBackOnline_v1.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6af75c7bac6958eb8481a5e6/master/pass/Security_MicrosoftBackOnline_v1.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Microsoft logo",
+      "server rack",
+      "cloud computing"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Microsoft_Policies.jpg/1280px-Microsoft_Policies.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Microsoft_Policies.jpg/1280px-Microsoft_Policies.jpg",
+        "nazov": "Microsoft Policies.jpg",
+        "autor": "Mike Mozart",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Microsoft_Policies.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft logo"
+      },
+      {
+        "url": "https://live.staticflickr.com/2140/2190898074_f6cdfff206_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/045a445e-5cb1-4b71-8b84-df5b1d1c2527/thumb/",
+        "nazov": "Old microsoft logo",
+        "autor": "Marcin Wichary",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/8399025@N07/2190898074",
+        "povod": "openverse",
+        "dopyt": "Microsoft logo"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Cloud_Computing_Servicemodelle.png/1280px-Cloud_Computing_Servicemodelle.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Cloud_Computing_Servicemodelle.png/1280px-Cloud_Computing_Servicemodelle.png",
+        "nazov": "Cloud Computing Servicemodelle.png",
+        "autor": "FireEmerald",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Cloud_Computing_Servicemodelle.png",
+        "povod": "wikimedia",
+        "dopyt": "cloud computing"
+      },
+      {
+        "url": "https://live.staticflickr.com/5523/11407118963_e0e0870846_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/ef555697-e1dc-46c4-96df-71dcafc82f27/thumb/",
+        "nazov": "Cloud Computing - Abstract 2",
+        "autor": "perspec_photo88",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/111692634@N04/11407118963",
+        "povod": "openverse",
+        "dopyt": "cloud computing"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Building92microsoft.jpg/1280px-Building92microsoft.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Building92microsoft.jpg/1280px-Building92microsoft.jpg",
+        "nazov": "Building92microsoft.jpg",
+        "autor": "Coolcaesar",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Building92microsoft.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft logo"
+      },
+      {
+        "url": "https://live.staticflickr.com/2271/2228520023_2edaf38e47_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c40587fd-e6ae-43b9-ac6e-631349b2c828/thumb/",
+        "nazov": "Bill Gates in Greece - Microsoft Logo",
+        "autor": "Titanas",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/96437548@N00/2228520023",
+        "povod": "openverse",
+        "dopyt": "Microsoft logo"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic illustration of disconnected digital cloud networks gradually reconnecting with glowing blue data streams."
+  },
+  "prompt_ilustracie": "A symbolic illustration of disconnected digital cloud networks gradually reconnecting with glowing blue data streams.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/8ec5c02f8263f6be8e9f66f73e15d495",
+  "text_agentov": {
+    "titulok": "Služby Microsoft 365 vypadli po celom svete, firma obnovuje ich prevádzku",
+    "perex": "Rozsiahly technický výpadok postihol milióny používateľov služieb Outlook, Teams či Copilot. Spoločnosť Microsoft vylúčila kybernetický útok a postupne sprístupňuje všetky systémy.",
+    "telo": "Rozsiahly celosvetový výpadok cloudových služieb Microsoft 365, ktorý sa začal vo štvrtok okolo poludnia severoamerického východného času, zasiahol milióny používateľov vo viac ako 70 krajinách sveta. Používatelia nahlásili prvé problémy na portáli Downdetector krátko po poludní ET. Výpadok ochromil kľúčové nástroje vrátane služieb Outlook, Teams, SharePoint Online či Copilot AI. Po takmer 24 hodinách zásahov Microsoft oznámil, že jeho systémy opäť dosahujú stabilný stav.\n\nProblémy sa najprv objavili v Severnej Amerike, no rýchlo sa rozšírili do Európy a Ázie. V piatok dopoludnia Microsoft informoval o širšom zlepšení v Severnej Amerike, trvalom zlepšovaní vo väčšine Európy a povzbudivých signáloch obnovy v ázijsko-tichomorskom regióne, ako uviedol portál Engadget.\n\n## Príčina výpadku a postupná obnova\n\nSpoločnosť Microsoft opakovane zdôraznila, že za výpadkom nestál kybernetický útok, DDoS útok ani zlyhanie systémov umelej inteligencie či AI agentov. Podľa oficiálneho vyjadrenia Microsoftu pre portál Wired išlo o interný technický problém. Porucha vznikla počas predchádzajúcej modernizácie sieťovej kapacity a prejavila sa po nedávnej zmene v sieti.\n\nSenior korespondent portálu The Verge Tom Warren s odvolaním sa na svoje zdroje uviedol, že incident súvisel so zmenami v konfigurácii Azure VNet. Microsoft potvrdil, že základnú príčinu poruchy odstránil. Spoločnosť postupovala pri obnovovaní služieb zámerne pomaly, aby po etapách preverovala stabilitu systému pri vysokom nápore dopytu.\n\n„Hlboko sa ospravedlňujeme za narušenie, ktoré tento incident spôsobil našim zákazníkom a partnerom,“ uviedol Microsoft a prísľubil zverejnenie podrobnej správy po dokončení celkovej revízie.\n\n## Celosvetový dopad na nemocnice, úrady aj faxy\n\nDopady takmer celodenného výpadku sa prejavili vo viacerých kľúčových odvetviach po celom svete. Zlyhanie komunikácie zasiahlo nemocnice, policajné zložky, núdzové linky, súdne systémy, školy a štátne úrady vrátane americkej Snemovne reprezentantov. Letecké spoločnosti hlásili problémy pri komunikácii s cestujúcimi a Národná asociácia lekární vo Veľkej Británii varovala pred možným meškaním pri doručovaní niektorých liekov na predpis.\n\nV Japonsku, kde väčšina firiem a inštitúcií využíva cloud od Microsoftu, museli niektoré spoločnosti dočasne prejsť na používanie faxových prístrojov. Narušenie pracovného dňa v Austrálii či vo Veľkej Británii dokonca viedlo časť zamestnancov k tomu, že skončili v práci skôr a odišli do pubu. Portál Japan Times citoval jedného zo zasiahnutých používateľov, ktorý situáciu komentoval slovami, že neprítomnosť e-mailov vyzerala ako neba, no v skutočnosti len čaká v rade pri bránach pekla.\n\n## Následky pre používateľov a doručovanie e-mailov\n\nHoci sa dostupnosť aplikácií postupne vrátila do normálu, používatelia môžu v najbližších hodinách čeliť zahlteným doručeným schránkam. Microsoft počas incidentu predĺžil čas v poradovníku pre odosielanie e-mailov na 48 hodín, aby zabezpečil doručenie každej správy odoslanej počas výpadku.\n\nNezávislý bezpečnostný výskumník Jonathan Leitschuh pre magazín Wired upozornil, že používatelia by mali počítať s vlnou nahromadených notifikácií a meškajúcich správ, keďže jednotlivé podsystémy nabiehajú postupne. Celá udalosť podľa neho opäť poukázala na riziká spojené s vysokou závislosťou modernej spoločnosti od služieb jediného dominantného dodávateľa cloudových riešení."
+  }
+}
