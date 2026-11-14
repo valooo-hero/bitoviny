@@ -3,33 +3,34 @@ title: Jensen Huang čelí po odstúpení aj kritike za ekologické vplyvy Nvidi
 perex: Bývalý šéf Nvidie Jensen Huang nezanechal po svojom rezignovaní len škandál okolo pašovania čipov do Číny, ale aj masívnu uhlíkovú stopu. Mimovládne organizácie upozorňujú na prudký nárast emisií a obchádzanie pravidiel.
 sekcia: ai
 tagy:
-- Nvidia
-- Jensen Huang
-- ekologia
-- AI
-- Cina
-publikovane: '2026-11-14T03:41:44+00:00'
+  - Nvidia
+  - Jensen Huang
+  - ekologia
+  - AI
+  - Cina
+publikovane: 2026-11-14T03:41:44+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/jensen-huang-celi-po-odstupeni-aj-kritike-za-ekologicke-vplyvy-nvidie-mwg7clxt.jpg
+  alt: Jensen Huang
+  popisok: Jensen Huang
+  kredit: Nvidia
+  licencia: tlačový materiál
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'The Verge: Jensen Huang was reckless with the environment, too'
-  url: https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution
-- nazov: 'TechCrunch: Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!'
-  url: https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/
-- nazov: 'The Register: Chinese AI labs are training models on Nvidia''s Blackwell despite export controls, says ex-OpenAI engineer'
-  url: https://www.theregister.com/ai-and-ml/2026/11/13/chinese-ai-labs-are-training-models-on-nvidias-blackwell-despite-export-controls-says-ex-openai-engineer/5309891
-- nazov: 'Tom''s Hardware: Malaysia and Singapore step up Nvidia AI chip probes amidst Jensen Huang controversy'
-  url: https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-and-singapore-step-up-nvidia-ai-chip-probes-as-charges-brought-against-chinese-national-over-917-smuggled-servers-firm-at-center-of-jensen-huang-controversy-announces-inventory-audit-to-account-for-all-restricted-gpus
-- nazov: 'Engadget: Bloomberg details web of Chinese AI companies with smuggled NVIDIA chips linked to Alice Huang'
-  url: https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang/
+  - nazov: "The Verge: Jensen Huang was reckless with the environment, too"
+    url: https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution
+  - nazov: "TechCrunch: Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!"
+    url: https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/
+  - nazov: "The Register: Chinese AI labs are training models on Nvidia's Blackwell despite export controls, says ex-OpenAI engineer"
+    url: https://www.theregister.com/ai-and-ml/2026/11/13/chinese-ai-labs-are-training-models-on-nvidias-blackwell-despite-export-controls-says-ex-openai-engineer/5309891
+  - nazov: "Tom's Hardware: Malaysia and Singapore step up Nvidia AI chip probes amidst Jensen Huang controversy"
+    url: https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-and-singapore-step-up-nvidia-ai-chip-probes-as-charges-brought-against-chinese-national-over-917-smuggled-servers-firm-at-center-of-jensen-huang-controversy-announces-inventory-audit-to-account-for-all-restricted-gpus
+  - nazov: "Engadget: Bloomberg details web of Chinese AI companies with smuggled NVIDIA chips linked to Alice Huang"
+    url: https://www.engadget.com/2315710/bloomberg-details-web-of-chinese-ai-companies-with-smuggled-nvidia-chips-linked-to-alice-huang/
 ---
 
 Po odstúpení spoluzakladateľa Nvidie Jensena Huanga v dôsledku škandálu s mimomanželským vzťahom a podozreniami zo špionáže čelí spoločnosť ďalšej vlne kritiky. Ako uviedol portál The Verge, pod Huangovým vedením sa Nvidia stala nielen motorom rozmachu umelej inteligencie, ale aj jednou z najväčších environmentálnych záťaží technologického sektora.
