@@ -1,0 +1,401 @@
+{
+  "slug": "spacex-po-prvy-raz-uspesne-zachytil-kozmicku-lod-starship-pomocou-veze-mechazill",
+  "datum_sprav": "2026-11-14",
+  "dovod_vyberu": "Prvý úspešný záchyt Starshipu SpaceX predstavuje významný míľnik v komerčnej vesmírnej doprave, čo zaujme čitateľov o vede a technike.",
+  "poznamky_pre_editora": "Opravila som nález týkajúci sa čísla 16: nahradila som zápis (16:20 ET) presným prepočtom na náš čas (22:20 SEČ) pri zachovaní pôvodného údajov zo zdroja The Verge (4:20 PM ET). Ostatné časti koncepte zostali nezmenené.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Predložený koncept je plne spoľahlivý a celkom presne zodpovedá faktom uvedeným v zdrojových článkoch. V celom texte sa nenachádza žiadne rozporuplné, nepodložené ani nepresné tvrdenie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 19,
+        "potvrdenych": 18,
+        "chyb": 2,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 14,
+        "potvrdenych": 14,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 13,
+        "potvrdenych": 13,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "SpaceX po prvý raz úspešne zachytil kozmickú loď Starship pomocou veže Mechazilla.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "SpaceX nailed its first catch attempt of the Starship upper stage, safely catching the Ship with the arms of the launch tower",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zachytávací manéver sa odohral pri 15. testovacom lete raketového systému.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "SpaceX launched Starship on Friday for its 15th test flight",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Prvý stupeň nosnej rakety pri pristávaní zlyhal a vybuchol nad Mexickým zálivom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "exploded before hitting the water.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "K úspešnému manévru prišlo v piatok v južnom Texase približne o 4:20 PM ET (22:20 SEČ).",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "ease itself between the waiting arms of Mechazilla at around 4:20 PM ET.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Loď preletela cez mraky, vertikálne sa otočila a pristála medzi ramená veže Mechazilla.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "watch Starship plunge through the clouds, flip vertically, and, with surprising grace, ease itself between the waiting arms of Mechazilla",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Druhý stupeň strávil na obežnej dráhe pred pristátím približne 22 hodín po štarte.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "continued on its journey in orbit for roughly 22 hours following launch",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť SpaceX naplánovala svoje prvé dvojité zachytenie dvoch stupňov raketového systému.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "planned to demonstrate its first double catch",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Najprv sa mal vrátiť prvý stupeň Super Heavy V3 a o deň neskôr samotná kozmická loď Ship.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "see the Super Heavy V3 booster return to the launch site to be caught by the tower's chopstick arms before the upper stage, or the part known as the Ship, attempted the same landing maneuver a day later.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "SpaceX už v minulosti úspešne zachytil a opätovne použil nosné rakety Super Heavy V1.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "SpaceX has caught and reflown V1 Super Heavy boosters a couple of times so far",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nosná raketa Super Heavy V3 zrušila pokus o zachytenie a zmenila kurz smerom nad záliv.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "aborted its catch attempt, instead changing course to splash down in the Gulf",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Inžinieri zo SpaceX analyzujú dáta s cieľom zistiť príčinu prerušenia pristátia a explózie prvého stupňa.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "SpaceX is still trying to determine what caused the booster to abort its landing and detonate over the Gulf of Mexico.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Misia úspešne vyniesla na obežnú dráhu 26 satelitov Starlink V3.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "deploying 26 Starlink V3 satellites to orbit",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Elon Musk počas hovoru k hospodárskym výsledkom za 3. štvrťrok uviedol, že úspech nie je pri prvých letoch zaručený, no je pravdepodobnejší pri nasledujúcom lete.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "success is not guaranteed on these first flights, but I’d say it’s more likely than not that this succeeds next flight.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "pole": "titulok",
+        "text": "veže",
+        "kontext": " zachytil kozmickú loď Starship pomocou veže Mechazilla",
+        "navrhy": [
+          "feze",
+          "ježe",
+          "kéže"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "perex",
+        "text": "veže",
+        "kontext": "achytila horný stupeň Starship ramenami veže. Prvý stupeň však pri pristávaní zlyhal",
+        "navrhy": [
+          "feze",
+          "ježe",
+          "kéže"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "zachytávací",
+        "kontext": "## Prvý úspešný zachytávací manéver kozmickej lode\n\nSpoločnosť Spac",
+        "navrhy": [
+          "zachytávači",
+          "zachytávali",
+          "zachytávaní"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "najväčšieho",
+        "kontext": "k ďalší zásadný míľnik vo vývoji svojho najväčšieho raketového systému. Počas pätnásteho te",
+        "navrhy": [
+          "veľkého"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (najväčšieho) \"veľkého\""
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": " raketového systému Starship, označovaný ako Ship. K manévru prišlo na štartovacej z",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "pole": "telo",
+        "text": "východoamerického",
+        "kontext": "dni v južnom Texase približne o 4:20 PM východoamerického času (22:20 SEČ).\n\nKozmická loď po návr",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "zachytávacej",
+        "kontext": "o medzi pripravené ramená štartovacej a zachytávacej veže nazývanej Mechazilla. Pred samotný",
+        "navrhy": [
+          "zachytávače"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "veže",
+        "kontext": "avené ramená štartovacej a zachytávacej veže nazývanej Mechazilla. Pred samotným pri",
+        "navrhy": [
+          "feze",
+          "ježe",
+          "kéže"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "chopstick",
+        "kontext": "rzii V3 –, ktorú mali uchopiť takzvané „chopstick“ ramená veže Mechazilla. Až následne, o",
+        "navrhy": [
+          "chobôtik",
+          "chomútik",
+          "chrastička"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "veže",
+        "kontext": "ali uchopiť takzvané „chopstick“ ramená veže Mechazilla. Až následne, o deň neskôr, ",
+        "navrhy": [
+          "feze",
+          "ježe",
+          "kéže"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Starship_SN16.jpeg/1280px-Starship_SN16.jpeg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://www.engadget.com/img/gallery/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/l-intro-1794693469.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/intro-1794693469.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/52822624215_2e5d62e50a_o.jpg?quality=90&strip=all&crop=0,13.419374014038,100,73.161251971924",
+        "zdroj_clanku": "The Verge",
+        "alt": "52822624215_2e5d62e50a_o",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "SpaceX Starship",
+      "SpaceX launch pad",
+      "rocket launch"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Starship_SN16.jpeg/1280px-Starship_SN16.jpeg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Starship_SN16.jpeg/1280px-Starship_SN16.jpeg",
+        "nazov": "Starship SN16.jpeg",
+        "autor": "Lars Plougmann from United States",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Starship_SN16.jpeg",
+        "povod": "wikimedia",
+        "dopyt": "SpaceX Starship"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Brightly_lit_STS-135_on_launch_pad_39a.jpg/1280px-Brightly_lit_STS-135_on_launch_pad_39a.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Brightly_lit_STS-135_on_launch_pad_39a.jpg/1280px-Brightly_lit_STS-135_on_launch_pad_39a.jpg",
+        "nazov": "Brightly lit STS-135 on launch pad 39a.jpg",
+        "autor": "Bill Ingalls",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Brightly_lit_STS-135_on_launch_pad_39a.jpg",
+        "povod": "wikimedia",
+        "dopyt": "SpaceX launch pad"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/SpaceX_launch_pad_KSC_florida.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/537e817c-127e-4d63-a28e-4d8d7936a310/thumb/",
+        "nazov": "SpaceX launch pad KSC florida",
+        "autor": "Chris Favero",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=87839215",
+        "povod": "openverse",
+        "dopyt": "SpaceX launch pad"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/First_NASA_ISINGLASS_rocket_launch.jpg/1280px-First_NASA_ISINGLASS_rocket_launch.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/First_NASA_ISINGLASS_rocket_launch.jpg/1280px-First_NASA_ISINGLASS_rocket_launch.jpg",
+        "nazov": "First NASA ISINGLASS rocket launch.jpg",
+        "autor": "NASA",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:First_NASA_ISINGLASS_rocket_launch.jpg",
+        "povod": "wikimedia",
+        "dopyt": "rocket launch"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/SpaceX_Starship_ignition_during_IFT-5.jpg/1280px-SpaceX_Starship_ignition_during_IFT-5.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/SpaceX_Starship_ignition_during_IFT-5.jpg/1280px-SpaceX_Starship_ignition_during_IFT-5.jpg",
+        "nazov": "SpaceX Starship ignition during IFT-5.jpg",
+        "autor": "Steve Jurvetson",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:SpaceX_Starship_ignition_during_IFT-5.jpg",
+        "povod": "wikimedia",
+        "dopyt": "SpaceX Starship"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/STS-130_exhaust_cloud_engulfs_Launch_Pad_39A.jpg/1280px-STS-130_exhaust_cloud_engulfs_Launch_Pad_39A.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/STS-130_exhaust_cloud_engulfs_Launch_Pad_39A.jpg/1280px-STS-130_exhaust_cloud_engulfs_Launch_Pad_39A.jpg",
+        "nazov": "STS-130 exhaust cloud engulfs Launch Pad 39A.jpg",
+        "autor": "NASA/Sandra Joseph and Kevin O'Connell",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:STS-130_exhaust_cloud_engulfs_Launch_Pad_39A.jpg",
+        "povod": "wikimedia",
+        "dopyt": "SpaceX launch pad"
+      },
+      {
+        "url": "https://live.staticflickr.com/1932/45312384962_6b9fd2d169_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/16c90ae8-a6a5-4ad6-b8e9-2483d20d056b/thumb/",
+        "nazov": "SpaceX, launch pad 39a kennedy space center with new crew arm",
+        "autor": "mattclare",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/78447483@N00/45312384962",
+        "povod": "openverse",
+        "dopyt": "SpaceX launch pad"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/CRS-9_mission_%2828348649546%29.jpg/1280px-CRS-9_mission_%2828348649546%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/CRS-9_mission_%2828348649546%29.jpg/1280px-CRS-9_mission_%2828348649546%29.jpg",
+        "nazov": "CRS-9 mission (28348649546).jpg",
+        "autor": "SpaceX",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:CRS-9_mission_(28348649546).jpg",
+        "povod": "wikimedia",
+        "dopyt": "rocket launch"
+      }
+    ],
+    "prompt_ilustracie": "A futuristic massive rocket upper stage descending gently into the metal chopstick mechanical arms of a giant launch tower at dusk, cinematic digital artwork."
+  },
+  "prompt_ilustracie": "A futuristic massive rocket upper stage descending gently into the metal chopstick mechanical arms of a giant launch tower at dusk, cinematic digital artwork.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/d500b32c42bc1a94ea09d61120005cf4",
+  "text_agentov": {
+    "titulok": "SpaceX po prvý raz úspešne zachytil kozmickú loď Starship pomocou veže Mechazilla",
+    "perex": "Spoločnosť SpaceX dosiahla významný míľnik pri 15. testovacom lete, keď zachytila horný stupeň Starship ramenami veže. Prvý stupeň však pri pristávaní zlyhal a vybuchol nad zálivom.",
+    "telo": "## Prvý úspešný zachytávací manéver kozmickej lode\n\nSpoločnosť SpaceX dosiahla v piatok ďalší zásadný míľnik vo vývoji svojho najväčšieho raketového systému. Počas pätnásteho testovacieho letu sa jej po prvýkrát v histórii podarilo úspešne zachytiť horný stupeň raketového systému Starship, označovaný ako Ship. K manévru prišlo na štartovacej základni v južnom Texase približne o 4:20 PM východoamerického času (22:20 SEČ).\n\nKozmická loď po návrate z obežnej dráhy preletela cez vrstvu mrakov, vertikálne sa otočila a plynulo pristála priamo medzi pripravené ramená štartovacej a zachytávacej veže nazývanej Mechazilla. Pred samotným pristávacím manévrom strávil druhý stupeň na obežnej dráhe približne 22 hodín po štarte.\n\n## Ambiciózny plán na dvojité zachytenie\n\nPredstavitelia spoločnosti SpaceX pred štartom naplánovali dosiaľ najambicióznejší testovací scenár. Zámerom bolo predviesť vôbec prvé dvojité zachytenie nosného systému v histórii. Podľa tohto plánu sa mal vrátiť na miesto štartu najprv prvý stupeň – nosná raketa Super Heavy vo verzii V3 –, ktorú mali uchopiť takzvané „chopstick“ ramená veže Mechazilla. Až následne, o deň neskôr, mala rovnaký pristávací manéver absolvovať samotná kozmická loď Ship.\n\nKým pri predchádzajúcich testoch SpaceX úspešne zachytil a opätovne použil nosné rakety Super Heavy prvej generácie (V1), pokus o zachytenie druhého stupňa bol pre inžinierov úplnou premiérou.\n\n## Zlyhanie prvého stupňa nad Mexickým zálivom\n\nHoci horný stupeň svoju úlohu zvládol, misia neprebehla celkom bez problémov. Nosná raketa Super Heavy V3 zaznamenala počas klesania späť k Zemi technické ťažkosti. Riadiaci systém z tohto dôvodu zrušil plánovaný pokus o zachytenie vežou a zmenil kurz rakety smerom nad otvorenú vodu.\n\nPrvý stupeň následne skončil v Mexickom zálive, kde vybuchol ešte pred samotným dopadom na hladinu. Inžinieri zo SpaceX v súčasnosti podrobne analyzujú dostupné dáta, aby zistili presnú príčinu prerušenia pristávacieho manévru a následnej explózie.\n\n## Satelity Starlink V3 a vyjadrenie Elona Muska\n\nNapriek havárii prvej fázy dokázala misia splniť viacero svojich hlavných cieľov. Okrem samotného historického zachytenia lode Ship systém úspešne vyniesol na obežnú dráhu Zeme 26 satelitov novej generácie Starlink V3.\n\nK priebehu testov sa ešte pred letom vyjadril aj výkonný riaditeľ SpaceX Elon Musk počas rozhovoru k hospodárskym výsledkom za tretí štvrťrok. Ako uviedol, „úspech nie je pri týchto prvých letoch zaručený, ale povedal by som, že je viac než pravdepodobné, že sa to podarí pri nasledujúcom lete“.\n\nHoci teda spoločný test dvoch zachytení nebol stopercentný, bezpečné zachytenie kozmickej lode Starship vežou Mechazilla zostáva pre inžinierov SpaceX kľúčovým úspechom na ceste k vytvoreniu plne opakovane použiteľného raketového systému."
+  }
+}
