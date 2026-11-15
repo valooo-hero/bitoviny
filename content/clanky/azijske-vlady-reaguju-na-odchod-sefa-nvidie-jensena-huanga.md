@@ -10,10 +10,10 @@ tagy:
   - Umelá inteligencia
 publikovane: 2026-11-15T03:15:04+00:00
 obrazok:
-  src: /obrazky/azijske-vlady-reaguju-na-odchod-sefa-nvidie-jensena-huanga-mwhu4o92.jpg
-  alt: Nvidia HQ
-  popisok: Nvidia HQ
-  kredit: Kevin McCarthy / Wikimedia Commons
+  src: /obrazky/azijske-vlady-reaguju-na-odchod-sefa-nvidie-jensena-huanga-mwhu589g.jpg
+  alt: Nvidia sign
+  popisok: Nvidia sign
+  kredit: Will Buckner / Wikimedia Commons
   licencia: CC BY 2.0
   ai: false
 redaktori:
