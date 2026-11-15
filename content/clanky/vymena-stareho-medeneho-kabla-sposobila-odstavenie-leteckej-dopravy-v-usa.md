@@ -3,27 +3,28 @@ title: Výmena starého medeného kábla spôsobila odstavenie leteckej dopravy 
 perex: Americký Úrad pre civilné letectvo musel v piatok pozastaviť všetky vnútroštátne lety. Za výpadkom riadenia letovej prevádzky stála chyba pri výmene zastaranej infraštruktúry.
 sekcia: bezpecnost
 tagy:
-- FAA
-- letectvo
-- L3Harris
-- Sean Duffy
-- bezpecnost
-publikovane: '2026-11-15T03:15:12+00:00'
+  - FAA
+  - letectvo
+  - L3Harris
+  - Sean Duffy
+  - bezpecnost
+publikovane: 2026-11-15T03:15:12+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/vymena-stareho-medeneho-kabla-sposobila-odstavenie-leteckej-dopravy-v-usa-mwhu2cdo.jpg
+  alt: The FAA air traffic control tower at Philadelphia International Airport
+  popisok: The FAA air traffic control tower at Philadelphia International Airport
+  kredit: Harrison Keely / Wikimedia Commons
+  licencia: CC BY 4.0
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'The Verge: Work to replace old copper wire led to the FAA’s ground stop'
-  url: https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire
-- nazov: 'Ars Technica: FAA has lifted its third-ever nationwide ground stop'
-  url: https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/
+  - nazov: "The Verge: Work to replace old copper wire led to the FAA’s ground stop"
+    url: https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire
+  - nazov: "Ars Technica: FAA has lifted its third-ever nationwide ground stop"
+    url: https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/
 ---
 
 ## Zlyhanie pri rutinnej údržbe
