@@ -8,7 +8,7 @@ tagy:
   - L3Harris
   - Sean Duffy
   - bezpecnost
-publikovane: 2026-11-15T03:15:12+00:00
+publikovane: 2026-11-15T12:51:42Z
 obrazok:
   src: /obrazky/vymena-stareho-medeneho-kabla-sposobila-odstavenie-leteckej-dopravy-v-usa-mwhu2cdo.jpg
   alt: The FAA air traffic control tower at Philadelphia International Airport
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Verge: Work to replace old copper wire led to the FAA’s ground stop"
     url: https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire
