@@ -8,7 +8,7 @@ tagy:
   - Mechazilla
   - vesmir
   - Starlink
-publikovane: 2026-11-15T03:15:08+00:00
+publikovane: 2026-11-15T12:55:49Z
 obrazok:
   src: /obrazky/spacex-po-prvy-raz-uspesne-zachytil-kozmicku-lod-starship-pomocou-veze-mechazill-mwhu7r5j.jpg
   alt: Starship
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Engadget: SpaceX successfully catches Starship after launch for the first time"
     url: https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/
