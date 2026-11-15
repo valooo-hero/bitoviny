@@ -8,7 +8,7 @@ tagy:
   - Čipy
   - Ázia
   - Umelá inteligencia
-publikovane: 2026-11-15T03:15:04+00:00
+publikovane: 2026-11-15T12:53:35Z
 obrazok:
   src: /obrazky/azijske-vlady-reaguju-na-odchod-sefa-nvidie-jensena-huanga-mwhu589g.jpg
   alt: Nvidia sign
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "TechCrunch: Asian governments react to Nvidia CEO Jensen Huang’s exit"
     url: https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/
