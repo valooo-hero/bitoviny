@@ -25,6 +25,13 @@ zdroje:
     url: https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire
   - nazov: "Ars Technica: FAA has lifted its third-ever nationwide ground stop"
     url: https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/
+galeria:
+  - src: /obrazky/vymena-stareho-medeneho-kabla-sposobila-odstavenie-leteckej-dopravy-v-usa-mwhu2tmk.jpg
+    alt: View of the IND Airport from the FAA Control tower
+    popisok: View of the IND Airport from the FAA Control tower
+    kredit: AVA Navigate / Wikimedia Commons
+    licencia: CC BY 4.0
+    ai: false
 ---
 
 ## Zlyhanie pri rutinnej údržbe
