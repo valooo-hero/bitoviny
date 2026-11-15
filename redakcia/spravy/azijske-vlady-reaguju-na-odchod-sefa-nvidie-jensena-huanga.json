@@ -1,0 +1,450 @@
+{
+  "slug": "azijske-vlady-reaguju-na-odchod-sefa-nvidie-jensena-huanga",
+  "datum_sprav": "2026-11-14",
+  "dovod_vyberu": "Regulačný zásah USA voči Nvidia kvôli predaju AI GPU do škrupinových spoločností má globálny dopad na trh s AI technológiami a je relevantný aj pre EU.",
+  "poznamky_pre_editora": "Na základe zistení factcheckera boli vykonané nasledujúce úpravy:\n1. Zmenené tvrdenie o 'bezpečnostných previerkach' na 'preverovanie dopadov', keďže zdroje nepripomínajú bezpečnostné previerky v ázijských krajinách.\n2. Odstránené nepodložené tvrdenie o tom, že reakcie krajín závisia priamo od miery ich závislosti od čipov Nvidia.\n3. Upravené vyjadrenie čínskeho ministerstva zahraničných vecí – namiesto priameho odmietnutia bolo doplnené, že si ministerstvo nie je vedomé správ o prepojení čipov Nvidia s dátovým centrom v Šanghaji.\n4. Vypustený záverečný odsek o dopadoch na Európu a Slovensko, keďže zdroje tieto informácie neobsahujú.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept článku je mimoriadne spoľahlivý a presne vychádza zo zadaných zdrojových textov. Všetky fakty, dátumy, mená a citácie plne zodpovedajú poskytnutým informáciám bez akýchkoľvek rozporov.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 25,
+        "potvrdenych": 21,
+        "chyb": 4,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 22,
+        "potvrdenych": 22,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Ázijské vlády reagujú na odchod šéfa Nvidie Jensena Huanga.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Odstúpenie Jensena Huanga vyvolalo v Ázii rýchle reakcie, pričom Južná Kórea si potvrdením dodávok čipov oddýchla a v Číne či Singapure rezonujú vyšetrovania.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Jensen Huang’s departure from Nvidia has drawn a range of responses across Asia, with some governments moving to confirm chip supply commitments",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Predstavenstvo Nvidie spustilo v nedeľu 8. novembra nezávislé vyšetrovanie po správach, že sa Huang stal terčom čínskej špionážnej operácie.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "On Sunday, November 8, Nvidia’s board launched an independent investigation after reports that Huang was targeted by a Chinese spy operation",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Huang priznal nemanželský vzťah s Alice Huangovou, bývalou výkonnou riaditeľkou spoločnosti Megaspeed.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Huang admitted to an affair with Alice Huang, a former executive at Singapore-based chip company Megaspeed.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Juhokórejské ministerstvo vedy oznámilo, že Nvidia potvrdila plán dodať krajine 260 000 pokročilých GPU a pokračovať v projektoch.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "South Korea’s Science Ministry said Nvidia had reaffirmed its plan to supply 260,000 advanced GPUs to the country and to continue joint AI projects.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kórejská vládna rada pre AI usporiadala v piatok mimoriadne stretnutie na vyhodnotenie dopadov Huangovho odchodu.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "South Korea’s government AI strategy council held an emergency meeting on Friday to assess the potential impact of Huang’s departure",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Samsung Electronics a SK Hynix dodávajú Nvidii pamäťové čipy.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "major chipmakers Samsung Electronics and SK Hynix playing important roles in supplying memory chips used in its AI processors.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Taiwanský minister hospodárstva Kung Ming-shin uviedol, že Huangov odchod pravdepodobne výrazne nezmení rast sektora AI.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Taiwan’s Economy Minister Kung Ming-shin said Huang’s departure was unlikely to significantly change the growth of the global AI industry",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Mesto Taipej potvrdilo, že plánovaná výstavba zahraničnej centrály Nvidie pokračuje podľa plánu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Taipei’s city government said Nvidia’s planned overseas headquarters in the city remained on track despite the leadership change.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Japonské ministerstvo priemyslu oznámilo, že bude situáciu okolo Nvidie pozorne sledovať.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "In Japan, the Industry Ministry said the government would closely monitor Nvidia following Huang’s resignation",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Masanao Ozaki zdôraznil potrebu zaistiť stabilné dodávky polovodičov.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Deputy chief cabinet secretary Masanao Ozaki said it was too early to assess the impact... while stressing Japan’s commitment to ensuring a stable supply of semiconductors.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa Reuters Huangov odchod ohrozuje čínske projekty v oblasti AI v hodnote viac ako 3 miliardy dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Huang’s exit has also raised uncertainty over more than $3 billion in Chinese AI computing projects reliant on Nvidia’s restricted processors, according to Reuters.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Čínske ministerstvo zahraničných vecí 10. novembra odmietlo obvinenia zo špionáže ako nepodložené.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "China’s foreign ministry rejected allegations on November 10 that a Chinese businesswoman linked to former Nvidia CEO Jensen Huang was a spy, calling them groundless",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Čína poprela vedomosť o správach spájajúcich obmedzené čipy Nvidia s dátovým centrom v Šanghaji spojeným s Alice Huangovou.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "stated the ministry was not aware of reports linking restricted Nvidia chips to a Shanghai data center associated with Alice Huang.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Singapurské úrady v júni 2025 zaistili pas Alice Huangovej pre podozrenie z nepravdivých vyhlásení pri nákupe serverov.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "authorities seized the passport of Alice Huang, former CEO of Singapore-based cloud computing company Megaspeed, in June 2025 as part of an investigation into possible false declarations",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V februári 2026 polícia nenašla dostatok dôkazov na obvinenie z podvodu, no vydala jej varovanie a zakázala jej opätovný vstup do Singapuru.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "In February 2026, police found insufficient evidence... She was issued a warning and barred from re-entering Singapore.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vyšetrovanie Megaspeed a ďalších šiestich osôb v Singapure naďalej pokračuje.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Singapore’s Ministry of Home Affairs said its investigation into Megaspeed and six other individuals remains ongoing.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Scott Bessent sa vyjadril k situácii v rozhovore pre CNBC.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Scott Bessent, U.S. Treasury Secretary... in an interview with CNBC",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Bessent uviedol, že skutočným príbehom by malo byť to, či Nvidia poznala svojho klienta.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The real story here should be, did Nvidia know their client?",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Bessent spochybnil efektivitu vnútorných kontrol Nvidie a pýtal sa, či firma vedome nepredávala čipy schránkovým firmám.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "questioned the efficiency of Nvidia's internal controls... selling to what were obviously pass-through shell companies",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Bessent kritizoval hlavného právneho poradcu Nvidie Timothyho Tetera za kontaktovanie ministerstva obchodu ohľadom zadržania Huangovej v Singapure.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "criticized Nvidia's general counsel Timothy Teter, who reportedly contacted the U.S. Department of Commerce to inquire whether U.S. authorities were behind the detention of Megaspeed's Alice Wong",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Americké ministerstvá a USTR podporovali zaradenie Megaspeed na sankčný zoznam, čo ministerstvo obchodu pod Howardom Lutnickom odkladalo.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "supported the addition of Megaspeed to the Entity List for months... Commerce Secretary Howard Lutnick feared that the move could worsen trade tensions",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "preverovaní dopadov. Predstavenstvo",
+        "opravene": "preverovaní dôsledkov. Predstavenstvo",
+        "dovod": "zlepšenie štylistiky",
+        "stav": "vykonana",
+        "poznamka": ""
+      },
+      {
+        "pole": "telo",
+        "povodne": "vyhodnotila možné dopady šéfovho",
+        "opravene": "vyhodnotila možné dôsledky šéfovho",
+        "dovod": "zlepšenie štylistiky",
+        "stav": "vykonana",
+        "poznamka": ""
+      },
+      {
+        "pole": "telo",
+        "povodne": "V februári 2026 polícia",
+        "opravene": "Vo februári 2026 polícia",
+        "dovod": "vokalizácia predložky",
+        "stav": "vykonana",
+        "poznamka": ""
+      }
+    ],
+    "podozrive": [
+      {
+        "pole": "perex",
+        "text": "vyšetrovanja",
+        "kontext": "v oddýchla, v Číne a Singapure rezonujú vyšetrovanja.",
+        "navrhy": [
+          "vyšetrovanca",
+          "vyšetrovania",
+          "vyšetrovaná"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ske projekty v oblasti AI v hodnote viac ako 3 miliardy dolárov, ktoré závisia od ob",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "pole": "telo",
+        "text": "špionáže",
+        "kontext": "vecí 10. novembra odmietlo obvinenia zo špionáže a označilo ich za nepodložené. Zároveň ",
+        "navrhy": [
+          "špionáž",
+          "špionážne",
+          "špionáž e"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "a čipy schránkovým firmám, ktoré slúžili ako sprostredkovatelia pre Čínu.\n\nBessent k",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -7 +7 @@\n-Odchod dlhoročného šéfa spoločnosti Nvidia Jensena Huanga spustil v ázijských krajinách sériu vyhlásení a preverovaní dopadov. Predstavenstvo Nvidie spustilo v nedeľu 8. novembra nezávislé vyšetrovanie po správach, že sa Huang stal terčom čínskej špionážnej operácie. Huang zároveň priznal nemanželský vzťah s Alice Huangovou, bývalou výkonnou riaditeľkou singapurskej spoločnosti Megaspeed.\n+Odchod dlhoročného šéfa spoločnosti Nvidia Jensena Huanga spustil v ázijských krajinách sériu vyhlásení a preverovaní dôsledkov. Predstavenstvo Nvidie spustilo v nedeľu 8. novembra nezávislé vyšetrovanie po správach, že sa Huang stal terčom čínskej špionážnej operácie. Huang zároveň priznal nemanželský vzťah s Alice Huangovou, bývalou výkonnou riaditeľkou singapurskej spoločnosti Megaspeed.\n@@ -9 +9 @@\n-Juhokórejské ministerstvo vedy oznámilo, že Nvidia potvrdila svoj plán dodať krajine 260 000 pokročilých grafických procesorov (GPU) a pokračovať v spoločných projektoch v oblasti umelej inteligencie. Kórejská vládna rada pre AI aj napriek tomu v piatok usporiadala mimoriadne stretnutie, aby vyhodnotila možné dopady šéfovho odchodu. Južná Kórea je pre Nvidiu kľúčová, keďže výrobcovia Samsung Electronics a SK Hynix jej dodávajú pamäťové čipy.\n+Juhokórejské ministerstvo vedy oznámilo, že Nvidia potvrdila svoj plán dodať krajine 260 000 pokročilých grafických procesorov (GPU) a pokračovať v spoločných projektoch v oblasti umelej inteligencie. Kórejská vládna rada pre AI aj napriek tomu v piatok usporiadala mimoriadne stretnutie, aby vyhodnotila možné dôsledky šéfovho odchodu. Južná Kórea je pre Nvidiu kľúčová, keďže výrobcovia Samsung Electronics a SK Hynix jej dodávajú pamäťové čipy.\n@@ -17 +17 @@\n-Singapurské úrady ešte v júni 2025 zaistili pas Alice Huangovej pre podozrenie z nepravdivých vyhlásení pri nákupe serverov, ktoré mali smerovať cez Malajziu do ďalších krajín. V februári 2026 polícia síce nenašla dostatok dôkazov na obvinenie z podvodu, no vydala jej varovanie za poskytnutie nepresných informácií a zakázala jej opätovný vstup do krajiny. Vyšetrovanie spoločnosti Megaspeed a ďalších šiestich osôb v Singapure naďalej pokračuje.\n+Singapurské úrady ešte v júni 2025 zaistili pas Alice Huangovej pre podozrenie z nepravdivých vyhlásení pri nákupe serverov, ktoré mali smerovať cez Malajziu do ďalších krajín. Vo februári 2026 polícia síce nenašla dostatok dôkazov na obvinenie z podvodu, no vydala jej varovanie za poskytnutie nepresných informácií a zakázala jej opätovný vstup do krajiny. Vyšetrovanie spoločnosti Megaspeed a ďalších šiestich osôb v Singapure naďalej pokračuje."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Jensen Huang",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/1100e5c312fe47434347aa0d67140b3a47c03136aeeda079185e69833d4ad6bd?s=96&d=identicon&r=g",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Kate Park",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/jakBnPpBNjF9ncTK4KKtGG-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/Wh9EZgD8NG9yUioNNgPB3d-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Asus RTX 5080 Noctua Edition",
+        "popisok": "",
+        "kredit": "(Image credit: Noctua)",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Noctua."
+      }
+    ],
+    "dopyty": [
+      "Nvidia headquarters",
+      "Nvidia GPU",
+      "Nvidia data center"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg",
+        "nazov": "Nvidia HQ.jpg",
+        "autor": "Kevin McCarthy",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Nvidia_HQ.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia headquarters"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/NVIDIA_Headquarters.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/617cd75a-b4de-4e8b-b049-7c31683011d5/thumb/",
+        "nazov": "NVIDIA Headquarters",
+        "autor": "Coolcaesar",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=74676142",
+        "povod": "openverse",
+        "dopyt": "Nvidia headquarters"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/NVIDIA_GPU_workstation.webp/1280px-NVIDIA_GPU_workstation.webp",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/NVIDIA_GPU_workstation.webp/1280px-NVIDIA_GPU_workstation.webp",
+        "nazov": "NVIDIA GPU workstation.webp",
+        "autor": "Wikideas1",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:NVIDIA_GPU_workstation.webp",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia GPU"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/NVIDIA_H100_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_024.png/1280px-NVIDIA_H100_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_024.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/NVIDIA_H100_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_024.png/1280px-NVIDIA_H100_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_024.png",
+        "nazov": "NVIDIA H100 (极客湾Geekerwan) 024.png",
+        "autor": "极客湾Geekerwan",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:NVIDIA_H100_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_024.png",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia data center"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Nvidia_sign.jpg/1280px-Nvidia_sign.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Nvidia_sign.jpg/1280px-Nvidia_sign.jpg",
+        "nazov": "Nvidia sign.jpg",
+        "autor": "Will Buckner",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Nvidia_sign.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia headquarters"
+      },
+      {
+        "url": "https://live.staticflickr.com/157/400107233_e39dc7fe3c_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/50b6e36f-a671-4a51-ac81-e7e4ef88441d/thumb/",
+        "nazov": "Google Headquarters on six displays",
+        "autor": "twid",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/48741368@N00/400107233",
+        "povod": "openverse",
+        "dopyt": "Nvidia headquarters"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/NVIDIA_GPU_workstation_2.webp/1280px-NVIDIA_GPU_workstation_2.webp",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/NVIDIA_GPU_workstation_2.webp/1280px-NVIDIA_GPU_workstation_2.webp",
+        "nazov": "NVIDIA GPU workstation 2.webp",
+        "autor": "Wikideas1",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:NVIDIA_GPU_workstation_2.webp",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia GPU"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/NVIDIA_H100_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_021.png/1280px-NVIDIA_H100_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_021.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/NVIDIA_H100_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_021.png/1280px-NVIDIA_H100_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_021.png",
+        "nazov": "NVIDIA H100 (极客湾Geekerwan) 021.png",
+        "autor": "极客湾Geekerwan",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:NVIDIA_H100_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_021.png",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia data center"
+      }
+    ],
+    "prompt_ilustracie": "Conceptual illustration of a glowing microchip surrounded by flags of Asian nations and digital network connections, futuristic corporate style."
+  },
+  "prompt_ilustracie": "Conceptual illustration of a glowing microchip surrounded by flags of Asian nations and digital network connections, futuristic corporate style.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/838791ce0728785b6df4d8fca631d176",
+  "text_agentov": {
+    "titulok": "Ázijské vlády reagujú na odchod šéfa Nvidie Jensena Huanga",
+    "perex": "Odstúpenie Jensena Huanga z čela spoločnosti Nvidia vyvolalo v Ázii rýchle reakcie. Kým Južná Kórea si potvrdením dodávok čipov oddýchla, v Číne a Singapure rezonujú vyšetrovanja.",
+    "telo": "## Uistenie o dodávkach a obavy v regiónoch\n\nOdchod dlhoročného šéfa spoločnosti Nvidia Jensena Huanga spustil v ázijských krajinách sériu vyhlásení a preverovaní dôsledkov. Predstavenstvo Nvidie spustilo v nedeľu 8. novembra nezávislé vyšetrovanie po správach, že sa Huang stal terčom čínskej špionážnej operácie. Huang zároveň priznal nemanželský vzťah s Alice Huangovou, bývalou výkonnou riaditeľkou singapurskej spoločnosti Megaspeed.\n\nJuhokórejské ministerstvo vedy oznámilo, že Nvidia potvrdila svoj plán dodať krajine 260 000 pokročilých grafických procesorov (GPU) a pokračovať v spoločných projektoch v oblasti umelej inteligencie. Kórejská vládna rada pre AI aj napriek tomu v piatok usporiadala mimoriadne stretnutie, aby vyhodnotila možné dôsledky šéfovho odchodu. Južná Kórea je pre Nvidiu kľúčová, keďže výrobcovia Samsung Electronics a SK Hynix jej dodávajú pamäťové čipy.\n\nNa Taiwane minister hospodárstva Kung Ming-shin uviedol, že Huangov odchod pravdepodobne výrazne nezmení rast globálneho sektora umelej inteligencie. Mesto Taipej zároveň potvrdilo, že plánovaná výstavba zahraničnej centrály Nvidie pokračuje podľa plánu. V Japonsku ministerstvo priemyslu oznámilo, že bude situáciu okolo Nvidie pozorne sledovať. Vicekancelár Masanao Ozaki zdôraznil potrebu zaistiť stabilné dodávky polovodičov.\n\n## Vyšetrovania v Číne a Singapure\n\nÚplne iná situácia je v Číne a Singapure. Podľa Reuters ohrozuje Huangov odchod čínske projekty v oblasti AI v hodnote viac ako 3 miliardy dolárov, ktoré závisia od obmedzených procesorov Nvidia. Čínske ministerstvo zahraničných vecí 10. novembra odmietlo obvinenia zo špionáže a označilo ich za nepodložené. Zároveň uviedlo, že si nie je vedomé správ spájajúcich obmedzené čipy Nvidia s dátovým centrom v Šanghaji spojeným s Alice Huangovou.\n\nSingapurské úrady ešte v júni 2025 zaistili pas Alice Huangovej pre podozrenie z nepravdivých vyhlásení pri nákupe serverov, ktoré mali smerovať cez Malajziu do ďalších krajín. Vo februári 2026 polícia síce nenašla dostatok dôkazov na obvinenie z podvodu, no vydala jej varovanie za poskytnutie nepresných informácií a zakázala jej opätovný vstup do krajiny. Vyšetrovanie spoločnosti Megaspeed a ďalších šiestich osôb v Singapure naďalej pokračuje.\n\n## Tlak zo strany USA a obchádzanie sankcií\n\nK situácii sa vyjadril aj americký minister financií Scott Bessent v rozhovore pre CNBC. Ako uviedol, „skutočným príbehom by malo byť to, či Nvidia poznala svojho klienta“. Spochybnil efektivitu vnútorných kontrol Nvidie a položil otázku, či firma vedome nepredávala čipy schránkovým firmám, ktoré slúžili ako sprostredkovatelia pre Čínu.\n\nBessent kritizoval aj hlavného právneho poradcu Nvidie Timothyho Tetera za kontaktovanie ministerstva obchodu ohľadom zadržania Alice Huangovej v Singapure. Podľa Bessenta ministerstvá financií, obrany, zahraničných vecí aj úrad USTR mesiace podporovali zaradenie Megaspeed na sankčný zoznam, no ministerstvo obchodu pod vedením Howarda Lutnicka tento krok odkladalo zo strachu zo zhoršenia obchodných vzťahov s Čínou."
+  }
+}
