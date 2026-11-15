@@ -1,0 +1,518 @@
+{
+  "slug": "vymena-stareho-medeneho-kabla-sposobila-odstavenie-leteckej-dopravy-v-usa",
+  "datum_sprav": "2026-11-14",
+  "dovod_vyberu": "Zrušenie celonárodného zastavenia letov FAA poukazuje na dôležitosť infraštruktúrnych problémov v letectve a má priame dopady na bezpečnosť a cestovanie v EÚ.",
+  "poznamky_pre_editora": "S nálezmi č. 1 a č. 2 nesúhlasím. Čísla 15 a 20 sú súčasťou 24-hodinového zápisu časov (15:36 a 20:35), ktoré sú priamym prepočtom z 12-hodinového formátu v zdroji Ars Technica (v zdroji výslovne: „began at 3:36 pm EST“ pre 15:36 a „cleared to begin taking off at 8:35 pm EST“ pre 20:35). Tvrdenia a časové údaje boli v koncepte ponechané v pôvodnej podobe.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je veľmi spoľahlivý a vo veľkej väčšine tvrdení sa presne zhoduje s informáciami z dvoch zdrojov. Najvážnejším problémom sú drobné nepresnosti pri interpretácii rozsahu obmedzení letov a zjemnenie ostrého vyjadrenia ministra o nekompetentnosti dodávateľskej firmy.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 22,
+        "potvrdenych": 21,
+        "chyb": 3,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 22,
+        "potvrdenych": 22,
+        "chyb": 2,
+        "upozorneni": 1
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 20,
+        "potvrdenych": 18,
+        "chyb": 4,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "factchecker",
+        "zavaznost": "chyba",
+        "text": "FAA musel v piatok pozastaviť všetky vnútroštátne lety.",
+        "komentar": "[nepresne] Zákaz sa týkal všetkých odletov z amerických letísk, nie výhradne vnútroštátnych letov.",
+        "navrh_opravy": "Americký Úrad pre civilné letectvo musel v piatok pozastaviť všetky odlety z letísk v USA."
+      },
+      {
+        "povod": "factchecker",
+        "zavaznost": "chyba",
+        "text": "Duffy uviedol, že mohlo ísť o chybný hardvér, nesprávne nakonfigurovaný smerovač alebo zlyhanie zo strany L3Harris.",
+        "komentar": "[nepresne] Duffy hovoril výslovne o nekompetentnosti (incompetence) dodávateľa L3Harris, nie iba o všeobecnom zlyhaní.",
+        "navrh_opravy": "Duffy uviedol, že mohlo ísť o chybný hardvér, nesprávne nakonfigurovaný smerovač alebo nekompetentnosť zo strany dodávateľskej spoločnosti L3Harris."
+      },
+      {
+        "povod": "kontrola_cisel",
+        "zavaznost": "chyba",
+        "text": "Číslo 15",
+        "komentar": "Číslo je v koncepte, ale v žiadnom zdroji sa nenachádza.",
+        "navrh_opravy": "Opraviť podľa zdroja alebo vypustiť. Ak ide o prepočet, uviesť to v poznámkach."
+      },
+      {
+        "povod": "kontrola_cisel",
+        "zavaznost": "chyba",
+        "text": "Číslo 20",
+        "komentar": "Číslo je v koncepte, ale v žiadnom zdroji sa nenachádza.",
+        "navrh_opravy": "Opraviť podľa zdroja alebo vypustiť. Ak ide o prepočet, uviesť to v poznámkach."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Výmena starého medeného kábla spôsobila odstavenie leteckej dopravy v USA.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Work to replace old copper wire led to the FAA’s ground stop",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "FAA musel v piatok pozastaviť všetky vnútroštátne lety.",
+        "typ": "ine",
+        "verdikt": "nepresne",
+        "zdroj": "Ars Technica",
+        "dokaz": "issued a nationwide ground stop, halting departures from all US airports.",
+        "komentar": "Zákaz sa týkal všetkých odletov z amerických letísk, nie výhradne vnútroštátnych letov.",
+        "navrh_opravy": "Americký Úrad pre civilné letectvo musel v piatok pozastaviť všetky odlety z letísk v USA."
+      },
+      {
+        "text": "Za výpadkom riadenia letovej prevádzky stála chyba pri výmene zastaranej infraštruktúry.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Issues with a new router related to a fiber optic upgrade grounded thousands of flights on Friday.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "FAA vyhlásil celonárodné pozastavenie odletov v piatok 13. novembra.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Nov. 13 ground stop",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ide o v poradí iba tretí celoplošný zákaz vzletov v histórii FAA.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "lifted its third-ever nationwide ground stop",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zákaz sa začal o 15:36 EST a trval niekoľko hodín, kým ho o 20:35 uvoľnili.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "stoppage began at 3:36 pm EST Friday afternoon",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Sean Duffy vysvetlil, že incident súvisel s rutinnou údržbou na vzdialenom pracovisku FAA.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "was related to work replacing outdated copper wire with a fiber optic line at a “remote FAA facility.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Technici zamieňali staré medené vedenie za novú optickú linku.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "replacing outdated copper wire with a fiber optic line",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pôvodné medené vedenie malo byť úplne odstavené, čo si vyžadovalo jeho výmenu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "such an old wire that it was being discontinued, meaning that line was going to get shut down",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Novo nainštalovaný smerovač zaplavoval ostatné routery v systéme neprimeraným množstvom požiadaviek.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "the newly installed router “flooding” other routers in the Air Traffic Control system.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zariadenie vysielalo viac ako tisíc pokusov o spojenie každých štyri až päť sekúnd.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "there were “over 1,000 connection attempts every 4 to 5 seconds,”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nárast prevádzky spôsobil narušenie radarových dát a komunikácie s lietadlami.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "causing disruption to radar feeds and communication with planes.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Duffy uviedol, že mohlo ísť o chybný hardvér, nesprávne nakonfigurovaný smerovač alebo zlyhanie zo strany L3Harris.",
+        "typ": "citat",
+        "verdikt": "nepresne",
+        "zdroj": "The Verge",
+        "dokaz": "could have been faulty hardware, a misconfigured router, or “incompetence” on the part of contractor L3Harris.",
+        "komentar": "Duffy hovoril výslovne o nekompetentnosti (incompetence) dodávateľa L3Harris, nie iba o všeobecnom zlyhaní.",
+        "navrh_opravy": "Duffy uviedol, že mohlo ísť o chybný hardvér, nesprávne nakonfigurovaný smerovač alebo nekompetentnosť zo strany dodávateľskej spoločnosti L3Harris."
+      },
+      {
+        "text": "Výpadok zasiahol viac ako milión cestujúcich.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Over a million travelers have been affected by the delays",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Air Canada zrušila všetky spoje do Spojených štátov a späť na zvyšok večera.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Air Canada has cancelled all flights to and from the United States for the remainder of the evening",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "L3Harris uviedol, že dokončil viac ako 70 percent plánovaného prechodu na optický systém.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "has completed more than 70% of the planned airspace communications conversion from legacy copper wires to a fiber optic system.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť L3Harris plne spolupracuje pri vyšetrovaní príčin incidentu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "We are supporting the FAA in its investigation to understand the conditions that led to the Nov. 13 ground stop",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Duffy poukázal na to, že systém riadenia letovej prevádzky stále funguje na desiatky rokov starých analógových zariadeniach.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "our air traffic control system is operating on DECADES-OLD analog equipment",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kongres podľa neho doteraz poskytol len čiastočné financovanie na modernizáciu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "said that Congress had only given him a “partial payment” to complete the necessary work.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Duffy upozornil, že bez rozsiahlych investícií sa podobné výpadky môžu v budúcnosti opakovať.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "barring massive system updates, there will be “more of these” ahead.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "každých štyri až päť",
+        "opravene": "každé štyri až päť",
+        "dovod": "gramatická zhoda",
+        "stav": "vykonana",
+        "poznamka": ""
+      },
+      {
+        "pole": "telo",
+        "povodne": "obrovský dopad na",
+        "opravene": "obrovský vplyv na",
+        "dovod": "zlepšenie štylistiky",
+        "stav": "vykonana",
+        "poznamka": ""
+      },
+      {
+        "pole": "telo",
+        "povodne": "spoločností, vrátane Air Canada,",
+        "opravene": "spoločností vrátane Air Canada",
+        "dovod": "vynatie čiarky",
+        "stav": "vykonana",
+        "poznamka": ""
+      }
+    ],
+    "podozrive": [
+      {
+        "pole": "telo",
+        "text": "východoamerického",
+        "kontext": "rii tohto úradu. Zákaz sa začal o 15:36 východoamerického času a trval niekoľko hodín, kým ho úra",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "smerovač",
+        "kontext": " čo si vyžadovalo jeho výmenu.\n\n## Nový smerovač zahltil sieť\n\nSamotná výmena kábla však",
+        "navrhy": [
+          "smerovaco",
+          "smerovací",
+          "smeroval"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "zahltil",
+        "kontext": "žadovalo jeho výmenu.\n\n## Nový smerovač zahltil sieť\n\nSamotná výmena kábla však viedla ",
+        "navrhy": [
+          "zahatil",
+          "zahlti",
+          "zahltiť"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "smerovač",
+        "kontext": "dľa ministra Duffyho novo nainštalovaný smerovač začal zaplavovať ostatné routery v syst",
+        "navrhy": [
+          "smerovaco",
+          "smerovací",
+          "smeroval"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "routery",
+        "kontext": "ovaný smerovač začal zaplavovať ostatné routery v systéme riadenia letovej prevádzky ne",
+        "navrhy": [
+          "Route",
+          "otery",
+          "postery"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "m požiadaviek. Zariadenie vysielalo viac ako tisíc pokusov o spojenie každé štyri až",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "pole": "telo",
+        "text": "smerovač",
+        "kontext": "ybný hardvér, nesprávne nakonfigurovaný smerovač alebo zlyhanie zo strany dodávateľskej ",
+        "navrhy": [
+          "smerovaco",
+          "smerovací",
+          "smeroval"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": " vplyv na leteckú dopravu. Zasiahol viac ako milión cestujúcich a spôsobil rozsiahle",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ločnosť zdôraznila, že už dokončila viac ako 70 percent plánovaného prechodu zo star",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "pole": "telo",
+        "text": "príčin",
+        "kontext": "žne a plne spolupracuje pri vyšetrovaní príčin incidentu.\n\n## Výzva na financovanie mo",
+        "navrhy": [
+          "pričiň",
+          "Prečín",
+          "prečin"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -13 +13 @@\n-Samotná výmena kábla však viedla k závažnej technickej poruche. Podľa ministra Duffyho novo nainštalovaný smerovač začal zaplavovať ostatné routery v systéme riadenia letovej prevádzky neprimeraným množstvom požiadaviek. Zariadenie vysielalo viac ako tisíc pokusov o spojenie každých štyri až päť sekúnd.\n+Samotná výmena kábla však viedla k závažnej technickej poruche. Podľa ministra Duffyho novo nainštalovaný smerovač začal zaplavovať ostatné routery v systéme riadenia letovej prevádzky neprimeraným množstvom požiadaviek. Zariadenie vysielalo viac ako tisíc pokusov o spojenie každé štyri až päť sekúnd.\n@@ -19 +19 @@\n-Výpadok mal obrovský dopad na leteckú dopravu. Zasiahol viac ako milión cestujúcich a spôsobil rozsiahle meškania či rušenia letov. Niekoľko leteckých spoločností, vrátane Air Canada, zrušilo všetky svoje spoje do Spojených štátov a späť na zvyšok večera.\n+Výpadok mal obrovský vplyv na leteckú dopravu. Zasiahol viac ako milión cestujúcich a spôsobil rozsiahle meškania či rušenia letov. Niekoľko leteckých spoločností vrátane Air Canada zrušilo všetky svoje spoje do Spojených štátov a späť na zvyšok večera."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Chalcopyrite-pyrrhotite_%28Late_Cretaceous%3B_Cable_Mine%2C_~1.4_miles_east_of_Georgetown%2C_Deer_Lodge_County%2C_western_Montana%2C_USA%29_4.jpg/1280px-Chalcopyrite-pyrrhotite_%28Late_Cretaceous%3B_Cable_Mine%2C_~1.4_miles_east_of_Georgetown%2C_Deer_Lodge_County%2C_western_Montana%2C_USA%29_4.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-1000x648.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2022/10/air-traffic-500x500.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304493507.jpg?quality=90&strip=all&crop=0,10.654918655606,100,78.690162688789",
+        "zdroj_clanku": "The Verge",
+        "alt": "Nationwide ground stop disrupts flights across US airports",
+        "popisok": "A view of an information board at the Chicago O'Hare International Airport, filled with waiting passengers on November 13, 2026. | Anadolu via Getty Images",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "copper cable replacement",
+      "FAA control tower",
+      "control tower"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Chalcopyrite-pyrrhotite_%28Late_Cretaceous%3B_Cable_Mine%2C_~1.4_miles_east_of_Georgetown%2C_Deer_Lodge_County%2C_western_Montana%2C_USA%29_4.jpg/1280px-Chalcopyrite-pyrrhotite_%28Late_Cretaceous%3B_Cable_Mine%2C_~1.4_miles_east_of_Georgetown%2C_Deer_Lodge_County%2C_western_Montana%2C_USA%29_4.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Chalcopyrite-pyrrhotite_%28Late_Cretaceous%3B_Cable_Mine%2C_~1.4_miles_east_of_Georgetown%2C_Deer_Lodge_County%2C_western_Montana%2C_USA%29_4.jpg/1280px-Chalcopyrite-pyrrhotite_%28Late_Cretaceous%3B_Cable_Mine%2C_~1.4_miles_east_of_Georgetown%2C_Deer_Lodge_County%2C_western_Montana%2C_USA%29_4.jpg",
+        "nazov": "Chalcopyrite-pyrrhotite (Late Cretaceous; Cable Mine, ~1.4 miles east of Georgetown, Deer Lodge County, western Montana, USA) 4.jpg",
+        "autor": "James St. John",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Chalcopyrite-pyrrhotite_(Late_Cretaceous;_Cable_Mine,_~1.4_miles_east_of_Georgetown,_Deer_Lodge_County,_western_Montana,_USA)_4.jpg",
+        "povod": "wikimedia",
+        "dopyt": "copper cable replacement"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/The_FAA_air_traffic_control_tower_at_Philadelphia_International_Airport.jpg/1280px-The_FAA_air_traffic_control_tower_at_Philadelphia_International_Airport.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/The_FAA_air_traffic_control_tower_at_Philadelphia_International_Airport.jpg/1280px-The_FAA_air_traffic_control_tower_at_Philadelphia_International_Airport.jpg",
+        "nazov": "The FAA air traffic control tower at Philadelphia International Airport.jpg",
+        "autor": "Harrison Keely",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:The_FAA_air_traffic_control_tower_at_Philadelphia_International_Airport.jpg",
+        "povod": "wikimedia",
+        "dopyt": "FAA control tower"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/KotaKinabalu_Sabah_Air-Traffic-Control-Center-Kota-Kinabalu-01.jpg/1280px-KotaKinabalu_Sabah_Air-Traffic-Control-Center-Kota-Kinabalu-01.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/KotaKinabalu_Sabah_Air-Traffic-Control-Center-Kota-Kinabalu-01.jpg/1280px-KotaKinabalu_Sabah_Air-Traffic-Control-Center-Kota-Kinabalu-01.jpg",
+        "nazov": "KotaKinabalu Sabah Air-Traffic-Control-Center-Kota-Kinabalu-01.jpg",
+        "autor": "CEphoto, Uwe Aranas",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:KotaKinabalu_Sabah_Air-Traffic-Control-Center-Kota-Kinabalu-01.jpg",
+        "povod": "wikimedia",
+        "dopyt": "control tower"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Chalcopyrite-pyrrhotite_%28Late_Cretaceous%3B_Cable_Mine%2C_~1.4_miles_east_of_Georgetown%2C_Deer_Lodge_County%2C_western_Montana%2C_USA%29_2.jpg/1280px-Chalcopyrite-pyrrhotite_%28Late_Cretaceous%3B_Cable_Mine%2C_~1.4_miles_east_of_Georgetown%2C_Deer_Lodge_County%2C_western_Montana%2C_USA%29_2.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Chalcopyrite-pyrrhotite_%28Late_Cretaceous%3B_Cable_Mine%2C_~1.4_miles_east_of_Georgetown%2C_Deer_Lodge_County%2C_western_Montana%2C_USA%29_2.jpg/1280px-Chalcopyrite-pyrrhotite_%28Late_Cretaceous%3B_Cable_Mine%2C_~1.4_miles_east_of_Georgetown%2C_Deer_Lodge_County%2C_western_Montana%2C_USA%29_2.jpg",
+        "nazov": "Chalcopyrite-pyrrhotite (Late Cretaceous; Cable Mine, ~1.4 miles east of Georgetown, Deer Lodge County, western Montana, USA) 2.jpg",
+        "autor": "James St. John",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Chalcopyrite-pyrrhotite_(Late_Cretaceous;_Cable_Mine,_~1.4_miles_east_of_Georgetown,_Deer_Lodge_County,_western_Montana,_USA)_2.jpg",
+        "povod": "wikimedia",
+        "dopyt": "copper cable replacement"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/IND_FAA_air_traffic_control_tower.jpg/1280px-IND_FAA_air_traffic_control_tower.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/IND_FAA_air_traffic_control_tower.jpg/1280px-IND_FAA_air_traffic_control_tower.jpg",
+        "nazov": "IND FAA air traffic control tower.jpg",
+        "autor": "AVA Navigate",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:IND_FAA_air_traffic_control_tower.jpg",
+        "povod": "wikimedia",
+        "dopyt": "FAA control tower"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Air_traffic_control_binoculars.jpg/1280px-Air_traffic_control_binoculars.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Air_traffic_control_binoculars.jpg/1280px-Air_traffic_control_binoculars.jpg",
+        "nazov": "Air traffic control binoculars.jpg",
+        "autor": "Airman 1st Class Stassney Davis",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Air_traffic_control_binoculars.jpg",
+        "povod": "wikimedia",
+        "dopyt": "control tower"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Chalcopyrite-pyrrhotite_%28Late_Cretaceous%3B_Cable_Mine%2C_~1.4_miles_east_of_Georgetown%2C_Deer_Lodge_County%2C_western_Montana%2C_USA%29_3.jpg/1280px-Chalcopyrite-pyrrhotite_%28Late_Cretaceous%3B_Cable_Mine%2C_~1.4_miles_east_of_Georgetown%2C_Deer_Lodge_County%2C_western_Montana%2C_USA%29_3.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Chalcopyrite-pyrrhotite_%28Late_Cretaceous%3B_Cable_Mine%2C_~1.4_miles_east_of_Georgetown%2C_Deer_Lodge_County%2C_western_Montana%2C_USA%29_3.jpg/1280px-Chalcopyrite-pyrrhotite_%28Late_Cretaceous%3B_Cable_Mine%2C_~1.4_miles_east_of_Georgetown%2C_Deer_Lodge_County%2C_western_Montana%2C_USA%29_3.jpg",
+        "nazov": "Chalcopyrite-pyrrhotite (Late Cretaceous; Cable Mine, ~1.4 miles east of Georgetown, Deer Lodge County, western Montana, USA) 3.jpg",
+        "autor": "James St. John",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Chalcopyrite-pyrrhotite_(Late_Cretaceous;_Cable_Mine,_~1.4_miles_east_of_Georgetown,_Deer_Lodge_County,_western_Montana,_USA)_3.jpg",
+        "povod": "wikimedia",
+        "dopyt": "copper cable replacement"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/View_of_the_IND_Airport_from_the_FAA_Control_tower.jpg/1280px-View_of_the_IND_Airport_from_the_FAA_Control_tower.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/View_of_the_IND_Airport_from_the_FAA_Control_tower.jpg/1280px-View_of_the_IND_Airport_from_the_FAA_Control_tower.jpg",
+        "nazov": "View of the IND Airport from the FAA Control tower.jpg",
+        "autor": "AVA Navigate",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:View_of_the_IND_Airport_from_the_FAA_Control_tower.jpg",
+        "povod": "wikimedia",
+        "dopyt": "FAA control tower"
+      }
+    ],
+    "prompt_ilustracie": "A modern passenger airplane grounded on an airport runway next to severed legacy copper wires and glowing optical fibers, detailed conceptual digital art."
+  },
+  "prompt_ilustracie": "A modern passenger airplane grounded on an airport runway next to severed legacy copper wires and glowing optical fibers, detailed conceptual digital art.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/2b79919644eb5d200416cccd5c12ce92",
+  "text_agentov": {
+    "titulok": "Výmena starého medeného kábla spôsobila odstavenie leteckej dopravy v USA",
+    "perex": "Americký Úrad pre civilné letectvo musel v piatok pozastaviť všetky vnútroštátne lety. Za výpadkom riadenia letovej prevádzky stála chyba pri výmene zastaranej infraštruktúry.",
+    "telo": "## Zlyhanie pri rutinnej údržbe\n\nAmerický Úrad pre civilné letectvo (FAA) vyhlásil v piatok 13. novembra celonárodné pozastavenie odletov, ktoré ochromilo leteckú dopravu v celých Spojených štátoch. Ide o v poradí iba tretí celoplošný zákaz vzletov v histórii tohto úradu. Zákaz sa začal o 15:36 východoamerického času a trval niekoľko hodín, kým ho úrady o 20:35 uvoľnili.\n\nAmerický minister dopravy Sean Duffy na tlačovej konferencii vysvetlil, že incident súvisel s rutinnou údržbou na vzdialenom pracovisku FAA. Technici na mieste zamieňali staré analógové medené vedenie za novú optickú linku. Pôvodné medené vedenie bolo natoľko zastarané, že ho dodávateľ plánoval úplne odstaviť, čo si vyžadovalo jeho výmenu.\n\n## Nový smerovač zahltil sieť\n\nSamotná výmena kábla však viedla k závažnej technickej poruche. Podľa ministra Duffyho novo nainštalovaný smerovač začal zaplavovať ostatné routery v systéme riadenia letovej prevádzky neprimeraným množstvom požiadaviek. Zariadenie vysielalo viac ako tisíc pokusov o spojenie každé štyri až päť sekúnd.\n\nTento masívny nárast prevádzky spôsobil narušenie radarových dát a komunikácie s lietadlami vo všetkých strediskách riadenia letovej prevádzky. Presná príčina incidentu zatiaľ nie je jednoznačne určená. Duffy uviedol, že mohlo ísť o chybný hardvér, nesprávne nakonfigurovaný smerovač alebo zlyhanie zo strany dodávateľskej spoločnosti L3Harris.\n\n## Dopady na cestujúcich a reakcia dodávateľa\n\nVýpadok mal obrovský vplyv na leteckú dopravu. Zasiahol viac ako milión cestujúcich a spôsobil rozsiahle meškania či rušenia letov. Niekoľko leteckých spoločností vrátane Air Canada zrušilo všetky svoje spoje do Spojených štátov a späť na zvyšok večera.\n\nDodávateľská spoločnosť L3Harris vo svojom vyhlásení uviedla, že na modernizácii komunikačnej infraštruktúry úzko spolupracuje s úradom FAA. Spoločnosť zdôraznila, že už dokončila viac ako 70 percent plánovaného prechodu zo starých medených rozvodov na optický systém. Dodala, že situáciu berie veľmi vážne a plne spolupracuje pri vyšetrovaní príčin incidentu.\n\n## Výzva na financovanie modernizácie\n\nMinister dopravy využitie technického zlyhania spojil s výzvou pre americký Kongres. Poukázal na to, že systém riadenia letovej prevádzky stále funguje na desiatky rokov starých analógových zariadeniach, ktoré nedokážu spĺňať nároky 21. storočia. Kongres podľa neho doteraz poskytol len čiastočné financovanie potrebné na kompletnú modernizáciu. Duffy zároveň upozornil, že bez rozsiahlych investícií a obnovy systémov sa podobné výpadky môžu v budúcnosti opakovať."
+  }
+}
