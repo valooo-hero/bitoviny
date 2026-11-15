@@ -3,27 +3,28 @@ title: Ázijské vlády reagujú na odchod šéfa Nvidie Jensena Huanga
 perex: Odstúpenie Jensena Huanga z čela spoločnosti Nvidia vyvolalo v Ázii rýchle reakcie. Kým Južná Kórea si potvrdením dodávok čipov oddýchla, v Číne a Singapure rezonujú vyšetrovanja.
 sekcia: biznis
 tagy:
-- Nvidia
-- Jensen Huang
-- Čipy
-- Ázia
-- Umelá inteligencia
-publikovane: '2026-11-15T03:15:04+00:00'
+  - Nvidia
+  - Jensen Huang
+  - Čipy
+  - Ázia
+  - Umelá inteligencia
+publikovane: 2026-11-15T03:15:04+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/azijske-vlady-reaguju-na-odchod-sefa-nvidie-jensena-huanga-mwhu4o92.jpg
+  alt: Nvidia HQ
+  popisok: Nvidia HQ
+  kredit: Kevin McCarthy / Wikimedia Commons
+  licencia: CC BY 2.0
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'TechCrunch: Asian governments react to Nvidia CEO Jensen Huang’s exit'
-  url: https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/
-- nazov: 'Tom''s Hardware: U.S. Treasury Secretary questions whether Nvidia knowingly sold AI GPUs to shell companies, says company itself is responsible'
-  url: https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-treasury-secretary-questions-whether-nvidia-knowingly-sold-ai-gpus-to-shell-companies-says-company-itself-is-responsible-i-think-it-is-important-that-anyone-at-the-company-there-be-held-accountable-for-that
+  - nazov: "TechCrunch: Asian governments react to Nvidia CEO Jensen Huang’s exit"
+    url: https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/
+  - nazov: "Tom's Hardware: U.S. Treasury Secretary questions whether Nvidia knowingly sold AI GPUs to shell companies, says company itself is responsible"
+    url: https://www.tomshardware.com/tech-industry/artificial-intelligence/u-s-treasury-secretary-questions-whether-nvidia-knowingly-sold-ai-gpus-to-shell-companies-says-company-itself-is-responsible-i-think-it-is-important-that-anyone-at-the-company-there-be-held-accountable-for-that
 ---
 
 ## Uistenie o dodávkach a obavy v regiónoch
