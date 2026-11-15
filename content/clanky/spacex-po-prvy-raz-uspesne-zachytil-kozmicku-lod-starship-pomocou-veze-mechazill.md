@@ -3,27 +3,28 @@ title: SpaceX po prvý raz úspešne zachytil kozmickú loď Starship pomocou ve
 perex: Spoločnosť SpaceX dosiahla významný míľnik pri 15. testovacom lete, keď zachytila horný stupeň Starship ramenami veže. Prvý stupeň však pri pristávaní zlyhal a vybuchol nad zálivom.
 sekcia: veda
 tagy:
-- SpaceX
-- Starship
-- Mechazilla
-- vesmir
-- Starlink
-publikovane: '2026-11-15T03:15:08+00:00'
+  - SpaceX
+  - Starship
+  - Mechazilla
+  - vesmir
+  - Starlink
+publikovane: 2026-11-15T03:15:08+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/spacex-po-prvy-raz-uspesne-zachytil-kozmicku-lod-starship-pomocou-veze-mechazill-mwhu7r5j.jpg
+  alt: Starship
+  popisok: Starship
+  kredit: Tlačový materiál
+  licencia: tlačový materiál
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Engadget: SpaceX successfully catches Starship after launch for the first time'
-  url: https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/
-- nazov: 'The Verge: Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship'
-  url: https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch
+  - nazov: "Engadget: SpaceX successfully catches Starship after launch for the first time"
+    url: https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/
+  - nazov: "The Verge: Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship"
+    url: https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch
 ---
 
 ## Prvý úspešný zachytávací manéver kozmickej lode
