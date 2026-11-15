@@ -268,10 +268,16 @@
         "zdroj_clanku": "Engadget",
         "alt": "",
         "popisok": "",
-        "kredit": "",
-        "licencia": "",
-        "zaradenie": "nejasne",
-        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+        "kredit": "Tlačový materiál",
+        "licencia": "tlačový materiál",
+        "zaradenie": "tlacove",
+        "dovod": "Rozhodnutie editora: tlačový materiál",
+        "automaticke_zaradenie": "nejasne",
+        "automaticky_dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené.",
+        "rozhodol_editor": {
+          "kto": "valooo-hero",
+          "kedy": "2026-11-15T12:55:05Z"
+        }
       },
       {
         "url": "https://www.engadget.com/img/gallery/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/intro-1794693469.jpg",
