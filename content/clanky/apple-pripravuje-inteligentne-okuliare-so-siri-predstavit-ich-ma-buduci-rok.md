@@ -25,6 +25,13 @@ zdroje:
     url: https://9to5mac.com/2026/11/15/apples-siri-ai-smart-glasses-are-reportedly-launching-next-year-heres-what-to-expect/
   - nazov: "The Verge: Apple’s first smart glasses are coming together"
     url: https://www.theverge.com/tech/1033968/apples-first-smart-glasses-are-coming-together
+galeria:
+  - src: /obrazky/apple-pripravuje-inteligentne-okuliare-so-siri-predstavit-ich-ma-buduci-rok-mwjes0ww.jpg
+    alt: Apple Vision Pro with charger (cropped)
+    popisok: Apple Vision Pro with charger (cropped)
+    kredit: Miyako Fujimiya / Wikimedia Commons
+    licencia: CC BY-SA 4.0
+    ai: false
 ---
 
 ## Predstavenie na WWDC a závislosť od iPhonu
