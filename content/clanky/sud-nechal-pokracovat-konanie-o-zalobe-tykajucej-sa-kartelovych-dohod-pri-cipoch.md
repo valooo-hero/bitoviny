@@ -10,11 +10,12 @@ tagy:
   - súdne spory
 publikovane: 2026-11-16T18:54:04+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/sud-nechal-pokracovat-konanie-o-zalobe-tykajucej-sa-kartelovych-dohod-pri-cipoch-mwjnyw23.jpg
+  alt: Legal Gavel (27571702173)
+  popisok: Legal Gavel (27571702173)
+  kredit: Blogtrepreneur / Wikimedia Commons
+  licencia: CC BY 2.0
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
