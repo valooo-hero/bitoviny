@@ -10,12 +10,11 @@ tagy:
   - súdne spory
 publikovane: 2026-11-16T18:54:04+00:00
 obrazok:
-  src: /obrazky/sud-nechal-pokracovat-konanie-o-zalobe-tykajucej-sa-kartelovych-dohod-pri-cipoch-mwjny5t8.jpg
-  alt: 16K DRAM array.agr
-  popisok: 16K DRAM array.agr
-  kredit: ArnoldReinhold / Wikimedia Commons
-  licencia: CC BY-SA 4.0
-  ai: false
+  src: /obrazky/zastupny.svg
+  alt: Zástupný obrázok, čaká na výber editora
+  popisok: Obrázok čaká na výber editora.
+  kredit: Bitoviny
+  licencia: vlastná ilustrácia
 redaktori:
   autor: klara
   factcheck: tomas
