@@ -14,8 +14,6 @@ roly:
       # Qwen na Groq kazí volanie nástrojov, preto výstup cez JSON schému.
       - { provider: groq, model: qwen/qwen3.8-27b, metoda: json_schema }
       - { provider: google, model: gemini-3.5-flash-lite }
-      # Platená OpenAI záloha; bez OPENAI_API_KEY sa preskočí.
-      - { provider: openai, model: gpt-6-luna, metoda: json_schema, reasoning: low, verbosity: low, max_output_tokens: 2048 }
       # Platená posledná záloha (0,06 / 0,18 USD za milión tokenov). Bez kľúča DEEPINFRA_API_KEY sa preskočí.
       - { provider: deepinfra, model: deepseek-ai/DeepSeek-V4-Flash-0731 }
 
@@ -23,14 +21,14 @@ roly:
   autorka:
     teplota: 0.6
     modely:
+      # Klára používa GPT-6 Luna ako hlavný model aj pri opravách. Bez kľúča sa preskočí.
+      - { provider: openai, model: gpt-6-luna, metoda: json_schema, reasoning: medium, verbosity: medium, max_output_tokens: 8192 }
       # Najnovší Flash býva preťažený (503), preto dve ďalšie generácie v zálohe.
       # Každý model Gemini má vlastný denný limit.
       - { provider: google, model: gemini-3.8-flash }
       - { provider: google, model: gemini-3.5-flash }
       - { provider: google, model: gemini-3.5-flash-lite }
       - { provider: openrouter, model: "baidu/ernie-5.5-flash-preview:free" }
-      # Platená OpenAI záloha; bez OPENAI_API_KEY sa preskočí.
-      - { provider: openai, model: gpt-6-luna, metoda: json_schema, reasoning: medium, verbosity: medium, max_output_tokens: 8192 }
       # Platená posledná záloha (0,06 / 0,18 USD za milión tokenov). Bez kľúča DEEPINFRA_API_KEY sa preskočí.
       - { provider: deepinfra, model: deepseek-ai/DeepSeek-V4-Flash-0731 }
 
@@ -43,8 +41,6 @@ roly:
       - { provider: google, model: gemini-3.5-flash-lite }
       - { provider: google, model: gemini-3.8-flash }
       - { provider: openrouter, model: "baidu/ernie-5.5-flash-preview:free" }
-      # Platená OpenAI záloha; bez OPENAI_API_KEY sa preskočí.
-      - { provider: openai, model: gpt-6-luna, metoda: json_schema, reasoning: medium, verbosity: low, max_output_tokens: 16384 }
       # Platená posledná záloha (0,06 / 0,18 USD za milión tokenov). Bez kľúča DEEPINFRA_API_KEY sa preskočí.
       - { provider: deepinfra, model: deepseek-ai/DeepSeek-V4-Flash-0731 }
 
@@ -57,8 +53,6 @@ roly:
       - { provider: google, model: gemini-3.5-flash }
       - { provider: groq, model: openai/gpt-oss-120b, metoda: json_schema }
       - { provider: groq, model: qwen/qwen3.8-27b, metoda: json_schema }
-      # Platená OpenAI záloha; bez OPENAI_API_KEY sa preskočí.
-      - { provider: openai, model: gpt-6-luna, metoda: json_schema, reasoning: medium, verbosity: low, max_output_tokens: 8192 }
       # Platená posledná záloha (0,06 / 0,18 USD za milión tokenov). Bez kľúča DEEPINFRA_API_KEY sa preskočí.
       - { provider: deepinfra, model: deepseek-ai/DeepSeek-V4-Flash-0731 }
 
@@ -68,7 +62,5 @@ roly:
     modely:
       - { provider: groq, model: openai/gpt-oss-20b }
       - { provider: groq, model: qwen/qwen3.8-27b, metoda: json_schema }
-      # Platená OpenAI záloha; bez OPENAI_API_KEY sa preskočí.
-      - { provider: openai, model: gpt-6-luna, metoda: json_schema, reasoning: low, verbosity: low, max_output_tokens: 2048 }
       # Platená posledná záloha (0,06 / 0,18 USD za milión tokenov). Bez kľúča DEEPINFRA_API_KEY sa preskočí.
       - { provider: deepinfra, model: deepseek-ai/DeepSeek-V4-Flash-0731 }

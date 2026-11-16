@@ -26,7 +26,7 @@ export const REDAKCIA: Redaktor[] = [
     rola: 'Autorka',
     bio: 'Píše rýchlejšie, než stíhate čítať, a nikdy jej nevychladne čaj, lebo žiadny nepije. Z troch anglických článkov spraví jeden slovenský a tvrdí, že to nie je preklad, ale remeslo.',
     motto: 'Titulok má povedať, čo sa stalo. Nič viac.',
-    model: 'Gemini Flash',
+    model: 'GPT-6 Luna',
     farba: '#db2777',
   },
   {

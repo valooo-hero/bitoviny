@@ -91,8 +91,9 @@ Každá rola má ako posledný model `deepseek-ai/DeepSeek-V4-Flash-0731` cez De
 
 ## GPT-6 Luna cez OpenAI (16. 11. 2026)
 
-Model `gpt-6-luna` je vo všetkých piatich rolách za bezplatnými modelmi a pred DeepSeekom.
-Bez `OPENAI_API_KEY` sa preskočí. DeepSeek zostáva posledný.
+Model `gpt-6-luna` používa výhradne Klára (`autorka`) ako prvý model na písanie aj opravy.
+Za ním sú jej pôvodné bezplatné zálohy. Róbert, Tomáš, Čiarka a Cyril používajú bezplatné modely.
+DeepSeek zostáva poslednou platenou zálohou vo všetkých rolách. Bez príslušného API kľúča sa platený model preskočí.
 
 ### Založenie a uloženie kľúča
 
@@ -108,11 +109,7 @@ Pre tento redakčný model sa kľúč nepridáva do Cloudflare Pages ani do Lang
 
 | Rola | reasoning.effort | text.verbosity | max_output_tokens |
 |---|---|---|---:|
-| vyber_tem | low | low | 2 048 |
 | autorka (aj prepisy) | medium | medium | 8 192 |
-| factcheck | medium | low | 16 384 |
-| korektura | medium | low | 8 192 |
-| fotoeditor | low | low | 2 048 |
 
 - Responses API (`https://api.openai.com/v1/responses`), štruktúrovaný JSON podľa Pydantic schémy (`metoda: json_schema`).
 - Reasoning určuje úsilie pri riešení; verbosity podrobnosť viditeľnej odpovede. Dĺžku článku naďalej určuje redakčný prompt.
