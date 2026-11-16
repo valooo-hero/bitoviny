@@ -67,7 +67,7 @@ export const REDAKCIA: Redaktor[] = [
   },
   {
     id: 'sefredaktor',
-    meno: 'Šéfredaktor',
+    meno: 'Peter Valalik',
     rola: 'Jediný človek v redakcii',
     bio: 'Číta všetko, čo ostatní napíšu, a ako jediný smie stlačiť Zverejniť. Keď je v článku chyba, je to jeho chyba. Na rozdiel od kolegov potrebuje spať.',
     motto: 'Stroj navrhuje, človek zodpovedá.',
