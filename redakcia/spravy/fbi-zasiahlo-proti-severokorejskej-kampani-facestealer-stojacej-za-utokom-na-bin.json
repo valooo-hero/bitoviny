@@ -1,0 +1,330 @@
+{
+  "slug": "fbi-zasiahlo-proti-severokorejskej-kampani-facestealer-stojacej-za-utokom-na-bin",
+  "datum_sprav": "2026-11-15",
+  "dovod_vyberu": "FBI rozbilo kampaň Severnokórejského hackera, ktorá bola spojená s obrovským Binance útokom, čo je dôležitá kybernetická bezpečnostná správa.",
+  "poznamky_pre_editora": "Opravený údaj o dĺžke trvania kampane FaceStealer v poslednom odseku z 8 mesiacov na minimálne 18 mesiacov na základe nálezu factcheckera a zdroja. Taktiež upravený preklep v perexe.",
+  "upozornenia": [
+    "Téma má len jeden zdroj. Redakčné zásady žiadajú aspoň dva, zvážte doplnenie alebo zahodenie."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je plne spoľahlivý a presne vychádza zo zverejneného zdrojového článku. Všetky tvrdenia, čísla a popísané postupy útočníkov zodpovedajú informáciám od FBI a DoJ bez akýchkoľvek nepresností.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 13,
+        "potvrdenych": 12,
+        "chyb": 1,
+        "upozorneni": 1
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 15,
+        "potvrdenych": 15,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "FBI a DoJ zasiahli proti severokórejskej kampani FaceStealer stojacej za útokom na Binance.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "FBI disrupts North Korean FaceStealer campaign behind $5 billion Binance hack",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Americké úrady zablokovali cloudovú infraštruktúru kybernetickej kampane FaceStealer.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "seizure of associated cloud infrastructure",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kampaň využívala umelú inteligenciu a deepfake videá na krádeže miliónov dolárov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "hackers used AI deepfakes to steal USD400 million",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Za operáciou stojí Severná Kórea s cieľom získavať prostriedky na podporu vlády.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "According to the DoJ , North Korea is behind these attacks, stealing cryptocurrency to fund its government.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Počas zásahu úrady zaistili približne 900 videí obetí.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "containing 900 videos of targeted victims.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Útočníci najprv získavajú prístup ku komunikačným aplikáciám obetí a tajne ich nahrávajú.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "start by getting access to a person's communication application(s), then lifting all previous conversations, contact lists, and, most importantly, stealthily recording video",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Terčom sa stáva cieľ, ktorému útočníci ponúkajú pracovné ponuky alebo investície.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "sent offers for jobs or investment opportunities.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Obete sú pozývané na videohovory Zoom alebo Teams na serveroch útočníkov s falošnými doménami.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Zoom or Teams meeting that's actually hosted on an attacker-controlled server, with a typo-squatted domain",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na stretnutiach sa využívajú predchádzajúce záznamy alebo AI generovaní účastníci.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "meeting will often have deepfaked AI participants and/or previous meeting recordings playing",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Útočníci simulujú technické problémy a vyzvú obeť na inštaláciu softvéru s malware.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "victim will be prompted to install an \"update\" or software to fix the problem, which is loaded with malware.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Škodlivý kód umožní útočníkom plnú kontrolu nad počítačom a prístup k prihlasovacím údajom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "attackers have free rein over the victim's computer and data, and will siphon off browser sessions",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Útočníci získali prístup k platforme Binance prostredníctvom jej vývojára.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "poor Binance developer through which Binance's hot wallets were broken into.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Hackeri sa pokúšali preniknúť do open-source knižníc pre JavaScript v NPM a Rust balíkov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "hackers have repeatedly tried to sneak into open-source software, chiefly Javascript/NPM modules and Rust crates.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vývojárov oslovujú pod zámienkou ponuky práce a vytvárajú falošné pracovné prostredie v komunikačných nástrojoch.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "replicated the CEO's persona, created a Slack workspace with legitimate-looking channels",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kampaň funguje minimálne 18 mesiacov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "has reportedly been running for at least 18 months",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "pole": "titulok",
+        "text": "severokórejskej",
+        "kontext": "FBI zasiahlo proti severokórejskej kampani FaceStealer stojacej za útokom ",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "perex",
+        "text": "cloudovú",
+        "kontext": "Americké úrady zablokovali cloudovú infraštruktúru kybernetickej kampane Fa",
+        "navrhy": [
+          "chodovú",
+          "clonovú",
+          "loďovú"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "perex",
+        "text": "deepfake",
+        "kontext": "r, ktorá využívala umelú inteligenciu a deepfake videá na krádeže miliónov dolárov.",
+        "navrhy": [
+          "delfské",
+          "deptáme",
+          "deptáte"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "perex",
+        "text": "krádeže",
+        "kontext": " umelú inteligenciu a deepfake videá na krádeže miliónov dolárov.",
+        "navrhy": [
+          "kadeže",
+          "krádež",
+          "krádež e"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "cloudovej",
+        "kontext": " Úrady pristúpili k zhabaniu súvisiacej cloudovej infraštruktúry. Počas tohto zásahu zais",
+        "navrhy": [
+          "clou dovej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "videohovory",
+        "kontext": " príležitosti. Obete bývajú pozývané na videohovory cez aplikácie Zoom alebo Microsoft Team",
+        "navrhy": [
+          "video hovory"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "kryptomenovým",
+        "kontext": "ístup k prihlasovacím údajom, heslám či kryptomenovým peňaženkám, prípadne využívajú prístup ",
+        "navrhy": [
+          "kryptónovým"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "open-source",
+        "kontext": "formy Binance.\n\n## Pokusy o infiltráciu open-source softvéru\n\nOkrem priamych krádeží krypto",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "krádeží",
+        "kontext": "iu open-source softvéru\n\nOkrem priamych krádeží kryptomien sa hackeri opakovane pokúšal",
+        "navrhy": [
+          "krádež",
+          "krádež í"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "kryptomien",
+        "kontext": "source softvéru\n\nOkrem priamych krádeží kryptomien sa hackeri opakovane pokúšali preniknúť",
+        "navrhy": [
+          "kryptami",
+          "kryptomelán",
+          "kryptomérna"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "open-source",
+        "kontext": "hackeri opakovane pokúšali preniknúť do open-source softvéru, najmä do knižníc pre JavaScri",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Devuan_GNU-Linux_-_tty_login_as_root_in_an_ownCloud_instance_-_server_rack.jpg/1280px-Devuan_GNU-Linux_-_tty_login_as_root_in_an_ownCloud_instance_-_server_rack.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/eRmC2ngDGJBX3pdq9XNxjX-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "cloud server rack",
+      "deepfake video editing",
+      "cryptocurrency exchange building"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Devuan_GNU-Linux_-_tty_login_as_root_in_an_ownCloud_instance_-_server_rack.jpg/1280px-Devuan_GNU-Linux_-_tty_login_as_root_in_an_ownCloud_instance_-_server_rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Devuan_GNU-Linux_-_tty_login_as_root_in_an_ownCloud_instance_-_server_rack.jpg/1280px-Devuan_GNU-Linux_-_tty_login_as_root_in_an_ownCloud_instance_-_server_rack.jpg",
+        "nazov": "Devuan GNU-Linux - tty login as root in an ownCloud instance - server rack.jpg",
+        "autor": "Francesco Magno",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Devuan_GNU-Linux_-_tty_login_as_root_in_an_ownCloud_instance_-_server_rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "cloud server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/6214/6313082863_14242a82d4_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/76b22047-b31b-4fd4-b477-7c135db7625a/thumb/",
+        "nazov": "The surplus server rack that started it all",
+        "autor": "rexhammock",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/41894170584@N01/6313082863",
+        "povod": "openverse",
+        "dopyt": "cloud server rack"
+      }
+    ],
+    "prompt_ilustracie": "A digital conceptual artwork depicting a cybersecurity operation disrupting a North Korean hacker infrastructure with deepfake AI faces."
+  },
+  "prompt_ilustracie": "A digital conceptual artwork depicting a cybersecurity operation disrupting a North Korean hacker infrastructure with deepfake AI faces.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/66ea55555e4d4a37f3626d94ae5e1e22",
+  "text_agentov": {
+    "titulok": "FBI zasiahlo proti severokórejskej kampani FaceStealer stojacej za útokom na Binance",
+    "perex": "Americké úrady zablokovali cloudovú infraštruktúru kybernetickej kampane FaceStealer, ktorá využívala umelú inteligenciu a deepfake videá na krádeže miliónov dolárov.",
+    "telo": "Americké ministerstvo spravodlivosti a Federálny úrad pre vyšetrovanie oznámili úspešný zásah proti sofistikovanej kybernetickej kampani s názvom FaceStealer. Za touto operáciou podľa zistení úradov stojí Severná Kórea, pričom hlavným cieľom útokov bolo získavanie finančných prostriedkov na podporu tamojšej vlády. Úrady pristúpili k zhabaniu súvisiacej cloudovej infraštruktúry. Počas tohto zásahu zaistili približne deväť stoviek videí obetí, ktoré útočníci tajne nahrali.\n\n## Priebeh útokov a metódy sociálneho inžinierstva\n\nPodľa zverejnených informácií útočníci najprv získajú prístup ku komunikačným aplikáciám obetí, odkiaľ sťahujú predchádzajúce konverzácie a zoznamy kontaktov. Hlavným trikom je získanie videozáznamu obetí a ich kontaktov. Následne sa terčom stáva skutočný cieľ, ktorému útočníci ponúkajú pracovné ponuky alebo investičné príležitosti. Obete bývajú pozývané na videohovory cez aplikácie Zoom alebo Microsoft Teams, ktoré však bežia na serveroch pod kontrolou útočníkov s falošnými doménami.\n\nNa stretnutiach sa často využívajú predchádzajúce záznamy stretnutí alebo umelou inteligenciou generovaní účastníci, čo vytvára dojem dôveryhodnosti. V určitom momente stretnutia simulujú technické problémy a vyzvú obeť na inštaláciu údajnej aktualizácie alebo softvéru na opravu problému. Tento softvér však obsahuje škodlivý kód, ktorý útočníkom umožní plnú kontrolu nad počítačom. Získavajú tak prístup k prihlasovacím údajom, heslám či kryptomenovým peňaženkám, prípadne využívajú prístup na zameranie ďalších lukratívnejších cieľov, ako sa to stalo v prípade vývojára platformy Binance.\n\n## Pokusy o infiltráciu open-source softvéru\n\nOkrem priamych krádeží kryptomien sa hackeri opakovane pokúšali preniknúť do open-source softvéru, najmä do knižníc pre JavaScript v systéme NPM a Rust balíkov. Tieto pokusy zahŕňali aj incidenty s populárnymi knižnicami, ktoré zaznamenávajú milióny stiahnutí týždenne. Vývojári sa často stávajú obeťami tak, že ich páchatelia oslovia pod zámienkou záujmu o spoluprácu či zamestnanie, pričom vytvoria dôveryhodné pracovné prostredie vrátane falošných kanálov v komunikačných nástrojoch.\n\nAj napriek zásahu amerických úradov sa nedá očakávať, že by sa táto kampaň úplne zastavila. Funguje totiž minimálne 18 mesiacov a jej metodika sa neustále vyvíja. Bezpečnostní experti a úrady preto varujú pred zvýšenou pozornosťou pri prijímaní neznámych pozvánok na pracovné pohovory alebo stretnutia online."
+  }
+}
