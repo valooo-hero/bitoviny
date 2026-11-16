@@ -1,0 +1,537 @@
+{
+  "slug": "darpa-skusala-tim-autonomnych-pozemnych-robotov-v-simulovanom-boji",
+  "datum_sprav": "2026-11-15",
+  "dovod_vyberu": "Testovanie autonómnych vojenských robotov je významným vývojom v oblasti umelej inteligencie a bezpečnosti.",
+  "poznamky_pre_editora": "Odstránila som prepočet 300 yardov na 274 metrov, pretože tento údaj sa v zdroji nenachádza; ponechala som vzdialenosť uvedenú v zdroji.",
+  "upozornenia": [
+    "Téma má len jeden zdroj. Redakčné zásady žiadajú aspoň dva, zvážte doplnenie alebo zahodenie."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je vysoko spoľahlivý, všetky overiteľné tvrdenia majú priamu oporu v zdrojovom článku a preklad je verný. Najvážnejším problémom nie je žiadna faktická chyba, ale drobné štylistické zjednodušenia, ktoré nemenia význam.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 29,
+        "potvrdenych": 29,
+        "chyb": 1,
+        "upozorneni": 1
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 26,
+        "potvrdenych": 26,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 28,
+        "potvrdenych": 28,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Štyri bezposádkové vozidlá samostatne prehľadávali terén a vyhľadávali simulované hrozby.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "four UGVs “worked as a team, negotiating and surveilling the rolling landscape in search of enemy forces,” recalls a DARPA blog post.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "O použití zbrane však aj počas ukážky rozhodoval človek.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "It was emphasized that during the exercise, a human operator was controlling any kinetic engagement.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Americká agentúra DARPA skúšala, ako môže skupina autonómnych pozemných vozidiel spolupracovať pri vojenskej úlohe.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The Pentagon has been testing packs of autonomous ground vehicles (UGVs) in simulated combat situations.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri ukážke vo Fort Knox v štáte Kentucky štyri robotické vozidlá prehľadávali zvlnený terén a pátrali po simulovaných nepriateľských silách.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "In mid-October, at Fort Knox’s St. Vith Range in Kentucky, four UGVs “worked as a team, negotiating and surveilling the rolling landscape in search of enemy forces,”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nešlo však o autonómne rozhodovanie o útoku: použitie zbrane zostalo pod kontrolou ľudského operátora.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "It was emphasized that during the exercise, a human operator was controlling any kinetic engagement.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako informuje Tom’s Hardware s odvolaním sa na blog DARPA, cvičenie sa uskutočnilo v polovici októbra na cvičisku St. Vith Range.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "In mid-October, at Fort Knox’s St. Vith Range in Kentucky,",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jeho podobnosť s krajinou v Európe bola jedným z dôvodov výberu miesta.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The blog notes that this location was also chosen as it represents a similar landscape to the European theater.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Skúška podľa článku reagovala aj na požiadavku európskych spojencov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "This latest exercise was prompted by the request of European allies.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Operátor dostal informáciu o simulovanej hrozbe spolu so satelitnými snímkami a vyslal vozidlá do určenej oblasti.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "During the demo an operator received a tip about a simulated threat alongside some satellite imagery. They then sent the pack of UGVs to the area to surveil the landscape and identify targets.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako prvé sa dopredu vydalo jedno vozidlo, ktoré malo preskúmať okolie. Ostatné tri zostali vzadu a neskôr mali poskytnúť krytie a podporu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Smartly, a sole UGV went ahead of the pack to scout, with the three others waiting behind.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Prieskumný stroj niesol aj lietajúci dron.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The scout UGV was equipped with a flying drone.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa DARPA mali drony tri zo štyroch vozidiel.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The blog says three of the four UGVs in the exercise had drones.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V reálnej situácii by sa mohli použiť na získanie lepšieho pohľadu na cieľ alebo na útok zo vzduchu; počas tejto ukážky však išlo o simulované bojové scenáre.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "In a real-world scenario this could have been flown for better visuals or to strike the targets from the sky.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Technik prítomný na cvičení opísal vozidlá ako „supermodulárne platformy“.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "“Soldiers can mount anything and everything onto – 240 Bravos, drones, rockets,” said a technician attending the demo, as they are “super modular platforms.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Článok uvádza, že môžu niesť rozličné doplnky vrátane dronov či rakiet.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "These UGVs are highly modular and can be kitted out with a wide range of tactical add-ons",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Po prieskume sa ďalšie vozidlá presunuli dopredu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "After the designated area was scouted by the leading autonomous ground vehicle , other UGVs followed on “to provide cover and support.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na cieľ vzdialený od skupiny približne 300 yardov bola odpálená simulovaná raketa.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "A simulated rocket was fired at a target identified about 300 yards from the robot pack.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Posledné vozidlo potom vyšlo z úkrytu a z vyvýšeného miesta za hrebeňom posúdilo situáciu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Finally, the last robot came out of cover, higher up over a ridge, to assess the field of conflict.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Technický poradca DARPA Jason Gregory uviedol, že vozidlá samostatne zvládali pohyb, presuny aj detekciu.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "“All the mobility, all the movement, all the detections, all of that is autonomous,” explained Gregory.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa neho však k „stlačeniu spúšte“ dôjde až po pokyne človeka.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "“But they don’t pull the trigger until a human says pull the trigger.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vozidlá sú súčasťou programu RACER, ktorého celý názov je Robotic Autonomy in Complex Environments with Resiliency.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "This exercise was part of DARPA’s Robotic Autonomy in Complex Environments with Resiliency, or RACER program.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "DARPA v ňom pracuje na autonómii v zložitom prostredí; medzi potrebné oblasti patrí konštrukcia vozidiel, algoritmy a zabezpečená komunikácia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Expertise required for RACER’s success includes vehicle design, algorithm technologies, super intelligence, and secure communications.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Gregory podľa Tom’s Hardware povedal, že po piatich rokoch práce možno vozidlám zadávať úlohy na bojisku namiesto toho, aby ich človek ručne riadil.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "After five years of work, these UGVs can now be instructed to complete tasks on the battlefield, instead of being manually driven, notes Gregory.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dokážu sa pohybovať mimo ciest rýchlosťou, ktorú zdroj porovnáva s výkonom ľudského vodiča.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "They roam off-road as fast as any human driver could manage, at a minimum.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Testeri ich považujú za pripravené aj na ďalšie úlohy, napríklad prepravu jedla, munície a zásob; nejde však o potvrdenie nasadenia v konkrétnej operácii.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Testers reckon the UGV packs are ready for deployment and use in “a host of other missions, including food, ammunition and supply logistics and more,” according to the DARPA blog.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "DARPA podľa článku plánovala ďalšie skúšky skupín robotov na december, tentoraz za účasti slúžiacich vojakov.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "More UGV pack hunting tests are scheduled for December, with a group of serving soldiers involved.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pre európskych spojencov je relevantné, že výber terénu mal napodobňovať podmienky európskeho bojiska.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The blog notes that this location was also chosen as it represents a similar landscape to the European theater.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroj neuvádza, či sa technológia bude nasadzovať na Slovensku alebo v inej krajine EÚ.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The blog notes that this location was also chosen as it represents a similar landscape to the European theater.",
+        "komentar": "Zdroj neobsahuje žiadnu zmienku o nasadení na Slovensku alebo v EÚ, takže tvrdenie o absencii je správne.",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "medzi potrebné oblasti patrí konštrukcia vozidiel, algoritmy a zabezpečená komunikácia.",
+        "opravene": "medzi potrebné oblasti patria konštrukcia vozidiel, algoritmy a zabezpečená komunikácia.",
+        "dovod": "zhoda prísudku s viacnásobným podmetom",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gpt-6-luna (openai)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "rýchlosťou, ktorú zdroj porovnáva s výkonom ľudského vodiča.",
+        "opravene": "rýchlosťou, ktorú zdroj porovnáva s rýchlosťou ľudského vodiča.",
+        "dovod": "porovnanie rovnakých veličín",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gpt-6-luna (openai)"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "bezposádkové",
+        "kontext": "Štyri bezposádkové vozidlá samostatne prehľadávali terén a",
+        "navrhy": [
+          "bez posádkové"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "robotické",
+        "kontext": "žke vo Fort Knox v štáte Kentucky štyri robotické vozidlá prehľadávali zvlnený terén a pá",
+        "navrhy": [
+          "robotickej",
+          "robotickú",
+          "robotický"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "\nAko",
+        "kontext": "stalo pod kontrolou ľudského operátora.\n\nAko informuje Tom’s Hardware s odvolaním sa",
+        "navrhy": [
+          ", Ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", Ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "blog",
+        "kontext": "ormuje Tom’s Hardware s odvolaním sa na blog DARPA, cvičenie sa uskutočnilo v polovi",
+        "navrhy": [
+          "bloc",
+          "blok",
+          "log"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "dron",
+        "kontext": ".\n\nPrieskumný stroj niesol aj lietajúci dron. Podľa DARPA mali drony tri zo štyroch ",
+        "navrhy": [
+          "Hron",
+          "Ron",
+          "broň"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "drony",
+        "kontext": "sol aj lietajúci dron. Podľa DARPA mali drony tri zo štyroch vozidiel. V reálnej situ",
+        "navrhy": [
+          "Dony",
+          "Hrony",
+          "Rony"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "chnik prítomný na cvičení opísal vozidlá ako „supermodulárne platformy“. Článok uvád",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "supermodulárne",
+        "kontext": "prítomný na cvičení opísal vozidlá ako „supermodulárne platformy“. Článok uvádza, že môžu nies",
+        "navrhy": [
+          "super modulárne"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "dronov",
+        "kontext": " že môžu niesť rozličné doplnky vrátane dronov či rakiet.\n\nPo prieskume sa ďalšie vozi",
+        "navrhy": [
+          "Hronov",
+          "Ronov",
+          "donov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -21 +21 @@\n-Vozidlá sú súčasťou programu RACER, ktorého celý názov je Robotic Autonomy in Complex Environments with Resiliency. DARPA v ňom pracuje na autonómii v zložitom prostredí; medzi potrebné oblasti patrí konštrukcia vozidiel, algoritmy a zabezpečená komunikácia.\n+Vozidlá sú súčasťou programu RACER, ktorého celý názov je Robotic Autonomy in Complex Environments with Resiliency. DARPA v ňom pracuje na autonómii v zložitom prostredí; medzi potrebné oblasti patria konštrukcia vozidiel, algoritmy a zabezpečená komunikácia.\n@@ -25 +25 @@\n-Gregory podľa Tom’s Hardware povedal, že po piatich rokoch práce možno vozidlám zadávať úlohy na bojisku namiesto toho, aby ich človek ručne riadil. Dokážu sa pohybovať mimo ciest rýchlosťou, ktorú zdroj porovnáva s výkonom ľudského vodiča. Testeri ich považujú za pripravené aj na ďalšie úlohy, napríklad prepravu jedla, munície a zásob; nejde však o potvrdenie nasadenia v konkrétnej operácii.\n+Gregory podľa Tom’s Hardware povedal, že po piatich rokoch práce možno vozidlám zadávať úlohy na bojisku namiesto toho, aby ich človek ručne riadil. Dokážu sa pohybovať mimo ciest rýchlosťou, ktorú zdroj porovnáva s rýchlosťou ľudského vodiča. Testeri ich považujú za pripravené aj na ďalšie úlohy, napríklad prepravu jedla, munície a zásob; nejde však o potvrdenie nasadenia v konkrétnej operácii."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/U.S._Department_of_Energy_-_Science_-_153_013_007_%289568562353%29.jpg/1280px-U.S._Department_of_Energy_-_Science_-_153_013_007_%289568562353%29.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/aLBJMibNLNdwySjZPXCJmB-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "DARPA blog",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: DARPA blog."
+      }
+    ],
+    "dopyty": [
+      "DARPA autonomous ground vehicle",
+      "military unmanned ground vehicle",
+      "robot tank prototype"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/U.S._Department_of_Energy_-_Science_-_153_013_007_%289568562353%29.jpg/1280px-U.S._Department_of_Energy_-_Science_-_153_013_007_%289568562353%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/U.S._Department_of_Energy_-_Science_-_153_013_007_%289568562353%29.jpg/1280px-U.S._Department_of_Energy_-_Science_-_153_013_007_%289568562353%29.jpg",
+        "nazov": "U.S. Department of Energy - Science - 153 013 007 (9568562353).jpg",
+        "autor": "U.S. Department of Energy from United States",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:U.S._Department_of_Energy_-_Science_-_153_013_007_(9568562353).jpg",
+        "povod": "wikimedia",
+        "dopyt": "DARPA autonomous ground vehicle"
+      },
+      {
+        "url": "https://live.staticflickr.com/2392/1914544783_f4a5a5c9b4.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/a16f50b2-9b99-4298-9223-bab38ff90120/thumb/",
+        "nazov": "IMG_3680.JPG",
+        "autor": "martin.morissette",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/9201430@N06/1914544783",
+        "povod": "openverse",
+        "dopyt": "DARPA autonomous ground vehicle"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/VOP_Taros_6x6_%282%29.jpg/1280px-VOP_Taros_6x6_%282%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/VOP_Taros_6x6_%282%29.jpg/1280px-VOP_Taros_6x6_%282%29.jpg",
+        "nazov": "VOP Taros 6x6 (2).jpg",
+        "autor": "Reise Reise",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:VOP_Taros_6x6_(2).jpg",
+        "povod": "wikimedia",
+        "dopyt": "military unmanned ground vehicle"
+      },
+      {
+        "url": "https://live.staticflickr.com/4096/4784138026_c1c9a46138_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/95a4c07b-3fcc-4562-a39f-f815bf967a82/thumb/",
+        "nazov": "Ground effect vehicle A-90 Orlyonok. Экраноплан 'Орлёнок'",
+        "autor": "Peer.Gynt",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/25554263@N04/4784138026",
+        "povod": "openverse",
+        "dopyt": "military unmanned ground vehicle"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/%E8%87%AA%E8%A1%9B%E9%9A%8A%E6%AD%A6%E5%99%A8%E5%AD%A6%E6%A0%A159%E5%91%A8%E5%B9%B4%E9%96%8B%E8%A8%AD%E8%A8%98%E5%BF%B5%E8%A1%8C%E4%BA%8B%E3%81%AB%E3%81%A610%E5%BC%8F%E6%88%A6%E8%BB%8A%E3%81%A8%E5%85%AB%E4%B9%9D%E5%BC%8F%E6%88%A6%E8%BB%8A_-_Panoramio_60022988.jpg/1280px-%E8%87%AA%E8%A1%9B%E9%9A%8A%E6%AD%A6%E5%99%A8%E5%AD%A6%E6%A0%A159%E5%91%A8%E5%B9%B4%E9%96%8B%E8%A8%AD%E8%A8%98%E5%BF%B5%E8%A1%8C%E4%BA%8B%E3%81%AB%E3%81%A610%E5%BC%8F%E6%88%A6%E8%BB%8A%E3%81%A8%E5%85%AB%E4%B9%9D%E5%BC%8F%E6%88%A6%E8%BB%8A_-_Panoramio_60022988.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/%E8%87%AA%E8%A1%9B%E9%9A%8A%E6%AD%A6%E5%99%A8%E5%AD%A6%E6%A0%A159%E5%91%A8%E5%B9%B4%E9%96%8B%E8%A8%AD%E8%A8%98%E5%BF%B5%E8%A1%8C%E4%BA%8B%E3%81%AB%E3%81%A610%E5%BC%8F%E6%88%A6%E8%BB%8A%E3%81%A8%E5%85%AB%E4%B9%9D%E5%BC%8F%E6%88%A6%E8%BB%8A_-_Panoramio_60022988.jpg/1280px-%E8%87%AA%E8%A1%9B%E9%9A%8A%E6%AD%A6%E5%99%A8%E5%AD%A6%E6%A0%A159%E5%91%A8%E5%B9%B4%E9%96%8B%E8%A8%AD%E8%A8%98%E5%BF%B5%E8%A1%8C%E4%BA%8B%E3%81%AB%E3%81%A610%E5%BC%8F%E6%88%A6%E8%BB%8A%E3%81%A8%E5%85%AB%E4%B9%9D%E5%BC%8F%E6%88%A6%E8%BB%8A_-_Panoramio_60022988.jpg",
+        "nazov": "自衛隊武器学校59周年開設記念行事にて10式戦車と八九式戦車 - Panoramio 60022988.jpg",
+        "autor": "iwamasa",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:%E8%87%AA%E8%A1%9B%E9%9A%8A%E6%AD%A6%E5%99%A8%E5%AD%A6%E6%A0%A159%E5%91%A8%E5%B9%B4%E9%96%8B%E8%A8%AD%E8%A8%98%E5%BF%B5%E8%A1%8C%E4%BA%8B%E3%81%AB%E3%81%A610%E5%BC%8F%E6%88%A6%E8%BB%8A%E3%81%A8%E5%85%AB%E4%B9%9D%E5%BC%8F%E6%88%A6%E8%BB%8A_-_Panoramio_60022988.jpg",
+        "povod": "wikimedia",
+        "dopyt": "robot tank prototype"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Boeing_X-45A_J-UCAS.jpg/1280px-Boeing_X-45A_J-UCAS.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Boeing_X-45A_J-UCAS.jpg/1280px-Boeing_X-45A_J-UCAS.jpg",
+        "nazov": "Boeing X-45A J-UCAS.jpg",
+        "autor": "Logan Rickert",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Boeing_X-45A_J-UCAS.jpg",
+        "povod": "wikimedia",
+        "dopyt": "DARPA autonomous ground vehicle"
+      },
+      {
+        "url": "https://live.staticflickr.com/3798/11379720756_e40e41354e_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/e08db93c-6fb8-4af0-939f-afb214d04f95/thumb/",
+        "nazov": "Boeing X-45A Joint Unmanned Combat Air Systems (J-UCAS)",
+        "autor": "mark6mauno",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/98147195@N00/11379720756",
+        "povod": "openverse",
+        "dopyt": "DARPA autonomous ground vehicle"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/VOP_Taros_6x6_%281%29.jpg/1280px-VOP_Taros_6x6_%281%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/VOP_Taros_6x6_%281%29.jpg/1280px-VOP_Taros_6x6_%281%29.jpg",
+        "nazov": "VOP Taros 6x6 (1).jpg",
+        "autor": "Reise Reise",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:VOP_Taros_6x6_(1).jpg",
+        "povod": "wikimedia",
+        "dopyt": "military unmanned ground vehicle"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a small group of uncrewed ground vehicles moving across a rolling training landscape, with one scouting ahead and abstract drone silhouettes overhead; avoid real people, logos, and documentary-photography realism."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a small group of uncrewed ground vehicles moving across a rolling training landscape, with one scouting ahead and abstract drone silhouettes overhead; avoid real people, logos, and documentary-photography realism.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/2ec41af600bcfdc57f7108146c88f9b7",
+  "text_agentov": {
+    "titulok": "DARPA skúšala tím autonómnych pozemných robotov v simulovanom boji",
+    "perex": "Štyri bezposádkové vozidlá samostatne prehľadávali terén a vyhľadávali simulované hrozby. O použití zbrane však aj počas ukážky rozhodoval človek.",
+    "telo": "Americká agentúra DARPA skúšala, ako môže skupina autonómnych pozemných vozidiel spolupracovať pri vojenskej úlohe. Pri ukážke vo Fort Knox v štáte Kentucky štyri robotické vozidlá prehľadávali zvlnený terén a pátrali po simulovaných nepriateľských silách. Nešlo však o autonómne rozhodovanie o útoku: použitie zbrane zostalo pod kontrolou ľudského operátora.\n\nAko informuje Tom’s Hardware s odvolaním sa na blog DARPA, cvičenie sa uskutočnilo v polovici októbra na cvičisku St. Vith Range. Jeho podobnosť s krajinou v Európe bola jedným z dôvodov výberu miesta. Skúška podľa článku reagovala aj na požiadavku európskych spojencov.\n\n## Prieskumník vpredu, zvyšok v zálohe\n\nOperátor dostal informáciu o simulovanej hrozbe spolu so satelitnými snímkami a vyslal vozidlá do určenej oblasti. Ako prvé sa dopredu vydalo jedno vozidlo, ktoré malo preskúmať okolie. Ostatné tri zostali vzadu a neskôr mali poskytnúť krytie a podporu.\n\nPrieskumný stroj niesol aj lietajúci dron. Podľa DARPA mali drony tri zo štyroch vozidiel. V reálnej situácii by sa mohli použiť na získanie lepšieho pohľadu na cieľ alebo na útok zo vzduchu; počas tejto ukážky však išlo o simulované bojové scenáre. Technik prítomný na cvičení opísal vozidlá ako „supermodulárne platformy“. Článok uvádza, že môžu niesť rozličné doplnky vrátane dronov či rakiet.\n\nPo prieskume sa ďalšie vozidlá presunuli dopredu. Na cieľ vzdialený od skupiny približne 300 yardov bola odpálená simulovaná raketa. Posledné vozidlo potom vyšlo z úkrytu a z vyvýšeného miesta za hrebeňom posúdilo situáciu.\n\n## Pohyb autonómny, zásah pod ľudskou kontrolou\n\nTechnický poradca DARPA Jason Gregory uviedol, že vozidlá samostatne zvládali pohyb, presuny aj detekciu. Podľa neho však k „stlačeniu spúšte“ dôjde až po pokyne človeka. Rozdiel je podstatný: autonómia sa v tejto skúške týkala navigácie a vyhľadávania, nie nezávislého rozhodnutia použiť smrtiacu silu.\n\nVozidlá sú súčasťou programu RACER, ktorého celý názov je Robotic Autonomy in Complex Environments with Resiliency. DARPA v ňom pracuje na autonómii v zložitom prostredí; medzi potrebné oblasti patria konštrukcia vozidiel, algoritmy a zabezpečená komunikácia.\n\n## Ďalšia skúška má zapojiť vojakov\n\nGregory podľa Tom’s Hardware povedal, že po piatich rokoch práce možno vozidlám zadávať úlohy na bojisku namiesto toho, aby ich človek ručne riadil. Dokážu sa pohybovať mimo ciest rýchlosťou, ktorú zdroj porovnáva s rýchlosťou ľudského vodiča. Testeri ich považujú za pripravené aj na ďalšie úlohy, napríklad prepravu jedla, munície a zásob; nejde však o potvrdenie nasadenia v konkrétnej operácii.\n\nDARPA podľa článku plánovala ďalšie skúšky skupín robotov na december, tentoraz za účasti slúžiacich vojakov. Pre európskych spojencov je relevantné, že výber terénu mal napodobňovať podmienky európskeho bojiska. Zdroj neuvádza, či sa technológia bude nasadzovať na Slovensku alebo v inej krajine EÚ."
+  }
+}
