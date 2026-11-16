@@ -7,7 +7,7 @@ tagy:
   - FBI
   - Severná Kórea
   - Binance
-publikovane: 2026-11-16T18:55:56+00:00
+publikovane: 2026-11-16T19:23:13Z
 obrazok:
   src: /obrazky/fbi-facestealer-test-luna-korektura-mwjni4ra.jpg
   alt: Ilustračný obrázok.
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Tom's Hardware: FBI disrupts North Korean FaceStealer campaign behind $5 billion Binance hack"
     url: https://www.tomshardware.com/tech-industry/cyber-security/fbi-disrupts-north-korean-facestealer-campaign-behind-usd5-billion-binance-hack-doj-seizes-facestealer-cloud-infrastructure-containing-900-videos-of-tech-workers-hackers-used-ai-deepfakes-to-steal-usd400-million-and-compromise-open-source-software
