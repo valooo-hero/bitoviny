@@ -44,6 +44,7 @@ class VysledokUpravy(BaseModel):
     dovod: str
     stav: Literal["vykonana", "zamietnuta", "nenajdena"]
     poznamka: str = ""
+    zdroj: str = ""
 
 
 def _bez_diakritiky(text: str) -> str:
@@ -75,12 +76,12 @@ def dovod_zamietnutia(u: Uprava) -> str | None:
     return None
 
 
-def vykonaj(koncept: Koncept, korektura: Korektura) -> tuple[Koncept, list[VysledokUpravy]]:
+def vykonaj(koncept: Koncept, korektura: Korektura, *, zdroj: str = "") -> tuple[Koncept, list[VysledokUpravy]]:
     texty = {"titulok": koncept.titulok, "perex": koncept.perex, "telo": koncept.telo}
     vysledky: list[VysledokUpravy] = []
 
     for u in korektura.upravy:
-        zaklad = dict(pole=u.pole, povodne=u.povodne, opravene=u.opravene, dovod=u.dovod)
+        zaklad = dict(pole=u.pole, povodne=u.povodne, opravene=u.opravene, dovod=u.dovod, zdroj=zdroj)
         dovod = dovod_zamietnutia(u)
         if dovod:
             vysledky.append(VysledokUpravy(**zaklad, stav="zamietnuta", poznamka=dovod))
@@ -205,6 +206,7 @@ def languagetool(k: Koncept, klient: httpx.Client | None = None) -> tuple[list[U
                 if pravidlo.startswith("MORFOLOGIK") and text[zaciatok:koniec][:1].isupper():
                     continue
                 podozrive.append({
+                    "zdroj": "LanguageTool",
                     "pole": pole,
                     "text": text[zaciatok:koniec],
                     "kontext": text[max(0, zaciatok - 40):koniec + 40],

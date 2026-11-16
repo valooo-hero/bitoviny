@@ -228,3 +228,45 @@ def test_languagetool_vypadok_nic_nezmeni():
             raise httpx.ConnectError("nedostupné")
 
     assert languagetool(_koncept(), klient=Padajuci()) == ([], [])
+
+
+def test_zdroj_sa_zachova_aj_pri_zamietnuti_a_nenajdeni():
+    _, vysledky = vykonaj(_koncept(), Korektura(upravy=[
+        _u("V virtualizovanom prostredí", "Vo virtualizovanom prostredí"),
+        _u("na 145 serveroch", "na 541 serveroch"),
+        _u("nenájdený úryvok", "opravený úryvok"),
+    ]), zdroj="deepseek-test (deepinfra)")
+    assert [v.stav for v in vysledky] == ["vykonana", "zamietnuta", "nenajdena"]
+    assert all(v.zdroj == "deepseek-test (deepinfra)" for v in vysledky)
+
+
+def test_zdroj_modelu_patri_uspesnej_zalohe(monkeypatch):
+    from bitoviny import llm
+    from bitoviny.redakcia.graf import uzol_korektura
+
+    monkeypatch.setattr(llm, "konfiguracia", lambda: {"korektura": {"modely": [
+        {"provider": "google", "model": "prvy"},
+        {"provider": "deepinfra", "model": "uspesna-zaloha"},
+    ]}})
+
+    def vytvor(spec, teplota):
+        def odpoved(_):
+            if spec["model"] == "prvy":
+                raise RuntimeError("výpadok primárneho modelu")
+            return Korektura(upravy=[_u("na 145 serveroch", "na 541 serveroch")])
+        class FalosnyModel(RunnableLambda):
+            def with_structured_output(self, schema, **kwargs):
+                return self
+        return FalosnyModel(odpoved)
+
+    monkeypatch.setattr(llm, "_vytvor", vytvor)
+    model = llm.model_pre("korektura", Korektura, so_zdrojom=True)
+    def jazykova_sluzba(k):
+        return [_u("Smerdon tvrdí že výkon", "Smerdon tvrdí, že výkon")], []
+    vysledok = uzol_korektura(model, jazykova_sluzba)({"koncept": _koncept()})
+    upravy = vysledok["korektura"]["upravy"]
+    assert [(u["zdroj"], u["stav"]) for u in upravy] == [
+        ("uspesna-zaloha (deepinfra)", "zamietnuta"),
+        ("Pevné pravidlá", "vykonana"),
+        ("LanguageTool", "vykonana"),
+    ]

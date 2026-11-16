@@ -717,12 +717,21 @@ import Base from '../../layouts/Base.astro';
     );
   }
 
+  function zdrojKorektury(u: any): string {
+    if (u.zdroj) return u.zdroj;
+    // Staršie správy zdroj neukladali; meno LLM spätne neodhadujeme.
+    if (u.dovod?.startsWith('LanguageTool:')) return 'LanguageTool';
+    if (['vokalizácia predložky', 'medzera pred znakom percenta'].includes(u.dovod)) return 'Pevné pravidlá';
+    return 'LLM – model nezaznamenaný';
+  }
+
   function vykresliKorekturu(k: any) {
     if (!k) { $('kor-upravy').textContent = 'Korektúra neprebehla.'; $('kor-diff').textContent = ''; return; }
     $('kor-upravy').replaceChildren(
       ...(k.chyba ? [el('p', {}, k.chyba)] : []),
       ...(k.upravy?.length ? k.upravy.map((u: any) =>
         el('div', { class: 'nalez upozornenie' }, el('span', { class: `znacka ${u.stav}` }, u.stav), ` ${u.dovod}`,
+          el('div', { class: 'meta' }, `Zdroj: ${zdrojKorektury(u)}`),
           el('div', { class: 'meta' }, `„${u.povodne}“ → „${u.opravene}“${u.poznamka ? ` (${u.poznamka})` : ''}`))) : [el('p', { class: 'meta' }, 'Korektorka nenavrhla žiadne úpravy. Jazyk skontrolujte sami.')]),
     );
     // Podozrivé miesta z LanguageTool sa nevykonali samy: návrhy pri preklepoch bývajú zlé.
@@ -734,6 +743,7 @@ import Base from '../../layouts/Base.astro';
         ...podozrive.map((x: any) =>
           el('div', { class: 'nalez upozornenie' },
             el('strong', {}, x.text), ` v poli ${x.pole}`,
+            el('div', { class: 'meta' }, `Zdroj: ${x.zdroj || 'LanguageTool'}`),
             el('div', { class: 'meta' }, `…${x.kontext}…`),
             x.navrhy?.length ? el('div', { class: 'meta' }, `Návrhy: ${x.navrhy.join(', ')}`) : '',
           )),

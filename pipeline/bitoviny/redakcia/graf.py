@@ -240,17 +240,18 @@ def uzol_korektura(model: Any | None = None, jazykova_sluzba: Callable | None = 
         pred = stav["koncept"]
         aktualny, vysledky, chyba = pred, [], ""
         try:
-            m = model or model_pre("korektura", Korektura)
-            navrh: Korektura = m.invoke([SystemMessage(_prompt("korektura")), HumanMessage(clanok_ako_text(pred))])
-            aktualny, vysledky = vykonaj(aktualny, navrh)
+            m = model or model_pre("korektura", Korektura, so_zdrojom=True)
+            odpoved = m.invoke([SystemMessage(_prompt("korektura")), HumanMessage(clanok_ako_text(pred))])
+            navrh, zdroj = odpoved if isinstance(odpoved, tuple) else (odpoved, "LLM – model nezaznamenaný")
+            aktualny, vysledky = vykonaj(aktualny, navrh, zdroj=zdroj)
         except Exception as e:  # výpadok korektorky nesmie zahodiť overený článok
             chyba = f"Jazykový model neprebehol: {str(e)[:200]}"
 
-        aktualny, z_pravidiel = vykonaj(aktualny, Korektura(upravy=pevne_pravidla(aktualny)))
+        aktualny, z_pravidiel = vykonaj(aktualny, Korektura(upravy=pevne_pravidla(aktualny)), zdroj="Pevné pravidlá")
         z_lt, podozrive = [], []
         if jazykova_sluzba is not None:
             upravy_lt, podozrive = jazykova_sluzba(aktualny)
-            aktualny, z_lt = vykonaj(aktualny, Korektura(upravy=upravy_lt))
+            aktualny, z_lt = vykonaj(aktualny, Korektura(upravy=upravy_lt), zdroj="LanguageTool")
 
         vysledok = {
             "upravy": [v.model_dump() for v in [*vysledky, *z_pravidiel, *z_lt]],

@@ -63,7 +63,7 @@ def _vytvor(spec: dict, teplota: float):
     raise ValueError(f"Neznámy provider: {provider}")
 
 
-def model_pre(rola: str, schema: Any | None = None):
+def model_pre(rola: str, schema: Any | None = None, *, so_zdrojom: bool = False):
     """Model pre danú rolu. Ak je daná schéma, vracia overený štruktúrovaný výstup."""
     cfg = konfiguracia()[rola]
     teplota = cfg.get("teplota", 0.3)
@@ -75,6 +75,12 @@ def model_pre(rola: str, schema: Any | None = None):
         if schema is not None:
             kw = {"method": s["metoda"]} if s.get("metoda") else {}
             m = m.with_structured_output(schema, **kw)
+        if so_zdrojom:
+            from langchain_core.runnables import RunnableLambda
+
+            # Zdroj sa pripája až po úspešnom overení výstupu konkrétneho modelu.
+            zdroj = f"{s['model']} ({s['provider']})"
+            m = m | RunnableLambda(lambda vystup, zdroj=zdroj: (vystup, zdroj))
         modely.append(m)
     retazec = modely[0].with_fallbacks(modely[1:]) if len(modely) > 1 else modely[0]
     return retazec.with_config(run_name=rola)
