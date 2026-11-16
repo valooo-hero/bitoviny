@@ -1,0 +1,294 @@
+{
+  "slug": "raketa-vulcan-od-ula-zlyhala-a-znicila-40-satelitov-projektu-amazon-leo",
+  "datum_sprav": "2026-11-15",
+  "dovod_vyberu": "Zlyhanie rakety Vulcan a strata 40 satelitov Amazon Leo predstavuje veľký incident v oblasti vesmírnej dopravy a komunikačných služieb.",
+  "poznamky_pre_editora": "Opravil som podrobnosti ohľadom vyšetrovania podľa zdroja a vypustil nepodloženú zmienku o Slovensku a EÚ.",
+  "upozornenia": [
+    "Téma má len jeden zdroj. Redakčné zásady žiadajú aspoň dva, zvážte doplnenie alebo zahodenie."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept článku je plne spoľahlivý a presne reprodukuje informácie zo zdrojového textu. V celom texte sa nenachádzajú žiadne nepresnosti ani nepodložené tvrdenia.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 11,
+        "potvrdenych": 9,
+        "chyb": 2,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 13,
+        "potvrdenych": 13,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Raketa Vulcan od ULA zlyhala a zničila 40 satelitov projektu Amazon Leo.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "United Launch Alliance zaznamenala prvé zlyhanie misie za dvadsať rokov fungovania.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "United Launch Alliance (ULA) suffered what is reportedly its first mission failure in its 20-year history",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Raketa nedokázala vyniesť na obežnú dráhu 40 satelitov pre Amazon.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "failing to deliver 40 Amazon Leo satellites to orbit.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Raketa Vulcan štartovala z vesmírneho komplexu Space Launch Complex 41.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "launched from Space Launch Complex 41",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "K incidentu došlo približne desať minút po štarte z dôvodu anomálie.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "suffered an anomaly 10 minutes into the flight",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť ULA vo vyhlásení na X potvrdila anomáliu 10 minút po lete a zlyhanie doručenia misii.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "we confirm that the Vulcan vehicle launched from Space Launch Complex 41 suffered an anomaly 10 minutes into the flight",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Presná príčina zlyhania zatiaľ zostáva neznáma.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "it was currently unclear what caused the failure",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť ULA sľúbila transparentnosť počas pokračujúceho vyšetrovania.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "pledged transparency as it continues its investigation.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Projekt Amazon Leo je priama konkurencia pre sieť Starlink od SpaceX.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Leo is Amazon’s competitor to SpaceX’s Starlink",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Štart bol prvým letom zo série 38 plánovaných misií, ktoré si Amazon od ULA zakúpil.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Today’s launch was supposed to be the first of 38 flights Amazon purchased from ULA.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Projektu Leo sa doteraz podarilo dostať na obežnú dráhu iba veľmi malú časť potrebných satelitov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "putting only a small portion of the necessary satellites to challenge Starlink into orbit.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Amazon vyjadruje ULA dôveru napriek neúspechu štartu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Amazon projected confidence in its launch partner despite the failure",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Amazon vo vyhlásení na X uviedol, že s každým štartom sa spája riziko, hlavne pri prvých misiách ako LV-01.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "There is risk with any launch, and that’s especially true for inaugural missions like LV-01.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "pole": "telo",
+        "text": "vysokorýchlostné",
+        "kontext": "e Zeme a poskytovať prostredníctvom nej vysokorýchlostné internetové pripojenie. Pre Amazon mal ",
+        "navrhy": [
+          "vysoko rýchlostné"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "o, a to platí obzvlášť pre prvotné misie ako LV-01. ULA je pre Amazon dôveryhodným p",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Vulcan_Centaur_rollout_%28Peregrine%29_%28cropped_2%29.jpg/1280px-Vulcan_Centaur_rollout_%28Peregrine%29_%28cropped_2%29.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304790934.jpg?quality=90&strip=all&crop=0,12.589380284132,100,74.821239431736",
+        "zdroj_clanku": "The Verge",
+        "alt": "ULA Vulcan Rocket Carrying Amazon Leo Satellites Lost After Launch",
+        "popisok": "ULA Vulcan rocket lifts off on November 15, 2026, carrying 40 Amazon Leo broadband satellites. | Photo: Manuel Mazzanti / NurPhoto via Getty Images",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "Vulcan Centaur",
+      "rocket launch",
+      "satellite constellation"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Vulcan_Centaur_rollout_%28Peregrine%29_%28cropped_2%29.jpg/1280px-Vulcan_Centaur_rollout_%28Peregrine%29_%28cropped_2%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Vulcan_Centaur_rollout_%28Peregrine%29_%28cropped_2%29.jpg/1280px-Vulcan_Centaur_rollout_%28Peregrine%29_%28cropped_2%29.jpg",
+        "nazov": "Vulcan Centaur rollout (Peregrine) (cropped 2).jpg",
+        "autor": "NASA/Ben Smegelsky",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Vulcan_Centaur_rollout_(Peregrine)_(cropped_2).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Vulcan Centaur"
+      },
+      {
+        "url": "https://live.staticflickr.com/3933/15270832108_d321e7b024_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/8b9b637b-cac3-453e-bc79-a4b06b76311a/thumb/",
+        "nazov": "Detail of the mosaic of the seasons and the months, 3rd century AD, found in Hellin (Albacete), National Archaeological Museum of Spain, Madrid",
+        "autor": "Following Hadrian",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/41523983@N08/15270832108",
+        "povod": "openverse",
+        "dopyt": "Vulcan Centaur"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/First_NASA_ISINGLASS_rocket_launch.jpg/1280px-First_NASA_ISINGLASS_rocket_launch.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/First_NASA_ISINGLASS_rocket_launch.jpg/1280px-First_NASA_ISINGLASS_rocket_launch.jpg",
+        "nazov": "First NASA ISINGLASS rocket launch.jpg",
+        "autor": "NASA",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:First_NASA_ISINGLASS_rocket_launch.jpg",
+        "povod": "wikimedia",
+        "dopyt": "rocket launch"
+      },
+      {
+        "url": "https://live.staticflickr.com/7292/16016096414_fa8268ee8a_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/8bc8df48-c40e-40d4-9041-b254f4e3ad28/thumb/",
+        "nazov": "Rockets Launched from NASA’s Wallops Flight Facility",
+        "autor": "NASA Goddard Photo and Video",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/24662369@N07/16016096414",
+        "povod": "openverse",
+        "dopyt": "rocket launch"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Pl%C3%A9iades_%28satellite%29.jpg/1280px-Pl%C3%A9iades_%28satellite%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Pl%C3%A9iades_%28satellite%29.jpg/1280px-Pl%C3%A9iades_%28satellite%29.jpg",
+        "nazov": "Pléiades (satellite).jpg",
+        "autor": "Tiraden",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Pl%C3%A9iades_(satellite).jpg",
+        "povod": "wikimedia",
+        "dopyt": "satellite constellation"
+      },
+      {
+        "url": "https://live.staticflickr.com/5064/5881315780_203bc81fdf_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/0163d4ed-5206-4228-922f-ea89639f0295/thumb/",
+        "nazov": "Cooperation Agreement for a Remote Sensing Satellite Constellation between Surrey Satellite Technology Ltd and The Twenty First Century Aerospace Technology and Beijing Landview Mapping Information Technology",
+        "autor": "Foreign, Commonwealth & Development Office",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/10246637@N04/5881315780",
+        "povod": "openverse",
+        "dopyt": "satellite constellation"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Vulcan_pathfinder_test_article_%28KSC-20210826-PH-KLS01_0073%29.jpg/1280px-Vulcan_pathfinder_test_article_%28KSC-20210826-PH-KLS01_0073%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Vulcan_pathfinder_test_article_%28KSC-20210826-PH-KLS01_0073%29.jpg/1280px-Vulcan_pathfinder_test_article_%28KSC-20210826-PH-KLS01_0073%29.jpg",
+        "nazov": "Vulcan pathfinder test article (KSC-20210826-PH-KLS01 0073).jpg",
+        "autor": "Kim Shiflett",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Vulcan_pathfinder_test_article_(KSC-20210826-PH-KLS01_0073).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Vulcan Centaur"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/1280px-Space_Shuttle_Columbia_launching.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/1280px-Space_Shuttle_Columbia_launching.jpg",
+        "nazov": "Space Shuttle Columbia launching.jpg",
+        "autor": "NASA",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_launching.jpg",
+        "povod": "wikimedia",
+        "dopyt": "rocket launch"
+      }
+    ],
+    "prompt_ilustracie": "A futuristic rocket experiencing an anomaly in space with glowing satellite parts scattering around, digital art style."
+  },
+  "prompt_ilustracie": "A futuristic rocket experiencing an anomaly in space with glowing satellite parts scattering around, digital art style.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/ca4f26c09f0b410fec3f108fd3505f0f",
+  "text_agentov": {
+    "titulok": "Raketa Vulcan od ULA zlyhala a zničila 40 satelitov projektu Amazon Leo",
+    "perex": "Vesmírna spoločnosť United Launch Alliance zaznamenala svoje prvé zlyhanie misie za dvadsať rokov fungovania. Raketa Vulcan nedokázala vyniesť na obežnú dráhu prvú várku satelitov pre internetovú sieť Amazonu.",
+    "telo": "Spoločnosť United Launch Alliance (ULA) zaznamenala zlyhanie svojej nosnej rakety Vulcan, ktorá mala vyniesť na obežnú dráhu Zeme 40 satelitov internetového projektu Amazon Leo. Podľa dostupných informácií ide o vôbec prvú neúspešnú misiu v dvadsaťročnej histórii tejto americkej spoločnosti. Raketa Vulcan štartovala z vesmírneho komplexu Space Launch Complex 41. K incidentu došlo približne desať minút po štarte, keď vozidlo postihla bližšie nešpecifikovaná anomália. Spoločnosť ULA vo svojom oficiálnom vyhlásení na sociálnej sieti X potvrdila: „Na základe údajov získaných naším riaditeľom štartu potvrdzujeme, že vozidlo Vulcan vypustené zo Space Launch Complex 41 utrpelo 10 minút po lete anomáliu a nedokázalo doručiť misiu pre Amazon na obežnú dráhu.“ Presná príčina zlyhania zatiaľ zostáva neznáma. Zástupcovia ULA uviedli, že pokračujú vo vyšetrovaní a po objasnení okolností budú verejnosť transparentne informovať. ## Dôležitý krok pre projekt Amazon Leo Stratený náklad pozostával zo štyridsiatich satelitov siete Amazon Leo. Tento projekt predstavuje priamu konkurenciu pre satelitnú internetovú sieť Starlink, ktorú prevádzkuje spoločnosť SpaceX. Cieľom Amazonu je vytvoriť rozsiahlu sieť satelitov na nízkej obežnej dráhe Zeme a poskytovať prostredníctvom nej vysokorýchlostné internetové pripojenie. Pre Amazon mal byť tento konkrétny štart významným míľnikom v budovaní celej infraštruktúry. Išlo totiž o prvý let zo série 38 plánovaných misií, ktoré si Amazon od spoločnosti ULA zmluvne zakúpil. Projekt Leo sa však pri rozbiehaní služieb stretáva s ťažkosťami a doteraz sa mu podarilo dostať na obežnú dráhu iba veľmi malú časť satelitov z množstva, ktoré je potrebné na vytvorenie plnohodnotnej konkurenčnej siete. Zničenie prvej štyridsiatky satelitov tak predstavuje ďalšie zdržanie v harmonograme. ## Reakcie zúčastnených strán Napriek neúspechu prvého spoločného letu vyjadruje Amazon svojmu partnerovi pretrvávajúcu dôveru. V reakcii zverejnenej na sociálnej sieti X spoločnosť uviedla: „S každým štartom sa spája riziko, a to platí obzvlášť pre prvotné misie ako LV-01. ULA je pre Amazon dôveryhodným partnerom a veríme, že sa z tejto misie poučia a naplnia svoje dlhodobé plány pre raketu Vulcan.“ Pre zúčastnené strany je teraz kľúčové zistiť, čo presne anomáliu desať minút po štarte spôsobilo."
+  }
+}
