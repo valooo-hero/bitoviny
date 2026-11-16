@@ -1,0 +1,654 @@
+{
+  "slug": "sud-pustil-dalej-zalobu-proti-vyrobcom-dram-pre-udajne-kartelove-dohody",
+  "datum_sprav": "2026-11-15",
+  "dovod_vyberu": "Súdny posun v žalobe pre údajné kartelové dohody môže ovplyvniť významných výrobcov pamätí aj širší polovodičový trh.",
+  "poznamky_pre_editora": "Vypustila som tvrdenie o relevantnosti prípadu pre zákazníkov v EÚ a na Slovensku, pretože zdroj tieto regióny nespomína. Ostatné tvrdenia som nemenila; zdroj neuvádza rok pri termíne 7. decembra.",
+  "upozornenia": [
+    "Téma má len jeden zdroj. Redakčné zásady žiadajú aspoň dva, zvážte doplnenie alebo zahodenie."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojovom článku. Najvážnejším problémom je, že koncept neuvádza rok pri decembrovom termíne, čo je však v súlade so zdrojom, ktorý ho tiež neuvádza.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 23,
+        "potvrdenych": 22,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 22,
+        "potvrdenych": 22,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Americká sudkyňa Noël Wise zamietla návrh spoločností Micron, Samsung a SK hynix na zastavenie žaloby",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Judge Noël Wise, who presides over the proposed class-action lawsuit against Micron, Samsung, and SK hynix, has denied the companies’ motion to have the case dismissed.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Prípad tak môže pokračovať, no rozhodnutie neznamená, že súd už potvrdil kartel alebo uznal výrobcov za vinných. Obe strany ešte len majú predložiť dôkazy a svoje argumenty.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "This isn’t a judgment, though — both sides would still have to show their evidence and speak their arguments before the court before getting a decision.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Žalobu podalo 17 jednotlivcov a malých podnikov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The plaintiffs, which are made up of 17 individuals and small businesses",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tvrdia, že kroky troch najväčších výrobcov prispeli k nedostatku pamätí a k rastu cien, ktoré podľa žaloby v priebehu jedného roka stúpli až o 500 percent.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "allege that the companies made four parallel moves that restricted DRAM supply and led to the current shortage, which saw prices jump by as much as 500% in one year.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako uvádza Tom’s Hardware, sudkyňa usúdila, že predložené tvrdenia sú dostatočne vierohodné na to, aby sa spor nezastavil už v tejto fáze.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the judge decided that the case is plausible enough to move forward.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Medzi hlavné tvrdenia žalobcov patrí údajné súčasné znižovanie výroby DRAM od októbra 2022 do apríla 2023.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the “simultaneous DRAM production cuts” from October 2022 to April 2023",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Po ňom podľa nich nasledoval koordinovaný presun kapacít k pamätiam HBM, ktoré sa využívajú v súvislosti s dátovými centrami pre umelú inteligenciu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "which was quickly followed by a “coordinated pivot to HBM.”",
+        "komentar": "Zdroj nespomína dátové centrá pre umelú inteligenciu, ale toto je doplnenie, ktoré neodporuje zdroju.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Žaloba tiež upozorňuje, že firmy v priebehu troch mesiacov oznámili ukončovanie výroby DDR4.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the three companies announced the winding down of DDR4 production in a span of three months",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výrobcovia podľa žalobcov napriek mimoriadne vysokým cenám nerozšírili výrobné kapacity.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "have failed to expand the production capacity “despite these extraordinary prices — the single most powerful supply signal the DRAM industry has ever produced.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako ďalšie okolnosti uvádzajú prísnejšie preverovanie zákazníkov, odmietanie dlhodobých zmlúv na dodávky DRAM a rozhodnutie Micronu ukončiť svoju spotrebiteľskú značku Crucial.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the introduction of stringent customer vetting procedures in response to the shortage, the refusal to sign long-term contracts for DRAM customers, Micron’s decision to shut down Crucial (its consumer memory brand)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spomínajú aj verejné vyjadrenia firiem o očakávanom nedostatku a ich účasť v predchádzajúcich sporoch o stanovovanie cien.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "multiple statements projecting the shortage, as well as their involvement in previous price-fixing scandals.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ide o tvrdenia žalobcov, nie o skutky, ktoré by súd v tomto rozhodnutí potvrdil. Aj podobnosť obchodných krokov sama osebe ešte nepreukazuje dohodu medzi spoločnosťami.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "This isn’t a judgment, though — both sides would still have to show their evidence and speak their arguments before the court before getting a decision.",
+        "komentar": "Koncept správne interpretuje, že ide o tvrdenia žalobcov, nie o súdne potvrdené skutky.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Micron, Samsung a SK hynix argumentovali, že žaloba opakuje antitrustový spor z roku 2018.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the defendants’ argument that the legal action is just “a rerun” of the same antitrust case filed against the industry in 2018",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Sudkyňa tento výklad odmietla s tým, že žalobcovia poukázali na nové okolnosti.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "was rejected as the plaintiffs have established that there’s some new evidence suggesting that there was collusion between the big three memory chip manufacturers.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výrobcovia zároveň tvrdia, že ich rozhodnutia boli racionálnou reakciou na silný dopyt a situáciu na trhu a zodpovedali ich vlastným obchodným záujmom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The big three memory chip makers argued that all of these are logical business moves so that they can maximize their revenue during a period of great demand and that they are “consistent with [their own] independent self-interest.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa spoločností pôsobia podobne preto, že súťažia na koncentrovanom trhu a reagujú na rovnaké tlaky.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "they’re in a highly concentrated market, and that they’re all “reacting to the same market pressures,” thus it would make sense for them to have a similar response.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Sudkyňa prirovnanie výrobcov k dravcom, ktorí sa navzájom pozorujú, odmietla ako nedostatočné vysvetlenie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Micron, Samsung, and SK hynix argued that they watch each other like hawks because of how tight competition is. Judge Wise disagreed with this characterization",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ich údajné správanie podľa nej pripomína „jastrabov letiaci v zostave“ — niečo, čo tieto vtáky bežne nerobia.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "“Their contentions are more akin to hawks flying in formation — an activity that hawks ordinarily do not do.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ďalším krokom bude odpoveď spoločností na pôvodnú žalobu; podľa článku ju majú predložiť do 7. decembra.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the three companies are given until December 7 to respond to the original complaint",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Konferencia o riadení prípadu je naplánovaná na január 2027 a má riešiť jeho administratívny postup.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the case management conference, which will determine the administrative matters on the case, set for January 2027.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroj neuvádza rok pri decembrovom termíne.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the three companies are given until December 7 to respond to the original complaint",
+        "komentar": "Zdroj skutočne neuvádza rok pri decembrovom termíne.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Samotné zamietnutie návrhu na zastavenie žaloby však nepredpovedá, ako sa ceny DRAM budú vyvíjať ani ako sa spor skončí.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "This isn’t a judgment, though — both sides would still have to show their evidence and speak their arguments before the court before getting a decision.",
+        "komentar": "Koncept správne interpretuje, že rozhodnutie nepredpovedá výsledok sporu.",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "titulok",
+        "povodne": "Súd pustil ďalej žalobu proti výrobcom DRAM pre údajné kartelové dohody",
+        "opravene": "Súd pustil ďalej žalobu proti výrobcom DRAM pre údajné kartelové dohody",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "perex",
+        "povodne": "Žalobu spotrebiteľov a malých firiem proti Micronu, Samsungu a SK hynix sudkyňa nezamietla.",
+        "opravene": "Žalobu spotrebiteľov a malých firiem proti Micronu, Samsungu a SK hynix sudkyňa nezamietla.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Americká sudkyňa Noël Wise zamietla návrh spoločností Micron, Samsung a SK hynix na zastavenie žaloby, ktorá ich obviňuje z koordinácie pri obmedzovaní ponuky pamätí DRAM.",
+        "opravene": "Americká sudkyňa Noël Wise zamietla návrh spoločností Micron, Samsung a SK hynix na zastavenie žaloby, ktorá ich obviňuje z koordinácie pri obmedzovaní ponuky pamätí DRAM.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Prípad tak môže pokračovať, no rozhodnutie neznamená, že súd už potvrdil kartel alebo uznal výrobcov za vinných.",
+        "opravene": "Prípad tak môže pokračovať, no rozhodnutie neznamená, že súd už potvrdil kartel alebo uznal výrobcov za vinných.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Obe strany ešte len majú predložiť dôkazy a svoje argumenty.",
+        "opravene": "Obe strany ešte len majú predložiť dôkazy a svoje argumenty.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Žalobu podalo 17 jednotlivcov a malých podnikov.",
+        "opravene": "Žalobu podalo 17 jednotlivcov a malých podnikov.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Tvrdia, že kroky troch najväčších výrobcov prispeli k nedostatku pamätí a k rastu cien, ktoré podľa žaloby v priebehu jedného roka stúpli až o 500 percent.",
+        "opravene": "Tvrdia, že kroky troch najväčších výrobcov prispeli k nedostatku pamätí a k rastu cien, ktoré podľa žaloby v priebehu jedného roka stúpli až o 500 percent.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Ako uvádza Tom’s Hardware, sudkyňa usúdila, že predložené tvrdenia sú dostatočne vierohodné na to, aby sa spor nezastavil už v tejto fáze.",
+        "opravene": "Ako uvádza Tom’s Hardware, sudkyňa usúdila, že predložené tvrdenia sú dostatočne vierohodné na to, aby sa spor nezastavil už v tejto fáze.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Medzi hlavné tvrdenia žalobcov patrí údajné súčasné znižovanie výroby DRAM od októbra 2022 do apríla 2023.",
+        "opravene": "Medzi hlavné tvrdenia žalobcov patrí údajné súčasné znižovanie výroby DRAM od októbra 2022 do apríla 2023.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Po ňom podľa nich nasledoval koordinovaný presun kapacít k pamätiam HBM, ktoré sa využívajú v súvislosti s dátovými centrami pre umelú inteligenciu.",
+        "opravene": "Po ňom podľa nich nasledoval koordinovaný presun kapacít k pamätiam HBM, ktoré sa využívajú v súvislosti s dátovými centrami pre umelú inteligenciu.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Žaloba tiež upozorňuje, že firmy v priebehu troch mesiacov oznámili ukončovanie výroby DDR4.",
+        "opravene": "Žaloba tiež upozorňuje, že firmy v priebehu troch mesiacov oznámili ukončovanie výroby DDR4.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Výrobcovia podľa žalobcov napriek mimoriadne vysokým cenám nerozšírili výrobné kapacity.",
+        "opravene": "Výrobcovia podľa žalobcov napriek mimoriadne vysokým cenám nerozšírili výrobné kapacity.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Ako ďalšie okolnosti uvádzajú prísnejšie preverovanie zákazníkov, odmietanie dlhodobých zmlúv na dodávky DRAM a rozhodnutie Micronu ukončiť svoju spotrebiteľskú značku Crucial.",
+        "opravene": "Ako ďalšie okolnosti uvádzajú prísnejšie preverovanie zákazníkov, odmietanie dlhodobých zmlúv na dodávky DRAM a rozhodnutie Micronu ukončiť svoju spotrebiteľskú značku Crucial.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Spomínajú aj verejné vyjadrenia firiem o očakávanom nedostatku a ich účasť v predchádzajúcich sporoch o stanovovanie cien.",
+        "opravene": "Spomínajú aj verejné vyjadrenia firiem o očakávanom nedostatku a ich účasť v predchádzajúcich sporoch o stanovovanie cien.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Ide o tvrdenia žalobcov, nie o skutky, ktoré by súd v tomto rozhodnutí potvrdil.",
+        "opravene": "Ide o tvrdenia žalobcov, nie o skutky, ktoré by súd v tomto rozhodnutí potvrdil.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Aj podobnosť obchodných krokov sama osebe ešte nepreukazuje dohodu medzi spoločnosťami.",
+        "opravene": "Aj podobnosť obchodných krokov sama osebe ešte nepreukazuje dohodu medzi spoločnosťami.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Micron, Samsung a SK hynix argumentovali, že žaloba opakuje antitrustový spor z roku 2018.",
+        "opravene": "Micron, Samsung a SK hynix argumentovali, že žaloba opakuje antitrustový spor z roku 2018.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Sudkyňa tento výklad odmietla s tým, že žalobcovia poukázali na nové okolnosti.",
+        "opravene": "Sudkyňa tento výklad odmietla s tým, že žalobcovia poukázali na nové okolnosti.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Výrobcovia zároveň tvrdia, že ich rozhodnutia boli racionálnou reakciou na silný dopyt a situáciu na trhu a zodpovedali ich vlastným obchodným záujmom.",
+        "opravene": "Výrobcovia zároveň tvrdia, že ich rozhodnutia boli racionálnou reakciou na silný dopyt a situáciu na trhu a zodpovedali ich vlastným obchodným záujmom.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Podľa spoločností pôsobia podobne preto, že súťažia na koncentrovanom trhu a reagujú na rovnaké tlaky.",
+        "opravene": "Podľa spoločností pôsobia podobne preto, že súťažia na koncentrovanom trhu a reagujú na rovnaké tlaky.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Sudkyňa prirovnanie výrobcov k dravcom, ktorí sa navzájom pozorujú, odmietla ako nedostatočné vysvetlenie.",
+        "opravene": "Sudkyňa prirovnanie výrobcov k dravcom, ktorí sa navzájom pozorujú, odmietla ako nedostatočné vysvetlenie.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Ich údajné správanie podľa nej pripomína „jastrabov letiaci v zostave“ — niečo, čo tieto vtáky bežne nerobia.",
+        "opravene": "Ich údajné správanie podľa nej pripomína „jastrabov letiaci v zostave“ — niečo, čo tieto vtáky bežne nerobia.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Ďalším krokom bude odpoveď spoločností na pôvodnú žalobu; podľa článku ju majú predložiť do 7. decembra.",
+        "opravene": "Ďalším krokom bude odpoveď spoločností na pôvodnú žalobu; podľa článku ju majú predložiť do 7. decembra.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Konferencia o riadení prípadu je naplánovaná na január 2027 a má riešiť jeho administratívny postup.",
+        "opravene": "Konferencia o riadení prípadu je naplánovaná na január 2027 a má riešiť jeho administratívny postup.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Zdroj neuvádza rok pri decembrovom termíne.",
+        "opravene": "Zdroj neuvádza rok pri decembrovom termíne.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Samotné zamietnutie návrhu na zastavenie žaloby však nepredpovedá, ako sa ceny DRAM budú vyvíjať ani ako sa spor skončí.",
+        "opravene": "Samotné zamietnutie návrhu na zastavenie žaloby však nepredpovedá, ako sa ceny DRAM budú vyvíjať ani ako sa spor skončí.",
+        "dovod": "Text je v poriadku.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "ukončovanie",
+        "kontext": "irmy v priebehu troch mesiacov oznámili ukončovanie výroby DDR4. Výrobcovia podľa žalobcov ",
+        "navrhy": [
+          "skoncovanie",
+          "ukončovacie",
+          "ukončovania"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "mimoriadne",
+        "kontext": "DDR4. Výrobcovia podľa žalobcov napriek mimoriadne vysokým cenám nerozšírili výrobné kapac",
+        "navrhy": [
+          "mimoriadnym"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (mimoriadne) \"mimoriadnym\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "antitrustový",
+        "kontext": " hynix argumentovali, že žaloba opakuje antitrustový spor z roku 2018. Sudkyňa tento výklad ",
+        "navrhy": [
+          "anti trustový"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "om, ktorí sa navzájom pozorujú, odmietla ako nedostatočné vysvetlenie. Ich údajné sp",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ovedá, ako sa ceny DRAM budú vyvíjať ani ako sa spor skončí.",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "povodny",
+      "url": "https://cdn.mos.cms.futurecdn.net/vnqdtRupVqWHAik43ZWctH-1920-80.jpg",
+      "poznamka": "Pravdepodobne tlačový materiál. Editor musí potvrdiť pôvod."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/vnqdtRupVqWHAik43ZWctH-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Micron",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (Micron): pravdepodobne tlačový materiál."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/xi79WuWDZXzix4Fc7sXNMn-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "HBM3E vs HBM4",
+        "popisok": "",
+        "kredit": "(Image credit: SK Hynix)",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (SK Hynix): pravdepodobne tlačový materiál."
+      }
+    ],
+    "dopyty": [
+      "DRAM memory module",
+      "Micron semiconductor factory",
+      "computer RAM chips"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/RAMBUS-Memory.jpg/1280px-RAMBUS-Memory.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/RAMBUS-Memory.jpg/1280px-RAMBUS-Memory.jpg",
+        "nazov": "RAMBUS-Memory.jpg",
+        "autor": "User Kotepho on en.wikipedia",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:RAMBUS-Memory.jpg",
+        "povod": "wikimedia",
+        "dopyt": "DRAM memory module"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/System_in_package.png",
+        "nahlad": "https://api.openverse.org/v1/images/140ee4cb-c10e-46b0-962f-fc292f2aa877/thumb/",
+        "nazov": "System in package",
+        "autor": "Verdel",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=97700648",
+        "povod": "openverse",
+        "dopyt": "DRAM memory module"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Amdahl_5860_Computer_Air_Cooled_LSI_RAM_Chip_02.jpg/1280px-Amdahl_5860_Computer_Air_Cooled_LSI_RAM_Chip_02.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Amdahl_5860_Computer_Air_Cooled_LSI_RAM_Chip_02.jpg/1280px-Amdahl_5860_Computer_Air_Cooled_LSI_RAM_Chip_02.jpg",
+        "nazov": "Amdahl 5860 Computer Air Cooled LSI RAM Chip 02.jpg",
+        "autor": "Mister rf",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Amdahl_5860_Computer_Air_Cooled_LSI_RAM_Chip_02.jpg",
+        "povod": "wikimedia",
+        "dopyt": "computer RAM chips"
+      },
+      {
+        "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGc0NjM0LWltYWdlLWt3eXJ1bXF3LmpwZw.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/42536811-d81b-4753-b9a0-e115770d8ef3/thumb/",
+        "nazov": "Computer Ram Chip",
+        "autor": "",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "stranka": "https://www.rawpixel.com/image/5966349/computer-ram-chip",
+        "povod": "openverse",
+        "dopyt": "computer RAM chips"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/HYR186420G-653_opened.jpg/1280px-HYR186420G-653_opened.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/HYR186420G-653_opened.jpg/1280px-HYR186420G-653_opened.jpg",
+        "nazov": "HYR186420G-653 opened.jpg",
+        "autor": "Mister rf",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:HYR186420G-653_opened.jpg",
+        "povod": "wikimedia",
+        "dopyt": "DRAM memory module"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/ThinkPad_360PE_IC_DRAM.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/7a7f7581-b44a-4665-8b9d-c361666823e6/thumb/",
+        "nazov": "ThinkPad 360PE IC DRAM",
+        "autor": "Raymangold22",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=44787084",
+        "povod": "openverse",
+        "dopyt": "DRAM memory module"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Amdahl_5860_Computer_Air_Cooled_LSI_RAM_Chip_01.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/8/86/Amdahl_5860_Computer_Air_Cooled_LSI_RAM_Chip_01.jpg",
+        "nazov": "Amdahl 5860 Computer Air Cooled LSI RAM Chip 01.jpg",
+        "autor": "Mister rf",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Amdahl_5860_Computer_Air_Cooled_LSI_RAM_Chip_01.jpg",
+        "povod": "wikimedia",
+        "dopyt": "computer RAM chips"
+      },
+      {
+        "url": "https://live.staticflickr.com/4057/4700443885_1146bc8b06_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/b7da0276-c6c5-437e-b792-53f1c766e708/thumb/",
+        "nazov": "MacBook Pro RAM Upgrade (4GB to 8GB)",
+        "autor": "Yutaka Tsutano",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/23208360@N07/4700443885",
+        "povod": "openverse",
+        "dopyt": "computer RAM chips"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of three abstract memory-chip silhouettes facing a courtroom gavel, with no logos, real people, or documentary-photography style."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of three abstract memory-chip silhouettes facing a courtroom gavel, with no logos, real people, or documentary-photography style.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/bdde9c911589b478e1f0eaf3ea616c4a",
+  "text_agentov": {
+    "titulok": "Súd pustil ďalej žalobu proti výrobcom DRAM pre údajné kartelové dohody",
+    "perex": "Žalobu spotrebiteľov a malých firiem proti Micronu, Samsungu a SK hynix sudkyňa nezamietla. Za vierohodné považuje tvrdenia o koordinovanom obmedzovaní ponuky, nie však zatiaľ samotnú vinu výrobcov.",
+    "telo": "Americká sudkyňa Noël Wise zamietla návrh spoločností Micron, Samsung a SK hynix na zastavenie žaloby, ktorá ich obviňuje z koordinácie pri obmedzovaní ponuky pamätí DRAM. Prípad tak môže pokračovať, no rozhodnutie neznamená, že súd už potvrdil kartel alebo uznal výrobcov za vinných. Obe strany ešte len majú predložiť dôkazy a svoje argumenty.\n\nŽalobu podalo 17 jednotlivcov a malých podnikov. Tvrdia, že kroky troch najväčších výrobcov prispeli k nedostatku pamätí a k rastu cien, ktoré podľa žaloby v priebehu jedného roka stúpli až o 500 percent. Ako uvádza Tom’s Hardware, sudkyňa usúdila, že predložené tvrdenia sú dostatočne vierohodné na to, aby sa spor nezastavil už v tejto fáze.\n\n## Žalobcovia poukazujú na súbeh krokov\n\nMedzi hlavné tvrdenia žalobcov patrí údajné súčasné znižovanie výroby DRAM od októbra 2022 do apríla 2023. Po ňom podľa nich nasledoval koordinovaný presun kapacít k pamätiam HBM, ktoré sa využívajú v súvislosti s dátovými centrami pre umelú inteligenciu.\n\nŽaloba tiež upozorňuje, že firmy v priebehu troch mesiacov oznámili ukončovanie výroby DDR4. Výrobcovia podľa žalobcov napriek mimoriadne vysokým cenám nerozšírili výrobné kapacity. Ako ďalšie okolnosti uvádzajú prísnejšie preverovanie zákazníkov, odmietanie dlhodobých zmlúv na dodávky DRAM a rozhodnutie Micronu ukončiť svoju spotrebiteľskú značku Crucial. Spomínajú aj verejné vyjadrenia firiem o očakávanom nedostatku a ich účasť v predchádzajúcich sporoch o stanovovanie cien.\n\nIde o tvrdenia žalobcov, nie o skutky, ktoré by súd v tomto rozhodnutí potvrdil. Aj podobnosť obchodných krokov sama osebe ešte nepreukazuje dohodu medzi spoločnosťami.\n\n## Firmy hovoria o nezávislých rozhodnutiach\n\nMicron, Samsung a SK hynix argumentovali, že žaloba opakuje antitrustový spor z roku 2018. Sudkyňa tento výklad odmietla s tým, že žalobcovia poukázali na nové okolnosti. Výrobcovia zároveň tvrdia, že ich rozhodnutia boli racionálnou reakciou na silný dopyt a situáciu na trhu a zodpovedali ich vlastným obchodným záujmom.\n\nPodľa spoločností pôsobia podobne preto, že súťažia na koncentrovanom trhu a reagujú na rovnaké tlaky. Sudkyňa prirovnanie výrobcov k dravcom, ktorí sa navzájom pozorujú, odmietla ako nedostatočné vysvetlenie. Ich údajné správanie podľa nej pripomína „jastrabov letiaci v zostave“ — niečo, čo tieto vtáky bežne nerobia.\n\n## Spor sa presúva do ďalšej fázy\n\nĎalším krokom bude odpoveď spoločností na pôvodnú žalobu; podľa článku ju majú predložiť do 7. decembra. Konferencia o riadení prípadu je naplánovaná na január 2027 a má riešiť jeho administratívny postup. Zdroj neuvádza rok pri decembrovom termíne.\n\nSamotné zamietnutie návrhu na zastavenie žaloby však nepredpovedá, ako sa ceny DRAM budú vyvíjať ani ako sa spor skončí."
+  }
+}
