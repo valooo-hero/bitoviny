@@ -24,6 +24,8 @@ redaktori:
 zdroje:
   - nazov: "Tom's Hardware: FBI disrupts North Korean FaceStealer campaign behind $5 billion Binance hack"
     url: https://www.tomshardware.com/tech-industry/cyber-security/fbi-disrupts-north-korean-facestealer-campaign-behind-usd5-billion-binance-hack-doj-seizes-facestealer-cloud-infrastructure-containing-900-videos-of-tech-workers-hackers-used-ai-deepfakes-to-steal-usd400-million-and-compromise-open-source-software
+stiahnute: true
+stiahnute_kedy: 2026-11-16T23:12:38Z
 ---
 
 Americké ministerstvo spravodlivosti a Federálny úrad pre vyšetrovanie oznámili úspešný zásah proti sofistikovanej kybernetickej kampani s názvom FaceStealer. Za touto operáciou podľa zistení úradov stojí Severná Kórea, pričom hlavným cieľom útokov bolo získavanie finančných prostriedkov na podporu tamojšej vlády. Úrady pristúpili k zhabaniu súvisiacej cloudovej infraštruktúry. Počas tohto zásahu zaistili približne deväť stoviek videí obetí, ktoré útočníci tajne nahrali.
