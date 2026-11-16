@@ -45,7 +45,7 @@ def test_konfiguracia_modelov():
     assert {"vyber_tem", "autorka"} <= set(cfg)
     for rola in cfg.values():
         assert len(rola["modely"]) >= 2, "každá rola má mať aspoň jednu zálohu"
-        assert all(m["provider"] in {"google", "groq", "openrouter", "deepinfra"} for m in rola["modely"])
+        assert all(m["provider"] in {"google", "groq", "openrouter", "openai", "deepinfra"} for m in rola["modely"])
 
 def test_vyber_tem_zahodi_neplatne_cisla_a_duplicity():
     kandidati = [_tema() for _ in range(4)]
@@ -201,3 +201,44 @@ def test_deepinfra_bez_kluca_sa_vynecha(monkeypatch):
     monkeypatch.setenv("DEEPINFRA_API_KEY", "testovaci")
     m = llm._vytvor({"provider": "deepinfra", "model": "deepseek-ai/DeepSeek-V4-Flash-0731"}, 0.1)
     assert "deepinfra.com" in str(m.openai_api_base)
+
+
+def test_openai_bez_kluca_sa_vynecha(monkeypatch):
+    from bitoviny import llm
+    monkeypatch.delenv("OPENAI_API_KEY", raising=False)
+    assert llm._vytvor({"provider": "openai", "model": "gpt-6-luna"}, 0.6) is None
+
+
+def test_luna_responses_json_reasoning_a_spotreba(monkeypatch):
+    import json
+    import httpx
+    from openai import OpenAI
+    from bitoviny import llm
+    from bitoviny.redakcia.korektura import Korektura
+
+    monkeypatch.setenv("OPENAI_API_KEY", "test-key-not-real")
+    videne = {}
+    def odpoved(request):
+        videne.update(json.loads(request.content))
+        assert request.url.path == "/v1/responses"
+        return httpx.Response(200, json={
+            "id": "resp_test", "object": "response", "created_at": 1,
+            "status": "completed", "model": "gpt-6-luna",
+            "output": [{"id": "msg_test", "type": "message", "role": "assistant", "status": "completed",
+                        "content": [{"type": "output_text", "text": '{"upravy": []}', "annotations": []}]}],
+            "usage": {"input_tokens": 100, "output_tokens": 20, "total_tokens": 120,
+                      "input_tokens_details": {"cached_tokens": 0}, "output_tokens_details": {"reasoning_tokens": 10}},
+        })
+    m = llm._vytvor({"provider": "openai", "model": "gpt-6-luna",
+                    "reasoning": "medium", "verbosity": "low", "max_output_tokens": 8192}, 0.6)
+    with OpenAI(api_key="test-key-not-real", http_client=httpx.Client(transport=httpx.MockTransport(odpoved))) as client:
+        m.root_client = client
+        v = m.with_structured_output(Korektura, method="json_schema", include_raw=True).invoke("Skontroluj text.")
+    assert v["parsing_error"] is None and v["parsed"].upravy == []
+    assert v["raw"].usage_metadata["output_token_details"]["reasoning"] == 10
+    assert videne["reasoning"] == {"effort": "medium"}
+    assert videne["text"]["verbosity"] == "low"
+    assert videne["text"]["format"]["type"] == "json_schema"
+    assert videne["max_output_tokens"] == 8192 and videne["store"] is False
+    assert "temperature" not in videne and "top_p" not in videne
+    assert m.max_retries == 1 and m.request_timeout == 180

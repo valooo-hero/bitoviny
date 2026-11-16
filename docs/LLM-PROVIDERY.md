@@ -87,3 +87,47 @@ Každá rola má ako posledný model `deepseek-ai/DeepSeek-V4-Flash-0731` cez De
 - Kľúč je v premennej `DEEPINFRA_API_KEY`: lokálne v `.env`, pre nočný beh v GitHub Secrets. Bez kľúča sa záloha preskočí a pipeline funguje ako predtým.
 - Podľa prepočtu z Langfuse by celý článok cez tento model stál okolo 0,002 USD.
 - Cena je zadaná v Langfuse ako vlastný model (Settings > Models, zadané cez API 13. 11. 2026): vzor `(?i)^(deepseek-ai/)?deepseek-v4-flash-0731$`, 0,06 a 0,18 USD za milión tokenov. Platí len pre stopy, ktoré prídu po zadaní ceny, staršie sa neprepočítajú. Pri zmene cenníka DeepInfra treba cenu upraviť aj tam.
+
+
+## GPT-6 Luna cez OpenAI (16. 11. 2026)
+
+Model `gpt-6-luna` je vo všetkých piatich rolách za bezplatnými modelmi a pred DeepSeekom.
+Bez `OPENAI_API_KEY` sa preskočí. DeepSeek zostáva posledný.
+
+### Založenie a uloženie kľúča
+
+1. Na https://platform.openai.com/settings/organization/projects vytvor alebo vyber projekt napr. Bitoviny.
+2. Na https://platform.openai.com/settings/organization/billing/overview nastav API fakturáciu/kredit.
+3. Na https://platform.openai.com/api-keys v správnom projekte vyber **Create new secret key**, pomenuj ho napr. `bitoviny-redakcia` a skopíruj hodnotu. Pri obmedzených oprávneniach povoľ vytváranie odpovedí cez `/v1/responses`.
+4. Na https://github.com/valooo-hero/bitoviny/settings/secrets/actions vyber **New repository secret**, názov presne `OPENAI_API_KEY`, do **Secret** vlož hodnotu a ulož. Workflow už premennú odovzdáva pipeline.
+5. Pre lokálne spustenie pridaj do `C:/Dev/bitoviny/.env` riadok `OPENAI_API_KEY=<hodnota kľúča>`. Súbor je ignorovaný Gitom.
+
+Pre tento redakčný model sa kľúč nepridáva do Cloudflare Pages ani do Langfuse: volá ho Python pipeline v GitHub Actions alebo lokálne. Langfuse naďalej používa svoje vlastné existujúce kľúče.
+
+### Parametre volania
+
+| Rola | reasoning.effort | text.verbosity | max_output_tokens |
+|---|---|---|---:|
+| vyber_tem | low | low | 2 048 |
+| autorka (aj prepisy) | medium | medium | 8 192 |
+| factcheck | medium | low | 16 384 |
+| korektura | medium | low | 8 192 |
+| fotoeditor | low | low | 2 048 |
+
+- Responses API (`https://api.openai.com/v1/responses`), štruktúrovaný JSON podľa Pydantic schémy (`metoda: json_schema`).
+- Reasoning určuje úsilie pri riešení; verbosity podrobnosť viditeľnej odpovede. Dĺžku článku naďalej určuje redakčný prompt.
+- Temperature, top_p ani reasoning summary neposielame. Pri zapnutom reasoning nie sú temperature/top_p podporované.
+- Limit tokenov zahŕňa viditeľný výstup aj reasoning. Nie je to cieľová dĺžka odpovede; pri vyčerpaní môže výstup zlyhať a použije sa záloha.
+- `store=False`, timeout 180 sekúnd, `max_retries=1` (najviac jeden opakovaný pokus SDK pri vhodnej chybe).
+- Nastavenia sú priamo pri modeli v `config/modely.yaml`.
+
+Oficiálna cena k dátumu pridania pre vstupy do 272K tokenov: 0,10 USD / milión vstupných,
+0,01 USD / milión cached input a 0,50 USD / milión výstupných tokenov. Reasoning sa účtuje ako výstup.
+Pri rovnakej spotrebe ako v DeepSeek teste (16 940 vstupných a 6 947 výstupných tokenov) by to bolo
+0,00517 USD; nejde o meranie Luny, jej vlastná spotreba vrátane reasoningu môže byť iná.
+
+Zdroje:
+- https://developers.openai.com/api/docs/models/gpt-6-luna
+- https://developers.openai.com/api/docs/guides/latest-model
+- https://developers.openai.com/api/docs/guides/reasoning
+- https://help.openai.com/en/articles/9186755-managing-projects-in-the-api-platform

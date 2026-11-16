@@ -46,6 +46,25 @@ def _vytvor(spec: dict, teplota: float):
             base_url="https://openrouter.ai/api/v1",
             api_key=os.environ["OPENROUTER_API_KEY"],
         )
+    if provider == "openai":
+        from langchain_openai import ChatOpenAI
+
+        if not os.getenv("OPENAI_API_KEY"):
+            return None
+        # Responses API podporuje reasoning aj štruktúrovaný JSON súčasne.
+        # Temperature/top_p sa pri zapnutom reasoning neposielajú.
+        return ChatOpenAI(
+            model=model,
+            api_key=os.environ["OPENAI_API_KEY"],
+            base_url="https://api.openai.com/v1",
+            use_responses_api=True,
+            reasoning={"effort": spec.get("reasoning", "medium")},
+            verbosity=spec.get("verbosity", "low"),
+            max_tokens=spec.get("max_output_tokens", 8192),
+            store=False,
+            timeout=180,
+            max_retries=1,
+        )
     if provider == "deepinfra":
         from langchain_openai import ChatOpenAI
 
