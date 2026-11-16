@@ -1,0 +1,403 @@
+{
+  "slug": "apple-pripravuje-inteligentne-okuliare-so-siri-predstavit-ich-ma-buduci-rok",
+  "datum_sprav": "2026-11-15",
+  "dovod_vyberu": "Apple plánuje uviesť na trh inteligentné okuliare, čo je významný krok v spotrebiteľskej technológii a AI.",
+  "poznamky_pre_editora": "Opravila som všetky tri nálezy factcheckera:\n1. Odstránila som nepresnú zmienku o absencii displejov (zdroje uvádzali len absenciu funkcií rozšírenej reality).\n2. Spresnila som informáciu o prednom indikátore – svetlo signalizuje používanie alebo nabíjanie zariadenia (nie konkrétne nahrávanie).\n3. Odstránila som nepodložený odsek o EÚ legislatíve, GDPR a slovenčine a prispôsobila medzititulok na 'Ochrana súkromia'.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Predložený koncept je plne spoľahlivý a v celom rozsahu sa opiera o uvedené zdroje. V texte sa nevyskytujú žiadne vecné nepresnosti ani nepodložené tvrdenia.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 21,
+        "potvrdenych": 18,
+        "chyb": 3,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 17,
+        "potvrdenych": 17,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Apple pripravuje inteligentné okuliare so Siri a plánuje ich predstaviť budúci rok",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Apple’s Siri AI smart glasses are reportedly launching next year, here’s what to expect",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Okuliare bez rozšírenej reality majú byť predstavené v júni na WWDC a predávať sa do konca roka",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "first model, which will lack augmented reality features, will be announced at June’s WWDC next year. They likely won’t ship right away",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Informácie pochádzajú od novinára Marka Gurmana z agentúry Bloomberg",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "According to Bloomberg’s Mark Gurman, the product should be introduced at the next WWDC",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Okuliare budú slúžiť ako príslušenstvo pre iPhone a nebudú spúšťať aplikácie priamo",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "The glasses themselves won’t run apps directly. Everything will rely on a nearby iPhone",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vďaka Wi-Fi pripojeniu bude možné využívať niektoré funkcie aj bez prítomnosti iPhonu, napríklad počúvať zvuk",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Users could theoretically keep listening to audio over Wi-Fi after walking away from their phones",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Prototypy okuliarov majú kódové označenie N50",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "The prototypes, dubbed N50, are currently running a pared-down version of visionOS",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na prototypoch beží oklieštená verzia visionOS a procesor zo starších čipov pre Apple Watch",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "running a pared-down version of visionOS and a new processor based on its older smartwatch chips.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zariadenie má nabíjačku v štýle MagSafe vo veľkosti dražé Tic Tac",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "MagSafe-like charger Gurman describes as “flat, rectangular” and “roughly the size of a Tic Tac”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Okuliare je možné nabíjať aj počas ich používania na tvári",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "which can be used even while still wearing the glasses.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Prototypy od Apple sú o niečo tenšie než druhá generácia Meta Ray-Ban",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "internal prototypes are slightly thinner than Meta’s second-generation Ray-Ban glasses.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Fotoaparáty sú umiestnené v oválnych otvoroch a lícujú s rámom",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "the cameras are housed in oval-shaped openings that sit flush with the frame — rather than protruding from it.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Základy pre hlbšie prepojenie Siri s aplikáciami sa objavujú v iOS 27.3 beta",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Starting with iOS 27.3 beta, Apple is finally laying the groundwork for proper third party app integration within Siri",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Konkurencia v ponuke AI asistentov dominuje, no chýba jej integrácia aplikácií tretích strán",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "While companies like Meta are undeniably leading in the agentic AI assistant game, the third party app integration just isn’t quite there.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Inžinieri Apple označujú zvukovú kvalitu okuliarov za špičku v odvetví",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "engineers are describing the audio quality as “industry-leading.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Okuliare budú podporovať telefonické hovory, prehrávanie hudby a FaceTime audio",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "with support for phone calls, music playback and FaceTime audio communication.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Svetlo na prednej strane signalizuje používanie alebo nabíjanie okuliarov",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "There’s also a light on the front that shows when the glasses are in use or charging.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Apple na prednej strane testuje aj ďalšie prvky zamerané na ochranu súkromia",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Apple has been experimenting with other features on the front of the glasses related to privacy.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "Zariadenie používá nabíjačku v štýle",
+        "opravene": "Zariadenie používa nabíjačku v štýle",
+        "dovod": "gramatika, preklep",
+        "stav": "vykonana",
+        "poznamka": ""
+      },
+      {
+        "pole": "telo",
+        "povodne": "nevystupujú zo rámu, ale lícujú",
+        "opravene": "nevystupujú z rámu, ale lícujú",
+        "dovod": "vokalizácia predložky",
+        "stav": "vykonana",
+        "poznamka": ""
+      }
+    ],
+    "podozrive": [
+      {
+        "pole": "telo",
+        "text": "iPhonu",
+        "kontext": "## Predstavenie na WWDC a závislosť od iPhonu\n\nPodľa neoficiálnych informácií novinár",
+        "navrhy": [
+          "iPhone"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "lity.\n\nZariadenie bude fungovať primárne ako príslušenstvo pre iPhone, ktorý bude za",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "pole": "telo",
+        "text": "smartfón",
+        "kontext": "využívať niektoré funkcie aj vtedy, keď smartfón nie je v ich bezprostrednej blízkosti. ",
+        "navrhy": [
+          "Artfór",
+          "Martin",
+          "Martou"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "čku v štýle MagSafe, ktorú Gurman opísal ako plochú, obdĺžnikovú a s veľkosťou pribl",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "chú, obdĺžnikovú a s veľkosťou približne ako dražé Tic Tac. Tento nabíjací konektor ",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "pole": "telo",
+        "text": "nositeľnej",
+        "kontext": "chrana súkromia\n\nOtázka súkromia je pri nositeľnej elektronike s kamerami kľúčová. Na pred",
+        "navrhy": [
+          "nositeľ nej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -15 +15 @@\n-Zariadenie používá nabíjačku v štýle MagSafe, ktorú Gurman opísal ako plochú, obdĺžnikovú a s veľkosťou približne ako dražé Tic Tac. Tento nabíjací konektor je navrhnutý tak, aby bolo možné okuliare nabíjať aj počas ich používania na tvári.\n+Zariadenie používa nabíjačku v štýle MagSafe, ktorú Gurman opísal ako plochú, obdĺžnikovú a s veľkosťou približne ako dražé Tic Tac. Tento nabíjací konektor je navrhnutý tak, aby bolo možné okuliare nabíjať aj počas ich používania na tvári.\n@@ -17 +17 @@\n-V porovnaní s konkurenčnými okuliarmi Meta Ray-Ban druhej generácie sú interné prototypy od Apple o niečo tenšie. Fotoaparáty sú pri minimálne niektorých testovacích kusoch umiestnené v oválnych otvoroch, ktoré nevystupujú zo rámu, ale lícujú s jeho povrchom.\n+V porovnaní s konkurenčnými okuliarmi Meta Ray-Ban druhej generácie sú interné prototypy od Apple o niečo tenšie. Fotoaparáty sú pri minimálne niektorých testovacích kusoch umiestnené v oválnych otvoroch, ktoré nevystupujú z rámu, ale lícujú s jeho povrchom."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/COP30_-_Smart_Glasses_01.jpg/1280px-COP30_-_Smart_Glasses_01.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2025/05/apple-glasses-dark.jpg?quality=82&strip=all&w=800",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Apple Glasses dark",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/7958af2c8685677516d431d8830a5feaa3781ef195c8503239a46acc991efa41?s=96&d=mm&r=r",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Michael Burkhardt",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/268640_RayBan_Meta_Gen2_AKrales_0038.jpg?quality=90&strip=all&crop=0,10.732984293194,100,78.534031413613",
+        "zdroj_clanku": "The Verge",
+        "alt": "268640_RayBan_Meta_Gen2_AKrales_0038",
+        "popisok": "Apple’s smart glasses are reportedly ‘slightly thinner’ than Meta’s 2nd gen Ray-Ban glasses above. | Photo: Amelia Holowaty Krales / The Verge",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "smart glasses",
+      "Apple Vision Pro",
+      "eyewear"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/COP30_-_Smart_Glasses_01.jpg/1280px-COP30_-_Smart_Glasses_01.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/COP30_-_Smart_Glasses_01.jpg/1280px-COP30_-_Smart_Glasses_01.jpg",
+        "nazov": "COP30 - Smart Glasses 01.jpg",
+        "autor": "Xuthoria",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:COP30_-_Smart_Glasses_01.jpg",
+        "povod": "wikimedia",
+        "dopyt": "smart glasses"
+      },
+      {
+        "url": "https://live.staticflickr.com/8655/16581309296_1fc98ae809_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/bd9e2231-7d17-4f16-a9ff-40e09e66679a/thumb/",
+        "nazov": "Smart glasses is banned",
+        "autor": "cabrera.photo",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/49232315@N08/16581309296",
+        "povod": "openverse",
+        "dopyt": "smart glasses"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Apple_Vision_Pro_with_charger_%28cropped%29.jpg/1280px-Apple_Vision_Pro_with_charger_%28cropped%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Apple_Vision_Pro_with_charger_%28cropped%29.jpg/1280px-Apple_Vision_Pro_with_charger_%28cropped%29.jpg",
+        "nazov": "Apple Vision Pro with charger (cropped).jpg",
+        "autor": "Miyako Fujimiya",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Apple_Vision_Pro_with_charger_(cropped).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Apple Vision Pro"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Apple_Vision_Pro_with_charger_%28cropped%29.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/e7198305-94f2-48d7-a5e4-15c6fd8b3c81/thumb/",
+        "nazov": "Apple Vision Pro with charger (cropped)",
+        "autor": "Miyako Fujimiya",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=145003882",
+        "povod": "openverse",
+        "dopyt": "Apple Vision Pro"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/2023_Okulary_korekcyjne.jpg/1280px-2023_Okulary_korekcyjne.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/2023_Okulary_korekcyjne.jpg/1280px-2023_Okulary_korekcyjne.jpg",
+        "nazov": "2023 Okulary korekcyjne.jpg",
+        "autor": "Jacek Halicki",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:2023_Okulary_korekcyjne.jpg",
+        "povod": "wikimedia",
+        "dopyt": "eyewear"
+      },
+      {
+        "url": "https://live.staticflickr.com/2467/3879208071_8b51fe52bb_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/a15bea1f-d6ff-42f5-b579-12bde6f87333/thumb/",
+        "nazov": "Kim Kardashian more Benjamin Eyewear",
+        "autor": "The Guise Archives",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/24281144@N02/3879208071",
+        "povod": "openverse",
+        "dopyt": "eyewear"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/WAIC_2025_-_Alibaba_Quark_Glasses_01.jpg/1280px-WAIC_2025_-_Alibaba_Quark_Glasses_01.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/WAIC_2025_-_Alibaba_Quark_Glasses_01.jpg/1280px-WAIC_2025_-_Alibaba_Quark_Glasses_01.jpg",
+        "nazov": "WAIC 2025 - Alibaba Quark Glasses 01.jpg",
+        "autor": "Xuthoria",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:WAIC_2025_-_Alibaba_Quark_Glasses_01.jpg",
+        "povod": "wikimedia",
+        "dopyt": "smart glasses"
+      },
+      {
+        "url": "https://live.staticflickr.com/5507/11827457474_7319488569.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/f6aba291-845f-47df-879a-a8d9aa7cf0af/thumb/",
+        "nazov": "Y Sony entra al juego de los smart glasses con los Smart Eyeglass de realidad aumentada... #SonyCES #CES2014",
+        "autor": "Vuarnet",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/92733789@N00/11827457474",
+        "povod": "openverse",
+        "dopyt": "smart glasses"
+      }
+    ],
+    "prompt_ilustracie": "Minimalist sleek smart glasses with a subtle LED indicator light resting on a reflective surface in a clean technological aesthetic."
+  },
+  "prompt_ilustracie": "Minimalist sleek smart glasses with a subtle LED indicator light resting on a reflective surface in a clean technological aesthetic.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/f67a9bb8d4ba3442a26d9642965d30ea",
+  "text_agentov": {
+    "titulok": "Apple pripravuje inteligentné okuliare so Siri, predstaviť ich má budúci rok",
+    "perex": "Spoločnosť Apple podľa nového úniku plánuje v júni predstaviť svoje prvé inteligentné okuliare. Zariadenie bez rozšírenej reality by sa malo dostať do predaja do konca roka.",
+    "telo": "## Predstavenie na WWDC a závislosť od iPhonu\n\nPodľa neoficiálnych informácií novinára Marka Gurmana z agentúry Bloomberg plánuje spoločnosť Apple predstaviť svoje prvé inteligentné okuliare na budúcoročnej vývojárskej konferencii WWDC v júni. Do predaja by sa zariadenie malo dostať ešte pred koncom daného roka. V prvej generácii však neponúkne funkcie rozšírenej reality.\n\nZariadenie bude fungovať primárne ako príslušenstvo pre iPhone, ktorý bude zaisťovať výpočtový výkon a spúšťanie aplikácií. Samotné okuliare nebudú aplikácie spúšťať priamo. Napriek tomu budú vybavené Wi-Fi pripojením, čo používateľom umožní využívať niektoré funkcie aj vtedy, keď smartfón nie je v ich bezprostrednej blízkosti. Ide napríklad o pokračovanie v počúvaní zvuku pri vzdialení sa od telefónu.\n\n## Kódové označenie N50 a technická výbava\n\nPrototypy okuliarov nesú kódové označenie N50. Podľa dostupných správ na nich beží oklieštená verzia operačného systému visionOS a nový procesor, ktorý vychádza zo starších čipov určených pre hodinky Apple Watch.\n\nZariadenie používa nabíjačku v štýle MagSafe, ktorú Gurman opísal ako plochú, obdĺžnikovú a s veľkosťou približne ako dražé Tic Tac. Tento nabíjací konektor je navrhnutý tak, aby bolo možné okuliare nabíjať aj počas ich používania na tvári.\n\nV porovnaní s konkurenčnými okuliarmi Meta Ray-Ban druhej generácie sú interné prototypy od Apple o niečo tenšie. Fotoaparáty sú pri minimálne niektorých testovacích kusoch umiestnené v oválnych otvoroch, ktoré nevystupujú z rámu, ale lícujú s jeho povrchom.\n\n## Hlasová asistentka Siri a integrácia aplikácií\n\nKľúčovým prvkom celého zariadenia má byť prepracovaná hlasová asistentka Siri. Spoločnosť Apple stavia na svojom ekosystéme a podpore aplikácií tretích strán. Základy pre toto hlbšie prepojenie Siri s aplikáciami sa podľa portálu 9to5Mac objavujú už v testovacej verzii iOS 27.3.\n\nZatiaľ čo konkurencia v ponuke pokročilých AI asistentov dominuje, Apple chce presadiť vďaka prepojeniu s aplikáciami vývojárov. Inžinieri spoločnosti zároveň podľa správ z prostredia firmy kladú veľký dôraz na zvukovú kvalitu, ktorú interne označujú za špičku v odvetví. Okuliare budú podporovať telefonické hovory, prehrávanie hudby aj zvukové hovory cez službu FaceTime.\n\n## Ochrana súkromia\n\nOtázka súkromia je pri nositeľnej elektronike s kamerami kľúčová. Na prednej strane okuliarov sa nachádza svetlo, ktoré signalizuje, že zariadenie sa používa alebo nabíja. Apple zároveň na prednej časti testuje aj ďalšie prvky zamerané na ochranu súkromia."
+  }
+}
