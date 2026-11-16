@@ -425,9 +425,15 @@
         "alt": "",
         "popisok": "",
         "kredit": "DARPA blog",
-        "licencia": "",
+        "licencia": "DARPA blog",
         "zaradenie": "chranene",
-        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: DARPA blog."
+        "dovod": "Rozhodnutie editora: DARPA blog",
+        "automaticke_zaradenie": "chranene",
+        "automaticky_dovod": "Uvedený autor alebo zdroj bez voľnej licencie: DARPA blog.",
+        "rozhodol_editor": {
+          "kto": "valooo-hero",
+          "kedy": "2026-11-16T19:32:40Z"
+        }
       }
     ],
     "dopyty": [
