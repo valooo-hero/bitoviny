@@ -8,7 +8,7 @@ tagy:
   - kryptomeny
   - deepfake
   - bezpecnost
-publikovane: 2026-11-16T03:20:30+00:00
+publikovane: 2026-11-16T15:15:49Z
 obrazok:
   src: /obrazky/fbi-zasiahlo-proti-severokorejskej-kampani-facestealer-stojacej-za-utokom-na-bin-mwjenwve.jpg
   alt: Devuan GNU-Linux - tty login as root in an ownCloud instance - server rack
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Tom's Hardware: FBI disrupts North Korean FaceStealer campaign behind $5 billion Binance hack"
     url: https://www.tomshardware.com/tech-industry/cyber-security/fbi-disrupts-north-korean-facestealer-campaign-behind-usd5-billion-binance-hack-doj-seizes-facestealer-cloud-infrastructure-containing-900-videos-of-tech-workers-hackers-used-ai-deepfakes-to-steal-usd400-million-and-compromise-open-source-software
