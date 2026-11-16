@@ -3,24 +3,25 @@ title: FBI narušila severokórejskú kampaň FaceStealer spájanú s útokom na
 perex: Americké úrady zaistili cloudovú infraštruktúru, na ktorej našli 900 videí cieľových obetí. Kampaň využívala AI deepfaky a sociálne inžinierstvo na získavanie prístupu ku kryptomenám aj vývojárskym systémom.
 sekcia: bezpecnost
 tagy:
-- kyberbezpečnosť
-- FBI
-- Severná Kórea
-- Binance
-publikovane: '2026-11-16T18:55:56+00:00'
+  - kyberbezpečnosť
+  - FBI
+  - Severná Kórea
+  - Binance
+publikovane: 2026-11-16T18:55:56+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/fbi-facestealer-test-luna-korektura-mwjni4ra.jpg
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Tom''s Hardware: FBI disrupts North Korean FaceStealer campaign behind $5 billion Binance hack'
-  url: https://www.tomshardware.com/tech-industry/cyber-security/fbi-disrupts-north-korean-facestealer-campaign-behind-usd5-billion-binance-hack-doj-seizes-facestealer-cloud-infrastructure-containing-900-videos-of-tech-workers-hackers-used-ai-deepfakes-to-steal-usd400-million-and-compromise-open-source-software
+  - nazov: "Tom's Hardware: FBI disrupts North Korean FaceStealer campaign behind $5 billion Binance hack"
+    url: https://www.tomshardware.com/tech-industry/cyber-security/fbi-disrupts-north-korean-facestealer-campaign-behind-usd5-billion-binance-hack-doj-seizes-facestealer-cloud-infrastructure-containing-900-videos-of-tech-workers-hackers-used-ai-deepfakes-to-steal-usd400-million-and-compromise-open-source-software
 ---
 
 Americké úrady narušili kybernetickú kampaň, ktorú FBI a ministerstvo spravodlivosti USA (DoJ) nazývajú FaceStealer. Podľa informácií, ktoré priniesol Tom’s Hardware s odvolaním na správu FBI, úrady zaistili cloudovú infraštruktúru spájanú s útokmi. Obsahovala 900 videí ľudí, na ktorých sa útočníci zameriavali.
