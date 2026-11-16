@@ -3,24 +3,25 @@ title: DARPA skúšala tím autonómnych pozemných robotov v simulovanom boji
 perex: Štyri bezposádkové vozidlá samostatne prehľadávali terén a vyhľadávali simulované hrozby. O použití zbrane však aj počas ukážky rozhodoval človek.
 sekcia: veda
 tagy:
-- DARPA
-- autonómne vozidlá
-- robotika
-- vojenské technológie
-publikovane: '2026-11-16T18:54:08+00:00'
+  - DARPA
+  - autonómne vozidlá
+  - robotika
+  - vojenské technológie
+publikovane: 2026-11-16T18:54:08+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/darpa-skusala-tim-autonomnych-pozemnych-robotov-v-simulovanom-boji-mwjnvava.jpg
+  alt: DARPA blog
+  popisok: DARPA blog
+  kredit: DARPA blog
+  licencia: DARPA blog
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Tom''s Hardware: Pentagon tests pack hunting with autonomous war robots'
-  url: https://www.tomshardware.com/tech-industry/drones/pentagon-tests-pack-hunting-with-autonomous-war-robots-darpa-experimented-with-four-drone-ground-vehicles-that-detected-tracked-and-engaged-simulated-threats
+  - nazov: "Tom's Hardware: Pentagon tests pack hunting with autonomous war robots"
+    url: https://www.tomshardware.com/tech-industry/drones/pentagon-tests-pack-hunting-with-autonomous-war-robots-darpa-experimented-with-four-drone-ground-vehicles-that-detected-tracked-and-engaged-simulated-threats
 ---
 
 Americká agentúra DARPA skúšala, ako môže skupina autonómnych pozemných vozidiel spolupracovať pri vojenskej úlohe. Pri ukážke vo Fort Knox v štáte Kentucky štyri robotické vozidlá prehľadávali zvlnený terén a pátrali po simulovaných nepriateľských silách. Nešlo však o autonómne rozhodovanie o útoku: použitie zbrane zostalo pod kontrolou ľudského operátora.
