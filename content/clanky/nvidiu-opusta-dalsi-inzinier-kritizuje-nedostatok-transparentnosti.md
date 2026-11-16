@@ -30,6 +30,7 @@ zdroje:
     url: https://www.tomshardware.com/tech-industry/elon-musk-signs-petition-to-reinstate-jensen-huang-as-nvidia-ceo-over-130-000-sign-online-petition-but-not-all-nvidians-support-jensens-return
   - nazov: "Tom's Hardware: Nvidia board director cashed out $1 billion in stock before Jensen Huang scandal"
     url: https://www.tomshardware.com/tech-industry/nvidia-board-director-cashed-out-usd1-billion-in-stock-before-jensen-huang-scandal-mark-stevens-sold-4-2-million-shares-without-a-trading-plan
+aktualizovane: 2026-11-16T17:37:59Z
 ---
 
 Nvidia čelí ďalšiemu otrasu. Robotický inžinier Darrel Dai oznámil, že opúšťa spoločnosť. Ako dôvod uviedol nedostatok transparentnosti okolo náhlej rezignácie šéfa Jensena Huanga, ktorý čelí obvineniam z pomeru s údajnou čínskou špiónkou aj z pomerov so zamestnankyňami. Informoval o tom portál Tom's Hardware.
@@ -58,4 +59,4 @@ Kauza sa dotkla aj akcií Nvidie. Tie klesli z približne 205 dolárov na konci 
 
 Portál TechCrunch sa medzitým pýta, čo o dianí vedelo bezpečnostné oddelenie Nvidie. Vlani v auguste totiž z funkcie šéfa bezpečnosti odišiel David Reber, ktorý to zdôvodnil zdravotnými problémami. Jeho nástupca Saša Zdjelar na otázky neodpovedal. Nič nespája tieto personálne zmeny s kauzou Megaspeed, no podľa odborníkov môže byť pomer šéfa firmy zraniteľnosťou, ktorú môžu využiť spravodajské služby.
 
-„Intel world sa správa ako rakovina,“ povedal pre TechCrunch bývalý vysoký spravodajský dôstojník Nicholas Eftimiades. „Akonáhle sa dostane do tela, šíri sa a snaží sa dostať ďalej.“ Dúfa, že celá kauza bude pre americký priemysel „budíčkom“, pretože je podľa neho väčšinou „bezradný“ voči čínskym praktikám. „Stratili sme bilióny dolárov na duševnom vlastníctve,“ povedal. „Čokoľvek si myslíme, že robíme, nefunguje.“
+„Svet spravodajských služieb býva ako rakovina,“ povedal pre TechCrunch bývalý vysoký spravodajský dôstojník Nicholas Eftimiades. „Akonáhle sa dostane do tela, šíri sa a snaží sa dostať ďalej.“ Dúfa, že celá kauza bude pre americký priemysel „budíčkom“, pretože je podľa neho väčšinou „bezradný“ voči čínskym praktikám. „Stratili sme bilióny dolárov na duševnom vlastníctve,“ povedal. „Čokoľvek si myslíme, že robíme, nefunguje.“
