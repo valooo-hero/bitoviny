@@ -1,0 +1,473 @@
+{
+  "slug": "sef-nvidie-jensen-huang-odstupil-po-skandale-kongres-ziada-prisnejsie-pravidla-v",
+  "datum_sprav": "2026-11-15",
+  "dovod_vyberu": "Rozšírenie exportných pravidiel pre AI čipy po škandále okolo Nvidie má dopad na európsky trh a reguláciu technológií.",
+  "poznamky_pre_editora": "Opravy na základe factcheckingu:\n1. Upravený citát Anne Wojcicki: slovo „invincible“ bolo preložené ako „nezdolateľní“ namiesto pôvodného „nedotknuteľní“ (ktoré patrí k výrazu „untouchable“ na konci citátu).\n2. K námietke voči číslu 150: V texte bolo uvedené „150-tisíc podpisov“, čo priamo vychádza zo zdroja The Verge: „The public letter calling for Jensen Huang to be reinstated has over 150,000 signatures, but it’s difficult to verify their authenticity.“ Údaj má teda jednoznačnú oporu v zdrojoch a ponechala som ho.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept článku je vysoko spoľahlivý a presne odpovedá informáciám v poskytnutých anglických zdrojoch. Všetky fakty, mená, čísla aj politické reakcie majú pevné opodstatnenie a nevyskytujú sa v ňom žiadne vymyslené ani nepresné tvrdenia.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 20,
+        "potvrdenych": 15,
+        "chyb": 6,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 22,
+        "potvrdenych": 21,
+        "chyb": 2,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 21,
+        "potvrdenych": 21,
+        "chyb": 1,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_cisel",
+        "zavaznost": "chyba",
+        "text": "Číslo 150",
+        "komentar": "Číslo je v koncepte, ale v žiadnom zdroji sa nenachádza.",
+        "navrh_opravy": "Opraviť podľa zdroja alebo vypustiť. Ak ide o prepočet, uviesť to v poznámkach."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Jensen Huang odstúpil z funkcii vo štvrtok po odhalení pomeru s Alice Huang.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Jensen resigned on Thursday, after it came out he was having an affair with a former executive at an Nvidia customer called Megaspeed",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Alice Huang je bývalá manažérka Megaspeed podozrivá z väzieb na čínske spravodajské služby.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "former executive at an Nvidia customer called Megaspeed, who’s alleged to have ties to Chinese intelligence.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TechCrunch informoval o ďalšom nahlásenom vzťahu Huanga s manažérkou Nvidie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "And then there was another reported affair with an Nvidia executive.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vedením Nvidie bola dočasne poverená finančná riaditeľka Collette Kress.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Nvidia CFO Collette Kress is jumping in as the interim CEO.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Informácie o vzťahu s Alice Huang cirkulovali v spravodajských kruhoch takmer rok.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "concerns about his relationship with Alice Huang is something that was circulating a year ago, or close to a year ago.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Správa agentúry Bloomberg naznačila, že hlavný právnik Nvidie sa zaujímal o vyšetrovanie ministerstva obchodu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Bloomberg report came out and suggested that Nvidia’s head attorney had some role in inquiring about the Department of Commerce’s investigation into Alice Huang.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Huang presadzoval uvoľnenie pravidiel vývozu AI čipov do Číny.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Jensen Huang has been an advocate for loosening chip exports to China.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Americký Kongres presadzuje sprísnenie kontrol vývozu čipov pre umelú inteligenciu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Chuck Schumer vyhlásil, že Huang a Trumpova administratíva sa musia zodpovedať Kongresu.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Senate Minority Leader Chuck Schumer has already said that Huang and the Trump administration need to answer to Congress.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tim Scott zaslal listy Huangovi a Howardovi Lutnickovi s výzvou na verejné vypovedanie.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Senate Banking Committee Chairman Tim Scott has also sent letters to both Huang and Commerce Secretary Howard Lutnick calling on them to publicly testify",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Mike Johnson potvrdil rastúcu zhodu v Kongrese na obmedzení vývozu čipov do Číny.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "House Speaker Mike Johnson has said there is “growing consensus in Congress on limiting chip exports to China,” according to Reuters.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Návrh zákona Remote Access Security Act bol v Snemovni predložený v apríli 2025 a stagnoval v Senáte.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Bills such as the Remote Access Security Act, first introduced in the House in April 2025 but stalled in the Senate",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nvidia ovláda približne 80 percent trhu s AI GPU.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Nvidia apparently accounts for roughly 80% of the AI GPU market.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nvidia vykazovala 99 miliárd dolárov v investíciách, 25 miliárd v záväzkoch a 36 miliárd v cloudových záväzkoch.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "It reported $99 billion in investments and another $25 billion in commitments, plus $36 billion dollars in cloud service commitments.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Investície Nvidie smerovali do startupov OpenAI, CoreWeave a Nebius.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "A lot of those include investments into CoreWeave, Nebius, OpenAI",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Megaspeed uviedol, že Alice Huang vo firme nepracuje od 30. augusta 2025.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Megaspeed released a statement saying that Alice Huang left the company “effective Aug. 30, 2025, and currently has no role with the company,”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Financial Times informoval, že Huang diskutoval so spojencami o možnosti návratu do funkcie CEO.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "The Financial Times reports that Jensen Huang has discussed the possibility of returning as CEO with close allies",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Elon Musk a šéf Epic Games Tim Sweeney podporili otvorený list za návrat Huanga.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Some big names, including Elon Musk and Epic Games CEO Tim Sweeney, have publicly thrown their support behind a public letter demanding Nvidia “bring Jensen back.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Petícia za Huangov návrat má vyše 150-tisíc podpisov, pričom obsahuje aj mená ako Tim Cruise či Xi Jingping.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "The public letter calling for Jensen Huang to be reinstated has over 150,000 signatures, but it’s difficult to verify their authenticity.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Anne Wojcicki pre Bloomberg uviedla, že moc korumpuje a ľudia robia hlúpe veci, keď si myslia, že sú nedotknuteľní.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "23andMe founder Anne Wojcicki told Bloomberg that “Power corrupts, and people start to think they are invincible … We are all complicit in making these people think they are gods.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Mnohé ženy v Silicon Valley vnímajú prípad ako zneužitie moci na nadväzovanie vzťahov s podriadenými.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "According to Bloomberg, many women in Silicon Valley see Jensen Huang as simply another example of a rich man abusing their position and “leveraging power to pursue sexual relationships with their employees.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "pole": "perex",
+        "text": "špionáže",
+        "kontext": " odhalení pomeru s osobou podozrivou zo špionáže vyvolal otrasy v sektore umelej intelig",
+        "navrhy": [
+          "špionáž",
+          "špionážne",
+          "špionáž e"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "špionáže",
+        "kontext": "teľka Collette Kress.\n\n## Podozrenia zo špionáže a reakcia Kongresu\n\nPodľa informácií po",
+        "navrhy": [
+          "špionáž",
+          "špionážne",
+          "špionáž e"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "cloudové",
+        "kontext": "och a 36 miliárd dolárov v záväzkoch na cloudové služby. Tieto finančné toky smerovali d",
+        "navrhy": [
+          "Chodove",
+          "chodové",
+          "clonové"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "startupov",
+        "kontext": "to finančné toky smerovali do kľúčových startupov ako OpenAI, CoreWeave či Nebius. Akékoľ",
+        "navrhy": [
+          "statusov",
+          "štartov",
+          "štartérov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "né toky smerovali do kľúčových startupov ako OpenAI, CoreWeave či Nebius. Akékoľvek ",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ná, keďže sa medzi nimi objavili aj mená ako „Tim Cruise“ alebo skomolený „Xi Jingpi",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "pole": "telo",
+        "text": "spoluvinní",
+        "kontext": "myslieť, že sú nezdolateľní. Všetci sme spoluvinní na tom, že si títo ľudia myslia, že sú ",
+        "navrhy": [
+          "spoluvinné",
+          "spoluvinník",
+          "spoluvinný"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "y v technologickom sektore vnímajú kauzu ako ďalší príklad zneužitia moci na nadväzo",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25545717/STK481_STK432_CONGRESS_GOVERNMENT_CIVRGINIA_D.jpg?quality=90&strip=all&crop=0,10.732984293194,100,78.534031413613",
+        "zdroj_clanku": "The Verge",
+        "alt": "Photo collage of a photo of the US Capitol building coming out of a computer window.",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nvidia_Jensen_huang_03.jpg?quality=90&strip=all&crop=0,12.339110464558,100,75.321779070884",
+        "zdroj_clanku": "The Verge",
+        "alt": "Nvidia_Jensen_huang_03",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/213d511460b4d497d3ab322f9148369351bb9181280554d6d611c3e13f498b21?s=96&d=identicon&r=g",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Anthony Ha",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "SAN FRANCISCO, CALIFORNIA - SEPTEMBER - 15: Nvidia CEO Jensen Huang speaks during the keynote address at Salesforce's Dreamforce conference at the Moscone Center on September 15, 2026 in San Francisco, California. Dreamforce is an annual event that highlights the company's technologies and encourages professional networking. (Photo by Benjamin Fanjoy/Getty Images)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "Nvidia headquarters",
+      "Nvidia GPU",
+      "AI chip"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg",
+        "nazov": "Nvidia HQ.jpg",
+        "autor": "Kevin McCarthy",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Nvidia_HQ.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia headquarters"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/NVIDIA_Headquarters.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/617cd75a-b4de-4e8b-b049-7c31683011d5/thumb/",
+        "nazov": "NVIDIA Headquarters",
+        "autor": "Coolcaesar",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=74676142",
+        "povod": "openverse",
+        "dopyt": "Nvidia headquarters"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/NVIDIA_GPU_workstation.webp/1280px-NVIDIA_GPU_workstation.webp",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/NVIDIA_GPU_workstation.webp/1280px-NVIDIA_GPU_workstation.webp",
+        "nazov": "NVIDIA GPU workstation.webp",
+        "autor": "Wikideas1",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:NVIDIA_GPU_workstation.webp",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia GPU"
+      },
+      {
+        "url": "https://live.staticflickr.com/2590/3706444821_e124c0b6c7_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/eb921348-6dc7-49b9-bc3a-59bae8726c54/thumb/",
+        "nazov": "Tesla/NVIDIA GPU cluster",
+        "autor": "ChrisDag",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/8558461@N08/3706444821",
+        "povod": "openverse",
+        "dopyt": "Nvidia GPU"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/AI_Designed_Customized_Cookies.jpg/1280px-AI_Designed_Customized_Cookies.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/AI_Designed_Customized_Cookies.jpg/1280px-AI_Designed_Customized_Cookies.jpg",
+        "nazov": "AI Designed Customized Cookies.jpg",
+        "autor": "Stilfehler",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:AI_Designed_Customized_Cookies.jpg",
+        "povod": "wikimedia",
+        "dopyt": "AI chip"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Jeff_Fryer_fractional_CMO_for_AI_chip_and_semiconductor_companies_headshot_2025.png",
+        "nahlad": "https://api.openverse.org/v1/images/b1b252f5-dc33-4449-a5a7-6b7c2f4255ab/thumb/",
+        "nazov": "Jeff Fryer fractional CMO for AI chip and semiconductor companies headshot 2025",
+        "autor": "JeffFryer",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=163434192",
+        "povod": "openverse",
+        "dopyt": "AI chip"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Nvidia_sign.jpg/1280px-Nvidia_sign.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Nvidia_sign.jpg/1280px-Nvidia_sign.jpg",
+        "nazov": "Nvidia sign.jpg",
+        "autor": "Will Buckner",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Nvidia_sign.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia headquarters"
+      },
+      {
+        "url": "https://live.staticflickr.com/157/400107233_e39dc7fe3c_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/50b6e36f-a671-4a51-ac81-e7e4ef88441d/thumb/",
+        "nazov": "Google Headquarters on six displays",
+        "autor": "twid",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/48741368@N00/400107233",
+        "povod": "openverse",
+        "dopyt": "Nvidia headquarters"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic illustration of a cracked silicon microchip split in two against a dark technological background with glowing circuitry."
+  },
+  "prompt_ilustracie": "A symbolic illustration of a cracked silicon microchip split in two against a dark technological background with glowing circuitry.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/868a6235e7cd955b57d78c4e31822670",
+  "text_agentov": {
+    "titulok": "Šéf Nvidie Jensen Huang odstúpil po škandále, Kongres žiada prísnejšie pravidlá vývozu čipov",
+    "perex": "Odchod spoluzakladateľa Nvidie Jensena Huanga po odhalení pomeru s osobou podozrivou zo špionáže vyvolal otrasy v sektore umelej inteligencie aj politickú reakciu vo Vašingtóne.",
+    "telo": "Spoluzakladateľ a výkonný riaditeľ spoločnosti Nvidia Jensen Huang vo štvrtok odstúpil zo svojej funkcie. Stalo sa tak po odhalení jeho nemanželského pomeru s Alice Huang, bývalou manažérkou zákazníckej firmy Megaspeed, ktorá je podozrivá z väzieb na čínske spravodajské služby. Okrem toho portál TechCrunch informoval aj o ďalšom vyšetrovanom vzťahu s podriadenou manažérkou v Nvidii. Vedením technologického giganta bola dočasne poverená doterajšia finančná riaditeľka Collette Kress.\n\n## Podozrenia zo špionáže a reakcia Kongresu\n\nPodľa informácií portálu TechCrunch informácie o vzťahu s Alice Huang cirkulovali v spravodajských kruhoch takmer rok. Správa agentúry Bloomberg zo začiatku týždňa naznačila, že hlavný právnik Nvidie sa zaujímal o vyšetrovanie amerického ministerstva obchodu. Tieto zistenia spochybnili Huangove dlhodobé snahy o uvoľnenie pravidiel vývozu AI čipov do Číny.\n\nŠkandál vyvolal okamžitú reakciu vo Vašingtóne. Americký Kongres presadzuje sprísnenie kontrol vývozu čipov pre umelú inteligenciu. Líder senátnej menšiny Chuck Schumer vyhlásil, že Huang a Trumpova administratíva sa musia zodpovedať Kongresu. Predseda senátneho bankového výboru Tim Scott zaslal Huangovi aj ministrovi obchodu Howardovi Lutnickovi listy s výzvou na verejné vypovedanie. Predseda Snemovne reprezentantov Mike Johnson potvrdil rastúcu zhodu na obmedzení prístupu Číny k pokročilým technológiám. Znovu sa otvorila aj diskusia o návrhu zákona Remote Access Security Act, ktorý bol v Snemovni reprezentantov predložený v apríli 2025 a následne stagnoval v Senáte.\n\n## Vplyv na trh a investície do AI\n\nOdchod Jensena Huanga vyvoláva obavy v celom sektore umelej inteligencie. Nvidia ovláda približne 80 percent trhu s AI akcelerátormi (GPU). Pod Huangovým vedením spoločnosť vykazovala investície vo výške 99 miliárd dolárov, 25 miliárd v ďalších záväzkoch a 36 miliárd dolárov v záväzkoch na cloudové služby. Tieto finančné toky smerovali do kľúčových startupov ako OpenAI, CoreWeave či Nebius. Akékoľvek obmedzenie týchto investícií by mohlo mať citeľný dopad na globálny trh s technológiami AI.\n\n## Tlak na návrat a reakcie zo Silicon Valley\n\nSpoločnosť Megaspeed vo vyhlásení uviedla, že Alice Huang nepracuje vo firme od 30. augusta 2025 a súkromné záležitosti svojich bývalých zamestnancov nekomentuje.\n\nV Silicon Valley sa medzitým objavujú snahy o Huangov návrat. Podľa správ portálu The Verge a denníka Financial Times mal Huang diskutovať so svojimi spojencami o možnosti opätovného prevzatia vedenia. Otvorenému listu s výzvou na jeho návrat vyjadrili verejnú podporu aj Elon Musk či šéf Epic Games Tim Sweeney. Petícia má vyše 150-tisíc podpisov, no ich pravosť je nejasná, keďže sa medzi nimi objavili aj mená ako „Tim Cruise“ alebo skomolený „Xi Jingping“.\n\nKritici však návrat odmietajú. Zakladateľka spoločnosti 23andMe Anne Wojcicki pre Bloomberg uviedla: „Moc korumpuje a ľudia si začnú myslieť, že sú nezdolateľní. Všetci sme spoluvinní na tom, že si títo ľudia myslia, že sú bohmi. A keď si ľudia myslia, že sú nedotknuteľní, robia hlúpe veci.“ Mnohé ženy v technologickom sektore vnímajú kauzu ako ďalší príklad zneužitia moci na nadväzovanie vzťahov s podriadenými."
+  }
+}
