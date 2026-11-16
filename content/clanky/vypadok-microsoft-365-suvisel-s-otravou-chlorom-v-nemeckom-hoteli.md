@@ -3,24 +3,25 @@ title: Výpadok Microsoft 365 súvisel s otravou chlórom v nemeckom hoteli
 perex: Pätnásť hostí sa nadýchalo chlórového plynu po tom, čo sa hotelový systém pri upozorňovaní obsluhy na zvýšenú hladinu spoliehal na e-mailové správy. Podľa dostupnej správy sa varovania počas výpadku služieb Microsoftu neodoslali.
 sekcia: softver
 tagy:
-- Microsoft 365
-- cloud
-- výpadok služieb
-- bezpečnosť
-publikovane: '2026-11-16T18:08:33+00:00'
+  - Microsoft 365
+  - cloud
+  - výpadok služieb
+  - bezpečnosť
+publikovane: 2026-11-16T18:08:33+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/vypadok-microsoft-365-suvisel-s-otravou-chlorom-v-nemeckom-hoteli-mwjl02j8.jpg
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Tom''s Hardware: Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests'
-  url: https://www.tomshardware.com/tech-industry/data-centers/microsoft-365-outage-leads-to-chlorine-gas-poisoning-of-15-hotel-guests-email-warning-system-fails-40-first-responders-deployed-for-triage-four-hospitalized
+  - nazov: "Tom's Hardware: Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests"
+    url: https://www.tomshardware.com/tech-industry/data-centers/microsoft-365-outage-leads-to-chlorine-gas-poisoning-of-15-hotel-guests-email-warning-system-fails-40-first-responders-deployed-for-triage-four-hospitalized
 ---
 
 Pätnásť hostí hotela v Nemecku utrpelo otravu chlórovým plynom po tom, čo počas výpadku služieb Microsoftu zlyhal systém upozorňujúci na príliš vysokú koncentráciu chlóru v saunovej časti. Podľa portálu Tom’s Hardware sa varovania posielali e-mailom a pre výpadok sa nedostali k obsluhe. Štyroch ľudí previezli do nemocnice; jeden z nich tam zostal na ďalšie pozorovanie.
