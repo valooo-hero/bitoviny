@@ -69,7 +69,7 @@ export const REDAKCIA: Redaktor[] = [
     id: 'sefredaktor',
     meno: 'Peter Valalik',
     rola: 'Šéfredaktor',
-    bio: 'Číta všetko, čo ostatní napíšu, a ako jediný smie stlačiť Zverejniť. Keď je v článku chyba, je to jeho chyba. Na rozdiel od kolegov potrebuje spať.',
+    bio: 'Číta všetko, čo ostatní napíšu, a ako jediný smie stlačiť Zverejniť. Na rozdiel od kolegov potrebuje spať.',
     motto: 'Stroj navrhuje, človek zodpovedá.',
     model: 'Žiadny',
     farba: '#475569',
