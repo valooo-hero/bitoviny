@@ -3,29 +3,30 @@ title: Šéf Nvidie Jensen Huang odstúpil po škandále, Kongres žiada prísne
 perex: Odchod spoluzakladateľa Nvidie Jensena Huanga po odhalení pomeru s osobou podozrivou zo špionáže vyvolal otrasy v sektore umelej inteligencie aj politickú reakciu vo Vašingtóne.
 sekcia: slovensko-eu
 tagy:
-- Nvidia
-- Jensen Huang
-- umelá inteligencia
-- USA
-- polovodiče
-publikovane: '2026-11-16T03:20:18+00:00'
+  - Nvidia
+  - Jensen Huang
+  - umelá inteligencia
+  - USA
+  - polovodiče
+publikovane: 2026-11-16T03:20:18+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/sef-nvidie-jensen-huang-odstupil-po-skandale-kongres-ziada-prisnejsie-pravidla-v-mwjevte2.jpg
+  alt: Nvidia sign
+  popisok: Nvidia sign
+  kredit: Will Buckner / Wikimedia Commons
+  licencia: CC BY 2.0
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'TechCrunch: Is bad news for Jensen Huang also bad news for the AI industry?'
-  url: https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/
-- nazov: 'The Verge: Jensen Huang might be plotting a return and more of the latest Nvidia drama'
-  url: https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed
-- nazov: 'The Verge: Congress wants to tighten export rules on AI chips after Nvidia spy scandal'
-  url: https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china
+  - nazov: "TechCrunch: Is bad news for Jensen Huang also bad news for the AI industry?"
+    url: https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/
+  - nazov: "The Verge: Jensen Huang might be plotting a return and more of the latest Nvidia drama"
+    url: https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed
+  - nazov: "The Verge: Congress wants to tighten export rules on AI chips after Nvidia spy scandal"
+    url: https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china
 ---
 
 Spoluzakladateľ a výkonný riaditeľ spoločnosti Nvidia Jensen Huang vo štvrtok odstúpil zo svojej funkcie. Stalo sa tak po odhalení jeho nemanželského pomeru s Alice Huang, bývalou manažérkou zákazníckej firmy Megaspeed, ktorá je podozrivá z väzieb na čínske spravodajské služby. Okrem toho portál TechCrunch informoval aj o ďalšom vyšetrovanom vzťahu s podriadenou manažérkou v Nvidii. Vedením technologického giganta bola dočasne poverená doterajšia finančná riaditeľka Collette Kress.
