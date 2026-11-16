@@ -51,7 +51,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           DATUM: ${{ inputs.datum }}
-          POCET: ${{ inputs.pocet || '5' }}
+          POCET: ${{ inputs.pocet || '8' }}
         run: |
           if [ -z "$GOOGLE_API_KEY" ] || [ -z "$GROQ_API_KEY" ] || [ -z "$OPENROUTER_API_KEY" ]; then
             echo "::notice::Chýbajú API kľúče v GitHub Secrets, beh sa preskakuje."
