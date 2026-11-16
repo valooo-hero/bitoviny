@@ -3,25 +3,26 @@ title: Súd zamietol žiadosť výrobcov čipov v kauze manipulácie cien pamät
 perex: Sudkyňa konanie nezastavila, lebo žalobcovia podľa nej predložili nové dôkazy o možnej dohode. Firmy sa bránili, že sa navzájom len sledujú ako jastraby.
 sekcia: biznis
 tagy:
-- DRAM
-- Micron
-- Samsung
-- SK hynix
-- súd
-publikovane: '2026-11-16T03:20:35+00:00'
+  - DRAM
+  - Micron
+  - Samsung
+  - SK hynix
+  - súd
+publikovane: 2026-11-16T03:20:35+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/sud-zamietol-ziadost-vyrobcov-cipov-v-kauze-manipulacie-cien-pamati-dram-mwjelrec.jpg
+  alt: Micron
+  popisok: Micron
+  kredit: Micron
+  licencia: tlačový materiál
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Tom''s Hardware: Judge denies motion to dismiss DRAM price-fixing lawsuit against Micron, Samsung, and SK hynix, finds evidence of DRAM collusion plausible after 500% price surge'
-  url: https://www.tomshardware.com/tech-industry/big-tech/judge-denies-motion-to-dismiss-dram-price-fixing-lawsuit-against-micron-samsung-and-sk-hynix-says-chipmakers-acted-like-hawks-flying-in-formation-finds-evidence-of-dram-collusion-plausible-after-500-percent-price-surge
+  - nazov: "Tom's Hardware: Judge denies motion to dismiss DRAM price-fixing lawsuit against Micron, Samsung, and SK hynix, finds evidence of DRAM collusion plausible after 500% price surge"
+    url: https://www.tomshardware.com/tech-industry/big-tech/judge-denies-motion-to-dismiss-dram-price-fixing-lawsuit-against-micron-samsung-and-sk-hynix-says-chipmakers-acted-like-hawks-flying-in-formation-finds-evidence-of-dram-collusion-plausible-after-500-percent-price-surge
 ---
 
 Americký súd zamietol návrh na zastavenie navrhovanej hromadnej žaloby, ktorej čelia poprední svetoví výrobcovia pamäťových čipov Micron, Samsung a SK hynix. Rozhodnutie vydala sudkyňa Noël Wiseová, ktorá dohliada na tento prípad. Obvinenia sa týkajú údajnej manipulácie s cenami pamätí DRAM, pričom žalujúca strana predložila argumenty o možnej nelegálnej dohode medzi tromi gigantmi.
