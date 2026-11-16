@@ -3,25 +3,26 @@ title: Súd nechal pokračovať konanie o žalobe týkajúcej sa kartelových do
 perex: Žaloba proti Micronu, Samsungu a SK hynix tvrdí, že firmy obmedzovali ponuku pamätí a prispeli k prudkému rastu cien. Sudkyňa zatiaľ rozhodla iba o tom, že spor môže pokračovať.
 sekcia: biznis
 tagy:
-- DRAM
-- Micron
-- Samsung
-- SK hynix
-- súdne spory
-publikovane: '2026-11-16T18:54:04+00:00'
+  - DRAM
+  - Micron
+  - Samsung
+  - SK hynix
+  - súdne spory
+publikovane: 2026-11-16T18:54:04+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/sud-nechal-pokracovat-konanie-o-zalobe-tykajucej-sa-kartelovych-dohod-pri-cipoch-mwjny5t8.jpg
+  alt: 16K DRAM array.agr
+  popisok: 16K DRAM array.agr
+  kredit: ArnoldReinhold / Wikimedia Commons
+  licencia: CC BY-SA 4.0
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Tom''s Hardware: Judge denies motion to dismiss DRAM price-fixing lawsuit against Micron, Samsung, and SK hynix, finds evidence of DRAM collusion plausible after 500% price surge'
-  url: https://www.tomshardware.com/tech-industry/big-tech/judge-denies-motion-to-dismiss-dram-price-fixing-lawsuit-against-micron-samsung-and-sk-hynix-says-chipmakers-acted-like-hawks-flying-in-formation-finds-evidence-of-dram-collusion-plausible-after-500-percent-price-surge
+  - nazov: "Tom's Hardware: Judge denies motion to dismiss DRAM price-fixing lawsuit against Micron, Samsung, and SK hynix, finds evidence of DRAM collusion plausible after 500% price surge"
+    url: https://www.tomshardware.com/tech-industry/big-tech/judge-denies-motion-to-dismiss-dram-price-fixing-lawsuit-against-micron-samsung-and-sk-hynix-says-chipmakers-acted-like-hawks-flying-in-formation-finds-evidence-of-dram-collusion-plausible-after-500-percent-price-surge
 ---
 
 Americká sudkyňa Noël Wise zamietla návrh spoločností Micron, Samsung a SK hynix na zastavenie žaloby, ktorá ich obviňuje z koordinácie pri obmedzovaní ponuky pamätí DRAM. Podľa portálu Tom’s Hardware súd považuje tvrdenia žalobcov za dostatočne vierohodné na to, aby sa prípad posunul ďalej. Nejde však o rozhodnutie, že firmy porušili zákon: obe strany ešte môžu predložiť dôkazy a argumenty.
