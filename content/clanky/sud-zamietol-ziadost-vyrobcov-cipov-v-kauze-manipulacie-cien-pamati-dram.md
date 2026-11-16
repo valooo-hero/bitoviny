@@ -23,6 +23,13 @@ redaktori:
 zdroje:
   - nazov: "Tom's Hardware: Judge denies motion to dismiss DRAM price-fixing lawsuit against Micron, Samsung, and SK hynix, finds evidence of DRAM collusion plausible after 500% price surge"
     url: https://www.tomshardware.com/tech-industry/big-tech/judge-denies-motion-to-dismiss-dram-price-fixing-lawsuit-against-micron-samsung-and-sk-hynix-says-chipmakers-acted-like-hawks-flying-in-formation-finds-evidence-of-dram-collusion-plausible-after-500-percent-price-surge
+galeria:
+  - src: /obrazky/sud-zamietol-ziadost-vyrobcov-cipov-v-kauze-manipulacie-cien-pamati-dram-mwjem0rd.png
+    alt: HBM3E vs HBM4
+    popisok: HBM3E vs HBM4
+    kredit: "(Image credit: SK Hynix)"
+    licencia: tlačový materiál
+    ai: false
 ---
 
 Americký súd zamietol návrh na zastavenie navrhovanej hromadnej žaloby, ktorej čelia poprední svetoví výrobcovia pamäťových čipov Micron, Samsung a SK hynix. Rozhodnutie vydala sudkyňa Noël Wiseová, ktorá dohliada na tento prípad. Obvinenia sa týkajú údajnej manipulácie s cenami pamätí DRAM, pričom žalujúca strana predložila argumenty o možnej nelegálnej dohode medzi tromi gigantmi.
