@@ -8,7 +8,7 @@ tagy:
   - inteligentné okuliare
   - visionOS
   - WWDC
-publikovane: 2026-11-16T03:20:22+00:00
+publikovane: 2026-11-16T15:18:55Z
 obrazok:
   src: /obrazky/apple-pripravuje-inteligentne-okuliare-so-siri-predstavit-ich-ma-buduci-rok-mwjerl9a.jpg
   alt: COP30 - Smart Glasses 01
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "9to5Mac: Apple’s Siri AI smart glasses are reportedly launching next year, here’s what to expect"
     url: https://9to5mac.com/2026/11/15/apples-siri-ai-smart-glasses-are-reportedly-launching-next-year-heres-what-to-expect/
