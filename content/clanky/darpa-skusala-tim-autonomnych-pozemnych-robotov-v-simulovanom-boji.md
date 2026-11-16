@@ -7,7 +7,7 @@ tagy:
   - autonómne vozidlá
   - robotika
   - vojenské technológie
-publikovane: 2026-11-16T18:54:08+00:00
+publikovane: 2026-11-16T19:33:29Z
 obrazok:
   src: /obrazky/darpa-skusala-tim-autonomnych-pozemnych-robotov-v-simulovanom-boji-mwjnvava.jpg
   alt: DARPA blog
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Tom's Hardware: Pentagon tests pack hunting with autonomous war robots"
     url: https://www.tomshardware.com/tech-industry/drones/pentagon-tests-pack-hunting-with-autonomous-war-robots-darpa-experimented-with-four-drone-ground-vehicles-that-detected-tracked-and-engaged-simulated-threats
