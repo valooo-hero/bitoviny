@@ -8,7 +8,7 @@ tagy:
   - umelá inteligencia
   - USA
   - polovodiče
-publikovane: 2026-11-16T03:20:18+00:00
+publikovane: 2026-11-16T15:21:54Z
 obrazok:
   src: /obrazky/sef-nvidie-jensen-huang-odstupil-po-skandale-kongres-ziada-prisnejsie-pravidla-v-mwjevte2.jpg
   alt: Nvidia sign
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "TechCrunch: Is bad news for Jensen Huang also bad news for the AI industry?"
     url: https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/
