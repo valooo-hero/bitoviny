@@ -8,7 +8,7 @@ tagy:
   - Vulcan
   - satelity
   - vesmír
-publikovane: 2026-11-16T03:20:26+00:00
+publikovane: 2026-11-16T15:17:27Z
 obrazok:
   src: /obrazky/raketa-vulcan-od-ula-zlyhala-a-znicila-40-satelitov-projektu-amazon-leo-mwjep8kx.jpg
   alt: Vulcan Centaur rollout (Peregrine) (cropped 2)
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Verge: Vulcan rocket fails, destroying 40 Amazon Leo satellites"
     url: https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites
