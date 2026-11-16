@@ -8,7 +8,7 @@ tagy:
   - Darrel Dai
   - rezignácia
   - transparentnosť
-publikovane: 2026-11-16T16:27:42+00:00
+publikovane: 2026-11-16T17:28:44Z
 obrazok:
   src: /obrazky/nvidiu-opusta-dalsi-inzinier-kritizuje-nedostatok-transparentnosti-mwjjeve7.jpg
   alt: Computex Taipei ad on TaiNEX 1 20190601b
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Tom's Hardware: Nvidia engineer leaves company over lack of transparency around Jensen Huang’s exit, details decision"
     url: https://www.tomshardware.com/tech-industry/robotics-engineer-leaves-nvidia-over-lack-of-transparency-around-jensen-huangs-exit-details-decision-joins-chorus-of-disgruntled-staff-as-petition-to-reinstate-former-ceo-passes-150-000-signatures
