@@ -3,31 +3,32 @@ title: Nvidiu opúšťa ďalší inžinier, kritizuje nedostatok transparentnost
 perex: Robotický inžinier Darrel Dai oznámil odchod z Nvidie. Ako dôvod uviedol nespokojnosť s tým, ako vedenie komunikovalo náhlu rezignáciu šéfa Jensena Huanga, ktorú sprevádzajú viaceré škandály.
 sekcia: bezpecnost
 tagy:
-- Nvidia
-- Jensen Huang
-- Darrel Dai
-- rezignácia
-- transparentnosť
-publikovane: '2026-11-16T16:27:42+00:00'
+  - Nvidia
+  - Jensen Huang
+  - Darrel Dai
+  - rezignácia
+  - transparentnosť
+publikovane: 2026-11-16T16:27:42+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/nvidiu-opusta-dalsi-inzinier-kritizuje-nedostatok-transparentnosti-mwjjeve7.jpg
+  alt: Computex Taipei ad on TaiNEX 1 20190601b
+  popisok: Computex Taipei ad on TaiNEX 1 20190601b
+  kredit: Solomon203 / Wikimedia Commons
+  licencia: CC BY-SA 4.0
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Tom''s Hardware: Nvidia engineer leaves company over lack of transparency around Jensen Huang’s exit, details decision'
-  url: https://www.tomshardware.com/tech-industry/robotics-engineer-leaves-nvidia-over-lack-of-transparency-around-jensen-huangs-exit-details-decision-joins-chorus-of-disgruntled-staff-as-petition-to-reinstate-former-ceo-passes-150-000-signatures
-- nazov: 'TechCrunch: Where was Nvidia’s security team?'
-  url: https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/
-- nazov: 'Tom''s Hardware: Elon Musk signs petition to reinstate Jensen Huang as Nvidia CEO'
-  url: https://www.tomshardware.com/tech-industry/elon-musk-signs-petition-to-reinstate-jensen-huang-as-nvidia-ceo-over-130-000-sign-online-petition-but-not-all-nvidians-support-jensens-return
-- nazov: 'Tom''s Hardware: Nvidia board director cashed out $1 billion in stock before Jensen Huang scandal'
-  url: https://www.tomshardware.com/tech-industry/nvidia-board-director-cashed-out-usd1-billion-in-stock-before-jensen-huang-scandal-mark-stevens-sold-4-2-million-shares-without-a-trading-plan
+  - nazov: "Tom's Hardware: Nvidia engineer leaves company over lack of transparency around Jensen Huang’s exit, details decision"
+    url: https://www.tomshardware.com/tech-industry/robotics-engineer-leaves-nvidia-over-lack-of-transparency-around-jensen-huangs-exit-details-decision-joins-chorus-of-disgruntled-staff-as-petition-to-reinstate-former-ceo-passes-150-000-signatures
+  - nazov: "TechCrunch: Where was Nvidia’s security team?"
+    url: https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/
+  - nazov: "Tom's Hardware: Elon Musk signs petition to reinstate Jensen Huang as Nvidia CEO"
+    url: https://www.tomshardware.com/tech-industry/elon-musk-signs-petition-to-reinstate-jensen-huang-as-nvidia-ceo-over-130-000-sign-online-petition-but-not-all-nvidians-support-jensens-return
+  - nazov: "Tom's Hardware: Nvidia board director cashed out $1 billion in stock before Jensen Huang scandal"
+    url: https://www.tomshardware.com/tech-industry/nvidia-board-director-cashed-out-usd1-billion-in-stock-before-jensen-huang-scandal-mark-stevens-sold-4-2-million-shares-without-a-trading-plan
 ---
 
 Nvidia čelí ďalšiemu otrasu. Robotický inžinier Darrel Dai oznámil, že opúšťa spoločnosť. Ako dôvod uviedol nedostatok transparentnosti okolo náhlej rezignácie šéfa Jensena Huanga, ktorý čelí obvineniam z pomeru s údajnou čínskou špiónkou aj z pomerov so zamestnankyňami. Informoval o tom portál Tom's Hardware.
