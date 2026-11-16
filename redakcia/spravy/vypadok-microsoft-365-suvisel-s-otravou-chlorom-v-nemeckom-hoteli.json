@@ -1,0 +1,469 @@
+{
+  "slug": "vypadok-microsoft-365-suvisel-s-otravou-chlorom-v-nemeckom-hoteli",
+  "datum_sprav": "2026-11-15",
+  "dovod_vyberu": "Výpadok Microsoft 365 mal vážne následky pre hostí hotela a ukazuje, ako zlyhanie softvéru môže ovplyvniť bezpečnosť v reálnom svete.",
+  "poznamky_pre_editora": "V perexe som tvrdenie, že systém upozorňoval obsluhu „iba e-mailom“, upravila na formuláciu, že sa na e-mailové upozornenia spoliehal. Zdroj potvrdzuje e-mailové varovania, nie však to, že išlo o jediný spôsob upozornenia.",
+  "upozornenia": [
+    "Téma má len jeden zdroj. Redakčné zásady žiadajú aspoň dva, zvážte doplnenie alebo zahodenie."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je v hlavných faktoch spoľahlivý a väčšina tvrdení zodpovedá zdroju. Najväčším obmedzením je, že jediný zdroj len stručne opisuje príčinnú súvislosť a neuvádza podrobnosti technického vyšetrovania ani potvrdenie od Microsoftu.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 31,
+        "potvrdenych": 30,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 27,
+        "potvrdenych": 26,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 25,
+        "potvrdenych": 25,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Výpadok Microsoft 365 súvisel s otravou chlórom v nemeckom hoteli.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Fifteen guests at a hotel in Germany suffered from chlorine gas poisoning because of the recent Microsoft cloud services outage.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Otravu chlórovým plynom utrpelo 15 hostí.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Fifteen guests at a hotel in Germany suffered from chlorine gas poisoning",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Hotelový systém upozorňoval obsluhu na príliš vysokú hladinu chlóru v saunovej časti e-mailom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "a “maintenance safety system” for its sauna area that relied on sending emails to warn the operators if the chlorine level in the area was too high.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Počas výpadku sa varovania neodoslali.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the service disruption meant that the system's messages could not be sent",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výpadok spôsobil zlyhanie systému upozorňujúceho na príliš vysokú koncentráciu chlóru.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the service disruption meant that the system's messages could not be sent, leading to increased levels that precipitated human injuries",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tom’s Hardware sa pri opise incidentu odvoláva na Notebookcheck a miestne médiá.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "writes Notebookcheck . German emergency services had to deploy 40 first responders to the site, with local media reporting",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zverejnené informácie neuvádzajú názov hotela ani presnú lokalitu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Fifteen guests at a hotel in Germany",
+        "komentar": "Článok uvádza iba hotel v Nemecku a nešpecifikuje jeho názov ani miesto.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroje neuvádzajú nameranú koncentráciu chlóru ani trvanie výpadku výstražného systému.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "leading to increased levels that precipitated human injuries",
+        "komentar": "Článok opisuje zvýšenie hladiny, no neuvádza nameranú hodnotu ani trvanie výpadku.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nie je jasné, či samotné meranie chlóru fungovalo aj počas výpadku.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the system's messages could not be sent, leading to increased levels",
+        "komentar": "Zdroj opisuje neodoslané správy a rastúcu hladinu, ale neuvádza, či meranie pokračovalo.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Koncentrácia chlóru sa zvýšila natoľko, že spôsobila zranenia hostí.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "leading to increased levels that precipitated human injuries",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Personál mal byť o nebezpečenstve informovaný cez online službu, ktorá vtedy nefungovala.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "relied on sending emails to warn the operators",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "E-mail bol súčasťou bezpečnostného upozorňovania, nielen bežným komunikačným nástrojom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "a “maintenance safety system” for its sauna area that relied on sending emails to warn the operators",
+        "komentar": "Ide o primerané zhrnutie toho, že e-mailové správy mali upozorňovať obsluhu na nebezpečnú hladinu chlóru.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na miesto vyslali 40 zasahujúcich pracovníkov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "German emergency services had to deploy 40 first responders to the site",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Štyroch ľudí previezli do nemocnice na ošetrenie.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "local media reporting that four victims were taken to the hospital for treatment",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jeden hospitalizovaný zostal v nemocnici na ďalšie pozorovanie.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "with one remaining for further observation.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Článok neuvádza stav ostatných hospitalizovaných ani dátum ich prepustenia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "four victims were taken to the hospital for treatment, with one remaining for further observation.",
+        "komentar": "Zdroj uvádza iba počet prevezených a informáciu o jednom človeku ponechanom na pozorovanie.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Globálny výpadok zasiahol Outlook a ďalšie služby od 12. do 14. novembra.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "a global outage affecting Outlook and other services from November 12 to 14",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Článok neuvádza, či Microsoft potvrdil konkrétnu súvislosť s hotelovým systémom.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Fifteen guests at a hotel in Germany suffered from chlorine gas poisoning because of the recent Microsoft cloud services outage.",
+        "komentar": "Zdroj pripisuje súvislosť výpadku, no neuvádza vyjadrenie Microsoftu.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Príčinné spojenie vychádza z mediálneho opisu, nie z podrobného technického vyšetrovania uvedeného v článku.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "writes Notebookcheck . German emergency services had to deploy 40 first responders to the site, with local media reporting",
+        "komentar": "Zdroj odkazuje na Notebookcheck a miestne médiá a neuvádza podrobné technické vyšetrovanie.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri bezpečnostne dôležitých automatizovaných systémoch treba počítať so závislosťou od online služieb alebo internetu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "institutions must consider when using online services or the Internet of Things to automate systems, especially those that are crucial for safety.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako poistku článok odporúča fyzické alebo analógové záložné riešenie a zaškolenie ľudí, ktorí ho majú použiť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Architects of such systems should always have a physical or analog backup that will continue operating even if everything goes offline.",
+        "komentar": "Zdroj zároveň hovorí, že ľudia majú o zálohe vedieť a poznať jej fungovanie.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Alternatívou je prevádzka vlastných serverov a automatizácie lokálne, no aj miestnu infraštruktúru môžu postihnúť výpadky napájania.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "businesses can host their own servers, build their own automations, and run everything locally",
+        "komentar": "Zdroj spomína aj náročnejšie budovanie a programovanie systému a možný vplyv výpadkov napájania.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výpadok upozornil na rastúcu závislosť firiem od niekoľkých veľkých technologických spoločností.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the Microsoft outage also highlights the corporate world’s increasing reliance on a few big tech companies.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rozsah a úspory z veľkej prevádzky prinášajú výhody, no výpadky môžu zasiahnuť viacero zákazníkov naraz.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "While tech giants like Microsoft, Google, and AWS have the advantage of economies of scale",
+        "komentar": "Zdroj spája výhody veľkého rozsahu s tým, že výpadok môže zasiahnuť milióny závislých firiem.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Firmy a prevádzky by mali preveriť, čo sa stane, keď cloudové bezpečnostné upozornenia prestanú fungovať.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Architects of such systems should always have a physical or analog backup that will continue operating even if everything goes offline.",
+        "komentar": "Ide o redakčné zhrnutie odporúčania zdroja pripraviť zálohu pre výpadok online systému.",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": " ktoré",
+        "opravene": ", ktoré",
+        "dovod": "LanguageTool: Dajte čiarku pred „ktorý“: \", ktoré\".",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "LanguageTool"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "upozorňujúci",
+        "kontext": "ýpadku služieb Microsoftu zlyhal systém upozorňujúci na príliš vysokú koncentráciu chlóru v ",
+        "navrhy": [
+          "upozorňujúc",
+          "upozorňujú ci",
+          "upozorňujúc i"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "saunovej",
+        "kontext": " na príliš vysokú koncentráciu chlóru v saunovej časti. Podľa portálu Tom’s Hardware sa ",
+        "navrhy": [
+          "saňovej",
+          "šajnovej",
+          "šatňovej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "saunovej",
+        "kontext": "vé varovanie sa neodoslalo\n\nHotel mal v saunovej zóne systém, ktorý mal obsluhu upozorni",
+        "navrhy": [
+          "saňovej",
+          "šajnovej",
+          "šatňovej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cloudu",
+        "kontext": "\n## Výpadok ukázal riziko závislosti od cloudu\n\nTom’s Hardware upozorňuje, že pri auto",
+        "navrhy": [
+          "clou du"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cloudové",
+        "kontext": "h systémoch preverili, čo sa stane, keď cloudové upozornenia prestanú fungovať.",
+        "navrhy": [
+          "Chodove",
+          "chodové",
+          "clonové"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -23 +23 @@\n-Tom’s Hardware upozorňuje, že pri automatizovaných systémoch dôležitých pre bezpečnosť môže byť problémom závislosť od internetového pripojenia alebo online služieb. Ako možné poistky článok spomína fyzické či analógové záložné riešenie, o ktorom obsluha vie a ktoré dokáže použiť. Alternatívou môže byť prevádzka systému na vlastnej infraštruktúre, hoci aj tá môže mať výpadky, napríklad pre prerušenie napájania.\n+Tom’s Hardware upozorňuje, že pri automatizovaných systémoch dôležitých pre bezpečnosť môže byť problémom závislosť od internetového pripojenia alebo online služieb. Ako možné poistky článok spomína fyzické či analógové záložné riešenie, o ktorom obsluha vie a, ktoré dokáže použiť. Alternatívou môže byť prevádzka systému na vlastnej infraštruktúre, hoci aj tá môže mať výpadky, napríklad pre prerušenie napájania."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Chemical_Warfare_-_DPLA_-_ba13ecb3c4361b0b8ef5bf692b1204b5_%28page_282%29.jpg/1280px-Chemical_Warfare_-_DPLA_-_ba13ecb3c4361b0b8ef5bf692b1204b5_%28page_282%29.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/LVU3kxMU42xw93Lbc2p2Wc-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Microsoft data center in Mount Pleasant, Wisconsin",
+        "popisok": "",
+        "kredit": "(Image credit: Microsoft)",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Microsoft."
+      }
+    ],
+    "dopyty": [
+      "hotel chlorine alarm",
+      "chlorine gas detector",
+      "hotel swimming pool"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Chemical_Warfare_-_DPLA_-_ba13ecb3c4361b0b8ef5bf692b1204b5_%28page_282%29.jpg/1280px-Chemical_Warfare_-_DPLA_-_ba13ecb3c4361b0b8ef5bf692b1204b5_%28page_282%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Chemical_Warfare_-_DPLA_-_ba13ecb3c4361b0b8ef5bf692b1204b5_%28page_282%29.jpg/1280px-Chemical_Warfare_-_DPLA_-_ba13ecb3c4361b0b8ef5bf692b1204b5_%28page_282%29.jpg",
+        "nazov": "Chemical Warfare - DPLA - ba13ecb3c4361b0b8ef5bf692b1204b5 (page 282).jpg",
+        "autor": "Fries, Amos A. (Amos Alfred), 1873-1963; West, Clarence J. (Clarence Jay), 1886-1953",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Chemical_Warfare_-_DPLA_-_ba13ecb3c4361b0b8ef5bf692b1204b5_(page_282).jpg",
+        "povod": "wikimedia",
+        "dopyt": "chlorine gas detector"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Swimming_Pool_in_a_hotel_in_Tamil_Nadu_03.jpg/1280px-Swimming_Pool_in_a_hotel_in_Tamil_Nadu_03.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Swimming_Pool_in_a_hotel_in_Tamil_Nadu_03.jpg/1280px-Swimming_Pool_in_a_hotel_in_Tamil_Nadu_03.jpg",
+        "nazov": "Swimming Pool in a hotel in Tamil Nadu 03.jpg",
+        "autor": "Kritzolina",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Swimming_Pool_in_a_hotel_in_Tamil_Nadu_03.jpg",
+        "povod": "wikimedia",
+        "dopyt": "hotel swimming pool"
+      },
+      {
+        "url": "https://live.staticflickr.com/3186/2604172695_11b26b71d0_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/81d6f60f-3bd6-42be-9d78-03048456e000/thumb/",
+        "nazov": "Koryo Hotel Swimming Pool. Pyongyang, North Korea.",
+        "autor": "(stephan)",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/82992618@N00/2604172695",
+        "povod": "openverse",
+        "dopyt": "hotel swimming pool"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Swimming_pool_of_Khan_Pool_Suite_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg/1280px-Swimming_pool_of_Khan_Pool_Suite_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Swimming_pool_of_Khan_Pool_Suite_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg/1280px-Swimming_pool_of_Khan_Pool_Suite_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg",
+        "nazov": "Swimming pool of Khan Pool Suite in Amantaka luxury Resort & Hotel in Luang Prabang Laos.jpg",
+        "autor": "Basile Morin",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Swimming_pool_of_Khan_Pool_Suite_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg",
+        "povod": "wikimedia",
+        "dopyt": "hotel swimming pool"
+      },
+      {
+        "url": "https://live.staticflickr.com/622/33008522350_ba955d0dbb_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/97065be8-db02-4f4d-8af7-f85d580e17ca/thumb/",
+        "nazov": "Love the Banana Leaf screen around the Hotel's Swimming Pool",
+        "autor": "PiktourUK",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/69706441@N03/33008522350",
+        "povod": "openverse",
+        "dopyt": "hotel swimming pool"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Swimming_pool_and_terrasse_of_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg/1280px-Swimming_pool_and_terrasse_of_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Swimming_pool_and_terrasse_of_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg/1280px-Swimming_pool_and_terrasse_of_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg",
+        "nazov": "Swimming pool and terrasse of Amantaka luxury Resort & Hotel in Luang Prabang Laos.jpg",
+        "autor": "Basile Morin",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Swimming_pool_and_terrasse_of_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg",
+        "povod": "wikimedia",
+        "dopyt": "hotel swimming pool"
+      },
+      {
+        "url": "https://live.staticflickr.com/3876/14834268731_34bc05e578_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/0a8fe8a8-0847-462e-b928-a7c935d1e292/thumb/",
+        "nazov": "Diving Into An Italian Hotel Swimming Pool Near Perugia",
+        "autor": "Roger Green",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/49573920@N00/14834268731",
+        "povod": "openverse",
+        "dopyt": "hotel swimming pool"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Swimming_pool_and_main_building_of_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg/1280px-Swimming_pool_and_main_building_of_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Swimming_pool_and_main_building_of_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg/1280px-Swimming_pool_and_main_building_of_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg",
+        "nazov": "Swimming pool and main building of Amantaka luxury Resort & Hotel in Luang Prabang Laos.jpg",
+        "autor": "Basile Morin",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Swimming_pool_and_main_building_of_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg",
+        "povod": "wikimedia",
+        "dopyt": "hotel swimming pool"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a hotel sauna warning system interrupted by a cloud outage, with an undelivered email icon and no people depicted."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a hotel sauna warning system interrupted by a cloud outage, with an undelivered email icon and no people depicted.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/fc2b00b4b1a58029344a2d24381f6f75",
+  "text_agentov": {
+    "titulok": "Výpadok Microsoft 365 súvisel s otravou chlórom v nemeckom hoteli",
+    "perex": "Pätnásť hostí sa nadýchalo chlórového plynu po tom, čo sa hotelový systém pri upozorňovaní obsluhy na zvýšenú hladinu spoliehal na e-mailové správy. Podľa dostupnej správy sa varovania počas výpadku služieb Microsoftu neodoslali.",
+    "telo": "Pätnásť hostí hotela v Nemecku utrpelo otravu chlórovým plynom po tom, čo počas výpadku služieb Microsoftu zlyhal systém upozorňujúci na príliš vysokú koncentráciu chlóru v saunovej časti. Podľa portálu Tom’s Hardware sa varovania posielali e-mailom a pre výpadok sa nedostali k obsluhe. Štyroch ľudí previezli do nemocnice; jeden z nich tam zostal na ďalšie pozorovanie.\n\nTom’s Hardware sa pri opise incidentu odvoláva na Notebookcheck a miestne médiá. Zverejnené informácie neuvádzajú názov hotela ani presnú lokalitu. Nie je v nich ani údaj o nameranej koncentrácii chlóru či podrobnejší opis toho, ako dlho výstražný systém nefungoval.\n\n## E-mailové varovanie sa neodoslalo\n\nHotel mal v saunovej zóne systém, ktorý mal obsluhu upozorniť, keď hladina chlóru prekročí bezpečnú úroveň. Správy o upozorneniach sa podľa článku odosielali e-mailom. Keď bola služba nedostupná, e-mailové varovania nebolo možné doručiť a koncentrácia chlóru sa zvýšila natoľko, že zasiahla hostí.\n\nZ dostupného opisu nie je jasné, či samotné meranie chlóru fungovalo ďalej alebo či výpadok ovplyvnil aj iné časti systému. Správa však vykresľuje podstatný problém: personál mal byť o nebezpečnej situácii informovaný cez online službu, ktorá v danom čase nefungovala. E-mail tak v tomto prípade nebol iba komunikačným nástrojom, ale súčasťou bezpečnostného upozorňovania.\n\n## Na mieste zasahovalo 40 záchranárov\n\nNemecké záchranné zložky podľa miestnych médií vyslali na miesto 40 zasahujúcich pracovníkov. Pätnásť hostí utrpelo otravu a štyroch previezli na ošetrenie do nemocnice. Jeden z hospitalizovaných tam podľa správy zostal na ďalšie pozorovanie; informácie o stave ostatných ani o tom, kedy ich prepustili, článok neuvádza.\n\nIncident sa časovo spája s globálnym výpadkom služieb Microsoftu, ktorý podľa Tom’s Hardware zasiahol Outlook a ďalšie služby od 12. do 14. novembra. Článok neuvádza, či Microsoft potvrdil konkrétnu súvislosť s hotelovým systémom. Príčinné spojenie medzi nedostupnosťou služby a neodoslanými výstrahami preto vychádza z opisu udalosti v médiách, nie z podrobného technického vyšetrovania zverejneného v článku.\n\n## Výpadok ukázal riziko závislosti od cloudu\n\nTom’s Hardware upozorňuje, že pri automatizovaných systémoch dôležitých pre bezpečnosť môže byť problémom závislosť od internetového pripojenia alebo online služieb. Ako možné poistky článok spomína fyzické či analógové záložné riešenie, o ktorom obsluha vie a, ktoré dokáže použiť. Alternatívou môže byť prevádzka systému na vlastnej infraštruktúre, hoci aj tá môže mať výpadky, napríklad pre prerušenie napájania.\n\nVýpadok zároveň pripomenul, že služby niekoľkých veľkých technologických spoločností používa množstvo organizácií. Ich rozsah a úspory z veľkej prevádzky prinášajú výhody, no nedostupnosť služby môže naraz zasiahnuť viacerých zákazníkov. Prípad je upozornením pre firmy a prevádzky, aby pri bezpečnostne významných systémoch preverili, čo sa stane, keď cloudové upozornenia prestanú fungovať."
+  }
+}
