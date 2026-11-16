@@ -1,0 +1,602 @@
+{
+  "slug": "fbi-narusila-severokorejsku-kampan-facestealer-spajanu-s-utokom-na-binance",
+  "datum_sprav": "2026-11-15",
+  "dovod_vyberu": "Zásah FBI proti severokórejskej kampani spojenej s kryptomenovým útokom môže upozorniť na rozsah a metódy závažných kybernetických hrozieb.",
+  "poznamky_pre_editora": "Vypustila som nepodložené tvrdenie, že opis kampane je relevantný pre firmy a vývojárov na Slovensku a v EÚ. Ostatné tvrdenia som nemenila.",
+  "upozornenia": [
+    "Téma má len jeden zdroj. Redakčné zásady žiadajú aspoň dva, zvážte doplnenie alebo zahodenie."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je vysoko spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojovom článku a žiadne podstatné informácie nie sú skreslené. Najvážnejším problémom nie je žiadna faktická chyba, ale len drobné štylistické úpravy, ktoré nemenia význam.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 31,
+        "potvrdenych": 30,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 30,
+        "potvrdenych": 30,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Americké úrady zaistili cloudovú infraštruktúru, v ktorej sa podľa FBI nachádzalo 900 videí obetí.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The agency's techs seized \"cloud-based infrastructure,\" containing 900 videos of targeted victims.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Útočníci využívali AI deepfaky, falošné pracovné ponuky aj škodlivý softvér na krádež prístupov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "FaceStealer is an advanced form of spear-phishing, complete with AI deepfakes... The victim will eventually be invited to a Zoom or Teams meeting... loaded with malware.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Americké úrady narušili infraštruktúru kampane FaceStealer, ktorú FBI pripisuje severokórejským útočníkom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "According to the DoJ , North Korea is behind these attacks, stealing cryptocurrency to fund its government.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zásah sa týkal cloudových serverov s približne 900 videami ľudí, ktorých si skupina vyhliadla.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The agency's techs seized \"cloud-based infrastructure,\" containing 900 videos of targeted victims.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa zistení FBI nejde o jednoduchý podvodný e-mail, ale o dlhodobo pripravované útoky využívajúce osobné údaje, kontakty obetí a videá vytvorené alebo upravené pomocou umelej inteligencie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "FaceStealer is an advanced form of spear-phishing, complete with AI deepfakes, usage of the victims' contact networks and personal information, and carefully orchestrated preparation — sometimes months in advance.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Portál Tom's Hardware uvádza, že FBI spája kampaň s krádežou približne 400 miliónov dolárov v kryptomenách.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The FBI attributes about $400m in stolen cryptocurrency to the campaign",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "FaceStealer má byť zároveň spájaný s nedávnym útokom na Binance, pri ktorom útočníci získali kryptomeny v hodnote viac než päť miliárd dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The largest heist attributed to FaceStealer is the recent Binance hack that saw thieves make out the proverbial door with over $5 billion",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa článku bola väčšina tejto sumy zmrazená alebo získaná späť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "most of it thankfully frozen and/or recovered",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tieto dve sumy sa týkajú odlišných údajov: FBI pripisuje kampani približne 400 miliónov dolárov v ukradnutých kryptomenách, zatiaľ čo suma nad päť miliárd opisuje útok na Binance.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The FBI attributes about $400m in stolen cryptocurrency to the campaign... The largest heist attributed to FaceStealer is the recent Binance hack that saw thieves make out the proverbial door with over $5 billion",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Útok sa podľa opisu FBI začína prístupom ku komunikačným účtom obete.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "FaceStealers start by getting access to a person's communication application(s)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Útočníci z nich získavajú staršie konverzácie, zoznamy kontaktov a ďalšie osobné informácie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "then lifting all previous conversations, contact lists, and, most importantly, stealthily recording video of them and/or their contacts.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zároveň môžu nenápadne nahrávať video obete alebo jej kolegov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "stealthily recording video of them and/or their contacts.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tieto materiály potom použijú na prípravu presvedčivého kontaktu s ďalším cieľom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The footage and information will then be used to catch the actual targeted victim",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kampaň podľa zdroja prebieha najmenej 18 mesiacov a jednotlivé fázy prípravy môžu trvať mesiace.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "has reportedly been running for at least 18 months... carefully orchestrated preparation — sometimes months in advance.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Obete oslovujú napríklad s pracovnou alebo investičnou ponukou.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "who'll often be sent offers for jobs or investment opportunities.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Následne ich pozvú na videohovor cez Zoom alebo Teams, ktorý v skutočnosti prebieha na serveri útočníkov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The victim will eventually be invited to a Zoom or Teams meeting that's actually hosted on an attacker-controlled server",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Falošné webové adresy sa podobajú na legitímne služby a na hovore sa môžu objaviť deepfaky alebo záznamy predchádzajúcich stretnutí.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "with a typo-squatted domain like \"uu01webzoom.us\" or \"teams.livemeet.us\". The meeting will often have deepfaked AI participants and/or previous meeting recordings playing",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Konverzácie pred týmto kontaktom môžu obsahovať skutočné informácie o človeku, vďaka čomu je podvod ťažšie rozpoznateľný.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "particularly because conversations leading up to this point will contain real information and context.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V určitom momente sa objaví údajný technický problém.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "At some point, though, there will be some sort of \"technical problem,\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Cieľ dostane pokyn nainštalovať aktualizáciu alebo program, ktorý má ho vyriešiť, no v skutočnosti obsahuje malvér.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the victim will be prompted to install an \"update\" or software to fix the problem, which is loaded with malware.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ten umožní útočníkom získať prístup k počítaču a údajom vrátane aktívnych relácií v prehliadači a prihlasovacích údajov k nástrojom pre vývoj a nasadzovanie softvéru.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the attackers have free rein over the victim's computer and data, and will siphon off browser sessions, CI/CD passwords, and all manners of access credentials",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa FBI nemusia útočníci zaútočiť na konečný cieľ hneď.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The FBI says that the above scenario may play out in multiple cycles until the attackers reach their intended target",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Informácie a prístupy získané od prvých obetí môžu využiť na ďalšie kolá útokov a na presvedčivejšie vydávanie sa za dôveryhodné osoby.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "collecting loads of precious video and information along the way to make the final strike much more convincing.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tom's Hardware uvádza prípad vývojára Axiosa Jasona Sayaymana, ktorého oslovil útočník predstierajúci záujem o jeho prijatie do firmy.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Jason Sayayman, the Axios developer in question, got hooked by an attacker posing as a legitimate company interested in hiring him.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vytvoril vierohodné pracovné prostredie v Slacku a pozval ho na stretnutie cez Teams.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The malfeasants replicated the CEO's persona, created a Slack workspace with legitimate-looking channels, then invited him to a Teams meeting with multiple \"people.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "FBI upozornila aj na opakované pokusy preniknúť do open-source softvéru, najmä do balíkov JavaScriptu v registri NPM a knižníc Rustu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the hackers have repeatedly tried to sneak into open-source software, chiefly Javascript/NPM modules and Rust crates.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Článok spája tento vzorec s kompromitovaním knižnice Axios v marci 2026, hoci uvádza, že FBI ju nemenovala.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "one example hack is almost certainly the Axios compromise from March 2026... Despite not being mentioned by name",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Škodlivý nástroj na vzdialený prístup sa v nej podľa zdroja nachádzal iba niekoľko hodín.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "temporarily contained a remote-access tool — thankfully for only a few hours.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Útoky tak môžu zasiahnuť nielen jednotlivcov, ale aj vývojárske nástroje a projekty, od ktorých závisia ďalšie služby.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The Node/Javascript library sees about 100 million downloads a week, and temporarily contained a remote-access tool",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zaistenie serverov podľa FBI narušuje kampaň, no samo osebe neznamená, že sa útočníci prestali pokúšať o podobné útoky.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The campaign isn't likely to stop despite the setback",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "perex",
+        "povodne": "v ktorej sa podľa FBI nachádzalo 900 videí obetí",
+        "opravene": "v ktorej sa podľa FBI nachádzalo 900 videí obetí",
+        "dovod": "Žiadna zmena – text je správny.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "titulok",
+        "text": "severokórejskú",
+        "kontext": "FBI narušila severokórejskú kampaň FaceStealer spájanú s útokom na ",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "cloudovú",
+        "kontext": "Americké úrady zaistili cloudovú infraštruktúru, v ktorej sa podľa FBI n",
+        "navrhy": [
+          "chodovú",
+          "clonovú",
+          "loďovú"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "deepfaky",
+        "kontext": " 900 videí obetí. Útočníci využívali AI deepfaky, falošné pracovné ponuky aj škodlivý so",
+        "navrhy": [
+          "delfský",
+          "detváky",
+          "drapáky"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "severokórejským",
+        "kontext": "ampane FaceStealer, ktorú FBI pripisuje severokórejským útočníkom. Zásah sa týkal cloudových se",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cloudových",
+        "kontext": "verokórejským útočníkom. Zásah sa týkal cloudových serverov s približne 900 videami ľudí, ",
+        "navrhy": [
+          "chodových",
+          "clonových",
+          "loďových"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "krádežou",
+        "kontext": " Hardware uvádza, že FBI spája kampaň s krádežou približne 400 miliónov dolárov v krypto",
+        "navrhy": [
+          "krádež ou"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "kryptomenách",
+        "kontext": "ádežou približne 400 miliónov dolárov v kryptomenách. FaceStealer má byť zároveň spájaný s n",
+        "navrhy": [
+          "kryptomérnych"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "kryptomeny",
+        "kontext": "na Binance, pri ktorom útočníci získali kryptomeny v hodnote viac než päť miliárd dolárov.",
+        "navrhy": [
+          "kryptomérny"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "kryptomenách",
+        "kontext": "ižne 400 miliónov dolárov v ukradnutých kryptomenách, zatiaľ čo suma nad päť miliárd opisuje",
+        "navrhy": [
+          "kryptomérnych"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "videohovor",
+        "kontext": "estičnou ponukou. Následne ich pozvú na videohovor cez Zoom alebo Teams, ktorý v skutočnos",
+        "navrhy": [
+          "vide ohovor",
+          "video hovor"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "deepfaky",
+        "kontext": "ímne služby a na hovore sa môžu objaviť deepfaky alebo záznamy predchádzajúcich stretnut",
+        "navrhy": [
+          "delfský",
+          "detváky",
+          "drapáky"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "ťažšie",
+        "kontext": "ormácie o človeku, vďaka čomu je podvod ťažšie rozpoznateľný.\n\n## Falošná aktualizácia",
+        "navrhy": [
+          "ťažký"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (ťažšie) \"ťažký\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "malvér",
+        "kontext": " ho vyriešiť, no v skutočnosti obsahuje malvér. Ten umožní útočníkom získať prístup k ",
+        "navrhy": [
+          "malér"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "predstierajúci",
+        "kontext": "sona Sayaymana, ktorého oslovil útočník predstierajúci záujem o jeho prijatie do firmy. Vytvor",
+        "navrhy": [
+          "predstierajúc",
+          "predstierajú ci",
+          "predstierajúc i"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "open-source",
+        "kontext": "stretnutie cez Teams.\n\n## Riziko aj pre open-source projekty\n\nFBI upozornila aj na opakovan",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "open-source",
+        "kontext": "ila aj na opakované pokusy preniknúť do open-source softvéru, najmä do balíkov JavaScriptu ",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/FBI_FIN7_map_2018.png/1280px-FBI_FIN7_map_2018.png",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/eRmC2ngDGJBX3pdq9XNxjX-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "FBI cyber crime",
+      "cloud server infrastructure",
+      "cryptocurrency bitcoin"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/FBI_FIN7_map_2018.png/1280px-FBI_FIN7_map_2018.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/FBI_FIN7_map_2018.png/1280px-FBI_FIN7_map_2018.png",
+        "nazov": "FBI FIN7 map 2018.png",
+        "autor": "Federal Bureau of Investigation",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:FBI_FIN7_map_2018.png",
+        "povod": "wikimedia",
+        "dopyt": "FBI cyber crime"
+      },
+      {
+        "url": "https://s0.geograph.org.uk/geophotos/02/78/97/2789785_fec67385.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/1a5577e4-7a5c-4b4b-b4e9-a09b84fcb536/thumb/",
+        "nazov": "Not exactly a jewel in England's Crown",
+        "autor": "Martin Speck",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.geograph.org.uk/photo/2789785",
+        "povod": "openverse",
+        "dopyt": "FBI cyber crime"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Traditional_server_infrastructure.png",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Traditional_server_infrastructure.png",
+        "nazov": "Traditional server infrastructure.png",
+        "autor": "User:Ramu50",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Traditional_server_infrastructure.png",
+        "povod": "wikimedia",
+        "dopyt": "cloud server infrastructure"
+      },
+      {
+        "url": "https://live.staticflickr.com/2677/4218894050_c837a1bdc5_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/ffa4c86b-1991-43bb-9ad3-94fc236a1665/thumb/",
+        "nazov": "Fibre to Cabinet, Basingstoke",
+        "autor": "Mike Cattell",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/27406286@N05/4218894050",
+        "povod": "openverse",
+        "dopyt": "cloud server infrastructure"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Bitcoin_on_Laptop_Keyboard.jpg/1280px-Bitcoin_on_Laptop_Keyboard.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Bitcoin_on_Laptop_Keyboard.jpg/1280px-Bitcoin_on_Laptop_Keyboard.jpg",
+        "nazov": "Bitcoin on Laptop Keyboard.jpg",
+        "autor": "Satheesh Sankaran",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Bitcoin_on_Laptop_Keyboard.jpg",
+        "povod": "wikimedia",
+        "dopyt": "cryptocurrency bitcoin"
+      },
+      {
+        "url": "https://live.staticflickr.com/4436/36286811902_86ab3ef8ff_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/a70b1e62-b7bf-46e6-be8d-a5bca802f710/thumb/",
+        "nazov": "NEM cryptocurrency (XEM) founder, Sam Lee is here! #NEM #XEM #crypto #cryptocurrency #bitcoin #bitcoins #cyberview #cyberjaya",
+        "autor": "Sham Hardy",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/33991563@N00/36286811902",
+        "povod": "openverse",
+        "dopyt": "cryptocurrency bitcoin"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/July_2018_FBI_90th_Anniversary_Memorabilia_%2843051992014%29.jpg/1280px-July_2018_FBI_90th_Anniversary_Memorabilia_%2843051992014%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/July_2018_FBI_90th_Anniversary_Memorabilia_%2843051992014%29.jpg/1280px-July_2018_FBI_90th_Anniversary_Memorabilia_%2843051992014%29.jpg",
+        "nazov": "July 2018 FBI 90th Anniversary Memorabilia (43051992014).jpg",
+        "autor": "Federal Bureau of Investigation (FBI)",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:July_2018_FBI_90th_Anniversary_Memorabilia_(43051992014).jpg",
+        "povod": "wikimedia",
+        "dopyt": "FBI cyber crime"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/North_Central_Telephone_Cooperative_Rural_Broadband_keeps_TN_and_KY_High-Speed_-_RUS_%2820180927-RD-LSC-0995%29.jpg/1280px-North_Central_Telephone_Cooperative_Rural_Broadband_keeps_TN_and_KY_High-Speed_-_RUS_%2820180927-RD-LSC-0995%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/North_Central_Telephone_Cooperative_Rural_Broadband_keeps_TN_and_KY_High-Speed_-_RUS_%2820180927-RD-LSC-0995%29.jpg/1280px-North_Central_Telephone_Cooperative_Rural_Broadband_keeps_TN_and_KY_High-Speed_-_RUS_%2820180927-RD-LSC-0995%29.jpg",
+        "nazov": "North Central Telephone Cooperative Rural Broadband keeps TN and KY High-Speed - RUS (20180927-RD-LSC-0995).jpg",
+        "autor": "USDAgov",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:North_Central_Telephone_Cooperative_Rural_Broadband_keeps_TN_and_KY_High-Speed_-_RUS_(20180927-RD-LSC-0995).jpg",
+        "povod": "wikimedia",
+        "dopyt": "cloud server infrastructure"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic illustration of a phishing operation disrupted by investigators, showing a cloud server, abstract video-call silhouettes, and a broken chain of digital credentials, with no real people or documentary-photo style."
+  },
+  "prompt_ilustracie": "Create a symbolic illustration of a phishing operation disrupted by investigators, showing a cloud server, abstract video-call silhouettes, and a broken chain of digital credentials, with no real people or documentary-photo style.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/4ed5fdb77124b0f117f1af65614cf168",
+  "text_agentov": {
+    "titulok": "FBI narušila severokórejskú kampaň FaceStealer spájanú s útokom na Binance",
+    "perex": "Americké úrady zaistili cloudovú infraštruktúru, v ktorej sa podľa FBI nachádzalo 900 videí obetí. Útočníci využívali AI deepfaky, falošné pracovné ponuky aj škodlivý softvér na krádež prístupov.",
+    "telo": "Americké úrady narušili infraštruktúru kampane FaceStealer, ktorú FBI pripisuje severokórejským útočníkom. Zásah sa týkal cloudových serverov s približne 900 videami ľudí, ktorých si skupina vyhliadla. Podľa zistení FBI nejde o jednoduchý podvodný e-mail, ale o dlhodobo pripravované útoky využívajúce osobné údaje, kontakty obetí a videá vytvorené alebo upravené pomocou umelej inteligencie.\n\nPortál Tom's Hardware uvádza, že FBI spája kampaň s krádežou približne 400 miliónov dolárov v kryptomenách. FaceStealer má byť zároveň spájaný s nedávnym útokom na Binance, pri ktorom útočníci získali kryptomeny v hodnote viac než päť miliárd dolárov. Podľa článku bola väčšina tejto sumy zmrazená alebo získaná späť. Tieto dve sumy sa týkajú odlišných údajov: FBI pripisuje kampani približne 400 miliónov dolárov v ukradnutých kryptomenách, zatiaľ čo suma nad päť miliárd opisuje útok na Binance.\n\n## Dôvera budovaná celé mesiace\n\nÚtok sa podľa opisu FBI začína prístupom ku komunikačným účtom obete. Útočníci z nich získavajú staršie konverzácie, zoznamy kontaktov a ďalšie osobné informácie. Zároveň môžu nenápadne nahrávať video obete alebo jej kolegov. Tieto materiály potom použijú na prípravu presvedčivého kontaktu s ďalším cieľom. Kampaň podľa zdroja prebieha najmenej 18 mesiacov a jednotlivé fázy prípravy môžu trvať mesiace.\n\nObete oslovujú napríklad s pracovnou alebo investičnou ponukou. Následne ich pozvú na videohovor cez Zoom alebo Teams, ktorý v skutočnosti prebieha na serveri útočníkov. Falošné webové adresy sa podobajú na legitímne služby a na hovore sa môžu objaviť deepfaky alebo záznamy predchádzajúcich stretnutí. Konverzácie pred týmto kontaktom môžu obsahovať skutočné informácie o človeku, vďaka čomu je podvod ťažšie rozpoznateľný.\n\n## Falošná aktualizácia otvára cestu k účtom\n\nV určitom momente sa objaví údajný technický problém. Cieľ dostane pokyn nainštalovať aktualizáciu alebo program, ktorý má ho vyriešiť, no v skutočnosti obsahuje malvér. Ten umožní útočníkom získať prístup k počítaču a údajom vrátane aktívnych relácií v prehliadači a prihlasovacích údajov k nástrojom pre vývoj a nasadzovanie softvéru.\n\nPodľa FBI nemusia útočníci zaútočiť na konečný cieľ hneď. Informácie a prístupy získané od prvých obetí môžu využiť na ďalšie kolá útokov a na presvedčivejšie vydávanie sa za dôveryhodné osoby. Tom's Hardware uvádza prípad vývojára Axiosa Jasona Sayaymana, ktorého oslovil útočník predstierajúci záujem o jeho prijatie do firmy. Vytvoril vierohodné pracovné prostredie v Slacku a pozval ho na stretnutie cez Teams.\n\n## Riziko aj pre open-source projekty\n\nFBI upozornila aj na opakované pokusy preniknúť do open-source softvéru, najmä do balíkov JavaScriptu v registri NPM a knižníc Rustu. Článok spája tento vzorec s kompromitovaním knižnice Axios v marci 2026, hoci uvádza, že FBI ju nemenovala. Škodlivý nástroj na vzdialený prístup sa v nej podľa zdroja nachádzal iba niekoľko hodín.\n\nÚtoky tak môžu zasiahnuť nielen jednotlivcov, ale aj vývojárske nástroje a projekty, od ktorých závisia ďalšie služby. Zaistenie serverov podľa FBI narušuje kampaň, no samo osebe neznamená, že sa útočníci prestali pokúšať o podobné útoky."
+  }
+}
