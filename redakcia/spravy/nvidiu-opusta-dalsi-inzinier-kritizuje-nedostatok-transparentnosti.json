@@ -306,7 +306,8 @@
         "opravene": "ktorý čelí obvineniam z pomeru s údajnou čínskou špiónkou aj z pomerov so zamestnankyňami",
         "dovod": "gramatika – pádová väzba",
         "stav": "zamietnuta",
-        "poznamka": "úprava nič nemení"
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
       },
       {
         "pole": "telo",
@@ -314,7 +315,8 @@
         "opravene": "„Jensen číta Top 5 e-maily zamestnancov, sleduje ich prácu a priamo sa zapája,“",
         "dovod": "interpunkcia – čiarka pred pripojenou vetou",
         "stav": "zamietnuta",
-        "poznamka": "úprava nič nemení"
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
       },
       {
         "pole": "telo",
@@ -322,7 +324,8 @@
         "opravene": "ktorá má už viac ako 150-tisíc podpisov",
         "dovod": "typografia – medzera pred číslom",
         "stav": "zamietnuta",
-        "poznamka": "úprava nič nemení"
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
       },
       {
         "pole": "telo",
@@ -330,7 +333,8 @@
         "opravene": "ktorá bola Huanga údajne blízka",
         "dovod": "gramatika – pádová väzba",
         "stav": "zamietnuta",
-        "poznamka": "úprava nič nemení"
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
       },
       {
         "pole": "telo",
@@ -338,7 +342,8 @@
         "opravene": "„Intel world sa správa ako rakovina,“",
         "dovod": "štylistika – anglicizmus",
         "stav": "zamietnuta",
-        "poznamka": "úprava nič nemení"
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
       }
     ],
     "podozrive": [
@@ -349,7 +354,8 @@
         "navrhy": [
           ", ako"
         ],
-        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+        "dovod": "Dajte čiarku pred „ako“: \", ako\".",
+        "zdroj": "LanguageTool"
       },
       {
         "pole": "telo",
@@ -358,7 +364,8 @@
         "navrhy": [
           ", ako"
         ],
-        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+        "dovod": "Dajte čiarku pred „ako“: \", ako\".",
+        "zdroj": "LanguageTool"
       },
       {
         "pole": "telo",
@@ -367,7 +374,8 @@
         "navrhy": [
           "inšie"
         ],
-        "dovod": "Nájdený pravdepodobný preklep"
+        "dovod": "Nájdený pravdepodobný preklep",
+        "zdroj": "LanguageTool"
       },
       {
         "pole": "telo",
@@ -378,7 +386,8 @@
           "tradičnou",
           "tradičnú"
         ],
-        "dovod": "Nájdený pravdepodobný preklep"
+        "dovod": "Nájdený pravdepodobný preklep",
+        "zdroj": "LanguageTool"
       },
       {
         "pole": "telo",
@@ -387,7 +396,8 @@
         "navrhy": [
           "Word"
         ],
-        "dovod": "Nájdený pravdepodobný preklep"
+        "dovod": "Nájdený pravdepodobný preklep",
+        "zdroj": "LanguageTool"
       },
       {
         "pole": "telo",
@@ -396,7 +406,8 @@
         "navrhy": [
           ", ako"
         ],
-        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+        "dovod": "Dajte čiarku pred „ako“: \", ako\".",
+        "zdroj": "LanguageTool"
       }
     ],
     "diff": ""
