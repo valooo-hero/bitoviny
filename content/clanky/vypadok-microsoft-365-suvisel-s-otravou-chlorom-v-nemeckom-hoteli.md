@@ -7,7 +7,7 @@ tagy:
   - cloud
   - výpadok služieb
   - bezpečnosť
-publikovane: 2026-11-16T18:08:33+00:00
+publikovane: 2026-11-16T18:13:11Z
 obrazok:
   src: /obrazky/vypadok-microsoft-365-suvisel-s-otravou-chlorom-v-nemeckom-hoteli-mwjl02j8.jpg
   alt: Ilustračný obrázok.
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Tom's Hardware: Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests"
     url: https://www.tomshardware.com/tech-industry/data-centers/microsoft-365-outage-leads-to-chlorine-gas-poisoning-of-15-hotel-guests-email-warning-system-fails-40-first-responders-deployed-for-triage-four-hospitalized
