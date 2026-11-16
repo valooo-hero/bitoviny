@@ -8,7 +8,7 @@ tagy:
   - Samsung
   - SK hynix
   - súdne spory
-publikovane: 2026-11-16T18:54:04+00:00
+publikovane: 2026-11-16T19:36:26Z
 obrazok:
   src: /obrazky/sud-nechal-pokracovat-konanie-o-zalobe-tykajucej-sa-kartelovych-dohod-pri-cipoch-mwjnyw23.jpg
   alt: Legal Gavel (27571702173)
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Tom's Hardware: Judge denies motion to dismiss DRAM price-fixing lawsuit against Micron, Samsung, and SK hynix, finds evidence of DRAM collusion plausible after 500% price surge"
     url: https://www.tomshardware.com/tech-industry/big-tech/judge-denies-motion-to-dismiss-dram-price-fixing-lawsuit-against-micron-samsung-and-sk-hynix-says-chipmakers-acted-like-hawks-flying-in-formation-finds-evidence-of-dram-collusion-plausible-after-500-percent-price-surge
