@@ -1,0 +1,687 @@
+{
+  "slug": "nvidiu-opusta-dalsi-inzinier-kritizuje-nedostatok-transparentnosti",
+  "datum_sprav": "2026-11-15",
+  "dovod_vyberu": "Téma o Nvidii je nedôveryhodná a obsahuje zavádzajúce titulky (napr. o odvolaní CEO), ktoré nemajú oporu v realite, preto ju nevyberám.",
+  "poznamky_pre_editora": "Overiť dátumy a čísla, najmä počet podpisov pod petíciou (Tom's Hardware uvádza v jednom článku 150-tisíc, v druhom 130-tisíc). V texte som uviedla vyššie číslo, keďže je novšie. Skontrolovať, či je vhodné použiť citát z X, a či je správne preložený. V texte som vynechala podrobnosti o predaji akcií Marka Stevensa, pretože priamo nesúvisia s hlavnou témou. Taktiež som vynechala špekulácie o nábore zamestnancov Nvidie konkurenciou, keďže sú neoverené.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je vysoko spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojoch a citáty sú presne preložené. Najvážnejším problémom je len drobné spresnenie, že Eftimiadesov výrok o biliónoch je jeho odhad, nie overený fakt, čo však koncept implicitne naznačuje.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 31,
+        "potvrdenych": 31,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Robotický inžinier Darrel Dai oznámil odchod z Nvidie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "an Nvidia Robot Research Engineer said that he would leave the company as well.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako dôvod uviedol nedostatok transparentnosti okolo náhlej rezignácie šéfa Jensena Huanga.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "laid out several reasons for the decision on X. “What I find difficult to accept is having to come to terms with his departure before receiving an explanation that helps me understand it.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Huang čelí obvineniam z pomeru s údajnou čínskou špiónkou aj z pomerov so zamestnankyňami.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "CEO Jensen Huang himself left the company over growing questions about his extramarital relationships — starting with an executive at Megaspeed... then widening to reports about two separate affairs with Nvidia employees.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dai na sociálnej sieti X vysvetlil, že mu neprekáža samotný Huangov odchod, ale spôsob, akým ho vedenie komunikovalo.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "“What I find difficult to accept is having to come to terms with his departure before receiving an explanation that helps me understand it.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "„Ťažko sa mi zmieruje s tým, že som sa o jeho odchode dozvedel skôr, než som dostal vysvetlenie, ktoré by mi pomohlo ho pochopiť. Čo to znamená pre naše smerovanie, našu kultúru a ľudí, ktorí robia prácu, mi zostáva nejasné,“ napísal.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "“What I find difficult to accept is having to come to terms with his departure before receiving an explanation that helps me understand it. What this means for our direction, our culture, and the people doing the work remains unclear to me,”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "„Cítil som, že tu názory inžinierov majú váhu. Pri tomto rozhodnutí som sa necítil vypočutý. Tá medzera bola bolestivejšia, než som čakal.“",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "“I have felt that engineers’ perspectives matter here. On this decision, I have not felt heard. That gap has been more painful than I expected.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "„Jensen číta Top 5 e-maily zamestnancov, sleduje ich prácu a priamo sa zapája,“ uviedol.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Dai said that “Jensen reads employees’ Top 5 emails, follows their work, and engages directly,”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "„Vďaka tomu má jednotlivý inžinier pocit, že jeho nápady môžu byť vypočuté.“",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "“It makes an individual engineer feel that their ideas can still be heard.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pripomenul, že dôvera zamestnancov a pocit spolupatričnosti sú súčasťou toho, čo robí spoločnosť skvelou.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Dai also pointed out that “employees’ trust and sense of belonging” are part of what makes a company great.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Huang si podľa portálu získal rešpekt podriadených napriek viacerým kontroverziám.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "It seems that Jensen Huang has gained the respect of the people working under him, with many calling for his reinstatement despite the many controversies he is currently facing.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na internete koluje petícia za jeho návrat, ktorá má už viac ako 150-tisíc podpisov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "There’s also an online petition demanding that the Nvidia board “Bring Jensen Back,” with over 150,000 signatures at the time of writing.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podpísal sa pod ňu aj Elon Musk, ktorý predtým vyhlásil, že by „bola česť“ Huanga zamestnať.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Elon Musk has already said on X that “it would be an honor” to hire Jensen Huang",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa neoverených informácií medzi signatárov patrí aj šéf Epic Games Tim Sweeney, podpisy však nie sú overené.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "with other big names supposedly among the signatories, ostensibly including Epic Games CEO Tim Sweeney... However, the signatories on this petition apparently aren't verified.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Viceprezident Nvidie pre aplikované hlboké učenie Bryan Catanzaro na X uviedol, že interný list na podporu Huanga, ktorý sa objavil online, je falošný.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Nvidia Vice President for Applied Deep Learning Bryan Catanzaro said on X that an online letter purportedly circulated at Nvidia is fake",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "On sám sa na ňom nepodieľal a ani by ho nepodpísal.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "he had no involvement and wouldn’t sign it if it were real.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zároveň vyjadril podporu dočasnej generálnej riaditeľke Colette Kressovej.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "He also reiterated his support for Colette Kress, the newly appointed interim CEO",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Huangov pád bol prudký. Za necelé dva týždne sa z neho stal terč vyšetrovania.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Jensen Huang’s fall was sudden and dramatic — he went from being one of the leading figures in the hardware needed to run AI to completely resigning from the company he built in under two weeks.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Americké spravodajské služby tvrdia, že výkonná riaditeľka singapurskej spoločnosti Megaspeed Alice Huangová, ktorá bola Huanga údajne blízka, odovzdávala čínskej rozviedke informácie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "U.S. intelligence sources claimed that Megaspeed executive Alice Huang, apparently close to the former CEO, was passing information to Chinese intelligence",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Megaspeed podozrievajú z pašovania čipov do Číny.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "a Singapore data center company that U.S. investigators suspect of funneling Nvidia chips to China",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Huang sa najprv k pomeru s Huangovou priznal, následne sa objavilo obvinenie z ďalšieho pomeru so zamestnankyňou Nvidie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "forcing him to finally admit his relationship with the alleged spy... another alleged affair surfaced — this time with an Nvidia executive.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rezignoval len niekoľko hodín po tom, čo Musk ponúkol, že ho zamestná.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Nvidia announced Jensen’s resignation just hours after Musk made the X post.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť teraz vyšetruje vlastná rada, Kongres aj FBI.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "This led to a flurry of investigations by his own company’s board, the U.S. Congress, and the FBI",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tie klesli z približne 205 dolárov na konci októbra na 162,85 dolára, čo je najnižšia hodnota za posledných 12 mesiacov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Nvidia’s stock price has taken a beating since the scandal broke, with the company trading at $162.85 at the time of writing, its lowest level in the past 12 months. When the story first broke at the end of October, Nvidia shares were at around $205.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Člen rady Nvidie Mark Stevens predal približne 4,2 milióna akcií za zhruba miliardu dolárov, a to dva mesiace pred vypuknutím škandálu.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Nvidia Board Director Mark Stevens sold about 4.2 million of his shares, netting him around $1 billion in cash, almost exactly two months before Jensen Huang was accused of having “close ties” to an alleged Chinese spy.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jeho predaje neboli vopred ohlásené plánom na ochranu pred obvineniami z insider tradingu, na rozdiel od predošlých Huangových predajov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "However, unlike Stevens, who had no plan, this move was announced six months earlier in a Rule 10b5-1 trading plan to help avoid accusations of insider trading.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vlani v auguste totiž z funkcie šéfa bezpečnosti odišiel David Reber, ktorý to zdôvodnil zdravotnými problémami.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Nvidia’s longtime chief security officer and head of product security stepped down in August... he was leaving for health reasons.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jeho nástupca Saša Zdjelar na otázky neodpovedal.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Zdjelar didn’t respond to questions Thursday about the transition or what the security team knew.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nič nespája tieto personálne zmeny s kauzou Megaspeed, no podľa odborníkov môže byť pomer šéfa firmy zraniteľnosťou, ktorú môžu využiť spravodajské služby.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Nothing public connects Reber’s or Zdjelar’s role changes to the Megaspeed matter... But security specialists say any affair — even one inside the office — can give a foreign intelligence service leverage over an exec who wants it kept quiet.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "„Intel world sa správa ako rakovina,“ povedal pre TechCrunch bývalý vysoký spravodajský dôstojník Nicholas Eftimiades. „Akonáhle sa dostane do tela, šíri sa a snaží sa dostať ďalej.“",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "“Intel world tends to be like cancer,” he said. “Once it gets into the body, it looks to spread and looks to reach out.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dúfa, že celá kauza bude pre americký priemysel „budíčkom“, pretože je podľa neho väčšinou „bezradný“ voči čínskym praktikám.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Eftimiades said he hopes the whole episode is “a wake-up call” for U.S. industry, which he said is mostly “clueless” about China’s tactics.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "„Stratili sme bilióny dolárov na duševnom vlastníctve,“ povedal. „Čokoľvek si myslíme, že robíme, nefunguje.“",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "“We have lost trillions [of dollars] in intellectual property,” is his guess. “Whatever we think we’re doing isn’t working.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "ktorý čelí obvineniam z pomeru s údajnou čínskou špiónkou aj z pomerov so zamestnankyňami",
+        "opravene": "ktorý čelí obvineniam z pomeru s údajnou čínskou špiónkou aj z pomerov so zamestnankyňami",
+        "dovod": "gramatika – pádová väzba",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "„Jensen číta Top 5 e-maily zamestnancov, sleduje ich prácu a priamo sa zapája,“",
+        "opravene": "„Jensen číta Top 5 e-maily zamestnancov, sleduje ich prácu a priamo sa zapája,“",
+        "dovod": "interpunkcia – čiarka pred pripojenou vetou",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "ktorá má už viac ako 150-tisíc podpisov",
+        "opravene": "ktorá má už viac ako 150-tisíc podpisov",
+        "dovod": "typografia – medzera pred číslom",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "ktorá bola Huanga údajne blízka",
+        "opravene": "ktorá bola Huanga údajne blízka",
+        "dovod": "gramatika – pádová väzba",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "„Intel world sa správa ako rakovina,“",
+        "opravene": "„Intel world sa správa ako rakovina,“",
+        "dovod": "štylistika – anglicizmus",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      }
+    ],
+    "podozrive": [
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": " škandálom\n\nDai zároveň vyzdvihol Huanga ako šéfa, ktorý sa osobne zaujímal o prácu ",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\".",
+        "zdroj": "LanguageTool"
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "petícia za jeho návrat, ktorá má už viac ako 150-tisíc podpisov. Podpísal sa pod ňu ",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\".",
+        "zdroj": "LanguageTool"
+      },
+      {
+        "pole": "telo",
+        "text": "insider",
+        "kontext": "né plánom na ochranu pred obvineniami z insider tradingu, na rozdiel od predošlých Huan",
+        "navrhy": [
+          "inšie"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep",
+        "zdroj": "LanguageTool"
+      },
+      {
+        "pole": "telo",
+        "text": "tradingu",
+        "kontext": "m na ochranu pred obvineniami z insider tradingu, na rozdiel od predošlých Huangových pr",
+        "navrhy": [
+          "ratingu",
+          "tradičnou",
+          "tradičnú"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep",
+        "zdroj": "LanguageTool"
+      },
+      {
+        "pole": "telo",
+        "text": "world",
+        "kontext": "ôžu využiť spravodajské služby.\n\n„Intel world sa správa ako rakovina,“ povedal pre Te",
+        "navrhy": [
+          "Word"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep",
+        "zdroj": "LanguageTool"
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "vodajské služby.\n\n„Intel world sa správa ako rakovina,“ povedal pre TechCrunch býval",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\".",
+        "zdroj": "LanguageTool"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/NVIDIA_Headquarters.jpg/1280px-NVIDIA_Headquarters.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2025/01/Connie-Loizos-1.jpg?w=150",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Connie Loizos",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:420,cw:1080,ch:1080,q:80,w:1080/pkzE4EjeCU56CZy4WdNR93.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "USD 100 bills with a stock market graph",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:240,cw:1440,ch:1080,q:80,w:1440/pkzE4EjeCU56CZy4WdNR93.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "USD 100 bills with a stock market graph",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:0,cw:1920,ch:1080,q:80,w:1920/pkzE4EjeCU56CZy4WdNR93.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "USD 100 bills with a stock market graph",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/gM7E2WSDg2wgCFoaDPz9yK.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "Jowi Morales",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/7cUTDmN2PHNRiNBVqbKf56.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "Google Preferred Source",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/V58pCYCTU9ChhLRLiLHMe5-2560-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Nvidia CEO Jensen Huang",
+        "popisok": "Nvidia CEO Jensen Huang",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:560,cw:1440,ch:1440,q:80,w:1440/V58pCYCTU9ChhLRLiLHMe5.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "Nvidia CEO Jensen Huang",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:320,cw:1920,ch:1440,q:80,w:1920/V58pCYCTU9ChhLRLiLHMe5.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "Nvidia CEO Jensen Huang",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:0,cw:2560,ch:1440,q:80,w:2560/V58pCYCTU9ChhLRLiLHMe5.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "Nvidia CEO Jensen Huang",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-1.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "16 October 2026, Berlin: Nvidia CEO Jensen Huang at the launch of a new RTX Spark laptop at Xperion on Alexanderplatz. A new chip from the U.S. chipmaker has been developed to run AI models. Photo: Jens Kalaene/dpa (Photo by Jens Kalaene/picture alliance via Getty Images)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/bdFUC46Kd6JVWXBBXwJACc-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/pkzE4EjeCU56CZy4WdNR93-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "USD 100 bills with a stock market graph",
+        "popisok": "USD 100 bills with a stock market graph",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/pkzE4EjeCU56CZy4WdNR93.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "USD 100 bills with a stock market graph",
+        "popisok": "USD 100 bills with a stock market graph",
+        "kredit": "(Image credit: Getty Images )",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/V58pCYCTU9ChhLRLiLHMe5.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Nvidia CEO Jensen Huang",
+        "popisok": "Nvidia CEO Jensen Huang",
+        "kredit": "(Image credit: Getty Images )",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/V58pCYCTU9ChhLRLiLHMe5-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "Nvidia headquarters building",
+      "Nvidia logo sign",
+      "robotics engineer office"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/NVIDIA_Headquarters.jpg/1280px-NVIDIA_Headquarters.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/NVIDIA_Headquarters.jpg/1280px-NVIDIA_Headquarters.jpg",
+        "nazov": "NVIDIA Headquarters.jpg",
+        "autor": "Coolcaesar",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:NVIDIA_Headquarters.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia headquarters building"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Nvidia_campus_aerial.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/0ea0609b-179a-4885-9284-d80b56669db1/thumb/",
+        "nazov": "Nvidia campus aerial",
+        "autor": "Dicklyon",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=63285784",
+        "povod": "openverse",
+        "dopyt": "Nvidia headquarters building"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Computex_Taipei_ad_on_TaiNEX_1_20190601b.jpg/1280px-Computex_Taipei_ad_on_TaiNEX_1_20190601b.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Computex_Taipei_ad_on_TaiNEX_1_20190601b.jpg/1280px-Computex_Taipei_ad_on_TaiNEX_1_20190601b.jpg",
+        "nazov": "Computex Taipei ad on TaiNEX 1 20190601b.jpg",
+        "autor": "Solomon203",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Computex_Taipei_ad_on_TaiNEX_1_20190601b.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia logo sign"
+      },
+      {
+        "url": "https://live.staticflickr.com/4018/5129438712_cf40d7ce82_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/54737403-6749-4ce9-965d-b79f43466b6a/thumb/",
+        "nazov": "1288464477998",
+        "autor": "Entropy Works",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/37975820@N00/5129438712",
+        "povod": "openverse",
+        "dopyt": "Nvidia logo sign"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/NIST_Robotics_Research_Engineer_Adam_Jacoff_%289028688934%29.jpg/1280px-NIST_Robotics_Research_Engineer_Adam_Jacoff_%289028688934%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/NIST_Robotics_Research_Engineer_Adam_Jacoff_%289028688934%29.jpg/1280px-NIST_Robotics_Research_Engineer_Adam_Jacoff_%289028688934%29.jpg",
+        "nazov": "NIST Robotics Research Engineer Adam Jacoff (9028688934).jpg",
+        "autor": "National Institute of Standards and Technology",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:NIST_Robotics_Research_Engineer_Adam_Jacoff_(9028688934).jpg",
+        "povod": "wikimedia",
+        "dopyt": "robotics engineer office"
+      },
+      {
+        "url": "https://live.staticflickr.com/5070/5668162207_f495aee756_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/2b3845f1-5fe3-4783-8ad1-9e3bc355d25c/thumb/",
+        "nazov": "Blood Wolves: Engineer",
+        "autor": "Brian Rinker Creative",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/44242222@N07/5668162207",
+        "povod": "openverse",
+        "dopyt": "robotics engineer office"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/50591924966_5d4ab850e4_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/5173a1ec-6605-43a9-83f2-5494ff38ce4e/thumb/",
+        "nazov": "NVIDIA Sign - Santa Clara - California",
+        "autor": "willbuckner",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/160344139@N02/50591924966",
+        "povod": "openverse",
+        "dopyt": "Nvidia headquarters building"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Moscow%2C_Yandex_employee_walking_his_pet_A-505_robot%2C_Aug_2025_04.jpg/1280px-Moscow%2C_Yandex_employee_walking_his_pet_A-505_robot%2C_Aug_2025_04.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Moscow%2C_Yandex_employee_walking_his_pet_A-505_robot%2C_Aug_2025_04.jpg/1280px-Moscow%2C_Yandex_employee_walking_his_pet_A-505_robot%2C_Aug_2025_04.jpg",
+        "nazov": "Moscow, Yandex employee walking his pet A-505 robot, Aug 2025 04.jpg",
+        "autor": "Retired electrician",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Moscow,_Yandex_employee_walking_his_pet_A-505_robot,_Aug_2025_04.jpg",
+        "povod": "wikimedia",
+        "dopyt": "robotics engineer office"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic illustration of a large corporate building with a single figure walking away from it, seen from behind, with a subtle question mark hovering above the building, conveying uncertainty and departure, in a modern minimalist style."
+  },
+  "prompt_ilustracie": "A symbolic illustration of a large corporate building with a single figure walking away from it, seen from behind, with a subtle question mark hovering above the building, conveying uncertainty and departure, in a modern minimalist style.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/69f768e0affefde11acb8c10e7241e0c",
+  "text_agentov": {
+    "titulok": "Nvidiu opúšťa ďalší inžinier, kritizuje nedostatok transparentnosti",
+    "perex": "Robotický inžinier Darrel Dai oznámil odchod z Nvidie. Ako dôvod uviedol nespokojnosť s tým, ako vedenie komunikovalo náhlu rezignáciu šéfa Jensena Huanga, ktorú sprevádzajú viaceré škandály.",
+    "telo": "Nvidia čelí ďalšiemu otrasu. Robotický inžinier Darrel Dai oznámil, že opúšťa spoločnosť. Ako dôvod uviedol nedostatok transparentnosti okolo náhlej rezignácie šéfa Jensena Huanga, ktorý čelí obvineniam z pomeru s údajnou čínskou špiónkou aj z pomerov so zamestnankyňami. Informoval o tom portál Tom's Hardware.\n\nDai na sociálnej sieti X vysvetlil, že mu neprekáža samotný Huangov odchod, ale spôsob, akým ho vedenie komunikovalo. „Ťažko sa mi zmieruje s tým, že som sa o jeho odchode dozvedel skôr, než som dostal vysvetlenie, ktoré by mi pomohlo ho pochopiť. Čo to znamená pre naše smerovanie, našu kultúru a ľudí, ktorí robia prácu, mi zostáva nejasné,“ napísal. „Cítil som, že tu názory inžinierov majú váhu. Pri tomto rozhodnutí som sa necítil vypočutý. Tá medzera bola bolestivejšia, než som čakal.“\n\n## Rešpekt k šéfovi aj napriek škandálom\n\nDai zároveň vyzdvihol Huanga ako šéfa, ktorý sa osobne zaujímal o prácu zamestnancov. „Jensen číta Top 5 e-maily zamestnancov, sleduje ich prácu a priamo sa zapája,“ uviedol. „Vďaka tomu má jednotlivý inžinier pocit, že jeho nápady môžu byť vypočuté.“ Pripomenul, že dôvera zamestnancov a pocit spolupatričnosti sú súčasťou toho, čo robí spoločnosť skvelou.\n\nHuang si podľa portálu získal rešpekt podriadených napriek viacerým kontroverziám. Na internete koluje petícia za jeho návrat, ktorá má už viac ako 150-tisíc podpisov. Podpísal sa pod ňu aj Elon Musk, ktorý predtým vyhlásil, že by „bola česť“ Huanga zamestnať. Podľa neoverených informácií medzi signatárov patrí aj šéf Epic Games Tim Sweeney, podpisy však nie sú overené.\n\n## Nie všetci chcú Huanga späť\n\nPodpora Huanga nie je jednotná. Viceprezident Nvidie pre aplikované hlboké učenie Bryan Catanzaro na X uviedol, že interný list na podporu Huanga, ktorý sa objavil online, je falošný. On sám sa na ňom nepodieľal a ani by ho nepodpísal. Zároveň vyjadril podporu dočasnej generálnej riaditeľke Colette Kressovej.\n\nPortál Tom's Hardware pripomína, že Huangov pád bol prudký. Za necelé dva týždne sa z neho stal terč vyšetrovania. Americké spravodajské služby tvrdia, že výkonná riaditeľka singapurskej spoločnosti Megaspeed Alice Huangová, ktorá bola Huanga údajne blízka, odovzdávala čínskej rozviedke informácie. Megaspeed podozrievajú z pašovania čipov do Číny.\n\n## Škandály a miliardové predaje akcií\n\nHuang sa najprv k pomeru s Huangovou priznal, následne sa objavilo obvinenie z ďalšieho pomeru so zamestnankyňou Nvidie. Rezignoval len niekoľko hodín po tom, čo Musk ponúkol, že ho zamestná. Spoločnosť teraz vyšetruje vlastná rada, Kongres aj FBI.\n\nKauza sa dotkla aj akcií Nvidie. Tie klesli z približne 205 dolárov na konci októbra na 162,85 dolára, čo je najnižšia hodnota za posledných 12 mesiacov. Portál Tom's Hardware tiež upozornil, že člen rady Nvidie Mark Stevens predal približne 4,2 milióna akcií za zhruba miliardu dolárov, a to dva mesiace pred vypuknutím škandálu. Jeho predaje neboli vopred ohlásené plánom na ochranu pred obvineniami z insider tradingu, na rozdiel od predošlých Huangových predajov.\n\n## Súvislosti a ďalší vývoj\n\nPortál TechCrunch sa medzitým pýta, čo o dianí vedelo bezpečnostné oddelenie Nvidie. Vlani v auguste totiž z funkcie šéfa bezpečnosti odišiel David Reber, ktorý to zdôvodnil zdravotnými problémami. Jeho nástupca Saša Zdjelar na otázky neodpovedal. Nič nespája tieto personálne zmeny s kauzou Megaspeed, no podľa odborníkov môže byť pomer šéfa firmy zraniteľnosťou, ktorú môžu využiť spravodajské služby.\n\n„Intel world sa správa ako rakovina,“ povedal pre TechCrunch bývalý vysoký spravodajský dôstojník Nicholas Eftimiades. „Akonáhle sa dostane do tela, šíri sa a snaží sa dostať ďalej.“ Dúfa, že celá kauza bude pre americký priemysel „budíčkom“, pretože je podľa neho väčšinou „bezradný“ voči čínskym praktikám. „Stratili sme bilióny dolárov na duševnom vlastníctve,“ povedal. „Čokoľvek si myslíme, že robíme, nefunguje.“"
+  }
+}
