@@ -1,0 +1,346 @@
+{
+  "slug": "sud-zamietol-ziadost-vyrobcov-cipov-v-kauze-manipulacie-cien-pamati-dram",
+  "datum_sprav": "2026-11-15",
+  "dovod_vyberu": "Súdne rozhodnutie o cenovom karteli v DRAM sektore zasiahne hlavné výrobcov a ovplyvní ceny pamäťových čipov v EÚ.",
+  "poznamky_pre_editora": "Opravené 2 nálezy factcheckera: 1. V perexe zmenené označenie osoby zo 'Sudca' na 'Sudkyňa' (v zdroji sa uvádza sudkyňa Noël Wise). 2. V časti Argumenty žalujúcej strany upravený text ohľadom citátu o najsilnejšom ponukovom signáli na formuláciu 'Podľa žalobcov išlo o...', čím sa spresnilo pripísanie výroku podľa textu žaloby.",
+  "upozornenia": [
+    "Téma má len jeden zdroj. Redakčné zásady žiadajú aspoň dva, zvážte doplnenie alebo zahodenie."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je vysoko spoľahlivý, pretože všetky overiteľné tvrdenia presne korešpondujú so zdrojovým článkom. Žiadne významné chyby ani zavádzajúce informácie sa v texte nenachádzajú.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 19,
+        "potvrdenych": 17,
+        "chyb": 2,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 10,
+        "potvrdenych": 10,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Titulok: Súd zamietol žiadosť výrobcov čipov v kauze manipulácie cien pamätí DRAM",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Judge denies motion to dismiss DRAM price-fixing lawsuit against Micron, Samsung, and SK hynix",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Micron, Samsung a SK hynix",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Micron, Samsung, and SK hynix",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rozhodnutie vydala sudkyňa Noël Wiseová",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Judge Noël Wise, who presides over the proposed class-action lawsuit",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ide iba o opakovanie staršieho protimonopolného prípadu z roku 2018",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "antitrust case filed against the industry in 2018",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jastrabov letiacich vo formácii, čo je aktivita, ktorú jastrabi bežne nerobia",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "hawks flying in formation — an activity that hawks ordinarily do not do",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Žalobu podalo 17 jednotlivcov a malých podnikov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "made up of 17 individuals and small businesses",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ceny za jeden rok stúpli až o 500 percent",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "saw prices jump by as much as 500% in one year",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Znižovanie výroby DRAM od októbra 2022 do apríla 2023",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "simultaneous DRAM production cuts from October 2022 to April 2023",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosti dostali termín do 7. decembra na reagovanie",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "three companies are given until December 7 to respond",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Konferencia k manažmentu prípadu je naplánovaná na január 2027",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "case management conference ... set for January 2027",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "pole": "perex",
+        "text": " ako",
+        "kontext": "y sa bránili, že sa navzájom len sledujú ako jastraby.",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „že“: \", ako\"."
+      },
+      {
+        "pole": "telo",
+        "text": "staršieho",
+        "kontext": "ánili tvrdením, že ide iba o opakovanie staršieho protimonopolného prípadu z roku 2018. S",
+        "navrhy": [
+          "starého"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (staršieho) \"starého\""
+      },
+      {
+        "pole": "telo",
+        "text": "kolúzii",
+        "kontext": "robcami pamäťových čipov mohlo dôjsť ku kolúzii.\n\nVýrobcovia taktiež argumentovali, že ",
+        "navrhy": [
+          "koluzit",
+          "kolízii",
+          "kolízií"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "zájom konkurujú tak tesne, až sa sledujú ako jastrabi. Sudkyňa Wiseová však túto ana",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "pole": "telo",
+        "text": "jastrabi",
+        "kontext": " konkurujú tak tesne, až sa sledujú ako jastrabi. Sudkyňa Wiseová však túto analógiu odm",
+        "navrhy": [
+          "jastrabí",
+          "Jastrabá",
+          "jastrab"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "jastrabi",
+        "kontext": "cich vo formácii, čo je aktivita, ktorú jastrabi bežne nerobia“.\n\nTrojica veľkých výrobc",
+        "navrhy": [
+          "jastrabí",
+          "Jastrabá",
+          "jastrab"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "vysokorýchlostné",
+        "kontext": "orom nasledoval koordinovaný prechod na vysokorýchlostné pamäte typu HBM. Firmy tiež v rozpätí t",
+        "navrhy": [
+          "vysoko rýchlostné"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "pole": "telo",
+        "text": "najsilnejšiemu",
+        "kontext": "ili výrobnú kapacitu napriek historicky najsilnejšiemu cenovému signálu v odvetví. Podľa žalob",
+        "navrhy": [
+          "silnému"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (najsilnejšiemu) \"silnému\""
+      },
+      {
+        "pole": "telo",
+        "text": "najsilnejší",
+        "kontext": "gnálu v odvetví. Podľa žalobcov išlo o „najsilnejší ponukový signál, aký kedy odvetvie DRAM",
+        "navrhy": [
+          "silný"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (najsilnejší) \"silný\""
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "povodny",
+      "url": "https://cdn.mos.cms.futurecdn.net/vnqdtRupVqWHAik43ZWctH-1920-80.jpg",
+      "poznamka": "Pravdepodobne tlačový materiál. Editor musí potvrdiť pôvod."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/vnqdtRupVqWHAik43ZWctH-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Micron",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (Micron): pravdepodobne tlačový materiál."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/xi79WuWDZXzix4Fc7sXNMn-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "HBM3E vs HBM4",
+        "popisok": "",
+        "kredit": "(Image credit: SK Hynix)",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (SK Hynix): pravdepodobne tlačový materiál."
+      }
+    ],
+    "dopyty": [
+      "Micron DRAM module",
+      "Samsung DRAM chip",
+      "DRAM memory module"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Amiga_1000_-_memory_expansion_module_-_Micron_Technology_MT4C4256-10-7728.jpg/1280px-Amiga_1000_-_memory_expansion_module_-_Micron_Technology_MT4C4256-10-7728.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Amiga_1000_-_memory_expansion_module_-_Micron_Technology_MT4C4256-10-7728.jpg/1280px-Amiga_1000_-_memory_expansion_module_-_Micron_Technology_MT4C4256-10-7728.jpg",
+        "nazov": "Amiga 1000 - memory expansion module - Micron Technology MT4C4256-10-7728.jpg",
+        "autor": "Raimond Spekking",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Amiga_1000_-_memory_expansion_module_-_Micron_Technology_MT4C4256-10-7728.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Micron DRAM module"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Amiga_1000_-_memory_expansion_module_-_Micron_Technology_MT4C4256-10-7730.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/57100ad0-ae9d-4d41-837a-a74970e812ca/thumb/",
+        "nazov": "Amiga 1000 - memory expansion module - Micron Technology MT4C4256-10-7730",
+        "autor": "Raimond Spekking",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=121166558",
+        "povod": "openverse",
+        "dopyt": "Micron DRAM module"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Package_bot_-_Samsung_K4H560838E_-_John_McMaster.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/8/84/Package_bot_-_Samsung_K4H560838E_-_John_McMaster.jpg",
+        "nazov": "Package bot - Samsung K4H560838E - John McMaster.jpg",
+        "autor": "John McMaster",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Package_bot_-_Samsung_K4H560838E_-_John_McMaster.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Samsung DRAM chip"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Cisco_EPC3212_-_Samsung_K4T51163QI-HCE6-8773.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/ea4d75c4-cf9e-4187-8828-98873aabd020/thumb/",
+        "nazov": "Cisco EPC3212 - Samsung K4T51163QI-HCE6-8773",
+        "autor": "Raimond Spekking",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=55170845",
+        "povod": "openverse",
+        "dopyt": "Samsung DRAM chip"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/RAMBUS-Memory.jpg/1280px-RAMBUS-Memory.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/RAMBUS-Memory.jpg/1280px-RAMBUS-Memory.jpg",
+        "nazov": "RAMBUS-Memory.jpg",
+        "autor": "User Kotepho on en.wikipedia",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:RAMBUS-Memory.jpg",
+        "povod": "wikimedia",
+        "dopyt": "DRAM memory module"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/System_in_package.png",
+        "nahlad": "https://api.openverse.org/v1/images/140ee4cb-c10e-46b0-962f-fc292f2aa877/thumb/",
+        "nazov": "System in package",
+        "autor": "Verdel",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=97700648",
+        "povod": "openverse",
+        "dopyt": "DRAM memory module"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Amiga_1000_-_memory_expansion_module_-_Micron_Technology_MT4C4256-10-7730.jpg/1280px-Amiga_1000_-_memory_expansion_module_-_Micron_Technology_MT4C4256-10-7730.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Amiga_1000_-_memory_expansion_module_-_Micron_Technology_MT4C4256-10-7730.jpg/1280px-Amiga_1000_-_memory_expansion_module_-_Micron_Technology_MT4C4256-10-7730.jpg",
+        "nazov": "Amiga 1000 - memory expansion module - Micron Technology MT4C4256-10-7730.jpg",
+        "autor": "Raimond Spekking",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Amiga_1000_-_memory_expansion_module_-_Micron_Technology_MT4C4256-10-7730.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Micron DRAM module"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Amiga_1000_-_memory_expansion_module_-_Micron_Technology_MT4C4256-10-7728.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/1b73b33b-59ef-49ff-9e86-ee4abfaadd98/thumb/",
+        "nazov": "Amiga 1000 - memory expansion module - Micron Technology MT4C4256-10-7728",
+        "autor": "Raimond Spekking",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=121122420",
+        "povod": "openverse",
+        "dopyt": "Micron DRAM module"
+      }
+    ],
+    "prompt_ilustracie": "Conceptual illustration of memory microchips surrounded by court gavels and rising percentage charts in a futuristic financial style."
+  },
+  "prompt_ilustracie": "Conceptual illustration of memory microchips surrounded by court gavels and rising percentage charts in a futuristic financial style.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/2f2a9637fa24c612ce372820ca1307d8",
+  "text_agentov": {
+    "titulok": "Súd zamietol žiadosť výrobcov čipov v kauze manipulácie cien pamätí DRAM",
+    "perex": "Sudkyňa konanie nezastavila, lebo žalobcovia podľa nej predložili nové dôkazy o možnej dohode. Firmy sa bránili, že sa navzájom len sledujú ako jastraby.",
+    "telo": "Americký súd zamietol návrh na zastavenie navrhovanej hromadnej žaloby, ktorej čelia poprední svetoví výrobcovia pamäťových čipov Micron, Samsung a SK hynix. Rozhodnutie vydala sudkyňa Noël Wiseová, ktorá dohliada na tento prípad. Obvinenia sa týkajú údajnej manipulácie s cenami pamätí DRAM, pričom žalujúca strana predložila argumenty o možnej nelegálnej dohode medzi tromi gigantmi.\n\n## Reakcia súdu na obhajobu\n\nObvinené spoločnosti sa bránili tvrdením, že ide iba o opakovanie staršieho protimonopolného prípadu z roku 2018. Sudkyňa Wiseová však tento argument odmietla. Žalobcovia podľa nej predložili nové dôkazy, ktoré naznačujú, že medzi tromi najväčšími výrobcami pamäťových čipov mohlo dôjsť ku kolúzii.\n\nVýrobcovia taktiež argumentovali, že si navzájom konkurujú tak tesne, až sa sledujú ako jastrabi. Sudkyňa Wiseová však túto analógiu odmietla s tým, že správanie firiem pripomína skôr „jastrabov letiacich vo formácii, čo je aktivita, ktorú jastrabi bežne nerobia“.\n\nTrojica veľkých výrobcov čipov tvrdila, že ich kroky boli iba logickými obchodnými rozhodnutiami na maximalizáciu príjmov počas obdobia vysokého dopytu. Podľa ich vyjadrení konali v rámci vlastného ekonomického záujmu a podobné správanie v silne koncentrovanom trhu je prirodzenou reakciou na rovnaké trhové tlaky.\n\n## Argumenty žalujúcej strany\n\nŽalobu podalo 17 jednotlivcov a malých podnikov. Tvrdia v nej, že spoločnosti uskutočnili štyri paralelné kroky, ktoré obmedzili ponuku pamätí DRAM a vyvolali nedostatok na trhu. Výsledkom bol prudký skok cien, ktoré za jeden rok stúpli až o 500 percent.\n\nMedzi spornými krokmi žalobcovia uvádzajú súčasné znižovanie výroby DRAM od októbra 2022 do apríla 2023, po ktorom nasledoval koordinovaný prechod na vysokorýchlostné pamäte typu HBM. Firmy tiež v rozpätí troch mesiacov oznámili ukončenie produkcie starších pamätí DDR4. Podľa žalobcov navyše nezvýšili výrobnú kapacitu napriek historicky najsilnejšiemu cenovému signálu v odvetví. Podľa žalobcov išlo o „najsilnejší ponukový signál, aký kedy odvetvie DRAM vyslalo“.\n\nŽaloba spomína aj prísnejšie postupy preverovania zákazníkov, odmietanie podpisovania dlhodobých zmlúv, rozhodnutie spoločnosti Micron ukončiť značku spotrebiteľských pamätí Crucial, viaceré prognózy nedostatku aj skoršie škandály s fixovaním cien.\n\n## Ďalší postup a termíny\n\nSudkyňa rozhodla, že prípad je dostatočne hodný uverenia na to, aby mohol pokračovať ďalej. Súd však zatiaľ nevyniesol konečný verdikt o vine a obidve strany budú musieť predložiť svoje dôkazy a argumenty.\n\nSpoločnosti dostali termín do 7. decembra na reagovanie na pôvodnú sťažnosť. Samotná konferencia k manažmentu prípadu, ktorá určí administratívne záležitosti, je naplánovaná na január 2027."
+  }
+}
