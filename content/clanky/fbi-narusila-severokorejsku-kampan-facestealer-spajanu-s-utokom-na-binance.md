@@ -3,24 +3,25 @@ title: FBI narušila severokórejskú kampaň FaceStealer spájanú s útokom na
 perex: Americké úrady zaistili cloudovú infraštruktúru, v ktorej sa podľa FBI nachádzalo 900 videí obetí. Útočníci využívali AI deepfaky, falošné pracovné ponuky aj škodlivý softvér na krádež prístupov.
 sekcia: bezpecnost
 tagy:
-- FBI
-- FaceStealer
-- kybernetická bezpečnosť
-- kryptomeny
-publikovane: '2026-11-16T18:37:19+00:00'
+  - FBI
+  - FaceStealer
+  - kybernetická bezpečnosť
+  - kryptomeny
+publikovane: 2026-11-16T18:37:19+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/fbi-narusila-severokorejsku-kampan-facestealer-spajanu-s-utokom-na-binance-mwjnfldh.jpg
+  alt: Bitcoin on Laptop Keyboard
+  popisok: Bitcoin on Laptop Keyboard
+  kredit: Satheesh Sankaran / Wikimedia Commons
+  licencia: CC BY 2.0
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Tom''s Hardware: FBI disrupts North Korean FaceStealer campaign behind $5 billion Binance hack'
-  url: https://www.tomshardware.com/tech-industry/cyber-security/fbi-disrupts-north-korean-facestealer-campaign-behind-usd5-billion-binance-hack-doj-seizes-facestealer-cloud-infrastructure-containing-900-videos-of-tech-workers-hackers-used-ai-deepfakes-to-steal-usd400-million-and-compromise-open-source-software
+  - nazov: "Tom's Hardware: FBI disrupts North Korean FaceStealer campaign behind $5 billion Binance hack"
+    url: https://www.tomshardware.com/tech-industry/cyber-security/fbi-disrupts-north-korean-facestealer-campaign-behind-usd5-billion-binance-hack-doj-seizes-facestealer-cloud-infrastructure-containing-900-videos-of-tech-workers-hackers-used-ai-deepfakes-to-steal-usd400-million-and-compromise-open-source-software
 ---
 
 Americké úrady narušili infraštruktúru kampane FaceStealer, ktorú FBI pripisuje severokórejským útočníkom. Zásah sa týkal cloudových serverov s približne 900 videami ľudí, ktorých si skupina vyhliadla. Podľa zistení FBI nejde o jednoduchý podvodný e-mail, ale o dlhodobo pripravované útoky využívajúce osobné údaje, kontakty obetí a videá vytvorené alebo upravené pomocou umelej inteligencie.
