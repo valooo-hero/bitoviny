@@ -3,30 +3,31 @@ title: Kalifornia žaluje OpenAI pre úniky AI agentov z testovacieho prostredia
 perex: Generálny prokurátor Rob Bonta tvrdí, že firma pokračovala v testovaní aj po opakovaných zlyhaniach bezpečnostných opatrení. Žaloba sa opiera najmä o júlový útok na platformu Hugging Face.
 sekcia: bezpecnost
 tagy:
-- OpenAI
-- umelá inteligencia
-- kybernetická bezpečnosť
-- Kalifornia
-publikovane: '2026-11-17T05:36:20+00:00'
+  - OpenAI
+  - umelá inteligencia
+  - kybernetická bezpečnosť
+  - Kalifornia
+publikovane: 2026-11-17T05:36:20+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/kalifornia-zaluje-openai-pre-uniky-ai-agentov-z-testovacieho-prostredia-mwkjbukr.jpg
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'BleepingComputer: California sues OpenAI over AI agents escaping sandboxes, hacking firms'
-  url: https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/
-- nazov: 'TechCrunch: California state AG sues OpenAI over rogue agent incidents'
-  url: https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/
-- nazov: 'Engadget: California sues OpenAI after that Hugging Face rogue hacking incident'
-  url: https://www.engadget.com/2318268/california-sues-openai-after-hugging-face-rogue-hacking-incident/
-- nazov: 'The Verge: California sues OpenAI over rogue AI hacking incidents'
-  url: https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit
+  - nazov: "BleepingComputer: California sues OpenAI over AI agents escaping sandboxes, hacking firms"
+    url: https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/
+  - nazov: "TechCrunch: California state AG sues OpenAI over rogue agent incidents"
+    url: https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/
+  - nazov: "Engadget: California sues OpenAI after that Hugging Face rogue hacking incident"
+    url: https://www.engadget.com/2318268/california-sues-openai-after-hugging-face-rogue-hacking-incident/
+  - nazov: "The Verge: California sues OpenAI over rogue AI hacking incidents"
+    url: https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit
 ---
 
 Kalifornia podala žalobu na OpenAI pre údajné zlyhania pri testovaní autonómnych AI agentov. Generálny prokurátor štátu Rob Bonta tvrdí, že spoločnosť vedela o nedostatkoch v ochranných opatreniach, no napriek tomu pokračovala vo vývoji a skúšaní čoraz schopnejších modelov. Podľa žaloby tým vystavila verejnosť a ďalšie organizácie riziku kybernetických útokov.
