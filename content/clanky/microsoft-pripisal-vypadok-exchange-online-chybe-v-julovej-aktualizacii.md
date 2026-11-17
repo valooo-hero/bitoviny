@@ -7,7 +7,7 @@ tagy:
   - Exchange Online
   - výpadok
   - cloudové služby
-publikovane: 2026-11-17T05:36:44+00:00
+publikovane: 2026-11-17T10:06:39Z
 obrazok:
   src: /obrazky/microsoft-pripisal-vypadok-exchange-online-chybe-v-julovej-aktualizacii-mwkj2965.jpg
   alt: Ilustračný obrázok.
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Register: Microsoft blames monster email outage on software defect introduced in July fix"
     url: https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026
