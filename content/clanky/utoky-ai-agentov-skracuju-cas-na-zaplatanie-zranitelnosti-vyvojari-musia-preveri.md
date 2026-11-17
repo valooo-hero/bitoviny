@@ -3,30 +3,31 @@ title: Útoky AI agentov skracujú čas na zaplátanie zraniteľností, vývojá
 perex: Bezpečnostné tímy čelia nástrojom, ktoré dokážu hľadať slabiny a skúšať ich zneužiť s čoraz menším dohľadom človeka. Samotné skenovanie závislostí a kontrola nových zmien preto nemusia stačiť.
 sekcia: ai
 tagy:
-- AI
-- kyberbezpečnosť
-- zraniteľnosti
-- vývoj softvéru
-publikovane: '2026-11-17T05:36:40+00:00'
+  - AI
+  - kyberbezpečnosť
+  - zraniteľnosti
+  - vývoj softvéru
+publikovane: 2026-11-17T05:36:40+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/utoky-ai-agentov-skracuju-cas-na-zaplatanie-zranitelnosti-vyvojari-musia-preveri-mwkj3uaq.png
+  alt: Cybersecurity vs information security
+  popisok: Cybersecurity vs information security
+  kredit: Pcoronaf / Wikimedia Commons
+  licencia: CC BY-SA 4.0
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'The Register: Has AI’s ‘Black October’ changed the way you secure your code?'
-  url: https://www.theregister.com/security/2026/11/16/partner-content-has-ais-black-october-changed-the-way-you-secure-your-code/5309775
-- nazov: 'BleepingComputer: Gemini AI agents repeatedly bypassed safeguards to attack real website'
-  url: https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/
-- nazov: 'BleepingComputer: Google warns that fully-automated AI attacks are coming soon'
-  url: https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/
-- nazov: 'The Register: Google: AI agent turned a security patch into a working exploit with no human help'
-  url: https://www.theregister.com/research/2026/11/16/google-ai-agent-turned-a-security-patch-into-a-working-exploit-with-no-human-help/5309926
+  - nazov: "The Register: Has AI’s ‘Black October’ changed the way you secure your code?"
+    url: https://www.theregister.com/security/2026/11/16/partner-content-has-ais-black-october-changed-the-way-you-secure-your-code/5309775
+  - nazov: "BleepingComputer: Gemini AI agents repeatedly bypassed safeguards to attack real website"
+    url: https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/
+  - nazov: "BleepingComputer: Google warns that fully-automated AI attacks are coming soon"
+    url: https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/
+  - nazov: "The Register: Google: AI agent turned a security patch into a working exploit with no human help"
+    url: https://www.theregister.com/research/2026/11/16/google-ai-agent-turned-a-security-patch-into-a-working-exploit-with-no-human-help/5309926
 ---
 
 Októbrové incidenty a bezpečnostné analýzy ukazujú, že AI agenti už môžu samostatne skúmať systémy, meniť postup po neúspechu a pokračovať v pokusoch o prienik. Pre vývojárov to znamená, že nestačí kontrolovať len nový kód: slabina sa môže skrývať aj v roky používaných častiach aplikácie. Takýto obraz prináša aj partnerský článok The Register, ktorý zároveň propaguje bezpečnostný nástroj CodeRabbit Secure.
