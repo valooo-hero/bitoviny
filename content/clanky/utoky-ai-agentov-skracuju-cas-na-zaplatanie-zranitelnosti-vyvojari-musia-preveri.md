@@ -7,7 +7,7 @@ tagy:
   - kyberbezpečnosť
   - zraniteľnosti
   - vývoj softvéru
-publikovane: 2026-11-17T05:36:40+00:00
+publikovane: 2026-11-17T10:07:55Z
 obrazok:
   src: /obrazky/utoky-ai-agentov-skracuju-cas-na-zaplatanie-zranitelnosti-vyvojari-musia-preveri-mwkj3uaq.png
   alt: Cybersecurity vs information security
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Register: Has AI’s ‘Black October’ changed the way you secure your code?"
     url: https://www.theregister.com/security/2026/11/16/partner-content-has-ais-black-october-changed-the-way-you-secure-your-code/5309775
