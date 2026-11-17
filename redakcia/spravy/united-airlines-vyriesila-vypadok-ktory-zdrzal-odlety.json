@@ -1,0 +1,366 @@
+{
+  "slug": "united-airlines-vyriesila-vypadok-ktory-zdrzal-odlety",
+  "datum_sprav": "2026-11-16",
+  "dovod_vyberu": "Výpadok systémov United Airlines ukazuje zraniteľnosť kritických dopravných IT riešení.",
+  "poznamky_pre_editora": "Vypustila som nepodložené tvrdenie o osobitnom dosahu na cestujúcich na Slovensku. Časy 18:13 a 18:16 som nahradila pôvodným zápisom zdrojov „6:13 PM ET“ a „6:16 PM ET“; nejde teda o prepočet. Ostatné namietané rozpory ani nejasnosti zdroje neuvádzajú.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je plne spoľahlivý a presne vychádza zo zverejnených správ v zdrojoch Engadget a The Verge. Všetky faktické tvrdenia, časové údaje aj citácie sú v súlade s podkladmi a neobsahujú žiadne nesprávne či nepodložené informácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 16,
+        "potvrdenych": 15,
+        "chyb": 2,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 15,
+        "potvrdenych": 15,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "United Airlines vyriešila technický problém, ktorý zdržal odlety jej letov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "United Airlines has fixed issue that caused 'widespread system outage'",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výpadok sa stal v pondelok 16. novembra 2026.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Update, November 16, 2026, 5:46PM ET: Added comment from United.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Porucha nezasiahla lety, ktoré už boli vo vzduchu, ani lety spoločnosti United Express.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "There is no impact on flights in progress, or on United Express flights.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť nespresnila príčinu výpadku.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "addressed an unspecified \"technology issue\" that caused the delays, but didn't elaborate on a cause.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "United odpovedala cestujúcim na sieti X, že si je vedomá rozsiahleho výpadku systému.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "United Airlines said on X in response to several customers' posts that it was aware of \"widespread system outage.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Hovorca United pre Engadget uviedol, že riešia technický problém ovplyvňujúci odlietajúce lety.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "\"We are troubleshooting a technology issue affecting departing flights,\" a spokesperson from United told Engadget.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Verge uviedol, že United oznámila vyriešenie poruchy o 6:13 PM ET.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "At 6:13PM ET, United said the problem has been fixed:",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dopravca cestujúcim odporučil skontrolovať stav letu na united.com alebo v aplikácii United.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Please check the latest status of your flight at united.com or the United app.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Engadget zverejnil aktualizáciu s informáciami od United o 6:16 PM ET.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Update, November 16, 2026, 6:16PM ET: This post was updated with additional information from United Airlines about the outage.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Piloti mali podľa príspevkov na sociálnych sieťach hovoriť o nedostupnosti výpočtu hmotnosti a vyváženia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "heard from their pilots that a systemwide IT outage for United has caused problems with a weight and balance calculator",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Engadget zaznamenal zmienky o počítačovom systéme pre hmotnosti a miery.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "suggest that they've been told that a computer system for weights and measures is down.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Porucha nastala menej než týždeň po celonárodnom zastavení odletov úradom FAA.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Less than a week after an issue with air traffic control communications and radar caused the FAA to halt takeoffs nationwide",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pilot jedného z cestujúcich podľa Engadgetu uviedol, že problém nesúvisí so zastavením letov FAA.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "One customer's pilot reportedly said that the problem is unrelated to the ground stop from the US Federal Aviation Administration",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "United uviedla, že nič nenaznačuje kybernetický pôvod incidentu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "There is no indication that this is a cybersecurity-related issue.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroje neuvádzajú, že by výpadok zasiahol iné letecké spoločnosti.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "the problems appear to be limited to a single company.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "odlietajúcich",
+        "kontext": "Technický problém zasiahol časť odlietajúcich letov amerického dopravcu. Spoločnosť u",
+        "navrhy": [
+          "od lietajúcich",
+          "odlietajúc ich"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "\nAko",
+        "kontext": "dok spôsobilo, spoločnosť nezverejnila.\n\nAko informovali Engadget a The Verge, cestu",
+        "navrhy": [
+          ", Ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", Ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "odlietajúce",
+        "kontext": "reveruje technický problém ovplyvňujúci odlietajúce lety. Neskôr potvrdila, že ho odstránil",
+        "navrhy": [
+          "odlietajúc",
+          "odmietajúce",
+          "od lietajúce"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "odlietajúcich",
+        "kontext": " že ho odstránila.\n\n## Problém sa týkal odlietajúcich letov\n\nHovorca United pre Engadget pove",
+        "navrhy": [
+          "od lietajúcich",
+          "odlietajúc ich"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "osť neuviedla, koľko letov meškalo alebo ako dlho komplikácie trvali. Ani po odstrán",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Japan_Airlines_777_Engine_Failure_on_Departure_%282_of_2%29_%2851599589068%29.jpg/1280px-Japan_Airlines_777_Engine_Failure_on_Departure_%282_of_2%29_%2851599589068%29.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://www.engadget.com/img/gallery/united-airlines-is-experiencing-a-widespread-system-outage/l-intro-1794871027.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/united-airlines-is-experiencing-a-widespread-system-outage/intro-1794871027.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304760092.jpg?quality=90&strip=all&crop=0,10.758424536606,100,78.483150926788",
+        "zdroj_clanku": "The Verge",
+        "alt": "US-TRAVEL-AVIATION",
+        "popisok": "United Airlines passenger planes are seen at gates at Newark Liberty International Airport (EWR) in Newark, New Jersey, on November 15, 2026. | AFP via Getty Images",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "United Airlines plane",
+      "airplane departure",
+      "airport terminal"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Japan_Airlines_777_Engine_Failure_on_Departure_%282_of_2%29_%2851599589068%29.jpg/1280px-Japan_Airlines_777_Engine_Failure_on_Departure_%282_of_2%29_%2851599589068%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Japan_Airlines_777_Engine_Failure_on_Departure_%282_of_2%29_%2851599589068%29.jpg/1280px-Japan_Airlines_777_Engine_Failure_on_Departure_%282_of_2%29_%2851599589068%29.jpg",
+        "nazov": "Japan Airlines 777 Engine Failure on Departure (2 of 2) (51599589068).jpg",
+        "autor": "Glenn Beltz from Goleta, CA, USA",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Japan_Airlines_777_Engine_Failure_on_Departure_(2_of_2)_(51599589068).jpg",
+        "povod": "wikimedia",
+        "dopyt": "United Airlines plane"
+      },
+      {
+        "url": "https://live.staticflickr.com/7156/6543959013_65a51d28f8_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/48bc606a-8658-4cde-b997-886833abbbc7/thumb/",
+        "nazov": "Landing United Airlines Plane Over Maho Beach",
+        "autor": "puroticorico",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/10058483@N00/6543959013",
+        "povod": "openverse",
+        "dopyt": "United Airlines plane"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Airplane_Departure_Emoji_%2854209573465%29.jpg/1280px-Airplane_Departure_Emoji_%2854209573465%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Airplane_Departure_Emoji_%2854209573465%29.jpg/1280px-Airplane_Departure_Emoji_%2854209573465%29.jpg",
+        "nazov": "Airplane Departure Emoji (54209573465).jpg",
+        "autor": "Exey Panteleev",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Airplane_Departure_Emoji_(54209573465).jpg",
+        "povod": "wikimedia",
+        "dopyt": "airplane departure"
+      },
+      {
+        "url": "https://live.staticflickr.com/8619/16069344614_c1d0c4d0af_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/64fde077-77bc-4c5b-ae94-d36a5a0aec35/thumb/",
+        "nazov": "LDS President David O. McKay's Airplane Departure - Helsinki, Finland - June 1952",
+        "autor": "ckroberts61",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/55789958@N00/16069344614",
+        "povod": "openverse",
+        "dopyt": "airplane departure"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Berlin_Brandenburg_Airport_Terminal_1.jpg/1280px-Berlin_Brandenburg_Airport_Terminal_1.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Berlin_Brandenburg_Airport_Terminal_1.jpg/1280px-Berlin_Brandenburg_Airport_Terminal_1.jpg",
+        "nazov": "Berlin Brandenburg Airport Terminal 1.jpg",
+        "autor": "Arne Müseler",
+        "licencia": "CC BY-SA 3.0 de",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Berlin_Brandenburg_Airport_Terminal_1.jpg",
+        "povod": "wikimedia",
+        "dopyt": "airport terminal"
+      },
+      {
+        "url": "https://live.staticflickr.com/3208/2811821241_92d9f78182_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/0e1f903a-74d5-4c99-ab54-9449dd544288/thumb/",
+        "nazov": "Harrisburg Airport Terminal Drawing",
+        "autor": "mchart929",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/29958866@N07/2811821241",
+        "povod": "openverse",
+        "dopyt": "airport terminal"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/United_Airlines_plane%2C_Heathrow_-_geograph.org.uk_-_5988800.jpg/1280px-United_Airlines_plane%2C_Heathrow_-_geograph.org.uk_-_5988800.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/United_Airlines_plane%2C_Heathrow_-_geograph.org.uk_-_5988800.jpg/1280px-United_Airlines_plane%2C_Heathrow_-_geograph.org.uk_-_5988800.jpg",
+        "nazov": "United Airlines plane, Heathrow - geograph.org.uk - 5988800.jpg",
+        "autor": "Hugh Venables",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:United_Airlines_plane,_Heathrow_-_geograph.org.uk_-_5988800.jpg",
+        "povod": "wikimedia",
+        "dopyt": "United Airlines plane"
+      },
+      {
+        "url": "https://live.staticflickr.com/8391/8648291977_176ccb64f3_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/9731e85b-ce70-4264-96b9-0c551cbc7af0/thumb/",
+        "nazov": "United Airlines plane landing at Dulles (IAD)",
+        "autor": "m01229",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/39908901@N06/8648291977",
+        "povod": "openverse",
+        "dopyt": "United Airlines plane"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic editorial illustration of a grounded commercial airplane beside abstract software outage symbols, with no logos, identifiable people, or documentary-photography style."
+  },
+  "prompt_ilustracie": "A symbolic editorial illustration of a grounded commercial airplane beside abstract software outage symbols, with no logos, identifiable people, or documentary-photography style.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/2ead75644b165d54ad49810810e5f2c2",
+  "text_agentov": {
+    "titulok": "United Airlines vyriešila výpadok, ktorý zdržal odlety",
+    "perex": "Technický problém zasiahol časť odlietajúcich letov amerického dopravcu. Spoločnosť uviedla, že poruchu odstránila; jej príčinu zatiaľ nevysvetlila.",
+    "telo": "United Airlines vyriešila technický problém, ktorý v pondelok 16. novembra zdržal odlety niektorých jej letov. Dopravca uviedol, že porucha nezasiahla lietadlá, ktoré už boli vo vzduchu, ani lety spoločnosti United Express. Čo presne výpadok spôsobilo, spoločnosť nezverejnila.\n\nAko informovali Engadget a The Verge, cestujúci na sociálnych sieťach opisovali komplikácie pri odletoch a niektorí z nich dostali od United odpoveď, že dopravca rieši rozsiahly výpadok systému. United spočiatku uviedla, že preveruje technický problém ovplyvňujúci odlietajúce lety. Neskôr potvrdila, že ho odstránila.\n\n## Problém sa týkal odlietajúcich letov\n\nHovorca United pre Engadget povedal, že porucha ovplyvnila odlety, nie však lety, ktoré už boli v priebehu, ani spoje United Express. Spoločnosť neuviedla, koľko letov meškalo alebo ako dlho komplikácie trvali. Ani po odstránení problému nezverejnila jeho konkrétnu príčinu.\n\nThe Verge uviedol, že United oznámila vyriešenie poruchy o 6:13 PM ET. V aktualizovanej správe dopravca cestujúcim odporučil skontrolovať aktuálny stav letu na svojom webe alebo v aplikácii. Engadget zasa doplnil informácie od spoločnosti v aktualizácii zverejnenej o 6:16 PM ET.\n\n## Hovorilo sa o výpočte hmotnosti a vyváženia\n\nPodľa príspevkov cestujúcich na sociálnych sieťach mali piloti hovoriť o nedostupnom systéme na výpočet hmotnosti a vyváženia lietadla. The Verge opísal, že problém s takýmto nástrojom mohol brániť získaniu povolenia na odlet. Engadget zaznamenal aj zmienky o systéme pre „hmotnosti a miery“.\n\nTieto podrobnosti pochádzajú z príspevkov cestujúcich a vyjadrení, ktoré im mali sprostredkovať posádky. United nepotvrdila, že príčinou bola práve porucha výpočtového systému. Jej verejné vysvetlenie zostalo pri všeobecnom označení „technický problém“, preto nemožno presný chybný systém považovať za potvrdený.\n\n## Nesúviselo to s nedávnym zastavením letov\n\nVýpadok prišiel menej než týždeň po tom, čo americký Federálny úrad pre letectvo (FAA) zastavil odlety v celej krajine pre problém s komunikáciou a radarom v riadení letovej prevádzky. Podľa správ, ktoré zachytil Engadget, jeden z pilotov cestujúcim povedal, že aktuálna porucha s týmto zastavením nesúvisí. United však podrobnosti o príčine ani vzťahu k udalosti FAA nezverejnila.\n\nDopravca zároveň uviedol, že nemá náznaky, že by išlo o problém súvisiaci s kybernetickou bezpečnosťou. To nie je totožné s podrobným vysvetlením pôvodu výpadku: spoločnosť ho neposkytla. Správy o poruche sa týkali United Airlines; zdroje neuvádzajú, že by výpadok zasiahol ďalších dopravcov."
+  }
+}
