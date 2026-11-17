@@ -1,0 +1,485 @@
+{
+  "slug": "microsoft-pripisal-vypadok-exchange-online-chybe-v-julovej-aktualizacii",
+  "datum_sprav": "2026-11-16",
+  "dovod_vyberu": "Microsoft vydal núdzové aktualizácie Windows na opravu problémov s aktiváciou, dôležité pre bezpečnosť používateľov.",
+  "poznamky_pre_editora": "Zmenila som zápis šiestich časových údajov z formátu HH:MM na kompaktný zápis použitý v zdroji The Register: 0107, 1603, 0030, 0720, 1610 a 0415 UTC. Ostatný text som nemenila.",
+  "upozornenia": [
+    "Článok čerpá len z jedného zdroja, hoci ich bolo viac."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je vysoko spoľahlivý, všetky overiteľné tvrdenia majú priamu oporu v zdrojoch a presne odrážajú obsah článku The Register. Najvážnejším problémom nie je žiadna faktická chyba, ale možno len drobné štylistické skratky, ktoré však nemenia význam.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 24,
+        "potvrdenych": 22,
+        "chyb": 8,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 30,
+        "potvrdenych": 30,
+        "chyb": 6,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 27,
+        "potvrdenych": 27,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Microsoft v predbežnej správe pripísal rozsiahly výpadok Exchange Online a ďalších služieb chybe v softvéri sieťových brán.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Microsoft has blamed last week's epic outage on a change it made in July that lurked in the network gateway servers",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Závada sa do nich dostala v júli 2026, no prejavila sa až v novembri, keď sa stretla zvýšená záťaž so zníženou dostupnou kapacitou.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "the defect was introduced in July 2026. The update looked fine at the time... Then two things happened at once. Teams failed over... At the same time, almost 14 percent of server capacity... was out of service",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V najhoršej chvíli neodpovedalo viac než 80 percent serverov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "\"At its lowest,\" the report states, \"more than 80 percent of servers were unresponsive.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako informoval portál The Register, Microsoft správu zverejnil 15. novembra.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "According to a preliminary post incident report published by Microsoft on November 15",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Firma uviedla, že júlová zmena pri vtedajšom testovaní záťažou nevyvolala problémy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The update looked fine at the time, Microsoft says, having passed load testing and been deployed without any impact.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Testy však podľa nej viac zohľadňovali menej výkonný hardvér s menším počtom jadier.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Our load testing tended to focus on weaker hardware with fewer cores.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Chyba sa naopak zhoršovala na novších serveroch s väčším počtom jadier.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The contention issue is worsened on machines with more cores and newer hardware.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Závada spôsobovala súperenie procesov o prístup k systémovým prostriedkom v internom procese Windows.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The defect caused \"lock contention inside an internal Windows process which caused the machine's resources (CPU & memory) to be exhausted.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Následkom bolo nadmerné využitie procesora a pamäte a napokon prestali servery správne odpovedať.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The defect caused \"lock contention inside an internal Windows process which caused the machine's resources (CPU & memory) to be exhausted.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft upozornil, že samotný nárast prevádzky ani dočasný výpadok časti kapacity by za bežných okolností nemali stačiť na vyvolanie takého problému.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "creating a surge in load that was not, in itself, particularly unusual. At the same time, almost 14 percent of server capacity... was out of service, which wasn't a problem by itself either",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kľúčová kombinácia nastala 12. novembra o 0107 UTC, keď Teams prešli na primárnu sieťovú bránu podporujúcu Exchange Online.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The Teams failover... happened at 0107 UTC on November 12.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Súčasne bolo mimo prevádzky takmer 14 percent kapacity brán.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "almost 14 percent of server capacity for the networking gateway was out of service",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft podľa správy považoval rezervu za dostatočnú a odstavené servery sa mali vracať do služby.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "it was on its way to being restored and, according to Microsoft, \"the service had sufficient capacity headroom.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Keď jeden server stratil spojenie, prevádzka sa presmerovala na ďalší dostupný server, ktorý narazil na rovnaký problém.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "When a server loses connectivity, traffic gets routed to the next healthy endpoint. Which encountered the same problem.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "O 1603 UTC systém na sledovanie pripojenia zaznamenal nárast problémov a o pol hodiny neskôr prišla prvá zákaznícka požiadavka na podporu.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "at 1603 UTC, Microsoft's connectivity anomaly detection monitor identified an increase in connectivity issues. At 1633 UTC, the first support case came in.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Obnovené servery boli podľa Microsoftu okamžite znovu preťažené.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Bringing servers back to service didn't help – they were immediately overwhelmed and fell over again.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Automatické postupy obnovy neboli pripravené na taký rozsiahly stav, pričom jednoduchý návrat k predchádzajúcej verzii nebol možný, keďže chybná zmena bola nasadená už pred niekoľkými mesiacmi.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Our normally automated recovery processes were not designed to restore service from this broad unresponsive state. A straightforward rollback was also not possible because the defect was months old.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Inžinieri preto pripravili aktualizáciu, ktorá vrátila chybnú časť kódu do predtým funkčného stavu, a nasadzovali ju postupne na skupiny serverov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "engineers developed patch for the patch or, in Microsoft's words, \"an update that returned the code path to the previously known good state in Windows.\" The patch was applied to groups of servers",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft o 0030 UTC 13. novembra identifikoval vyjednávanie spojenia ako hlavnú príčinu problémov s prístupom.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "By 0030 UTC on November 13, Microsoft had identified connection negotiation as the main culprit for the access failures",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "O 0720 UTC už podľa správy našiel a nasadil zmierňujúcu opravu.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "it took until 0720 UTC before \"We identified a mitigation and applied the mitigation – an update that reverted the defective change.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť o 1610 UTC potvrdila, že služby opäť fungujú stabilne; poslednú zákaznícku aktualizáciu vydala 14. novembra o 0415 UTC.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "At 1610 UTC, Microsoft confirmed that things were once again looking healthy and, at 0415 on November 14, issued its final customer update.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Niektoré služby, medzi nimi Teams, OneDrive, SharePoint a aplikácie Office, sa dokázali presmerovať mimo chybnej infraštruktúry.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "\"Those services that were able – like Teams, OneDrive, SharePoint, and Office apps – failed out of the faulty network gateway infrastructure,\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Exchange Online takú možnosť podľa Microsoftu nemal z kapacitných dôvodov, čo prispelo k dlhému výpadku e-mailov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "\"But not all services, like Exchange Online, can fail out of this network gateway for scale reasons.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Aj preto sa problém výrazne dotkol používateľov Outlooku.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Hence the length of time for which Exchange Online (or, from the perspective of many users, Outlook) was out of action.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft pozastavil prebiehajúce aj plánované nasadzovania a zmeny konfigurácie, pridával kapacitu a presmerúval prevádzku, no tieto kroky samy osebe nestačili.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "All ongoing and planned deployments and configuration changes were paused... Extra capacity was added. Traffic was rerouted. Yet servers kept falling over.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Záverečnú správu o incidente má zverejniť 20. novembra.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "A final post incident report is due on November 20.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Predbežné zistenia zároveň ukazujú, že testovanie júlovej zmeny nezachytilo podmienky, v ktorých sa neskôr prejavila.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "With load testing that didn't reflect scenarios under Microsoft's control?",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "záťaže",
+        "kontext": "ach sa prejavila až pri súbehu zvýšenej záťaže a výpadku časti kapacity. Podľa predbež",
+        "navrhy": [
+          "zakáže",
+          "zamaže",
+          "zaťaté"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "\nAko",
+        "kontext": "dpovedalo viac než 80 percent serverov.\n\nAko informoval portál The Register, Microso",
+        "navrhy": [
+          ", Ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", Ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "záťažou",
+        "kontext": "že júlová zmena pri vtedajšom testovaní záťažou nevyvolala problémy. Testy však podľa n",
+        "navrhy": [
+          "zaťatou",
+          "záťažovú",
+          "záťaž ou"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "mbra identifikoval vyjednávanie spojenia ako hlavnú príčinu problémov s prístupom. O",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "zmierňujúcu",
+        "kontext": "20 UTC už podľa správy našiel a nasadil zmierňujúcu opravu. Spoločnosť o 1610 UTC potvrdila",
+        "navrhy": [
+          "zmierňujúc",
+          "zmierňujúci",
+          "zmierňujúc u"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "presmerúval",
+        "kontext": "zmeny konfigurácie, pridával kapacitu a presmerúval prevádzku, no tieto kroky samy osebe ne",
+        "navrhy": [
+          "presmeroval"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Moto_Q9h_%281717694043%29.jpg/1280px-Moto_Q9h_%281717694043%29.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://www.bleepstatic.com/content/hl-images/2026/11/16/Windows.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://image.theregister.com/?imageId=254046&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Microsoft Exchange server",
+      "Microsoft server rack",
+      "data center server rack"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Moto_Q9h_%281717694043%29.jpg/1280px-Moto_Q9h_%281717694043%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Moto_Q9h_%281717694043%29.jpg/1280px-Moto_Q9h_%281717694043%29.jpg",
+        "nazov": "Moto Q9h (1717694043).jpg",
+        "autor": "Alpha from Melbourne, Australia",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Moto_Q9h_(1717694043).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft Exchange server"
+      },
+      {
+        "url": "https://live.staticflickr.com/2313/2102898222_d8c677f3c4.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/6904dbf7-3f69-48e0-b84f-d237fff6a044/thumb/",
+        "nazov": "Outlook services error dialog",
+        "autor": "alistairmcmillan",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/23217533@N00/2102898222",
+        "povod": "openverse",
+        "dopyt": "Microsoft Exchange server"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/C4ISR_Senior_Leaders_Conference%2C_February_2011_%285424423905%29.jpg/1280px-C4ISR_Senior_Leaders_Conference%2C_February_2011_%285424423905%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/C4ISR_Senior_Leaders_Conference%2C_February_2011_%285424423905%29.jpg/1280px-C4ISR_Senior_Leaders_Conference%2C_February_2011_%285424423905%29.jpg",
+        "nazov": "C4ISR Senior Leaders Conference, February 2011 (5424423905).jpg",
+        "autor": "US Army Africa from Vicenza, Italy",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:C4ISR_Senior_Leaders_Conference,_February_2011_(5424423905).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/4135/4870003098_26ba44a08a_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/37b5870a-5667-4cee-8582-cbadb52169bc/thumb/",
+        "nazov": "Microsoft Bing Maps' datacenter",
+        "autor": "Robert Scoble",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/35034363287@N01/4870003098",
+        "povod": "openverse",
+        "dopyt": "Microsoft server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Rear_of_rack_at_NERSC_data_center_-_closeup.jpg/1280px-Rear_of_rack_at_NERSC_data_center_-_closeup.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Rear_of_rack_at_NERSC_data_center_-_closeup.jpg/1280px-Rear_of_rack_at_NERSC_data_center_-_closeup.jpg",
+        "nazov": "Rear of rack at NERSC data center - closeup.jpg",
+        "autor": "Derrick Coetzee from Berkeley, CA, USA",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Rear_of_rack_at_NERSC_data_center_-_closeup.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3273/3025911233_fb4e7ace9f_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/a66c5af0-00c5-4778-a1ef-7404a97cbadf/thumb/",
+        "nazov": "Awaiting servers",
+        "autor": "bugeaters",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/45778851@N00/3025911233",
+        "povod": "openverse",
+        "dopyt": "data center server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Moto_Q9h_in_box_%281718542592%29.jpg/1280px-Moto_Q9h_in_box_%281718542592%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Moto_Q9h_in_box_%281718542592%29.jpg/1280px-Moto_Q9h_in_box_%281718542592%29.jpg",
+        "nazov": "Moto Q9h in box (1718542592).jpg",
+        "autor": "Alpha from Melbourne, Australia",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Moto_Q9h_in_box_(1718542592).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft Exchange server"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Exchange-2010-2013_logo.svg",
+        "nahlad": "https://api.openverse.org/v1/images/4c34d63d-48c2-4e1a-9957-c93b9a6774b3/thumb/",
+        "nazov": "Exchange-2010-2013 logo",
+        "autor": "Microsoft Corporation Perhelion",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=11855817",
+        "povod": "openverse",
+        "dopyt": "Microsoft Exchange server"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a cloud email network under strain, with glowing server gateways and rerouted lines of traffic, without logos or realistic depictions of people."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a cloud email network under strain, with glowing server gateways and rerouted lines of traffic, without logos or realistic depictions of people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/4a820b29a492867359eee8b7c52ac000",
+  "text_agentov": {
+    "titulok": "Microsoft pripísal výpadok Exchange Online chybe v júlovej aktualizácii",
+    "perex": "Chyba v sieťových bránach sa prejavila až pri súbehu zvýšenej záťaže a výpadku časti kapacity. Podľa predbežnej správy sa v najhoršej chvíli stalo neodpovedajúcimi viac než 80 percent serverov.",
+    "telo": "Microsoft v predbežnej správe pripísal rozsiahly výpadok Exchange Online a ďalších služieb chybe v softvéri sieťových brán. Závada sa do nich dostala v júli 2026, no prejavila sa až v novembri, keď sa stretla zvýšená záťaž so zníženou dostupnou kapacitou. V najhoršej chvíli neodpovedalo viac než 80 percent serverov.\n\nAko informoval portál The Register, Microsoft správu zverejnil 15. novembra. Firma uviedla, že júlová zmena pri vtedajšom testovaní záťažou nevyvolala problémy. Testy však podľa nej viac zohľadňovali menej výkonný hardvér s menším počtom jadier. Chyba sa naopak zhoršovala na novších serveroch s väčším počtom jadier.\n\n## Záťaž odkryla skrytú chybu\n\nZávada spôsobovala súperenie procesov o prístup k systémovým prostriedkom v internom procese Windows. Následkom bolo nadmerné využitie procesora a pamäte a napokon prestali servery správne odpovedať. Microsoft upozornil, že samotný nárast prevádzky ani dočasný výpadok časti kapacity by za bežných okolností nemali stačiť na vyvolanie takého problému.\n\nKľúčová kombinácia nastala 12. novembra o 0107 UTC, keď Teams prešli na primárnu sieťovú bránu podporujúcu Exchange Online. Súčasne bolo mimo prevádzky takmer 14 percent kapacity brán. Microsoft podľa správy považoval rezervu za dostatočnú a odstavené servery sa mali vracať do služby. Zvýšená prevádzka však aktivovala skrytú chybu.\n\nKeď jeden server stratil spojenie, prevádzka sa presmerovala na ďalší dostupný server, ktorý narazil na rovnaký problém. Takéto presmerovania následne rozširovali poruchu naprieč infraštruktúrou. O 1603 UTC systém na sledovanie pripojenia zaznamenal nárast problémov a o pol hodiny neskôr prišla prvá zákaznícka požiadavka na podporu.\n\n## Obnova si vyžiadala opravu opravy\n\nObnovené servery boli podľa Microsoftu okamžite znovu preťažené. Automatické postupy obnovy neboli pripravené na taký rozsiahly stav, pričom jednoduchý návrat k predchádzajúcej verzii nebol možný, keďže chybná zmena bola nasadená už pred niekoľkými mesiacmi. Inžinieri preto pripravili aktualizáciu, ktorá vrátila chybnú časť kódu do predtým funkčného stavu, a nasadzovali ju postupne na skupiny serverov.\n\nMicrosoft o 0030 UTC 13. novembra identifikoval vyjednávanie spojenia ako hlavnú príčinu problémov s prístupom. O 0720 UTC už podľa správy našiel a nasadil zmierňujúcu opravu. Spoločnosť o 1610 UTC potvrdila, že služby opäť fungujú stabilne; poslednú zákaznícku aktualizáciu vydala 14. novembra o 0415 UTC.\n\n## Nie všetky služby mohli obísť bránu\n\nNiektoré služby, medzi nimi Teams, OneDrive, SharePoint a aplikácie Office, sa dokázali presmerovať mimo chybnej infraštruktúry. Exchange Online takú možnosť podľa Microsoftu nemal z kapacitných dôvodov, čo prispelo k dlhému výpadku e-mailov. Aj preto sa problém výrazne dotkol používateľov Outlooku.\n\nMicrosoft pozastavil prebiehajúce aj plánované nasadzovania a zmeny konfigurácie, pridával kapacitu a presmerúval prevádzku, no tieto kroky samy osebe nestačili. Záverečnú správu o incidente má zverejniť 20. novembra. Predbežné zistenia zároveň ukazujú, že testovanie júlovej zmeny nezachytilo podmienky, v ktorých sa neskôr prejavila."
+  }
+}
