@@ -3,27 +3,28 @@ title: 403 veľkých dátových centier v USA spotrebovalo až 99 TWh elektriny 
 perex: Harvardský tím odhadol ich spotrebu za obdobie od mája 2024 do apríla 2025. Väčšina elektriny podľa výpočtov pochádzala z fosílnych palív, no skutočné čísla sa pre nedostatok zverejnených údajov nedajú presne určiť.
 sekcia: hardver
 tagy:
-- dátové centrá
-- spotreba energie
-- umelá inteligencia
-publikovane: '2026-11-17T05:36:24+00:00'
+  - dátové centrá
+  - spotreba energie
+  - umelá inteligencia
+publikovane: 2026-11-17T05:36:24+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/403-velkych-datovych-centier-v-usa-spotrebovalo-az-99-twh-elektriny-za-rok-mwkj969h.jpg
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'The Verge: US data centers now burn more electricity than a midsized country'
-  url: https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard
-- nazov: 'Wired: Just 400 US Data Centers Use More Electricity Than Michigan'
-  url: https://www.wired.com/story/data-centers-use-more-electricity-than-michigan/
-- nazov: 'Ars Technica: Hyperscale data centers use 2% of US electricity'
-  url: https://arstechnica.com/science/2026/11/hyperscale-data-centers-use-2-of-us-electricity/
+  - nazov: "The Verge: US data centers now burn more electricity than a midsized country"
+    url: https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard
+  - nazov: "Wired: Just 400 US Data Centers Use More Electricity Than Michigan"
+    url: https://www.wired.com/story/data-centers-use-more-electricity-than-michigan/
+  - nazov: "Ars Technica: Hyperscale data centers use 2% of US electricity"
+    url: https://arstechnica.com/science/2026/11/hyperscale-data-centers-use-2-of-us-electricity/
 ---
 
 Veľké dátové centrá v USA spotrebovali za rok toľko elektriny ako niektoré celé štáty či krajiny. Harvardská štúdia odhaduje, že 403 takýchto zariadení využilo od mája 2024 do apríla 2025 celkovo 68 až 99 terawatthodín elektriny. Stredný odhad je približne 82 TWh, teda asi 1,8 percenta celkovej spotreby elektriny v USA.
