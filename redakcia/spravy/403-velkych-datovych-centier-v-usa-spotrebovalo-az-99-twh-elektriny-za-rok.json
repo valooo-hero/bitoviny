@@ -1,0 +1,481 @@
+{
+  "slug": "403-velkych-datovych-centier-v-usa-spotrebovalo-az-99-twh-elektriny-za-rok",
+  "datum_sprav": "2026-11-16",
+  "dovod_vyberu": "Štúdia o spotrebe elektriny dátových centier poukazuje na environmentálny dopad hardvérových infraštruktúr.",
+  "poznamky_pre_editora": "Odstránila som nepodložené tvrdenie, že zistenie je podstatné najmä pre Slovensko a EÚ, a upravila záverečnú vetu na všeobecné zhrnutie zistenia štúdie.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý a všetky uvádzané tvrdenia presne zodpovedajú informáciám z poskytnutých zdrojov. V texte sa nenachádzajú žiadne faktické nepresnosti ani nepodložené špekulácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 19,
+        "potvrdenych": 18,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 26,
+        "potvrdenych": 26,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "403 veľkých dátových centier v USA spotrebovali za rok 68 až 99 TWh elektriny.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "total power usage for the year by these 403 data centers was estimated at 68 to 99 terawatt-hours",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Harvardský tím odhadol spotrebu dátových centier za obdobie od mája 2024 do apríla 2025.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "between May 2024 and April 2025",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Väčšina elektriny pre dátové centrá pochádzala z fosílnych palív.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "the majority of that electricity was generated using fossil fuels",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Skutočné čísla spotreby sa pre nedostatok zverejnených údajov nedajú presne určiť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "data center operators and utilities do not have to disclose specific numbers to the public.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dátové centrá v USA spotrebovali za rok viac elektriny ako stredne veľké krajiny.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "US data centers now burn more electricity than a midsized country",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Stredný odhad spotreby je 82 TWh, čo predstavuje asi 1,8 % spotreby elektriny v USA.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "consumed around 82 terawatt-hours of electricity that year, about 1.8 percent of all US electricity consumption.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Štúdia v Nature Sustainability sa týka hyperscale dátových centier, najväčších zariadení svojho druhu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "hyperscale data centers—the largest types of facilities",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výskumníci nedokázali oddeliť výpočty pre AI od tradičných dátových služieb.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "They weren’t able to differentiate between AI compute and more traditional data services",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nie všetky centrá v štúdii slúžia na trénovanie alebo prevádzku AI.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "not all of the hyperscalers surveyed in this study are being used for AI.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tím vychádzal zo zoznamu 675 zariadení z komerčnej databázy, správ, vyjadrení firiem a satelitných snímok.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "The team started with a list of 675 facilities from a commercial database based on news reports, company statements, and satellite imagery.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Do konečnej analýzy zaradili 403 zariadení s overenou kapacitou.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "That reduced the list to 403 data centers",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Priemerná kapacita zaradených dátových centier bola 40 megawattov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The average size of a facility in the new study is 40 megawatts",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Bežné centrá využívali v priemere 48 % kapacity, zatiaľ čo AI úlohy okolo 70 %.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "average of about 48 percent of capacity, while AI training loads have been running higher, at around 70 percent.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Analýza vyradila 272 zariadení pre chýbajúce údaje alebo neoverenú veľkosť.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "272 facilities believed to be large data centers were left out.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Odhadovaná spotreba prevyšuje ročnú spotrebu elektriny vo viac než 148 krajinách.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "That’s even more than the amount of electricity that about 148 nations",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "WIRED porovnáva spotrebu so štátom Michigan a Ars Technica so štátmi Wisconsin či Indiana.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "used as much electricity as the state of Michigan in a single year",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Približne 54 % elektriny pre tieto centrá pochádzalo z plynu a uhlia.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "about 54 percent of the electricity the hyperscale facilities consumed likely came from gas and coal.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spotreba elektriny vyprodukovala 25,7 milióna ton CO2, čo zodpovedá uhlíkovej stope Dánska.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "produced 25.7 million metric tons of CO2 emissions, comparable to the annual carbon footprint of Denmark",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výroba vo Wyomingu spôsobila 7-krát viac emisií na kWh než v Oregone.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Generating electricity in heavily coal-reliant Wyoming led to roughly seven times more carbon emissions per kilowatt-hour than in hydropower-rich Oregon.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Emisie dátových centier sú trojnásobne vyššie než pred rozmachom AI.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "data center emissions are three times higher than they were before the AI boom.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pripravované areály majú mat kapacitu stoviek až tisícov megawattov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Developers are building campuses that are hundreds or even thousands of megawatts",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Štúdia nepočíta s elektrárňami postavenými priamo pri dátových centrách mimo siete.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The study also does not look at developers who choose to build power plants onsite, known as behind-the-meter power",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V USA sa pripravuje až 189 GW takejto vlastnej kapacity pre dátové centrá.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "with as many as 189 gigawatts in the pipeline earmarked for data centers alone.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "BloombergNEF odhaduje, že ich spustenie by mohlo zvýšiť celkové emisie USA o 10 %.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "behind-the-meter power plants in the development queue in the US get built, it could increase overall US emissions by 10 percent.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tím z Harvardu stavia web na sledovanie environmentálneho vplyvu jednotlivých centier.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "using their research to build a website to track the environmental impact of individual data centers.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "EIA dokončila pilotné prieskumy v 10 štátoch a pripravuje návrh dobrovoľného prieskumu.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "conducted three pilot surveys of data center power use across 10 states this year. Those pilot surveys are now complete",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "titulok",
+        "povodne": "centier v USA spotrebovali",
+        "opravene": "centier v USA spotrebovalo",
+        "dovod": "zhoda podmetu s prísudkom",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": " USA spotrebovali za rok toľko elektriny ako niektoré celé štáty či krajiny. Harvard",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "terawatthodín",
+        "kontext": "ja 2024 do apríla 2025 celkovo 68 až 99 terawatthodín elektriny. Stredný odhad je približne 8",
+        "navrhy": [
+          "megawatthodina"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "hyperscale",
+        "kontext": "re Sustainability* sa týkajú takzvaných hyperscale dátových centier, teda najväčších zaria",
+        "navrhy": [
+          "hyperbole"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "gigawattov",
+        "kontext": "D uvádza, že v USA sa pripravuje až 189 gigawattov takejto výroby pre dátové centrá. Bloom",
+        "navrhy": [
+          "gigawatt ov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -1 +1 @@\n-# 403 veľkých dátových centier v USA spotrebovali až 99 TWh elektriny za rok\n+# 403 veľkých dátových centier v USA spotrebovalo až 99 TWh elektriny za rok"
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg/1280px-Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://media.wired.com/photos/6af711ad797722e005ec2bb9/191:100/w_1280,c_limit/111326-Michigan%20400%20Data%20Centers.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6af711ad797722e005ec2bb9/master/pass/111326-Michigan%20400%20Data%20Centers.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/STKS528_DATA_CENTERS_B.jpg?quality=90&strip=all&crop=0,10.732984293194,100,78.534031413613",
+        "zdroj_clanku": "The Verge",
+        "alt": "Photo collage of a data center with data visualizations.",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2263547912-1152x648.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "Image of a large data center at night, with the glow of a lot of lights around its exterior.",
+        "popisok": "",
+        "kredit": "Cavan Images / Peter Essick",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Cavan Images / Peter Essick."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2263547912-500x500.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Cavan Images / Peter Essick",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Cavan Images / Peter Essick."
+      }
+    ],
+    "dopyty": [
+      "Amazon data center",
+      "data center server rack",
+      "data center cooling system"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg/1280px-Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg/1280px-Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg",
+        "nazov": "Amazon Prime van blocking bike lane at CityCenterDC.jpg",
+        "autor": "Sdkb",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Amazon data center"
+      },
+      {
+        "url": "https://live.staticflickr.com/3045/5863167909_c4357c71e0_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/5710c71e-30fb-4a2c-8203-03b788e23969/thumb/",
+        "nazov": "New Amazon data center",
+        "autor": "xcorex",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/79616869@N00/5863167909",
+        "povod": "openverse",
+        "dopyt": "Amazon data center"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Rear_of_rack_at_NERSC_data_center_-_closeup.jpg/1280px-Rear_of_rack_at_NERSC_data_center_-_closeup.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Rear_of_rack_at_NERSC_data_center_-_closeup.jpg/1280px-Rear_of_rack_at_NERSC_data_center_-_closeup.jpg",
+        "nazov": "Rear of rack at NERSC data center - closeup.jpg",
+        "autor": "Derrick Coetzee from Berkeley, CA, USA",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Rear_of_rack_at_NERSC_data_center_-_closeup.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3273/3025911233_fb4e7ace9f_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/a66c5af0-00c5-4778-a1ef-7404a97cbadf/thumb/",
+        "nazov": "Awaiting servers",
+        "autor": "bugeaters",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/45778851@N00/3025911233",
+        "povod": "openverse",
+        "dopyt": "data center server rack"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/The_proximity_of_the_cooling_system_with_the_server_cabinet_allows_a_high-performance_solution.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/9/9e/The_proximity_of_the_cooling_system_with_the_server_cabinet_allows_a_high-performance_solution.jpg",
+        "nazov": "The proximity of the cooling system with the server cabinet allows a high-performance solution.jpg",
+        "autor": "Da mocavi",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:The_proximity_of_the_cooling_system_with_the_server_cabinet_allows_a_high-performance_solution.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center cooling system"
+      },
+      {
+        "url": "https://live.staticflickr.com/8462/7945090656_6d687913cd_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/b4ff2607-a328-4c73-bb74-7f25816c27aa/thumb/",
+        "nazov": "Cold Aisle Containment - Perimeter Cooling",
+        "autor": "talk2stu",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/25578736@N00/7945090656",
+        "povod": "openverse",
+        "dopyt": "data center cooling system"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Amazonian_Leaders_Discuss_Using_NASA_Data_to_Protect_the_Amazon_%28NHQ202311170014%29.jpg/1280px-Amazonian_Leaders_Discuss_Using_NASA_Data_to_Protect_the_Amazon_%28NHQ202311170014%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Amazonian_Leaders_Discuss_Using_NASA_Data_to_Protect_the_Amazon_%28NHQ202311170014%29.jpg/1280px-Amazonian_Leaders_Discuss_Using_NASA_Data_to_Protect_the_Amazon_%28NHQ202311170014%29.jpg",
+        "nazov": "Amazonian Leaders Discuss Using NASA Data to Protect the Amazon (NHQ202311170014).jpg",
+        "autor": "NASA HQ PHOTO",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Amazonian_Leaders_Discuss_Using_NASA_Data_to_Protect_the_Amazon_(NHQ202311170014).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Amazon data center"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/48594167912_a82615271b_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/6502144b-371c-4046-a47e-bba95636a990/thumb/",
+        "nazov": "Fires in Brazil",
+        "autor": "NASA Goddard Photo and Video",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/24662369@N07/48594167912",
+        "povod": "openverse",
+        "dopyt": "Amazon data center"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a vast data center drawing power from contrasting energy sources, with a subtle map-like grid and no text or recognizable logos."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a vast data center drawing power from contrasting energy sources, with a subtle map-like grid and no text or recognizable logos.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/2b3adbb70532cc343525788a5ea25fda",
+  "text_agentov": {
+    "titulok": "403 veľkých dátových centier v USA spotrebovalo až 99 TWh elektriny za rok",
+    "perex": "Harvardský tím odhadol ich spotrebu za obdobie od mája 2024 do apríla 2025. Väčšina elektriny podľa výpočtov pochádzala z fosílnych palív, no skutočné čísla sa pre nedostatok zverejnených údajov nedajú presne určiť.",
+    "telo": "Veľké dátové centrá v USA spotrebovali za rok toľko elektriny ako niektoré celé štáty či krajiny. Harvardská štúdia odhaduje, že 403 takýchto zariadení využilo od mája 2024 do apríla 2025 celkovo 68 až 99 terawatthodín elektriny. Stredný odhad je približne 82 TWh, teda asi 1,8 percenta celkovej spotreby elektriny v USA.\n\nVýsledky publikované v časopise *Nature Sustainability* sa týkajú takzvaných hyperscale dátových centier, teda najväčších zariadení tohto typu. Výskumníci nedokázali oddeliť výpočty pre umelú inteligenciu od tradičných dátových služieb. Nie všetky centrá v súbore preto slúžia na trénovanie či prevádzku AI.\n\n## Odhad stojí na kapacite zariadení\n\nTím zostavil pôvodný zoznam 675 možných centier z komerčnej databázy, správ, vyjadrení firiem a satelitných snímok. Do konečnej analýzy zaradil 403 zariadení, pri ktorých vedel overiť potrebnú elektrickú kapacitu a ďalšie znaky veľkého dátového centra. Priemerná kapacita zaradených centier bola približne 40 megawattov.\n\nKeďže prevádzkovatelia spotrebu jednotlivých zariadení bežne nezverejňujú, výskumníci ju modelovali. Podľa Ars Technica použili odlišné predpoklady pre bežné dátové centrá a AI tréning: prvé mohli v priemere využívať asi 48 percent kapacity, pri tréningových úlohách to mohlo byť približne 70 percent. Odhadované rozpätie preto nie je presným meraním a nezahŕňa ani 272 zariadení vyradených z analýzy pre chýbajúce údaje alebo neoverenú veľkosť.\n\nJednotlivé médiá výsledky porovnávajú s rôznymi územiami. The Verge uvádza, že odhadovaná spotreba prevyšuje ročnú spotrebu elektriny vo viac než 148 krajinách. WIRED ju prirovnáva k spotrebe štátu Michigan a Ars Technica k štátom Wisconsin či Indiana. Ide o rôzne porovnania tej istej odhadovanej spotreby, nie o samostatné merania.\n\n## Fosílne palivá a rozdiely medzi regiónmi\n\nPodľa výpočtov štúdie približne 54 percent elektriny týchto centier pravdepodobne pochádzalo z uhlia a zemného plynu. The Verge uvádza odhad 25,7 milióna metrických ton emisií oxidu uhličitého, čo prirovnáva k ročnej uhlíkovej stope Dánska. Výsledok závisí aj od toho, odkiaľ elektrina pochádza: výroba v uhoľne orientovanom Wyomingu podľa štúdie spôsobovala na kilowatthodinu približne sedemkrát viac emisií než výroba v Oregone, kde má významnú úlohu vodná energia.\n\nWIRED zároveň píše, že emisie dátových centier sú podľa štúdie trojnásobné oproti obdobiu pred rozmachom AI. Rýchlo rastúca výstavba však znamená, že ani nedávne údaje nemusia vystihovať dnešný stav. Niektoré pripravované areály majú mať kapacitu stoviek až tisícov megawattov, teda výrazne prevyšovať priemer skúmaných zariadení.\n\n## Čo zostáva mimo výpočtov\n\nAnalýza nepočíta s elektrinou z elektrární priamo pri dátových centrách, ktoré môžu fungovať mimo verejnej siete. WIRED uvádza, že v USA sa pripravuje až 189 gigawattov takejto výroby pre dátové centrá. BloombergNEF odhadol, že ak by sa všetky projekty vo vývojovej fáze uskutočnili, mohli by zvýšiť celkové emisie USA o 10 percent. Ide o podmienený odhad, nie o už dosiahnutý nárast.\n\nHarvardský tím plánuje vytvoriť web na sledovanie vplyvu jednotlivých centier. Medzitým americký Úrad pre energetické informácie dokončil pilotné prieskumy spotreby dátových centier v desiatich štátoch a pripravuje návrh možného dobrovoľného prieskumu. Podstatné je najmä širšie zistenie štúdie: environmentálny dosah dátových centier závisí od miestneho energetického mixu, nielen od ich spotreby."
+  }
+}
