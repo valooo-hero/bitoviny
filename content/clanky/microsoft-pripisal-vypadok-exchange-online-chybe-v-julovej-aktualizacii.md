@@ -3,24 +3,25 @@ title: Microsoft pripísal výpadok Exchange Online chybe v júlovej aktualizác
 perex: Chyba v sieťových bránach sa prejavila až pri súbehu zvýšenej záťaže a výpadku časti kapacity. Podľa predbežnej správy sa v najhoršej chvíli stalo neodpovedajúcimi viac než 80 percent serverov.
 sekcia: softver
 tagy:
-- Microsoft
-- Exchange Online
-- výpadok
-- cloudové služby
-publikovane: '2026-11-17T05:36:44+00:00'
+  - Microsoft
+  - Exchange Online
+  - výpadok
+  - cloudové služby
+publikovane: 2026-11-17T05:36:44+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/microsoft-pripisal-vypadok-exchange-online-chybe-v-julovej-aktualizacii-mwkj2965.jpg
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'The Register: Microsoft blames monster email outage on software defect introduced in July fix'
-  url: https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026
+  - nazov: "The Register: Microsoft blames monster email outage on software defect introduced in July fix"
+    url: https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026
 ---
 
 Microsoft v predbežnej správe pripísal rozsiahly výpadok Exchange Online a ďalších služieb chybe v softvéri sieťových brán. Závada sa do nich dostala v júli 2026, no prejavila sa až v novembri, keď sa stretla zvýšená záťaž so zníženou dostupnou kapacitou. V najhoršej chvíli neodpovedalo viac než 80 percent serverov.
