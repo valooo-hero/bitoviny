@@ -1,0 +1,437 @@
+{
+  "slug": "desat-krajin-sa-dohodlo-na-ochrane-dodavatelskych-retazcov-pre-ai",
+  "datum_sprav": "2026-11-16",
+  "dovod_vyberu": "Nové americké obmedzenia exportu AI čipov ovplyvnia dodávateľské reťazce a konkurenciu v EÚ.",
+  "poznamky_pre_editora": "Opravila som počet signatárov: titulok teraz uvádza desať krajín a v úvode je „deväť ďalších krajín“ popri USA. Vypustila som nepodloženú vetu o možnom dosahu na firmy v EÚ.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept článku je mimoriadne spoľahlivý a bezvýhradne dodržiava informácie uvedené v dodaných anglických zdrojoch. V texte neboli zistené žiadne vecné chyby, nepresnosti ani nepodložené tvrdenia.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 27,
+        "potvrdenych": 24,
+        "chyb": 3,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 20,
+        "potvrdenych": 20,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Desať krajín sa dohodlo na ochrane dodávateľských reťazcov pre AI.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Nine countries including the UK have signed a US declaration pledging to secure supply chains for AI tech",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Sanfranciská deklarácia označuje bezpečnosť technológií a infraštruktúry za spoločnú zodpovednosť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Pax Silica partners have agreed to treat the security of those technologies and the infrastructure behind them as a shared responsibility.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "USA zároveň pripravujú prísnejšie licencie na obmedzenie vzdialeného prístupu k čipom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "the Commerce Department will require companies to get licenses to export, reexport, or transfer AI chips and servers",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Sanfranciskú deklaráciu podpísali 15. novembra Austrália, India, Izrael, Japonsko, Južná Kórea, Katar, Singapur, SAE, Spojené kráľovstvo a USA.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Under the San Francisco declaration , signed on November 15",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dohoda dáva bezpečnostným zásadám iniciatívy Pax Silica podobu partnerstva so spoločnou zodpovednosťou.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "turns shared principles into a working partnership with shared responsibilities.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nové exportné pravidlá majú zabrániť získavaniu výpočtového výkonu cez dátové centrá v tretích štátoch.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "seeking to prevent companies, especially those in China, from getting past U.S. export controls by remotely accessing AI infrastructure located in other countries.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ochrana zahŕňa softvér, materiály, know-how, komponenty a vstupy potrebné pre AI reťazce.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "listing \"software, materials, knowledge, components and inputs…essential to AI supply chains.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kategória zahŕňa položky, ktorých krádež alebo presun by inému aktérovi priniesli vojenskú, spravodajskú či ekonomickú výhodu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "theft, illicit transfer, or acquisition by hostile actors would confer a meaningful military or intelligence advantage, or undue economic leverage over the participants",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Partneri chcú chrániť prístavy, terminály, dopravu, komunikačné a logistické siete aj energetickú a ICT infraštruktúru.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "protection of critical infrastructure such as ports, terminals, transport, communications, and logistics networks, and the ICT and energy infrastructure these depend upon.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jacob Helberg vyhlásil pre Financial Times, že bezpečnosť technológií a infraštruktúry sa berie ako spoločná úloha.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "US under-secretary of state for economic affairs Jacob Helberg told the Financial Times .",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Čína nie je medzi signatármi iniciatívy Pax Silica.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "the list of participants was notable for not including one country – China",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pax Silica zahŕňa spoluprácu v oblastiach ako pokročilé modely, výpočtová technika, polovodiče, výroba, spracovanie nerastov a energia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "frontier foundation models, compute and semiconductors, advanced manufacturing, minerals refining and processing, and energy.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pravidlo amerického ministerstva obchodu vyžaduje licenciu na čipy a servery, ak by mohli slúžiť firmám v obmedzených krajinách.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Commerce Department will require companies to get licenses to export, reexport, or transfer AI chips and servers to data centers anywhere in the world",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pravidlo sa týka dátových centier a sietí s výkonom nad 12 miliónov TPP.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The rule applies to data centers or any network that can supply over 12 million total processing performance (TPP)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Hranica 12 miliónov TPP zodpovedá výkonu približne 750 čipov Nvidia H100 alebo H200.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "roughly works out to the max computing power of about 750 Nvidia H100 or H200 chips.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Komerčné odporúčacie systémy v e-commerce či na sociálnych sieťach sú z obmedzení vyňaté.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Notably, the rule doesn’t apply to commercial recommendation systems, like those used in e-commerce or social media.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Licenčné požiadavky sa rozšíria na Malajziu, Singapur, Indonéziu, Thajsko a Brazíliu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "adds new licensing requirements for chip exports, reexports, or transfer of advanced semiconductors to Malaysia, Singapore, Indonesia, Thailand, and Brazil.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tieto krajiny sú označené za miesta s vyšším rizikom odklonu technológií.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "they “present a higher-than-normal risk of diversion.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri schválených licenciách budú potrebné mesačné správy o transakciách.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "submitting monthly reports on transactions that thoroughly detail all parties involved, as well as their parent companies, and the final destination for chips sold.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nové pravidlo ruší pravidlo AI Diffusion prijaté Bidenovou administratívou v januári 2025.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The rule also rescinds the Biden admin’s AI Diffusion Rule from January 2025",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "know-how",
+        "kontext": "ranu široko. Zahŕňa softvér, materiály, know-how, komponenty a vstupy potrebné pre AI re",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cloud",
+        "kontext": "\n## USA chcú kontrolovať aj prístup cez cloud\n\nPripravované pravidlo amerického minis",
+        "navrhy": [
+          "clou",
+          "clou d",
+          "iCloud"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "odporúčacie",
+        "kontext": "truktúru a činnosť zákazníkov. Komerčné odporúčacie systémy, napríklad v elektronickom obch",
+        "navrhy": [
+          "odporúčanie"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Sparkles_Beckett_LeClair_Better_Images_of_AI.png/1280px-Sparkles_Beckett_LeClair_Better_Images_of_AI.png",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/11/us-commerce.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "The US Department of Commerce building",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/3c990409086a104870ea2888b7c7b4f002f98c13a1c80b3d5cdae4e59ea02aec?s=96&d=identicon&r=g",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Ram Iyer",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://image.theregister.com/?imageId=5244738&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Google Preferred Source",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-1024x648.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "ANDARU / Contributor | AFP",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Afp)."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2303586820-500x500-1794852925.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "ANDARU / Contributor | AFP",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Afp)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/n4uucZP4dV7mmuFv43MWGE-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Google",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Google."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/p2QqhVFP7dTRWfeVBCYBYV-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "tsmc",
+        "popisok": "",
+        "kredit": "(Image credit: tsmc)",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: tsmc."
+      }
+    ],
+    "dopyty": [
+      "AI server rack",
+      "semiconductor fabrication plant",
+      "export control office"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Sparkles_Beckett_LeClair_Better_Images_of_AI.png/1280px-Sparkles_Beckett_LeClair_Better_Images_of_AI.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Sparkles_Beckett_LeClair_Better_Images_of_AI.png/1280px-Sparkles_Beckett_LeClair_Better_Images_of_AI.png",
+        "nazov": "Sparkles Beckett LeClair Better Images of AI.png",
+        "autor": "Beckett LeClair",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Sparkles_Beckett_LeClair_Better_Images_of_AI.png",
+        "povod": "wikimedia",
+        "dopyt": "AI server rack"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Sparkles_Beckett_LeClair_Better_Images_of_AI.png",
+        "nahlad": "https://api.openverse.org/v1/images/3a411dfb-cd88-47b1-bce4-e617a873b946/thumb/",
+        "nazov": "Sparkles Beckett LeClair Better Images of AI",
+        "autor": "Beckett LeClair",
+        "licencia": "BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=182489025",
+        "povod": "openverse",
+        "dopyt": "AI server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Taiwan_Semiconductor_Yilan_Plant_Front.jpg/1280px-Taiwan_Semiconductor_Yilan_Plant_Front.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Taiwan_Semiconductor_Yilan_Plant_Front.jpg/1280px-Taiwan_Semiconductor_Yilan_Plant_Front.jpg",
+        "nazov": "Taiwan Semiconductor Yilan Plant Front.jpg",
+        "autor": "Kevin CW Lu",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Taiwan_Semiconductor_Yilan_Plant_Front.jpg",
+        "povod": "wikimedia",
+        "dopyt": "semiconductor fabrication plant"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Pavlovsky_Posad_Exiton_2024-05_1716141593.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/589b0e5b-eb91-4247-a3cb-9096f47b6dbc/thumb/",
+        "nazov": "Pavlovsky Posad Exiton 2024-05 1716141593",
+        "autor": "Artyom Svetlov",
+        "licencia": "BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=149789276",
+        "povod": "openverse",
+        "dopyt": "semiconductor fabrication plant"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Figure_4_CEA_Export_Control_Workload_Activities_in_Fiscal_Year_2013_%2814200522104%29.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/5/54/Figure_4_CEA_Export_Control_Workload_Activities_in_Fiscal_Year_2013_%2814200522104%29.jpg",
+        "nazov": "Figure 4 CEA Export Control Workload Activities in Fiscal Year 2013 (14200522104).jpg",
+        "autor": "U.S. Government Accountability Office from Washington, DC, United States",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Figure_4_CEA_Export_Control_Workload_Activities_in_Fiscal_Year_2013_(14200522104).jpg",
+        "povod": "wikimedia",
+        "dopyt": "export control office"
+      },
+      {
+        "url": "https://live.staticflickr.com/5797/22919452395_767609ae96_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/5e1f4c05-db03-41cc-8ef3-bde350892b23/thumb/",
+        "nazov": "An Egyptian woman filmed by police as she confronts an Egyptian diplomatic delegation over human rights abuses",
+        "autor": "alisdare1",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/59952459@N08/22919452395",
+        "povod": "openverse",
+        "dopyt": "export control office"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/DALL%C2%B7E_2025-01-31_21.58.22_-_A_realistic_image_of_the_interior_of_a_modern_data_center._The_scene_features_long_rows_of_tall%2C_sleek_server_racks_filled_with_blinking_LED_lights._T.webp",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/4/49/DALL%C2%B7E_2025-01-31_21.58.22_-_A_realistic_image_of_the_interior_of_a_modern_data_center._The_scene_features_long_rows_of_tall%2C_sleek_server_racks_filled_with_blinking_LED_lights._T.webp",
+        "nazov": "DALL·E 2025-01-31 21.58.22 - A realistic image of the interior of a modern data center. The scene features long rows of tall, sleek server racks filled with blinking LED lights. T.webp",
+        "autor": "Cbrasil0",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:DALL%C2%B7E_2025-01-31_21.58.22_-_A_realistic_image_of_the_interior_of_a_modern_data_center._The_scene_features_long_rows_of_tall,_sleek_server_racks_filled_with_blinking_LED_lights._T.webp",
+        "povod": "wikimedia",
+        "dopyt": "AI server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Installed_fab_capacity_by_region.webp/1280px-Installed_fab_capacity_by_region.webp",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Installed_fab_capacity_by_region.webp/1280px-Installed_fab_capacity_by_region.webp",
+        "nazov": "Installed fab capacity by region.webp",
+        "autor": "Wikideas1",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Installed_fab_capacity_by_region.webp",
+        "povod": "wikimedia",
+        "dopyt": "semiconductor fabrication plant"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic editorial illustration of a global AI supply chain, with glowing semiconductor paths connecting ports, data centers, and allied nations, while a guarded cloud network suggests restricted access, no text, no real people, not photorealistic."
+  },
+  "prompt_ilustracie": "A symbolic editorial illustration of a global AI supply chain, with glowing semiconductor paths connecting ports, data centers, and allied nations, while a guarded cloud network suggests restricted access, no text, no real people, not photorealistic.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/e799ea9b15872276f3e6ad59885f8a17",
+  "text_agentov": {
+    "titulok": "Desať krajín sa dohodlo na ochrane dodávateľských reťazcov pre AI",
+    "perex": "Sanfranciská deklarácia označuje bezpečnosť technológií a infraštruktúry za spoločnú zodpovednosť. USA zároveň pripravujú prísnejšie licencie, ktoré majú obmedziť aj vzdialený prístup k výkonným čipom.",
+    "telo": "Spojené štáty a deväť ďalších krajín sa zaviazali spoločne chrániť technológie a infraštruktúru dôležité pre dodávateľské reťazce umelej inteligencie. Sanfranciskú deklaráciu podpísali 15. novembra Austrália, India, Izrael, Japonsko, Južná Kórea, Katar, Singapur, Spojené arabské emiráty a Spojené kráľovstvo spolu s USA.\n\nDohoda dáva bezpečnostným zásadám iniciatívy Pax Silica podobu partnerstva so spoločnou zodpovednosťou. Súbežne s ňou americká administratíva pripravuje nové exportné pravidlá: ich cieľom je zabrániť tomu, aby firmy v krajinách pod obmedzeniami získavali výpočtový výkon cez dátové centrá v tretích štátoch.\n\n## Dohoda zahŕňa technológie aj infraštruktúru\n\nDeklarácia podľa portálu The Register vymedzuje ochranu široko. Zahŕňa softvér, materiály, know-how, komponenty a vstupy potrebné pre AI reťazce. Do tejto kategórie majú patriť položky, ktorých krádež alebo neoprávnený presun by mohli inému aktérovi priniesť vojenskú či spravodajskú výhodu alebo ekonomickú páku.\n\nPartneri chcú chrániť aj prístavy, terminály, dopravu, komunikačné a logistické siete a energetické či informačné systémy, od ktorých závisia. Americký námestník ministra zahraničných vecí pre ekonomické záležitosti Jacob Helberg pre Financial Times vysvetlil, že návrh berie bezpečnosť technológií a infraštruktúry, ktorá ich podporuje, ako spoločnú úlohu.\n\nČína nie je medzi signatármi. Pax Silica podľa The Register zahŕňa spoluprácu v oblastiach, ako sú pokročilé modely, výpočtová technika, polovodiče, výroba, spracovanie nerastov a energia. Vylúčenie Číny podnecuje interpretáciu, že iniciatíva má obmedziť jej prístup k technológiám, no samotná deklarácia hovorí všeobecne o „nepriateľských aktéroch“ a ochrane bezpečnosti účastníkov.\n\n## USA chcú kontrolovať aj prístup cez cloud\n\nPripravované pravidlo amerického ministerstva obchodu sa zameriava na dátové centrá mimo USA. Podľa TechCrunch budú firmy potrebovať licenciu na vývoz, opätovný vývoz alebo presun AI čipov a serverov, ak by ich výpočtový výkon mohol slúžiť spoločnostiam v Číne alebo iných obmedzených krajinách. Opatrenie má pokrývať aj vzdialený prístup a sprostredkovateľov.\n\nPravidlo sa má týkať dátových centier alebo sietí s výkonom nad 12 miliónov TPP. TechCrunch tento prah približuje výkonu približne 750 čipov Nvidia H100 alebo H200. Prevádzkovatelia majú preverovať vlastnícku štruktúru a činnosť zákazníkov. Komerčné odporúčacie systémy, napríklad v elektronickom obchode či na sociálnych sieťach, sú z pravidla vyňaté.\n\n## Licencie sa rozšíria aj na ďalšie krajiny\n\nNové požiadavky majú zahŕňať aj vývoz pokročilých čipov do Malajzie, Singapuru, Indonézie, Thajska a Brazílie. Ministerstvo obchodu podľa TechCrunch považuje tieto krajiny za miesta s vyšším než obvyklým rizikom odklonu technológií. Výnimka sa má týkať čipov určených firmám so sídlom v USA.\n\nArs Technica uvádza, že pri schválených licenciách budú potrebné dôkladné kontroly zákazníkov a mesačné správy o transakciách vrátane údajov o zúčastnených stranách, materských firmách a konečnom určení čipov. Nové opatrenia tak majú doplniť fyzické obmedzenia aj kontrolou toho, kto si výkon čipov prenajíma na diaľku.\n\nUSA tým menia aj skorší rámec exportných pravidiel. TechCrunch píše, že návrh ruší pravidlo AI Diffusion prijaté administratívou Joea Bidena v januári 2025."
+  }
+}
