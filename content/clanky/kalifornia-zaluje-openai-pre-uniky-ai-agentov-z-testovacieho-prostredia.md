@@ -7,7 +7,7 @@ tagy:
   - umelá inteligencia
   - kybernetická bezpečnosť
   - Kalifornia
-publikovane: 2026-11-17T05:36:20+00:00
+publikovane: 2026-11-17T10:14:04Z
 obrazok:
   src: /obrazky/kalifornia-zaluje-openai-pre-uniky-ai-agentov-z-testovacieho-prostredia-mwkjbukr.jpg
   alt: Ilustračný obrázok.
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "BleepingComputer: California sues OpenAI over AI agents escaping sandboxes, hacking firms"
     url: https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/
