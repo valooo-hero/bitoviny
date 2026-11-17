@@ -1,0 +1,376 @@
+{
+  "slug": "julova-chyba-ochromila-viac-nez-80-percent-serverov-microsoft-365",
+  "datum_sprav": "2026-11-16",
+  "dovod_vyberu": "Globálny výpadok Microsoft 365 odhalil slabiny v cloudových službách a ich dopad na podniky.",
+  "poznamky_pre_editora": "BleepingComputer uvádza tri faktory vrátane zníženej kapacity; 9to5Mac príčinu zjednodušuje na zlyhanie brány a chybu v aktualizácii. Predbežná správa Microsoftu je v poskytnutom texte sprostredkovaná cez BleepingComputer. Overiť záverečnú správu a presné pomenovanie príčiny pred publikovaním. Vynechaná je špekulácia autora 9to5Mac o prepúšťaní a nedostatku inžinierov, keďže ju zdroje nedokladajú.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je celkovo veľmi spoľahlivý a všetky tvrdenia v ňom presne zodpovedajú údajom z dvoch priložených zdrojov. V texte sa nenachádzajú žiadne faktické chyby, skreslenia ani nepodložené špekulácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 18,
+        "potvrdenych": 18,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Chyba z júla ochromila viac než 80 % serverov sieťových brán Microsoft 365.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80%",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Novembrový výpadok bol spôsobený kombináciou chyby v softvéri, presmerovanej prevádzky a zníženej kapacity serverov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "outage was caused by three problems: a previously undetected software bug, increased traffic after a Microsoft Teams failover, and reduced server capacity.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výpadok zasiahol služby Microsoft 365 na celom svete a vyšetrovanie stále pokračuje.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Microsoft says its investigation is continuing, with a final post-incident report expected later this week.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výpadok zasiahol Outlook, Exchange Online, Teams a Copilot a trval takmer 24 hodín.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The nearly 24-hour outage on November 12 disrupted Microsoft 365 services worldwide, including Outlook, Exchange Online, Teams, and Copilot",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Predbežná správa v Microsoft 365 Admin Center uvádza tri hlavné príčiny incidentu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "In a preliminary post-incident report shared in the Microsoft 365 Admin Center, the company said the outage was caused by three problems",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Aktualizácia bola nasadená v júli a viac ako tri mesiace nespôsobovala žiadne problémy.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "While the update had been deployed for more than three months without issues, it contained a bug that could overwhelm servers under certain traffic conditions",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Testy chybu neodhalili, pretože laboratórne prostredie používalo iný typ prevádzky a menej výkonný hardvér s menším počtom jadier.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Our normal load testing did not detect the latent issue because the traffic mix and SKUs used in our labs",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Problém sa zhoršoval na novšom hardvéri a strojoch s viac jadrami.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The contention issue is worsened on machines with more cores and newer hardware; whereas our load testing tended to focus on weaker hardware with fewer cores.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Portál 9to5Mac uvádza, že príčinou bola súťaž o prístup k internému procesu (lock contention).",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "This was due to lock contention inside an internal process which caused the machine to become unavailable.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Teams sa automaticky presunul na infraštruktúru Exchange Online približne 15 hodín pred výpadkom.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Microsoft Teams automatically switched to the networking infrastructure used by Exchange Online approximately 15 hours before the outage",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pre nesúvisiaci problém bolo vopred mimo prevádzky takmer 14 percent kapacity serverov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "nearly 14% of the gateway's server capacity was already offline due to an unrelated issue.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Presmerovanie používateľov zo zlyhaných serverov spôsobilo preťaženie a zlyhanie ďalších serverov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "As servers stopped responding, Microsoft's systems redirected users to other available servers, which also became overwhelmed by the additional traffic and failed as well.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ochranné mechanizmy brániace šíreniu problémov medzi regiónmi kaskádový výpadok nezastavili.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "safeguards designed to prevent problems from spreading between regions also failed to contain the cascading outages, allowing the disruption to spread worldwide.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Incident sa začal 12. novembra o 11:20 ET a plné zotavenie Microsoft potvrdil 13. novembra o 11:10 ET.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "began at 11:20 AM ET on Thursday, November 12, and continued until 11:10 AM ET the following day",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Teams, OneDrive a SharePoint prešli na alternatívnu infraštruktúru a obnovili sa skôr, zatiaľ čo Exchange Online takú možnosť nemal.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "While other Microsoft 365 services, like Teams, OneDrive, and SharePoint, could switch to alternative infrastructure and recover earlier, Exchange Online could not",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Reštartované servery boli rýchlo opäť preťažené nahromadenou prevádzkou.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "restarting affected servers caused them to be quickly overwhelmed again by backed-up traffic.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft nasadil opravu, zvýšil kapacitu, zlepšil monitorovanie a pridal nové ochranné opatrenia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "company says it has since increased capacity, improved monitoring, and added safeguards to prevent traffic redirection from triggering similar cascading failures.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Charles Lamanna, výkonný viceprezident Microsoftu pre Copilot, Agents a Platform, sa za výpadok ospravedlnil.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "In a separate statement on X, Charles Lamanna, Microsoft's executive vice president of Copilot, Agents, and Platform, apologized for the disruption.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "záťaže",
+        "kontext": "ohla aktivovať pri určitých podmienkach záťaže a spôsobiť, že servery prestali odpoved",
+        "navrhy": [
+          "zakáže",
+          "zamaže",
+          "zaťaté"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "hardvéri. Portál 9to5Mac opisuje príčinu ako súťaž o prístup k internému procesu, kt",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „že“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "zahltila",
+        "kontext": "alo aj to, že reštartované servery opäť zahltila nahromadená prevádzka.\n\nMicrosoft po id",
+        "navrhy": [
+          "zahatila",
+          "zahĺbila",
+          "zahlti la"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "neuzavrel. 9to5Mac zhrňuje príčinu najmä ako súhru zlyhania jednej brány a chyby v a",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „že“: \", ako\"."
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://live.staticflickr.com/3501/3276756770_fd01fa867e_b.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/Microsoft-outage-saw-80-of-servers-fail-–-heres-what-happened.jpg?quality=82&strip=all&w=800",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Microsoft outage saw 80% of servers fail – here's what happened | Photo shows an authentication failed message",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/b9db61d5cef3fec85352bf3d7768d06ff353055f7b4b968a103f9fba4b451a1a?s=96&d=mm&r=r",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Ben Lovejoy",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.bleepstatic.com/content/hl-images/2025/08/04/Microsoft-365.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Microsoft 365 server rack",
+      "Microsoft Azure data center",
+      "Microsoft cloud server"
+    ],
+    "alternativy": [
+      {
+        "url": "https://live.staticflickr.com/3501/3276756770_fd01fa867e_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/247df1d1-bd6d-42f0-90f0-34b55f4d1b60/thumb/",
+        "nazov": "129 of 365: Me in one of our server labs",
+        "autor": "dumbledad",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/27141279@N00/3276756770",
+        "povod": "openverse",
+        "dopyt": "Microsoft 365 server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Pedra_Azul_Milky_Way.jpg/1280px-Pedra_Azul_Milky_Way.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Pedra_Azul_Milky_Way.jpg/1280px-Pedra_Azul_Milky_Way.jpg",
+        "nazov": "Pedra Azul Milky Way.jpg",
+        "autor": "EduardoMSNeves",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Pedra_Azul_Milky_Way.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft Azure data center"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/SQL_Azure_Client_Access_Architecture.png",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/c/cf/SQL_Azure_Client_Access_Architecture.png",
+        "nazov": "SQL Azure Client Access Architecture.png",
+        "autor": "小朱",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:SQL_Azure_Client_Access_Architecture.png",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft cloud server"
+      },
+      {
+        "url": "https://live.staticflickr.com/5505/9957308664_63db2550da_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/826c01af-f45f-4e5a-a17d-05c23adf0162/thumb/",
+        "nazov": "Javier Cabrerizo",
+        "autor": "Oracle PR",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/49034885@N05/9957308664",
+        "povod": "openverse",
+        "dopyt": "Microsoft cloud server"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Malta_Gozo%2C_Azure_Window_%2810264176345%29.jpg/1280px-Malta_Gozo%2C_Azure_Window_%2810264176345%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Malta_Gozo%2C_Azure_Window_%2810264176345%29.jpg/1280px-Malta_Gozo%2C_Azure_Window_%2810264176345%29.jpg",
+        "nazov": "Malta Gozo, Azure Window (10264176345).jpg",
+        "autor": "Berit Watkin from Redhill/Surrey, UK",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Malta_Gozo,_Azure_Window_(10264176345).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft Azure data center"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/SQL_Server_Agent.jpg/1280px-SQL_Server_Agent.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/SQL_Server_Agent.jpg/1280px-SQL_Server_Agent.jpg",
+        "nazov": "SQL Server Agent.jpg",
+        "autor": "Thayane Viana",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:SQL_Server_Agent.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft cloud server"
+      },
+      {
+        "url": "https://live.staticflickr.com/5541/9957323616_86b381dc86_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/f5727df2-16c3-4612-baba-057e57b24c34/thumb/",
+        "nazov": "Javier Cabrerizo",
+        "autor": "Oracle PR",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/49034885@N05/9957323616",
+        "povod": "openverse",
+        "dopyt": "Microsoft cloud server"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Arara_Azul_no_Pantanal.jpg/1280px-Arara_Azul_no_Pantanal.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Arara_Azul_no_Pantanal.jpg/1280px-Arara_Azul_no_Pantanal.jpg",
+        "nazov": "Arara Azul no Pantanal.jpg",
+        "autor": "Leonardo Ramos",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Arara_Azul_no_Pantanal.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft Azure data center"
+      }
+    ],
+    "prompt_ilustracie": "Create an abstract editorial illustration of interconnected cloud server nodes cascading into darkness while a small stream of traffic is rerouted, using a restrained blue and amber palette, without logos, text, or realistic people."
+  },
+  "prompt_ilustracie": "Create an abstract editorial illustration of interconnected cloud server nodes cascading into darkness while a small stream of traffic is rerouted, using a restrained blue and amber palette, without logos, text, or realistic people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/6c34bbf31fa887696fa5694dfba10895",
+  "text_agentov": {
+    "titulok": "Júlová chyba ochromila viac než 80 percent serverov Microsoft 365",
+    "perex": "Microsoft pripísal novembrový výpadok kombinácii chyby v sieťovom softvéri, presmerovanej prevádzky a zníženej kapacity. Problém podľa firmy zasiahol služby na celom svete a vyšetrovanie pokračuje.",
+    "telo": "Microsoft tvrdí, že za novembrovým celosvetovým výpadkom Microsoft 365 stála chyba v aktualizácii sieťových brán, ktorú firma zaviedla už v júli. Pri najhoršom priebehu prestalo reagovať viac než 80 percent týchto serverov. Výpadok zasiahol napríklad Outlook, Exchange Online, Teams a Copilot a trval takmer 24 hodín.\n\nPodľa predbežnej správy v Microsoft 365 Admin Center sa spojili tri okolnosti: skrytá chyba v softvéri, nárast prevádzky po presmerovaní Teams na inú sieťovú infraštruktúru a dočasne znížená kapacita serverov. Ako uvádza BleepingComputer, Microsoft stále pripravuje záverečnú správu o incidente.\n\n## Chyba zostala skrytá celé mesiace\n\nAktualizácia určená pre sieťové brány Microsoft 365 sa začala nasadzovať v júli. Podľa Microsoftu sa počas rozšírenia na celú infraštruktúru ani v nasledujúcich mesiacoch neprejavili problémy. Chyba sa však mohla aktivovať pri určitých podmienkach záťaže a spôsobiť, že servery prestali odpovedať.\n\nTesty ju neodhalili, pretože laboratórne prostredie používalo iný typ prevádzky a menej výkonné servery s menším počtom jadier než produkčná infraštruktúra. Microsoft v správe vysvetlil, že problém sa zhoršuje na novšom a výkonnejšom hardvéri. Portál 9to5Mac opisuje príčinu ako súťaž o prístup k internému procesu, ktorá mohla server zablokovať.\n\n## Prevádzka spustila kaskádový výpadok\n\nPribližne 15 hodín pred začiatkom incidentu sa Teams automaticky presunul na sieťovú infraštruktúru, ktorú využíva Exchange Online. Tým sa zvýšila záťaž na príslušné brány. Zároveň bolo pre nesúvisiaci problém mimo prevádzky takmer 14 percent ich kapacity. Microsoft uviedol, že samotné zníženie kapacity by infraštruktúra zvládla, no v kombinácii s vyššou prevádzkou sa prejavila softvérová chyba.\n\nKeď prvé servery prestali reagovať, systém presmeroval používateľov na ďalšie dostupné servery. Tie však dostali dodatočnú záťaž a zlyhávali tiež. Do dvoch hodín sa problém rozšíril naprieč serverovou flotilou; v najhoršom bode bolo nefunkčných viac než 80 percent serverov. Ochranné mechanizmy, ktoré mali brániť šíreniu problémov medzi regiónmi, podľa Microsoftu kaskádu nezastavili.\n\n## Obnova trvala do nasledujúceho dňa\n\nIncident sa začal 12. novembra o 11:20 východného času a Microsoft potvrdil obnovenie služieb 13. novembra o 11:10. Teams, OneDrive a SharePoint mohli prejsť na alternatívnu infraštruktúru a obnovili sa skôr. Exchange Online takú možnosť nemal, takže používatelia sa nevedeli dostať k pošte. Obnovu komplikovalo aj to, že reštartované servery opäť zahltila nahromadená prevádzka.\n\nMicrosoft po identifikovaní chyby pripravil opravu a nasadil ju na zasiahnuté servery. Firma následne zvýšila kapacitu, vylepšila monitorovanie a pridala ochrany proti podobnému presmerovaniu prevádzky. Charles Lamanna, výkonný viceprezident Microsoftu pre Copilot, Agents a Platform, sa zákazníkom ospravedlnil za vplyv výpadku na ich bežnú prevádzku.\n\nBleepingComputer uvádza, že Microsoft vyšetrovanie ešte neuzavrel. 9to5Mac zhrňuje príčinu najmä ako súhru zlyhania jednej brány a chyby v aktualizácii, zatiaľ čo predbežná správa citovaná BleepingComputer osobitne uvádza aj zníženú kapacitu serverov."
+  }
+}
