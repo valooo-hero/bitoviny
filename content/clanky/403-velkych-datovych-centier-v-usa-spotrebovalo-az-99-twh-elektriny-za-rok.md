@@ -6,7 +6,7 @@ tagy:
   - dátové centrá
   - spotreba energie
   - umelá inteligencia
-publikovane: 2026-11-17T05:36:24+00:00
+publikovane: 2026-11-17T10:12:03Z
 obrazok:
   src: /obrazky/403-velkych-datovych-centier-v-usa-spotrebovalo-az-99-twh-elektriny-za-rok-mwkj969h.jpg
   alt: Ilustračný obrázok.
@@ -18,6 +18,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Verge: US data centers now burn more electricity than a midsized country"
     url: https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard
