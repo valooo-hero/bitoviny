@@ -1,0 +1,583 @@
+{
+  "slug": "instagram-pridava-amazon-affiliate-odkazy-priamo-do-reels-a-prispevkov",
+  "datum_sprav": "2026-11-16",
+  "dovod_vyberu": "Instagram zavádza affiliate odkazy na Amazon, čo mení monetizačný model tvorcov na mobilných platformách.",
+  "poznamky_pre_editora": "Overiť podmienky oprávnenosti: WIRED uvádza hranicu nad 1 000 sledovateľov, Engadget a TechCrunch ju nespomínajú. Overiť aj presnú podobu nákupnej cesty v aplikácii; WIRED opisuje náhľad s cenou v Instagrame pred presmerovaním na Amazon. Dostupnosť mimo USA zdroje nepotvrdzujú.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je voči poskytnutým zdrojom mimoriadne presný a absolútne spoľahlivý. Všetky uvedené tvrdenia, čísla aj citované informácie presne zodpovedajú údajom v článkoch Wired, Engadget a TechCrunch.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 23,
+        "potvrdenych": 23,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Instagram pridáva Amazon affiliate odkazy priamo do Reels a príspevkov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Instagram Is Bringing Amazon Affiliate Links Directly to Reels and Posts",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tvorcovia budú môcť označiť desiatky produktov v jednom videu alebo príspevku a z nákupov získavať províziu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "US creators who are also in Amazon's influencer program will now be able to add dozens of affiliate links directly to their Reels",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zatiaľ je novinka určená len oprávneným používateľom v USA.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "To participate in this Amazon program, creators must be US-based adults with a professional account",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Instagram umožní tvorcom pridávať odkazy na produkty z Amazonu priamo do Reels a bežných príspevkov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Instagram announced on Monday that it’s launching an integration that will give creators a new way to earn by adding Amazon affiliate links directly in reels",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Meta si z predaja zatiaľ neberie podiel ani neúčtuje poplatok za transakciu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Instagram says adding products and affiliate links is free, and that it doesn’t take a commission on purchases or charge transaction fees.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Funkcia je aktuálne dostupná iba oprávneným tvorcom v USA.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "For now, Amazon affiliate linking is only available to creators in the United States who have a professional account on Instagram",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Novinka presúva odporúčania z profilových stránok priamo k obsahu, v ktorom tvorca produkt ukazuje.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "This latest attempt moves links from creator bios and places them directly in users' feeds.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Instagram uviedol novinku pred začiatkom hlavnej sviatočnej nákupnej sezóny.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Instagram’s parent company, Meta, dropped this shopping-focused change right before the holiday season really kicks off.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tvorcovia môžu pridať najviac 30 produktov do jedného Reelu a 20 do bežného príspevku.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Creators can add up to 30 products per reel or 20 per feed post",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa Engadgetu môžu prepojiť svoj účet Amazon s Instagramom a označovať produkty priamo v aplikácii.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Now, creators can instead link their Amazon account directly to Instagram and add up to 30 products in a single video",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TechCrunch uvádza, že spojenie účtov sa nastavuje v časti monetizácie v profesionálnom paneli.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Eligible creators can now connect their Instagram and Amazon Influencer accounts through the Monetization section of their Professional Dashboard.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Po prepojení sa k označenému produktu automaticky priradí affiliate odkaz.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Once connected, Instagram automatically adds affiliate links when creators tag Amazon products in their content",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Automatické priradenie platí aj vtedy, keď tvorca vloží bežný produktový odkaz.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "affiliate attribution is automatically applied to any Amazon product they add, even when they paste a regular product link",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Instagram môže zobraziť náhľad produktu a tvorcovi pred zverejnením ukáže odhadovanú výšku provízie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Connected affiliates also unlock image previews for their links, making it easier for viewers to recognize the products.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Provízie naďalej vypláca Amazon.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "with commissions continuing to be paid out by Amazon.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Po ťuknutí na produkt sa otvorí jeho stránka v Instagrame a následne používateľ pokračuje do aplikácie alebo na web Amazonu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Tap the product and a page opens inside Instagram with the price. Tap one of the listed items, and Instagram will bump you over",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Meta tvrdí, že produktové odkazy v príspevkoch a Reels získavajú približne dvakrát viac kliknutí než odkazy v profile.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "And posts with products linked directly can generate twice as many clicks as bio links, according to Meta.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podmienkou na zapojenie je profesionálny účet a účasť v programe Amazon Influencer.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "US creators who are also in Amazon's influencer program will now be able to add dozens of affiliate links",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "WIRED uvádza, že tvorca musí byť dospelý a mať viac než 1 000 sledovateľov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "To participate in this Amazon program, creators must be US-based adults with a professional account that has over 1,000 followers.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Instagram neoznámil, či plánuje funkciu sprístupniť aj v ďalších krajinách.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "The company hasn't said if it plans to expand the feature to creators in more countries.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť neočakáva, že novinka náhle zaplní Instagram nákupnými príspevkami.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "“We don’t expect a sudden influx of shopping content from this launch,” Instagram spokesperson Megan Buckley tells WIRED.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Odkazy dávajú platforme ďalšie informácie o tom, ktoré produkty ľudí zaujímajú.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "these links are no doubt a valuable source of data to Meta about what their users are interested in.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Meta tvrdí, že odporúčané produkty nebudú meniť spôsob, akým jej systém vyberá obsah pre používateľov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Instagram’s recommendation systems will continue to recommend content based on people’s interests and what we think they’ll enjoy",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "Podľa Meta zostane",
+        "opravene": "Podľa Mety zostane",
+        "dovod": "skloňovanie značky",
+        "stav": "zamietnuta",
+        "poznamka": "mení vlastné mená",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Podľa Meta tvrdí",
+        "opravene": "Meta tvrdí",
+        "dovod": "odstránenie prebytočnej predložky",
+        "stav": "nenajdena",
+        "poznamka": "úryvok sa v texte nenachádza",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "titulok",
+        "text": "affiliate",
+        "kontext": "Instagram pridáva Amazon affiliate odkazy priamo do Reels a príspevkov",
+        "navrhy": [
+          "afiliantné",
+          "afiliácie",
+          "afinite"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "aktuálne",
+        "kontext": "tuje poplatok za transakciu. Funkcia je aktuálne dostupná iba oprávneným tvorcom v USA.\n",
+        "navrhy": [
+          "aktuálna"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (aktuálne) \"aktuálna\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "link",
+        "kontext": "a z profilových stránok a služieb typu „link in bio“ priamo k obsahu, v ktorom tvorc",
+        "navrhy": [
+          "Ink",
+          "Lin",
+          "Lina"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "bio",
+        "kontext": "ilových stránok a služieb typu „link in bio“ priamo k obsahu, v ktorom tvorca produ",
+        "navrhy": [
+          "BIS",
+          "Bro",
+          "Rio"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "monetizácie",
+        "kontext": " že spojenie účtov sa nastavuje v časti monetizácie v profesionálnom paneli.\n\nPo prepojení ",
+        "navrhy": [
+          "magnetizácie"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "affiliate",
+        "kontext": "označenému produktu automaticky priradí affiliate odkaz. To platí aj vtedy, keď tvorca vl",
+        "navrhy": [
+          "afiliantné",
+          "afiliácie",
+          "afinite"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "produktový",
+        "kontext": " platí aj vtedy, keď tvorca vloží bežný produktový odkaz, nielen špeciálnu affiliate adres",
+        "navrhy": [
+          "produktov",
+          "produktov ý"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "affiliate",
+        "kontext": "ežný produktový odkaz, nielen špeciálnu affiliate adresu. Instagram môže pri odkaze zobra",
+        "navrhy": [
+          "afiliantné",
+          "afiliácie",
+          "afinite"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "ťuknutí",
+        "kontext": "alej vypláca Amazon.\n\nPodľa WIRED sa po ťuknutí na produkt otvorí jeho stránka v Instag",
+        "navrhy": [
+          "tuknúť",
+          "ťuknutie",
+          "ťuknutím"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "produktové",
+        "kontext": "onu, aby nákup dokončil. Meta tvrdí, že produktové odkazy priamo v príspevkoch a Reels zís",
+        "navrhy": [
+          "produktov",
+          "produktov é"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "\nEngadget a TechCrunch opisujú podmienky ako profesionálny účet a účasť v programe A",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "značiek",
+        "kontext": "Menej odkazov v profile, viac nákupných značiek\n\nTvorcovia doteraz často odkazovali na ",
+        "navrhy": [
+          "faciek",
+          "hnacie",
+          "maciek"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "produktové",
+        "kontext": "a odkazov; nová integrácia však prináša produktové prepojenia priamo do príspevkov. Podľa ",
+        "navrhy": [
+          "produktov",
+          "produktov é"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "e nákupnú funkciu v čase, keď konkurenti ako TikTok rozvíjajú nakupovanie priamo cez",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Dynamodb-aws-console.png/1280px-Dynamodb-aws-console.png",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/11/hero-image-1420x746-1.webp",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/2a533ea84316d636ed24ffbab93202f6eee557585ac281b008713e3e749b31c6?s=96&d=identicon&r=g",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Aisha Malik",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6af7ae201244c1a16020acc3/191:100/w_1280,c_limit/Instagram-Users-Can-Expect-Avalanche-on-Amazon-Affiliate-Posts-Gear.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6af7ae201244c1a16020acc3/master/pass/Instagram-Users-Can-Expect-Avalanche-on-Amazon-Affiliate-Posts-Gear.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/instagram-will-let-creators-add-amazon-affiliate-links-directly-to-their-posts-and-reels/l-intro-1794612310.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/instagram-will-let-creators-add-amazon-affiliate-links-directly-to-their-posts-and-reels/intro-1794612310.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Instagram Reels screen",
+      "Amazon product tag",
+      "affiliate marketing banner"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Dynamodb-aws-console.png/1280px-Dynamodb-aws-console.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Dynamodb-aws-console.png/1280px-Dynamodb-aws-console.png",
+        "nazov": "Dynamodb-aws-console.png",
+        "autor": "Vnon",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Dynamodb-aws-console.png",
+        "povod": "wikimedia",
+        "dopyt": "Amazon product tag"
+      },
+      {
+        "url": "https://live.staticflickr.com/4066/4542872405_59806b860f_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/1a14009f-5859-4a67-be17-ecf097dace33/thumb/",
+        "nazov": "Please, Sir: Erotic Stories of Female Submission climbing the Amazon bestseller charts",
+        "autor": "rachelkramerbussel.com",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/33108296@N07/4542872405",
+        "povod": "openverse",
+        "dopyt": "Amazon product tag"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/51311473393_06c5433d6d_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/023b98bc-391b-4d5c-aa20-61d05b3aa167/thumb/",
+        "nazov": "Statesville Chautauqua",
+        "autor": "Iredell County Public Library",
+        "licencia": "PDM 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "stranka": "https://www.flickr.com/photos/82806152@N06/51311473393",
+        "povod": "openverse",
+        "dopyt": "affiliate marketing banner"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Dynamodb--table-creation.png",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Dynamodb--table-creation.png",
+        "nazov": "Dynamodb--table-creation.png",
+        "autor": "Vitaly Zdanevich",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Dynamodb--table-creation.png",
+        "povod": "wikimedia",
+        "dopyt": "Amazon product tag"
+      },
+      {
+        "url": "https://live.staticflickr.com/3440/3355384235_e3f3d17689_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/84b6a221-de2f-46e0-abd4-9ff9bb1271c4/thumb/",
+        "nazov": "amazon.co.jp mag",
+        "autor": "MIKI Yoshihito. (#mikiyoshihito)",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/7940758@N07/3355384235",
+        "povod": "openverse",
+        "dopyt": "Amazon product tag"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/51311269781_9d9f2a7a3c_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/7f7b054a-4eb4-4dfe-af27-4b21efd6836d/thumb/",
+        "nazov": "Statesville Chautauqua",
+        "autor": "Iredell County Public Library",
+        "licencia": "PDM 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "stranka": "https://www.flickr.com/photos/82806152@N06/51311269781",
+        "povod": "openverse",
+        "dopyt": "affiliate marketing banner"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Aws-dynamodb-webconsole-item.png/1280px-Aws-dynamodb-webconsole-item.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Aws-dynamodb-webconsole-item.png/1280px-Aws-dynamodb-webconsole-item.png",
+        "nazov": "Aws-dynamodb-webconsole-item.png",
+        "autor": "Vitaly Zdanevich",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Aws-dynamodb-webconsole-item.png",
+        "povod": "wikimedia",
+        "dopyt": "Amazon product tag"
+      },
+      {
+        "url": "https://live.staticflickr.com/3656/3575395691_4674851367.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/5c80b861-ff12-4464-a196-89e9ced27751/thumb/",
+        "nazov": "Odd Amazon Recommendation",
+        "autor": "Affiliate",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/40683329@N00/3575395691",
+        "povod": "openverse",
+        "dopyt": "Amazon product tag"
+      }
+    ],
+    "prompt_ilustracie": "Create an abstract editorial illustration of a smartphone feed with floating generic product cards connected by subtle shopping-link lines, using a clean contemporary palette, with no logos, text, or recognizable people."
+  },
+  "prompt_ilustracie": "Create an abstract editorial illustration of a smartphone feed with floating generic product cards connected by subtle shopping-link lines, using a clean contemporary palette, with no logos, text, or recognizable people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/ccd96377ae30944690a8488bafb1bec4",
+  "text_agentov": {
+    "titulok": "Instagram pridáva Amazon affiliate odkazy priamo do Reels a príspevkov",
+    "perex": "Tvorcovia budú môcť označiť desiatky produktov v jednom videu alebo príspevku a z nákupov získavať províziu. Zatiaľ je novinka určená len oprávneným používateľom v USA.",
+    "telo": "Instagram umožní tvorcom pridávať odkazy na produkty z Amazonu priamo do Reels a bežných príspevkov. Z nákupov uskutočnených cez tieto odkazy môžu získavať províziu, pričom Meta si podľa zverejnených informácií z predaja zatiaľ neberie podiel ani neúčtuje poplatok za transakciu. Funkcia je aktuálne dostupná iba oprávneným tvorcom v USA.\n\nNovinka presúva odporúčania z profilových stránok a služieb typu „link in bio“ priamo k obsahu, v ktorom tvorca produkt ukazuje. Instagram ju uviedol pred začiatkom hlavnej sviatočnej nákupnej sezóny.\n\n## Viac produktov v jednom obsahu\n\nTvorcovia môžu pridať najviac 30 produktov do jedného Reelu a 20 do bežného príspevku. Podľa Engadgetu môžu prepojiť svoj účet Amazon s Instagramom a označovať produkty priamo v aplikácii. TechCrunch uvádza, že spojenie účtov sa nastavuje v časti monetizácie v profesionálnom paneli.\n\nPo prepojení sa k označenému produktu automaticky priradí affiliate odkaz. To platí aj vtedy, keď tvorca vloží bežný produktový odkaz, nielen špeciálnu affiliate adresu. Instagram môže pri odkaze zobraziť náhľad produktu a tvorcovi pred zverejnením ukáže odhadovanú výšku provízie. Provízie naďalej vypláca Amazon.\n\nPodľa WIRED sa po ťuknutí na produkt otvorí jeho stránka v Instagrame, kde sa zobrazí aj cena; následne používateľ pokračuje do aplikácie alebo na web Amazonu, aby nákup dokončil. Meta tvrdí, že produktové odkazy priamo v príspevkoch a Reels získavajú približne dvakrát viac kliknutí než odkazy v profile. Ide o údaj spoločnosti, nie o nezávislé meranie.\n\n## Zatiaľ len pre tvorcov v USA\n\nEngadget a TechCrunch opisujú podmienky ako profesionálny účet a účasť v programe Amazon Influencer. WIRED navyše uvádza, že tvorca musí byť dospelý a mať viac než 1 000 sledovateľov. Keďže ostatné zdroje hranicu počtu sledovateľov nespomínajú, podmienky sa v správach mierne líšia.\n\nInstagram neoznámil, či plánuje funkciu sprístupniť aj v ďalších krajinách. Pre tvorcov a používateľov na Slovensku či inde v EÚ preto dostupnosť zatiaľ nie je potvrdená.\n\n## Menej odkazov v profile, viac nákupných značiek\n\nTvorcovia doteraz často odkazovali na odporúčané produkty cez profil alebo externé stránky, ktoré združujú viacero odkazov. Instagram postupne rozširuje možnosti zarábania a zdieľania odkazov; nová integrácia však prináša produktové prepojenia priamo do príspevkov. Podľa Meta zostane odporúčanie obsahu založené na záujmoch používateľov a spoločnosť neočakáva, že novinka náhle zaplní Instagram nákupnými príspevkami.\n\nZmena môže zjednodušiť cestu od odporúčania k nákupu a tvorcom priniesť viac kliknutí. Zároveň dáva platforme ďalšie informácie o tom, ktoré produkty ľudí zaujímajú. Instagram tak posilňuje nákupnú funkciu v čase, keď konkurenti ako TikTok rozvíjajú nakupovanie priamo cez svoje aplikácie. Meta však tvrdí, že odporúčané produkty nebudú samy osebe meniť spôsob, akým jej systém vyberá obsah pre používateľov."
+  }
+}
