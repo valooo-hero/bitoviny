@@ -1,0 +1,457 @@
+{
+  "slug": "vypadok-zasiahol-icloud-app-store-aj-dalsie-sluzby-apple",
+  "datum_sprav": "2026-11-17",
+  "dovod_vyberu": "Masívny výpadok služieb Apple postihuje milióny používateľov a má dopad na celosvetové digitálne ekosystémy.",
+  "poznamky_pre_editora": "Zmenila som údaj „18. hodiny“ na „6. hodiny večer“, podľa TechCrunch, ktorý uvádza, že do 6 PM ET boli všetky výpadky vyriešené. Ide o prevod času do slovenskej formulácie, nie o nový údaj.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept článku je mimoriadne spoľahlivý a takmer všetky tvrdenia presne zodpovedajú poskytnutým zdrojom. Jediným drobným nedostatkom je nepresný preklad priamej citácie vyhlásenia spoločnosti Apple.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 19,
+        "potvrdenych": 19,
+        "chyb": 2,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 20,
+        "potvrdenych": 20,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 19,
+        "potvrdenych": 18,
+        "chyb": 1,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "factchecker",
+        "zavaznost": "chyba",
+        "text": "„Naše systémy sa po internej aktualizácii, ktorá dnes ráno spôsobila výpadky, postupne obnovujú,“ uviedol zástupca Apple médiám.",
+        "komentar": "[nepresne] Preklad citátu je nepresný, v zdroji chýba formulácia o postupnom obnovovaní a uvádza sa, že mnohé systémy sú už opäť v prevádzke.",
+        "navrh_opravy": "„Mnohé z našich systémov sú po internej aktualizácii, ktorá dnes ráno spôsobila výpadky, opäť v prevádzke a fungujú,“ uviedol zástupca Apple médiám."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Viaceré online služby Apple mali v utorok 17. novembra výpadok.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "as of 2:10 PM ET on November 17, 2026.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Problémy sa týkali iCloudu, App Storu a Apple Music, ale aj ďalších systémov vrátane Apple Pay, iCloud Mail či aktivácie zariadení.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Affected services include the App Store, iCloud, Apple Pay, Apple Support, iPhone Activation, and more.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Apple pripísal narušenie prevádzky internej aktualizácii a uviedol, že nešlo o kybernetický útok.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "noting that the outages were caused by an internal update and not a cyberattack.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Používatelia opisovali, že sa nevedia prihlásiť do Apple účtu, otvoriť App Store alebo stiahnuť aplikácie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Others say the App Store won’t load or download apps",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Niektorým sa na iPhonoch a počítačoch Mac iCloud nečakane odhlásil a následné prihlásenie zlyhalo.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Users are reporting unexpected iCloud sign-outs on iPhone and Mac, followed by verification failures or unknown errors when trying to sign back in.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Problémy hlásili aj ľudia, ktorí sa pokúšali aktivovať zariadenie, a vývojári využívajúci App Store Connect.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Developers have separately reported trouble accessing App Store Connect.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Stránka Apple System Status označila problém s iCloud Account & Sign In za výpadok, ktorý sa týkal všetkých používateľov; služba mohla byť pomalá alebo nedostupná.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "indicates that there are issues with iCloud’s Account & Sign In services affecting “all users,” which could make the service slow or unavailable.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Medzi ďalšie zasiahnuté služby patrili AppleCare na zariadení, App Store a Apple Music.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The App Store, AppleCare on Device, and Apple Music are also experiencing issues, the page indicates.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Neskôr Apple doplnil iCloud Mail, webové aplikácie iCloud.com, Apple School Manager, Schoolwork a program Volume Purchase Program.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Apple’s status page was updated to include other outages impacting Apple School Manager, iCloud Mail, iCloud Web Apps (iCloud.com), Schoolwork, and the Volume Purchase Program.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Engadget uviedol, že prvé hlásenia na Downdetectori sa objavili približne o 11:30 východného času a ich počet výrazne narástol okolo 12:29.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "a handful of people began reporting connection issues around 11:30AM ET, before the number of outage reports jumped to the thousands around 12:29PM.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Apple podľa BleepingComputer evidoval začiatok problému s prihlasovaním do iCloudu približne o 11:45.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The most widespread issue affects iCloud Account & Sign In... The disruption started at approximately 11:45 AM ET.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výpadok AppleCare na zariadení mal podľa tej istej stránky začať okolo 11:15.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "This issue started at approximately 11:15 AM ET.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "„Naše systémy sa po internej aktualizácii, ktorá dnes ráno spôsobila výpadky, postupne obnovujú,“ uviedol zástupca Apple médiám.",
+        "typ": "citat",
+        "verdikt": "nepresne",
+        "zdroj": "Engadget",
+        "dokaz": "Many of our systems are back up and running after an internal update caused some outages this morning.",
+        "komentar": "Preklad citátu je nepresný, v zdroji chýba formulácia o postupnom obnovovaní a uvádza sa, že mnohé systémy sú už opäť v prevádzke.",
+        "navrh_opravy": "„Mnohé z našich systémov sú po internej aktualizácii, ktorá dnes ráno spôsobila výpadky, opäť v prevádzke a fungujú,“ uviedol zástupca Apple médiám."
+      },
+      {
+        "text": "Spoločnosť zároveň oznámila, že pracuje na opätovnom sprevádzkovaní zostávajúcich systémov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "We're working to get the remaining systems online as soon as possible,",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jej vyjadrenie o príčine citovali TechCrunch aj Engadget.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Apple responded to TechCrunch’s request for comment (which it initially gave to Bloomberg)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výpadok vyvolal na sociálnych sieťach špekulácie o možnom kybernetickom útoku.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "users across social media have already begun to speculate about the cause.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Apple uviedol internú aktualizáciu a TechCrunch poznamenal, že ani nedávne výpadky ďalších spoločností neboli pripísané útokom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "So far, none of the outages in the past week have been attributed to cyberattacks, but rather to technical problems.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "9to5Mac po aktualizácii článku napísal, že služby pre bežných používateľov už fungovali, kým niektoré nástroje pre vývojárov mali stále problémy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Consumer-facing services are back online. Developer-focused services are still experiencing issues.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TechCrunch neskôr uviedol, že stránka Apple zobrazovala všetky výpadky ako vyriešené do 6. hodiny večer východného času.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "By 6 PM ET on Tuesday, the status page showed all the outages were resolved.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iCloudu",
+        "kontext": "7. novembra výpadok. Problémy sa týkali iCloudu, App Storu a Apple Music, ale aj ďalšíc",
+        "navrhy": [
+          "iCloud"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iPhonoch",
+        "kontext": "ebo stiahnuť aplikácie. Niektorým sa na iPhonoch a počítačoch Mac iCloud nečakane odhlás",
+        "navrhy": [
+          "Iónoch",
+          "honoch",
+          "iónoch"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iCloudu",
+        "kontext": "al začiatok problému s prihlasovaním do iCloudu približne o 11:45. Výpadok AppleCare na",
+        "navrhy": [
+          "iCloud"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "sprevádzkovaní",
+        "kontext": "roveň oznámila, že pracuje na opätovnom sprevádzkovaní zostávajúcich systémov. Jej vyjadrenie ",
+        "navrhy": [
+          "prevádzkovaní",
+          "sprevádzkovali",
+          "s prevádzkovaní"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "stránka Apple zobrazovala všetky výpadky ako vyriešené do 6. hodiny večer východného",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Apple_iPhone_15.jpg/1280px-Apple_iPhone_15.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/app-store-app-icon-ios-27.jpg?quality=82&strip=all&w=800",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/af01c840dac8281fd5f1986a8504e54222700437fa19c3083e578c1ddf6386a6?s=96&d=mm&r=r",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Zac Hall",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/icloud-and-other-apple-services-are-down-in-an-apparent-outage/l-intro-1794944187.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/icloud-and-other-apple-services-are-down-in-an-apparent-outage/intro-1794944187.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2021/08/icloud-pattern-with-key.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "illustration of key over cloud icon",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/16d23d1acf41600294bf8b07d8b50f14f44415d88f76bf0ab725ad5405e748ca?s=96&d=identicon&r=g",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Sarah Perez",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.bleepstatic.com/content/hl-images/2026/10/27/Apple-red.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Apple iPhone 15",
+      "Apple MacBook Pro",
+      "Apple server rack"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Apple_iPhone_15.jpg/1280px-Apple_iPhone_15.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Apple_iPhone_15.jpg/1280px-Apple_iPhone_15.jpg",
+        "nazov": "Apple iPhone 15.jpg",
+        "autor": "IPHONE 15",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_15.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Apple iPhone 15"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Apple_MacBook_Pro_15%22_%282017%29.jpg/1280px-Apple_MacBook_Pro_15%22_%282017%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Apple_MacBook_Pro_15%22_%282017%29.jpg/1280px-Apple_MacBook_Pro_15%22_%282017%29.jpg",
+        "nazov": "Apple MacBook Pro 15\" (2017).jpg",
+        "autor": "iMahesh",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Apple_MacBook_Pro_15%22_(2017).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Apple MacBook Pro"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Xserve_cluster_NASA.jpg/1280px-Xserve_cluster_NASA.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Xserve_cluster_NASA.jpg/1280px-Xserve_cluster_NASA.jpg",
+        "nazov": "Xserve cluster NASA.jpg",
+        "autor": "",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Xserve_cluster_NASA.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Apple server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/31/99991779_a7997fd239_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/83cec44b-c0e1-48f2-8eb6-3151b392510b/thumb/",
+        "nazov": "28TB",
+        "autor": "jared",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/35468148654@N01/99991779",
+        "povod": "openverse",
+        "dopyt": "Apple server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Apple_iPhone_15.jpeg/1280px-Apple_iPhone_15.jpeg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Apple_iPhone_15.jpeg/1280px-Apple_iPhone_15.jpeg",
+        "nazov": "Apple iPhone 15.jpeg",
+        "autor": "Ka Kit Pang",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_15.jpeg",
+        "povod": "wikimedia",
+        "dopyt": "Apple iPhone 15"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Apple_iPhone_13_Pro_on_MacBook_Pro_05.jpg/1280px-Apple_iPhone_13_Pro_on_MacBook_Pro_05.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Apple_iPhone_13_Pro_on_MacBook_Pro_05.jpg/1280px-Apple_iPhone_13_Pro_on_MacBook_Pro_05.jpg",
+        "nazov": "Apple iPhone 13 Pro on MacBook Pro 05.jpg",
+        "autor": "SimonWaldherr",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Apple_iPhone_13_Pro_on_MacBook_Pro_05.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Apple MacBook Pro"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Apple_Xserve_%28Early_2008%29_%2826396570970%29.jpg/1280px-Apple_Xserve_%28Early_2008%29_%2826396570970%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Apple_Xserve_%28Early_2008%29_%2826396570970%29.jpg/1280px-Apple_Xserve_%28Early_2008%29_%2826396570970%29.jpg",
+        "nazov": "Apple Xserve (Early 2008) (26396570970).jpg",
+        "autor": "htomari",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Apple_Xserve_(Early_2008)_(26396570970).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Apple server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/8252/8663775312_822a8df962_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/eb634e28-5914-4b30-8447-35f7e91f24a5/thumb/",
+        "nazov": "Antigenic Cartography Cluster",
+        "autor": "selkovjr",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/14192663@N07/8663775312",
+        "povod": "openverse",
+        "dopyt": "Apple server rack"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a cloud-shaped network with several disconnected app icons, using a clean, non-photorealistic style and no logos or text."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a cloud-shaped network with several disconnected app icons, using a clean, non-photorealistic style and no logos or text.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/f06727ad87f38246686852d64316ced2",
+  "text_agentov": {
+    "titulok": "Výpadok zasiahol iCloud, App Store aj ďalšie služby Apple",
+    "perex": "Používatelia hlásili problémy s prihlasovaním, sťahovaním aplikácií aj aktiváciou zariadení. Apple uviedol, že príčinou bola interná aktualizácia, nie kybernetický útok.",
+    "telo": "Viaceré online služby Apple mali v utorok 17. novembra výpadok. Problémy sa týkali iCloudu, App Storu a Apple Music, ale aj ďalších systémov vrátane Apple Pay, iCloud Mail či aktivácie zariadení. Apple pripísal narušenie prevádzky internej aktualizácii a uviedol, že nešlo o kybernetický útok.\n\nPoužívatelia opisovali, že sa nevedia prihlásiť do Apple účtu, otvoriť App Store alebo stiahnuť aplikácie. Niektorým sa na iPhonoch a počítačoch Mac iCloud nečakane odhlásil a následné prihlásenie zlyhalo. Problémy hlásili aj ľudia, ktorí sa pokúšali aktivovať zariadenie, a vývojári využívajúci App Store Connect.\n\n## Zasiahnuté boli účty aj služby pre školy\n\nStránka Apple System Status označila problém s iCloud Account & Sign In za výpadok, ktorý sa týkal všetkých používateľov; služba mohla byť pomalá alebo nedostupná. Medzi ďalšie zasiahnuté služby patrili AppleCare na zariadení, App Store a Apple Music. Neskôr Apple doplnil iCloud Mail, webové aplikácie iCloud.com, Apple School Manager, Schoolwork a program Volume Purchase Program.\n\nRozsah hlásení sa v priebehu dňa menil. Engadget uviedol, že prvé hlásenia na Downdetectori sa objavili približne o 11:30 východného času a ich počet výrazne narástol okolo 12:29. Apple podľa BleepingComputer evidoval začiatok problému s prihlasovaním do iCloudu približne o 11:45. Výpadok AppleCare na zariadení mal podľa tej istej stránky začať okolo 11:15. Tieto časy opisujú rôzne služby a typy hlásení, nie nevyhnutne jeden spoločný okamih začiatku.\n\n## Apple: príčinou bola interná aktualizácia\n\n„Naše systémy sa po internej aktualizácii, ktorá dnes ráno spôsobila výpadky, postupne obnovujú,“ uviedol zástupca Apple médiám. Spoločnosť zároveň oznámila, že pracuje na opätovnom sprevádzkovaní zostávajúcich systémov. Jej vyjadrenie o príčine citovali TechCrunch aj Engadget.\n\nVýpadok vyvolal na sociálnych sieťach špekulácie o možnom kybernetickom útoku. Dostupné správy však takéto vysvetlenie nepotvrdzujú: Apple uviedol internú aktualizáciu a TechCrunch poznamenal, že ani nedávne výpadky ďalších spoločností neboli pripísané útokom. Bez dôkazov preto nemožno obavy používateľov považovať za potvrdenie príčiny.\n\n## Stav služieb sa počas dňa menil\n\nJednotlivé médiá zachytili rozdielne fázy obnovy. 9to5Mac po aktualizácii článku napísal, že služby pre bežných používateľov už fungovali, kým niektoré nástroje pre vývojárov mali stále problémy. TechCrunch neskôr uviedol, že stránka Apple zobrazovala všetky výpadky ako vyriešené do 6. hodiny večer východného času. Rozdiel môže súvisieť s časom aktualizácie jednotlivých správ.\n\nZdroje neuvádzajú samostatné údaje o rozsahu výpadku na Slovensku ani v Európskej únii. Preto z nich nemožno určiť, koľko používateľov v týchto regiónoch problémy zaznamenalo."
+  }
+}
