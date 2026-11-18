@@ -9,11 +9,11 @@ tagy:
   - superpočítače
 publikovane: 2026-11-18T05:01:00+00:00
 obrazok:
-  src: /obrazky/kyberutok-odstavil-japonsky-superpocitac-fugaku-ohrozene-su-udaje-tisicov-pouziv-mwm45hkj.jpg
-  alt: FugakuSupercomputerSC19
-  popisok: FugakuSupercomputerSC19
-  kredit: Raysonho @ Open Grid Scheduler / Scalable Grid Engine / Wikimedia Commons
-  licencia: CC BY-SA 4.0
+  src: /obrazky/kyberutok-odstavil-japonsky-superpocitac-fugaku-ohrozene-su-udaje-tisicov-pouziv-mwm4600g.jpg
+  alt: RIKEN R-CCS Fugaku
+  popisok: RIKEN R-CCS Fugaku
+  kredit: Barsaka2 / Wikimedia Commons
+  licencia: CC0
   ai: false
 redaktori:
   autor: klara
