@@ -1,0 +1,439 @@
+{
+  "slug": "gemini-bude-uchovavat-vypnute-konverzacie-priblizne-dva-mesiace",
+  "datum_sprav": "2026-11-17",
+  "dovod_vyberu": "Google predlžuje uchovávanie dát z Gemini, čo vyvoláva otázky o ochrane súkromia a transparentnosti AI služieb.",
+  "poznamky_pre_editora": "Odstránila som nepodložené tvrdenie, že sa zmena týka používateľov v EÚ vrátane Slovenska. Záver teraz uvádza iba globálne zavádzanie, ktoré podporuje zdroj TechCrunch.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý a všetky tvrdenia v ňom sú plne podložené poskytnutými zdrojmi. Neobsahuje žiadne významové chyby ani vymyslené informácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 23,
+        "potvrdenych": 22,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 18,
+        "potvrdenych": 18,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Google oddeľuje históriu četov od súhlasu s využívaním údajov na trénovanie AI.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "At the core of the announcement is Google's splitting of Gemini chat history settings from AI model training permissions.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vypnutie histórie však už nebude znamenať, že sa konverzácia po 72 hodinách vymaže.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "\"Now, if you turn your new History setting off, future chats will be saved for around two months,\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Google predlžuje čas uchovávania konverzácií pri vypnutej histórii zo 72 hodín na približne dva mesiace.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Google is extending how long it keeps temporary Gemini chats and conversations made with chat history turned off to around two months",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ide o približne dvadsaťnásobné predĺženie oproti doterajšiemu limitu.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Opting out of Gemini tracking? Google will still hold your data 20x longer",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Google zmenu odôvodňuje bezpečnosťou a ochranou svojich služieb, používateľov a verejnosti.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Google said it is making that change in the name of making Gemini safer and more secure",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dočasné konverzácie môžu byť použité na odpoveď používateľovi, spracovanie spätnej väzby a riešenie možných problémov systému.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "They're used to respond to you, process your feedback, and protect Google, its users, and the public.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Doteraz boli história četov a využívanie obsahu na zlepšovanie modelov prepojené v nastavení „Keep Activity“.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Until now, both were tied to a single “Keep Activity” setting.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ak chcel používateľ obmedziť používanie svojich konverzácií na trénovanie AI, musel vypnúť aj históriu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Prior to this change, the only way to opt out of contributing your chat contents (including attachments) for training was to turn off your history.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Po novom budú v nastaveniach samostatné voľby a používateľ si môže ponechať históriu, no osobitne zakázať trénovanie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "As the new settings roll out, users will see separate toggles for model training and chat history.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nastavenie na blokowanie trénovania sa nachádza v časti Aktivita v Gemini a cez nastavenia účtu Google v sekcii Moja aktivita.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "It’s under Activity in the Gemini settings. You can also access the menu from your Google account under Data and Privacy > My Activity > Other activity > Gemini Apps Activity.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zmena sa týka budúcich interakcií a predchádzajúce údaje nový vypínač spätne neodstráni.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Importantly, this only applies to future interactions with Gemini. If you have previously fed any data into Google’s AI, that’s already part of the training data.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Google môže predchádzajúce údaje uchovávať až tri roky na zlepšovanie modelov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Google says it may retain this data for up to three years to improve its models.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Predchádzajúce údaje môžu zahŕňať vstupy, odpovede Gemini, nahrané súbory, použitie nástrojov, polohu aj údaje z prepojených aplikácií.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "That can include your inputs, Gemini’s responses, uploaded files, tool calls, your location, and data from connected apps.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Google zavedie nové nastavenia globálne v aplikácii Gemini v priebehu nasledujúcich týždňov.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The change, which will roll out globally in the Gemini app over the coming weeks",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Používateľom s vypnutou funkciou Keep Activity sa vypnú obe nové voľby a s aktivovanou zostane história zapnutá.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Google says both new settings will be turned off by default for users who previously disabled Keep Activity. For those who had Keep Activity turned on, their chat history will remain enabled.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dočasné konverzácie sa nepoužívajú na trénovanie modelov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "says temporary conversations are not used to train AI models.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri odoslaní spätnej väzby konverzáciu a súvisiace súbory či čety môžu posudzovať ľudia a Google ich môže použiť na zlepšovanie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Sending feedback to Google about a Gemini response also means that humans will be reviewing that particular conversation... Submitting feedback also means that Google assumes the right to use the conversation",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri odoslaní spätnej väzby sa uchovávanie môže predĺžiť až na tri roky.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "submitting a feedback request on any Gemini post means that temporary retention period gets extended to three years.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "četov",
+        "kontext": "Google oddeľuje históriu četov od súhlasu s využívaním údajov na tréno",
+        "navrhy": [
+          "centov",
+          "cepov",
+          "cerov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "četov",
+        "kontext": "oužívatelia budú môcť ponechať históriu četov zapnutú a zároveň odmietnuť využívanie ",
+        "navrhy": [
+          "centov",
+          "cepov",
+          "cerov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "\nAko",
+        "kontext": ", zo 72 hodín na približne dva mesiace.\n\nAko upozornil portál The Register, ide o pr",
+        "navrhy": [
+          ", Ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", Ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "četov",
+        "kontext": "ie budú oddelené\n\nDoteraz boli história četov a využívanie obsahu na zlepšovanie mode",
+        "navrhy": [
+          "centov",
+          "cepov",
+          "cerov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "četom",
+        "kontext": "m prišiel o možnosť vrátiť sa k starším četom a pokračovať v nich.\n\nPo novom budú v n",
+        "navrhy": [
+          "Peťom",
+          "celom",
+          "centom"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "čety",
+        "kontext": "rétnu konverzáciu a súvisiace súbory či čety môžu posudzovať ľudia a Google ich môže",
+        "navrhy": [
+          "Ety",
+          "bety",
+          "celty"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "povodny",
+      "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/2026-11-17-10_26_12-.png",
+      "poznamka": "Pravdepodobne tlačový materiál. Editor musí potvrdiť pôvod."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/2026-11-17-10_26_12-.png",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "The current Gemini Activity page is an all or nothing affair.",
+        "kredit": "Credit:\n\n          \n          Google",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (Google): pravdepodobne tlačový materiál."
+      },
+      {
+        "url": "https://image.theregister.com/?imageId=248218&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/11/google-gemini-app.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Google Gemini app",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2025/01/7a9bd5727569147c3025b40e3775fc64.png?w=150",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Jagmeet Singh",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-1152x648.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Aurich Lawson",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Aurich Lawson."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-5-500x500.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Aurich Lawson",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Aurich Lawson."
+      }
+    ],
+    "dopyty": [
+      "Google Gemini logo",
+      "AI chatbot interface",
+      "data privacy icon"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Google_Gemini_screenshot.png/1280px-Google_Gemini_screenshot.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Google_Gemini_screenshot.png/1280px-Google_Gemini_screenshot.png",
+        "nazov": "Google Gemini screenshot.png",
+        "autor": "Google",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Google_Gemini_screenshot.png",
+        "povod": "wikimedia",
+        "dopyt": "Google Gemini logo"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Gemini-Bard.png",
+        "nahlad": "https://api.openverse.org/v1/images/ecec8490-ae12-4515-a320-de5abf02b6bd/thumb/",
+        "nazov": "Google Gemini-Bard",
+        "autor": "Google",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=145179215",
+        "povod": "openverse",
+        "dopyt": "Google Gemini logo"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/SillyTavern_1.12.1_screenshot.png/1280px-SillyTavern_1.12.1_screenshot.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/SillyTavern_1.12.1_screenshot.png/1280px-SillyTavern_1.12.1_screenshot.png",
+        "nazov": "SillyTavern 1.12.1 screenshot.png",
+        "autor": "David Revoy",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:SillyTavern_1.12.1_screenshot.png",
+        "povod": "wikimedia",
+        "dopyt": "AI chatbot interface"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/DataPrivacy.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/6/62/DataPrivacy.jpg",
+        "nazov": "DataPrivacy.jpg",
+        "autor": "Blue Coat Photos",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:DataPrivacy.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data privacy icon"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Google_Gemini_Please_die._message.png",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/4/49/Google_Gemini_Please_die._message.png",
+        "nazov": "Google Gemini Please die. message.png",
+        "autor": "Gemini",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Google_Gemini_Please_die._message.png",
+        "povod": "wikimedia",
+        "dopyt": "Google Gemini logo"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Wright_Eclipse_Gemini%2C_Volvo_B9TL_-_First_West_Yorkshire_%28Halifax%29%2C_YJ58_GMO%2C_37361.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/ff675293-58a8-4e20-888c-b0960c78d13a/thumb/",
+        "nazov": "Wright Eclipse Gemini, Volvo B9TL - First West Yorkshire (Halifax), YJ58 GMO, 37361",
+        "autor": "Cardinator25",
+        "licencia": "BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=188948880",
+        "povod": "openverse",
+        "dopyt": "Google Gemini logo"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Piqsels.com-id-zbxec.jpg/1280px-Piqsels.com-id-zbxec.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Piqsels.com-id-zbxec.jpg/1280px-Piqsels.com-id-zbxec.jpg",
+        "nazov": "Piqsels.com-id-zbxec.jpg",
+        "autor": "piqsels",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Piqsels.com-id-zbxec.jpg",
+        "povod": "wikimedia",
+        "dopyt": "AI chatbot interface"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Bubbles-alt-icon.png",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Bubbles-alt-icon.png",
+        "nazov": "Bubbles-alt-icon.png",
+        "autor": "paomedia",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Bubbles-alt-icon.png",
+        "povod": "wikimedia",
+        "dopyt": "data privacy icon"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a chat history toggle beside a calendar stretching from three days to two months, with abstract AI shapes and no logos or realistic people."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a chat history toggle beside a calendar stretching from three days to two months, with abstract AI shapes and no logos or realistic people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/a1cb7290124cd60fb4d622c85c154293",
+  "text_agentov": {
+    "titulok": "Gemini bude uchovávať vypnuté konverzácie približne dva mesiace",
+    "perex": "Google oddeľuje históriu četov od súhlasu s využívaním údajov na trénovanie AI. Vypnutie histórie však už nebude znamenať, že sa konverzácia po 72 hodinách vymaže.",
+    "telo": "Google mení nastavenia súkromia v aplikácii Gemini: používatelia budú môcť ponechať históriu četov zapnutú a zároveň odmietnuť využívanie konverzácií na trénovanie modelov. Súčasne však predlžuje čas, počas ktorého uchováva konverzácie vytvorené pri vypnutej histórii, zo 72 hodín na približne dva mesiace.\n\nAko upozornil portál The Register, ide o približne dvadsaťnásobné predĺženie oproti doterajšiemu limitu. Google zmenu odôvodňuje bezpečnosťou a ochranou svojich služieb, používateľov a verejnosti. Podľa aktualizovaných informácií môžu byť dočasné konverzácie použité na odpoveď používateľovi, spracovanie spätnej väzby a riešenie možných problémov systému.\n\n## História a trénovanie budú oddelené\n\nDoteraz boli história četov a využívanie obsahu na zlepšovanie modelov prepojené v nastavení „Keep Activity“. Ak chcel používateľ obmedziť používanie svojich konverzácií na trénovanie AI, musel vypnúť aj históriu. Tým prišiel o možnosť vrátiť sa k starším četom a pokračovať v nich.\n\nPo novom budú v nastaveniach samostatné voľby. Používateľ si tak môže ponechať históriu, no osobitne zakázať využitie budúcich konverzácií na trénovanie modelov. Ako opisuje Ars Technica, nastavenie na blokovanie trénovania sa nachádza v časti Aktivita v Gemini; možno sa k nemu dostať aj cez nastavenia účtu Google a sekciu Moja aktivita.\n\nZmena sa týka budúcich interakcií. Údaje, ktoré používateľ Googlu poskytol už skôr, nový vypínač spätne neodstráni z tréningových dát. Ars Technica uvádza, že Google môže predchádzajúce údaje uchovávať až tri roky na zlepšovanie modelov. Môžu zahŕňať vstupy, odpovede Gemini, nahrané súbory, použitie nástrojov, polohu aj údaje z prepojených aplikácií.\n\n## Dlhšie uchovávanie aj pri vypnutej histórii\n\nGoogle podľa TechCrunchu zavedie nové nastavenia globálne v aplikácii Gemini v priebehu nasledujúcich týždňov. Používateľom, ktorí mali doteraz vypnutú funkciu „Keep Activity“, majú byť vypnuté obe nové voľby. Tým, ktorí ju mali zapnutú, história zostane aktívna; o používaní konverzácií na trénovanie budú môcť rozhodnúť samostatne.\n\nTechCrunch uvádza, že dočasné konverzácie sa nepoužívajú na trénovanie modelov. Pri odoslaní spätnej väzby je však situácia iná: The Register upozorňuje, že konkrétnu konverzáciu a súvisiace súbory či čety môžu posudzovať ľudia a Google ich môže použiť na zlepšovanie služieb aj modelov. V takom prípade sa uchovávanie spätnej väzby môže predĺžiť až na tri roky.\n\nGoogle avizuje globálne zavádzanie zmeny. Pri nastavovaní súkromia preto treba rozlišovať medzi ukladaním histórie, dočasným uchovávaním konverzácií a odoslaním spätnej väzby: ide o odlišné situácie s odlišnými pravidlami."
+  }
+}
