@@ -3,27 +3,28 @@ title: Trump chce zachovať časť predaja čipov Nvidia do Číny
 perex: Washington rieši, ako obmedziť prístup čínskych firiem k výpočtovému výkonu amerických čipov bez toho, aby prerušil obchod s Čínou. Súčasne čelí Nvidia aj vyšetrovaniu a tlaku na prísnejší dohľad nad exportom.
 sekcia: biznis
 tagy:
-- Nvidia
-- Čína
-- exportné obmedzenia
-publikovane: '2026-11-18T05:00:56+00:00'
+  - Nvidia
+  - Čína
+  - exportné obmedzenia
+publikovane: 2026-11-18T05:00:56+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/trump-chce-zachovat-cast-predaja-cipov-nvidia-do-ciny-mwm41esy.jpg
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Wired: The Nvidia Scandal Could Upend Chip Sales to China. Trump Wants to Keep Them Going'
-  url: https://www.wired.com/story/the-nvidia-scandal-is-about-chip-sales-to-china-trump-wants-to-keep-them-going/
-- nazov: 'The Register: Nvidia places chip exports under boardroom supervision after Huang''s exit'
-  url: https://www.theregister.com/systems/2026/11/17/nvidia-places-chip-exports-under-boardroom-supervision-after-huangs-exit/5310429
-- nazov: 'TechCrunch: SEC reportedly investigating Nvidia amid Huang exit'
-  url: https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/
+  - nazov: "Wired: The Nvidia Scandal Could Upend Chip Sales to China. Trump Wants to Keep Them Going"
+    url: https://www.wired.com/story/the-nvidia-scandal-is-about-chip-sales-to-china-trump-wants-to-keep-them-going/
+  - nazov: "The Register: Nvidia places chip exports under boardroom supervision after Huang's exit"
+    url: https://www.theregister.com/systems/2026/11/17/nvidia-places-chip-exports-under-boardroom-supervision-after-huangs-exit/5310429
+  - nazov: "TechCrunch: SEC reportedly investigating Nvidia amid Huang exit"
+    url: https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/
 ---
 
 Administratíva Donalda Trumpa zvažuje, ako zabrániť čínskym firmám v nepriamom prístupe k pokročilým čipom Nvidia, no prezident nechce zastaviť všetok predaj do Číny. Podľa zdrojov portálu WIRED Trump obhajoval ministra obchodu Howarda Lutnicka, ktorý čelil kritike za pomalé zavedenie obmedzení voči firme Megaspeed.
