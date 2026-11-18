@@ -7,7 +7,7 @@ tagy:
   - RIKEN
   - kyberútok
   - superpočítače
-publikovane: 2026-11-18T05:01:00+00:00
+publikovane: 2026-11-18T12:45:12Z
 obrazok:
   src: /obrazky/kyberutok-odstavil-japonsky-superpocitac-fugaku-ohrozene-su-udaje-tisicov-pouziv-mwm4600g.jpg
   alt: RIKEN R-CCS Fugaku
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Tom's Hardware: Japan’s most powerful supercomputer may have been hacked, over 4,000 users’ personal data stolen"
     url: https://www.tomshardware.com/tech-industry/supercomputers/japans-most-powerful-supercomputer-may-have-been-hacked-over-4-000-users-personal-data-stolen-investigation-opened-into-fugaku-breach-after-unauthorized-software-installed
