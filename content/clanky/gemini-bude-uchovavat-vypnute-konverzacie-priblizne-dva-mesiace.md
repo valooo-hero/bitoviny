@@ -3,28 +3,29 @@ title: Gemini bude uchovávať vypnuté konverzácie približne dva mesiace
 perex: Google oddeľuje históriu četov od súhlasu s využívaním údajov na trénovanie AI. Vypnutie histórie však už nebude znamenať, že sa konverzácia po 72 hodinách vymaže.
 sekcia: ai
 tagy:
-- Google
-- Gemini
-- súkromie
-- umelá inteligencia
-publikovane: '2026-11-18T05:01:04+00:00'
+  - Google
+  - Gemini
+  - súkromie
+  - umelá inteligencia
+publikovane: 2026-11-18T05:01:04+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/gemini-bude-uchovavat-vypnute-konverzacie-priblizne-dva-mesiace-mwm47ln1.png
+  alt: Google Gemini-Bard
+  popisok: Google Gemini-Bard
+  kredit: Google / Openverse
+  licencia: CC0 1.0
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'The Register: Opting out of Gemini tracking? Google will still hold your data 20x longer'
-  url: https://www.theregister.com/ai-and-ml/2026/11/17/opting-out-of-gemini-tracking-google-will-still-hold-your-data-20x-longer/5310517
-- nazov: 'Ars Technica: Google makes it easier to use Gemini without training AI on your data'
-  url: https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/
-- nazov: 'TechCrunch: Google to keep Gemini chats for 2 months, up from 72 hours, even with history off'
-  url: https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/
+  - nazov: "The Register: Opting out of Gemini tracking? Google will still hold your data 20x longer"
+    url: https://www.theregister.com/ai-and-ml/2026/11/17/opting-out-of-gemini-tracking-google-will-still-hold-your-data-20x-longer/5310517
+  - nazov: "Ars Technica: Google makes it easier to use Gemini without training AI on your data"
+    url: https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/
+  - nazov: "TechCrunch: Google to keep Gemini chats for 2 months, up from 72 hours, even with history off"
+    url: https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/
 ---
 
 Google mení nastavenia súkromia v aplikácii Gemini: používatelia budú môcť ponechať históriu četov zapnutú a zároveň odmietnuť využívanie konverzácií na trénovanie modelov. Súčasne však predlžuje čas, počas ktorého uchováva konverzácie vytvorené pri vypnutej histórii, zo 72 hodín na približne dva mesiace.
