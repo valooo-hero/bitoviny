@@ -7,7 +7,7 @@ tagy:
   - Gemini
   - súkromie
   - umelá inteligencia
-publikovane: 2026-11-18T05:01:04+00:00
+publikovane: 2026-11-18T12:46:31Z
 obrazok:
   src: /obrazky/gemini-bude-uchovavat-vypnute-konverzacie-priblizne-dva-mesiace-mwm47ln1.png
   alt: Google Gemini-Bard
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Register: Opting out of Gemini tracking? Google will still hold your data 20x longer"
     url: https://www.theregister.com/ai-and-ml/2026/11/17/opting-out-of-gemini-tracking-google-will-still-hold-your-data-20x-longer/5310517
