@@ -1,0 +1,328 @@
+{
+  "slug": "amd-obhajuje-nativny-fp64-v-akceleratore-instinct-mi430x",
+  "datum_sprav": "2026-11-17",
+  "dovod_vyberu": "AMD predstavuje natívnu dvojité presnosti na Instinct MI430X, čo je dôležitý krok pre HPC a vedecké výpočty.",
+  "poznamky_pre_editora": "Tvrdenie, že emulácia FP64 nie je náhradou natívneho výkonu, pripisujem AMD. The Register zároveň uvádza, že Nvidia pri Rubin HPC sľubuje aj natívny maticový výkon FP64, hoci nepublikovala jeho podrobnosti; pred vydaním overiť presné znenie vyjadrenia Nvidie. Údaj 432 GB HBM4 sa v Tom’s Hardware viaže na uzol MI430X, zatiaľ čo The Register ho uvádza pri akcelerátore; súhrnných 1,72 TB pre štyri akcelerátory podporuje výklad 432 GB na kus.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je plne spoľahlivý a presne vychádza z informácií uvedených v oboch zdrojových článkoch. Všetky technické parametre, citované dáta aj argumenty oboch konkurentov sú v texte interpretované bezchybne.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 15,
+        "potvrdenych": 15,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "AMD na SC26 obhajuje natívne výpočty FP64 v akcelerátore Instinct MI430X.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "AMD attacks Nvidia's FP64 emulation at SC26, touts native double-precision on Instinct MI430X",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nvidia predstavila nový variant GPU Rubin určený pre HPC.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Nvidia unveiled a new variant of its Rubin GPUs aimed at – you’ll never believe it – high performance computing (HPC).",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "AMD zistilo, že husté násobenie matíc tvorí menej než 10 percent HPC pracovných záťaží.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "In its own application profiling, the company says \"less than 10%\" of HPC workloads perform dense GEMM operations",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ozakiho schéma rozkladá výpočty FP64 na sériu operácií s nižšou presnosťou pre tensorové jadrá.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "decomposing FP64 matrix operations into a string of INT8 operations that, when run on Nvidia’s tensor cores",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Emulácia Ozakiho schémou môže zvýšiť pamäťovú náročnosť až trojnásobne.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "using Ozaki emulation methods can cause the memory footprint of an application to balloon, requiring up to three times more capacity",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Instinct MI430X má 432 GB HBM4 pamäte, priepustnosť 23 TB/s a FP64 výkon 288 TFLOPS.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The Instinct MI430X boasts 432 GB of HBM4, 23 TB/s of memory bandwidth and a whopping 288 teraFLOPS of peak double precision grunt.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Štyri MI430X spolu ponúkajú 1,72 TB pamäte HBM4 a priepustnosť 93,2 TB/s.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "1.72 TB of aggregate HBM4 capacity and 93.2 TB/s of memory bandwidth offered by four MI430X's working together",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jedna GPU MI430X ponúka teoretický výkon 9,2 PFLOPS pri FP4 pre inferenciu AI.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Each MI430X GPU offers 9.2 PFLOPS of theoretical FP4 compute performance for inference",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "AI akcelerátor MI455X dosahuje 40,3 PFLOPS v FP4.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "40.3 PFLOPS of FP4 compute from each AI-focused MI455X accelerator.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Štyri MI430X tvoria menšiu skupinu než 72 akcelerátorov MI455X v rackovom systéme Helios.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the native scale-up domain size of four MI430Xs... pales in comparison to the domain size of 72 MI455X accelerators in a Helios rack",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rubin HPC má ponúknuť viac než 50-tisíc jadier CUDA a doraziť v roku 2028.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Rubin HPC promises more than 50,000 CUDA cores... It will arrive sometime in 2028.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rubin dokáže dosiahnuť až 200 TFLOPS pri emulovaných maticových výpočtoch FP64.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "According to Nvidia, Rubin can churn out up to 200 emulated FP64 matrix teraFLOPS.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nvidia neponúkla podrobnosti o maximálnom výkone a pamäti pre Rubin HPC.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Nvidia hasn’t disclosed peak performance memory capacity or bandwidth.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rubin HPC ponúkne podľa Nvidie aj natívny maticový výkon FP64.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "assured us that Nvidia’s HPC hardware should offer native FP64 matrix performance and customers won't have to rely entirely on emulation.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "MI430X sa objaví v superpočítačoch Discovery, Alice Recoque, LUMI-AI a Herder.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The upcoming Discovery supercomputer at Oak Ridge National Laboratory, the Alice Recoque installation in France, the LUMI-AI system at Finland’s CSC, and the Herder system in Germany",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": " ktorý",
+        "opravene": ", ktorý",
+        "dovod": "LanguageTool: Dajte čiarku pred „ktorý“: \", ktorý\".",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "LanguageTool"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "záťaží",
+        "kontext": "orí menej než 10 percent HPC pracovných záťaží. Ide o tvrdenie výrobcu, nie o nezávisl",
+        "navrhy": [
+          "zaťaží",
+          "zapaží",
+          "zarazí"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "tensorových",
+        "kontext": "čty, ktoré možno efektívne spracovať na tensorových jadrách. AMD namieta, že najlepšie výsl",
+        "navrhy": [
+          "tenorových",
+          "tenzorových"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "inferenciu",
+        "kontext": "AMD spomína aj využitie akcelerátora na inferenciu AI modelov popri vedeckých výpočtoch. M",
+        "navrhy": [
+          "inferencia",
+          "inferencii",
+          "ingerenciu"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "rackovom",
+        "kontext": "j skupiny než 72 akcelerátorov MI455X v rackovom systéme Helios.\n\n## Nvidia predstavila ",
+        "navrhy": [
+          "páčkovom",
+          "rakovom",
+          "rockovom"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "emulovaných",
+        "kontext": "rtálu hovorí o výkone až 200 TFLOPS pri emulovaných maticových výpočtoch FP64. Podrobnosti ",
+        "navrhy": [
+          "emulgovaných"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -7 +7 @@\n-FP64 je dôležitý napríklad pri simuláciách, modelovaní a vedeckých výpočtoch. Podľa portálu Tom’s Hardware AMD pri profilovaní aplikácií zistilo, že husté násobenie matíc, teda typ úlohy, pre ktorý je emulácia Ozakiho schémou vhodná, tvorí menej než 10 percent HPC pracovných záťaží. Ide o tvrdenie výrobcu, nie o nezávislé meranie.\n+FP64 je dôležitý napríklad pri simuláciách, modelovaní a vedeckých výpočtoch. Podľa portálu Tom’s Hardware AMD pri profilovaní aplikácií zistilo, že husté násobenie matíc, teda typ úlohy, pre, ktorý je emulácia Ozakiho schémou vhodná, tvorí menej než 10 percent HPC pracovných záťaží. Ide o tvrdenie výrobcu, nie o nezávislé meranie."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "povodny",
+      "url": "https://cdn.mos.cms.futurecdn.net/aYqjYmHikYgdUmCHUJ3Wbk-1920-80.png",
+      "poznamka": "Pravdepodobne tlačový materiál. Editor musí potvrdiť pôvod."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/aYqjYmHikYgdUmCHUJ3Wbk-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "AMD",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (AMD): pravdepodobne tlačový materiál."
+      },
+      {
+        "url": "https://image.theregister.com/?imageId=5310625&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/UahiUVXoQLojHq4AZy3u7U-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "A render of the Discovery supercomputer",
+        "popisok": "The Oak Ridge National Laboratory Discovery supercomputer, powered by MI430X GPUs",
+        "kredit": "(Image credit: Oak Ridge National Laboratory)",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Oak Ridge National Laboratory."
+      }
+    ],
+    "dopyty": [
+      "AMD Instinct MI430X",
+      "HPC server rack",
+      "data center GPU"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Dawn_in_Puerto_Encantado.jpg/1280px-Dawn_in_Puerto_Encantado.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Dawn_in_Puerto_Encantado.jpg/1280px-Dawn_in_Puerto_Encantado.jpg",
+        "nazov": "Dawn in Puerto Encantado.jpg",
+        "autor": "Paolo Costa Baldi",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Dawn_in_Puerto_Encantado.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center GPU"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/A_Misty_Dawn%2C_Dandenong_Ranges.jpg/1280px-A_Misty_Dawn%2C_Dandenong_Ranges.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/A_Misty_Dawn%2C_Dandenong_Ranges.jpg/1280px-A_Misty_Dawn%2C_Dandenong_Ranges.jpg",
+        "nazov": "A Misty Dawn, Dandenong Ranges.jpg",
+        "autor": "Uzman Naleer",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:A_Misty_Dawn,_Dandenong_Ranges.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center GPU"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Prague_skyline_at_dawn.jpg/1280px-Prague_skyline_at_dawn.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Prague_skyline_at_dawn.jpg/1280px-Prague_skyline_at_dawn.jpg",
+        "nazov": "Prague skyline at dawn.jpg",
+        "autor": "Petar Milošević",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Prague_skyline_at_dawn.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center GPU"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Dawn_on_the_harbour_of_S%C3%A8te_cf01.jpg/1280px-Dawn_on_the_harbour_of_S%C3%A8te_cf01.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Dawn_on_the_harbour_of_S%C3%A8te_cf01.jpg/1280px-Dawn_on_the_harbour_of_S%C3%A8te_cf01.jpg",
+        "nazov": "Dawn on the harbour of Sète cf01.jpg",
+        "autor": "Christian Ferrer",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Dawn_on_the_harbour_of_S%C3%A8te_cf01.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center GPU"
+      }
+    ],
+    "prompt_ilustracie": "Create an abstract editorial illustration of two contrasting computing architectures, one built from precise crystalline pathways and the other from layered matrix-like tiles, with a subtle scientific supercomputing atmosphere, no logos, no text, and no real people."
+  },
+  "prompt_ilustracie": "Create an abstract editorial illustration of two contrasting computing architectures, one built from precise crystalline pathways and the other from layered matrix-like tiles, with a subtle scientific supercomputing atmosphere, no logos, no text, and no real people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/fa21d90986a4b861e4cae62de31f0f4e",
+  "text_agentov": {
+    "titulok": "AMD obhajuje natívny FP64 v akcelerátore Instinct MI430X",
+    "perex": "Na konferencii SC26 firma spochybnila, či emulácia dvojitej presnosti dokáže nahradiť špecializovaný hardvér vo vedeckých výpočtoch. Nvidia zároveň predstavila nový variant Rubin určený pre HPC.",
+    "telo": "AMD na konferencii Supercomputing 2026 (SC26) obhajuje natívne výpočty s dvojitou presnosťou FP64 v akcelerátore Instinct MI430X. Firma tvrdí, že emulácia FP64, ktorú využíva Nvidia pri niektorých maticových úlohách, sa nehodí na veľkú časť výpočtov používaných vo vede a technike.\n\nFP64 je dôležitý napríklad pri simuláciách, modelovaní a vedeckých výpočtoch. Podľa portálu Tom’s Hardware AMD pri profilovaní aplikácií zistilo, že husté násobenie matíc, teda typ úlohy, pre, ktorý je emulácia Ozakiho schémou vhodná, tvorí menej než 10 percent HPC pracovných záťaží. Ide o tvrdenie výrobcu, nie o nezávislé meranie.\n\n## Kde emulácia naráža na limity\n\nOzakiho schéma rozkladá výpočty FP64 na sériu operácií s nižšou presnosťou. Nvidia ju využíva na maticové výpočty, ktoré možno efektívne spracovať na tensorových jadrách. AMD namieta, že najlepšie výsledky takýto prístup dosahuje pri dostatočne veľkých maticiach a vhodne zvolených vstupných hodnotách. Ak úloha tieto podmienky nespĺňa, výkon môže klesnúť.\n\nPodľa AMD mnohé HPC aplikácie namiesto hustých matíc využívajú napríklad riedku lineárnu algebru, hydrodynamické simulácie, konečné prvky vyššieho rádu, Monte Carlo výpočty, transport častíc či klasickú molekulárnu dynamiku. Pri nich firma považuje za dôležitý vysoký výkon vektorových výpočtov FP64.\n\nĎalšou výhradou je pamäť. AMD tvrdí, že emulácia môže v niektorých prípadoch zvýšiť jej spotrebu až trojnásobne oproti natívnemu FP64. Keďže kapacita pamäte ovplyvňuje, koľko akcelerátorov a výpočtových uzlov treba na úlohu nasadiť, môže to podľa firmy zvýšiť nároky na sieťové prepojenie, napájanie aj chladenie.\n\n## MI430X cieli na vedecké výpočty\n\nPodľa The Register má MI430X 432 GB pamäte HBM4, priepustnosť 23 TB/s a špičkový výkon 288 TFLOPS pri FP64. AMD tak stavia na odlišnom prístupe než pri akcelerátoroch, ktoré uprednostňujú výpočty pre umelú inteligenciu. Tom’s Hardware uvádza, že štyri MI430X spolu ponúkajú 1,72 TB pamäte HBM4 a priepustnosť 93,2 TB/s.\n\nAMD spomína aj využitie akcelerátora na inferenciu AI modelov popri vedeckých výpočtoch. MI430X má podľa firmy teoretický výkon 9,2 PFLOPS pri FP4. Pre porovnanie, AI akcelerátor MI455X dosahuje podľa rovnakého zdroja 40,3 PFLOPS. Štyri MI430X sú pritom prepojené do menšej skupiny než 72 akcelerátorov MI455X v rackovom systéme Helios.\n\n## Nvidia predstavila variant Rubin HPC\n\nDebata sa odohráva v čase, keď Nvidia predstavila aj Rubin HPC, variant GPU určený pre simulácie, inžinierske úlohy a vedecké výpočty. The Register uvádza, že má ponúknuť viac než 50-tisíc jadier CUDA a doraziť v roku 2028. Nvidia podľa portálu hovorí o výkone až 200 TFLOPS pri emulovaných maticových výpočtoch FP64. Podrobnosti o maximálnom výkone a pamäti zatiaľ nezverejnila.\n\nNvidia zároveň podľa The Register tvrdí, že zákazníci pri Rubin HPC nebudú odkázaní iba na emuláciu a čip ponúkne aj natívny maticový výkon FP64. To čiastočne odlišuje jej vyjadrenie od kritiky AMD, ktorá sa sústreďuje na obmedzenia emulácie a potrebu natívneho výkonu v rôznych typoch úloh.\n\nMI430X si AMD spája s pripravovanými systémami Discovery v americkom Oak Ridge National Laboratory, Alice Recoque vo Francúzsku, LUMI-AI vo Fínsku a Herder v Nemecku. Ide o projekty v Európe aj v USA; dostupnosť akcelerátora pre bežných zákazníkov zdroje neuvádzajú."
+  }
+}
