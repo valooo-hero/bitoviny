@@ -25,7 +25,7 @@ zdroje:
   - nazov: "Tom's Hardware: Judge denies motion to dismiss DRAM price-fixing lawsuit against Micron, Samsung, and SK hynix, finds evidence of DRAM collusion plausible after 500% price surge"
     url: https://www.tomshardware.com/tech-industry/big-tech/judge-denies-motion-to-dismiss-dram-price-fixing-lawsuit-against-micron-samsung-and-sk-hynix-says-chipmakers-acted-like-hawks-flying-in-formation-finds-evidence-of-dram-collusion-plausible-after-500-percent-price-surge
 galeria:
-  - src: /obrazky/sud-zamietol-ziadost-vyrobcov-cipov-v-kauze-manipulacie-cien-pamati-dram-mwjem0rd.png
+  - src: /obrazky/sud-zamietol-ziadost-vyrobcov-cipov-v-kauze-manipulacie-cien-pamati-dram-mwjem0rd.jpg
     alt: HBM3E vs HBM4
     popisok: HBM3E vs HBM4
     kredit: "(Image credit: SK Hynix)"

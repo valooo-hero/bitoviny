@@ -10,7 +10,7 @@ tagy:
   - FP64
 publikovane: 2026-11-18T13:02:26Z
 obrazok:
-  src: /obrazky/amd-obhajuje-nativny-fp64-v-akceleratore-instinct-mi430x-mwm4s632.png
+  src: /obrazky/amd-obhajuje-nativny-fp64-v-akceleratore-instinct-mi430x-mwm4s632.jpg
   alt: AMD Instinct
   popisok: AMD Instinct
   kredit: AMD

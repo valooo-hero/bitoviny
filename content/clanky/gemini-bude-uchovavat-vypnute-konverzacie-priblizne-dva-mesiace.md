@@ -9,7 +9,7 @@ tagy:
   - umelá inteligencia
 publikovane: 2026-11-18T12:46:31Z
 obrazok:
-  src: /obrazky/gemini-bude-uchovavat-vypnute-konverzacie-priblizne-dva-mesiace-mwm47ln1.png
+  src: /obrazky/gemini-bude-uchovavat-vypnute-konverzacie-priblizne-dva-mesiace-mwm47ln1.jpg
   alt: Google Gemini-Bard
   popisok: Google Gemini-Bard
   kredit: Google / Openverse
