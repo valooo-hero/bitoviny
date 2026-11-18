@@ -8,7 +8,7 @@ tagy:
   - Nvidia
   - HPC
   - FP64
-publikovane: 2026-11-18T05:01:11+00:00
+publikovane: 2026-11-18T13:02:26Z
 obrazok:
   src: /obrazky/amd-obhajuje-nativny-fp64-v-akceleratore-instinct-mi430x-mwm4s632.png
   alt: AMD Instinct
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Tom's Hardware: AMD attacks Nvidia's FP64 emulation at SC26, touts native double-precision on Instinct MI430X"
     url: https://www.tomshardware.com/pc-components/gpus/amd-attacks-nvidias-fp64-emulation-at-sc26-touts-native-double-precision-on-instinct-mi430x-says-ozaki-schemes-fit-less-than-10-percent-of-hpc-workloads-and-triple-memory-use-and-emulated-fp64-is-a-poor-fit-for-many-hpc-workloads
