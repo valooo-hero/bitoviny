@@ -3,30 +3,31 @@ title: Desať krajín sa dohodlo na ochrane dodávateľských reťazcov pre AI
 perex: Sanfranciská deklarácia označuje bezpečnosť technológií a infraštruktúry za spoločnú zodpovednosť. USA zároveň pripravujú prísnejšie licencie, ktoré majú obmedziť aj vzdialený prístup k výkonným čipom.
 sekcia: biznis
 tagy:
-- umelá inteligencia
-- polovodiče
-- exportné kontroly
-- Pax Silica
-publikovane: '2026-11-17T05:36:16+00:00'
+  - umelá inteligencia
+  - polovodiče
+  - exportné kontroly
+  - Pax Silica
+publikovane: 2026-11-17T05:36:16+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/desat-krajin-sa-dohodlo-na-ochrane-dodavatelskych-retazcov-pre-ai-mwm3uwyc.jpg
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'The Register: US allies deepen deal to guard AI supply chains against ''hostile actors'' (cough, China, cough)'
-  url: https://www.theregister.com/systems/2026/11/16/us-allies-deepen-deal-to-guard-ai-supply-chains-against-hostile-actors-cough-china-cough/5310094
-- nazov: 'TechCrunch: US tightens AI chip export controls to deter Chinese companies from accessing compute remotely'
-  url: https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/
-- nazov: 'Tom''s Hardware: New US rules aim to restrict Chinese firms’ remote access to AI servers and infrastructure'
-  url: https://www.tomshardware.com/tech-industry/artificial-intelligence/new-us-rules-aim-to-restrict-remote-access-to-ai-servers-and-infrastructure-seeks-to-combat-cloud-rental-workarounds-to-gpu-export-controls
-- nazov: 'Ars Technica: US moves to cut China’s remote access to AI chips'
-  url: https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/
+  - nazov: "The Register: US allies deepen deal to guard AI supply chains against 'hostile actors' (cough, China, cough)"
+    url: https://www.theregister.com/systems/2026/11/16/us-allies-deepen-deal-to-guard-ai-supply-chains-against-hostile-actors-cough-china-cough/5310094
+  - nazov: "TechCrunch: US tightens AI chip export controls to deter Chinese companies from accessing compute remotely"
+    url: https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/
+  - nazov: "Tom's Hardware: New US rules aim to restrict Chinese firms’ remote access to AI servers and infrastructure"
+    url: https://www.tomshardware.com/tech-industry/artificial-intelligence/new-us-rules-aim-to-restrict-remote-access-to-ai-servers-and-infrastructure-seeks-to-combat-cloud-rental-workarounds-to-gpu-export-controls
+  - nazov: "Ars Technica: US moves to cut China’s remote access to AI chips"
+    url: https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/
 ---
 
 Spojené štáty a deväť ďalších krajín sa zaviazali spoločne chrániť technológie a infraštruktúru dôležité pre dodávateľské reťazce umelej inteligencie. Sanfranciskú deklaráciu podpísali 15. novembra Austrália, India, Izrael, Japonsko, Južná Kórea, Katar, Singapur, Spojené arabské emiráty a Spojené kráľovstvo spolu s USA.
