@@ -7,7 +7,7 @@ tagy:
   - polovodiče
   - exportné kontroly
   - Pax Silica
-publikovane: 2026-11-17T05:36:16+00:00
+publikovane: 2026-11-18T12:36:36Z
 obrazok:
   src: /obrazky/desat-krajin-sa-dohodlo-na-ochrane-dodavatelskych-retazcov-pre-ai-mwm3uwyc.jpg
   alt: Ilustračný obrázok.
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Register: US allies deepen deal to guard AI supply chains against 'hostile actors' (cough, China, cough)"
     url: https://www.theregister.com/systems/2026/11/16/us-allies-deepen-deal-to-guard-ai-supply-chains-against-hostile-actors-cough-china-cough/5310094
