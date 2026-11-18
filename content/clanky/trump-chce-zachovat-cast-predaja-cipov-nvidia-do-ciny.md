@@ -6,7 +6,7 @@ tagy:
   - Nvidia
   - Čína
   - exportné obmedzenia
-publikovane: 2026-11-18T05:00:56+00:00
+publikovane: 2026-11-18T12:41:39Z
 obrazok:
   src: /obrazky/trump-chce-zachovat-cast-predaja-cipov-nvidia-do-ciny-mwm41esy.jpg
   alt: Ilustračný obrázok.
@@ -18,6 +18,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Wired: The Nvidia Scandal Could Upend Chip Sales to China. Trump Wants to Keep Them Going"
     url: https://www.wired.com/story/the-nvidia-scandal-is-about-chip-sales-to-china-trump-wants-to-keep-them-going/
