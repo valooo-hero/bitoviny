@@ -1,0 +1,370 @@
+{
+  "slug": "kyberutok-odstavil-japonsky-superpocitac-fugaku-ohrozene-su-udaje-tisicov-pouziv",
+  "datum_sprav": "2026-11-17",
+  "dovod_vyberu": "Hacknutie najvýkonnejšieho japonského superpočítača Fugaku odhalilo únik osobných údajov tisícov používateľov.",
+  "poznamky_pre_editora": "Overiť aktuálny stav vyšetrovania a presný dátum odstavenia: BleepingComputer uvádza 14. november, The Register opisuje odstavenie po pokuse o prihlásenie 13. novembra a Tom’s Hardware uvádza zablokovanie prístupu 14. novembra. Rozsah úniku výskumných súborov nie je potvrdený; zdroje sa líšia v tom, či ich uvádzajú ako zasiahnuté údaje alebo konštatujú, že únik zatiaľ nebol preukázaný. Reklamný obsah v článku BleepingComputer bol vynechaný.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Predložený koncept je mimoriadne presný a dôsledne vychádza zo všetkých troch zdrojov. V celom texte neboli zistené žiadne nepresnosti, vymyslené údaje ani vecné rozpory.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 16,
+        "potvrdenych": 16,
+        "chyb": 0,
+        "upozorneni": 1
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "Medzi údajmi spojenými s používateľmi sú mená, e-mailové adresy, identifikátory účtov, SSH kľúče a prístupové kľúče uložené na ich počítačoch.",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „Names, email addresses, and user IDs of 4,222 Fugaku users - SSH private keys and access keys stored on users’ computers“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Japonský superpočítač Fugaku je po kybernetickom útoku odstavený.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Útočník v období od 10. do 13. novembra zneužil verejne dostupný panel zobrazujúci prevádzkový stav systému.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "between November 10 and 13, an unauthorized party exploited the public dashboard displaying Fugaku's operational status to gain access",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Cez panel sa útočník dostal na viaceré interné servery a nainštaloval na ne škodlivý softvér.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "accessed some servers to plant malware that targeted user data.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri incidente mohli byť ohrozené osobné údaje 4 222 používateľov Fugaku a 375 používateľov menšieho superpočítača Rikyu.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Names, email addresses, and user IDs of 4,222 Fugaku users - Names and email addresses of 375 Rikyu users",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "RIKEN zatiaľ nevie s istotou určiť, ktoré informácie útočník skutočne získal.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "doesn’t know how the attack happened and can’t say with certainty what information attackers were able to access and/or steal",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "K útoku sa nikto neprihlásil a jeho pôvod nebol zistený.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The organization has not attributed the attack, and it’s still working to determine the exact intrusion method.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Medzi údajmi spojenými s používateľmi sú mená, e-mailové adresy, identifikátory účtov, SSH kľúče a prístupové kľúče uložené na ich počítačoch.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Names, email addresses, and user IDs of 4,222 Fugaku users - SSH private keys and access keys stored on users’ computers",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa The Registeru servery obsahovali prihlasovacie údaje na superpočítače a služby, ktoré neprevádzkuje RIKEN.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The servers stored users’ names and email addresses, plus credentials used to access supercomputers and services not operated by RIKEN.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vyšetrovatelia zatiaľ nenašli dôkaz o úniku výskumných dát.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "RIKEN has found no evidence that users’ research data has leaked but isn’t yet sure what info did make it out",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "RIKEN zistil, že útočník skúšal použiť niektoré získané prístupové kľúče na pripojenie k ďalším systémom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "RIKEN notes that the attacker used some of the access keys in attempts to connect to additional systems",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vyšetrovanie zatiaľ nepotvrdilo ďalší neoprávnený prístup ani krádež výsledkov výskumu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "the investigation did not determine further unauthorized access or theft of research results.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "RIKEN odstavil stavový panel, zablokoval prístupové kľúče používateľov a odporučil obozretnosť pred podozrivými e-mailmi.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "disabled users’ login keys, and asked users to revoke and replace any credentials... watch out for suspicious emails",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "BleepingComputer uvádza odstavenie Fugaku 14. novembra, kým The Register píše o odstavení po pokuse o prihlásenie 13. novembra.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "In response to the incident, RIKEN shut down Fugaku on November 14",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tom’s Hardware uvádza, že podozrivú komunikáciu zaznamenali 12. novembra a prístup zablokovali 14. novembra.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "first became aware of suspicious communications on November 12, with those suspicions then triggering an investigation. By November 14... access also blocked",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Japonská vláda sa zapojila prostredníctvom ministerstva MEXT a hlavný tajomník kabinetu Minoru Kihara zdôraznil dôležitosť bezpečnosti.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Chief Cabinet Secretary Minoru Kihara has since confirmed that MEXT and Riken were working together",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Fugaku má výkon 537 petaflopsov a menší Rikyu zameraný na AI má výkon 64 petaflopsov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Fugaku, which entered shared use in March 2021, is a 537 petaflops supercomputer... Rikyu is a 64 petaflops supercomputer",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "zneužitú",
+        "kontext": "odľa BleepingComputeru plánuje preveriť zneužitú softvérovú zraniteľnosť, obnoviť napadn",
+        "navrhy": [
+          "zneužijú",
+          "zneužite",
+          "zneužitiu"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": " až po tom, ako centrum vyhodnotí systém ako bezpečný. Japonská vláda sa do vyšetrov",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "petaflopsov",
+        "kontext": "ľa BleepingComputeru dosahuje výkon 537 petaflopsov; menší Rikyu je určený na výskum umelej",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "petaflopsov",
+        "kontext": "ýskum umelej inteligencie a má výkon 64 petaflopsov. Odstávka preto obmedzuje prístup výsku",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/FugakuSupercomputerSC19.jpg/1280px-FugakuSupercomputerSC19.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://image.theregister.com/?imageId=5310340&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Google Preferred Source",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.bleepstatic.com/content/hl-images/2026/11/17/RIKEN.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/6rDhobkBTZGfCJioLc5JfK-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "Fugaku supercomputer",
+      "high-performance computing rack",
+      "Riken laboratory"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/FugakuSupercomputerSC19.jpg/1280px-FugakuSupercomputerSC19.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/FugakuSupercomputerSC19.jpg/1280px-FugakuSupercomputerSC19.jpg",
+        "nazov": "FugakuSupercomputerSC19.jpg",
+        "autor": "Raysonho @ Open Grid Scheduler / Scalable Grid Engine",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:FugakuSupercomputerSC19.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Fugaku supercomputer"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/53764346124_69cae1a9b0_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/daff07f9-4a7f-42d3-8a34-f4721670aa5b/thumb/",
+        "nazov": "富岳 / Fugaku (supercomputer)",
+        "autor": "mah_japan",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/40644994@N00/53764346124",
+        "povod": "openverse",
+        "dopyt": "Fugaku supercomputer"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/HIVE_Computing_at_FDA_%281686%29_%2814468127038%29.jpg/1280px-HIVE_Computing_at_FDA_%281686%29_%2814468127038%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/HIVE_Computing_at_FDA_%281686%29_%2814468127038%29.jpg/1280px-HIVE_Computing_at_FDA_%281686%29_%2814468127038%29.jpg",
+        "nazov": "HIVE Computing at FDA (1686) (14468127038).jpg",
+        "autor": "The U.S. Food and Drug Administration",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:HIVE_Computing_at_FDA_(1686)_(14468127038).jpg",
+        "povod": "wikimedia",
+        "dopyt": "high-performance computing rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Maki_Kawai%2C_Sam_Aronson%2C_and_others%2C_at_2012_signing_of_RIKEN-BNL_agreement_renewal.jpg/1280px-Maki_Kawai%2C_Sam_Aronson%2C_and_others%2C_at_2012_signing_of_RIKEN-BNL_agreement_renewal.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Maki_Kawai%2C_Sam_Aronson%2C_and_others%2C_at_2012_signing_of_RIKEN-BNL_agreement_renewal.jpg/1280px-Maki_Kawai%2C_Sam_Aronson%2C_and_others%2C_at_2012_signing_of_RIKEN-BNL_agreement_renewal.jpg",
+        "nazov": "Maki Kawai, Sam Aronson, and others, at 2012 signing of RIKEN-BNL agreement renewal.jpg",
+        "autor": "Liz Seubert, Brookhaven National Laboratory",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Maki_Kawai,_Sam_Aronson,_and_others,_at_2012_signing_of_RIKEN-BNL_agreement_renewal.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Riken laboratory"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/FugakuSupercomputerSC18.jpg/1280px-FugakuSupercomputerSC18.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/FugakuSupercomputerSC18.jpg/1280px-FugakuSupercomputerSC18.jpg",
+        "nazov": "FugakuSupercomputerSC18.jpg",
+        "autor": "Raysonho @ Open Grid Scheduler / Scalable Grid Engine",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:FugakuSupercomputerSC18.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Fugaku supercomputer"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/FugakuSupercomputerSC19.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/79d9dda0-0a6b-4c0f-8121-79da628577ac/thumb/",
+        "nazov": "FugakuSupercomputerSC19",
+        "autor": "Raysonho @ Open Grid Scheduler / Scalable Grid Engine",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=91471822",
+        "povod": "openverse",
+        "dopyt": "Fugaku supercomputer"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/HIVE_Computing_at_FDA_%281708%29_%2814654715305%29.jpg/1280px-HIVE_Computing_at_FDA_%281708%29_%2814654715305%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/HIVE_Computing_at_FDA_%281708%29_%2814654715305%29.jpg/1280px-HIVE_Computing_at_FDA_%281708%29_%2814654715305%29.jpg",
+        "nazov": "HIVE Computing at FDA (1708) (14654715305).jpg",
+        "autor": "The U.S. Food and Drug Administration",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:HIVE_Computing_at_FDA_(1708)_(14654715305).jpg",
+        "povod": "wikimedia",
+        "dopyt": "high-performance computing rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/RIKEN_R-CCS_Fugaku.jpg/1280px-RIKEN_R-CCS_Fugaku.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/RIKEN_R-CCS_Fugaku.jpg/1280px-RIKEN_R-CCS_Fugaku.jpg",
+        "nazov": "RIKEN R-CCS Fugaku.jpg",
+        "autor": "Barsaka2",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:RIKEN_R-CCS_Fugaku.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Fugaku supercomputer"
+      }
+    ],
+    "prompt_ilustracie": "Create an abstract editorial illustration of a vast supercomputer hall behind a fractured digital security barrier, with scattered data symbols and muted blue lighting, no people, logos, or text."
+  },
+  "prompt_ilustracie": "Create an abstract editorial illustration of a vast supercomputer hall behind a fractured digital security barrier, with scattered data symbols and muted blue lighting, no people, logos, or text.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/a46e1a7cddca2c6dfd9423e1871e0b1b",
+  "text_agentov": {
+    "titulok": "Kyberútok odstavil japonský superpočítač Fugaku, ohrozené sú údaje tisícov používateľov",
+    "perex": "RIKEN vyšetruje prienik cez verejný panel so stavom systému. Útočník sa podľa zistení dostal na interné servery a nainštaloval škodlivý softvér; rozsah odcudzených údajov zatiaľ nie je jasný.",
+    "telo": "Japonský superpočítač Fugaku je po kybernetickom útoku odstavený. Jeho prevádzkovateľ, výskumné centrum RIKEN, uviedol, že neznámy útočník v období od 10. do 13. novembra zneužil verejne dostupný panel zobrazujúci prevádzkový stav systému. Cez neho sa dostal na viaceré interné servery a nainštaloval na ne škodlivý softvér.\n\nPri incidente mohli byť ohrozené osobné údaje 4 222 používateľov Fugaku a 375 používateľov menšieho superpočítača Rikyu. RIKEN však podľa správ zatiaľ nevie s istotou určiť, ktoré informácie útočník skutočne získal. K útoku sa nikto neprihlásil a jeho pôvod nebol zistený.\n\n## Aké údaje mohli byť zasiahnuté\n\nMedzi údajmi spojenými s používateľmi sú mená, e-mailové adresy a identifikátory účtov. BleepingComputer uvádza aj súkromné SSH kľúče a prístupové kľúče uložené na počítačoch používateľov, ako aj výskumné súbory. Podľa The Registeru servery obsahovali prihlasovacie údaje na superpočítače a služby, ktoré neprevádzkuje RIKEN.\n\nRozsah úniku výskumných dát zostáva nejasný. The Register píše, že vyšetrovatelia zatiaľ nenašli dôkaz o ich úniku, no nevedia potvrdiť, aké informácie opustili sieť. BleepingComputer zasa medzi potenciálne zasiahnutými údajmi uvádza výskumné súbory uložené na počítačoch používateľov. To samo osebe nepotvrdzuje, že ich útočník odcudzil.\n\nRIKEN podľa BleepingComputeru zistil, že útočník skúšal použiť niektoré získané prístupové kľúče na pripojenie k ďalším systémom. Vyšetrovanie však zatiaľ nepotvrdilo ďalší neoprávnený prístup ani krádež výsledkov výskumu. Organizácia spolupracuje s prevádzkovateľmi dotknutých systémov na preverení týchto pokusov.\n\n## Vyšetrovanie a obmedzenie škôd\n\nPanel, ktorý mal slúžiť na zobrazovanie prevádzkového stavu Fugaku, RIKEN odstavil. Centrum tiež zablokovalo prístupové kľúče používateľov a vyzvalo ich, aby zneplatnili a vymenili prihlasovacie údaje uložené na superpočítači. Používateľom odporúča obozretnosť aj pri e-mailoch, ktoré sa môžu vydávať za správy od RIKEN.\n\nSprávy sa nezhodujú v presnom čase odstavenia systému. BleepingComputer uvádza, že RIKEN vypol Fugaku 14. novembra, kým The Register píše, že ho prevádzkovateľ odstavil po pokuse o prihlásenie zaznamenanom 13. novembra. Tom’s Hardware uvádza, že podozrivú komunikáciu zaznamenali 12. novembra a prístup zablokovali 14. novembra.\n\nRIKEN podľa BleepingComputeru plánuje preveriť zneužitú softvérovú zraniteľnosť, obnoviť napadnuté servery a skontrolovať nastavenie siete. Prevádzka Fugaku sa má obnoviť až po tom, ako centrum vyhodnotí systém ako bezpečný. Japonská vláda sa do vyšetrovania zapojila prostredníctvom ministerstva školstva, kultúry, športu, vedy a technológií. Hlavný tajomník kabinetu Minoru Kihara zdôraznil, že ochrana systému je dôležitá, no zároveň treba obmedziť dosah incidentu na výskum.\n\nFugaku slúži akademickým aj priemyselným výskumníkom a využíva sa napríklad pri vývoji liekov, predpovediach extrémneho počasia či simuláciách šírenia vírusov vzduchom. Podľa BleepingComputeru dosahuje výkon 537 petaflopsov; menší Rikyu je určený na výskum umelej inteligencie a má výkon 64 petaflopsov. Odstávka preto obmedzuje prístup výskumníkov k výpočtovým kapacitám, kým RIKEN dokončuje vyšetrovanie."
+  }
+}
