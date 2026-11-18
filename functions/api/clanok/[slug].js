@@ -1,5 +1,5 @@
 import { bezHtml, rozdel, zloz } from '../../../functions-lib/clanok.js';
-import { GitHub, ZASTUPNY_OBRAZOK } from '../../../functions-lib/github.js';
+import { GitHub, jeZastupnyObrazok } from '../../../functions-lib/github.js';
 import { zoznamObrazkov } from '../../../functions-lib/obrazky.js';
 import { chyba } from '../../../functions-lib/pristup.js';
 import { cestaClanku, spracujVstup, teraz, zapisDoHlavicky } from '../../../functions-lib/uprava.js';
@@ -24,7 +24,7 @@ export async function onRequestGet({ env, params, data }) {
     sprava,
     obrazky,
     obrazokUrl: obrazky[0].nahlad,
-    cakaNaObrazok: hlavicka.obrazok.src === ZASTUPNY_OBRAZOK,
+    cakaNaObrazok: jeZastupnyObrazok(hlavicka.obrazok.src),
     zverejneny: true,
   });
 }

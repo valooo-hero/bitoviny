@@ -1,5 +1,5 @@
 import { rozdel, zloz } from '../../../functions-lib/clanok.js';
-import { GitHub, ZASTUPNY_OBRAZOK } from '../../../functions-lib/github.js';
+import { GitHub, jeZastupnyObrazok } from '../../../functions-lib/github.js';
 import { chyba } from '../../../functions-lib/pristup.js';
 import { zoznamObrazkov } from '../../../functions-lib/obrazky.js';
 import { spracujVstup, zapisDoHlavicky } from '../../../functions-lib/uprava.js';
@@ -29,7 +29,7 @@ export async function onRequestGet({ env, params, data }) {
     sprava,
     obrazokUrl,
     obrazky,
-    cakaNaObrazok: hlavicka.obrazok.src === ZASTUPNY_OBRAZOK,
+    cakaNaObrazok: jeZastupnyObrazok(hlavicka.obrazok.src),
   });
 }
 

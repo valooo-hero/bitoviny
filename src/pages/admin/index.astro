@@ -305,6 +305,9 @@ import Base from '../../layouts/Base.astro';
 
 <script>
   import { marked } from 'marked';
+  import { obrazokAkoJpg } from '../../lib/obrazok-jpg';
+
+  const MAX_BAJTOV_OBRAZKA = 6 * 1024 * 1024;
 
   const $ = (id: string) => document.getElementById(id)!;
   const el = (tag: string, vlastnosti: Record<string, any> = {}, ...deti: (Node | string)[]) => {
@@ -594,7 +597,25 @@ import Base from '../../layouts/Base.astro';
     pracuj($('pouzit-ulozit') as HTMLButtonElement, 'Ukladám…', async () => {
       const popisok = ($('pouzit-popisok') as HTMLTextAreaElement).value;
       if (menenyObrazok) await api(`${adresa()}/galeria`, 'POST', { akcia: 'popisok', src: menenyObrazok, popisok });
-      else await api(`${adresa()}/obrazok`, 'POST', { typ: 'url', url: pouzivanaUrl, popisok, umiestnenie: hodnota('pouzit-umiestnenie') });
+      else {
+        const otvoreny = stav;
+        const cesta = `${adresa()}/obrazok`;
+        const url = pouzivanaUrl;
+        const umiestnenie = hodnota('pouzit-umiestnenie');
+        const zdroj = await fetch(cesta, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ typ: 'nahlad-zdroja', url }),
+        });
+        if (!zdroj.ok) {
+          const data = await zdroj.json().catch(() => ({}));
+          throw new Error(data.chyba || `Obrázok sa nepodarilo stiahnuť (${zdroj.status}).`);
+        }
+        const obrazokB64 = await obrazokAkoJpg(await zdroj.blob(), MAX_BAJTOV_OBRAZKA);
+        if (stav !== otvoreny || pouzivanaUrl !== url || menenyObrazok) return;
+        await api(cesta, 'POST', { typ: 'url', url, obrazokB64, popisok, umiestnenie });
+        if (stav !== otvoreny) return;
+      }
       ($('dlg-pouzit') as HTMLDialogElement).close();
       stav = await api(adresa());
       vykresliObrazky();
@@ -643,22 +664,18 @@ import Base from '../../layouts/Base.astro';
     e.preventDefault();
     const subor = ($('nahrat-subor') as HTMLInputElement).files?.[0];
     if (!subor) return;
-    if (subor.size > 6 * 1024 * 1024) return hlas('Obrázok je väčší než 6 MB.', true);
+    if (subor.size > MAX_BAJTOV_OBRAZKA) return hlas('Obrázok je väčší než 6 MB.', true);
     pracuj($('nahrat-odoslat') as HTMLButtonElement, 'Nahrávam…', async () => {
-      const dataUrl: string = await new Promise((ok, zle) => {
-        const citac = new FileReader();
-        citac.onload = () => ok(String(citac.result));
-        citac.onerror = () => zle(new Error('Súbor sa nepodarilo prečítať.'));
-        citac.readAsDataURL(subor);
-      });
-      await api(`${adresa()}/obrazok`, 'POST', {
-        typ: 'vlastny',
-        obrazokB64: dataUrl.slice(dataUrl.indexOf(',') + 1),
-        popisok: hodnota('nahrat-popisok'),
-        kredit: hodnota('nahrat-kredit'),
-        licencia: hodnota('nahrat-licencia'),
-        umiestnenie: hodnota('nahrat-umiestnenie'),
-      });
+      const otvoreny = stav;
+      const cesta = `${adresa()}/obrazok`;
+      const popisok = hodnota('nahrat-popisok');
+      const kredit = hodnota('nahrat-kredit');
+      const licencia = hodnota('nahrat-licencia');
+      const umiestnenie = hodnota('nahrat-umiestnenie');
+      const obrazokB64 = await obrazokAkoJpg(subor, MAX_BAJTOV_OBRAZKA);
+      if (stav !== otvoreny) return;
+      await api(cesta, 'POST', { typ: 'vlastny', obrazokB64, popisok, kredit, licencia, umiestnenie });
+      if (stav !== otvoreny) return;
       ($('form-nahrat') as HTMLFormElement).reset();
       stav = await api(adresa());
       vykresliObrazky();
@@ -676,9 +693,14 @@ import Base from '../../layouts/Base.astro';
   $('gen-zrusit').addEventListener('click', () => ($('gen-krok2').hidden = true));
   const generuj = (tl: HTMLButtonElement) =>
     pracuj(tl, 'Generujem…', async () => {
+      const otvoreny = stav;
       const { obrazokB64 } = await api('/api/generuj', 'POST', { prompt: ($('gen-prompt') as HTMLTextAreaElement).value });
-      vygenerovany = obrazokB64;
-      ($('gen-obrazok') as HTMLImageElement).src = `data:image/jpeg;base64,${obrazokB64}`;
+      const bajty = Uint8Array.from(atob(obrazokB64), (c) => c.charCodeAt(0));
+      if (stav !== otvoreny) return;
+      const jpg = await obrazokAkoJpg(new Blob([bajty]), MAX_BAJTOV_OBRAZKA);
+      if (stav !== otvoreny) return;
+      vygenerovany = jpg;
+      ($('gen-obrazok') as HTMLImageElement).src = `data:image/jpeg;base64,${vygenerovany}`;
       $('gen-vysledok').hidden = false;
     });
   $('gen-odoslat').addEventListener('click', (e) => generuj(e.currentTarget as HTMLButtonElement));

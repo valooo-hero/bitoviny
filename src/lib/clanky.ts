@@ -1,7 +1,5 @@
 import { getCollection } from 'astro:content';
-
-// Koncept z pipeline má zástupný obrázok, kým editor nevyberie skutočný.
-export const ZASTUPNY_OBRAZOK = '/obrazky/zastupny.svg';
+import { jeZastupnyObrazok } from '../../functions-lib/github.js';
 
 // Na produkčnej vetve sa nezverejní článok, ktorý neschválil človek alebo má
 // zástupný obrázok, ani keby sa omylom dostal do main. V náhľadoch pull
@@ -11,7 +9,7 @@ const SKRY_KONCEPTY = process.env.CF_PAGES_BRANCH === 'main';
 export async function vsetkyClanky() {
   const clanky = (await getCollection('clanky')).filter((c) => {
     const jeKoncept =
-      c.data.obrazok.src === ZASTUPNY_OBRAZOK || (c.data.redaktori !== undefined && !c.data.redaktori.schvalil);
+      jeZastupnyObrazok(c.data.obrazok.src) || (c.data.redaktori !== undefined && !c.data.redaktori.schvalil);
     // Stiahnutý článok sa nezobrazí nikde, ani v náhľadoch.
     return !c.data.stiahnute && !(SKRY_KONCEPTY && jeKoncept);
   });

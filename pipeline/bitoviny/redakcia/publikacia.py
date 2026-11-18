@@ -27,7 +27,7 @@ log = logging.getLogger("publikacia")
 
 REPO = os.getenv("GITHUB_REPOSITORY", "valooo-hero/bitoviny")
 API = "https://api.github.com"
-ZASTUPNY_OBRAZOK = "/obrazky/zastupny.svg"
+ZASTUPNY_OBRAZOK = "/obrazky/zastupny.jpg"
 PREDPONA_VETVY = "koncept/"
 
 

@@ -11,7 +11,8 @@ interface Props {
   velkost?: number;
 }
 const { id, meno, farba, clovek = false, velkost = 64 } = Astro.props;
-const obrazok = ['webp', 'jpg', 'png'].map((p) => `/avatary/${id}.${p}`).find((src) => existsSync(`public${src}`));
+const cesta = `/avatary/${id}.jpg`;
+const obrazok = existsSync(`public${cesta}`) ? cesta : undefined;
 const inicialy = meno
   .split(/\s+/)
   .filter((s) => /^\p{Lu}/u.test(s))

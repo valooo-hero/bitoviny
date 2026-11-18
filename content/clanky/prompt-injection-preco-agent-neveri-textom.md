@@ -5,7 +5,7 @@ sekcia: bezpecnost
 tagy: ["prompt injection", "AI agenti", "OWASP"]
 publikovane: 2026-11-12T07:00:00+01:00
 obrazok:
-  src: /obrazky/vzor-injection.svg
+  src: /obrazky/vzor-injection.jpg
   alt: "Riadky textu, z ktorých jeden je zvýraznený červenou farbou"
   popisok: "Jeden riadok v texte nie je obsah, ale príkaz."
   kredit: "Bitoviny"
