@@ -1,0 +1,334 @@
+{
+  "slug": "unik-u-dodavatela-ai-zasiahol-udaje-takmer-150-tisic-vodicov-uberu",
+  "datum_sprav": "2026-11-17",
+  "dovod_vyberu": "Únik dát Uberu postihuje takmer 150 000 vodičov a upozorňuje na slabiny v ochrane osobných informácií.",
+  "poznamky_pre_editora": "Overiť rozsah zasiahnutých osôb a geografiu úniku. Zdroje sa rozchádzajú v časovej osi: The Register uvádza prístup útočníkov 7. októbra a oznámenie Uberu 9. októbra, kým BleepingComputer spája narušenie s incidentom Fireworks z 24. októbra. Počet 149 346 uvádzajú oba zdroje, no odvolávajú sa na podania v rôznych štátoch (Oregon a Maine). Ponechané sú iba súvislosti s ďalšími zákazníkmi Fireworks; staršie útoky na Uber sú spomenuté stručne ako kontext.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Predložený koncept je mimoriadne spoľahlivý a presne sa pridŕža faktov z oboch poskytnutých zdrojov. V celom texte sa nenachádzajú žiadne nepresnosti, vymyslené údaje ani zavádzajúce tvrdenia.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 16,
+        "potvrdenych": 16,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Únik u dodávateľa AI zasiahol údaje takmer 150-tisíc vodičov Uberu.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Uber has confirmed that nearly 150,000 people had their personal information compromised after hackers broke into one of its AI suppliers.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Útočníci získali mená, adresy, dátumy narodenia a údaje z vodičských preukazov 149 346 ľudí.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "A filing with Oregon's attorney general puts the number of victims at 149,346.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Útočníci prenikli k účtu spoločnosti u jej dodávateľa AI infraštruktúry Fireworks AI.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "but told TechCrunch it was Fireworks AI, the inference outfit whose security woes we covered last week .",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Uber začal dotknutých ľudí informovať 10. novembra.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Uber began notifying affected individuals on November 10, more than a month after learning of the breach.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na prihlásenie do služby monitorovania úverov majú príjemcovia listu 90 dní od jeho dátumu.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "though drivers have just 90 days from the date of their letter to sign up.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dodávateľ 9. októbra informoval Uber, že neautorizovaná osoba získala jeho interné prihlasovacie údaje.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "On October 9, 2026, a service provider notified Uber that an unauthorized third party had compromised the service provider's internal credentials",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Útočníci sa k údajom pripojeným k službe dostali 7. októbra.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "established that the attackers had accessed drivers' personal information on October 7.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Uber mal pre dodávateľa vytvorené samostatné cloudové úložisko s monitorovaním vlastným týmom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Uber had set up a dedicated cloud storage environment for the AI biz, complete with security monitoring overseen by its own cloud security team.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Bezpečnostné upozornenia sa neaktivovali, pretože útočníci používali platné prihlasovacie údaje.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Unfortunately for Uber and its drivers, the crooks were using legitimate credentials, so none of the alarms went off.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Prihlasovacie údaje neumožňovali prístup do ďalších systémov Uberu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "says those credentials couldn't be used to access its other systems, and says it has since revoked or changed the credentials associated with the supplier.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register aj BleepingComputer uvádzajú podania v Oregone a Maine s počtom 149 346 dotknutých osôb.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "revealed in a filing with Maine's Office of the Attorney General that the data breach has exposed the information of 149,346 drivers",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Fireworks poskytuje výpočtovú infraštruktúru na spúšťanie a dolaďovanie AI modelov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Fireworks, which provides infrastructure for developers to run and fine-tune AI models",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Fireworks 9. novembra oznámila únik fakturačných záznamov, zákazníckych dát a neúplných váh modelov.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "acknowledged that attackers had accessed billing records, some customer datasets, and incomplete model weights.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Medzi zasiahnutými firmami bol Notion aj Cursor, pričom pri Cursore boli zariadenia napadnuté zadnými vrátkami.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "and (in Cursor's case) infected users' devices with backdoor malware.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Fireworks pripisuje útok skupine finančne motivovaných kyberzločincov zameraných na LLMjacking.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "attributed the attack to a financially motivated cybercriminal threat actor group linked to a series of large language model hijacking (LLMjacking) attacks.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V auguste potvrdila divízia Uber Freight prienik po tom, čo skupina Helix tvrdila, že získala takmer milión súborov.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "In August, the ride-hailing giant's logistics arm, Uber Freight, confirmed a break-in after the Helix extortion crew claimed to have made off with almost a million files",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "a že ich",
+        "opravene": "a, že ich",
+        "dovod": "LanguageTool: Dajte čiarku pred „že“: \", že\".",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "LanguageTool"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cloudové",
+        "kontext": "ala pre dodávateľa vytvorené samostatné cloudové úložisko a jeho bezpečnosť monitoroval ",
+        "navrhy": [
+          "Chodove",
+          "chodové",
+          "clonové"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "kyberzločincov",
+        "kontext": "suje útok skupine finančne motivovaných kyberzločincov, ktorá sa podľa firmy venuje neoprávnen",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -13 +13 @@\n-Uber odpojil dátové spojenia s Fireworks a začal vyšetrovanie. Spoločnosť mala pre dodávateľa vytvorené samostatné cloudové úložisko a jeho bezpečnosť monitoroval vlastný tím. Napriek tomu sa podľa The Register neaktivovali bezpečnostné upozornenia: útočníci používali platné prihlasovacie údaje. Uber uviedol, že tieto údaje neumožňovali prístup do jeho ďalších systémov a že ich zrušil alebo zmenil.\n+Uber odpojil dátové spojenia s Fireworks a začal vyšetrovanie. Spoločnosť mala pre dodávateľa vytvorené samostatné cloudové úložisko a jeho bezpečnosť monitoroval vlastný tím. Napriek tomu sa podľa The Register neaktivovali bezpečnostné upozornenia: útočníci používali platné prihlasovacie údaje. Uber uviedol, že tieto údaje neumožňovali prístup do jeho ďalších systémov a, že ich zrušil alebo zmenil."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/A_skull_in_a_drinking_glass_at_the_steering_wheel_of_a_motor_Wellcome_L0026402.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://www.bleepstatic.com/content/hl-images/2026/11/17/Uber.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://image.theregister.com/?imageId=5310468&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Uber driver vehicle",
+      "Fireworks AI server rack",
+      "data center server rack"
+    ],
+    "alternativy": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/A_skull_in_a_drinking_glass_at_the_steering_wheel_of_a_motor_Wellcome_L0026402.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/8/8f/A_skull_in_a_drinking_glass_at_the_steering_wheel_of_a_motor_Wellcome_L0026402.jpg",
+        "nazov": "A skull in a drinking glass at the steering wheel of a motor Wellcome L0026402.jpg",
+        "autor": "",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:A_skull_in_a_drinking_glass_at_the_steering_wheel_of_a_motor_Wellcome_L0026402.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Uber driver vehicle"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Rear_of_rack_at_NERSC_data_center_-_closeup.jpg/1280px-Rear_of_rack_at_NERSC_data_center_-_closeup.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Rear_of_rack_at_NERSC_data_center_-_closeup.jpg/1280px-Rear_of_rack_at_NERSC_data_center_-_closeup.jpg",
+        "nazov": "Rear of rack at NERSC data center - closeup.jpg",
+        "autor": "Derrick Coetzee from Berkeley, CA, USA",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Rear_of_rack_at_NERSC_data_center_-_closeup.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3273/3025911233_fb4e7ace9f_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/a66c5af0-00c5-4778-a1ef-7404a97cbadf/thumb/",
+        "nazov": "Awaiting servers",
+        "autor": "bugeaters",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/45778851@N00/3025911233",
+        "povod": "openverse",
+        "dopyt": "data center server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Drunk_driving_simulator%2C_Montreal_by_CAA_of_Quebec.jpg/1280px-Drunk_driving_simulator%2C_Montreal_by_CAA_of_Quebec.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Drunk_driving_simulator%2C_Montreal_by_CAA_of_Quebec.jpg/1280px-Drunk_driving_simulator%2C_Montreal_by_CAA_of_Quebec.jpg",
+        "nazov": "Drunk driving simulator, Montreal by CAA of Quebec.jpg",
+        "autor": "Ich",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Drunk_driving_simulator,_Montreal_by_CAA_of_Quebec.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Uber driver vehicle"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/EFTA00002518_-_Server_rack_with_multiple_hard_drives_and_network_cables_connected_in_a_data_center_environment.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/a/a1/EFTA00002518_-_Server_rack_with_multiple_hard_drives_and_network_cables_connected_in_a_data_center_environment.jpg",
+        "nazov": "EFTA00002518 - Server rack with multiple hard drives and network cables connected in a data center environment.jpg",
+        "autor": "Federal Bureau of Investigation",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:EFTA00002518_-_Server_rack_with_multiple_hard_drives_and_network_cables_connected_in_a_data_center_environment.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3595/3594831893_932307ae3f.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c025bb1a-e95b-435f-bd74-750ded7ff096/thumb/",
+        "nazov": "IMG_9372",
+        "autor": "NeoSpire",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/39131599@N06/3594831893",
+        "povod": "openverse",
+        "dopyt": "data center server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Drunk_driving_simulator_brings_community_awareness_%288829334%29.jpg/1280px-Drunk_driving_simulator_brings_community_awareness_%288829334%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Drunk_driving_simulator_brings_community_awareness_%288829334%29.jpg/1280px-Drunk_driving_simulator_brings_community_awareness_%288829334%29.jpg",
+        "nazov": "Drunk driving simulator brings community awareness (8829334).jpg",
+        "autor": "U.S. Air Force photo by Senior Airman Jarrett Smith",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Drunk_driving_simulator_brings_community_awareness_(8829334).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Uber driver vehicle"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/EFTA00002629_-_Server_rack_with_multiple_networking_devices_and_cables_connected_showing_a_typical_data_center_setup.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/4/49/EFTA00002629_-_Server_rack_with_multiple_networking_devices_and_cables_connected_showing_a_typical_data_center_setup.jpg",
+        "nazov": "EFTA00002629 - Server rack with multiple networking devices and cables connected showing a typical data center setup.jpg",
+        "autor": "Federal Bureau of Investigation",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:EFTA00002629_-_Server_rack_with_multiple_networking_devices_and_cables_connected_showing_a_typical_data_center_setup.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center server rack"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a rideshare driver’s identity documents dissolving into digital fragments beside a cloud-shaped data vault, using a restrained palette and no text, logos, or recognizable people."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a rideshare driver’s identity documents dissolving into digital fragments beside a cloud-shaped data vault, using a restrained palette and no text, logos, or recognizable people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/836f81aaca1cfdde991f306f5f5c62f1",
+  "text_agentov": {
+    "titulok": "Únik u dodávateľa AI zasiahol údaje takmer 150-tisíc vodičov Uberu",
+    "perex": "Útočníci získali mená, adresy, dátumy narodenia a údaje z vodičských preukazov 149 346 ľudí. Uber tvrdí, že prístup k svojim dátam cez napadnuté účty dodávateľa zastavil.",
+    "telo": "Uber oznámil únik osobných údajov 149 346 ľudí po tom, čo útočníci prenikli k účtu spoločnosti u jej dodávateľa AI infraštruktúry Fireworks AI. Podľa údajov zverejnených v podaniach úradom generálnych prokurátorov v štátoch Maine a Oregon sa medzi odcudzenými informáciami nachádzali mená, adresy, dátumy narodenia a čísla vodičských preukazov. Útočníci získali aj snímky preukazov.\n\nUber začal dotknutých ľudí informovať 10. novembra. Ponúka im bezplatné monitorovanie úverových záznamov a pomoc pri podvodoch. Ako upozornil portál The Register, na prihlásenie do tejto služby majú príjemcovia listu 90 dní od jeho dátumu.\n\n## Ukradnuté prihlasovacie údaje obišli alarmy\n\nPodľa oznámenia Uberu dodávateľ 9. októbra informoval spoločnosť, že neautorizovaná osoba získala jeho interné prihlasovacie údaje a použila ich na prístup k účtu Uberu. Vyšetrovanie firmy následne zistilo, že útočníci sa k údajom pripojeným k službe dostali 7. októbra.\n\nUber odpojil dátové spojenia s Fireworks a začal vyšetrovanie. Spoločnosť mala pre dodávateľa vytvorené samostatné cloudové úložisko a jeho bezpečnosť monitoroval vlastný tím. Napriek tomu sa podľa The Register neaktivovali bezpečnostné upozornenia: útočníci používali platné prihlasovacie údaje. Uber uviedol, že tieto údaje neumožňovali prístup do jeho ďalších systémov a, že ich zrušil alebo zmenil.\n\nNie je jasné, prečo Uber poskytol dodávateľovi snímky vodičských preukazov. The Register uviedol, že sa na tento dôvod pýtal oboch spoločností. Z dostupných informácií tiež nevyplýva, či boli zasiahnutí vodiči mimo Spojených štátov. BleepingComputer cituje podanie v štáte Maine, zatiaľ čo The Register uvádza podanie v Oregone; oba zdroje píšu o rovnakom počte 149 346 dotknutých osôb.\n\n## Incident zapadá do série problémov Fireworks\n\nFireworks poskytuje výpočtovú infraštruktúru na spúšťanie a dolaďovanie AI modelov. Spoločnosť uviedla, že v októbri odhalila neoprávnené použitie interných prihlasovacích údajov. Najprv podľa The Register tvrdila, že nemá dôkaz o prístupe k osobným údajom ani zákazníckym súborom. Po ďalšom napadnutí neskôr v tom istom mesiaci však 9. novembra oznámila, že útočníci získali fakturačné záznamy, niektoré zákaznícke dáta a neúplné váhy modelov.\n\nMedzi zasiahnutými firmami bol podľa The Register aj Notion. BleepingComputer spomína tiež Cursor a uvádza, že pri jeho incidente boli zariadenia niektorých používateľov napadnuté zadnými vrátkami. Fireworks pripisuje útok skupine finančne motivovaných kyberzločincov, ktorá sa podľa firmy venuje neoprávnenému získavaniu prístupu k veľkým jazykovým modelom. Nie je známe, či plánujú zneužiť aj údaje vodičov Uberu.\n\nUber už v minulosti čelil ďalším incidentom. V auguste jeho logistická divízia Uber Freight potvrdila prienik po tom, čo skupina Helix tvrdila, že získala takmer milión súborov vrátane dát z e-mailových schránok a OneDrive. BleepingComputer pripomína aj staršie úniky a útoky na spoločnosť; tie však nesúvisia s aktuálnym prípadom Fireworks."
+  }
+}
