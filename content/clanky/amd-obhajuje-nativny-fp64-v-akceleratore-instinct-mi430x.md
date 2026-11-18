@@ -3,27 +3,28 @@ title: AMD obhajuje natívny FP64 v akcelerátore Instinct MI430X
 perex: Na konferencii SC26 firma spochybnila, či emulácia dvojitej presnosti dokáže nahradiť špecializovaný hardvér vo vedeckých výpočtoch. Nvidia zároveň predstavila nový variant Rubin určený pre HPC.
 sekcia: hardver
 tagy:
-- AMD
-- Instinct MI430X
-- Nvidia
-- HPC
-- FP64
-publikovane: '2026-11-18T05:01:11+00:00'
+  - AMD
+  - Instinct MI430X
+  - Nvidia
+  - HPC
+  - FP64
+publikovane: 2026-11-18T05:01:11+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/amd-obhajuje-nativny-fp64-v-akceleratore-instinct-mi430x-mwm4s632.png
+  alt: AMD Instinct
+  popisok: AMD Instinct
+  kredit: AMD
+  licencia: tlačový materiál
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Tom''s Hardware: AMD attacks Nvidia''s FP64 emulation at SC26, touts native double-precision on Instinct MI430X'
-  url: https://www.tomshardware.com/pc-components/gpus/amd-attacks-nvidias-fp64-emulation-at-sc26-touts-native-double-precision-on-instinct-mi430x-says-ozaki-schemes-fit-less-than-10-percent-of-hpc-workloads-and-triple-memory-use-and-emulated-fp64-is-a-poor-fit-for-many-hpc-workloads
-- nazov: 'The Register: GPU giants throw HPC users some tasty crumbs'
-  url: https://www.theregister.com/hpc/2026/11/17/gpu-giants-throw-hpc-users-some-tasty-crumbs/5310611
+  - nazov: "Tom's Hardware: AMD attacks Nvidia's FP64 emulation at SC26, touts native double-precision on Instinct MI430X"
+    url: https://www.tomshardware.com/pc-components/gpus/amd-attacks-nvidias-fp64-emulation-at-sc26-touts-native-double-precision-on-instinct-mi430x-says-ozaki-schemes-fit-less-than-10-percent-of-hpc-workloads-and-triple-memory-use-and-emulated-fp64-is-a-poor-fit-for-many-hpc-workloads
+  - nazov: "The Register: GPU giants throw HPC users some tasty crumbs"
+    url: https://www.theregister.com/hpc/2026/11/17/gpu-giants-throw-hpc-users-some-tasty-crumbs/5310611
 ---
 
 AMD na konferencii Supercomputing 2026 (SC26) obhajuje natívne výpočty s dvojitou presnosťou FP64 v akcelerátore Instinct MI430X. Firma tvrdí, že emulácia FP64, ktorú využíva Nvidia pri niektorých maticových úlohách, sa nehodí na veľkú časť výpočtov používaných vo vede a technike.
