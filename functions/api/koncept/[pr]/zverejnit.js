@@ -1,5 +1,5 @@
 import { overTexty, rozdel, zloz } from '../../../../functions-lib/clanok.js';
-import { GitHub, ZASTUPNY_OBRAZOK } from '../../../../functions-lib/github.js';
+import { GitHub, jeZastupnyObrazok } from '../../../../functions-lib/github.js';
 import { chyba } from '../../../../functions-lib/pristup.js';
 
 // Zverejnenie: doplní schválenie a čas, zlúči pull request do main a zmaže vetvu.
@@ -11,10 +11,13 @@ export async function onRequestPost({ env, params, request, data }) {
   const { hlavicka, telo } = rozdel(subor.text);
 
   const prekazky = overTexty({ titulok: hlavicka.title, perex: hlavicka.perex, telo });
-  if (hlavicka.obrazok.src === ZASTUPNY_OBRAZOK) prekazky.push('Článok nemá vybraný obrázok.');
+  if (jeZastupnyObrazok(hlavicka.obrazok.src)) prekazky.push('Článok nemá vybraný obrázok.');
   if (!hlavicka.obrazok.popisok || !hlavicka.obrazok.kredit || !hlavicka.obrazok.licencia) prekazky.push('Obrázku chýba popisok, kredit alebo licencia.');
   for (const o of hlavicka.galeria ?? []) {
     if (!o.popisok || !o.kredit || !o.licencia) prekazky.push('Niektorému obrázku v článku chýba popisok, kredit alebo licencia.');
+  }
+  if ([hlavicka.obrazok, ...(hlavicka.galeria ?? [])].some((o) => !jeZastupnyObrazok(o.src) && !o.src.endsWith('.jpg'))) {
+    prekazky.push('Článok obsahuje obrázok v starom formáte. Nahrajte ho znova, aby sa previedol na JPG.');
   }
   if (vstup.potvrdenie !== true) prekazky.push('Chýba potvrdenie, že editor článok skontroloval.');
   if (prekazky.length) return chyba(400, prekazky.join(' '));

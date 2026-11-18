@@ -9,7 +9,7 @@ tagy:
   - vývoj softvéru
 publikovane: 2026-11-17T10:07:55Z
 obrazok:
-  src: /obrazky/utoky-ai-agentov-skracuju-cas-na-zaplatanie-zranitelnosti-vyvojari-musia-preveri-mwkj3uaq.png
+  src: /obrazky/utoky-ai-agentov-skracuju-cas-na-zaplatanie-zranitelnosti-vyvojari-musia-preveri-mwkj3uaq.jpg
   alt: Cybersecurity vs information security
   popisok: Cybersecurity vs information security
   kredit: Pcoronaf / Wikimedia Commons

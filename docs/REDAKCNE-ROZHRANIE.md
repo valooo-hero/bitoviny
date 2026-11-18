@@ -20,7 +20,7 @@ Pull requesty konceptov sa nezlučujú ručne na GitHube. Ak by sa to stalo, web
 | Factcheck | Hodnotenie, priebeh kôl, neuzavreté nálezy, tabuľka tvrdení s úryvkami |
 | Korektúra | Vykonané a zamietnuté úpravy, diff |
 
-**Výmena obrázka.** Použiť sa dá voľná náhrada alebo obrázok zo zdroja v stave `volne` či `tlacove`. Server to overuje, nestačí poslať ľubovoľnú adresu. Obrázok sa stiahne a uloží do vetvy konceptu ako `public/obrazky/<slug>.<prípona>` spolu s popiskom, kreditom a licenciou.
+**Výmena obrázka.** Použiť sa dá voľná náhrada alebo obrázok zo zdroja v stave `volne` či `tlacove`. Server to overuje, nestačí poslať ľubovoľnú adresu. Redakcia pripraví obrázok vo formáte JPG a uloží ho do vetvy konceptu spolu s popiskom, kreditom a licenciou. Pri prevode sa priehľadné časti vyplnia bielou.
 
 **Zmena stavu obrázka zo zdroja.** Automatické zaradenie je len odporúčanie, posledné slovo má editor. Tlačidlo „Zmeniť stav“ otvorí formulár so stavom, autorom, licenciou a dôvodom. Ak editor obrázok označí za použiteľný, dôvod, autor aj licencia sú povinné. Zmena sa zapíše do redakčnej správy spolu s pôvodným automatickým zaradením, menom editora a časom, takže je dohľadateľné, kto a prečo rozhodol.
 
@@ -82,7 +82,7 @@ Do súboru `.dev.vars` (je v `.gitignore`) patrí `ADMIN_DEV_BYPASS=1` a `GITHUB
 - Na karte Obrázok je zoznam obrázkov článku. Pri každom sa dá zmeniť popisok, odstrániť ho alebo ho nastaviť ako titulný. Doterajší titulný sa vtedy presunie medzi ostatné.
 - Po odstránení titulného sa titulným stane prvý z ostatných. Ak žiadny nie je, článok sa vráti k zástupnému obrázku a nedá sa zverejniť.
 - **Vlastný obrázok** sa dá nahrať vždy, pri koncepte aj pri zverejnenom článku: JPEG, PNG alebo WebP do 6 MB. Typ súboru sa overuje podľa jeho obsahu, nie podľa názvu. Autor a licencia sú povinné, lebo za pôvod a práva ručí editor.
-- Každý obrázok má vlastný súbor `public/obrazky/<slug>-<kód>.<prípona>`. Súbor odstráneného alebo nahradeného obrázka sa z vetvy zmaže.
+- Každý obrázok má vlastný súbor `public/obrazky/<slug>-<kód>.jpg`. Súbor odstráneného alebo nahradeného obrázka sa z vetvy zmaže.
 
 ## Zverejnené články
 

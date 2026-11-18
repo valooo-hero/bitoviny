@@ -5,7 +5,7 @@ sekcia: softver
 tagy: ["RSS", "Atom", "otvorené štandardy"]
 publikovane: 2026-11-12T08:00:00+01:00
 obrazok:
-  src: /obrazky/vzor-rss.svg
+  src: /obrazky/vzor-rss.jpg
   alt: "Oranžový bod, z ktorého vychádzajú dva sústredné oblúky, symbol RSS kanála"
   popisok: "Symbol kanála: bod a dve vlny."
   kredit: "Bitoviny"

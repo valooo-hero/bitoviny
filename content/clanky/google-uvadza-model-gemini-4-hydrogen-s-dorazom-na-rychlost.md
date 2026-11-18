@@ -31,7 +31,7 @@ zdroje:
     url: https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/
 aktualizovane: 2026-11-13T12:08:24Z
 galeria:
-  - src: /obrazky/google-uvadza-model-gemini-4-hydrogen-s-dorazom-na-rychlost-mwexnnix.png
+  - src: /obrazky/google-uvadza-model-gemini-4-hydrogen-s-dorazom-na-rychlost-mwexnnix.jpg
     alt: Hydrogen v porovnaní so strednými modelmi od OpenAI a Anthropic.
     popisok: Hydrogen v porovnaní so strednými modelmi od OpenAI a Anthropic.
     kredit: |-

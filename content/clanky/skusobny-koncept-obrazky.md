@@ -9,7 +9,7 @@ tagy:
   - iOS
 publikovane: 2026-11-13T10:45:42Z
 obrazok:
-  src: /obrazky/skusobny-koncept-obrazky-mweuo9gs.png
+  src: /obrazky/skusobny-koncept-obrazky-mweuo9gs.jpg
   alt: Gemini language model logo
   popisok: Gemini language model logo
   kredit: Gemini / Wikimedia Commons
@@ -30,7 +30,7 @@ galeria:
     kredit: PascalHD / Wikimedia Commons
     licencia: Public domain
     ai: false
-  - src: /obrazky/skusobny-koncept-obrazky-mwexgftb.png
+  - src: /obrazky/skusobny-koncept-obrazky-mwexgftb.jpg
     alt: Skúšobný obrázok nahraný pri teste.
     popisok: Skúšobný obrázok nahraný pri teste.
     kredit: Bitoviny

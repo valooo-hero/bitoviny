@@ -1,11 +1,14 @@
 import { GitHub } from '../../../../functions-lib/github.js';
-import { cielClanku, pridajObrazok, sChybami } from '../../../../functions-lib/obrazky.js';
+import { cielClanku, nahladZdroja, pridajObrazok, sChybami } from '../../../../functions-lib/obrazky.js';
 
 // Pridá obrázok: voľnú náhradu, obrázok zo zdroja, vygenerovanú ilustráciu alebo vlastný súbor. Cieľ: zverejnený alebo stiahnutý článok.
 export async function onRequestPost({ env, params, request, data }) {
   return sChybami(async () => {
     const gh = new GitHub(env, data.token);
-    const vysledok = await pridajObrazok(gh, await cielClanku(gh, params), await request.json());
+    const ciel = await cielClanku(gh, params);
+    const vstup = await request.json();
+    if (vstup.typ === 'nahlad-zdroja') return nahladZdroja(gh, ciel, vstup.url);
+    const vysledok = await pridajObrazok(gh, ciel, vstup);
     return Response.json({ ok: true, ...(vysledok && typeof vysledok === 'object' ? { vysledok } : {}) });
   });
 }

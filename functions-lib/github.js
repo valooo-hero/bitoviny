@@ -1,7 +1,11 @@
 // Tenká vrstva nad GitHub REST API. Koncept je pull request z vetvy koncept/...
 
 export const PREDPONA_VETVY = 'koncept/';
-export const ZASTUPNY_OBRAZOK = '/obrazky/zastupny.svg';
+export const ZASTUPNY_OBRAZOK = '/obrazky/zastupny.jpg';
+
+export function jeZastupnyObrazok(src) {
+  return src === ZASTUPNY_OBRAZOK || src === '/obrazky/zastupny.svg';
+}
 
 export function naBase64(bajty) {
   let bin = '';

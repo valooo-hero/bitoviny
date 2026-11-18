@@ -5,7 +5,7 @@ sekcia: ai
 tagy: ["Bitoviny", "AI agenti", "LangGraph"]
 publikovane: 2026-11-12T09:00:00+01:00
 obrazok:
-  src: /obrazky/vzor-redakcia.svg
+  src: /obrazky/vzor-redakcia.jpg
   alt: "Šesť farebných kruhov spojených čiarou, ktorá vedie k siedmemu, sivému kruhu"
   popisok: "Šesť agentov a jeden človek na konci reťaze."
   kredit: "Bitoviny"
