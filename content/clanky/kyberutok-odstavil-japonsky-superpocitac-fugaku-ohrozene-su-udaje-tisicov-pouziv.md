@@ -3,28 +3,29 @@ title: Kyberútok odstavil japonský superpočítač Fugaku, ohrozené sú údaj
 perex: RIKEN vyšetruje prienik cez verejný panel so stavom systému. Útočník sa podľa zistení dostal na interné servery a nainštaloval škodlivý softvér; rozsah odcudzených údajov zatiaľ nie je jasný.
 sekcia: bezpecnost
 tagy:
-- Fugaku
-- RIKEN
-- kyberútok
-- superpočítače
-publikovane: '2026-11-18T05:01:00+00:00'
+  - Fugaku
+  - RIKEN
+  - kyberútok
+  - superpočítače
+publikovane: 2026-11-18T05:01:00+00:00
 obrazok:
-  src: /obrazky/zastupny.svg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/kyberutok-odstavil-japonsky-superpocitac-fugaku-ohrozene-su-udaje-tisicov-pouziv-mwm45hkj.jpg
+  alt: FugakuSupercomputerSC19
+  popisok: FugakuSupercomputerSC19
+  kredit: Raysonho @ Open Grid Scheduler / Scalable Grid Engine / Wikimedia Commons
+  licencia: CC BY-SA 4.0
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Tom''s Hardware: Japan’s most powerful supercomputer may have been hacked, over 4,000 users’ personal data stolen'
-  url: https://www.tomshardware.com/tech-industry/supercomputers/japans-most-powerful-supercomputer-may-have-been-hacked-over-4-000-users-personal-data-stolen-investigation-opened-into-fugaku-breach-after-unauthorized-software-installed
-- nazov: 'BleepingComputer: Japan takes Fugaku supercomputer offlline after cyberattack'
-  url: https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/
-- nazov: 'The Register: Japan''s Fugaku supercomputer has decidedly un-super security'
-  url: https://www.theregister.com/security/2026/11/17/japans-fugaku-supercomputer-has-decidedly-un-super-security/5310333
+  - nazov: "Tom's Hardware: Japan’s most powerful supercomputer may have been hacked, over 4,000 users’ personal data stolen"
+    url: https://www.tomshardware.com/tech-industry/supercomputers/japans-most-powerful-supercomputer-may-have-been-hacked-over-4-000-users-personal-data-stolen-investigation-opened-into-fugaku-breach-after-unauthorized-software-installed
+  - nazov: "BleepingComputer: Japan takes Fugaku supercomputer offlline after cyberattack"
+    url: https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/
+  - nazov: "The Register: Japan's Fugaku supercomputer has decidedly un-super security"
+    url: https://www.theregister.com/security/2026/11/17/japans-fugaku-supercomputer-has-decidedly-un-super-security/5310333
 ---
 
 Japonský superpočítač Fugaku je po kybernetickom útoku odstavený. Jeho prevádzkovateľ, výskumné centrum RIKEN, uviedol, že neznámy útočník v období od 10. do 13. novembra zneužil verejne dostupný panel zobrazujúci prevádzkový stav systému. Cez neho sa dostal na viaceré interné servery a nainštaloval na ne škodlivý softvér.
