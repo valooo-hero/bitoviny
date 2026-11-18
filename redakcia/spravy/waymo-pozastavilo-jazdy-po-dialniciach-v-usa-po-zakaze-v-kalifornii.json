@@ -1,0 +1,429 @@
+{
+  "slug": "waymo-pozastavilo-jazdy-po-dialniciach-v-usa-po-zakaze-v-kalifornii",
+  "datum_sprav": "2026-11-17",
+  "dovod_vyberu": "Waymo po zákaze kalifornského DMV pozastavuje všetky jazdy na diaľniciach, čo je významný bezpečnostný incident v autonomnom doprave.",
+  "poznamky_pre_editora": "Opravené podľa nálezu: „stiahlo aktualizáciu softvéru“ zmenené na „stiahlo softvér“, keďže zdroje hovoria o stiahnutí softvéru, nie aktualizácie.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept článku je úplne spoľahlivý a presne čerpá zo všetkých troch priložených zdrojov. V texte sa nevyskytujú žiadne nepresnosti, vymyslené údaje ani zavádzajúce tvrdenia.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 14,
+        "potvrdenych": 13,
+        "chyb": 1,
+        "upozorneni": 1
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 20,
+        "potvrdenych": 20,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Waymo pozastavilo jazdy po diaľniciach v USA po Zákaze v Kalifornii.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Waymo suspends freeway rides nationwide after California DMV order",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kalifornský úrad DMV obmedzil prevádzku autonómnych vozidiel Waymo po dvoch incidentoch na diaľniciach.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The ban follows two recent concerning incidents, California DMV spokesperson Jonathan Groveman wrote in a statement.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Waymo pozastavilo jazdy svojich robotaxíkov po diaľniciach vo všetkých amerických mestách, kde pôsobí.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "In response, Waymo says it has stopped highway driving in all of its markets.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "DMV od 11. novembra zakázal vozidlám Waymo jazdiť po diaľniciach v štáte Kalifornia.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The ban, which the DMV says began on November 11, comes after the department determined that Waymo’s freeway driving poses",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "DMV označil bezvodičkovú prevádzku Waymo za bezprostredné riziko pre verejnú bezpečnosť.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The DMV said Waymo’s freeway operations pose an imminent hazard to public safety.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tri vozidlá Waymo vošli do aktívne uzavretého úseku na diaľnici U.S. 101 pri Burlingame.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "three Waymo autonomous vehicles entered an active construction closure on U.S. Route 101 near Burlingame",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ďalšie vozidlo sa dostalo do incidentu s hliadkou kalifornskej diaľničnej polície na diaľnici 280 v San Franciscu počas odstraňovania trosiek po nehode.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "interfering with California Highway Patrol cars on a San Francisco highway as they tried to enforce a “traffic break” as workers cleared debris",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zákaz zostane v platnosti, kým Waymo nepreukáže účinné nápravné opatrenia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The DMV said the restrictions will remain in place until Waymo can demonstrate that it has taken “effective corrective actions” to address the deficiencies.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "DMV uviedol, že problém sa týka opakovaného vjazdu do aktívnych stavebných zón s pracovníkmi, vozidlami a technikou.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "due to recurring incursions by its vehicles into active construction zones where construction workers, vehicles and equipment are present",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podobné udalosti sa stali aj napriek obmedzeniu a nápravným opatreniam po incidente z 18. mája 2026.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "despite a prior restriction and corrective actions implemented following similar incidents that occurred on May 18, 2026",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nedávne stretnutia so stavebnými zónami na U.S. 101 nespôsobili zranenia ani kolízie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "recent freeway construction zone encounters on U.S. 101 in California that did not involve any injuries or collisions",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Služba pokračuje na povrchových cestách, kde zabezpečuje viac než pol milióna jázd týždenne.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Our ride-hailing service continues to operate safely on surface streets, serving over half a million trips each week.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Waymo pôsobí v 15 amerických mestách.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Waymo currently has commercial operations in 15 U.S. cities.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V máji Waymo jazdy na diaľniciach zastavilo bez uvedenia konkrétneho dôvodu.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "In May, Waymo abruptly stopped operating on highways. The company didn’t cite a specific reason at the time",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na sociálnych sieťach sa objavili príspevky ukazuje robotaxíky prechádzajúce cez dopravné kužele a zápasiace so stavebnými zónami.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "several social media posts showed Waymo robotaxis driving through traffic cones and struggling to navigate construction zones.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V júli sa robotaxíky na diaľnice vrátili po aktualizácii softvéru.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Waymo robotaxis returned to freeways in July after the company said it updated the self-driving software system",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V júni Waymo stiahlo softvér po tom, čo regulátor NHTSA upozornil na nerešpektovanie značenia uzávierok nájazdov.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "In June, the company recalled its software after federal regulators found that its system failed to recognize highway construction zones.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa Engadgetu sa júnové stiahnutie týkalo 3 800 vozidiel.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "and later recalled 3,800 vehicles in June.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Waymo plánuje pokračovať v testovaní na diaľniciach s bezpečnostnými operátormi za volantom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The company will continue to test its vehicles on highways with safety operators behind the wheel.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Prístup na diaľnice pomáhal Waymo spájať cestujúcich s letiskami a skracovať trvanie dojazdov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Freeway access allows Waymo to connect riders to airports and other destinations more efficiently, slashing travel times",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "robotaxíkov",
+        "kontext": "Waymo pozastavilo jazdy svojich robotaxíkov po diaľniciach vo všetkých amerických m",
+        "navrhy": [
+          "robotníkov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "bezvodičkovú",
+        "kontext": "iť po diaľniciach v štáte. Úrad označil bezvodičkovú prevádzku Waymo za bezprostredné riziko",
+        "navrhy": [
+          "nelodičkovú",
+          "nevodičkou",
+          "nevodičovú"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "robotaxíky",
+        "kontext": "tovať sa v stavebných zónach. V júli sa robotaxíky na diaľnice vrátili po aktualizácii sof",
+        "navrhy": [
+          "robotiky"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ie 3 800 vozidiel; WIRED opisuje udalosť ako stiahnutie softvéru. Ani tieto incident",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Waymo_autonomous_vehicle_sensor_dome.jpg/1280px-Waymo_autonomous_vehicle_sensor_dome.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://media.wired.com/photos/6afca39792798f56737cb399/191:100/w_1280,c_limit/GettyImages-2289915155-resized.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6afca39792798f56737cb399/master/pass/GettyImages-2289915155-resized.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2025/11/SF_WAYMO-FREEWAY_FRONT.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "WAYMO on SF freeway",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/33559a60fd1d7a1bafca5ac95584c3073bbff7670008c1490ccc9e6c29f6ef89?s=96&d=identicon&r=g",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Kirsten Korosec",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/waymo-is-pausing-all-freeway-rides-after-california-dmv-says-the-robotaxis-are-imminent-hazard-to-public-safety/l-intro-1794952210.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/waymo-is-pausing-all-freeway-rides-after-california-dmv-says-the-robotaxis-are-imminent-hazard-to-public-safety/intro-1794952210.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Waymo autonomous vehicle",
+      "autonomous car",
+      "self-driving vehicle"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Waymo_autonomous_vehicle_sensor_dome.jpg/1280px-Waymo_autonomous_vehicle_sensor_dome.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Waymo_autonomous_vehicle_sensor_dome.jpg/1280px-Waymo_autonomous_vehicle_sensor_dome.jpg",
+        "nazov": "Waymo autonomous vehicle sensor dome.jpg",
+        "autor": "Oleg Yunakov",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Waymo_autonomous_vehicle_sensor_dome.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Waymo autonomous vehicle"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Waymo_self-driving_car_front_view.gk.jpg/1280px-Waymo_self-driving_car_front_view.gk.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Waymo_self-driving_car_front_view.gk.jpg/1280px-Waymo_self-driving_car_front_view.gk.jpg",
+        "nazov": "Waymo self-driving car front view.gk.jpg",
+        "autor": "Grendelkhan",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Waymo_self-driving_car_front_view.gk.jpg",
+        "povod": "wikimedia",
+        "dopyt": "autonomous car"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/ISEAUTO%2C_the_Lab_for_Self-Driving_Vehicles_in_TalTech.jpg/1280px-ISEAUTO%2C_the_Lab_for_Self-Driving_Vehicles_in_TalTech.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/ISEAUTO%2C_the_Lab_for_Self-Driving_Vehicles_in_TalTech.jpg/1280px-ISEAUTO%2C_the_Lab_for_Self-Driving_Vehicles_in_TalTech.jpg",
+        "nazov": "ISEAUTO, the Lab for Self-Driving Vehicles in TalTech.jpg",
+        "autor": "Lauri Veerde",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:ISEAUTO,_the_Lab_for_Self-Driving_Vehicles_in_TalTech.jpg",
+        "povod": "wikimedia",
+        "dopyt": "self-driving vehicle"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Waymo_autonomous_car_in_San_Francisco.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/8/86/Waymo_autonomous_car_in_San_Francisco.jpg",
+        "nazov": "Waymo autonomous car in San Francisco.jpg",
+        "autor": "JirkaBulrush",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Waymo_autonomous_car_in_San_Francisco.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Waymo autonomous vehicle"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Waymo_self-driving_car_side_view.gk.jpg/1280px-Waymo_self-driving_car_side_view.gk.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Waymo_self-driving_car_side_view.gk.jpg/1280px-Waymo_self-driving_car_side_view.gk.jpg",
+        "nazov": "Waymo self-driving car side view.gk.jpg",
+        "autor": "Grendelkhan",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Waymo_self-driving_car_side_view.gk.jpg",
+        "povod": "wikimedia",
+        "dopyt": "autonomous car"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Russian_self-driving_car.jpg/1280px-Russian_self-driving_car.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Russian_self-driving_car.jpg/1280px-Russian_self-driving_car.jpg",
+        "nazov": "Russian self-driving car.jpg",
+        "autor": "Alena Nesterova",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Russian_self-driving_car.jpg",
+        "povod": "wikimedia",
+        "dopyt": "self-driving vehicle"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Waymo_Jaguar_I-Pace_in_San_Francisco_2023_dllu.jpg/1280px-Waymo_Jaguar_I-Pace_in_San_Francisco_2023_dllu.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Waymo_Jaguar_I-Pace_in_San_Francisco_2023_dllu.jpg/1280px-Waymo_Jaguar_I-Pace_in_San_Francisco_2023_dllu.jpg",
+        "nazov": "Waymo Jaguar I-Pace in San Francisco 2023 dllu.jpg",
+        "autor": "Dllu",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Waymo_Jaguar_I-Pace_in_San_Francisco_2023_dllu.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Waymo autonomous vehicle"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Ford_Argo_AI_Self_Driving_Car.jpg/1280px-Ford_Argo_AI_Self_Driving_Car.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Ford_Argo_AI_Self_Driving_Car.jpg/1280px-Ford_Argo_AI_Self_Driving_Car.jpg",
+        "nazov": "Ford Argo AI Self Driving Car.jpg",
+        "autor": "Phillip Pessar",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Ford_Argo_AI_Self_Driving_Car.jpg",
+        "povod": "wikimedia",
+        "dopyt": "self-driving vehicle"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic illustration of an autonomous taxi paused before a highway construction barrier, with abstract road signs and no real logos or people."
+  },
+  "prompt_ilustracie": "A symbolic illustration of an autonomous taxi paused before a highway construction barrier, with abstract road signs and no real logos or people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/2b64ecdcf696765962c380b60b4fd4c7",
+  "text_agentov": {
+    "titulok": "Waymo pozastavilo jazdy po diaľniciach v USA po zákaze v Kalifornii",
+    "perex": "Kalifornský úrad DMV obmedzil prevádzku autonómnych vozidiel Waymo po dvoch incidentoch na diaľniciach. Firma zákaz dodržiava aj v ďalších štátoch a môže sa vrátiť až po nápravných opatreniach.",
+    "telo": "Waymo pozastavilo jazdy svojich robotaxíkov po diaľniciach vo všetkých amerických mestách, kde pôsobí. Reaguje tak na obmedzenie kalifornského úradu Department of Motor Vehicles (DMV), ktorý od 11. novembra zakázal jeho vozidlám jazdiť po diaľniciach v štáte. Úrad označil bezvodičkovú prevádzku Waymo za bezprostredné riziko pre verejnú bezpečnosť.\n\nRozhodnutie sa stalo verejne známym 17. novembra. DMV podľa TechCrunchu zasiahlo po dvoch incidentoch: tri vozidlá Waymo vošli do aktívne uzavretého úseku na diaľnici U.S. 101 pri Burlingame a ďalšie vozidlo sa stretlo s hliadkou kalifornskej diaľničnej polície na diaľnici 280 v San Franciscu. Polícia tam spomaľovala premávku počas zásahu pri odstraňovaní trosiek po nehode.\n\n## Zákaz platí do preukázania nápravy\n\nDMV uviedlo, že zákaz zostane v platnosti, kým Waymo nepreukáže účinné nápravné opatrenia. Úrad zdôraznil, že problém sa týka opakovaného vjazdu do aktívnych stavebných zón, kde sa pohybujú pracovníci, vozidlá a technika. Podľa jeho vyjadrenia sa podobné udalosti stali aj po predchádzajúcich obmedzeniach a úpravách, ktoré nasledovali po incidente z 18. mája 2026.\n\nWaymo potvrdilo, že diaľničnú prevádzku dočasne pozastavilo aj mimo Kalifornie, aby vyhodnotilo správanie svojich vozidiel. Firma zároveň uviedla, že nedávne stretnutia so stavebnými zónami na U.S. 101 nespôsobili zranenia ani kolízie. Na povrchových cestách služba pokračuje; podľa vyjadrenia spoločnosti pre TechCrunch zabezpečuje viac než pol milióna jázd týždenne. Waymo pôsobí v 15 amerických mestách.\n\n## Diaľnice už raz dočasne opustilo\n\nNejde o prvé prerušenie diaľničnej prevádzky. V máji Waymo jazdy na diaľniciach zastavilo, pričom spoločnosť vtedy neuviedla konkrétny dôvod. Na sociálnych sieťach sa objavili videá vozidiel, ktoré prechádzali cez dopravné kužele alebo mali problém zorientovať sa v stavebných zónach. V júli sa robotaxíky na diaľnice vrátili po aktualizácii softvéru zameranej na tieto situácie.\n\nWIRED pripomína aj zásah federálneho úradu NHTSA. V júni Waymo stiahlo softvér po tom, čo regulátor upozornil na prípady, keď vozidlá nerešpektovali značenie uzávierok nájazdov a vchádzali do uzavretých jazdných pruhov. Podľa Engadgetu sa vtedy týkalo stiahnutie 3 800 vozidiel; WIRED opisuje udalosť ako stiahnutie softvéru. Ani tieto incidenty neviedli ku kolíziám či zraneniam.\n\n## Návrat závisí od ďalších testov\n\nWaymo uviedlo, že spolupracuje s kalifornským DMV a ďalšími úradmi na obnovení diaľničnej prevádzky. WIRED informuje, že firma plánuje pokračovať v testovaní na diaľniciach s bezpečnostnými operátormi za volantom. Zatiaľ nie je známe, ako dlho bude trvať preverenie nápravných opatrení.\n\nObmedzenie môže ovplyvniť dĺžku trás a dostupnosť spojení medzi vzdialenejšími časťami oblastí, kde Waymo jazdí. TechCrunch uvádza, že prístup na diaľnice bol dôležitý napríklad pri cestách cez Sanfranciský záliv a na letiská. Zákaz kalifornského úradu sa týka Kalifornie, no dobrovoľné pozastavenie Waymo rozšírilo na všetky svoje americké trhy."
+  }
+}
