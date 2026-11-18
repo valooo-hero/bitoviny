@@ -1,0 +1,413 @@
+{
+  "slug": "trump-chce-zachovat-cast-predaja-cipov-nvidia-do-ciny",
+  "datum_sprav": "2026-11-17",
+  "dovod_vyberu": "Nvidia pod dohľadom predstavenstva kvôli exportom čipov do Číny môže zásadne ovplyvniť globálny trh s polovodičmi.",
+  "poznamky_pre_editora": "Vypustila som záverečné tvrdenie o možnom vplyve nových amerických pravidiel na firmy a výskumné tímy v EÚ, pretože ho uvedené zdroje nepodkladajú.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý a všetky overiteľné tvrdenia majú priamu oporu v zdrojových článkoch. V texte sa nenachádzajú žiadne významové chyby ani nepodložené informácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 25,
+        "potvrdenych": 24,
+        "chyb": 1,
+        "upozorneni": 1
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 23,
+        "potvrdenych": 23,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Administratíva Donalda Trumpa zvažuje, ako zabrániť čínskym firmám v nepriamom prístupe k pokročilým čipom Nvidia, no prezident nechce zastaviť všetok predaj do Číny.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "reflects the president's own view that allowing the sale of some advanced AI chips to China can keep China reliant on US technology",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Trump obhajoval ministra obchodu Howarda Lutnicka, ktorý čelil kritike za pomalé zavedenie obmedzení voči firme Megaspeed.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "President Donald Trump is defending commerce secretary Howard Lutnick. Last week, Lutnick came under fire from treasury secretary Scott Bessent for not aggressively imposing export restrictions",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Megaspeed je podozrivá z toho, že sprostredkovala prístup čínskym spoločnostiam k čipom Nvidia cez dátové centrá v juhovýchodnej Ázii.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Instead of shipping the physical chips into China, Megaspeed hosted servers at data centers in Malaysia and Indonesia—then rented out compute power to major Chinese companies.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tvrdenia o porušení pravidiel sú predmetom vyšetrovania, nie preukázaným záverom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Megaspeed has separately faced scrutiny over suspected export control violations.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Minister financií Scott Bessent sa pýtal Lutnicka, prečo Megaspeed nebola skôr zaradená na americký zoznam subjektov",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Bessent confronted Lutnick, asking why Megaspeed was not added to the entity list faster",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Lutnick mal odpovedať, že sa bude riadiť Trumpovým rozhodnutím.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Lutnick responded that he would defer to Trump and would add Megaspeed to the entity list if that was what the president wanted",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Prezident namiesto okamžitého zaradenia firmy zvolil prípravu dočasného pravidla, ktoré by obmedzilo prenajímanie výpočtového výkonu čínskym laboratóriám cez dátové centrá v zahraničí.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Trump settled on a third approach: for Lutnick to work on introducing a new interim trade rule to stop Chinese AI labs from using advanced AI chips remotely by leasing their compute power",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Trump tvrdil, že odklad pomohol predísť konfliktu s Čínou a podporiť dobré vzťahy.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Lutnick “was doing that because if you didn’t delay it, if you didn’t do something, you could have a blowup with China. We’re having a very good relationship with China right now,” Trump said",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Predstaviteľ Bieleho domu má trvať na tom, aby čínske firmy nezískali najnovšie čipy Nvidia Blackwell a Rubin.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "A senior White House official added that Trump has been adamant that Chinese firms cannot acquire the most advanced Nvidia chips, known as Blackwells and Rubins.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Megaspeed získavala čipy H200, ktoré patria k predchádzajúcej generácii Hopper.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Those are different from the H200-type chips, built on previous-generation Hopper architecture, that Megaspeed was acquiring.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Čínska spoločnosť Inspur mala väzbu na Megaspeed cez dcérsku firmu Aivres so sídlom v Kalifornii.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Inspur, the Chinese server conglomerate connected to Megaspeed, operated a subsidiary called Aivres, which, as a California-based company",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Aivres mohla nakupovať čipy, ktoré podliehali obmedzeniam, a previedla Megaspeed miliardy dolárov v čipoch vrátane H200.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "could legally buy restricted Nvidia chips without triggering direct export bans and ship them internationally... In total, Aivres transferred billions of dollars’ worth of restricted Nvidia chips, including the powerful H200 chips",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Fyzické servery následne prevádzkovali dátové centrá v Malajzii a Indonézii; Megaspeed mala výpočtový výkon prenajímať veľkým čínskym firmám.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Megaspeed hosted servers at data centers in Malaysia and Indonesia—then rented out compute power to major Chinese companies.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Aivres uviedla, že dodržiava americké exportné pravidlá.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "A spokesperson for Aivres said in a statement that the company complies with all US export controls.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V roku 2025 ministerstvo obchodu rozšírilo pravidlá tak, aby obmedzenia zasiahli aj firmy väčšinovo vlastnené subjektmi na sankčných zoznamoch.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "In September 2025, the Commerce Department’s Bureau of Industry and Security started aggressively using the so-called affiliates rule, which automatically extends trade restrictions to any company that is 50 percent owned by a company already on the US entity list",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Čína následne pozastavila vývoz vzácnych zemín do USA a vo Washingtone sa objavila kritika, že krok vyvolal obchodnú vojnu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "prompted immediate retaliation by China, which suspended exports of critical rare earth metals to the US and, the sources said, prompted a wave of internal criticism accusing the Commerce Department of having sparked a trade war.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Po rokovaní Trumpa a čínskeho prezidenta Si Ťin-pchinga na konci októbra 2025 Biely dom nariadil pozastaviť uplatňovanie tohto pravidla a nové kontroly vopred schvaľovať.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "After the Busan summit at the end of October 2025, where Trump and Chinese president Xi Jinping agreed to a trade truce, the White House instructed Commerce to halt the use of the affiliates rule and clear new export controls in advance",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Predstavenstvo Nvidie vytvorilo výbor pre národnú bezpečnosť a kontrolu exportu, ktorý sa má stretávať najmenej raz za štvrťrok.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Nvidia's board has created a national security and export control committee... It will meet at least quarterly.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výbor bude dohliadať na dodržiavanie pravidiel a obchodné riziká; každodenné tímy pre bezpečnosť a súlad s predpismi mu budú podávať správy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "will monitor Nvidia's national security policies, export compliance, and global trade risks... Nvidia's existing National Security and Global Trade Compliance teams will report on day-to-day operations directly to this new committee",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Americká Komisia pre cenné papiere a burzy (SEC) začína občianskoprávne preverovanie, či Nvidia nezavádzala investorov vo svojich zverejneniach.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The Securities and Exchange Commission is opening a civil probe into Nvidia over whether the company’s disclosures misled investors",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Akcie firmy od odchodu Jensena Huanga klesli o viac než 10 percent",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "a market that has seen its stock fall more than 10% since Huang departed.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tržby Nvidie dosiahli 115,8 miliardy dolárov, čo bolo o 103 percent viac než pred rokom.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The chipmaker reported revenue of $115.8 billion, up 103% from a year ago.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vyšetrovanie Megaspeedu ministerstvo obchodu vedie od konca roka 2024.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The Commerce Department has been investigating Megaspeed since late 2024",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "na ktoré sa",
+        "opravene": "na, ktoré sa",
+        "dovod": "LanguageTool: Dajte čiarku pred „ktorý“: \", ktoré\".",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "LanguageTool"
+      }
+    ],
+    "podozrive": [],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -11 +11 @@\n-Podľa WIRED sa minister financií Scott Bessent pýtal Lutnicka, prečo Megaspeed nebola skôr zaradená na americký zoznam subjektov, na ktoré sa vzťahujú exportné obmedzenia. Lutnick mal odpovedať, že sa bude riadiť Trumpovým rozhodnutím. Prezident podľa zdrojov namiesto okamžitého zaradenia firmy zvolil prípravu dočasného pravidla, ktoré by obmedzilo prenajímanie výpočtového výkonu čínskym laboratóriám cez dátové centrá v zahraničí.\n+Podľa WIRED sa minister financií Scott Bessent pýtal Lutnicka, prečo Megaspeed nebola skôr zaradená na americký zoznam subjektov, na, ktoré sa vzťahujú exportné obmedzenia. Lutnick mal odpovedať, že sa bude riadiť Trumpovým rozhodnutím. Prezident podľa zdrojov namiesto okamžitého zaradenia firmy zvolil prípravu dočasného pravidla, ktoré by obmedzilo prenajímanie výpočtového výkonu čínskym laboratóriám cez dátové centrá v zahraničí."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/CUDA_Cores_and_Memory_Bandwidth_per_USD_for_RTX_30-series.png/1280px-CUDA_Cores_and_Memory_Bandwidth_per_USD_for_RTX_30-series.png",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://image.theregister.com/?imageId=242719&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6af7b8ab85c9940326d23123/191:100/w_1280,c_limit/Nvidia-Fiasco-Has-Lutnick-Under-the-Gun-Politics-2201139059.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6af7b8ab85c9940326d23123/master/pass/Nvidia-Fiasco-Has-Lutnick-Under-the-Gun-Politics-2201139059.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2025/04/RebeccaBellan_default-large-1-e1787760589727.jpg?w=147",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Rebecca Bellan",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "NVIDIA CEO Jensen Huang",
+        "popisok": "TOKYO, JAPAN - JULY 16: NVIDIA Corp. CEO Jensen Huang speaks during a joint press conference with representatives of Fujitsu Ltd., FANUC Corp., YASKAWA Electric Corp. and Kawasaki Heavy Industries Ltd. on July 16, 2026, in Tokyo, Japan. The companies announced plans to explore business opportunities in physical AI in collaboration with the robotics industry, as well as to develop a collaborative control platform that bridges the digital and physical worlds by integrating NVIDIA's open physical AI technologies. (Photo by Tomohiro Ohsumi/Getty Images)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "Nvidia RTX 3080 GPU",
+      "server rack",
+      "data center server"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/CUDA_Cores_and_Memory_Bandwidth_per_USD_for_RTX_30-series.png/1280px-CUDA_Cores_and_Memory_Bandwidth_per_USD_for_RTX_30-series.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/CUDA_Cores_and_Memory_Bandwidth_per_USD_for_RTX_30-series.png/1280px-CUDA_Cores_and_Memory_Bandwidth_per_USD_for_RTX_30-series.png",
+        "nazov": "CUDA Cores and Memory Bandwidth per USD for RTX 30-series.png",
+        "autor": "WikiEwout",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:CUDA_Cores_and_Memory_Bandwidth_per_USD_for_RTX_30-series.png",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia RTX 3080 GPU"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Le_torrette_con_i_bocchettoni_per_il_raffreddamento_ad_aria_dei_server_in_un_data_center_attivo_dal_2015.jpg/1280px-Le_torrette_con_i_bocchettoni_per_il_raffreddamento_ad_aria_dei_server_in_un_data_center_attivo_dal_2015.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Le_torrette_con_i_bocchettoni_per_il_raffreddamento_ad_aria_dei_server_in_un_data_center_attivo_dal_2015.jpg/1280px-Le_torrette_con_i_bocchettoni_per_il_raffreddamento_ad_aria_dei_server_in_un_data_center_attivo_dal_2015.jpg",
+        "nazov": "Le torrette con i bocchettoni per il raffreddamento ad aria dei server in un data center attivo dal 2015.jpg",
+        "autor": "Lapalmauz",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Le_torrette_con_i_bocchettoni_per_il_raffreddamento_ad_aria_dei_server_in_un_data_center_attivo_dal_2015.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center server"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg/1280px-Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg/1280px-Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg",
+        "nazov": "Rack of Cisco Hyperflex HXAF 240c M5 nodes.jpg",
+        "autor": "Btrs",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/BalticServers_data_center.jpg/1280px-BalticServers_data_center.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/BalticServers_data_center.jpg/1280px-BalticServers_data_center.jpg",
+        "nazov": "BalticServers data center.jpg",
+        "autor": "BalticServers.com",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center server"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/EFTA00002522_-_Cluttered_server_rack_filled_with_colorful_cables_and_networking_equipment.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/5/57/EFTA00002522_-_Cluttered_server_rack_filled_with_colorful_cables_and_networking_equipment.jpg",
+        "nazov": "EFTA00002522 - Cluttered server rack filled with colorful cables and networking equipment.jpg",
+        "autor": "Federal Bureau of Investigation",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:EFTA00002522_-_Cluttered_server_rack_filled_with_colorful_cables_and_networking_equipment.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/DALL%C2%B7E_2025-01-31_21.58.22_-_A_realistic_image_of_the_interior_of_a_modern_data_center._The_scene_features_long_rows_of_tall%2C_sleek_server_racks_filled_with_blinking_LED_lights._T.webp",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/4/49/DALL%C2%B7E_2025-01-31_21.58.22_-_A_realistic_image_of_the_interior_of_a_modern_data_center._The_scene_features_long_rows_of_tall%2C_sleek_server_racks_filled_with_blinking_LED_lights._T.webp",
+        "nazov": "DALL·E 2025-01-31 21.58.22 - A realistic image of the interior of a modern data center. The scene features long rows of tall, sleek server racks filled with blinking LED lights. T.webp",
+        "autor": "Cbrasil0",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:DALL%C2%B7E_2025-01-31_21.58.22_-_A_realistic_image_of_the_interior_of_a_modern_data_center._The_scene_features_long_rows_of_tall,_sleek_server_racks_filled_with_blinking_LED_lights._T.webp",
+        "povod": "wikimedia",
+        "dopyt": "data center server"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Door_of_Rack_Server_Cabinet_Fujitsu_Primecenter.jpg/1280px-Door_of_Rack_Server_Cabinet_Fujitsu_Primecenter.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Door_of_Rack_Server_Cabinet_Fujitsu_Primecenter.jpg/1280px-Door_of_Rack_Server_Cabinet_Fujitsu_Primecenter.jpg",
+        "nazov": "Door of Rack Server Cabinet Fujitsu Primecenter.jpg",
+        "autor": "Trique303",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Door_of_Rack_Server_Cabinet_Fujitsu_Primecenter.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic editorial illustration of an AI chip at the center of a crossroads between the United States and China, with abstract data-center clouds and no logos or real people."
+  },
+  "prompt_ilustracie": "A symbolic editorial illustration of an AI chip at the center of a crossroads between the United States and China, with abstract data-center clouds and no logos or real people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/4989f6e068ee9dee8449888e162c2fd7",
+  "text_agentov": {
+    "titulok": "Trump chce zachovať časť predaja čipov Nvidia do Číny",
+    "perex": "Washington rieši, ako obmedziť prístup čínskych firiem k výpočtovému výkonu amerických čipov bez toho, aby prerušil obchod s Čínou. Súčasne čelí Nvidia aj vyšetrovaniu a tlaku na prísnejší dohľad nad exportom.",
+    "telo": "Administratíva Donalda Trumpa zvažuje, ako zabrániť čínskym firmám v nepriamom prístupe k pokročilým čipom Nvidia, no prezident nechce zastaviť všetok predaj do Číny. Podľa zdrojov portálu WIRED Trump obhajoval ministra obchodu Howarda Lutnicka, ktorý čelil kritike za pomalé zavedenie obmedzení voči firme Megaspeed.\n\nMegaspeed je podozrivá z toho, že sprostredkovala prístup čínskym spoločnostiam k čipom Nvidia cez dátové centrá v juhovýchodnej Ázii. Tvrdenia o porušení pravidiel sú predmetom vyšetrovania, nie preukázaným záverom.\n\n## Sporný prístup k obmedzeniam\n\nPodľa WIRED sa minister financií Scott Bessent pýtal Lutnicka, prečo Megaspeed nebola skôr zaradená na americký zoznam subjektov, na, ktoré sa vzťahujú exportné obmedzenia. Lutnick mal odpovedať, že sa bude riadiť Trumpovým rozhodnutím. Prezident podľa zdrojov namiesto okamžitého zaradenia firmy zvolil prípravu dočasného pravidla, ktoré by obmedzilo prenajímanie výpočtového výkonu čínskym laboratóriám cez dátové centrá v zahraničí.\n\nTrump podľa WIRED tvrdil, že odklad pomohol predísť konfliktu s Čínou a podporiť dobré vzťahy. Zároveň má podľa predstaviteľa Bieleho domu trvať na tom, aby čínske firmy nezískali najnovšie čipy Nvidia Blackwell a Rubin. Megaspeed podľa článku získavala čipy H200, ktoré patria k predchádzajúcej generácii Hopper.\n\n## Čipy zostali mimo Číny, výkon nie\n\nWIRED uvádza, že čínska spoločnosť Inspur mala väzbu na Megaspeed cez dcérsku firmu Aivres so sídlom v Kalifornii. Tá mohla nakupovať čipy, ktoré podliehali obmedzeniam, a podľa zdrojov previedla Megaspeed miliardy dolárov v čipoch vrátane H200. Fyzické servery následne prevádzkovali dátové centrá v Malajzii a Indonézii; Megaspeed mala výpočtový výkon prenajímať veľkým čínskym firmám. Aivres uviedla, že dodržiava americké exportné pravidlá.\n\nLutnickov opatrný postup podľa zdrojov súvisel aj s predchádzajúcou skúsenosťou. V roku 2025 ministerstvo obchodu rozšírilo pravidlá tak, aby obmedzenia zasiahli aj firmy väčšinovo vlastnené subjektmi na sankčných zoznamoch. Čína následne pozastavila vývoz vzácnych zemín do USA a vo Washingtone sa objavila kritika, že krok vyvolal obchodnú vojnu. Po rokovaní Trumpa a čínskeho prezidenta Si Ťin-pchinga na konci októbra 2025 Biely dom podľa WIRED nariadil pozastaviť uplatňovanie tohto pravidla a nové kontroly vopred schvaľovať.\n\n## Následky pre Nvidiu\n\nSúčasne sa sprísňuje dohľad nad samotnou Nvidiou. The Register informoval, že jej predstavenstvo vytvorilo výbor pre národnú bezpečnosť a kontrolu exportu, ktorý sa má stretávať najmenej raz za štvrťrok. Bude dohliadať na dodržiavanie pravidiel a obchodné riziká; každodenné tímy pre bezpečnosť a súlad s predpismi mu budú podávať správy.\n\nTechCrunch s odvolaním sa na The Wall Street Journal napísal, že americká Komisia pre cenné papiere a burzy (SEC) začína občianskoprávne preverovanie, či Nvidia nezavádzala investorov vo svojich zverejneniach. Zároveň uviedol, že akcie firmy od odchodu Jensena Huanga klesli o viac než 10 percent a jej tržby dosiahli 115,8 miliardy dolárov, čo bolo o 103 percent viac než pred rokom. Vyšetrovanie Megaspeedu podľa článku ministerstvo obchodu vedie od konca roka 2024."
+  }
+}
