@@ -17,3 +17,8 @@ export const GPT_IMAGE = {
   vystupnaSirka: 1280,
   vystupnaVyska: 720,
 };
+
+export const KLEIN = {
+  id: 'black-forest-labs/FLUX-2-klein-4b',
+  nazov: 'FLUX.2 [klein] 4B',
+};
