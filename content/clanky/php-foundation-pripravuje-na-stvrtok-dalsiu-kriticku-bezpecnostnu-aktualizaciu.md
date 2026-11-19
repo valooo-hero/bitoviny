@@ -3,23 +3,24 @@ title: PHP Foundation pripravuje na štvrtok ďalšiu kritickú bezpečnostnú a
 perex: Vydanie má obsahovať opravy chýb označených ako kritické, hoci podľa nadácie vyžadujú nezvyčajné nastavenia alebo konfiguráciu. Jedna z nich umožňuje vzdialené spustenie kódu.
 sekcia: bezpecnost
 tagy:
-- PHP
-- kyberbezpečnosť
-- zraniteľnosti
-publikovane: '2026-11-19T04:39:10+00:00'
+  - PHP
+  - kyberbezpečnosť
+  - zraniteľnosti
+publikovane: 2026-11-19T04:39:10+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/php-foundation-pripravuje-na-stvrtok-dalsiu-kriticku-bezpecnostnu-aktualizaciu-mwnca28f.jpg
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'The Register: Get ready for another critical PHP security release to drop'
-  url: https://www.theregister.com/patches/2026/11/18/get-ready-for-another-critical-php-security-release-to-drop/5310911
+  - nazov: "The Register: Get ready for another critical PHP security release to drop"
+    url: https://www.theregister.com/patches/2026/11/18/get-ready-for-another-critical-php-security-release-to-drop/5310911
 ---
 
 PHP Foundation plánuje vydať ďalšiu bezpečnostnú aktualizáciu vo štvrtok medzi 14:00 a 14:30 UTC. Nadácia v upozornení zverejnenom v stredu označila najzávažnejšie chyby v pripravovanom vydaní za kritické a vyzvala používateľov PHP, aby boli pripravení aktualizovať bez zbytočného odkladu. Podrobnosti o väčšine zraniteľností zatiaľ nezverejnila.
