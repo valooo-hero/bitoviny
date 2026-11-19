@@ -3,11 +3,11 @@ title: Nvidia vykázala tržby 115,8 miliardy dolárov, platforma Vera Rubin pri
 perex: Výrobca čipov dosiahol v treťom štvrťroku fiškálneho roka 2027 rekordné tržby aj zisk. Zároveň zvýšil záväzky voči dodávateľom a očakáva ďalší rast dopytu po AI infraštruktúre.
 sekcia: biznis
 tagy:
-- Nvidia
-- finančné výsledky
-- AI
-- čipy
-publikovane: '2026-11-19T04:39:14+00:00'
+  - Nvidia
+  - finančné výsledky
+  - AI
+  - čipy
+publikovane: 2026-11-19T04:39:14+00:00
 obrazok:
   src: /obrazky/zastupny.jpg
   alt: Zástupný obrázok, čaká na výber editora
@@ -19,10 +19,10 @@ redaktori:
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Tom''s Hardware: Nvidia''s revenue hits $115.8 billion as Vera Rubin generates $20 billion in another record-setting quarter'
-  url: https://www.tomshardware.com/pc-components/gpus/nvidias-revenue-hits-usd115-8-billion-as-vera-rubin-generates-usd20-billion-in-another-record-setting-quarter-commitments-increase-to-usd390-billion-fy28-forecast-raised
-- nazov: 'The Verge: Nvidia’s rise, visualized'
-  url: https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang
+  - nazov: "Tom's Hardware: Nvidia's revenue hits $115.8 billion as Vera Rubin generates $20 billion in another record-setting quarter"
+    url: https://www.tomshardware.com/pc-components/gpus/nvidias-revenue-hits-usd115-8-billion-as-vera-rubin-generates-usd20-billion-in-another-record-setting-quarter-commitments-increase-to-usd390-billion-fy28-forecast-raised
+  - nazov: "The Verge: Nvidia’s rise, visualized"
+    url: https://www.theverge.com/tech/1035924/nvidia-visualized-revenue-profit-earnings-after-huang
 ---
 
 Nvidia v treťom štvrťroku fiškálneho roka 2027 dosiahla tržby 115,844 miliardy dolárov. Medziročne vzrástli o 103 percenta a oproti predchádzajúcemu štvrťroku o 20 percenta. Čistý zisk dosiahol 65,287 miliardy dolárov, čo je o 105 percent viac než pred rokom.
@@ -35,7 +35,7 @@ Najväčším zdrojom príjmov bola divízia dátových centier. Vykázala tržb
 
 Platforma Vera Rubin v prvom štvrťroku produkčných dodávok priniesla takmer 20 miliárd dolárov. Nvidia ju označila za najrýchlejšie uvádzaný produkt vo svojej histórii. Podľa firmy zákazníci spustili systémy Vera Rubin do produkcie približne za mesiac, dvakrát rýchlejšie než pri predchádzajúcej generácii Grace Blackwell. Nvidia zároveň uviedla silný záujem o samostatné procesory Vera a pokračujúci rast predaja Blackwell Ultra.
 
-Kress na hovore povedala, že firma očakáva viac než zdvojnásobenie celkových tržieb z procesorov vo fiškálnom roku 2028. Nvidia zároveň zvýšila odhad rastu tržieb na tento rok z približne 70 na 75 percent, pričom ako dôvody uviedla dopyt a očakávané rozšírenie výrobných kapacít.
+Kress na hovore povedala, že firma očakáva viac než zdvojnásobenie celkových tržieb z procesorov vo fiškálnom roku 2028. Nvidia zároveň zvýšila odhad rastu tržieb na fiškálny rok 2028 z približne 70 na 75 percent, pričom ako dôvody uviedla dopyt a očakávané rozšírenie výrobných kapacít.
 
 ## Záväzky voči dodávateľom stúpli
 
