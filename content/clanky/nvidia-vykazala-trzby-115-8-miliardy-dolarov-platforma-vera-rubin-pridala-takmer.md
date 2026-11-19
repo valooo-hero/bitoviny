@@ -7,7 +7,7 @@ tagy:
   - finančné výsledky
   - AI
   - čipy
-publikovane: 2026-11-19T04:39:14+00:00
+publikovane: 2026-11-19T09:23:33Z
 obrazok:
   src: /obrazky/nvidia-vykazala-trzby-115-8-miliardy-dolarov-platforma-vera-rubin-pridala-takmer-mwncekyu.jpg
   alt: Nvidia
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Tom's Hardware: Nvidia's revenue hits $115.8 billion as Vera Rubin generates $20 billion in another record-setting quarter"
     url: https://www.tomshardware.com/pc-components/gpus/nvidias-revenue-hits-usd115-8-billion-as-vera-rubin-generates-usd20-billion-in-another-record-setting-quarter-commitments-increase-to-usd390-billion-fy28-forecast-raised
