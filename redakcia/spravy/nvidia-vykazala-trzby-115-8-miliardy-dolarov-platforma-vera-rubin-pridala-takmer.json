@@ -1,0 +1,595 @@
+{
+  "slug": "nvidia-vykazala-trzby-115-8-miliardy-dolarov-platforma-vera-rubin-pridala-takmer",
+  "datum_sprav": "2026-11-18",
+  "dovod_vyberu": "Nvidia dosiahla rekordný príjem 115,8 mld. USD, čo ukazuje na rastúcu dôležitosť AI infraštruktúry v EU.",
+  "poznamky_pre_editora": "Upravila som poslednú zmienku o výhľade tržieb na 130 miliárd dolárov: namiesto tvrdenia, že išlo o výhľad samotnej Nvidie, text teraz uvádza, že podľa odhadov citovaných The Verge by tržby mohli dosiahnuť túto sumu.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je celkovo veľmi spoľahlivý a drží sa zdrojových informácií. Jediným menším nedostatkom je nepresne priradený fiškálny rok pri raste odhadu tržieb.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 23,
+        "potvrdenych": 22,
+        "chyb": 1,
+        "upozorneni": 1
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 28,
+        "potvrdenych": 27,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 28,
+        "potvrdenych": 27,
+        "chyb": 1,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "factchecker",
+        "zavaznost": "chyba",
+        "text": "Nvidia zároveň zvýšila odhad rastu tržieb na tento rok z približne 70 na 75 percent, pričom ako dôvody uviedla dopyt a očakávané rozšírenie výrobných kapacít.",
+        "komentar": "[nepresne] Koncept hovorí o raste na tento rok, ale zdroj hovorí o fiškálnom roku 2028 (FY2028).",
+        "navrh_opravy": "Nvidia zároveň zvýšila odhad rastu tržieb pre fiškálny rok 2028 z približne 70 na 75 percent, pričom ako dôvody uviedla dopyt a očakávané rozšírenie výrobných kapacít."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Nvidia vykázala tržby 115,8 miliardy dolárov, platforma Vera Rubin pridala takmer 20 miliárd",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The company reported revenue of $115.8 billion for the third quarter of its fiscal 2027, with its latest Vera Rubin platform generating $20 billion.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "v treťom štvrťroku fiškálneho roka 2027 dosiahla tržby 115,844 miliardy dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "For the third quarter of fiscal 2027, which ended on October 25, 2026, Nvidia posted revenue of $115.844 billion",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Medziročne vzrástli o 103 percent a oproti predchádzajúcemu štvrťroku o 20 percent.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "an increase of 20% sequentially and 103% year-over-year.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Čistý zisk dosiahol 65,287 miliardy dolárov, čo je o 105 percent viac než pred rokom.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The company's net income reached $65.287 billion, up 105% from the same quarter last year",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výsledky zverejnila po odchode spoluzakladateľa a dlhoročného šéfa Jensena Huanga.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "For the first time in its 33-year history, Nvidia on Tuesday reported quarterly financial results without Jensen Huang at its helm",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Firmu teraz vedie dočasná výkonná riaditeľka a finančná riaditeľka Colette Kress.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Colette Kress, interim chief executive and chief financial officer of Nvidia",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa portálu The Verge na hovore k výsledkom odkázala, že z pohľadu podnikania pokračuje „všetko ako zvyčajne“.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Asked how things might change under new management, she suggested that they wouldn’t: “From a business perspective, it’s business as usual,” she said.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vykázala tržby 107,6 miliardy dolárov, približne 93 percent celkových tržieb Nvidie.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "generated $107.6 billion in revenue (and accounted for approximately 93% of the company's sales)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Medziročne sa zvýšili o 110 percent.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "up 21% sequentially and 110% YoY.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zákazníci z radov veľkých cloudových spoločností priniesli 60,1 miliardy dolárov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Hyperscale customers accounted for $60.1 billion",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "ďalších 47,5 miliardy pochádzalo od poskytovateľov AI cloudu, priemyselných firiem a podnikových zákazníkov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "sales to AI Clouds, Industrial & Enterprise customers reached $47.5 billion",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Platforma Vera Rubin v prvom štvrťroku produkčných dodávok priniesla takmer 20 miliárd dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "generated nearly $20 billion in revenue in its first quarter of production shipments",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nvidia ju označila za najrýchlejšie uvádzaný produkt vo svojej histórii.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "which Nvidia described as the fastest product ramp in its history.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa firmy zákazníci spustili systémy Vera Rubin do produkcie približne za mesiac, dvakrát rýchlejšie než pri predchádzajúcej generácii Grace Blackwell.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "its hyperscale partners brought Vera Rubin systems into production in approximately one month, which is two times faster than the previous-generation Grace Blackwell platform.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nvidia zároveň uviedla silný záujem o samostatné procesory Vera a pokračujúci rast predaja Blackwell Ultra.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The company also reported strong demand for standalone Vera CPUs and continued sales growth for Blackwell Ultra.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kress na hovore povedala, že firma očakáva viac než zdvojnásobenie celkových tržieb z procesorov v fiškálnom roku 2028.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "expect total CPU revenue to more than double in FY2028.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nvidia zároveň zvýšila odhad rastu tržieb na tento rok z približne 70 na 75 percent, pričom ako dôvody uviedla dopyt a očakávané rozšírenie výrobných kapacít.",
+        "typ": "cislo",
+        "verdikt": "nepresne",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The company raised its revenue growth forecast for FY2028 from approximately 70% to 75% due to stronger demand and additional manufacturing capacity",
+        "komentar": "Koncept hovorí o raste na tento rok, ale zdroj hovorí o fiškálnom roku 2028 (FY2028).",
+        "navrh_opravy": "Nvidia zároveň zvýšila odhad rastu tržieb pre fiškálny rok 2028 z približne 70 na 75 percent, pričom ako dôvody uviedla dopyt a očakávané rozšírenie výrobných kapacít."
+      },
+      {
+        "text": "Záväzky Nvidie na zabezpečenie dodávok a výrobných kapacít dosiahli na konci štvrťroka 390 miliárd dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The company's supply and capacity commitments reached $390 billion at the end of Q3 FY2027",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "O tri mesiace skôr predstavovali 279 miliárd.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "compared with $279 billion three months earlier",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa Tom’s Hardware za nárastom stoja najmä viacročné dohody o nákupe pamätí.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Nvidia attributed the latest increase primarily to multiyear memory procurement agreements.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nvidia očakáva, že záväzky splní postupne: 69 miliárd dolárov vo zvyšku fiškálneho roka 2027 a 203 miliárd vo fiškálnom roku 2028.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The company expects to fulfill $69 billion of these commitments during the remainder of FY2027..., followed by $203 billion in FY2028",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Firma uzatvorila aj nové partnerstvá týkajúce sa substrátov a pokročilého balenia čipov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "announced new partnerships with Samsung Electro-Mechanics and Kinsus for substrates, as well as SPIL for advanced packaging.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kress uviedla, že dopyt stále prevyšuje dostupnú ponuku a Nvidia spolupracuje s výrobnými partnermi na jej rozšírení.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "demand for Nvidia's products continues to exceed available supply, prompting the company to work with manufacturing partners to expand production capacity.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Hrubá marža v štvrťroku dosiahla 74,8 percenta.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "while gross margin hit 74.8%.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nvidia však očakáva, že v nasledujúcom štvrťroku klesne na 71 až 72 percent, keďže firma podľa Tom’s Hardware zatiaľ absorbuje vyššie náklady na komponenty a výrobu, aby dodržala existujúce objednávky a ceny.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "expects its GAAP gross margin to decline from 74.8% in Q3 FY2027 to 71% – 72% in Q4, which it considers the bottom of the current margin cycle.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pre fiškálny rok 2028 plánuje upraviť ceny a očakáva návrat marže na 72 až 73 percent.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "plans to introduce revised pricing in FY2028... when the company expects gross margins to recover to 72% – 73% next fiscal year",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Verge uvádza, že podľa odhadov by tržby v ďalšom štvrťroku mohli dosiahnuť 130 miliárd dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Nvidia claims it’ll rake in even more money next quarter, with projected revenue of $130 billion.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kress zároveň prisľúbila, že spoločnosť chce akcionárom vrátiť voľný peňažný tok, ktorý nevyužije na strategické účely.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "“Going forward, we intend to return all excess free cash flow net of strategic uses to shareholders,” she announced.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "o 103 percent a",
+        "opravene": "o 103 percenta a",
+        "dovod": "genitív po číslovke",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "o 20 percent.",
+        "opravene": "o 20 percenta.",
+        "dovod": "genitív po číslovke",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "o 105 percent viac",
+        "opravene": "o 105 percent viac",
+        "dovod": "tvar je správny, bez úpravy",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "v fiškálnom roku 2028.",
+        "opravene": "vo fiškálnom roku 2028.",
+        "dovod": "vokalizácia predložky",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "e z pohľadu podnikania pokračuje „všetko ako zvyčajne“.\n\n## Dátové centrá tvoria väč",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cloudových",
+        "kontext": " 110 percent. Zákazníci z radov veľkých cloudových spoločností priniesli 60,1 miliardy dol",
+        "navrhy": [
+          "chodových",
+          "clonových",
+          "loďových"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cloudu",
+        "kontext": "iliardy pochádzalo od poskytovateľov AI cloudu, priemyselných firiem a podnikových zák",
+        "navrhy": [
+          "clou du"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "rok z približne 70 na 75 percent, pričom ako dôvody uviedla dopyt a očakávané rozšír",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "marže",
+        "kontext": "8 plánuje upraviť ceny a očakáva návrat marže na 72 až 73 percent.\n\nThe Verge uvádza,",
+        "navrhy": [
+          "Mare",
+          "Marie",
+          "Marne"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -5 +5 @@\n-Nvidia v treťom štvrťroku fiškálneho roka 2027 dosiahla tržby 115,844 miliardy dolárov. Medziročne vzrástli o 103 percent a oproti predchádzajúcemu štvrťroku o 20 percent. Čistý zisk dosiahol 65,287 miliardy dolárov, čo je o 105 percent viac než pred rokom.\n+Nvidia v treťom štvrťroku fiškálneho roka 2027 dosiahla tržby 115,844 miliardy dolárov. Medziročne vzrástli o 103 percenta a oproti predchádzajúcemu štvrťroku o 20 percenta. Čistý zisk dosiahol 65,287 miliardy dolárov, čo je o 105 percent viac než pred rokom.\n@@ -15 +15 @@\n-Kress na hovore povedala, že firma očakáva viac než zdvojnásobenie celkových tržieb z procesorov v fiškálnom roku 2028. Nvidia zároveň zvýšila odhad rastu tržieb na tento rok z približne 70 na 75 percent, pričom ako dôvody uviedla dopyt a očakávané rozšírenie výrobných kapacít.\n+Kress na hovore povedala, že firma očakáva viac než zdvojnásobenie celkových tržieb z procesorov vo fiškálnom roku 2028. Nvidia zároveň zvýšila odhad rastu tržieb na tento rok z približne 70 na 75 percent, pričom ako dôvody uviedla dopyt a očakávané rozšírenie výrobných kapacít."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "povodny",
+      "url": "https://cdn.mos.cms.futurecdn.net/Kjestg9jiuvnbE868dhwjf-1920-80.jpg",
+      "poznamka": "Pravdepodobne tlačový materiál. Editor musí potvrdiť pôvod."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/Kjestg9jiuvnbE868dhwjf-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Nvidia",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (Nvidia): pravdepodobne tlačový materiál."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/5xZs8XRh7RnVA4Uv3Eus4j-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Nvidia",
+        "popisok": "",
+        "kredit": "(Image credit: Nvidia)",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (Nvidia): pravdepodobne tlačový materiál."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/ECk933JbM6o3pUvJW8idzi-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Nvidia",
+        "popisok": "",
+        "kredit": "(Image credit: Nvidia)",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (Nvidia): pravdepodobne tlačový materiál."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/tZDm8VD6AFzRhBinAey44j-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Nvidia",
+        "popisok": "",
+        "kredit": "(Image credit: Nvidia)",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (Nvidia): pravdepodobne tlačový materiál."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/nsL6mvfY975sBZGYWaUQti-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Nvidia",
+        "popisok": "Nvidia",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/How8NbyrVRgsnmxGdMkBsi-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Nvidia",
+        "popisok": "Nvidia",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/giZTrWXY6iVUV2GurHPKxi-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Nvidia",
+        "popisok": "Nvidia",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24002526/acastro_STK083_01.jpg?quality=90&strip=all&crop=0,10.732984293194,100,78.534031413613",
+        "zdroj_clanku": "The Verge",
+        "alt": "Nvidia’s logo.",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/nvidia-leaves-rival-chipmakers-in-the-dust.png?quality=90&strip=all&crop=0%2C5.9688214860629%2C100%2C70.971495055265&w=1200",
+        "zdroj_clanku": "The Verge",
+        "alt": "nvidia-leaves-rival-chipmakers-in-the-dust",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Nvidia GPU",
+      "AI server rack",
+      "data center server"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/NVIDIA_GPU_workstation.webp/1280px-NVIDIA_GPU_workstation.webp",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/NVIDIA_GPU_workstation.webp/1280px-NVIDIA_GPU_workstation.webp",
+        "nazov": "NVIDIA GPU workstation.webp",
+        "autor": "Wikideas1",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:NVIDIA_GPU_workstation.webp",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia GPU"
+      },
+      {
+        "url": "https://live.staticflickr.com/2590/3706444821_e124c0b6c7_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/eb921348-6dc7-49b9-bc3a-59bae8726c54/thumb/",
+        "nazov": "Tesla/NVIDIA GPU cluster",
+        "autor": "ChrisDag",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/8558461@N08/3706444821",
+        "povod": "openverse",
+        "dopyt": "Nvidia GPU"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Sparkles_Beckett_LeClair_Better_Images_of_AI.png/1280px-Sparkles_Beckett_LeClair_Better_Images_of_AI.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Sparkles_Beckett_LeClair_Better_Images_of_AI.png/1280px-Sparkles_Beckett_LeClair_Better_Images_of_AI.png",
+        "nazov": "Sparkles Beckett LeClair Better Images of AI.png",
+        "autor": "Beckett LeClair",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Sparkles_Beckett_LeClair_Better_Images_of_AI.png",
+        "povod": "wikimedia",
+        "dopyt": "AI server rack"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Sparkles_Beckett_LeClair_Better_Images_of_AI.png",
+        "nahlad": "https://api.openverse.org/v1/images/3a411dfb-cd88-47b1-bce4-e617a873b946/thumb/",
+        "nazov": "Sparkles Beckett LeClair Better Images of AI",
+        "autor": "Beckett LeClair",
+        "licencia": "BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=182489025",
+        "povod": "openverse",
+        "dopyt": "AI server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Le_torrette_con_i_bocchettoni_per_il_raffreddamento_ad_aria_dei_server_in_un_data_center_attivo_dal_2015.jpg/1280px-Le_torrette_con_i_bocchettoni_per_il_raffreddamento_ad_aria_dei_server_in_un_data_center_attivo_dal_2015.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Le_torrette_con_i_bocchettoni_per_il_raffreddamento_ad_aria_dei_server_in_un_data_center_attivo_dal_2015.jpg/1280px-Le_torrette_con_i_bocchettoni_per_il_raffreddamento_ad_aria_dei_server_in_un_data_center_attivo_dal_2015.jpg",
+        "nazov": "Le torrette con i bocchettoni per il raffreddamento ad aria dei server in un data center attivo dal 2015.jpg",
+        "autor": "Lapalmauz",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Le_torrette_con_i_bocchettoni_per_il_raffreddamento_ad_aria_dei_server_in_un_data_center_attivo_dal_2015.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center server"
+      },
+      {
+        "url": "https://live.staticflickr.com/5512/11387262366_0e6dd08fb7_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/2f51a346-829f-4cc7-924e-10eb70f096f1/thumb/",
+        "nazov": "Data Center Servers",
+        "autor": "Cory M. Grenier",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/26087974@N05/11387262366",
+        "povod": "openverse",
+        "dopyt": "data center server"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/NVIDIA_GPU_workstation_2.webp/1280px-NVIDIA_GPU_workstation_2.webp",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/NVIDIA_GPU_workstation_2.webp/1280px-NVIDIA_GPU_workstation_2.webp",
+        "nazov": "NVIDIA GPU workstation 2.webp",
+        "autor": "Wikideas1",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:NVIDIA_GPU_workstation_2.webp",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia GPU"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/NVIDIA_GPU_Accelerator_Block_Diagram.png",
+        "nahlad": "https://api.openverse.org/v1/images/9393f53a-fc85-4b05-9aca-c2fd27462d59/thumb/",
+        "nazov": "NVIDIA GPU Accelerator Block Diagram",
+        "autor": "Mmanss",
+        "licencia": "BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=30034444",
+        "povod": "openverse",
+        "dopyt": "Nvidia GPU"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic editorial illustration of a towering semiconductor chip surrounded by rising revenue bars and abstract AI data center lights, without logos or real people."
+  },
+  "prompt_ilustracie": "A symbolic editorial illustration of a towering semiconductor chip surrounded by rising revenue bars and abstract AI data center lights, without logos or real people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/a84869bedb23b246dc754674f5a16d9a",
+  "text_agentov": {
+    "titulok": "Nvidia vykázala tržby 115,8 miliardy dolárov, platforma Vera Rubin pridala takmer 20 miliárd",
+    "perex": "Výrobca čipov dosiahol v treťom štvrťroku fiškálneho roka 2027 rekordné tržby aj zisk. Zároveň zvýšil záväzky voči dodávateľom a očakáva ďalší rast dopytu po AI infraštruktúre.",
+    "telo": "Nvidia v treťom štvrťroku fiškálneho roka 2027 dosiahla tržby 115,844 miliardy dolárov. Medziročne vzrástli o 103 percenta a oproti predchádzajúcemu štvrťroku o 20 percenta. Čistý zisk dosiahol 65,287 miliardy dolárov, čo je o 105 percent viac než pred rokom.\n\nVýsledky zverejnila po odchode spoluzakladateľa a dlhoročného šéfa Jensena Huanga. Firmu teraz vedie dočasná výkonná riaditeľka a finančná riaditeľka Colette Kress. Podľa portálu The Verge na hovore k výsledkom odkázala, že z pohľadu podnikania pokračuje „všetko ako zvyčajne“.\n\n## Dátové centrá tvoria väčšinu tržieb\n\nNajväčším zdrojom príjmov bola divízia dátových centier. Vykázala tržby 107,6 miliardy dolárov, približne 93 percent celkových tržieb Nvidie. Medziročne sa zvýšili o 110 percent. Zákazníci z radov veľkých cloudových spoločností priniesli 60,1 miliardy dolárov; ďalších 47,5 miliardy pochádzalo od poskytovateľov AI cloudu, priemyselných firiem a podnikových zákazníkov.\n\nPlatforma Vera Rubin v prvom štvrťroku produkčných dodávok priniesla takmer 20 miliárd dolárov. Nvidia ju označila za najrýchlejšie uvádzaný produkt vo svojej histórii. Podľa firmy zákazníci spustili systémy Vera Rubin do produkcie približne za mesiac, dvakrát rýchlejšie než pri predchádzajúcej generácii Grace Blackwell. Nvidia zároveň uviedla silný záujem o samostatné procesory Vera a pokračujúci rast predaja Blackwell Ultra.\n\nKress na hovore povedala, že firma očakáva viac než zdvojnásobenie celkových tržieb z procesorov vo fiškálnom roku 2028. Nvidia zároveň zvýšila odhad rastu tržieb na tento rok z približne 70 na 75 percent, pričom ako dôvody uviedla dopyt a očakávané rozšírenie výrobných kapacít.\n\n## Záväzky voči dodávateľom stúpli\n\nZáväzky Nvidie na zabezpečenie dodávok a výrobných kapacít dosiahli na konci štvrťroka 390 miliárd dolárov. O tri mesiace skôr predstavovali 279 miliárd. Podľa Tom’s Hardware za nárastom stoja najmä viacročné dohody o nákupe pamätí. Nvidia očakáva, že záväzky splní postupne: 69 miliárd dolárov vo zvyšku fiškálneho roka 2027 a 203 miliárd vo fiškálnom roku 2028.\n\nFirma uzatvorila aj nové partnerstvá týkajúce sa substrátov a pokročilého balenia čipov. Kress uviedla, že dopyt stále prevyšuje dostupnú ponuku a Nvidia spolupracuje s výrobnými partnermi na jej rozšírení.\n\n## Marže majú krátkodobo klesnúť\n\nHrubá marža v štvrťroku dosiahla 74,8 percenta. Nvidia však očakáva, že v nasledujúcom štvrťroku klesne na 71 až 72 percent, keďže firma podľa Tom’s Hardware zatiaľ absorbuje vyššie náklady na komponenty a výrobu, aby dodržala existujúce objednávky a ceny. Pre fiškálny rok 2028 plánuje upraviť ceny a očakáva návrat marže na 72 až 73 percent.\n\nThe Verge uvádza, že podľa odhadov by tržby v ďalšom štvrťroku mohli dosiahnuť 130 miliárd dolárov. Kress zároveň prisľúbila, že spoločnosť chce akcionárom vrátiť voľný peňažný tok, ktorý nevyužije na strategické účely."
+  }
+}
