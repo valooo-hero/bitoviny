@@ -3,28 +3,29 @@ title: USA obmedzujú prenájom AI čipov pre čínske firmy aj v zahraničí
 perex: Nové pravidlá majú uzavrieť cestu, ktorou čínske spoločnosti využívali výkonné akcelerátory v dátových centrách mimo Číny. Peking hrozí odvetnými opatreniami a pred schôdzkou Trumpa so Si Ťin-pchingom rastie napätie.
 sekcia: ai
 tagy:
-- AI čipy
-- Nvidia
-- USA a Čína
-- exportné obmedzenia
-publikovane: '2026-11-19T04:39:06+00:00'
+  - AI čipy
+  - Nvidia
+  - USA a Čína
+  - exportné obmedzenia
+publikovane: 2026-11-19T04:39:06+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/usa-obmedzuju-prenajom-ai-cipov-pre-cinske-firmy-aj-v-zahranici-mwnc88ht.jpg
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Wired: America’s AI Chip War Is Heating Up in the Dumbest Possible Ways'
-  url: https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/
-- nazov: 'Tom''s Hardware: China threatens ''countermeasures'' in the face of new AI GPU rental and export restrictions'
-  url: https://www.tomshardware.com/pc-components/gpus/china-threatens-countermeasures-on-the-face-of-new-ai-gpu-rental-and-export-restrictions-beijing-threatens-retaliation-ahead-of-thursdays-xi-jinping-meeting-sino-american-trade-war-may-be-renewed-for-a-new-season
-- nazov: 'Wired: Even His Own Officials Don’t Think Trump’s China Trip Will Lead to Progress on AI'
-  url: https://www.wired.com/story/administration-officials-dont-think-much-ai-progress-will-come-of-trumps-china-visit/
+  - nazov: "Wired: America’s AI Chip War Is Heating Up in the Dumbest Possible Ways"
+    url: https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/
+  - nazov: "Tom's Hardware: China threatens 'countermeasures' in the face of new AI GPU rental and export restrictions"
+    url: https://www.tomshardware.com/pc-components/gpus/china-threatens-countermeasures-on-the-face-of-new-ai-gpu-rental-and-export-restrictions-beijing-threatens-retaliation-ahead-of-thursdays-xi-jinping-meeting-sino-american-trade-war-may-be-renewed-for-a-new-season
+  - nazov: "Wired: Even His Own Officials Don’t Think Trump’s China Trip Will Lead to Progress on AI"
+    url: https://www.wired.com/story/administration-officials-dont-think-much-ai-progress-will-come-of-trumps-china-visit/
 ---
 
 Administratíva Donalda Trumpa rozširuje obmedzenia na prístup čínskych firiem k výkonným americkým AI čipom. Nové pravidlá majú zasiahnuť aj prenájom výpočtového výkonu v dátových centrách mimo Číny, ktorý spoločnostiam umožňoval používať čipy bez ich fyzického dovozu. Čínske ministerstvo obchodu avizovalo odvetné kroky.
