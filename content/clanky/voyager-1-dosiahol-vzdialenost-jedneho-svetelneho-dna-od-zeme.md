@@ -7,7 +7,7 @@ tagy:
   - NASA
   - vesmír
   - medzihviezdny priestor
-publikovane: 2026-11-19T04:39:29+00:00
+publikovane: 2026-11-19T09:29:49Z
 obrazok:
   src: /obrazky/voyager-1-dosiahol-vzdialenost-jedneho-svetelneho-dna-od-zeme-mwncmlel.jpg
   alt: The Sounds of Earth Record Cover - GPN-2000-001978
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Wired: Voyager 1 Beat the Odds and Is Still Working a Light-Day Away From Earth"
     url: https://www.wired.com/story/voyager-1-beat-still-working-light-day-away/
