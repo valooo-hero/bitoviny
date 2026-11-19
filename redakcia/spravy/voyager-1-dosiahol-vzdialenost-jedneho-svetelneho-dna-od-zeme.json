@@ -1,0 +1,503 @@
+{
+  "slug": "voyager-1-dosiahol-vzdialenost-jedneho-svetelneho-dna-od-zeme",
+  "datum_sprav": "2026-11-18",
+  "dovod_vyberu": "Voyager 1 dosiahol vzdialenosť jedného svetelného dňa od Zeme, významný míľnik vesmírneho výskumu.",
+  "poznamky_pre_editora": "Nález k číslu 40 som nepovažovala za opodstatnený: Engadget výslovne uvádza, že sonda má preletieť vo vzdialenosti 1,7 svetelného roka od Gliese 445 „in 40,000 years“. Tvrdenie o približne 40-tisíc rokoch som preto ponechala bez zmeny.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne presný a všetky uvádzané faktické tvrdenia majú plnú oporu v poskytnutých anglických zdrojoch. V texte sa nenachádzajú žiadne nepresnosti, vymyslené údaje ani zavádzajúce interpretácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 23,
+        "potvrdenych": 23,
+        "chyb": 1,
+        "upozorneni": 1
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 21,
+        "potvrdenych": 21,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 28,
+        "potvrdenych": 28,
+        "chyb": 1,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_cisel",
+        "zavaznost": "chyba",
+        "text": "Číslo 40",
+        "komentar": "Číslo je v koncepte, ale v žiadnom zdroji sa nenachádza.",
+        "navrh_opravy": "Opraviť podľa zdroja alebo vypustiť. Ak ide o prepočet, uviesť to v poznámkach."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Signálu z legendárnej sondy trvá cesta k Zemi približne 24 hodín.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "a signal from the spacecraft now takes fully 24 hours to travel the distance.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Voyager 1 naďalej zbiera údaje z medzihviezdneho priestoru, hoci jeho výkon aj možnosti riadenia obmedzuje vek a vzdialenosť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "it continues sending back valuable scientific information.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Voyager 1 sa stal prvým človekom vytvoreným objektom, ktorý sa dostal do vzdialenosti jedného svetelného dňa od Zeme.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "It became the first human-made object to reach one light-day from Earth.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rádiový signál potrebuje na cestu medzi sondou a našou planétou približne 24 hodín.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "a signal from the spacecraft now takes fully 24 hours to travel the distance.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri obojsmernej komunikácii čaká tím na odpoveď zhruba dva dni.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Voyager 1 may now take two days to answer a call from Earth.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "NASA odhadla, že sonda prekročí hranicu 18. novembra o 5:16:07 východoamerického času.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "NASA expects it to have reached that milestone at 5:16:07 AM Eastern time today, November 18.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Keďže potvrdenie malo prísť až s ďalším signálom, presný čas vtedy ešte nebolo možné overiť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "NASA won't be able to confirm exactly what time it reached one light-day away until tomorrow, when the probe's message arrives.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tom’s Hardware písal, že NASA už míľnik potvrdila a Voyager hranicu minul krátko po piatej ráno.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "confirmed that Voyager cruised past the threshold at a leisurely 37,844 mph just after 5 am ET on Wednesday, November 18.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Sonda je od Zeme vzdialená približne 16 miliárd míľ, teda asi 26 miliárd kilometrov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "clocked about 16 billion miles (about 26 billion kilometers).",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Voyager 1 odštartoval v roku 1977.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "launched in September 1977",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spolu s Voyager 2 mal využiť zriedkavé usporiadanie vonkajších planét na ich prieskum.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "alongside its twin, Voyager 2—was originally intended to take advantage of a rare planetary alignment to observe the outer planets.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Voyager 1 preletel okolo Jupitera a Saturnu a zameral sa aj na Saturnov mesiac Titan.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Voyager 1 completed a flyby of Jupiter in 1979, and passed Saturn and Titan in 1980.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Voyager 1 vstúpil v roku 2012 do medzihviezdneho priestoru.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Voyager 1 reached interstellar space — that's the region between star systems — back in 2012",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kamery sondy vypli po poslednej obrazovej sekvencii z roku 1990.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Its final imaging sequence in 1990 produced the solar system \"Family Portrait,\" including the famous Pale Blue Dot image of Earth.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na palube stále pracujú dva vedecké prístroje: magnetometer a systém na meranie plazmových vĺn.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "two science instruments still operating: the magnetometer and plasma wave subsystem.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Merania prístrojov poskytujú informácie o prostredí za hranicou vplyvu Slnka.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "study how the effects of the sun ripple even into the interstellar medium—and at what point those effects wane",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Voyager 1 skúma oblasť, ktorou sa podľa Kareema Badaruddina bude naša slnečná sústava pohybovať približne o tri roky.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "they’re sending back information about the space that our own sun and planet will pass through in about three years’ time.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rádioizotopový generátor postupne stráca výkon, preto tím vypína prístroje a predlžuje životnosť systémov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "managing to make do with a dwindling power supply coming from the craft’s nuclear generators.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V septembri tím vykonal zmenu „Big Bang“, nahradil zariadenia úspornejšími a ušetril 10 wattov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "a maneuver the team dubbed the “Big Bang.” The swap, which saved the craft 10 watts of power",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Manéver odložil potrebu vypnúť ďalší prístroj, ktorá mohla nastať už nasledujúce leto.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "kept mission operations from having to switch off another instrument as early as next summer.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tvorba nových príkazov môže trvať týždeň.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Building new commands for the spacecraft is now a week-long process, for instance, since it takes time to receive data from the spacecraft",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Badaruddin odhaduje, že Voyager 1 môže fungovať ešte tri až päť rokov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Badaruddin’s best guess is that Voyager 1’s could come in the next three to five years",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Sonda smeruje k hviezde Gliese 445 v súhvezdí Malého medveďa.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "headed toward a star called Gliese 445, about 17 light-years from Earth in the Ursa Minor constellation.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "K hviezde Gliese 445 by sa mala priblížiť na 1,7 svetelného roka približne o 40-tisíc rokov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "It's expected to pass within 1.7 light-years of Gliese 445 in 40,000 years.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Po strate spojenia bude Voyager 1 pokračovať vesmírom bez toho, aby o ňom Zem dostávala údaje.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Once the craft transmits its final signal to Earth, it will still continue its silent tour of the galaxy.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Skúsenosti z misie môžu pomôcť pri plánovaní budúcich sond do medzihviezdneho priestoru.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "especially for any future such far-traveling missions, should NASA or another space agency launch one.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vedci by pri budúcich sondách mohli zvážiť prístroj na analýzu kozmického prachu alebo kamery.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "A successor to Voyager might, for instance, have new devices such as a dust instrument to better analyze the interstellar medium or cameras",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Voyager 1 zostáva zdrojom meraní, ktoré nemožno získať iba z teleskopov či observatórií na obežnej dráhe Zeme.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "We can learn from telescopes and Earth-orbiting observatories, but there's really nothing like having a spacecraft in that environment that's sending us data",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "východoamerického",
+        "kontext": "prekročí hranicu 18. novembra o 5:16:07 východoamerického času. Keďže potvrdenie malo prísť až s ",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "dvojčaťou",
+        "kontext": "dštartoval v roku 1977. Spolu so svojou dvojčaťou Voyager 2 mal využiť zriedkavé usporiad",
+        "navrhy": [
+          "dvojčaťom",
+          "dvojčaťu"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "\nAko",
+        "kontext": "eda oblasti medzi hviezdnymi sústavami.\n\nAko uvádza The Register, kamery sondy vypli",
+        "navrhy": [
+          ", Ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", Ako\"."
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "povodny",
+      "url": "https://cdn.mos.cms.futurecdn.net/LUCeJkuFK9iYbwoy3fMFfg-1920-80.jpg",
+      "poznamka": "Pravdepodobne tlačový materiál. Editor musí potvrdiť pôvod."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/LUCeJkuFK9iYbwoy3fMFfg-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "NASA",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (NASA): pravdepodobne tlačový materiál."
+      },
+      {
+        "url": "https://media.wired.com/photos/6afc240b2a6df42cc7084204/191:100/w_1280,c_limit/pia17462.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6afc240b2a6df42cc7084204/master/pass/pia17462.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/nasas-voyager-1-space-probe-is-now-one-light-day-away-from-earth/l-intro-1795002413.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/nasas-voyager-1-space-probe-is-now-one-light-day-away-from-earth/intro-1795002413.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://image.theregister.com/?imageId=249462&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Voyager 1",
+      "space probe",
+      "deep space"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg/1280px-The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg/1280px-The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg",
+        "nazov": "The Sounds of Earth Record Cover - GPN-2000-001978.jpg",
+        "autor": "NASA/JPL",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:The_Sounds_of_Earth_Record_Cover_-_GPN-2000-001978.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Voyager 1"
+      },
+      {
+        "url": "https://live.staticflickr.com/7089/27358033275_7512cf785e.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/023e4fb2-e8c6-477d-9ea5-4d735631148c/thumb/",
+        "nazov": "Europa over Jupiter - Voyager 1 - March 3 1979",
+        "autor": "Kevin M. Gill",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/53460575@N03/27358033275",
+        "povod": "openverse",
+        "dopyt": "Voyager 1"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/1280px-Space_Shuttle_Columbia_launching.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Space_Shuttle_Columbia_launching.jpg/1280px-Space_Shuttle_Columbia_launching.jpg",
+        "nazov": "Space Shuttle Columbia launching.jpg",
+        "autor": "NASA",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Space_Shuttle_Columbia_launching.jpg",
+        "povod": "wikimedia",
+        "dopyt": "space probe"
+      },
+      {
+        "url": "https://live.staticflickr.com/2656/3732043433_84bf9b8b3e_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/f567d3b0-0555-4363-b289-5fdc35388cd9/thumb/",
+        "nazov": "Satellites and Space Probes",
+        "autor": "Ryan Somma",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/14405058@N08/3732043433",
+        "povod": "openverse",
+        "dopyt": "space probe"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Webb%27s_First_Deep_Field.jpg/1280px-Webb%27s_First_Deep_Field.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Webb%27s_First_Deep_Field.jpg/1280px-Webb%27s_First_Deep_Field.jpg",
+        "nazov": "Webb's First Deep Field.jpg",
+        "autor": "NASA, ESA, CSA, and STScI",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Webb%27s_First_Deep_Field.jpg",
+        "povod": "wikimedia",
+        "dopyt": "deep space"
+      },
+      {
+        "url": "https://live.staticflickr.com/5298/5426701376_02fd2a9fa8_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/ce7ada39-9cab-41bd-a91b-f3cefa611c0b/thumb/",
+        "nazov": "iPhone Background - Deep Space",
+        "autor": "Patrick Hoesly",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/60057912@N00/5426701376",
+        "povod": "openverse",
+        "dopyt": "deep space"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Voyager_1_entering_heliosheath_region_CAT.jpg/1280px-Voyager_1_entering_heliosheath_region_CAT.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Voyager_1_entering_heliosheath_region_CAT.jpg/1280px-Voyager_1_entering_heliosheath_region_CAT.jpg",
+        "nazov": "Voyager 1 entering heliosheath region CAT.jpg",
+        "autor": "NASA/Walt Feimer",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Voyager_1_entering_heliosheath_region_CAT.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Voyager 1"
+      },
+      {
+        "url": "https://live.staticflickr.com/7816/46027301945_5cd9fcd128_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/62c8e7c5-d7ed-4ccd-9c8e-bba68854d1d7/thumb/",
+        "nazov": "Jupiter - Voyager 1",
+        "autor": "jccwrt",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/132160802@N06/46027301945",
+        "povod": "openverse",
+        "dopyt": "Voyager 1"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic illustration of a small vintage deep-space probe sending a faint radio signal toward a distant blue Earth across a vast star field, with no text and no photorealistic depiction of a real event."
+  },
+  "prompt_ilustracie": "Create a symbolic illustration of a small vintage deep-space probe sending a faint radio signal toward a distant blue Earth across a vast star field, with no text and no photorealistic depiction of a real event.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/e5d57e431d03c35e079cf4d912df0efe",
+  "text_agentov": {
+    "titulok": "Voyager 1 dosiahol vzdialenosť jedného svetelného dňa od Zeme",
+    "perex": "Signálu z legendárnej sondy trvá cesta k Zemi približne 24 hodín. Voyager 1 pritom naďalej zbiera údaje z medzihviezdneho priestoru, hoci jeho výkon aj možnosti riadenia obmedzuje vek a vzdialenosť.",
+    "telo": "## Signál putuje celý deň\n\nVoyager 1 sa stal prvým človekom vytvoreným objektom, ktorý sa dostal do vzdialenosti jedného svetelného dňa od Zeme. Znamená to, že rádiový signál potrebuje na cestu medzi sondou a našou planétou približne 24 hodín. Pri obojsmernej komunikácii tak tím čaká na odpoveď zhruba dva dni.\n\nPodľa portálu Engadget NASA odhadla, že sonda prekročí hranicu 18. novembra o 5:16:07 východoamerického času. Keďže potvrdenie malo prísť až s ďalším signálom, presný čas vtedy ešte nebolo možné overiť. Tom’s Hardware naproti tomu písal, že NASA už míľnik potvrdila, a uviedol, že Voyager hranicu minul krátko po piatej ráno. Obe správy sa zhodujú, že sonda je od Zeme vzdialená približne 16 miliárd míľ, teda asi 26 miliárd kilometrov.\n\n## Sonda prežila plánovanú misiu\n\nVoyager 1 odštartoval v roku 1977. Spolu so svojou dvojčaťou Voyager 2 mal využiť zriedkavé usporiadanie vonkajších planét na ich prieskum. Voyager 1 preletel okolo Jupitera a Saturnu a zameral sa aj na Saturnov mesiac Titan. Neskôr pokračoval ďalej a v roku 2012 vstúpil do medzihviezdneho priestoru, teda oblasti medzi hviezdnymi sústavami.\n\nAko uvádza The Register, kamery sondy vypli po poslednej obrazovej sekvencii z roku 1990. Na palube však podľa portálu stále pracujú dva vedecké prístroje: magnetometer a systém na meranie plazmových vĺn. Ich merania poskytujú výskumníkom informácie o prostredí za hranicou vplyvu Slnka. Voyager 1 zároveň skúma oblasť, ktorou sa podľa vedúceho misie Kareema Badaruddina bude naša slnečná sústava pohybovať približne o tri roky.\n\n## Riadenie na veľkú vzdialenosť\n\nVek sondy prináša technické aj organizačné výzvy. Jej rádioizotopový generátor postupne stráca výkon, preto tím vypína prístroje a hľadá spôsoby, ako predĺžiť životnosť zostávajúcich systémov. Wired píše, že v septembri tím vykonal zmenu prezývanú „Big Bang“: niektoré zariadenia nahradil úspornejšími a ušetril desať wattov. Podľa článku to odložilo potrebu vypnúť ďalší prístroj, ktorá mohla nastať už nasledujúce leto.\n\nKomunikáciu komplikuje aj samotné oneskorenie. Tvorba nových príkazov môže trvať týždeň, pretože tím musí najprv prijať údaje, vyhodnotiť ich a pripraviť pokyny pre sondu. Badaruddin odhaduje, že Voyager 1 môže fungovať ešte tri až päť rokov, no pripomína, že jeho predchodcovia v riadení opakovane podcenili, ako dlho sonda vydrží.\n\n## Cesta sa neskončí stratou signálu\n\nSonda smeruje k hviezde Gliese 445 v súhvezdí Malého medveďa. Podľa Engadgetu by sa k nej mala priblížiť na 1,7 svetelného roka približne o 40-tisíc rokov. Po strate spojenia bude pokračovať vesmírom bez toho, aby o nej Zem dostávala údaje.\n\nWired uvádza, že skúsenosti z misie môžu pomôcť pri plánovaní budúcich sond do medzihviezdneho priestoru. Vedci by pri nich mohli zvážiť napríklad prístroj na analýzu kozmického prachu alebo kamery. Voyager 1 tak aj po takmer polstoročí zostáva zdrojom meraní, ktoré nemožno získať iba z teleskopov či observatórií na obežnej dráhe Zeme."
+  }
+}
