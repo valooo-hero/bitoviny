@@ -24,7 +24,7 @@ Pull requesty konceptov sa nezlučujú ručne na GitHube. Ak by sa to stalo, web
 
 **Zmena stavu obrázka zo zdroja.** Automatické zaradenie je len odporúčanie, posledné slovo má editor. Tlačidlo „Zmeniť stav“ otvorí formulár so stavom, autorom, licenciou a dôvodom. Ak editor obrázok označí za použiteľný, dôvod, autor aj licencia sú povinné. Zmena sa zapíše do redakčnej správy spolu s pôvodným automatickým zaradením, menom editora a časom, takže je dohľadateľné, kto a prečo rozhodol.
 
-**Generovanie obrázka** má dva kroky. Prvé tlačidlo ukáže prompt, ktorý pripravila autorka, a dá sa upraviť. Až druhé tlačidlo ho odošle modelu FLUX.1-schnell na Cloudflare Workers AI. Výsledok sa zobrazí na náhľad s voľbami Použiť, Skúsiť znova a Zahodiť. Použitý obrázok je na webe označený ako vytvorený AI.
+**Generovanie obrázka** má dva kroky. Prvé tlačidlo ukáže prompt, ktorý pripravila autorka, a dá sa upraviť. Editor vyberie model a tlačidlom **Odoslať** spustí generovanie. Predvolený FLUX.1-schnell na Cloudflare Workers AI vytvára obrázky 1024 × 1024 px. Druhý model, Meta Muse Image cez fal.ai, generuje JPEG v pomere 16 : 9 pri natívnom rozlíšení približne 2,5 Mpx. Výsledok sa zobrazí na náhľad s voľbami Použiť, Skúsiť znova a Zahodiť. Použitý obrázok je na webe označený ako vytvorený AI.
 
 **Zverejnenie** je zablokované, kým článok nemá obrázok, kým sú v texte neuložené zmeny a kým editor nezaškrtne potvrdenie. Neuzavreté nálezy factchecku sa zobrazia ako upozornenie, nezablokujú.
 
@@ -64,6 +64,9 @@ Pôvodný návrh počítal s Cloudflare Access. Ten vyžaduje aktiváciu Zero Tr
 **Pages > bitoviny > Settings > Variables and Secrets:** tajomstvo `GITHUB_CLIENT_SECRET` s hodnotou Client secret z GitHubu.
 
 Workers AI je pripojené cez `wrangler.toml` (`[ai] binding = "AI"`), nič ďalšie netreba.
+
+1. Pre Meta Muse Image vytvorte kľúč s oprávnením **API**. [fal.ai API Keys](https://fal.ai/dashboard/keys)
+2. V Cloudflare vyberte **bitoviny → Settings → Production → Variables and Secrets → Add**. Vytvorte šifrované tajomstvo s názvom `FAL_KEY` a hodnotou skopírovaného kľúča. Uložte ho pred produkčným nasadením, ktoré ho použije. [Cloudflare Workers & Pages](https://dash.cloudflare.com/?to=/:account/workers-and-pages)
 
 ### Lokálny vývoj
 

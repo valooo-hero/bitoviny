@@ -36,7 +36,7 @@ const ogImage = new URL(image, Astro.site);
     <title>{celyTitulok}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    {noindex && <meta name="robots" content="noindex" />}
+    {noindex ? <meta name="robots" content="noindex" /> : typ === 'article' && <meta name="robots" content="max-image-preview:large" />}
     <link rel="icon" type="image/jpeg" href="/favicon.jpg" />
     <link rel="alternate" type="application/rss+xml" title="Bitoviny" href="/rss.xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
