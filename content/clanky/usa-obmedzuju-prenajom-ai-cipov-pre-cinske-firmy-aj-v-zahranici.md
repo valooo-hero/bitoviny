@@ -7,7 +7,7 @@ tagy:
   - Nvidia
   - USA a Čína
   - exportné obmedzenia
-publikovane: 2026-11-19T04:39:06+00:00
+publikovane: 2026-11-19T09:18:40Z
 obrazok:
   src: /obrazky/usa-obmedzuju-prenajom-ai-cipov-pre-cinske-firmy-aj-v-zahranici-mwnc88ht.jpg
   alt: Ilustračný obrázok.
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Wired: America’s AI Chip War Is Heating Up in the Dumbest Possible Ways"
     url: https://www.wired.com/story/the-ai-chip-war-meets-the-jensen-huang-affair/
