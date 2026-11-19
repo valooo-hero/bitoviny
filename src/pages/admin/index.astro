@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { FLUX, GPT_IMAGE, MUSE } from '../../../functions-lib/modely-obrazkov.js';
+import { FLUX, GPT_IMAGE, KLEIN, MUSE } from '../../../functions-lib/modely-obrazkov.js';
 ---
 
 <Base title="Redakčné rozhranie" noindex>
@@ -132,6 +132,7 @@ import { FLUX, GPT_IMAGE, MUSE } from '../../../functions-lib/modely-obrazkov.js
                 <option value={FLUX.id}>{FLUX.nazov} (Cloudflare Workers AI)</option>
                 <option value={MUSE.id}>{MUSE.nazov} (fal.ai)</option>
                 <option value={GPT_IMAGE.id}>{GPT_IMAGE.nazov} (fal.ai)</option>
+                <option value={KLEIN.id}>{KLEIN.nazov} (DeepInfra)</option>
               </select>
             </label>
             <label>Prompt (dá sa upraviť)

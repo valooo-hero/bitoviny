@@ -1,4 +1,4 @@
-import { FLUX, GPT_IMAGE, MUSE } from '../../functions-lib/modely-obrazkov.js';
+import { FLUX, GPT_IMAGE, KLEIN, MUSE } from '../../functions-lib/modely-obrazkov.js';
 import { chyba } from '../../functions-lib/pristup.js';
 
 const MAX_BASE64 = 8 * 1024 * 1024; // 6 MiB obrázka pred zakódovaním.
@@ -60,6 +60,41 @@ async function generujFal(kluc, model, prompt) {
   return Response.json({ obrazokB64, model: model.id });
 }
 
+async function generujKlein(kluc, prompt) {
+  const token = kluc?.trim();
+  if (!token) return chyba(503, 'V Cloudflare Pages chýba tajomstvo DEEPINFRA_API_KEY.');
+
+  let odpoved, vysledok;
+  try {
+    odpoved = await fetch('https://api.deepinfra.com/v1/openai/images/generations', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${token}`,
+        'Content-Type': 'application/json',
+      },
+      redirect: 'manual',
+      signal: AbortSignal.timeout(85_000),
+      body: JSON.stringify({ model: KLEIN.id, prompt, size: '1280x720', n: 1 }),
+    });
+    if (odpoved.ok) vysledok = await odpoved.json();
+  } catch (e) {
+    if (e?.name === 'TimeoutError') return chyba(504, 'Generovanie na DeepInfra trvalo príliš dlho.');
+    return chyba(502, 'Výsledok generovania sa nepodarilo načítať z DeepInfra.');
+  }
+
+  if (odpoved.status === 401 || odpoved.status === 403) {
+    return chyba(502, 'DeepInfra odmietlo prístup. Skontrolujte tajomstvo DEEPINFRA_API_KEY.');
+  }
+  if (odpoved.status === 402) return chyba(502, 'DeepInfra neprijalo platbu. Skontrolujte kredit účtu.');
+  if (odpoved.status === 504) return chyba(504, 'Generovanie na DeepInfra trvalo príliš dlho.');
+  if (!odpoved.ok) return chyba(502, `DeepInfra nevygenerovalo obrázok (HTTP ${odpoved.status}).`);
+
+  const obrazokB64 = vysledok?.data?.[0]?.b64_json;
+  if (typeof obrazokB64 !== 'string' || !obrazokB64) return chyba(502, 'DeepInfra nevrátilo obrázok.');
+  if (obrazokB64.length > MAX_BASE64) return chyba(502, 'Vygenerovaný obrázok je väčší než 6 MB.');
+  return Response.json({ obrazokB64, model: KLEIN.id });
+}
+
 // Obrázok sa vráti na náhľad. Do článku sa uloží až po potvrdení editorom.
 export async function onRequestPost({ env, request }) {
   const vstup = await request.json().catch(() => null);
@@ -69,6 +104,7 @@ export async function onRequestPost({ env, request }) {
 
   if (model === MUSE.id) return generujFal(env.FAL_KEY, MUSE, prompt.trim());
   if (model === GPT_IMAGE.id) return generujFal(env.FAL_KEY, GPT_IMAGE, prompt.trim());
+  if (model === KLEIN.id) return generujKlein(env.DEEPINFRA_API_KEY, prompt.trim());
   if (model !== FLUX.id) return chyba(400, 'Neznámy model na generovanie obrázka.');
   if (!env.AI) return chyba(503, 'Workers AI nie je k projektu pripojené (chýba binding AI).');
 
