@@ -313,8 +313,7 @@ import { FLUX, GPT_IMAGE, MUSE } from '../../../functions-lib/modely-obrazkov.js
 
 <script>
   import { marked } from 'marked';
-  import { gptObrazokAkoWebp, obrazokAkoJpg } from '../../lib/spracuj-obrazok';
-  import { GPT_IMAGE } from '../../../functions-lib/modely-obrazkov.js';
+  import { obrazokAkoJpg, vygenerovanyObrazokAkoWebp } from '../../lib/spracuj-obrazok';
 
   const MAX_BAJTOV_OBRAZKA = 6 * 1024 * 1024;
 
@@ -720,14 +719,10 @@ import { FLUX, GPT_IMAGE, MUSE } from '../../../functions-lib/modely-obrazkov.js
         });
         if (stav !== otvoreny) return;
         const bajty = Uint8Array.from(atob(obrazokB64), (c) => c.charCodeAt(0));
-        const subor = new Blob([bajty]);
-        const webp = model === GPT_IMAGE.id;
-        const spracovany = webp
-          ? await gptObrazokAkoWebp(subor, MAX_BAJTOV_OBRAZKA)
-          : await obrazokAkoJpg(subor, MAX_BAJTOV_OBRAZKA);
+        const spracovany = await vygenerovanyObrazokAkoWebp(new Blob([bajty]), model, MAX_BAJTOV_OBRAZKA);
         if (stav !== otvoreny) return;
         vygenerovany = { obrazokB64: spracovany, model };
-        ($('gen-obrazok') as HTMLImageElement).src = `data:image/${webp ? 'webp' : 'jpeg'};base64,${spracovany}`;
+        ($('gen-obrazok') as HTMLImageElement).src = `data:image/webp;base64,${spracovany}`;
         $('gen-vysledok').hidden = false;
       } catch (e) {
         if (stav === otvoreny) throw e;

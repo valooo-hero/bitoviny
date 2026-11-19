@@ -126,13 +126,13 @@ function bajtyZBase64(text) {
 export async function pridajObrazok(gh, ciel, vstup) {
   const umiestnenie = vstup.umiestnenie === 'galeria' ? 'galeria' : 'titulny';
   let meta;
-  const webp = vstup.typ === 'generovany' && vstup.model === GPT_IMAGE.id;
+  const webp = vstup.typ === 'generovany';
 
   if (vstup.typ === 'url') {
     const info = await overZdroj(gh, ciel, vstup.url);
     meta = { kredit: info.kredit, licencia: info.licencia, popisok: bezHtml(vstup.popisok || info.popisok || ''), ai: false };
   } else if (vstup.typ === 'generovany') {
-    const model = webp ? GPT_IMAGE : vstup.model === MUSE.id ? MUSE : FLUX;
+    const model = vstup.model === GPT_IMAGE.id ? GPT_IMAGE : vstup.model === MUSE.id ? MUSE : FLUX;
     meta = { kredit: `Bitoviny / ${model.nazov}`, licencia: 'vygenerované AI', popisok: bezHtml(vstup.popisok || 'Ilustračný obrázok.'), ai: true };
   } else if (vstup.typ === 'vlastny') {
     // Pri vlastnom obrázku za pôvod a práva ručí editor, preto ich musí výslovne uviesť.
