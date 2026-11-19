@@ -25,7 +25,7 @@ async function generujFal(kluc, model, prompt) {
         'Content-Type': 'application/json',
         'X-Fal-Request-Start-Timeout': '30',
       },
-      redirect: 'error',
+      redirect: 'manual',
       signal: AbortSignal.timeout(85_000),
       body: JSON.stringify({
         prompt,
@@ -41,6 +41,9 @@ async function generujFal(kluc, model, prompt) {
     return chyba(502, 'Výsledok generovania sa nepodarilo načítať z fal.ai.');
   }
 
+  if (odpoved.status >= 300 && odpoved.status < 400) {
+    return chyba(502, 'fal.ai vrátil neočakávané presmerovanie.');
+  }
   if (odpoved.status === 401 || odpoved.status === 403) {
     return chyba(502, 'fal.ai odmietol prístup. Skontrolujte kľúč FAL_KEY a kredit účtu.');
   }
