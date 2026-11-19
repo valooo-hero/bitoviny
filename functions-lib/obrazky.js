@@ -2,7 +2,7 @@
 // aj zverejnenému či stiahnutému článku (vetva main). Líši sa len „cieľ“.
 import { bezHtml, rozdel, zloz } from './clanok.js';
 import { ZASTUPNY_OBRAZOK, jeZastupnyObrazok, naBase64 } from './github.js';
-import { jeJpeg, jeWebp } from './format-obrazka.js';
+import { jeJpeg, jeWebp, jpegBezMetadat, webpBezMetadat } from './format-obrazka.js';
 import { FLUX, GPT_IMAGE, KLEIN, MUSE } from './modely-obrazkov.js';
 import { cestaClanku, teraz } from './uprava.js';
 
@@ -149,12 +149,14 @@ export async function pridajObrazok(gh, ciel, vstup) {
   if (!(webp ? jeWebp(bajty) : jeJpeg(bajty))) {
     throw new ChybaVstupu(`Obrázok musí byť pred uložením prevedený na ${webp ? 'WebP' : 'JPG'}.`);
   }
+  const naUlozenie = webp ? webpBezMetadat(bajty) : meta.ai ? jpegBezMetadat(bajty) : bajty;
+  if (!naUlozenie) throw new ChybaVstupu('Vygenerovaný obrázok má poškodené alebo nepodporované dáta.');
   const pred = rozdel((await gh.subor(ciel.clanok, ciel.vetva)).text);
   if (umiestnenie === 'galeria' && (pred.hlavicka.galeria ?? []).length >= MAX_OBRAZKOV - 1) throw new ChybaVstupu(`Článok môže mať najviac ${MAX_OBRAZKOV} obrázkov.`);
 
   // Každý obrázok má vlastný súbor, aby sa obrázky neprepisovali navzájom.
   const src = `/obrazky/${ciel.slug}-${Date.now().toString(36)}.${webp ? 'webp' : 'jpg'}`;
-  await gh.zapis(`public${src}`, ciel.vetva, naBase64(bajty), 'Obrázok k článku');
+  await gh.zapis(`public${src}`, ciel.vetva, naBase64(naUlozenie), 'Obrázok k článku');
 
   const novy = {
     src,
