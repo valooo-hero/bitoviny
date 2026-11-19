@@ -1,0 +1,340 @@
+{
+  "slug": "ula-pripisuje-zlyhanie-rakety-vulcan-nedostatocnemu-privodu-paliva",
+  "datum_sprav": "2026-11-18",
+  "dovod_vyberu": "Úspešnosť raketového štartu Vulcan zlyhala kvôli nedostatku paliva, čo ovplyvňuje satelitné služby Amazonu.",
+  "poznamky_pre_editora": "ULA označuje prívod paliva za predbežnú príčinu a uvádza, že vyšetrovanie pokračuje; titulok Ars Technica formuláciu podáva kategorickejšie, no samotný článok tiež cituje predbežné zistenia. Pred publikovaním overiť aktuálny stav vyšetrovania a časový odhad návratu New Glenn, ktorý Ars Technica uvádza ako možnosť už v januári.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý a všetky overiteľné tvrdenia majú priamu a presnú oporu v poskytnutých zdrojoch. V texte sa nenachádzajú žiadne závažné nedostatky ani vymyslené informácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 19,
+        "potvrdenych": 19,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Titulok: ULA pripisuje zlyhanie rakety Vulcan nedostatočnému prívodu paliva",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Vulcan failure caused by inadequate fuel supply to engines, ULA says",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "satelit Amazon Leo 1 nedosiahol obežnú dráhu",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "lost an Amazon Leo satellite payload on the rocket's return to flight",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "United Launch Alliance (ULA) predbežne pripisuje zlyhanie rakety Vulcan nedostatočnému prívodu paliva k jej motorom BE-4",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "preliminary indications are that the low booster thrust was the result of inadequate fuel supply from the vehicle to the BE-4 engines",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "prvé údaje naznačujú, že raketa mala slabší ťah už krátko po štarte",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Early indications are that just after liftoff the launch vehicle experienced low booster performance",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "K oddeleniu stupňov preto došlo v príliš nízkej výške a nosič nemal dostatočnú rýchlosť",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "stage separation occurred at too low an altitude, and the rocket was not traveling fast enough",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Horný stupeň podľa doterajších údajov pracoval podľa plánu, vrátane motorov RL10, no nedokázal napraviť nedostatok výkonu z predchádzajúcej fázy letu",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The second stage appeared to perform well, with its RL10 engines operating as planned, but that wasn't enough to make up for the shortfall",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "ULA stratila telemetrické údaje približne desať minút po štarte",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "ULA lost telemetry approximately ten minutes into flight.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vyšetrovanie vedie ULA a dohliada naň americký Federálny letecký úrad (FAA)",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "An investigation is underway, led by ULA and overseen by the US Federal Aviation Administration (FAA)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Úrad aktivoval dve oblasti pre prípad dopadu trosiek a usmerňuje lietadlá",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "had to activate two Debris Response Areas where debris was falling. The agency directs aircraft to leave these areas",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Portál Ars Technica píše, že toto vyjadrenie podporilo jeho skoršiu správu",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "The new information released by ULA confirms reporting from Ars Technica on Tuesday",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "pomocné raketové motory na tuhé palivo fungovali normálne",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "All indications are that the solid rocket booster performance was nominal",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na tomto štarte boli použité po úpravách ich dýz, ktoré nasledovali po problémoch pri predchádzajúcich letoch Vulcanu",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "following nozzle improvements implemented for this launch... Previous flights had been blighted by problems with the solid rocket boosters",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Motory BE-4 používa aj raketa New Glenn od Blue Origin. Tá v máji zlyhala počas pozemného testu",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The BE-4 also powers Blue Origin's New Glenn rocket, which exploded on the launchpad during a ground test in May.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "následné vyšetrovanie podľa Ars Technica pripísalo problém hlavnému kyslíkovému ventilu jedného z motorov",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "issue originated at the main oxygen valve on one of the BE-4 engines",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ars Technica uvádza, že návrat New Glenn k letom by mohol nastať už v januári",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "return-to-flight mission with New Glenn, which could occur as soon as January",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Normálne fungovanie horného stupňa môže byť povzbudivou správou aj pre NASA, ktorá využíva motory RL10",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The upper stage's apparently normal performance may offer some reassurance to NASA",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register pripomína, že agentúra po zrušení oneskoreného stupňa Exploration Upper Stage zvažuje pre misiu Artemis IV predĺžený Centaur V alebo existujúci prechodný kryogénny stupeň",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The agency dropped the delayed Exploration Upper Stage earlier this year and is pursuing a stretched Centaur V alongside its existing interim cryogenic propulsion stage as options for Artemis IV.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "NASA cieli na Artemis IV začiatkom roka 2028 a Artemis V neskôr v tom istom roku",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "NASA is targeting Artemis IV for early 2028 and Artemis V for later that year.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Predchodca Vulcanu, Atlas V, podľa The Register dosiahol stopercentnú úspešnosť pri dopravení nákladu na obežnú dráhu, využíva však ruské motory RD-180, od ktorých sa chcú Spojené štáty odpútať",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "A predecessor of Vulcan, the Atlas V, has a 100 percent success record for payloads reaching orbit. However, it uses Russian RD-180 engines, a dependency the US wishes to remove",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Vulcan_pathfinder_test_article_%28KSC-20210826-PH-KLS01_0073%29.jpg/1280px-Vulcan_pathfinder_test_article_%28KSC-20210826-PH-KLS01_0073%29.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://image.theregister.com/?imageId=5310005&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2304790934-1152x648.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Manuel Mazzanti/NurPhoto via Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2304790934-500x500.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Manuel Mazzanti/NurPhoto via Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "Vulcan rocket",
+      "BE-4 engine",
+      "rocket launch"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Vulcan_pathfinder_test_article_%28KSC-20210826-PH-KLS01_0073%29.jpg/1280px-Vulcan_pathfinder_test_article_%28KSC-20210826-PH-KLS01_0073%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Vulcan_pathfinder_test_article_%28KSC-20210826-PH-KLS01_0073%29.jpg/1280px-Vulcan_pathfinder_test_article_%28KSC-20210826-PH-KLS01_0073%29.jpg",
+        "nazov": "Vulcan pathfinder test article (KSC-20210826-PH-KLS01 0073).jpg",
+        "autor": "Kim Shiflett",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Vulcan_pathfinder_test_article_(KSC-20210826-PH-KLS01_0073).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Vulcan rocket"
+      },
+      {
+        "url": "https://live.staticflickr.com/7914/32123281197_16331be29a_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/7815156a-1039-4faa-b1ae-fe9bdc459d85/thumb/",
+        "nazov": "190206-Z-SV252-789",
+        "autor": "U.S. Department of Defense Current Photos",
+        "licencia": "PDM 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "stranka": "https://www.flickr.com/photos/39955793@N07/32123281197",
+        "povod": "openverse",
+        "dopyt": "Vulcan rocket"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Renault_4cv_engine_1961.jpg/1280px-Renault_4cv_engine_1961.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Renault_4cv_engine_1961.jpg/1280px-Renault_4cv_engine_1961.jpg",
+        "nazov": "Renault 4cv engine 1961.jpg",
+        "autor": "Palauenc05",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Renault_4cv_engine_1961.jpg",
+        "povod": "wikimedia",
+        "dopyt": "BE-4 engine"
+      },
+      {
+        "url": "https://live.staticflickr.com/3041/2296426143_629616ee7d_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/f588ef9e-36b9-43b8-93b4-2c7e24c0f325/thumb/",
+        "nazov": "Pride of Midtown - FDNY Ladder 4, Engine 54",
+        "autor": "nasmac",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/40775750@N00/2296426143",
+        "povod": "openverse",
+        "dopyt": "BE-4 engine"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/First_NASA_ISINGLASS_rocket_launch.jpg/1280px-First_NASA_ISINGLASS_rocket_launch.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/First_NASA_ISINGLASS_rocket_launch.jpg/1280px-First_NASA_ISINGLASS_rocket_launch.jpg",
+        "nazov": "First NASA ISINGLASS rocket launch.jpg",
+        "autor": "NASA",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:First_NASA_ISINGLASS_rocket_launch.jpg",
+        "povod": "wikimedia",
+        "dopyt": "rocket launch"
+      },
+      {
+        "url": "https://live.staticflickr.com/7292/16016096414_fa8268ee8a_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/8bc8df48-c40e-40d4-9041-b254f4e3ad28/thumb/",
+        "nazov": "Rockets Launched from NASA’s Wallops Flight Facility",
+        "autor": "NASA Goddard Photo and Video",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/24662369@N07/16016096414",
+        "povod": "openverse",
+        "dopyt": "rocket launch"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Vulcan_Centaur_rollout_%28Peregrine%29_%28cropped_2%29.jpg/1280px-Vulcan_Centaur_rollout_%28Peregrine%29_%28cropped_2%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Vulcan_Centaur_rollout_%28Peregrine%29_%28cropped_2%29.jpg/1280px-Vulcan_Centaur_rollout_%28Peregrine%29_%28cropped_2%29.jpg",
+        "nazov": "Vulcan Centaur rollout (Peregrine) (cropped 2).jpg",
+        "autor": "NASA/Ben Smegelsky",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Vulcan_Centaur_rollout_(Peregrine)_(cropped_2).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Vulcan rocket"
+      },
+      {
+        "url": "https://live.staticflickr.com/6220/6338699217_03c420ac23_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/012e2620-5d62-4136-a195-31b5f1168ed1/thumb/",
+        "nazov": "Republic F-105 Thunderchief armament display",
+        "autor": "aeroman3",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "stranka": "https://www.flickr.com/photos/47430793@N08/6338699217",
+        "povod": "openverse",
+        "dopyt": "Vulcan rocket"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a heavy rocket ascending with a faint, interrupted stream of fuel feeding its lower stage, while a small satellite remains just short of orbit, using no text, logos, or recognizable people."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a heavy rocket ascending with a faint, interrupted stream of fuel feeding its lower stage, while a small satellite remains just short of orbit, using no text, logos, or recognizable people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/f0fe5f20fcbee0989bd5b2ebb2440edf",
+  "text_agentov": {
+    "titulok": "ULA pripisuje zlyhanie rakety Vulcan nedostatočnému prívodu paliva",
+    "perex": "Pri nedeľnom štarte sa nosič nedostal na potrebnú rýchlosť a satelit Amazon Leo 1 nedosiahol obežnú dráhu. Predbežná analýza ukazuje na problém s dodávkou paliva k motorom BE-4, vyšetrovanie však pokračuje.",
+    "telo": "United Launch Alliance (ULA) predbežne pripisuje zlyhanie rakety Vulcan nedostatočnému prívodu paliva k jej motorom BE-4. Pri nedeľnom lete sa nosič nedostal na rýchlosť potrebnú na vynesenie satelitu Amazon Leo 1 na obežnú dráhu. Spoločnosť zdôrazňuje, že vyšetrovanie príčiny ešte nie je ukončené.\n\n## Problém sa prejavil krátko po štarte\n\nAko uviedla ULA, prvé údaje naznačujú, že raketa mala slabší ťah už krátko po štarte. K oddeleniu stupňov preto došlo v príliš nízkej výške a nosič nemal dostatočnú rýchlosť. Horný stupeň podľa doterajších údajov pracoval podľa plánu, vrátane motorov RL10, no nedokázal napraviť nedostatok výkonu z predchádzajúcej fázy letu. ULA stratila telemetrické údaje približne desať minút po štarte.\n\nVyšetrovanie vedie ULA a dohliada naň americký Federálny letecký úrad (FAA). Úrad aktivoval dve oblasti pre prípad dopadu trosiek. Do týchto priestorov nesmú vstupovať lietadlá a FAA zároveň usmerňuje lietadlá, aby sa im vyhli.\n\n## Predbežné zistenia ukazujú na prívod paliva\n\nULA po úvodnej analýze letových dát uviedla, že slabý ťah pravdepodobne spôsobila nedostatočná dodávka paliva z rakety k motorom BE-4, nie ich vlastný výkon. Portál Ars Technica píše, že toto vyjadrenie podporilo jeho skoršiu správu, podľa ktorej zlyhanie nesúviselo s výkonom motorov dodaných spoločnosťou Blue Origin. Zatiaľ však ide o predbežný záver; presná príčina problému s prívodom paliva sa ešte určuje.\n\nULA zároveň uviedla, že pomocné raketové motory na tuhé palivo fungovali normálne. Na tomto štarte boli použité po úpravách ich dýz, ktoré nasledovali po problémoch pri predchádzajúcich letoch Vulcanu. Pozornosť sa tak sústreďuje na centrálny stupeň s kvapalným palivom, ktorý poháňajú dva motory BE-4.\n\n## Dôsledky pre Blue Origin aj NASA\n\nMotory BE-4 používa aj raketa New Glenn od Blue Origin. Tá v máji zlyhala počas pozemného testu; následné vyšetrovanie podľa Ars Technica pripísalo problém hlavnému kyslíkovému ventilu jedného z motorov. Blue Origin ventil upravila a podľa článku boli príslušné zmeny zavedené aj pre lety Vulcanu. Predbežné zistenia z nehody Vulcanu teda zatiaľ neukazujú na tento ventil ani na samotný výkon BE-4. Ars Technica uvádza, že návrat New Glenn k letom by mohol nastať už v januári.\n\nNormálne fungovanie horného stupňa môže byť povzbudivou správou aj pre NASA, ktorá využíva motory RL10. The Register pripomína, že agentúra po zrušení oneskoreného stupňa Exploration Upper Stage zvažuje pre misiu Artemis IV predĺžený Centaur V alebo existujúci prechodný kryogénny stupeň. NASA cieli na Artemis IV začiatkom roka 2028 a Artemis V neskôr v tom istom roku.\n\nNeúspech zároveň narúša doterajšiu úspešnú bilanciu ULA. Predchodca Vulcanu, Atlas V, podľa The Register dosiahol stopercentnú úspešnosť pri dopravení nákladu na obežnú dráhu, využíva však ruské motory RD-180, od ktorých sa chcú Spojené štáty odpútať. ULA uviedla, že chce obnoviť lety Vulcanu čo najskôr, ale bezpečne."
+  }
+}
