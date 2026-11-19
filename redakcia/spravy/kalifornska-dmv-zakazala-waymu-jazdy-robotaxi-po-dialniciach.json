@@ -1,0 +1,413 @@
+{
+  "slug": "kalifornska-dmv-zakazala-waymu-jazdy-robotaxi-po-dialniciach",
+  "datum_sprav": "2026-11-18",
+  "dovod_vyberu": "Waymo zastavilo robotaxi na diaľniciach po sérii incidentov, čo má dopad na reguláciu autonómnych vozidiel v Európe.",
+  "poznamky_pre_editora": "Overiť presné znenie a rozsah rozhodnutia DMV z 11. novembra aj to, za akých podmienok môže Waymo obnoviť jazdy. Zdroje opisujú predchádzajúce incidenty mierne odlišne: Ars Technica uvádza šesť prípadov v Phoenixe v apríli a sedem vozidiel v kalifornských pruhoch v máji; The Register spája stiahnutie takmer 4 000 áut s ignorovaním uzávierok vo Phoenixe a San Franciscu a samostatne uvádza aktualizáciu pre takmer 3 800 vozidiel. Tieto počty nemusia označovať totožné udalosti ani rovnakú skupinu vozidiel.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý a všetky overiteľné tvrdenia majú priamu oporu v poskytnutých zdrojoch. V texte sa nenachádzajú žiadne závažné chyby ani nepodložené informácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 19,
+        "potvrdenych": 19,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Kalifornská DMV zakázala Waymu jazdy robotaxi po diaľniciach",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "California's DMV banned Waymo from offering driverless trips on its freeways",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kalifornský úrad pre motorové vozidlá (DMV) zakázal spoločnosti Waymo prevádzkovať na diaľniciach jazdy bez vodiča",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "California's DMV banned Waymo from offering driverless trips on its freeways",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "v stredu 11. novembra",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "on Wednesday, November 11",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jonathan Groveman, hovorca DMV",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Jonathan Groveman, spokesperson for the California DMV",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "obmedzenie platí, kým Waymo nepresvedčí úrad, že jeho autá už takéto riziko nepredstavujú",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "until it can convince the DMV that its cars no longer “pose an imminent hazard to public safety.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "5. novembra",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "On November 5",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "na diaľnici US 101 pri meste Burlingame južne od San Francisca",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "on US 101 near Burlingame, south of San Francisco",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Do prebiehajúcej stavebnej zóny vošli tri vozidlá Waymo",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "three of the company's driverless cars entered an active construction zone",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nasledujúci deň sa ďalšie robotaxi pokúsilo obísť vozidlá diaľničnej polície",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The second incident occurred the following day, and in footage shared widely online , a Waymo vehicle can be seen trying to drive around highway patrol vehicles",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "pri týchto stretnutiach so stavebnou zónou nedošlo k zraneniam ani zrážkam",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "that did not involve any injuries or collisions",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "v San Franciscu, Los Angeles, Miami, Phoenixe a Austine",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "including San Francisco, Los Angeles, Miami, Phoenix, and Austin",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "v apríli v oblasti Phoenixu robotaxi šesťkrát nerozpoznali značky oznamujúce uzavretie nájazdovej rampy a vošli do stavebných zón",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Waymo robotaxis did not recognize ramp closure signs on six occasions in Phoenix in April and entered construction zones",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V máji sa podľa toho istého portálu sedem vozidiel dostalo do pruhov s prebiehajúcimi prácami v Kalifornii",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "A month later in California, seven Waymo robotaxis entered lanes with active construction",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "DMV už po podobných udalostiach 18. mája zaviedlo obmedzenia a požadovalo nápravné opatrenia",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "the DMV had already imposed restrictions and required corrective action following similar incidents on May 18",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Waymo stiahlo z prevádzky takmer 4 000 áut",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Waymo subsequently recalled nearly 4,000 cars",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "týkalo sa takmer 3 800 vozidiel schopných jazdiť po diaľnici",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "In June, Waymo recalled the almost 3,800 robotaxis capable of highway driving",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "po májových incidentoch autá v Kalifornii jazdili iba po mestských uliciach a na diaľnice sa vrátili koncom júla",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "that problem led Waymo to stick to surface streets only in California after the May incidents until late July, when the robotaxis resumed highway operations",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "zabezpečuje viac než pol milióna jázd týždenne",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "serving over half a million trips each week",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Waymo začalo v júli informovať americký Národný úrad pre bezpečnosť cestnej premávky o aktualizácii softvéru",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "In early July, Waymo told the National Highway Traffic Safety Administration that it began updating the robotaxi software",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "titulok",
+        "text": "robotaxi",
+        "kontext": "Kalifornská DMV zakázala Waymu jazdy robotaxi po diaľniciach",
+        "navrhy": [
+          "Robotami",
+          "robotami",
+          "robota xi"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "robotaxi",
+        "kontext": "o dvoch incidentoch, pri ktorých sa jej robotaxi dostali do situácií ohrozujúcich bezpeč",
+        "navrhy": [
+          "Robotami",
+          "robotami",
+          "robota xi"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "robotaxi",
+        "kontext": "ozidlá Waymo. Nasledujúci deň sa ďalšie robotaxi pokúsilo obísť vozidlá diaľničnej políc",
+        "navrhy": [
+          "Robotami",
+          "robotami",
+          "robota xi"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "traffic",
+        "kontext": "ičnej polície, ktorá pomocou takzvaného traffic breaku spomaľovala alebo zastavovala pr",
+        "navrhy": [
+          "taffia",
+          "trafia",
+          "trafiac"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "robotaxi",
+        "kontext": "ca píše, že v apríli v oblasti Phoenixu robotaxi šesťkrát nerozpoznali značky oznamujúce",
+        "navrhy": [
+          "Robotami",
+          "robotami",
+          "robota xi"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "oznamujúce",
+        "kontext": "u robotaxi šesťkrát nerozpoznali značky oznamujúce uzavretie nájazdovej rampy a vošli do s",
+        "navrhy": [
+          "oznamujúc",
+          "označujúce",
+          "oznamujúc e"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Waymo_Zeekr_Vehicle_at_Bayshore_Depot_front_view_dllu.jpg/1280px-Waymo_Zeekr_Vehicle_at_Bayshore_Depot_front_view_dllu.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://image.theregister.com/?imageId=245405&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305151172-1152x648.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "Cars on a highway on a rainy day",
+        "popisok": "",
+        "kredit": "Michael Yanow/NurPhoto via Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2305151172-500x500-1795017584.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Michael Yanow/NurPhoto via Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "Waymo robotaxi",
+      "autonomous vehicle",
+      "California DMV"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Waymo_Zeekr_Vehicle_at_Bayshore_Depot_front_view_dllu.jpg/1280px-Waymo_Zeekr_Vehicle_at_Bayshore_Depot_front_view_dllu.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Waymo_Zeekr_Vehicle_at_Bayshore_Depot_front_view_dllu.jpg/1280px-Waymo_Zeekr_Vehicle_at_Bayshore_Depot_front_view_dllu.jpg",
+        "nazov": "Waymo Zeekr Vehicle at Bayshore Depot front view dllu.jpg",
+        "autor": "Dllu",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Waymo_Zeekr_Vehicle_at_Bayshore_Depot_front_view_dllu.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Waymo robotaxi"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Waymo_robotaxis%2C_San_Francisco_3.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/398f72c1-8555-47a1-ab8b-41520f64da1a/thumb/",
+        "nazov": "Waymo robotaxis, San Francisco 3",
+        "autor": "Mliu92",
+        "licencia": "BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=141299889",
+        "povod": "openverse",
+        "dopyt": "Waymo robotaxi"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Waymo_self-driving_car_front_view.gk.jpg/1280px-Waymo_self-driving_car_front_view.gk.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Waymo_self-driving_car_front_view.gk.jpg/1280px-Waymo_self-driving_car_front_view.gk.jpg",
+        "nazov": "Waymo self-driving car front view.gk.jpg",
+        "autor": "Grendelkhan",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Waymo_self-driving_car_front_view.gk.jpg",
+        "povod": "wikimedia",
+        "dopyt": "autonomous vehicle"
+      },
+      {
+        "url": "https://live.staticflickr.com/4025/4536388950_7006b3db03_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/db785054-568b-4a6f-96d3-0046a6329a78/thumb/",
+        "nazov": "Autonomous Vehicle Competition 2010",
+        "autor": "SparkFunElectronics",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/41898857@N04/4536388950",
+        "povod": "openverse",
+        "dopyt": "autonomous vehicle"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/California_Department_of_Motor_Vehicles_Headquarters.jpg/1280px-California_Department_of_Motor_Vehicles_Headquarters.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/California_Department_of_Motor_Vehicles_Headquarters.jpg/1280px-California_Department_of_Motor_Vehicles_Headquarters.jpg",
+        "nazov": "California Department of Motor Vehicles Headquarters.jpg",
+        "autor": "Coolcaesar",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:California_Department_of_Motor_Vehicles_Headquarters.jpg",
+        "povod": "wikimedia",
+        "dopyt": "California DMV"
+      },
+      {
+        "url": "https://live.staticflickr.com/3202/2743794463_bdbf9abd2d.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/b9ff8b7b-c250-422c-af12-6f5687361ee2/thumb/",
+        "nazov": "California DMV: Driver Improvement Analyst",
+        "autor": "bocek.kevin",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/41297587@N00/2743794463",
+        "povod": "openverse",
+        "dopyt": "California DMV"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Waymo_Zeekr_Vehicle_at_Bayshore_Depot_oblique_view_dllu.jpg/1280px-Waymo_Zeekr_Vehicle_at_Bayshore_Depot_oblique_view_dllu.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Waymo_Zeekr_Vehicle_at_Bayshore_Depot_oblique_view_dllu.jpg/1280px-Waymo_Zeekr_Vehicle_at_Bayshore_Depot_oblique_view_dllu.jpg",
+        "nazov": "Waymo Zeekr Vehicle at Bayshore Depot oblique view dllu.jpg",
+        "autor": "Dllu",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Waymo_Zeekr_Vehicle_at_Bayshore_Depot_oblique_view_dllu.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Waymo robotaxi"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Waymo_robotaxis%2C_San_Francisco_2.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/5202551c-daac-4d68-8da7-76c99b3e0e44/thumb/",
+        "nazov": "Waymo robotaxis, San Francisco 2",
+        "autor": "Mliu92",
+        "licencia": "BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=141299877",
+        "povod": "openverse",
+        "dopyt": "Waymo robotaxi"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a driverless car approaching a highway construction zone with cones and a road closure barrier, using a restrained palette and no logos, text, or real people."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a driverless car approaching a highway construction zone with cones and a road closure barrier, using a restrained palette and no logos, text, or real people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/d1a4f1be072aae4f85b0595ef12ba80c",
+  "text_agentov": {
+    "titulok": "Kalifornská DMV zakázala Waymu jazdy robotaxi po diaľniciach",
+    "perex": "Zákaz nasledoval po vjazdoch vozidiel do aktívnej stavby a pokuse obísť policajné autá. Waymo následne pozastavilo jazdy po diaľniciach aj v ďalších oblastiach, kde pôsobí.",
+    "telo": "Kalifornský úrad pre motorové vozidlá (DMV) zakázal spoločnosti Waymo prevádzkovať na diaľniciach jazdy bez vodiča. Rozhodnutie prišlo po dvoch incidentoch, pri ktorých sa jej robotaxi dostali do situácií ohrozujúcich bezpečnosť. Waymo potom pozastavilo diaľničné jazdy aj v ostatných oblastiach svojej prevádzky v USA.\n\nPodľa portálu The Register úrad zákaz oznámil v stredu 11. novembra. Hovorca DMV Jonathan Groveman agentúre Associated Press povedal, že úradu prekážali opakované vjazdy vozidiel do aktívnych stavebných zón. DMV označilo takéto správanie za bezprostredné riziko pre verejnú bezpečnosť. Ars Technica uvádza, že obmedzenie platí, kým Waymo nepresvedčí úrad, že jeho autá už takéto riziko nepredstavujú.\n\n## Dva incidenty na kalifornských cestách\n\nPrvý prípad sa stal 5. novembra na diaľnici US 101 pri meste Burlingame južne od San Francisca. Do prebiehajúcej stavebnej zóny vošli tri vozidlá Waymo. Nasledujúci deň sa ďalšie robotaxi pokúsilo obísť vozidlá diaľničnej polície, ktorá pomocou takzvaného traffic breaku spomaľovala alebo zastavovala premávku. Zábery z druhého prípadu sa rozšírili na internete.\n\nSpoločnosť uviedla, že pri týchto stretnutiach so stavebnou zónou nedošlo k zraneniam ani zrážkam. Napriek tomu po kalifornskom zákaze dočasne zastavila jazdy po diaľniciach aj v ďalších mestách, kde pôsobí: v San Franciscu, Los Angeles, Miami, Phoenixe a Austine. Neoznámila, ako dlho obmedzenie potrvá. Diaľničné testovanie plánuje pokračovať, ale s vyškolenými špecialistami za volantom.\n\n## Problém, ktorý sa už objavil\n\nNejde o prvé prípady, keď vozidlá Waymo nesprávne vyhodnotili dopravné obmedzenia. Ars Technica píše, že v apríli v oblasti Phoenixu robotaxi šesťkrát nerozpoznali značky oznamujúce uzavretie nájazdovej rampy a vošli do stavebných zón. V máji sa podľa toho istého portálu sedem vozidiel dostalo do pruhov s prebiehajúcimi prácami v Kalifornii.\n\nThe Register spomína, že DMV už po podobných udalostiach 18. mája zaviedlo obmedzenia a požadovalo nápravné opatrenia. Následne Waymo stiahlo z prevádzky takmer 4 000 áut po tom, čo niektoré ignorovali značky a kužele označujúce uzávierky vo Phoenixe a San Franciscu. Samostatná aktualizácia softvéru sa týkala takmer 3 800 vozidiel schopných jazdiť po diaľnici. Ars Technica uvádza, že po májových incidentoch autá v Kalifornii jazdili iba po mestských uliciach a na diaľnice sa vrátili koncom júla.\n\n## Jazdy po uliciach pokračujú\n\nWaymo tvrdí, že jeho služba v uliciach miest naďalej funguje. Podľa vyjadrenia spoločnosti zabezpečuje viac než pol milióna jázd týždenne. Firma zároveň uviedla, že spolupracuje s kalifornským DMV a ďalšími úradmi na obnovení diaľničnej prevádzky.\n\nArs Technica pripomína, že Waymo začalo v júli informovať americký Národný úrad pre bezpečnosť cestnej premávky o aktualizácii softvéru. Jej cieľom bolo lepšie rozpoznávať stavebné zóny na diaľniciach, uprednostniť ich pred inými podnetmi a znížiť rýchlosť, keď vozidlo usúdi, že sa k takejto zóne blíži. Najnovšie prípady však ukazujú, že úrady zatiaľ nepovažujú bezpečnosť diaľničnej prevádzky za vyriešenú."
+  }
+}
