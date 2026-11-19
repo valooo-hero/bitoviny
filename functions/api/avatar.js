@@ -1,5 +1,5 @@
 import { GitHub, naBase64 } from '../../functions-lib/github.js';
-import { jeJpeg } from '../../functions-lib/jpeg.js';
+import { jeJpeg } from '../../functions-lib/format-obrazka.js';
 import { chyba } from '../../functions-lib/pristup.js';
 
 // Redaktori zo src/data/redakcia.ts. Iné mená súborov sa zapísať nedajú.

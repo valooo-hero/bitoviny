@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { FLUX, MUSE } from '../../../functions-lib/modely-obrazkov.js';
+import { FLUX, GPT_IMAGE, MUSE } from '../../../functions-lib/modely-obrazkov.js';
 ---
 
 <Base title="Redakčné rozhranie" noindex>
@@ -131,6 +131,7 @@ import { FLUX, MUSE } from '../../../functions-lib/modely-obrazkov.js';
               <select id="gen-model">
                 <option value={FLUX.id}>{FLUX.nazov} (Cloudflare Workers AI)</option>
                 <option value={MUSE.id}>{MUSE.nazov} (fal.ai)</option>
+                <option value={GPT_IMAGE.id}>{GPT_IMAGE.nazov} (fal.ai)</option>
               </select>
             </label>
             <label>Prompt (dá sa upraviť)
@@ -312,7 +313,8 @@ import { FLUX, MUSE } from '../../../functions-lib/modely-obrazkov.js';
 
 <script>
   import { marked } from 'marked';
-  import { obrazokAkoJpg } from '../../lib/obrazok-jpg';
+  import { gptObrazokAkoWebp, obrazokAkoJpg } from '../../lib/spracuj-obrazok';
+  import { GPT_IMAGE } from '../../../functions-lib/modely-obrazkov.js';
 
   const MAX_BAJTOV_OBRAZKA = 6 * 1024 * 1024;
 
@@ -718,10 +720,14 @@ import { FLUX, MUSE } from '../../../functions-lib/modely-obrazkov.js';
         });
         if (stav !== otvoreny) return;
         const bajty = Uint8Array.from(atob(obrazokB64), (c) => c.charCodeAt(0));
-        const jpg = await obrazokAkoJpg(new Blob([bajty]), MAX_BAJTOV_OBRAZKA);
+        const subor = new Blob([bajty]);
+        const webp = model === GPT_IMAGE.id;
+        const spracovany = webp
+          ? await gptObrazokAkoWebp(subor, MAX_BAJTOV_OBRAZKA)
+          : await obrazokAkoJpg(subor, MAX_BAJTOV_OBRAZKA);
         if (stav !== otvoreny) return;
-        vygenerovany = { obrazokB64: jpg, model };
-        ($('gen-obrazok') as HTMLImageElement).src = `data:image/jpeg;base64,${jpg}`;
+        vygenerovany = { obrazokB64: spracovany, model };
+        ($('gen-obrazok') as HTMLImageElement).src = `data:image/${webp ? 'webp' : 'jpeg'};base64,${spracovany}`;
         $('gen-vysledok').hidden = false;
       } catch (e) {
         if (stav === otvoreny) throw e;

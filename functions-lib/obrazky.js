@@ -2,8 +2,8 @@
 // aj zverejnenému či stiahnutému článku (vetva main). Líši sa len „cieľ“.
 import { bezHtml, rozdel, zloz } from './clanok.js';
 import { ZASTUPNY_OBRAZOK, jeZastupnyObrazok, naBase64 } from './github.js';
-import { jeJpeg } from './jpeg.js';
-import { FLUX, MUSE } from './modely-obrazkov.js';
+import { jeJpeg, jeWebp } from './format-obrazka.js';
+import { FLUX, GPT_IMAGE, MUSE } from './modely-obrazkov.js';
 import { cestaClanku, teraz } from './uprava.js';
 
 const MAX_BAJTOV = 6 * 1024 * 1024;
@@ -99,11 +99,11 @@ export async function nahladZdroja(gh, ciel, url) {
 function typObrazka(b) {
   if (jeJpeg(b)) return 'image/jpeg';
   if (b[0] === 0x89 && b[1] === 0x50 && b[2] === 0x4e && b[3] === 0x47) return 'image/png';
-  if (b[0] === 0x52 && b[1] === 0x49 && b[2] === 0x46 && b[3] === 0x46 && b[8] === 0x57 && b[9] === 0x45 && b[10] === 0x42 && b[11] === 0x50) return 'image/webp';
+  if (jeWebp(b)) return 'image/webp';
   return null;
 }
 
-function jpegZBase64(text) {
+function bajtyZBase64(text) {
   if (typeof text !== 'string' || !text.length) throw new ChybaVstupu('Chýbajú dáta obrázka.');
   if (text.length > MAX_BAJTOV * 1.4) throw new ChybaVstupu('Obrázok je väčší než 6 MB.');
   let bajty;
@@ -113,7 +113,6 @@ function jpegZBase64(text) {
     throw new ChybaVstupu('Dáta obrázka sú poškodené.');
   }
   if (bajty.length > MAX_BAJTOV) throw new ChybaVstupu('Obrázok je väčší než 6 MB.');
-  if (!jeJpeg(bajty)) throw new ChybaVstupu('Obrázok musí byť pred uložením prevedený na JPG.');
   return bajty;
 }
 
@@ -127,12 +126,13 @@ function jpegZBase64(text) {
 export async function pridajObrazok(gh, ciel, vstup) {
   const umiestnenie = vstup.umiestnenie === 'galeria' ? 'galeria' : 'titulny';
   let meta;
+  const webp = vstup.typ === 'generovany' && vstup.model === GPT_IMAGE.id;
 
   if (vstup.typ === 'url') {
     const info = await overZdroj(gh, ciel, vstup.url);
     meta = { kredit: info.kredit, licencia: info.licencia, popisok: bezHtml(vstup.popisok || info.popisok || ''), ai: false };
   } else if (vstup.typ === 'generovany') {
-    const model = vstup.model === MUSE.id ? MUSE : FLUX;
+    const model = webp ? GPT_IMAGE : vstup.model === MUSE.id ? MUSE : FLUX;
     meta = { kredit: `Bitoviny / ${model.nazov}`, licencia: 'vygenerované AI', popisok: bezHtml(vstup.popisok || 'Ilustračný obrázok.'), ai: true };
   } else if (vstup.typ === 'vlastny') {
     // Pri vlastnom obrázku za pôvod a práva ručí editor, preto ich musí výslovne uviesť.
@@ -145,12 +145,15 @@ export async function pridajObrazok(gh, ciel, vstup) {
   meta.popisok = meta.popisok.trim();
   if (meta.popisok.length < 5) throw new ChybaVstupu('Popisok obrázka musí mať aspoň 5 znakov.');
 
-  const bajty = jpegZBase64(vstup.obrazokB64);
+  const bajty = bajtyZBase64(vstup.obrazokB64);
+  if (!(webp ? jeWebp(bajty) : jeJpeg(bajty))) {
+    throw new ChybaVstupu(`Obrázok musí byť pred uložením prevedený na ${webp ? 'WebP' : 'JPG'}.`);
+  }
   const pred = rozdel((await gh.subor(ciel.clanok, ciel.vetva)).text);
   if (umiestnenie === 'galeria' && (pred.hlavicka.galeria ?? []).length >= MAX_OBRAZKOV - 1) throw new ChybaVstupu(`Článok môže mať najviac ${MAX_OBRAZKOV} obrázkov.`);
 
   // Každý obrázok má vlastný súbor, aby sa obrázky neprepisovali navzájom.
-  const src = `/obrazky/${ciel.slug}-${Date.now().toString(36)}.jpg`;
+  const src = `/obrazky/${ciel.slug}-${Date.now().toString(36)}.${webp ? 'webp' : 'jpg'}`;
   await gh.zapis(`public${src}`, ciel.vetva, naBase64(bajty), 'Obrázok k článku');
 
   const novy = {
