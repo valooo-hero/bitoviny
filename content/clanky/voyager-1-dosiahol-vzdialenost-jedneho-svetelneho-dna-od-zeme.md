@@ -3,30 +3,31 @@ title: Voyager 1 dosiahol vzdialenosť jedného svetelného dňa od Zeme
 perex: Signálu z legendárnej sondy trvá cesta k Zemi približne 24 hodín. Voyager 1 pritom naďalej zbiera údaje z medzihviezdneho priestoru, hoci jeho výkon aj možnosti riadenia obmedzuje vek a vzdialenosť.
 sekcia: veda
 tagy:
-- Voyager 1
-- NASA
-- vesmír
-- medzihviezdny priestor
-publikovane: '2026-11-19T04:39:29+00:00'
+  - Voyager 1
+  - NASA
+  - vesmír
+  - medzihviezdny priestor
+publikovane: 2026-11-19T04:39:29+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/voyager-1-dosiahol-vzdialenost-jedneho-svetelneho-dna-od-zeme-mwncmlel.jpg
+  alt: The Sounds of Earth Record Cover - GPN-2000-001978
+  popisok: The Sounds of Earth Record Cover - GPN-2000-001978
+  kredit: NASA/JPL / Wikimedia Commons
+  licencia: Public domain
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Wired: Voyager 1 Beat the Odds and Is Still Working a Light-Day Away From Earth'
-  url: https://www.wired.com/story/voyager-1-beat-still-working-light-day-away/
-- nazov: 'Tom''s Hardware: Voyager 1 spacecraft crosses milestones distance of one-light day from Earth 49 years after launch'
-  url: https://www.tomshardware.com/tech-industry/space/voyager-1-spacecraft-crosses-milestones-distance-of-one-light-day-from-earth-49-years-after-launch-now-16-09-billion-miles-away-signal-takes-full-24-hours-to-travel-home
-- nazov: 'The Register: Space robot legend Voyager 1 is now more than 1 light-day away'
-  url: https://www.theregister.com/science/2026/11/18/space-robot-legend-voyager-1-is-now-more-than-1-light-day-away/5310751
-- nazov: 'Engadget: NASA''s Voyager 1 space probe is now one light-day away from Earth'
-  url: https://www.engadget.com/2320267/nasa-voyager-1-space-probe-one-light-day-away-from-earth/
+  - nazov: "Wired: Voyager 1 Beat the Odds and Is Still Working a Light-Day Away From Earth"
+    url: https://www.wired.com/story/voyager-1-beat-still-working-light-day-away/
+  - nazov: "Tom's Hardware: Voyager 1 spacecraft crosses milestones distance of one-light day from Earth 49 years after launch"
+    url: https://www.tomshardware.com/tech-industry/space/voyager-1-spacecraft-crosses-milestones-distance-of-one-light-day-from-earth-49-years-after-launch-now-16-09-billion-miles-away-signal-takes-full-24-hours-to-travel-home
+  - nazov: "The Register: Space robot legend Voyager 1 is now more than 1 light-day away"
+    url: https://www.theregister.com/science/2026/11/18/space-robot-legend-voyager-1-is-now-more-than-1-light-day-away/5310751
+  - nazov: "Engadget: NASA's Voyager 1 space probe is now one light-day away from Earth"
+    url: https://www.engadget.com/2320267/nasa-voyager-1-space-probe-one-light-day-away-from-earth/
 ---
 
 ## Signál putuje celý deň
