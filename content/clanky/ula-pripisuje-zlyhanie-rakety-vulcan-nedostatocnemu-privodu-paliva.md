@@ -8,7 +8,7 @@ tagy:
   - Amazon Leo
   - BE-4
   - Blue Origin
-publikovane: 2026-11-19T04:39:26+00:00
+publikovane: 2026-11-19T09:27:47Z
 obrazok:
   src: /obrazky/ula-pripisuje-zlyhanie-rakety-vulcan-nedostatocnemu-privodu-paliva-mwncjzmy.jpg
   alt: Ilustračný obrázok.
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Register: ULA says Vulcan lacked the oomph to get Amazon satellites to orbit"
     url: https://www.theregister.com/science/2026/11/18/ula-says-vulcan-lacked-the-oomph-to-get-amazon-satellites-to-orbit/5310712
