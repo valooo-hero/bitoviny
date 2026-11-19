@@ -1,0 +1,516 @@
+{
+  "slug": "php-foundation-pripravuje-na-stvrtok-dalsiu-kriticku-bezpecnostnu-aktualizaciu",
+  "datum_sprav": "2026-11-18",
+  "dovod_vyberu": "Apache varuje pred kritickou RCE zraniteľnosťou Roller, ktorá už bola využitá v útokoch.",
+  "poznamky_pre_editora": "Čas vydania som prepísala z formátu 14.00 a 14.30 na 14:00 a 14:30 UTC podľa zdroja The Register, ktorý uvádza „between 14:00 and 14:30 UTC“. Nejde o prepočet.",
+  "upozornenia": [
+    "Článok čerpá len z jedného zdroja, hoci ich bolo viac."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý a všetky tvrdenia v ňom sú plne podložené poskytnutým zdrojom. V texte sa nenachádzajú žiadne závažné chyby ani nepodložené informácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 15,
+        "potvrdenych": 15,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 24,
+        "potvrdenych": 24,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "PHP Foundation pripravuje na štvrtok ďalšiu kritickú bezpečnostnú aktualizáciu",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The PHP Foundation will release a “critical” security update on Thursday between 14:00 and 14:30 UTC.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vydanie má obsahovať opravy chýb označených ako kritické, hoci podľa nadácie vyžadujú nezvyčajné nastavenia alebo konfiguráciu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The issues rated critical require either non-default configuration or uncommon setups",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jedna z nich umožňuje vzdialené spustenie kódu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "one of the vulnerabilities is another remote code execution (RCE) flaw, tracked as CVE-2026-115560.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "PHP Foundation plánuje vydať ďalšiu bezpečnostnú aktualizáciu vo štvrtok medzi 14:00 a 14:30 UTC.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The PHP Foundation will release a “critical” security update on Thursday between 14:00 and 14:30 UTC.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nadácia v upozornení zverejnenom v stredu označila najzávažnejšie chyby v pripravovanom vydaní za kritické a vyzvala používateľov PHP, aby boli pripravení aktualizovať bez zbytočného odkladu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "a Wednesday advisory said the highest-severity bugs in the upcoming release are rated critical.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podrobnosti o väčšine zraniteľností zatiaľ nezverejnila.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "While we don’t have many details about the latest vulnerabilities – these haven’t been leaked like last month’s critical PHP2Shell flaws",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Známe je, že medzi opravovanými problémami bude zraniteľnosť CVE-2026-115560, ktorá umožňuje vzdialené spustenie kódu (RCE).",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "We do know that one of the vulnerabilities is another remote code execution (RCE) flaw, tracked as CVE-2026-115560.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako uviedol portál The Register, PHP Foundation už v októbri potvrdila, že toto označenie pridelila ďalšej chybe tohto typu.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "In October, the PHP Foundation told The Register that it had reserved this CVE identifier for another RCE bug",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vtedy však vysvetlila, že nejde o prípad, ktorý by si vyžadoval mimoriadnu opravu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "added it would not get an emergency fix like the earlier two PHP2Shell vulnerabilities because the third one doesn't pose the same risk.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výkonná riaditeľka nadácie Elizabeth Barron v októbri uviedla, že problém si vyžaduje veľmi nepravdepodobnú kombináciu nastavení a konkrétneho kódu aplikácie.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "CVE-2026-115560 “requires a very unlikely combination of configuration and specific PHP application code... Elizabeth Barron, executive director of the PHP Foundation, told The Register at the time.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa nej sa takáto konfigurácia v bežnej praxi PHP pravdepodobne nevyskytuje.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "which we do not expect to occur in practical use of PHP",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nadácia zároveň upozornila, že riziko možno obmedziť zmenou nastavenia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The issue can be mitigated with a configuration setting.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na zneužitie chyby musí aplikácia najprv používať hodnotu php_binary alebo php_serialize v nastavení session.serialize_handler a neskôr ju za behu zmeniť na php pomocou ini_set() ešte pred volaním session_start().",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "These unlikely RCE attacks require an application to set “ session.serialize_handler to php_binary or php_serialize in its configuration and then switch it to php at runtime with ini_set() before calling session_start() .”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Súčasne musí byť zapnutá funkcia sledovania priebehu nahrávania súborov v relácii.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Additionally, the session upload progress feature must be enabled",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "PHP Foundation označila takúto zostavu za veľmi neobvyklú.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "which the PHP Foundation said is very unlikely in real-world applications.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jej predchádzajúce informačné upozornenie odporúčalo dočasne nastaviť session.upload_progress.enabled=0, čo má podľa nadácie používateľov chrániť pred týmto nepravdepodobným spôsobom vzdialeného spustenia kódu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The earlier informational advisory urged users to “set session.upload_progress.enabled=0 until the next regular bugfix release, to fully protect from an unlikely RCE vector.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nová aktualizácia má priniesť riadnu opravu; presný rozsah ostatných chýb zatiaľ zverejnený nebol.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "While we don’t have many details about the latest vulnerabilities... until the next regular bugfix release",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nové vydanie prichádza po rušnom októbri, keď bezpečnostné tímy nasadzovali núdzové opravy dvoch zraniteľností známych ako PHP2Shell: CVE-2026-109618 a CVE-2026-109619.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The November security release follows a hectic October emergency PHP patch-a-thon... fixes for CVE-2026-109618 and CVE-2026-109619, collectively called PHP2Shell",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register uvádza, že tieto chyby súviseli s bezpečnosťou pamäte a PHP podľa článku používa približne 70 percent webových stránok.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "abuse the memory-safety flaws in the open source programming language running on about 70 percent of websites.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Americká agentúra CISA zaradila obe zraniteľnosti do katalógu známych zneužívaných chýb 26. októbra.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "the US Cybersecurity and Infrastructure Security Agency (CISA) did add the two PHP vulns to its Known Exploited Vulnerabilities catalog on October 26.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výskumníci zo spoločnosti Dream neskôr informovali, že podozriví čínski útočníci spojili PHP2Shell s chybou umožňujúcou zvýšenie oprávnení v jadre Linuxu.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Suspected Chinese attackers chained PHP2Shell with a Linux kernel privilege-escalation exploit... according to Dream researchers.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Takto podľa nich získali najvyššie oprávnenia na 25 serveroch vrátane firewallov Palo Alto Networks napojených na organizácie spojené s vládou USA.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "to root 25 servers, including Palo Alto Networks firewalls linked to US government-affiliated organizations",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dream uviedol, že cieľmi boli organizácie v USA, Japonsku, na Taiwane a v Južnej Kórei a že útočníci si podľa odhadu výskumníkov pravdepodobne zachovali vzdialený prístup do časti napadnutých sietí.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The Israeli AI cybersecurity startup said the attackers targeted organizations across the US, Japan, Taiwan, and South Korea, and “likely still” have persistent, remote access to compromised organizations’ networks.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tieto zistenia sa týkajú októbrových zraniteľností PHP2Shell, nie chyby CVE-2026-115560. Správcovia PHP by preto mali sledovať oznámenie nadácie a po sprístupnení vydania preveriť, či sa ich systémy týkajú opravované problémy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Apologies in advance to all patch managers and security teams that thought they might get a break this week.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "titulok",
+        "povodne": "PHP Foundation pripravuje na",
+        "opravene": "PHP Foundation pripravuje na",
+        "dovod": "text je v poriadku",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "a že útočníci",
+        "opravene": "a, že útočníci",
+        "dovod": "LanguageTool: Dajte čiarku pred „že“: \", že\".",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "LanguageTool"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": " ako",
+        "kontext": "anie má obsahovať opravy chýb označených ako kritické, hoci podľa nadácie vyžadujú n",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "php_binary",
+        "kontext": "musí aplikácia najprv používať hodnotu `php_binary` alebo `php_serialize` v nastavení `ses",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "php_serialize",
+        "kontext": "rv používať hodnotu `php_binary` alebo `php_serialize` v nastavení `session.serialize_handler",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "session",
+        "kontext": "ary` alebo `php_serialize` v nastavení `session.serialize_handler` a neskôr ju za behu ",
+        "navrhy": [
+          "šestín"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "serialize_handler",
+        "kontext": "bo `php_serialize` v nastavení `session.serialize_handler` a neskôr ju za behu zmeniť na `php` po",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "ini_set",
+        "kontext": "kôr ju za behu zmeniť na `php` pomocou `ini_set()` ešte pred volaním `session_start()`.",
+        "navrhy": [
+          "Iviet",
+          "Nise",
+          "cnieť"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "session_start",
+        "kontext": " pomocou `ini_set()` ešte pred volaním `session_start()`. Súčasne musí byť zapnutá funkcia sl",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "session",
+        "kontext": "pozornenie odporúčalo dočasne nastaviť `session.upload_progress.enabled=0`, čo má podľa",
+        "navrhy": [
+          "šestín"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "upload_progress",
+        "kontext": "ie odporúčalo dočasne nastaviť `session.upload_progress.enabled=0`, čo má podľa nadácie používa",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "enabled",
+        "kontext": "časne nastaviť `session.upload_progress.enabled=0`, čo má podľa nadácie používateľov ch",
+        "navrhy": [
+          "nabieď",
+          "nabledo",
+          "nenabieď"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "dzové opravy dvoch zraniteľností známych ako PHP2Shell: CVE-2026-109618 a CVE-2026-1",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "firewallov",
+        "kontext": "ššie oprávnenia na 25 serveroch vrátane firewallov Palo Alto Networks napojených na organi",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -25 +25 @@\n-Dream uviedol, že cieľmi boli organizácie v USA, Japonsku, na Taiwane a v Južnej Kórei a že útočníci si podľa odhadu výskumníkov pravdepodobne zachovali vzdialený prístup do časti napadnutých sietí. Tieto zistenia sa týkajú októbrových zraniteľností PHP2Shell, nie chyby CVE-2026-115560. Správcovia PHP by preto mali sledovať oznámenie nadácie a po sprístupnení vydania preveriť, či sa ich systémy týkajú opravované problémy.\n+Dream uviedol, že cieľmi boli organizácie v USA, Japonsku, na Taiwane a v Južnej Kórei a, že útočníci si podľa odhadu výskumníkov pravdepodobne zachovali vzdialený prístup do časti napadnutých sietí. Tieto zistenia sa týkajú októbrových zraniteľností PHP2Shell, nie chyby CVE-2026-115560. Správcovia PHP by preto mali sledovať oznámenie nadácie a po sprístupnení vydania preveriť, či sa ich systémy týkajú opravované problémy."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Wikidata-Homepage_20220422_21_18_54.png/1280px-Wikidata-Homepage_20220422_21_18_54.png",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://www.bleepstatic.com/content/hl-images/2026/04/17/Apache.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://image.theregister.com/?imageId=5310922&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "PHP Foundation logo",
+      "PHP server rack",
+      "PHP code"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Wikidata-Homepage_20220422_21_18_54.png/1280px-Wikidata-Homepage_20220422_21_18_54.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Wikidata-Homepage_20220422_21_18_54.png/1280px-Wikidata-Homepage_20220422_21_18_54.png",
+        "nazov": "Wikidata-Homepage 20220422 21 18 54.png",
+        "autor": "Wikidata contributors File:The Earth seen from Apollo 17.jpg : NASA File:Ruler image.jpg : User:Goele File:Everest North Face toward Base Camp Tibet Luca Galuzzi 2006 (square).jpg : User:Lucag File:夜間",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Wikidata-Homepage_20220422_21_18_54.png",
+        "povod": "wikimedia",
+        "dopyt": "PHP Foundation logo"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/WikimediaServersOct07_4.JPG/1280px-WikimediaServersOct07_4.JPG",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/WikimediaServersOct07_4.JPG/1280px-WikimediaServersOct07_4.JPG",
+        "nazov": "WikimediaServersOct07 4.JPG",
+        "autor": "Florence Devouard",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:WikimediaServersOct07_4.JPG",
+        "povod": "wikimedia",
+        "dopyt": "PHP server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Codigo_php.jpg/1280px-Codigo_php.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Codigo_php.jpg/1280px-Codigo_php.jpg",
+        "nazov": "Codigo php.jpg",
+        "autor": "lmonk72",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Codigo_php.jpg",
+        "povod": "wikimedia",
+        "dopyt": "PHP code"
+      },
+      {
+        "url": "https://live.staticflickr.com/7522/16276055881_5ff1b53daa_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/5b3a268f-9dc2-40e5-a698-1432d991d2fb/thumb/",
+        "nazov": "Checking out php code (1)",
+        "autor": "4nitsirk",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/26223114@N02/16276055881",
+        "povod": "openverse",
+        "dopyt": "PHP code"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Logo_osezno_php_framework.jpg/1280px-Logo_osezno_php_framework.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Logo_osezno_php_framework.jpg/1280px-Logo_osezno_php_framework.jpg",
+        "nazov": "Logo osezno php framework.jpg",
+        "autor": "Joselitohacker",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Logo_osezno_php_framework.jpg",
+        "povod": "wikimedia",
+        "dopyt": "PHP Foundation logo"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/WikimediaServersOct07_5.JPG/1280px-WikimediaServersOct07_5.JPG",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/WikimediaServersOct07_5.JPG/1280px-WikimediaServersOct07_5.JPG",
+        "nazov": "WikimediaServersOct07 5.JPG",
+        "autor": "Florence Devouard",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:WikimediaServersOct07_5.JPG",
+        "povod": "wikimedia",
+        "dopyt": "PHP server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/PHP_Code_%2849919079151%29.jpg/1280px-PHP_Code_%2849919079151%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/PHP_Code_%2849919079151%29.jpg/1280px-PHP_Code_%2849919079151%29.jpg",
+        "nazov": "PHP Code (49919079151).jpg",
+        "autor": "Yuri Samoilov",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:PHP_Code_(49919079151).jpg",
+        "povod": "wikimedia",
+        "dopyt": "PHP code"
+      },
+      {
+        "url": "https://live.staticflickr.com/7543/16251907156_d6c17c8356_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/4c0d454b-1972-4c3b-9532-27f2eb452349/thumb/",
+        "nazov": "Checking out php code (2)",
+        "autor": "4nitsirk",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/26223114@N02/16251907156",
+        "povod": "openverse",
+        "dopyt": "PHP code"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a PHP server receiving a security patch, with a small shield and abstract code fragments, in a clean non-photorealistic style."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a PHP server receiving a security patch, with a small shield and abstract code fragments, in a clean non-photorealistic style.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/2a0032adb61866b00adca80823d12786",
+  "text_agentov": {
+    "titulok": "PHP Foundation pripravuje na štvrtok ďalšiu kritickú bezpečnostnú aktualizáciu",
+    "perex": "Vydanie má obsahovať opravy chýb označených ako kritické, hoci podľa nadácie vyžadujú nezvyčajné nastavenia alebo konfiguráciu. Jedna z nich umožňuje vzdialené spustenie kódu.",
+    "telo": "PHP Foundation plánuje vydať ďalšiu bezpečnostnú aktualizáciu vo štvrtok medzi 14:00 a 14:30 UTC. Nadácia v upozornení zverejnenom v stredu označila najzávažnejšie chyby v pripravovanom vydaní za kritické a vyzvala používateľov PHP, aby boli pripravení aktualizovať bez zbytočného odkladu. Podrobnosti o väčšine zraniteľností zatiaľ nezverejnila.\n\n## Jedna chyba umožňuje vzdialené spustenie kódu\n\nZnáme je, že medzi opravovanými problémami bude zraniteľnosť CVE-2026-115560, ktorá umožňuje vzdialené spustenie kódu (RCE). Ako uviedol portál The Register, PHP Foundation už v októbri potvrdila, že toto označenie pridelila ďalšej chybe tohto typu. Vtedy však vysvetlila, že nejde o prípad, ktorý by si vyžadoval mimoriadnu opravu.\n\nVýkonná riaditeľka nadácie Elizabeth Barron v októbri uviedla, že problém si vyžaduje veľmi nepravdepodobnú kombináciu nastavení a konkrétneho kódu aplikácie. Podľa nej sa takáto konfigurácia v bežnej praxi PHP pravdepodobne nevyskytuje. Nadácia zároveň upozornila, že riziko možno obmedziť zmenou nastavenia.\n\n## Riziko závisí od konfigurácie aplikácie\n\nNa zneužitie chyby musí aplikácia najprv používať hodnotu `php_binary` alebo `php_serialize` v nastavení `session.serialize_handler` a neskôr ju za behu zmeniť na `php` pomocou `ini_set()` ešte pred volaním `session_start()`. Súčasne musí byť zapnutá funkcia sledovania priebehu nahrávania súborov v relácii.\n\nPHP Foundation označila takúto zostavu za veľmi neobvyklú. Jej predchádzajúce informačné upozornenie odporúčalo dočasne nastaviť `session.upload_progress.enabled=0`, čo má podľa nadácie používateľov chrániť pred týmto nepravdepodobným spôsobom vzdialeného spustenia kódu. Nová aktualizácia má priniesť riadnu opravu; presný rozsah ostatných chýb zatiaľ zverejnený nebol.\n\n## Po októbrových núdzových opravách\n\nNové vydanie prichádza po rušnom októbri, keď bezpečnostné tímy nasadzovali núdzové opravy dvoch zraniteľností známych ako PHP2Shell: CVE-2026-109618 a CVE-2026-109619. The Register uvádza, že tieto chyby súviseli s bezpečnosťou pamäte a PHP podľa článku používa približne 70 percent webových stránok.\n\nAmerická agentúra CISA zaradila obe zraniteľnosti do katalógu známych zneužívaných chýb 26. októbra. Výskumníci zo spoločnosti Dream neskôr informovali, že podozriví čínski útočníci spojili PHP2Shell s chybou umožňujúcou zvýšenie oprávnení v jadre Linuxu. Takto podľa nich získali najvyššie oprávnenia na 25 serveroch vrátane firewallov Palo Alto Networks napojených na organizácie spojené s vládou USA.\n\nDream uviedol, že cieľmi boli organizácie v USA, Japonsku, na Taiwane a v Južnej Kórei a, že útočníci si podľa odhadu výskumníkov pravdepodobne zachovali vzdialený prístup do časti napadnutých sietí. Tieto zistenia sa týkajú októbrových zraniteľností PHP2Shell, nie chyby CVE-2026-115560. Správcovia PHP by preto mali sledovať oznámenie nadácie a po sprístupnení vydania preveriť, či sa ich systémy týkajú opravované problémy."
+  }
+}
