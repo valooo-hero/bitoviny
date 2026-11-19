@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import { FLUX, MUSE } from '../../../functions-lib/modely-obrazkov.js';
 ---
 
 <Base title="Redakčné rozhranie" noindex>
@@ -126,7 +127,13 @@ import Base from '../../layouts/Base.astro';
         <div id="generator">
           <button id="gen-ukaz" class="tl" type="button">Vygenerovať obrázok…</button>
           <div id="gen-krok2" hidden>
-            <label>Prompt, ktorý sa odošle modelu FLUX.1-schnell (dá sa upraviť)
+            <label>Model
+              <select id="gen-model">
+                <option value={FLUX.id}>{FLUX.nazov} (Cloudflare Workers AI)</option>
+                <option value={MUSE.id}>{MUSE.nazov} (fal.ai)</option>
+              </select>
+            </label>
+            <label>Prompt (dá sa upraviť)
               <textarea id="gen-prompt" rows="4" maxlength="1500"></textarea>
             </label>
             <label>Popisok pod obrázkom
@@ -144,7 +151,7 @@ import Base from '../../layouts/Base.astro';
             </div>
           </div>
           <div id="gen-vysledok" hidden>
-            <img id="gen-obrazok" alt="Vygenerovaný náhľad" width="1024" height="1024" />
+            <img id="gen-obrazok" alt="Vygenerovaný náhľad" />
             <div class="riadok">
               <button id="gen-pouzit" class="tl hlavne" type="button">Použiť</button>
               <button id="gen-znova" class="tl" type="button">Skúsiť znova</button>
@@ -328,7 +335,7 @@ import Base from '../../layouts/Base.astro';
   const md = (t: string) => marked.parse(bezHtml(t), { async: false }) as string;
 
   let stav: any = null; // otvorený koncept
-  let vygenerovany: string | null = null;
+  let vygenerovany: { obrazokB64: string; model: string } | null = null;
 
   function hlas(text: string, chyba = false) {
     const h = $('hlasenie');
@@ -697,25 +704,51 @@ import Base from '../../layouts/Base.astro';
     $('gen-prompt').focus();
   });
   $('gen-zrusit').addEventListener('click', () => ($('gen-krok2').hidden = true));
-  const generuj = (tl: HTMLButtonElement) =>
-    pracuj(tl, 'Generujem…', async () => {
-      const otvoreny = stav;
-      const { obrazokB64 } = await api('/api/generuj', 'POST', { prompt: ($('gen-prompt') as HTMLTextAreaElement).value });
-      const bajty = Uint8Array.from(atob(obrazokB64), (c) => c.charCodeAt(0));
-      if (stav !== otvoreny) return;
-      const jpg = await obrazokAkoJpg(new Blob([bajty]), MAX_BAJTOV_OBRAZKA);
-      if (stav !== otvoreny) return;
-      vygenerovany = jpg;
-      ($('gen-obrazok') as HTMLImageElement).src = `data:image/jpeg;base64,${vygenerovany}`;
-      $('gen-vysledok').hidden = false;
+  const generuj = (tl: HTMLButtonElement) => {
+    const otvoreny = stav;
+    const pouzit = $('gen-pouzit') as HTMLButtonElement;
+    if (pouzit.disabled) return;
+    const druheTlacidlo = $(tl.id === 'gen-odoslat' ? 'gen-znova' : 'gen-odoslat') as HTMLButtonElement;
+    pouzit.disabled = druheTlacidlo.disabled = true;
+    return pracuj(tl, 'Generujem…', async () => {
+      try {
+        const { obrazokB64, model } = await api('/api/generuj', 'POST', {
+          prompt: hodnota('gen-prompt'),
+          model: hodnota('gen-model'),
+        });
+        if (stav !== otvoreny) return;
+        const bajty = Uint8Array.from(atob(obrazokB64), (c) => c.charCodeAt(0));
+        const jpg = await obrazokAkoJpg(new Blob([bajty]), MAX_BAJTOV_OBRAZKA);
+        if (stav !== otvoreny) return;
+        vygenerovany = { obrazokB64: jpg, model };
+        ($('gen-obrazok') as HTMLImageElement).src = `data:image/jpeg;base64,${jpg}`;
+        $('gen-vysledok').hidden = false;
+      } catch (e) {
+        if (stav === otvoreny) throw e;
+      } finally {
+        pouzit.disabled = druheTlacidlo.disabled = false;
+      }
     });
+  };
   $('gen-odoslat').addEventListener('click', (e) => generuj(e.currentTarget as HTMLButtonElement));
   $('gen-znova').addEventListener('click', (e) => generuj(e.currentTarget as HTMLButtonElement));
   $('gen-zahodit').addEventListener('click', () => { vygenerovany = null; $('gen-vysledok').hidden = true; });
   $('gen-pouzit').addEventListener('click', (e) =>
     pracuj(e.currentTarget as HTMLButtonElement, 'Ukladám…', async () => {
-      await api(`${adresa()}/obrazok`, 'POST', { typ: 'generovany', obrazokB64: vygenerovany, popisok: ($('gen-popisok') as HTMLInputElement).value, umiestnenie: hodnota('gen-umiestnenie') });
-      stav = await api(adresa());
+      if (!vygenerovany) return;
+      const otvoreny = stav;
+      const cesta = adresa();
+      await api(`${cesta}/obrazok`, 'POST', {
+        typ: 'generovany',
+        ...vygenerovany,
+        popisok: hodnota('gen-popisok'),
+        umiestnenie: hodnota('gen-umiestnenie'),
+      });
+      if (stav !== otvoreny) return;
+      const ulozeny = await api(cesta);
+      if (stav !== otvoreny) return;
+      stav = ulozeny;
+      vygenerovany = null;
       vykresliObrazky();
       $('gen-vysledok').hidden = $('gen-krok2').hidden = true;
       hlas(hlaskaPoObrazku('Vygenerovaný obrázok je uložený.'));

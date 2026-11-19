@@ -3,6 +3,7 @@
 import { bezHtml, rozdel, zloz } from './clanok.js';
 import { ZASTUPNY_OBRAZOK, jeZastupnyObrazok, naBase64 } from './github.js';
 import { jeJpeg } from './jpeg.js';
+import { FLUX, MUSE } from './modely-obrazkov.js';
 import { cestaClanku, teraz } from './uprava.js';
 
 const MAX_BAJTOV = 6 * 1024 * 1024;
@@ -131,7 +132,8 @@ export async function pridajObrazok(gh, ciel, vstup) {
     const info = await overZdroj(gh, ciel, vstup.url);
     meta = { kredit: info.kredit, licencia: info.licencia, popisok: bezHtml(vstup.popisok || info.popisok || ''), ai: false };
   } else if (vstup.typ === 'generovany') {
-    meta = { kredit: 'Bitoviny / FLUX.1-schnell', licencia: 'vygenerované AI', popisok: bezHtml(vstup.popisok || 'Ilustračný obrázok.'), ai: true };
+    const model = vstup.model === MUSE.id ? MUSE : FLUX;
+    meta = { kredit: `Bitoviny / ${model.nazov}`, licencia: 'vygenerované AI', popisok: bezHtml(vstup.popisok || 'Ilustračný obrázok.'), ai: true };
   } else if (vstup.typ === 'vlastny') {
     // Pri vlastnom obrázku za pôvod a práva ručí editor, preto ich musí výslovne uviesť.
     meta = { kredit: bezHtml(vstup.kredit || '').trim(), licencia: bezHtml(vstup.licencia || '').trim(), popisok: bezHtml(vstup.popisok || ''), ai: vstup.ai === true };
