@@ -9,11 +9,12 @@ tagy:
   - čipy
 publikovane: 2026-11-19T04:39:14+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/nvidia-vykazala-trzby-115-8-miliardy-dolarov-platforma-vera-rubin-pridala-takmer-mwncekyu.jpg
+  alt: Nvidia
+  popisok: Nvidia
+  kredit: Nvidia
+  licencia: tlačový materiál
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
