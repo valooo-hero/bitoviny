@@ -1,8 +1,8 @@
 import { readdirSync, readFileSync } from 'node:fs';
-import { join } from 'node:path';
+import { join, sep } from 'node:path';
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
-import { jeJpeg } from './functions-lib/jpeg.js';
+import { jeJpeg, jeWebp } from './functions-lib/format-obrazka.js';
 
 // Stiahnuté články majú na svojej adrese len oznam a do sitemap nepatria.
 const stiahnute = readdirSync('./content/clanky')
@@ -14,14 +14,16 @@ export default defineConfig({
   trailingSlash: 'always',
   integrations: [
     {
-      name: 'kontrola-jpg',
+      name: 'kontrola-formatu-obrazkov',
       hooks: {
         'astro:build:start': () => {
           for (const subor of readdirSync('public', { recursive: true, withFileTypes: true })) {
             if (subor.isDirectory() || !/\.(jpe?g|png|webp|gif|avif|svg|ico|bmp|tiff?|heic)$/i.test(subor.name)) continue;
             const cesta = join(subor.parentPath, subor.name);
-            if (!subor.name.endsWith('.jpg') || !jeJpeg(readFileSync(cesta))) {
-              throw new Error(`Obrázok musí byť vo formáte JPG: ${cesta}`);
+            const bajty = readFileSync(cesta);
+            const jeClankovyWebp = cesta.startsWith(join('public', 'obrazky') + sep) && subor.name.endsWith('.webp') && jeWebp(bajty);
+            if (!jeClankovyWebp && !(subor.name.endsWith('.jpg') && jeJpeg(bajty))) {
+              throw new Error(`Nepodporovaný formát obrázka: ${cesta}`);
             }
           }
         },

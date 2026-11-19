@@ -16,8 +16,8 @@ export async function onRequestPost({ env, params, request, data }) {
   for (const o of hlavicka.galeria ?? []) {
     if (!o.popisok || !o.kredit || !o.licencia) prekazky.push('Niektorému obrázku v článku chýba popisok, kredit alebo licencia.');
   }
-  if ([hlavicka.obrazok, ...(hlavicka.galeria ?? [])].some((o) => !jeZastupnyObrazok(o.src) && !o.src.endsWith('.jpg'))) {
-    prekazky.push('Článok obsahuje obrázok v starom formáte. Nahrajte ho znova, aby sa previedol na JPG.');
+  if ([hlavicka.obrazok, ...(hlavicka.galeria ?? [])].some((o) => !jeZastupnyObrazok(o.src) && !/\.(jpg|webp)$/.test(o.src))) {
+    prekazky.push('Článok obsahuje obrázok v nepodporovanom formáte. Nahrajte ho znova, aby sa previedol na JPG.');
   }
   if (vstup.potvrdenie !== true) prekazky.push('Chýba potvrdenie, že editor článok skontroloval.');
   if (prekazky.length) return chyba(400, prekazky.join(' '));
