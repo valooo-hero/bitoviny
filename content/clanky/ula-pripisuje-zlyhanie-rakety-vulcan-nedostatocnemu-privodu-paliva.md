@@ -3,27 +3,28 @@ title: ULA pripisuje zlyhanie rakety Vulcan nedostatočnému prívodu paliva
 perex: Pri nedeľnom štarte sa nosič nedostal na potrebnú rýchlosť a satelit Amazon Leo 1 nedosiahol obežnú dráhu. Predbežná analýza ukazuje na problém s dodávkou paliva k motorom BE-4, vyšetrovanie však pokračuje.
 sekcia: hardver
 tagy:
-- ULA
-- Vulcan
-- Amazon Leo
-- BE-4
-- Blue Origin
-publikovane: '2026-11-19T04:39:26+00:00'
+  - ULA
+  - Vulcan
+  - Amazon Leo
+  - BE-4
+  - Blue Origin
+publikovane: 2026-11-19T04:39:26+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/ula-pripisuje-zlyhanie-rakety-vulcan-nedostatocnemu-privodu-paliva-mwncjzmy.jpg
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'The Register: ULA says Vulcan lacked the oomph to get Amazon satellites to orbit'
-  url: https://www.theregister.com/science/2026/11/18/ula-says-vulcan-lacked-the-oomph-to-get-amazon-satellites-to-orbit/5310712
-- nazov: 'Ars Technica: Vulcan failure caused by inadequate fuel supply to engines, ULA says'
-  url: https://arstechnica.com/space/2026/11/vulcan-failure-caused-by-inadequate-fuel-supply-to-engines-ula-says/
+  - nazov: "The Register: ULA says Vulcan lacked the oomph to get Amazon satellites to orbit"
+    url: https://www.theregister.com/science/2026/11/18/ula-says-vulcan-lacked-the-oomph-to-get-amazon-satellites-to-orbit/5310712
+  - nazov: "Ars Technica: Vulcan failure caused by inadequate fuel supply to engines, ULA says"
+    url: https://arstechnica.com/space/2026/11/vulcan-failure-caused-by-inadequate-fuel-supply-to-engines-ula-says/
 ---
 
 United Launch Alliance (ULA) predbežne pripisuje zlyhanie rakety Vulcan nedostatočnému prívodu paliva k jej motorom BE-4. Pri nedeľnom lete sa nosič nedostal na rýchlosť potrebnú na vynesenie satelitu Amazon Leo 1 na obežnú dráhu. Spoločnosť zdôrazňuje, že vyšetrovanie príčiny ešte nie je ukončené.
