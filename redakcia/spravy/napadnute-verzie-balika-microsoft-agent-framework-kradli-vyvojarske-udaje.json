@@ -1,0 +1,692 @@
+{
+  "slug": "napadnute-verzie-balika-microsoft-agent-framework-kradli-vyvojarske-udaje",
+  "datum_sprav": "2026-11-18",
+  "dovod_vyberu": "Balík Microsoft Agent Framework na PyPI bol kompromitovaný a slúžil na kradnutie prihlasovacích údajov.",
+  "poznamky_pre_editora": "Nález k číslu 200 nepovažujem za vecnú chybu, pretože zdroje uvádzajú približne 200-tisíc stiahnutí mesačne. BleepingComputer píše „roughly 200,000 monthly downloads“ a The Register „nearly 200,000 downloads a month“; tvrdenie v koncepte preto zostáva nezmenené.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je plne spoľahlivý a presne vychádza z priložených zdrojov. Všetky overované tvrdenia o napadnutých verziách, technických detailoch útoku aj odporúčaniach pre vývojárov sú bezvýhradne potvrdené.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 22,
+        "potvrdenych": 22,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 18,
+        "potvrdenych": 18,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 25,
+        "potvrdenych": 25,
+        "chyb": 1,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_cisel",
+        "zavaznost": "chyba",
+        "text": "Číslo 200",
+        "komentar": "Číslo je v koncepte, ale v žiadnom zdroji sa nenachádza.",
+        "navrh_opravy": "Opraviť podľa zdroja alebo vypustiť. Ak ide o prepočet, uviesť to v poznámkach."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Dve napadnuté verzie oficiálneho balíka Microsoft Agent Framework pre Python obsahovali škodlivý kód na krádež prihlasovacích údajov a ďalších tajomstiev z vývojárskych systémov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Verzie 1.26.1 a 1.26.2 sa objavili na PyPI 17. novembra 2026.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The malicious releases, versions 1.26.1 and 1.26.2, were published on November 17, 2026",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa portálov BleepingComputer a The Register má balík približne 200-tisíc stiahnutí mesačne.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "It's a fairly popular tool with roughly 200,000 monthly downloads on PyPI.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Riziko sa týkalo aj prostredí, v ktorých vývojár balík priamo nepoužil.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "executed automatically during normal Python startup in affected environments, even when the Agent Framework package was not imported.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Škodlivý kód sa spustil pri štarte interpretera Python, ak bol balík nainštalovaný.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "all it takes is a Python interpreter with the package installed to start up",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Obe napadnuté vydania pritom zachovali závislosť od legitímnej verzie agent-framework-core 1.26.0, takže mohli pôsobiť funkčne a dôveryhodne.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Both versions retained their dependency on the legitimate agent-framework-core 1.26.0 package, allowing the framework to function normally",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa bezpečnostných firiem Socket a Step Security využila prvá napadnutá verzia súbor agent_framework_meta.pth, ktorý pri spustení Pythonu aktivoval kód v agent_framework_meta/_telemetry.py.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "According to Socket and StepSecurity, the first malicious release used agent_framework_meta.pth to execute the credential stealer in agent_framework_meta/_telemetry.py during Python startup.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vydanie 1.26.2 presunulo škodlivú časť do súborov af_runtime_diag.pth a af_runtime_diag.py.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The second release restored the original package initializer and moved the malicious code into af_runtime_diag.pth and af_runtime_diag.py.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Malvér vyhľadával tajomstvá v premenných prostredia, konfiguračných súboroch a ďalších procesoch, ku ktorým mal prístup.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "harvested secrets from environment variables, local configuration files, and other running processes where permissions allowed",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Záujem mal o údaje pre služby Azure, AWS, GitHub, Docker, Hugging Face a OpenAI, ako aj ďalšie nástroje.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "targeting Azure, AWS, GitHub, Docker, Hugging Face, OpenAI, and other services.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Okrem už uložených údajov sa pokúšal vyžiadať nové tokeny spravovaných identít Azure a tokeny OIDC pre Azure DevOps.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The malware also attempted to obtain Azure managed identity access tokens and Azure DevOps OIDC tokens",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Druhá verzia pridala aj požiadavky na tokeny OIDC pre GitHub Actions a prehľadávanie adresárov GitHub runnerov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Version 1.26.2 added GitHub Actions OIDC token requests and searches of GitHub runner directories.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zozbierané informácie smerovali na rovnakú adresu služby webhook.site, ktorú mali obe vydania pevne zapísanú v kóde.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Both versions exfiltrated collected data to the same attacker-controlled endpoint",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register uvádza, že údaje boli odosielané v zakódovanom bloku JSON.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "encrypts them as a base64-encoded chunk of JSON, and sends them off to a webhook.site address",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa výskumníkov OpenSourceMalware je kombinácia krádeže existujúcich údajov a aktívneho získavania tokenov obzvlášť nebezpečná v cloudových zostavovacích prostrediach, pretože aj krátkodobé tokeny môžu útočníci zneužiť, ak ich získajú rýchlo.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "That combination of passive theft and active token requests makes it especially dangerous in cloud build environments, because even short-lived tokens are useful when they're exfiltrated right away",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "BleepingComputer píše, že PyPI prvé škodlivé vydanie umiestnil do karantény, no približne o dve a pol minúty sa objavila verzia 1.26.2, ktorú platforma podľa článku zablokovala asi o osem minút neskôr.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "PyPI quarantined the first malicious release, but the attacker published a second version roughly 2.5 minutes later, which was also quarantined about eight minutes afterward.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register opisuje prvú verziu ako vrátenú na bezpečný stav a uvádza, že útočník neskôr nahral ďalšiu cez oficiálny publikačný účet Microsoftu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "version 1.26.1 was reverted to a safe version, but the attacker later uploaded 1.26.2 through Microsoft’s official PyPI publisher account",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Obe správy teda naznačujú pokračujúci prístup k publikovaniu, presný priebeh zásahu však opisujú odlišne.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The second release indicates that the attacker still had publishing access after the initial quarantine.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft podľa The Register uviedol, že niektoré repozitáre sprístupnil iba súkromne, kým preveruje škodlivý obsah.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "We have made some repositories private while we investigate malicious content",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Repozitár Agent Framework bol v čase publikovania článku nedostupný.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The agent-framework GitHub repo is offline as of writing.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Aj repozitár ONNX Runtime bol vtedy offline, no Microsoft ani bezpečnostní výskumníci ho s touto kampaňou nespájali.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "neither Microsoft nor security researchers have linked the ONNX repo’s pull to the malware campaign.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Príčina získania prístupu k vydávaniu balíka nebola známa.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "It remains unclear how the attacker gained access to publish malicious releases under Microsoft's official PyPI project.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vývojárom, ktorí nainštalovali niektorú z napadnutých verzií, BleepingComputer odporúča izolovať dotknuté prostredie, nespúšťať v ňom Python ani pip, kým nebude zabezpečené, a obnoviť ho z dôveryhodného základu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Developers who installed either malicious version should isolate affected environments, avoid running Python or pip until they are secured, and rebuild",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Odporúča tiež okamžite zmeniť všetky potenciálne odhalené prístupové údaje a v odchádzajúcich sieťových záznamoch hľadať konkrétnu cestu webhooku.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Any potentially exposed credentials that were within the reach of the compromised environment should be rotated immediately. To determine the exact level of compromise",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako bezpečnú alternatívu uvádza verziu 1.26.0.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "rebuild from a known-clean environment using the safe 1.26.0 release.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "cloudové",
+        "kontext": "mportovania balíka. Útočníci cielili na cloudové a vývojárske prístupové údaje.",
+        "navrhy": [
+          "Chodove",
+          "chodové",
+          "clonové"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "interpretera",
+        "kontext": "žil. Škodlivý kód sa spustil pri štarte interpretera Python, ak bol balík nainštalovaný. Obe",
+        "navrhy": [
+          "interpretéra"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "agent-framework-core",
+        "kontext": "achovali závislosť od legitímnej verzie agent-framework-core 1.26.0, takže mohli pôsobiť funkčne a d",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "agent_framework_meta",
+        "kontext": "ty využila prvá napadnutá verzia súbor `agent_framework_meta.pth`, ktorý pri spustení Pythonu aktivo",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "pth",
+        "kontext": "nutá verzia súbor `agent_framework_meta.pth`, ktorý pri spustení Pythonu aktivoval ",
+        "navrhy": [
+          "PTE",
+          "Ph",
+          "Pt"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "agent_framework_meta",
+        "kontext": "ý pri spustení Pythonu aktivoval kód v `agent_framework_meta/_telemetry.py`. Vydanie 1.26.2 presunul",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "_telemetry",
+        "kontext": "u aktivoval kód v `agent_framework_meta/_telemetry.py`. Vydanie 1.26.2 presunulo škodlivú ",
+        "navrhy": [
+          "_ telemetra",
+          "_ telemetre",
+          "_ telemetri"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "py",
+        "kontext": " kód v `agent_framework_meta/_telemetry.py`. Vydanie 1.26.2 presunulo škodlivú čas",
+        "navrhy": [
+          "CY",
+          "Gy",
+          "IY"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "af_runtime_diag",
+        "kontext": "6.2 presunulo škodlivú časť do súborov `af_runtime_diag.pth` a `af_runtime_diag.py`.\n\nMalvér vy",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "pth",
+        "kontext": "odlivú časť do súborov `af_runtime_diag.pth` a `af_runtime_diag.py`.\n\nMalvér vyhľad",
+        "navrhy": [
+          "PTE",
+          "Ph",
+          "Pt"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "af_runtime_diag",
+        "kontext": "asť do súborov `af_runtime_diag.pth` a `af_runtime_diag.py`.\n\nMalvér vyhľadával tajomstvá v pre",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "py",
+        "kontext": "af_runtime_diag.pth` a `af_runtime_diag.py`.\n\nMalvér vyhľadával tajomstvá v premen",
+        "navrhy": [
+          "CY",
+          "Gy",
+          "IY"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "tokeny",
+        "kontext": "ožených údajov sa pokúšal vyžiadať nové tokeny spravovaných identít Azure a tokeny OID",
+        "navrhy": [
+          "topený",
+          "točený"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "tokeny",
+        "kontext": "ové tokeny spravovaných identít Azure a tokeny OIDC pre Azure DevOps. Druhá verzia pri",
+        "navrhy": [
+          "topený",
+          "točený"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "tokeny",
+        "kontext": ". Druhá verzia pridala aj požiadavky na tokeny OIDC pre GitHub Actions a prehľadávanie",
+        "navrhy": [
+          "topený",
+          "točený"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "webhook",
+        "kontext": "ácie smerovali na rovnakú adresu služby webhook.site, ktorú mali obe vydania pevne zapí",
+        "navrhy": [
+          "Webtoon"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "krádeže",
+        "kontext": "umníkov OpenSourceMalware je kombinácia krádeže existujúcich údajov a aktívneho získava",
+        "navrhy": [
+          "kadeže",
+          "krádež",
+          "krádež e"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "tokenov",
+        "kontext": "stujúcich údajov a aktívneho získavania tokenov obzvlášť nebezpečná v cloudových zostav",
+        "navrhy": [
+          "eocénov",
+          "hokejov",
+          "kokónov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cloudových",
+        "kontext": "ískavania tokenov obzvlášť nebezpečná v cloudových zostavovacích prostrediach, pretože aj ",
+        "navrhy": [
+          "chodových",
+          "clonových",
+          "loďových"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "zostavovacích",
+        "kontext": "okenov obzvlášť nebezpečná v cloudových zostavovacích prostrediach, pretože aj krátkodobé tok",
+        "navrhy": [
+          "zastavovacích"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "tokeny",
+        "kontext": "ích prostrediach, pretože aj krátkodobé tokeny môžu útočníci zneužiť, ak ich získajú r",
+        "navrhy": [
+          "topený",
+          "točený"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "neskôr. The Register opisuje prvú verziu ako vrátenú na bezpečný stav a uvádza, že ú",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "repozitáre",
+        "kontext": "podľa The Register uviedol, že niektoré repozitáre sprístupnil iba súkromne, kým preveruje",
+        "navrhy": [
+          "depozitáre"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "repozitár",
+        "kontext": "čase publikovania článku nedostupný. Aj repozitár ONNX Runtime bol vtedy offline, no Micr",
+        "navrhy": [
+          "depozitár"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "offline",
+        "kontext": "ný. Aj repozitár ONNX Runtime bol vtedy offline, no Microsoft ani bezpečnostní výskumní",
+        "navrhy": [
+          "off line"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "pip",
+        "kontext": " prostredie, nespúšťať v ňom Python ani pip, kým nebude zabezpečené, a obnoviť ho z",
+        "navrhy": [
+          "píp",
+          "AIP",
+          "FIP"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "webhooku",
+        "kontext": "ťových záznamoch hľadať konkrétnu cestu webhooku. Ako bezpečnú alternatívu uvádza verziu",
+        "navrhy": [
+          "Lehôtku",
+          "jednookú",
+          "nebezokú"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Rear_of_rack_at_NERSC_data_center_-_closeup.jpg/1280px-Rear_of_rack_at_NERSC_data_center_-_closeup.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://www.bleepstatic.com/content/hl-images/2025/03/12/Microsoft-headpic.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.bleepstatic.com/images/news/u/1220909/2026/November/attackoverview.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "Attack overview",
+        "popisok": "Attack overview Source: Ox Security",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://image.theregister.com/?imageId=5309156&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Microsoft Azure server rack",
+      "Python pip command line",
+      "data center server rack"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Rear_of_rack_at_NERSC_data_center_-_closeup.jpg/1280px-Rear_of_rack_at_NERSC_data_center_-_closeup.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Rear_of_rack_at_NERSC_data_center_-_closeup.jpg/1280px-Rear_of_rack_at_NERSC_data_center_-_closeup.jpg",
+        "nazov": "Rear of rack at NERSC data center - closeup.jpg",
+        "autor": "Derrick Coetzee from Berkeley, CA, USA",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Rear_of_rack_at_NERSC_data_center_-_closeup.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3273/3025911233_fb4e7ace9f_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/a66c5af0-00c5-4778-a1ef-7404a97cbadf/thumb/",
+        "nazov": "Awaiting servers",
+        "autor": "bugeaters",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/45778851@N00/3025911233",
+        "povod": "openverse",
+        "dopyt": "data center server rack"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/EFTA00002518_-_Server_rack_with_multiple_hard_drives_and_network_cables_connected_in_a_data_center_environment.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/a/a1/EFTA00002518_-_Server_rack_with_multiple_hard_drives_and_network_cables_connected_in_a_data_center_environment.jpg",
+        "nazov": "EFTA00002518 - Server rack with multiple hard drives and network cables connected in a data center environment.jpg",
+        "autor": "Federal Bureau of Investigation",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:EFTA00002518_-_Server_rack_with_multiple_hard_drives_and_network_cables_connected_in_a_data_center_environment.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3595/3594831893_932307ae3f.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c025bb1a-e95b-435f-bd74-750ded7ff096/thumb/",
+        "nazov": "IMG_9372",
+        "autor": "NeoSpire",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/39131599@N06/3594831893",
+        "povod": "openverse",
+        "dopyt": "data center server rack"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/EFTA00002629_-_Server_rack_with_multiple_networking_devices_and_cables_connected_showing_a_typical_data_center_setup.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/4/49/EFTA00002629_-_Server_rack_with_multiple_networking_devices_and_cables_connected_showing_a_typical_data_center_setup.jpg",
+        "nazov": "EFTA00002629 - Server rack with multiple networking devices and cables connected showing a typical data center setup.jpg",
+        "autor": "Federal Bureau of Investigation",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:EFTA00002629_-_Server_rack_with_multiple_networking_devices_and_cables_connected_showing_a_typical_data_center_setup.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/31/99991779_a7997fd239_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/83cec44b-c0e1-48f2-8eb6-3151b392510b/thumb/",
+        "nazov": "28TB",
+        "autor": "jared",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/35468148654@N01/99991779",
+        "povod": "openverse",
+        "dopyt": "data center server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Technician_with_laptop_working_on_server_rack_at_NERSC.jpg/1280px-Technician_with_laptop_working_on_server_rack_at_NERSC.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Technician_with_laptop_working_on_server_rack_at_NERSC.jpg/1280px-Technician_with_laptop_working_on_server_rack_at_NERSC.jpg",
+        "nazov": "Technician with laptop working on server rack at NERSC.jpg",
+        "autor": "Derrick Coetzee from Berkeley, CA, USA",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Technician_with_laptop_working_on_server_rack_at_NERSC.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center server rack"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a compromised software package leaking abstract credential symbols from a Python code window, with no real logos or people."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a compromised software package leaking abstract credential symbols from a Python code window, with no real logos or people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/c5afa54518da1674b287aa64a29d4e41",
+  "text_agentov": {
+    "titulok": "Napadnuté verzie balíka Microsoft Agent Framework kradli vývojárske údaje",
+    "perex": "Z PyPI sa šírili verzie 1.26.1 a 1.26.2 s kódom, ktorý sa spúšťal pri štarte Pythonu aj bez importovania balíka. Útočníci cielili na cloudové a vývojárske prístupové údaje.",
+    "telo": "Dve napadnuté verzie oficiálneho balíka Microsoft Agent Framework pre Python obsahovali škodlivý kód na krádež prihlasovacích údajov a ďalších tajomstiev z vývojárskych systémov. Verzie 1.26.1 a 1.26.2 sa objavili na PyPI 17. novembra 2026. Podľa portálov BleepingComputer a The Register má balík približne 200-tisíc stiahnutí mesačne.\n\nRiziko sa týkalo aj prostredí, v ktorých vývojár balík priamo nepoužil. Škodlivý kód sa spustil pri štarte interpretera Python, ak bol balík nainštalovaný. Obe napadnuté vydania pritom zachovali závislosť od legitímnej verzie agent-framework-core 1.26.0, takže mohli pôsobiť funkčne a dôveryhodne.\n\n## Kód sa spúšťal na pozadí\n\nPodľa bezpečnostných firiem Socket a Step Security využila prvá napadnutá verzia súbor `agent_framework_meta.pth`, ktorý pri spustení Pythonu aktivoval kód v `agent_framework_meta/_telemetry.py`. Vydanie 1.26.2 presunulo škodlivú časť do súborov `af_runtime_diag.pth` a `af_runtime_diag.py`.\n\nMalvér vyhľadával tajomstvá v premenných prostredia, konfiguračných súboroch a ďalších procesoch, ku ktorým mal prístup. Záujem mal o údaje pre služby Azure, AWS, GitHub, Docker, Hugging Face a OpenAI, ako aj ďalšie nástroje. Okrem už uložených údajov sa pokúšal vyžiadať nové tokeny spravovaných identít Azure a tokeny OIDC pre Azure DevOps. Druhá verzia pridala aj požiadavky na tokeny OIDC pre GitHub Actions a prehľadávanie adresárov GitHub runnerov.\n\nZozbierané informácie smerovali na rovnakú adresu služby webhook.site, ktorú mali obe vydania pevne zapísanú v kóde. The Register uvádza, že údaje boli odosielané v zakódovanom bloku JSON. Podľa výskumníkov OpenSourceMalware je kombinácia krádeže existujúcich údajov a aktívneho získavania tokenov obzvlášť nebezpečná v cloudových zostavovacích prostrediach, pretože aj krátkodobé tokeny môžu útočníci zneužiť, ak ich získajú rýchlo.\n\n## Čo zatiaľ vieme o zásahu\n\nBleepingComputer píše, že PyPI prvé škodlivé vydanie umiestnil do karantény, no približne o dve a pol minúty sa objavila verzia 1.26.2, ktorú platforma podľa článku zablokovala asi o osem minút neskôr. The Register opisuje prvú verziu ako vrátenú na bezpečný stav a uvádza, že útočník neskôr nahral ďalšiu cez oficiálny publikačný účet Microsoftu. Obe správy teda naznačujú pokračujúci prístup k publikovaniu, presný priebeh zásahu však opisujú odlišne.\n\nMicrosoft podľa The Register uviedol, že niektoré repozitáre sprístupnil iba súkromne, kým preveruje škodlivý obsah. Repozitár Agent Framework bol v čase publikovania článku nedostupný. Aj repozitár ONNX Runtime bol vtedy offline, no Microsoft ani bezpečnostní výskumníci ho s touto kampaňou nespájali. Príčina získania prístupu k vydávaniu balíka nebola známa.\n\nVývojárom, ktorí nainštalovali niektorú z napadnutých verzií, BleepingComputer odporúča izolovať dotknuté prostredie, nespúšťať v ňom Python ani pip, kým nebude zabezpečené, a obnoviť ho z dôveryhodného základu. Odporúča tiež okamžite zmeniť všetky potenciálne odhalené prístupové údaje a v odchádzajúcich sieťových záznamoch hľadať konkrétnu cestu webhooku. Ako bezpečnú alternatívu uvádza verziu 1.26.0."
+  }
+}
