@@ -1,0 +1,550 @@
+{
+  "slug": "windows-server-2028-sprisni-predvolene-zabezpecenie-niektore-nastavenia-prestanu",
+  "datum_sprav": "2026-11-18",
+  "dovod_vyberu": "Microsoft uvádza Windows Server 2028 s vylepšenou bezpečnosťou, čo je dôležité pre slovenské a európske podniky.",
+  "poznamky_pre_editora": "Vypustená nepodložená záverečná veta o organizáciách na Slovensku a v EÚ.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý a všetky overiteľné tvrdenia majú priamu a presnú oporu v poskytnutých zdrojoch. Nevyskytujú sa v ňom žiadne vecné chyby ani nepodložené informácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 26,
+        "potvrdenych": 25,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 28,
+        "potvrdenych": 28,
+        "chyb": 0,
+        "upozorneni": 2
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "Patrí medzi ne uprednostnenie Kerberosu pred NTLM, ochrana procesu LSASS, obmedzenie TLS na moderné šifrovacie súpravy a prísnejšie overovanie pri vzdialenom prístupe.",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „Kerberos over NTLM, LSASS protected, TLS is limited to modern cipher suites“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      },
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "Podľa BleepingComputer Microsoft ešte pracuje napríklad na blokovaní NTLM a ďalšom zabezpečení tlače či RPC.",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „Microsoft said it's still working on adding NTLM blocking, hardware-backed platform protection, print and RPC hardening, and more“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Microsoft predstavil verejnú ukážku systému Windows Server 2028 na konferencii Ignite 2026.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Hlavnou zmenou je prísnejšie zabezpečenie zapnuté už pri inštalácii edície Server Core.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "There's a hardened Server Core configuration by default and a new security baseline.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pre správcov to znamená menej práce s úvodným spevňovaním systému, ale aj riziko, že niektoré doteraz používané nastavenia či nástroje budú treba upraviť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "some things that worked on Windows Server 2025 may not work on Windows Server 2028 without changes. This includes older protocols, legacy authentication, and some management tools and scripts.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako upozornil The Register, Microsoft varuje pred možnými problémami so staršími protokolmi, zastaraným prihlasovaním a niektorými nástrojmi a skriptmi na správu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "This includes older protocols, legacy authentication, and some management tools and scripts.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "To, že konfigurácia funguje na Windows Server 2025, preto podľa portálu nezaručuje bezproblémový prechod na novú verziu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "working on Windows Server 2025 won't guarantee a smooth ride in the brave new world.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zmena sa týka edície Server Core, nie inštalácie Windows Servera s grafickým prostredím Desktop Experience.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "The new Windows Server 2028 hardened-by-default state will only be available for the Server Core installs. Windows Server Desktop Experience installs do not include the changed stance.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako píše Ars Technica, Microsoft označuje novú konfiguráciu ako Hardened Server Core a uvádza, že jej bezpečnostný rámec vychádza aj z odporúčaní DISA STIG, teda bezpečnostných pravidiel americkej vládnej agentúry.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Windows Server 2028 will implement a default security framework that Microsoft says is aligned with hardened DoD benchmarks, such as the Defense Information Systems Agency’s (DISA) Security Technical Implementation Guide (STIG).",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "BleepingComputer uvádza, že od prvého spustenia bude aktívnych niekoľko stoviek bezpečnostných nastavení.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Hundreds of security settings are on from first boot",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Patrí medzi ne uprednostnenie Kerberosu pred NTLM, ochrana procesu LSASS, obmedzenie TLS na moderné šifrovacie súpravy a prísnejšie overovanie pri vzdialenom prístupe.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Kerberos over NTLM, LSASS protected, TLS is limited to modern cipher suites",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výmena kľúčov má využívať hybridný postkvantový mechanizmus ML-KEM.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "key exchange is hybrid post-quantum (ML-KEM)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nová bezpečnostná základňa má správcom umožniť jednotlivé nastavenia podľa potreby uvoľniť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "a new security baseline that allows admins to relax specific settings.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nie všetky plánované ochrany sú už hotové.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "However, the company said it's still working on adding NTLM blocking, hardware-backed platform protection, print and RPC hardening, and more",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa BleepingComputer Microsoft ešte pracuje napríklad na blokovaní NTLM a ďalšom zabezpečení tlače či RPC.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Microsoft said it's still working on adding NTLM blocking, hardware-backed platform protection, print and RPC hardening, and more",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Trusted Launch má rozšíriť ochranu virtuálnych strojov a podpora Confidential VM je určená pre kompatibilný hardvér.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Trusted Launch extends protection to virtual machines... Confidential VM support begins a journey to support integrity-protected runtimes on supported CVM hardware.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroje sa zhodujú, že nové predvolené nastavenia môžu narušiť kompatibilitu, no rozsah ich použitia treba rozlišovať.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "some things that worked on Windows Server 2025 may not work on Windows Server 2028 without changes.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register uvádza, že bezpečnostné spevnenie sa podľa informácie, ktorú Microsoft poskytol odborníkovi z Lansweeper, týka iba nových inštalácií.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Esben Dochy, Principal Technical Evangelist for SecOps at Lansweeper, told The Register that Microsoft had indicated that the hardened security only applied to new installations.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ak to zostane aj vo finálnej verzii, aktualizácie existujúcich serverov by mohli byť jednoduchšie, no nemuseli by získať nové predvolené ochrany.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "\"If that remains in the final release,\" he said, \"in-place upgrades could be easier. The catch is that those servers may also miss out on the new security defaults.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ars Technica potvrdzuje obmedzenie na Server Core, nie však túto podmienku pri aktualizáciách.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "The new Windows Server 2028 hardened-by-default state will only be available for the Server Core installs.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Esben Dochy z Lansweeperu pre The Register uviedol, že spevnenie je správny smer, ale pre tímy pridá prácu.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "\"Hardening is the right direction,\" he said, \"but it will add work for teams moving to Server 2028.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa údajov spoločnosti tvoril Windows Server 2019 v októbri 2026 tretinu sledovaného používania, kým Windows Server 2025 dosiahol 7 percent.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "According to Lansweeper’s figures, as of October 2026, Windows Server 2019 ruled the roost with 33 percent. Windows Server 2025 had reached just 7 percent.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dochy očakáva, že nasadzovanie bude závisieť najmä od konca podpory starších verzií.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "said Dochy, \"adoption is primarily driven by lifecycle, so until the more used versions start going EOL, I don't expect much adoption\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Windows Server 2025 má podľa The Register rozšírenú podporu do roku 2034.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Windows Server 2025 remains under extended support until 2034",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Windows Server 2028 má predvolene zapnúť natívne NVMe úložisko a podporiť NVMe over TCP aj RDMA.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Windows Server 2028 will enable native NVMe storage by default, along with NVMe over TCP and RDMA.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft plánuje tiež zavádzanie systému z ReFS.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Booting from ReFS is also planned",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Správcovia budú môcť využiť správu serverov cez Intune, ktorá prináša postupy známe zo správy koncových zariadení; naďalej zostáva dostupný aj Azure Arc.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Intune management for Windows Server has also entered preview... Azure Arc, with its cloud-native management workflows, is obviously still around, while Intune brings a more familiar management interface for administrators already using it for endpoints.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nová verzia má podporovať aj lokálne inferovanie modelov a akcelerovaný hardvér vrátane AMD Instinct MI350P.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Windows Server 2028 is being pitched for running models locally, with support for accelerators such as AMD's Instinct MI350P.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "BleepingComputer spomína nástroje a prostredia Windows ML, Foundry Local, vLLM a Llama.cpp.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "support open-weight and custom models (including Windows ML, Foundry Local, vLLM, and Llama.cpp).",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Záujemcovia môžu skúšať ukážku cez Windows Insider Program for Windows Server alebo požiadať o prístup v programe Technology Adoption Program.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Admins who want to test Windows Server 2028 can register for the Windows Insider Program for Windows Server or apply to enroll in the Windows Server Technology Adoption Program (TAP) for earlier access.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "\nAko",
+        "kontext": "tavenia či nástroje budú treba upraviť.\n\nAko upozornil The Register, Microsoft varuj",
+        "navrhy": [
+          ", Ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", Ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ca, Microsoft označuje novú konfiguráciu ako Hardened Server Core a uvádza, že jej b",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "postkvantový",
+        "kontext": "upe. Výmena kľúčov má využívať hybridný postkvantový mechanizmus ML-KEM. Nová bezpečnostná z",
+        "navrhy": [
+          "post kvantový"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "predvolene",
+        "kontext": "ká, správu a AI\n\nWindows Server 2028 má predvolene zapnúť natívne NVMe úložisko a podporiť",
+        "navrhy": [
+          "predvolené",
+          "predvolané",
+          "predvolebne"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "inferovanie",
+        "kontext": ".\n\nNová verzia má podporovať aj lokálne inferovanie modelov a akcelerovaný hardvér vrátane ",
+        "navrhy": [
+          "inzerovanie"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "akcelerovaný",
+        "kontext": "orovať aj lokálne inferovanie modelov a akcelerovaný hardvér vrátane AMD Instinct MI350P. Bl",
+        "navrhy": [
+          "akceleroval",
+          "akcelerovala",
+          "akcelerovali"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "vLLM",
+        "kontext": "a prostredia Windows ML, Foundry Local, vLLM a Llama.cpp. Záujemcovia môžu skúšať uk",
+        "navrhy": [
+          "vlám"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cpp",
+        "kontext": "Windows ML, Foundry Local, vLLM a Llama.cpp. Záujemcovia môžu skúšať ukážku cez Win",
+        "navrhy": [
+          "CP",
+          "CPU",
+          "PP"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/2008Computex_Microsoft_Home_Server_Guide_Area.jpg/1280px-2008Computex_Microsoft_Home_Server_Guide_Area.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://www.bleepstatic.com/content/hl-images/2026/11/18/Windows__Server.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://image.theregister.com/?imageId=5234606&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/data-center-server-room-1152x648.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "Photo of data server room",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Windows_Server_2028_Preview_Hardened_Score.png",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "An example from Microsoft of how to check the secure state of Windows Server 2028",
+        "popisok": "An example output of the MSHardenedPolicyEval system. Microsoft cautions users that the scoring tool is still being refined.",
+        "kredit": "Credit: Microsoft Blog",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Microsoft Blog."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/data-center-server-room-500x500.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "Microsoft server",
+      "server rack",
+      "data center"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/2008Computex_Microsoft_Home_Server_Guide_Area.jpg/1280px-2008Computex_Microsoft_Home_Server_Guide_Area.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/2008Computex_Microsoft_Home_Server_Guide_Area.jpg/1280px-2008Computex_Microsoft_Home_Server_Guide_Area.jpg",
+        "nazov": "2008Computex Microsoft Home Server Guide Area.jpg",
+        "autor": "Rico Shen",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:2008Computex_Microsoft_Home_Server_Guide_Area.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft server"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/1280px-Virginia_Tech_-_data_center.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/1280px-Virginia_Tech_-_data_center.jpg",
+        "nazov": "Virginia Tech - data center.jpg",
+        "autor": "Christopher Bowns",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Virginia_Tech_-_data_center.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center"
+      },
+      {
+        "url": "https://live.staticflickr.com/6156/6205315211_fe458e509e_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/ace73214-3ddb-4fba-92bd-12b15dd2d911/thumb/",
+        "nazov": "Mediq Utrecht Data center Gwan Kho",
+        "autor": "Gwan Kho",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/43669498@N05/6205315211",
+        "povod": "openverse",
+        "dopyt": "data center"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Microsoft_Windows_Server_Family_Resource_CD_%282002%29.jpg/1280px-Microsoft_Windows_Server_Family_Resource_CD_%282002%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Microsoft_Windows_Server_Family_Resource_CD_%282002%29.jpg/1280px-Microsoft_Windows_Server_Family_Resource_CD_%282002%29.jpg",
+        "nazov": "Microsoft Windows Server Family Resource CD (2002).jpg",
+        "autor": "Uploaded by AAYDEV",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Microsoft_Windows_Server_Family_Resource_CD_(2002).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft server"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg/1280px-Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg/1280px-Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg",
+        "nazov": "Rack of Cisco Hyperflex HXAF 240c M5 nodes.jpg",
+        "autor": "Btrs",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/24/65675213_de819df88d_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c28b5999-ea14-4b83-ace1-aa2e496803a7/thumb/",
+        "nazov": "Server Rack in the Laundry Room",
+        "autor": "zdw",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/75783104@N00/65675213",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic illustration of a server rack behind a layered security shield, with subtle abstract network lines and no logos or text."
+  },
+  "prompt_ilustracie": "Create a symbolic illustration of a server rack behind a layered security shield, with subtle abstract network lines and no logos or text.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/d87aade77ef4f55dfba46ac7eede8366",
+  "text_agentov": {
+    "titulok": "Windows Server 2028 sprísni predvolené zabezpečenie, niektoré nastavenia prestanú fungovať",
+    "perex": "Microsoft sprístupnil verejnú ukážku novej verzie serverového systému. Zabezpečený režim sa týka Server Core a môže vyžadovať úpravy starších protokolov, prihlasovania či administrátorských nástrojov.",
+    "telo": "Microsoft predstavil verejnú ukážku systému Windows Server 2028 na konferencii Ignite 2026. Hlavnou zmenou je prísnejšie zabezpečenie zapnuté už pri inštalácii edície Server Core. Pre správcov to znamená menej práce s úvodným spevňovaním systému, ale aj riziko, že niektoré doteraz používané nastavenia či nástroje budú treba upraviť.\n\nAko upozornil The Register, Microsoft varuje pred možnými problémami so staršími protokolmi, zastaraným prihlasovaním a niektorými nástrojmi a skriptmi na správu. To, že konfigurácia funguje na Windows Server 2025, preto podľa portálu nezaručuje bezproblémový prechod na novú verziu.\n\n## Zabezpečenie bude súčasťou východiskového nastavenia\n\nZmena sa týka edície Server Core, nie inštalácie Windows Servera s grafickým prostredím Desktop Experience. Ako píše Ars Technica, Microsoft označuje novú konfiguráciu ako Hardened Server Core a uvádza, že jej bezpečnostný rámec vychádza aj z odporúčaní DISA STIG, teda bezpečnostných pravidiel americkej vládnej agentúry.\n\nBleepingComputer uvádza, že od prvého spustenia bude aktívnych niekoľko stoviek bezpečnostných nastavení. Patrí medzi ne uprednostnenie Kerberosu pred NTLM, ochrana procesu LSASS, obmedzenie TLS na moderné šifrovacie súpravy a prísnejšie overovanie pri vzdialenom prístupe. Výmena kľúčov má využívať hybridný postkvantový mechanizmus ML-KEM. Nová bezpečnostná základňa má správcom umožniť jednotlivé nastavenia podľa potreby uvoľniť.\n\nNie všetky plánované ochrany sú už hotové. Podľa BleepingComputer Microsoft ešte pracuje napríklad na blokovaní NTLM a ďalšom zabezpečení tlače či RPC. Trusted Launch má rozšíriť ochranu virtuálnych strojov a podpora Confidential VM je určená pre kompatibilný hardvér.\n\n## Prechod si vyžiada testovanie\n\nZdroje sa zhodujú, že nové predvolené nastavenia môžu narušiť kompatibilitu, no rozsah ich použitia treba rozlišovať. The Register uvádza, že bezpečnostné spevnenie sa podľa informácie, ktorú Microsoft poskytol odborníkovi z Lansweeper, týka iba nových inštalácií. Ak to zostane aj vo finálnej verzii, aktualizácie existujúcich serverov by mohli byť jednoduchšie, no nemuseli by získať nové predvolené ochrany. Ars Technica potvrdzuje obmedzenie na Server Core, nie však túto podmienku pri aktualizáciách.\n\nEsben Dochy z Lansweeperu pre The Register uviedol, že spevnenie je správny smer, ale pre tímy pridá prácu. Podľa údajov spoločnosti tvoril Windows Server 2019 v októbri 2026 tretinu sledovaného používania, kým Windows Server 2025 dosiahol 7 percent. Dochy očakáva, že nasadzovanie bude závisieť najmä od konca podpory starších verzií. Windows Server 2025 má podľa The Register rozšírenú podporu do roku 2034.\n\n## Novinky pre úložiská, správu a AI\n\nWindows Server 2028 má predvolene zapnúť natívne NVMe úložisko a podporiť NVMe over TCP aj RDMA. Microsoft plánuje tiež zavádzanie systému z ReFS. Správcovia budú môcť využiť správu serverov cez Intune, ktorá prináša postupy známe zo správy koncových zariadení; naďalej zostáva dostupný aj Azure Arc.\n\nNová verzia má podporovať aj lokálne inferovanie modelov a akcelerovaný hardvér vrátane AMD Instinct MI350P. BleepingComputer spomína nástroje a prostredia Windows ML, Foundry Local, vLLM a Llama.cpp. Záujemcovia môžu skúšať ukážku cez Windows Insider Program for Windows Server alebo požiadať o prístup v programe Technology Adoption Program."
+  }
+}
