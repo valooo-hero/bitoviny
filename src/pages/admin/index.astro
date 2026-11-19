@@ -409,17 +409,24 @@ import Base from '../../layouts/Base.astro';
   // Koncept sa číta a zapisuje cez pull request, zverejnený článok priamo vo vetve main.
   const adresa = () => (stav.zverejneny ? `/api/clanok/${stav.slug}` : `/api/koncept/${stav.pr}`);
 
+  let poradieOtvorenia = 0;
   async function otvorDetail(cesta: string, hash: string) {
+    const poradie = ++poradieOtvorenia;
     hlas('Načítavam…');
+    let nacitany;
     try {
-      stav = await api(cesta);
+      nacitany = await api(cesta);
     } catch (e: any) {
-      return hlas(e.message, true);
+      if (poradie === poradieOtvorenia) hlas(e.message, true);
+      return;
     }
+    if (poradie !== poradieOtvorenia) return;
+    stav = nacitany;
     hlas('');
     $('zoznam').hidden = true;
     $('detail').hidden = false;
     ($('potvrdenie') as HTMLInputElement).checked = false;
+    ($('gen-prompt') as HTMLTextAreaElement).value = stav.sprava?.prompt_ilustracie || stav.sprava?.obrazky?.prompt_ilustracie || '';
     vygenerovany = null;
     $('gen-krok2').hidden = $('gen-vysledok').hidden = true;
     vykresli();
@@ -685,7 +692,6 @@ import Base from '../../layouts/Base.astro';
 
   // Generovanie v dvoch krokoch: najprv ukázať prompt na úpravu, až potom odoslať.
   $('gen-ukaz').addEventListener('click', () => {
-    ($('gen-prompt') as HTMLTextAreaElement).value ||= stav.sprava?.prompt_ilustracie || stav.sprava?.obrazky?.prompt_ilustracie || '';
     ($('gen-umiestnenie') as HTMLSelectElement).value = stav.cakaNaObrazok ? 'titulny' : 'galeria';
     $('gen-krok2').hidden = false;
     $('gen-prompt').focus();
@@ -860,6 +866,7 @@ import Base from '../../layouts/Base.astro';
   document.querySelectorAll<HTMLElement>('.karta-tl').forEach((t) => t.addEventListener('click', () => prepniKartu(t.dataset.karta!)));
 
   function zavriDetail() {
+    poradieOtvorenia += 1;
     stav = null;
     $('detail').hidden = true;
     $('zoznam').hidden = false;
