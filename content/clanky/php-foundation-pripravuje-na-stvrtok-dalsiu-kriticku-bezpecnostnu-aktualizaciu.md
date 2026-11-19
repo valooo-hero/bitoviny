@@ -6,7 +6,7 @@ tagy:
   - PHP
   - kyberbezpečnosť
   - zraniteľnosti
-publikovane: 2026-11-19T04:39:10+00:00
+publikovane: 2026-11-19T09:20:03Z
 obrazok:
   src: /obrazky/php-foundation-pripravuje-na-stvrtok-dalsiu-kriticku-bezpecnostnu-aktualizaciu-mwnca28f.jpg
   alt: Ilustračný obrázok.
@@ -18,6 +18,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Register: Get ready for another critical PHP security release to drop"
     url: https://www.theregister.com/patches/2026/11/18/get-ready-for-another-critical-php-security-release-to-drop/5310911
