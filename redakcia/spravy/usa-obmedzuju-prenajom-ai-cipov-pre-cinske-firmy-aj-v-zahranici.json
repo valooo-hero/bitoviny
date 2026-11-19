@@ -1,0 +1,378 @@
+{
+  "slug": "usa-obmedzuju-prenajom-ai-cipov-pre-cinske-firmy-aj-v-zahranici",
+  "datum_sprav": "2026-11-18",
+  "dovod_vyberu": "Čína hrozí protiopatreniami kvôli novým exportným obmedzeniam AI GPU, čo ovplyvňuje globálny trh s čipmi.",
+  "poznamky_pre_editora": "Nález č. 1 nepovažujem za vecnú chybu, pretože údaj je v prvom zdroji WIRED uvedený slovami: “roughly 50,000 of the estimated 136,000 AI chips Megaspeed imported into Malaysia and Indonesia in 2024 and 2025”. Číslo 136-tisíc som preto ponechala. Iné tvrdenia som nemenila.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Predložený koncept je mimoriadne spoľahlivý a presne vychádza zo všetkých troch uvedených zdrojov. Všetky faktické tvrdenia, mená, dátumy a štatistiky boli v zdrojoch úspešne overené a text neobsahuje žiadne zavádzajúce či nepodložené informácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 30,
+        "potvrdenych": 28,
+        "chyb": 3,
+        "upozorneni": 2
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 14,
+        "potvrdenych": 14,
+        "chyb": 1,
+        "upozorneni": 1
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 14,
+        "potvrdenych": 14,
+        "chyb": 1,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_cisel",
+        "zavaznost": "chyba",
+        "text": "Číslo 136",
+        "komentar": "Číslo je v koncepte, ale v žiadnom zdroji sa nenachádza.",
+        "navrh_opravy": "Opraviť podľa zdroja alebo vypustiť. Ak ide o prepočet, uviesť to v poznámkach."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Administratíva Donalda Trumpa rozširuje obmedzenia na prístup čínskych firiem k výkonným americkým AI čipom vrátane ich prenájmu v zahraničí.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Yesterday, the Trump administration extended the reach of its existing export controls on high-end AI accelerator chips, namely, but not limited to, Nvidia's Blackwell lineup.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Čínske ministerstvo obchodu vyhlásilo, že Peking prijme protiopatrenia na ochranu svojich záujmov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "its Ministry of Commerce states that China \"will take countermeasures to firmly safeguard national sovereignty, security, and development interests.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Stretnutie Trumpa a Si Ťin-pchinga sa má uskutočniť vo štvrtok 19. novembra počas summitu APEC v Šen-čene.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "President Trump is currently visiting the nation for the APEC summit in Shenzhen. Trump is scheduled to meet President Xi Jinping on Thursday, Nov. 19",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Škandál okolo bývalého šéfa Nvidie a firmy Megaspeed komplikuje rokovania medzi USA a Čínou.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "fallout from former Nvidia CEO Jensen Huang's affair with Alice Huang, an executive at Megaspeed and suspected Chinese intelligence asset, has made any negotiations",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vzdialený prenájom výpočtovej kapacity v zahraničí čínskymi firmami doteraz neporušoval exportné pravidlá USA.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "the practice didn’t violate US export controls. This wasn’t some hidden loophole—every policymaker and researcher who worked on the chip restrictions was deeply aware of it.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "WIRED uvádza sprísnenie dodávok do piatich krajín vrátane Singapuru a Malajzie, zatiaľ čo Tom's Hardware menuje Indonéziu, Malajziu, Singapur, Thajsko a Brazíliu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Additionally, selling chips to Indonesia, Malaysia, Singapore, Thailand, or Brazil now also requires a license",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa Bloombergu chýbalo pri inventúre Megaspeed v rokoch 2024 a 2025 približne 50-tisíc z 136-tisíc AI čipov dovezených do Malajzie a Indonézie.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "According to Bloomberg, roughly 50,000 of the estimated 136,000 AI chips Megaspeed imported into Malaysia and Indonesia in 2024 and 2025 weren't accounted for",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nvidia neskôr uviedla, že časť z chýbajúcich čipov našla.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "It's not clear where they may have ended up. (Nvidia later said it had found at least some of them.)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jensen Huang odstúpil z postu šéfa Nvidie po priznaní pomeru s Alice Huangovou, spájanou s čínskou rozviedkou.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Nvidia cofounder resigned as CEO last week after admitting he had an affair with Alice Huang, a Chinese businesswoman accused of having ties",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Čína označila obvinenia voči Alice Huangovej za nepodložené a očierňujúce.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "China has forcefully bristled at allegations that Alice Huang was recruited by the Chinese intelligence agency, calling them “groundless” and a “smear.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Čína v minulosti obmedzila vývoz gália, germánia a antimónu do USA.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The nation had restricted the sale of gallium, germanium, and antimony to the U.S. previously",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Komunikačná linka pre AI incidenty medzi Scottom Bessentom a He Lifengom zostáva len v štádiu návrhu.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "AI incident hotline between Treasury Secretary Scott Bessent and Chinese vice premier He Lifeng... channel remains at the concept stage and is not operational.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Minister zahraničných vecí Marco Rubio potvrdil technické rozhovory o bezpečnosti AI medzi USA a Čínou.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Secretary of State Marco Rubio told reporters last week the US and Chinese governments had engaged in AI safety talks at a “technical level”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "USA sa obávajú autonómnych AI systémov mimo kontroly, kým Čína sa obáva využitia otvorených modelov domácimi kritikmi režimu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "most worried about AI models becoming autonomous and misaligned... in China, government officials are widely understood to be more concerned about advanced open-weight models being used by critics",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "perex",
+        "povodne": "s ",
+        "opravene": "so ",
+        "dovod": "vokalizácia predložky",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "Pevné pravidlá"
+      },
+      {
+        "pole": "telo",
+        "povodne": "cez ktoré by",
+        "opravene": "cez, ktoré by",
+        "dovod": "LanguageTool: Dajte čiarku pred „ktorý“: \", ktoré\".",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "LanguageTool"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "očierňujúce",
+        "kontext": "ila obvinenia voči nej za nepodložené a očierňujúce. Dostupné zdroje prinášajú podozrenia o",
+        "navrhy": [
+          "očierňujúc",
+          "očierňujúc e"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -3 +3 @@\n-Nové pravidlá majú uzavrieť cestu, ktorou čínske spoločnosti využívali výkonné akcelerátory v dátových centrách mimo Číny. Peking hrozí odvetnými opatreniami a pred schôdzkou Trumpa s Si Ťin-pchingom rastie napätie.\n+Nové pravidlá majú uzavrieť cestu, ktorou čínske spoločnosti využívali výkonné akcelerátory v dátových centrách mimo Číny. Peking hrozí odvetnými opatreniami a pred schôdzkou Trumpa so Si Ťin-pchingom rastie napätie.\n@@ -13 +13 @@\n-Nové opatrenie má podľa Tom’s Hardware vyžadovať licencie na prenájom veľkého množstva výpočtového výkonu z pokročilých čipov. Sprísniť sa majú aj pravidlá pre dodávky hardvéru do krajín, cez ktoré by sa čipy mohli dostať do Číny. Rozsah zoznamu sa v správach líši: WIRED spomína päť krajín vrátane Singapuru a Malajzie, kým Tom’s Hardware uvádza Indonéziu, Malajziu, Singapur, Thajsko a Brazíliu.\n+Nové opatrenie má podľa Tom’s Hardware vyžadovať licencie na prenájom veľkého množstva výpočtového výkonu z pokročilých čipov. Sprísniť sa majú aj pravidlá pre dodávky hardvéru do krajín, cez, ktoré by sa čipy mohli dostať do Číny. Rozsah zoznamu sa v správach líši: WIRED spomína päť krajín vrátane Singapuru a Malajzie, kým Tom’s Hardware uvádza Indonéziu, Malajziu, Singapur, Thajsko a Brazíliu."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://live.staticflickr.com/2590/3706444821_e124c0b6c7_b.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://media.wired.com/photos/6afcdd342972080ddb9f0499/191:100/w_1280,c_limit/AI-Lab-US-Chip-War-Business.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6afcdd342972080ddb9f0499/master/pass/AI-Lab-US-Chip-War-Business.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6afcfe9d821bf3ffcbf308a8/191:100/w_1280,c_limit/politics_trump_adventures_china.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6afcfe9d821bf3ffcbf308a8/master/pass/politics_trump_adventures_china.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/BELj7Bp6ghyH87vwNskeQA-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty / Vincent Thian",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/p2QqhVFP7dTRWfeVBCYBYV-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "tsmc",
+        "popisok": "",
+        "kredit": "(Image credit: tsmc)",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: tsmc."
+      }
+    ],
+    "dopyty": [
+      "Nvidia GPU server rack",
+      "AI chip data center",
+      "Nvidia data center server"
+    ],
+    "alternativy": [
+      {
+        "url": "https://live.staticflickr.com/2590/3706444821_e124c0b6c7_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/eb921348-6dc7-49b9-bc3a-59bae8726c54/thumb/",
+        "nazov": "Tesla/NVIDIA GPU cluster",
+        "autor": "ChrisDag",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/8558461@N08/3706444821",
+        "povod": "openverse",
+        "dopyt": "Nvidia GPU server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/4004/4171280876_800e32bf4a_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/9efdf64f-6d10-46d9-b82f-88e57f823e76/thumb/",
+        "nazov": "Quantum Computing for Google Goggles",
+        "autor": "jurvetson",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/44124348109@N01/4171280876",
+        "povod": "openverse",
+        "dopyt": "AI chip data center"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Eindr%C3%BCcke_von_der_COMPUTEX_2024_%28_%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_20.png/1280px-Eindr%C3%BCcke_von_der_COMPUTEX_2024_%28_%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_20.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Eindr%C3%BCcke_von_der_COMPUTEX_2024_%28_%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_20.png/1280px-Eindr%C3%BCcke_von_der_COMPUTEX_2024_%28_%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_20.png",
+        "nazov": "Eindrücke von der COMPUTEX 2024 ( 极客湾Geekerwan) 20.png",
+        "autor": "极客湾Geekerwan",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Eindr%C3%BCcke_von_der_COMPUTEX_2024_(_%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_20.png",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia data center server"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Eindr%C3%BCcke_von_der_COMPUTEX_2024_%28_%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_20.png",
+        "nahlad": "https://api.openverse.org/v1/images/3a45c251-3357-46d7-8d8b-a36c2f1f1af6/thumb/",
+        "nazov": "Eindrücke von der COMPUTEX 2024 ( 极客湾Geekerwan) 20",
+        "autor": "极客湾Geekerwan",
+        "licencia": "BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=149368432",
+        "povod": "openverse",
+        "dopyt": "Nvidia data center server"
+      },
+      {
+        "url": "https://live.staticflickr.com/8339/8178539629_9b8fe51c08_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/9a091467-f050-4fdf-9e98-5b4cf64568b7/thumb/",
+        "nazov": "Titan Supercomputer",
+        "autor": "GBPublic_PR",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/83620044@N06/8178539629",
+        "povod": "openverse",
+        "dopyt": "Nvidia GPU server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/55364498421_4a991e0372_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/af6effd7-9609-42d3-95c0-f64b6bcaa244/thumb/",
+        "nazov": "Horn",
+        "autor": "₡ґǘșϯγ Ɗᶏ Ⱪᶅṏⱳդ",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "stranka": "https://www.flickr.com/photos/148598741@N02/55364498421",
+        "povod": "openverse",
+        "dopyt": "AI chip data center"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Eindr%C3%BCcke_von_der_COMPUTEX_2024_%28_%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_19.png/1280px-Eindr%C3%BCcke_von_der_COMPUTEX_2024_%28_%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_19.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Eindr%C3%BCcke_von_der_COMPUTEX_2024_%28_%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_19.png/1280px-Eindr%C3%BCcke_von_der_COMPUTEX_2024_%28_%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_19.png",
+        "nazov": "Eindrücke von der COMPUTEX 2024 ( 极客湾Geekerwan) 19.png",
+        "autor": "极客湾Geekerwan",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Eindr%C3%BCcke_von_der_COMPUTEX_2024_(_%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_19.png",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia data center server"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Eindr%C3%BCcke_von_der_COMPUTEX_2024_%28_%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_19.png",
+        "nahlad": "https://api.openverse.org/v1/images/cb052655-aea7-4cf5-bb89-251932abe16e/thumb/",
+        "nazov": "Eindrücke von der COMPUTEX 2024 ( 极客湾Geekerwan) 19",
+        "autor": "极客湾Geekerwan",
+        "licencia": "BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=149368430",
+        "povod": "openverse",
+        "dopyt": "Nvidia data center server"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of AI chips crossing a border through a cloud-shaped data center, with abstract opposing flags and no real people or documentary details."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of AI chips crossing a border through a cloud-shaped data center, with abstract opposing flags and no real people or documentary details.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/dda4ab582f18dfb52abce14655db9729",
+  "text_agentov": {
+    "titulok": "USA obmedzujú prenájom AI čipov pre čínske firmy aj v zahraničí",
+    "perex": "Nové pravidlá majú uzavrieť cestu, ktorou čínske spoločnosti využívali výkonné akcelerátory v dátových centrách mimo Číny. Peking hrozí odvetnými opatreniami a pred schôdzkou Trumpa so Si Ťin-pchingom rastie napätie.",
+    "telo": "Administratíva Donalda Trumpa rozširuje obmedzenia na prístup čínskych firiem k výkonným americkým AI čipom. Nové pravidlá majú zasiahnuť aj prenájom výpočtového výkonu v dátových centrách mimo Číny, ktorý spoločnostiam umožňoval používať čipy bez ich fyzického dovozu. Čínske ministerstvo obchodu avizovalo odvetné kroky.\n\nZmena prichádza krátko pred plánovaným stretnutím Trumpa a čínskeho prezidenta Si Ťin-pchinga. Podľa portálu Tom’s Hardware sa má uskutočniť vo štvrtok 19. novembra počas summitu APEC v Šen-čene. Zároveň sa v amerických médiách objavili otázky, či spor o AI čipy a obvinenia spojené s firmou Megaspeed skomplikujú rokovania.\n\n## Prenájom výpočtového výkonu pod licenciou\n\nDoterajšie americké kontroly sa sústreďovali najmä na predaj a vývoz čipov. Čínske firmy však mohli využívať výpočtovú kapacitu v zahraničných dátových centrách, kde boli nainštalované akcelerátory Nvidia. Podľa WIRED táto prax neporušovala vtedajšie exportné pravidlá, hoci o nej vedeli tvorcovia politiky aj výskumníci.\n\nNové opatrenie má podľa Tom’s Hardware vyžadovať licencie na prenájom veľkého množstva výpočtového výkonu z pokročilých čipov. Sprísniť sa majú aj pravidlá pre dodávky hardvéru do krajín, cez, ktoré by sa čipy mohli dostať do Číny. Rozsah zoznamu sa v správach líši: WIRED spomína päť krajín vrátane Singapuru a Malajzie, kým Tom’s Hardware uvádza Indonéziu, Malajziu, Singapur, Thajsko a Brazíliu.\n\nZároveň sa tým rozširuje cieľ pôvodných obmedzení: úrady chcú regulovať nielen to, kam putuje hardvér, ale aj to, kto ho môže používať na diaľku.\n\n## Megaspeed a nevyriešené obvinenia\n\nWIRED spája načasovanie nových pravidiel s prípadom Megaspeed, dátovej spoločnosti so sídlom v Singapure, ktorá ponúkala vzdialený prístup k výpočtovému výkonu. Podľa informácií citovaných portálom Bloomberg nebolo v rokoch 2024 a 2025 pri inventúrnych kontrolách vysvetlených približne 50-tisíc z odhadovaných 136-tisíc AI čipov, ktoré Megaspeed doviezla do Malajzie a Indonézie. Neskôr Nvidia uviedla, že časť z nich našla; konečné miesto ostatných nie je jasné.\n\nS touto kauzou sú spájané aj tvrdenia o bývalom šéfovi Nvidie Jensenovi Huangovi a Alice Huangovej, podnikateľke, ktorú niektorí obviňujú z väzieb na čínske spravodajské služby. Čína označila obvinenia voči nej za nepodložené a očierňujúce. Dostupné zdroje prinášajú podozrenia o pašovaní a väzbách na spravodajské služby.\n\n## Spor sa môže preniesť aj na ďalšie technológie\n\nČínske ministerstvo obchodu podľa Tom’s Hardware vyhlásilo, že Peking prijme protiopatrenia na ochranu svojich záujmov. Čína už v minulosti obmedzila vývoz gália, germánia a antimónu do USA. Rozsah prípadnej novej reakcie zatiaľ nie je známy.\n\nNapätie sa dotýka aj rokovaní o bezpečnosti AI. WIRED uvádza, že plánovaná komunikačná linka medzi americkým ministrom financií Scottom Bessentom a čínskym vicepremiérom He Lifengom zostáva iba vo fáze návrhu. Minister zahraničných vecí Marco Rubio povedal, že obe krajiny viedli technické rozhovory, no postup je stále v procese.\n\nObe vlády sa podľa WIRED odlišne pozerajú na riziká AI: americkí predstavitelia sa obávajú autonómnych systémov, ktoré sa vymknú ľudskej kontrole, zatiaľ čo čínske úrady sa sústreďujú aj na možné využitie otvorených modelov domácimi kritikmi. Nové obmedzenia tak prichádzajú v čase, keď sa ani základné pravidlá vzájomnej komunikácie ešte nedohodli."
+  }
+}
