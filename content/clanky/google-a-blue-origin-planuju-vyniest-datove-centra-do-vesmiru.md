@@ -7,7 +7,7 @@ tagy:
   - Blue Origin
   - dátové centrá
   - vesmír
-publikovane: 2026-11-20T04:25:25+00:00
+publikovane: 2026-11-20T14:13:00Z
 obrazok:
   src: /obrazky/google-a-blue-origin-planuju-vyniest-datove-centra-do-vesmiru-mwp26a1m.jpg
   alt: Google data center
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Engadget: Google signs deal with Blue Origin to send satellite data centers into orbit"
     url: https://www.engadget.com/2321988/google-signs-deal-with-blue-origin-to-send-satellite-data-centers-into-orbit/
