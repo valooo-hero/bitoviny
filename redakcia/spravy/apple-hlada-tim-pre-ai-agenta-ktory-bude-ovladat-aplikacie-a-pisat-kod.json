@@ -1,0 +1,458 @@
+{
+  "slug": "apple-hlada-tim-pre-ai-agenta-ktory-bude-ovladat-aplikacie-a-pisat-kod",
+  "datum_sprav": "2026-11-19",
+  "dovod_vyberu": "Plány Applu na vývoj autonómnych AI agentov signalizujú nový smer v oblasti umelej inteligencie, čo je zaujímavé pre technologickú komunitu.",
+  "poznamky_pre_editora": "Oba zdroje sprostredkúvajú report Bloombergu, nie samostatné potvrdenie Apple. 9to5Mac opisuje ponuku pre seniorného manažéra a hovorí o viacerých nových ponukách, The Verge sa sústreďuje na inzerát pre inžinierskeho lídra; pred publikovaním overiť aktuálne znenie a stav ponúk. Termíny a príklady budúcich funkcií Siri sú iba pripísané Bloombergu. Nezaradené sú nesúvisiace informácie o obmedzeniach macOS a úspechu aplikácie Meta Muse.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojoch. Najvážnejším problémom je, že niektoré formulácie sú mierne voľnejšie, ale žiadne tvrdenie nie je v rozpore so zdrojmi.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 21,
+        "potvrdenych": 21,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Apple hľadá ľudí na vývoj AI asistenta, ktorý by dokázal samostatne vykonávať úlohy naprieč aplikáciami.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Bloomberg reports that Apple is hiring engineers to develop an autonomous AI agent capable of browsing the web, writing code, and controlling apps on behalf of users.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa pracovných ponúk, na ktoré upozornil Bloomberg a o ktorých píšu 9to5Mac aj The Verge, má agent vedieť prehliadať web, pracovať s aplikáciami, písať a opravovať kód či využívať online služby.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "The system will write code, browse the web, control apps and navigate devices on a user’s behalf, according to the post.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Opis naznačuje, že Apple chce, aby systém úlohy nielen vykonával, ale aj plánoval jednotlivé kroky a vyberal nástroje.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "It browses the web, works across apps, runs commands, writes and debugs code, and calls services, and it chooses the right tool for each step.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jedna z ponúk hľadá seniorného manažéra inžinierskeho tímu pre proaktívneho agentického asistenta.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "One job listing, which is for “Senior Engineering Manager, Agentic AI – Proactive,” features the following summary:",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Apple v nej predstavuje víziu systému, ktorý zvládne postupovať podobne ako človek pri práci s počítačom: presúvať sa medzi webovým prehliadačom, aplikáciami a ďalšími nástrojmi, spúšťať príkazy a pracovať s kódom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Imagine an AI agent that can use a computer the way a capable person does. It browses the web, works across apps, runs commands, writes and debugs code, and calls services",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Firma zároveň zdôrazňuje súkromie a úroveň spracovania, ktorú používatelia od jej produktov očakávajú.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "It does all this privately and with the polish people expect from Apple.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ponuka hovorí aj o úlohách pozostávajúcich z viacerých krokov. Agent by mohol pracovať naprieč aplikáciami, prehliadačmi, príkazovým riadkom, kódom a rozhraniami API.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Apple is building agents that can “plan and carry out multi-step tasks across apps, browsers, command lines, code, and APIs",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa opisu by vedel zapojiť aj špecializovaných podagentov, teda menšie systémy určené na konkrétne časti práce.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "they can coordinate specialized sub-agents along the way",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Verge cituje pracovný inzerát, podľa ktorého ľudia už dnes plynulo prechádzajú medzi rôznymi nástrojmi a Apple chce vytvoriť agentov, ktorí dokážu podobne spolupracovať.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "“People already do their most valuable work by moving fluidly between tools: a browser, a document, a terminal, an editor, a service,” the job listing says. “We’re building AI agents that can do the same…”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Verge píše, že ponuka spája nového inžinierskeho lídra s tímami Siri, používateľských rozhraní a vlastných základných modelov Apple.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "This lines up with the company’s new job listing, which says the engineer will work closely with teams across its Siri, UI Frameworks, and Apple Foundation Models divisions.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Bloomberg podľa 9to5Mac nedávno informoval, že Apple chce zo Siri urobiť proaktívnejšieho asistenta, ktorý bude vedieť vykonávať úlohy bez toho, aby používateľ musel každý krok osobitne spustiť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Bloomberg reported that Apple wants to make Siri more like an autonomous AI agent, with the ability to proactively carry out tasks without requiring users to initiate every step.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako možné príklady uviedol úpravu fotografií či usporiadanie kariet v Safari.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "a report from Bloomberg suggests the company could add the ability to rotate and crop images in Photos, or organize Safari tabs.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ide však o informácie z reportu, nie o potvrdený zoznam funkcií ani záväzný plán vydania.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "a report from Bloomberg suggests the company could add the ability to rotate and crop images in Photos, or organize Safari tabs.",
+        "komentar": "Koncept správne interpretuje, že ide o špekuláciu z reportu, nie o potvrdené funkcie.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Verge zároveň uvádza, že Apple od septembra zavádza Siri s rozšírenými AI funkciami.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Apple began rolling out its AI-upgraded Siri in September",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V pripravovanej aktualizácii iOS 27.3 má vývojárom sprístupniť možnosť integrovať Siri AI do aplikácií širšie než doteraz.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "With its upcoming iOS 27.3 update, Apple is also giving developers the ability to integrate Siri AI into “all apps.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa článku je táto možnosť súčasťou vývojárskej preview verzie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "This is rolling out as part of a Developer Preview",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Verge spomína riešenia od Meta, OpenAI, Anthropic a Google.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "An AI agent from Apple would put the iPhone maker in the running to compete with the likes of Meta’s Muse, OpenAI’s Dots, Anthropic’s Duet, and Google’s Tasks.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Niektoré z nich už podľa portálu dokážu cez aplikácie pre Mac ovládať počítač; Google začal túto možnosť sprístupňovať svojmu asistentovi Gemini.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Muse, ChatGPT, and Perplexity can already take control of a computer through their Mac apps, while Google just started letting Gemini do the same.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pracovné ponuky však neodhaľujú, kedy Apple agenta predstaví ani na ktorých zariadeniach bude dostupný.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "the language suggests that development is still in its early stages.",
+        "komentar": "Koncept správne uvádza, že ponuky nešpecifikujú dátum vydania ani zariadenia.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zmienka o súkromí a viacstupňovom plánovaní zároveň ukazuje, že Apple chce riešiť nielen samotné vykonávanie úloh, ale aj spôsob, akým agent pristupuje k používateľovým aplikáciám a dátam.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "It does all this privately and with the polish people expect from Apple.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pre používateľov na Slovensku a v EÚ zatiaľ zdroje neuvádzajú osobitný termín dostupnosti ani regionálne podmienky.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "the landscape could look very different by the time Apple is ready to introduce its own solution next year",
+        "komentar": "Zdroje neuvádzajú žiadne regionálne informácie, takže tvrdenie je podložené absenciou.",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "na ktoré upozornil",
+        "opravene": "na, ktoré upozornil",
+        "dovod": "LanguageTool: Dajte čiarku pred „ktorý“: \", ktoré\".",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "LanguageTool"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "seniorného",
+        "kontext": "o príkazový riadok\n\nJedna z ponúk hľadá seniorného manažéra inžinierskeho tímu pre proaktí",
+        "navrhy": [
+          "senior ného"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "proaktívneho",
+        "kontext": "iorného manažéra inžinierskeho tímu pre proaktívneho agentického asistenta. Apple v nej pred",
+        "navrhy": [
+          "produktívneho",
+          "protivného",
+          "reaktívneho"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "agentického",
+        "kontext": "éra inžinierskeho tímu pre proaktívneho agentického asistenta. Apple v nej predstavuje vízi",
+        "navrhy": [
+          "agentského",
+          "agonického",
+          "antického"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ystému, ktorý zvládne postupovať podobne ako človek pri práci s počítačom: presúvať ",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "podagentov",
+        "kontext": "su by vedel zapojiť aj špecializovaných podagentov, teda menšie systémy určené na konkrétn",
+        "navrhy": [
+          "pod agentov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "proaktívnejšieho",
+        "kontext": "nformoval, že Apple chce zo Siri urobiť proaktívnejšieho asistenta, ktorý bude vedieť vykonávať ",
+        "navrhy": [
+          "produktívnejšieho",
+          "protivnejšieho",
+          "reaktívnejšieho"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "reportu",
+        "kontext": "ariet v Safari. Ide však o informácie z reportu, nie o potvrdený zoznam funkcií ani záv",
+        "navrhy": [
+          "raportu",
+          "report",
+          "reportuj"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "preview",
+        "kontext": "ku je táto možnosť súčasťou vývojárskej preview verzie. Pracovná ponuka a zmeny v systé",
+        "navrhy": [
+          "review",
+          "p review"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -5 +5 @@\n-Apple hľadá ľudí na vývoj AI asistenta, ktorý by dokázal samostatne vykonávať úlohy naprieč aplikáciami. Podľa pracovných ponúk, na ktoré upozornil Bloomberg a o ktorých píšu 9to5Mac aj The Verge, má agent vedieť prehliadať web, pracovať s aplikáciami, písať a opravovať kód či využívať online služby. Opis naznačuje, že Apple chce, aby systém úlohy nielen vykonával, ale aj plánoval jednotlivé kroky a vyberal nástroje.\n+Apple hľadá ľudí na vývoj AI asistenta, ktorý by dokázal samostatne vykonávať úlohy naprieč aplikáciami. Podľa pracovných ponúk, na, ktoré upozornil Bloomberg a o ktorých píšu 9to5Mac aj The Verge, má agent vedieť prehliadať web, pracovať s aplikáciami, písať a opravovať kód či využívať online služby. Opis naznačuje, že Apple chce, aby systém úlohy nielen vykonával, ale aj plánoval jednotlivé kroky a vyberal nástroje."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Aerial_view_of_Apple_Park_dllu.jpg/1280px-Aerial_view_of_Apple_Park_dllu.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/Siri-AI-Beta-macOS-27-Top-Features.jpg?quality=82&strip=all&w=800",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/bb78cec603180c1a17605af3930b21e40c59b276cb679e543c98215204aaf0f1?s=96&d=mm&r=r",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Marcus Mendes",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/DSC04239.jpg?quality=90&strip=all&crop=0,10.628272251309,100,78.743455497382",
+        "zdroj_clanku": "The Verge",
+        "alt": "A person holding an iPhone 18 Pro phone showing the lock screen.",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Apple headquarters",
+      "Apple office interior",
+      "computer workstation"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Aerial_view_of_Apple_Park_dllu.jpg/1280px-Aerial_view_of_Apple_Park_dllu.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Aerial_view_of_Apple_Park_dllu.jpg/1280px-Aerial_view_of_Apple_Park_dllu.jpg",
+        "nazov": "Aerial view of Apple Park dllu.jpg",
+        "autor": "Daniel L. Lu (user:dllu)",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Apple_Park_dllu.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Apple headquarters"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Apple_Headquarters_in_Cupertino.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/3eeab95c-cf83-4b47-893e-e5e4c3bbb20f/thumb/",
+        "nazov": "Apple Headquarters in Cupertino",
+        "autor": "Joe Ravi (Shutterstock iStock Dreamstime)",
+        "licencia": "BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=16380592",
+        "povod": "openverse",
+        "dopyt": "Apple headquarters"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/HK_%E4%B8%AD%E7%92%B0_Central_IFC_mall_%E8%98%8B%E6%9E%9C%E6%89%8B%E6%A9%9F%E5%BA%97_Apple_Store_view_GPO_General_Post_Office_Sunday_Mmorning_June_2019_SSG_04.jpg/1280px-HK_%E4%B8%AD%E7%92%B0_Central_IFC_mall_%E8%98%8B%E6%9E%9C%E6%89%8B%E6%A9%9F%E5%BA%97_Apple_Store_view_GPO_General_Post_Office_Sunday_Mmorning_June_2019_SSG_04.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/HK_%E4%B8%AD%E7%92%B0_Central_IFC_mall_%E8%98%8B%E6%9E%9C%E6%89%8B%E6%A9%9F%E5%BA%97_Apple_Store_view_GPO_General_Post_Office_Sunday_Mmorning_June_2019_SSG_04.jpg/1280px-HK_%E4%B8%AD%E7%92%B0_Central_IFC_mall_%E8%98%8B%E6%9E%9C%E6%89%8B%E6%A9%9F%E5%BA%97_Apple_Store_view_GPO_General_Post_Office_Sunday_Mmorning_June_2019_SSG_04.jpg",
+        "nazov": "HK 中環 Central IFC mall 蘋果手機店 Apple Store view GPO General Post Office Sunday Mmorning June 2019 SSG 04.jpg",
+        "autor": "Noweatrom Hofgd 2019",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:HK_%E4%B8%AD%E7%92%B0_Central_IFC_mall_%E8%98%8B%E6%9E%9C%E6%89%8B%E6%A9%9F%E5%BA%97_Apple_Store_view_GPO_General_Post_Office_Sunday_Mmorning_June_2019_SSG_04.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Apple office interior"
+      },
+      {
+        "url": "https://live.staticflickr.com/1131/1011455478_4b4ac6ef54_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/248c8e19-491c-4740-a8fb-a4b602dbe18a/thumb/",
+        "nazov": "Desk | San Francisco",
+        "autor": "blupics",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/43007543@N00/1011455478",
+        "povod": "openverse",
+        "dopyt": "Apple office interior"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/NVIDIA_GPU_workstation_2.webp/1280px-NVIDIA_GPU_workstation_2.webp",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/NVIDIA_GPU_workstation_2.webp/1280px-NVIDIA_GPU_workstation_2.webp",
+        "nazov": "NVIDIA GPU workstation 2.webp",
+        "autor": "Wikideas1",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:NVIDIA_GPU_workstation_2.webp",
+        "povod": "wikimedia",
+        "dopyt": "computer workstation"
+      },
+      {
+        "url": "https://live.staticflickr.com/5055/5536453856_76ff6ae48e_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/612a6ce0-29e7-4d07-b7f7-694fd094bbac/thumb/",
+        "nazov": "Computer Workstation, current version with LCD monitor",
+        "autor": "Mrs. Gemstone",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/21893264@N00/5536453856",
+        "povod": "openverse",
+        "dopyt": "computer workstation"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Apple_Headquarters_in_Cupertino.jpg/1280px-Apple_Headquarters_in_Cupertino.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Apple_Headquarters_in_Cupertino.jpg/1280px-Apple_Headquarters_in_Cupertino.jpg",
+        "nazov": "Apple Headquarters in Cupertino.jpg",
+        "autor": "Joe Ravi ( Shutterstock iStock Dreamstime )",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Apple_Headquarters_in_Cupertino.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Apple headquarters"
+      },
+      {
+        "url": "https://live.staticflickr.com/5644/22141804440_bdd96c90fa_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/f3a6ea0d-a39a-4487-b28e-ed16a2392629/thumb/",
+        "nazov": "Apple Headquarters | 151018-0024853-jikatu",
+        "autor": "jikatu",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/7221539@N06/22141804440",
+        "povod": "openverse",
+        "dopyt": "Apple headquarters"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic illustration of a glowing digital assistant coordinating several abstract app windows and pathways on a computer screen, with no logos, people, or text."
+  },
+  "prompt_ilustracie": "A symbolic illustration of a glowing digital assistant coordinating several abstract app windows and pathways on a computer screen, with no logos, people, or text.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/44b79fda843c4151600e4bff8efde3ee",
+  "text_agentov": {
+    "titulok": "Apple hľadá tím pre AI agenta, ktorý bude ovládať aplikácie a písať kód",
+    "perex": "Pracovné ponuky naznačujú, že firma skúma asistenta schopného plánovať viacstupňové úlohy naprieč aplikáciami, webom aj príkazovým riadkom. Zatiaľ však ide o nábor, nie o predstavenie hotového produktu.",
+    "telo": "Apple hľadá ľudí na vývoj AI asistenta, ktorý by dokázal samostatne vykonávať úlohy naprieč aplikáciami. Podľa pracovných ponúk, na, ktoré upozornil Bloomberg a o ktorých píšu 9to5Mac aj The Verge, má agent vedieť prehliadať web, pracovať s aplikáciami, písať a opravovať kód či využívať online služby. Opis naznačuje, že Apple chce, aby systém úlohy nielen vykonával, ale aj plánoval jednotlivé kroky a vyberal nástroje.\n\n## Od webu po príkazový riadok\n\nJedna z ponúk hľadá seniorného manažéra inžinierskeho tímu pre proaktívneho agentického asistenta. Apple v nej predstavuje víziu systému, ktorý zvládne postupovať podobne ako človek pri práci s počítačom: presúvať sa medzi webovým prehliadačom, aplikáciami a ďalšími nástrojmi, spúšťať príkazy a pracovať s kódom. Firma zároveň zdôrazňuje súkromie a úroveň spracovania, ktorú používatelia od jej produktov očakávajú.\n\nPonuka hovorí aj o úlohách pozostávajúcich z viacerých krokov. Agent by mohol pracovať naprieč aplikáciami, prehliadačmi, príkazovým riadkom, kódom a rozhraniami API. Podľa opisu by vedel zapojiť aj špecializovaných podagentov, teda menšie systémy určené na konkrétne časti práce. The Verge cituje pracovný inzerát, podľa ktorého ľudia už dnes plynulo prechádzajú medzi rôznymi nástrojmi a Apple chce vytvoriť agentov, ktorí dokážu podobne spolupracovať.\n\n## Možné prepojenie so Siri\n\nNábor môže súvisieť s plánmi rozšíriť schopnosti Siri. The Verge píše, že ponuka spája nového inžinierskeho lídra s tímami Siri, používateľských rozhraní a vlastných základných modelov Apple. Agentické funkcie by tak nemuseli byť oddeleným produktom, ale mohli by sa postupne objaviť v asistentovi, ktorého už používatelia poznajú.\n\nBloomberg podľa 9to5Mac nedávno informoval, že Apple chce zo Siri urobiť proaktívnejšieho asistenta, ktorý bude vedieť vykonávať úlohy bez toho, aby používateľ musel každý krok osobitne spustiť. Ako možné príklady uviedol úpravu fotografií či usporiadanie kariet v Safari. Ide však o informácie z reportu, nie o potvrdený zoznam funkcií ani záväzný plán vydania.\n\nThe Verge zároveň uvádza, že Apple od septembra zavádza Siri s rozšírenými AI funkciami. V pripravovanej aktualizácii iOS 27.3 má vývojárom sprístupniť možnosť integrovať Siri AI do aplikácií širšie než doteraz. Podľa článku je táto možnosť súčasťou vývojárskej preview verzie. Pracovná ponuka a zmeny v systéme tak ukazujú dve súvisiace línie vývoja: schopnosti Siri a agentov pracujúcich naprieč nástrojmi.\n\n## Konkurencia už skúša ovládanie počítača\n\nApple vstupuje do oblasti, v ktorej podobné funkcie rozvíjajú aj ďalšie technologické firmy. The Verge spomína riešenia od Meta, OpenAI, Anthropic a Google. Niektoré z nich už podľa portálu dokážu cez aplikácie pre Mac ovládať počítač; Google začal túto možnosť sprístupňovať svojmu asistentovi Gemini.\n\nPracovné ponuky však neodhaľujú, kedy Apple agenta predstaví ani na ktorých zariadeniach bude dostupný. Naznačujú skôr smer, ktorým sa firma uberá, než hotovú funkciu. Zmienka o súkromí a viacstupňovom plánovaní zároveň ukazuje, že Apple chce riešiť nielen samotné vykonávanie úloh, ale aj spôsob, akým agent pristupuje k používateľovým aplikáciám a dátam. Pre používateľov na Slovensku a v EÚ zatiaľ zdroje neuvádzajú osobitný termín dostupnosti ani regionálne podmienky."
+  }
+}
