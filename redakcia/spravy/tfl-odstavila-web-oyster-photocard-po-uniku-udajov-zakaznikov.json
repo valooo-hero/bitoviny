@@ -1,0 +1,532 @@
+{
+  "slug": "tfl-odstavila-web-oyster-photocard-po-uniku-udajov-zakaznikov",
+  "datum_sprav": "2026-11-19",
+  "dovod_vyberu": "Únik dát 265 000 používateľov Oyster kariet v Londýne je príkladom narušenia kritickej infraštruktúry, ktorý môže byť relevantný aj pre slovenských čitateľov.",
+  "poznamky_pre_editora": "Overiť konečný počet zasiahnutých účtov: BleepingComputer uvádza, že odhad narástol z 250-tisíc na 265-tisíc a vyšetrovanie pokračuje. Údaje o uniknutých poliach pochádzajú podľa BleepingComputer z upozornenia zverejneného na Reddite. Pri útoku z roku 2024 The Register píše o obvinených tínedžeroch, zatiaľ čo BleepingComputer uvádza, že sa v júni 2026 priznali a dostali tresty; aktualizovať podľa primárneho zdroja. Nesúvisiacu reklamu v zdroji BleepingComputer som vynechala.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je vysoko spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojoch a sú presne prenesené. Najvážnejším problémom nie je žiadna faktická chyba, ale absencia zmienky o tom, že odhad 265-tisíc je nárast oproti pôvodným 250-tisíc, čo je však v koncepte uvedené.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 33,
+        "potvrdenych": 33,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "TfL odstavila web Oyster photocard po úniku údajov zákazníkov",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "TfL takes Oyster photocard website offline after attackers compromise customer accounts",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kompromitované mohli byť účty približne 265-tisíc držiteľov cestovných kariet.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "involving the account details of around 265,000 Oyster photocard customers",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TfL tvrdí, že platobné údaje ani heslá nezískali útočníci",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "TfL says no passwords, bank or payment card details, or customer journey information were compromised",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "zákazníkov vyzýva na zmenu prihlasovacích údajov",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "TfL says it will ask all photocard customers to change theirs, along with their security questions and answers",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dopravný podnik Transport for London (TfL) dočasne odpojil web pre Oyster photocard po tom, čo útočníci získali prístup k údajom účtov zákazníkov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "TfL takes Oyster photocard website offline after attackers compromise customer accounts",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Incident sa podľa odhadov môže týkať približne 265-tisíc ľudí.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "around 265,000 Oyster photocard customers may have had their account details exposed in a data breach",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TfL uviedla, že prípad odhalila 16. novembra 2026",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "first became aware something was amiss on November 16",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "keď zákazníkom začali chodiť e-maily vyzývajúce ich na vytvorenie účtu, ktorý už mali.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Oyster photocard customers started receiving emails asking them to create accounts they already had",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Správy prišli priamo z e-mailových systémov TfL, no boli dôsledkom kompromitácie, uviedla organizácia pre portál The Register.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The emails came from TfL's own systems, the transport body confirmed, but were generated as a result of the compromise",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podnik tvrdí, že incident už zastavil a dotknutých zákazníkov kontaktoval.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "it has since contained the incident and contacted those potentially affected",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "O tom, ako sa útočníci do systémov dostali, však podrobnosti nezverejnil.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The transport operator hasn't disclosed how the perpetrators got into its systems",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa upozornenia TfL zverejneného na Reddite, na ktoré odkazuje BleepingComputer, mohli byť sprístupnené celé mená, telefónne čísla, e-mailové a domáce adresy, dátumy narodenia a bezpečnostné otázky s odpoveďami.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "These notifications, with one shared on Reddit, state that the following customer data may have been exposed: - Full names - Phone numbers - Email addresses - Home addresses - Dates of birth - Security questions and answers",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TfL zdôrazňuje, že heslá, bankové a platobné údaje ani informácie o cestovných trasách neboli kompromitované.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "TfL says no passwords, bank or payment card details, or customer journey information were compromised",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podnik zároveň predpokladá, že sa incident nedotkol mien a dátumov narodenia detí s kartami Zip Oyster.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "It also believes the names and dates of birth of children with Zip Oyster cards were unaffected",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Odhad 265-tisíc zasiahnutých účtov nie je konečný.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "the investigation is not yet complete and the figure may increase further",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "BleepingComputer píše, že ide o nárast oproti skoršiemu odhadu 250-tisíc",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "up from an estimated 250k previously",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "vyšší počet sa ešte nedá vylúčiť, keďže vyšetrovanie pokračuje.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "the investigation is not yet complete and the figure may increase further",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TfL oznámila, že o udalosti informovala britský Úrad komisára pre informácie (ICO).",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "has notified the Information Commissioner's Office (ICO)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zatiaľ nenašla dôkazy, že by niekto uniknuté údaje zneužil.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "TfL says it has yet to find any evidence that the compromised data has been used",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TfL po obnovení webu vyzve všetkých držiteľov photocard, aby si zmenili heslo, bezpečnostnú otázku aj odpoveď.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Once the Oyster photocard portal is restored, all photocard customers will be prompted to change their password, security question, and answer",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tým, ktorí rovnaké heslá používajú aj na iných stránkach, odporúča upraviť ich aj tam.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Those in the habit of recycling passwords across multiple websites are being advised to change them elsewhere, too",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "BleepingComputer osobitne upozorňuje, že bezpečnostné otázky a odpovede môžu byť citlivé, pretože sa používajú pri obnovovaní prístupu k účtom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The leak of security questions and answers is particularly concerning, as those may be used in account access restoration",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vypnutie webu neznamená, že karty prestali platiť. Ich držitelia nimi môžu naďalej prechádzať cez turnikety.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Existing photocards will still let holders through the ticket barriers",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kto potrebuje kartu obnoviť alebo skontrolovať históriu ciest, musí sa zatiaľ obrátiť na zákaznícke služby TfL.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "anyone needing to renew one or check their journey history will have to contact TfL's customer services team",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Termín opätovného spustenia webu podnik neoznámil.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "There's no word yet on when it'll be back",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "„Dúfame, že dotknuté služby obnovíme čo najskôr,“ uviedol Shashi Verma, riaditeľ stratégie technológií a výnosov TfL.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "We hope to restore the affected website services as quickly as possible,\" Verma said",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TfL riešila rozsiahly kybernetický incident aj v roku 2024.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "following its September 2024 cyberattack",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa The Register vtedy informovala viac než sedem miliónov zákazníkov o narušení, pri ktorom útočníci získali prístup k systémom s menami, e-mailovými a domácimi adresami.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "notified more than 7 million customers following its September 2024 cyberattack. The hackers had accessed systems holding customers' names, email addresses, and home addresses",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Približne päťtisíc ľudí kontaktovala osobitne pre možné ohrozenie bankových údajov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "around 5,000 customers were contacted as a priority because their bank account details may also have been compromised",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register uvádza, že dvaja tínedžeri boli v súvislosti s týmto útokom obvinení",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Two teenagers were subsequently charged in connection with the attack",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "ICO sa rozhodlo neprijať voči TfL donucovacie opatrenia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The ICO looked into that incident but opted not to take enforcement action against TfL",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "BleepingComputer dopĺňa, že dvaja obvinení sa v júni 2026 priznali a dostali tresty odňatia slobody v trvaní päť rokov a šesť mesiacov.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "two of the hackers pleaded guilty in June 2026 and were sentenced to five years and six months in prison",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zatiaľ nie sú dôkazy, že by súčasný incident s Oyster photocard súvisel s útokom z roku 2024.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "There's nothing at present to suggest the two incidents are related",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": " ktoré",
+        "opravene": ", ktoré",
+        "dovod": "LanguageTool: Dajte čiarku pred „ktorý“: \", ktoré\".",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "LanguageTool"
+      },
+      {
+        "pole": "telo",
+        "povodne": "a že ICO",
+        "opravene": "a, že ICO",
+        "dovod": "LanguageTool: Dajte čiarku pred „že“: \", že\".",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "LanguageTool"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "titulok",
+        "text": "photocard",
+        "kontext": "TfL odstavila web Oyster photocard po úniku údajov zákazníkov",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "photocard",
+        "kontext": "on (TfL) dočasne odpojil web pre Oyster photocard po tom, čo útočníci získali prístup k ú",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "kompromitácie",
+        "kontext": "ilových systémov TfL, no boli dôsledkom kompromitácie, uviedla organizácia pre portál The Reg",
+        "navrhy": [
+          "komprimácie",
+          "kompromitovanie",
+          "kompromituje"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "photocard",
+        "kontext": " obnovení webu vyzve všetkých držiteľov photocard, aby si zmenili heslo, bezpečnostnú otá",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "tínedžeri",
+        "kontext": "h údajov. The Register uvádza, že dvaja tínedžeri boli v súvislosti s týmto útokom obvine",
+        "navrhy": [
+          "tínedžer",
+          "tínedžri",
+          "tínedžer i"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "photocard",
+        "kontext": "dôkazy, že by súčasný incident s Oyster photocard súvisel s útokom z roku 2024.",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -11 +11 @@\n-Podľa upozornenia TfL zverejneného na Reddite, na ktoré odkazuje BleepingComputer, mohli byť sprístupnené celé mená, telefónne čísla, e-mailové a domáce adresy, dátumy narodenia a bezpečnostné otázky s odpoveďami. TfL zdôrazňuje, že heslá, bankové a platobné údaje ani informácie o cestovných trasách neboli kompromitované. Podnik zároveň predpokladá, že sa incident nedotkol mien a dátumov narodenia detí s kartami Zip Oyster.\n+Podľa upozornenia TfL zverejneného na Reddite, na, ktoré odkazuje BleepingComputer, mohli byť sprístupnené celé mená, telefónne čísla, e-mailové a domáce adresy, dátumy narodenia a bezpečnostné otázky s odpoveďami. TfL zdôrazňuje, že heslá, bankové a platobné údaje ani informácie o cestovných trasách neboli kompromitované. Podnik zároveň predpokladá, že sa incident nedotkol mien a dátumov narodenia detí s kartami Zip Oyster.\n@@ -23 +23 @@\n-TfL riešila rozsiahly kybernetický incident aj v roku 2024. Podľa The Register vtedy informovala viac než sedem miliónov zákazníkov o narušení, pri ktorom útočníci získali prístup k systémom s menami, e-mailovými a domácimi adresami. Približne päťtisíc ľudí kontaktovala osobitne pre možné ohrozenie bankových údajov. The Register uvádza, že dvaja tínedžeri boli v súvislosti s týmto útokom obvinení a že ICO sa rozhodlo neprijať voči TfL donucovacie opatrenia.\n+TfL riešila rozsiahly kybernetický incident aj v roku 2024. Podľa The Register vtedy informovala viac než sedem miliónov zákazníkov o narušení, pri ktorom útočníci získali prístup k systémom s menami, e-mailovými a domácimi adresami. Približne päťtisíc ľudí kontaktovala osobitne pre možné ohrozenie bankových údajov. The Register uvádza, že dvaja tínedžeri boli v súvislosti s týmto útokom obvinení a, že ICO sa rozhodlo neprijať voči TfL donucovacie opatrenia."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Central_River_Zone_Oyster_card_reader.jpg/1280px-Central_River_Zone_Oyster_card_reader.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://image.theregister.com/?imageId=249452&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.bleepstatic.com/content/hl-images/2026/11/19/transportforlondon.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Oyster card",
+      "London tube turnstile",
+      "contactless payment card"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Central_River_Zone_Oyster_card_reader.jpg/1280px-Central_River_Zone_Oyster_card_reader.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Central_River_Zone_Oyster_card_reader.jpg/1280px-Central_River_Zone_Oyster_card_reader.jpg",
+        "nazov": "Central River Zone Oyster card reader.jpg",
+        "autor": "sebastiandoe5",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Central_River_Zone_Oyster_card_reader.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Oyster card"
+      },
+      {
+        "url": "https://live.staticflickr.com/3114/3209074959_4ed4ebb56f_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/b28a9e83-bf59-4bb7-834e-3ab8a901c769/thumb/",
+        "nazov": "Oyster card :D",
+        "autor": "kalleboo",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/82365211@N00/3209074959",
+        "povod": "openverse",
+        "dopyt": "Oyster card"
+      },
+      {
+        "url": "https://live.staticflickr.com/563/20681016639_f4162f3366_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/e9d51e97-724c-43c3-a2c5-6c0010d728b1/thumb/",
+        "nazov": "Brent Cross Underground Station - ticket barriers and the Tube strikes",
+        "autor": "ell brown",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/39415781@N06/20681016639",
+        "povod": "openverse",
+        "dopyt": "London tube turnstile"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Contactless_Payment_Card_opened_to_show_RF_antenna.jpg/1280px-Contactless_Payment_Card_opened_to_show_RF_antenna.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Contactless_Payment_Card_opened_to_show_RF_antenna.jpg/1280px-Contactless_Payment_Card_opened_to_show_RF_antenna.jpg",
+        "nazov": "Contactless Payment Card opened to show RF antenna.jpg",
+        "autor": "AmarinderBrar",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Contactless_Payment_Card_opened_to_show_RF_antenna.jpg",
+        "povod": "wikimedia",
+        "dopyt": "contactless payment card"
+      },
+      {
+        "url": "https://live.staticflickr.com/2442/3588511973_a35d51b968_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/0b5d0f75-8aa6-4b78-a724-fec27efadaf5/thumb/",
+        "nazov": "Skånetrafiken contactless payment card",
+        "autor": "kalleboo",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/82365211@N00/3588511973",
+        "povod": "openverse",
+        "dopyt": "contactless payment card"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Oyster_card_partially_destroyed.jpg/1280px-Oyster_card_partially_destroyed.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Oyster_card_partially_destroyed.jpg/1280px-Oyster_card_partially_destroyed.jpg",
+        "nazov": "Oyster card partially destroyed.jpg",
+        "autor": "Tomhannen",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Oyster_card_partially_destroyed.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Oyster card"
+      },
+      {
+        "url": "https://live.staticflickr.com/4002/4332280690_980e440e5b_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/77c676f2-2266-451d-8020-158c76430454/thumb/",
+        "nazov": "ping pong oyster card holder",
+        "autor": "osde8info",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/8764442@N07/4332280690",
+        "povod": "openverse",
+        "dopyt": "Oyster card"
+      },
+      {
+        "url": "https://live.staticflickr.com/6105/6413695617_6ba117c602_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/3f837f45-3720-4267-914d-e1735c35cb33/thumb/",
+        "nazov": "London Marylebone Station - Marylebone Underground Station",
+        "autor": "ell brown",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/39415781@N06/6413695617",
+        "povod": "openverse",
+        "dopyt": "London tube turnstile"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a contactless transit card beside a dimmed website interface and scattered abstract data fragments, using a restrained blue and amber palette, with no logos, real people, or text."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a contactless transit card beside a dimmed website interface and scattered abstract data fragments, using a restrained blue and amber palette, with no logos, real people, or text.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/1b751b9c134da2ea8a17e14fc8b2c964",
+  "text_agentov": {
+    "titulok": "TfL odstavila web Oyster photocard po úniku údajov zákazníkov",
+    "perex": "Kompromitované mohli byť účty približne 265-tisíc držiteľov cestovných kariet. TfL tvrdí, že platobné údaje ani heslá nezískali útočníci, no zákazníkov vyzýva na zmenu prihlasovacích údajov.",
+    "telo": "Dopravný podnik Transport for London (TfL) dočasne odpojil web pre Oyster photocard po tom, čo útočníci získali prístup k údajom účtov zákazníkov. Incident sa podľa odhadov môže týkať približne 265-tisíc ľudí. TfL uviedla, že prípad odhalila 16. novembra 2026, keď zákazníkom začali chodiť e-maily vyzývajúce ich na vytvorenie účtu, ktorý už mali.\n\nSprávy prišli priamo z e-mailových systémov TfL, no boli dôsledkom kompromitácie, uviedla organizácia pre portál The Register. Podnik tvrdí, že incident už zastavil a dotknutých zákazníkov kontaktoval. O tom, ako sa útočníci do systémov dostali, však podrobnosti nezverejnil.\n\n## Aké údaje mohli uniknúť\n\nPodľa upozornenia TfL zverejneného na Reddite, na, ktoré odkazuje BleepingComputer, mohli byť sprístupnené celé mená, telefónne čísla, e-mailové a domáce adresy, dátumy narodenia a bezpečnostné otázky s odpoveďami. TfL zdôrazňuje, že heslá, bankové a platobné údaje ani informácie o cestovných trasách neboli kompromitované. Podnik zároveň predpokladá, že sa incident nedotkol mien a dátumov narodenia detí s kartami Zip Oyster.\n\nOdhad 265-tisíc zasiahnutých účtov nie je konečný. BleepingComputer píše, že ide o nárast oproti skoršiemu odhadu 250-tisíc a vyšší počet sa ešte nedá vylúčiť, keďže vyšetrovanie pokračuje. TfL oznámila, že o udalosti informovala britský Úrad komisára pre informácie (ICO). Zatiaľ nenašla dôkazy, že by niekto uniknuté údaje zneužil.\n\n## Zákazníci majú zmeniť prihlasovacie údaje\n\nTfL po obnovení webu vyzve všetkých držiteľov photocard, aby si zmenili heslo, bezpečnostnú otázku aj odpoveď. Tým, ktorí rovnaké heslá používajú aj na iných stránkach, odporúča upraviť ich aj tam. BleepingComputer osobitne upozorňuje, že bezpečnostné otázky a odpovede môžu byť citlivé, pretože sa používajú pri obnovovaní prístupu k účtom.\n\nVypnutie webu neznamená, že karty prestali platiť. Ich držitelia nimi môžu naďalej prechádzať cez turnikety. Kto potrebuje kartu obnoviť alebo skontrolovať históriu ciest, musí sa zatiaľ obrátiť na zákaznícke služby TfL. Termín opätovného spustenia webu podnik neoznámil. „Dúfame, že dotknuté služby obnovíme čo najskôr,“ uviedol Shashi Verma, riaditeľ stratégie technológií a výnosov TfL.\n\n## Predchádzajúci útok zasiahol aj ďalšie služby\n\nTfL riešila rozsiahly kybernetický incident aj v roku 2024. Podľa The Register vtedy informovala viac než sedem miliónov zákazníkov o narušení, pri ktorom útočníci získali prístup k systémom s menami, e-mailovými a domácimi adresami. Približne päťtisíc ľudí kontaktovala osobitne pre možné ohrozenie bankových údajov. The Register uvádza, že dvaja tínedžeri boli v súvislosti s týmto útokom obvinení a, že ICO sa rozhodlo neprijať voči TfL donucovacie opatrenia.\n\nBleepingComputer dopĺňa, že dvaja obvinení sa v júni 2026 priznali a dostali tresty odňatia slobody v trvaní päť rokov a šesť mesiacov. Zatiaľ nie sú dôkazy, že by súčasný incident s Oyster photocard súvisel s útokom z roku 2024."
+  }
+}
