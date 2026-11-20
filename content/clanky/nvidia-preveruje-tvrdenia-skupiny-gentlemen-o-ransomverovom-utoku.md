@@ -3,25 +3,26 @@ title: NVIDIA preveruje tvrdenia skupiny Gentlemen o ransomvérovom útoku
 perex: Kyberzločinci zaradili firmu na svoju stránku s údajnými obeťami a avizujú zverejnenie dát. NVIDIA zatiaľ nenašla známky prieniku do vlastných systémov, preveruje však incident u externého partnera.
 sekcia: bezpecnost
 tagy:
-- NVIDIA
-- ransomvér
-- kyberbezpečnosť
-publikovane: '2026-11-20T04:25:13+00:00'
+  - NVIDIA
+  - ransomvér
+  - kyberbezpečnosť
+publikovane: 2026-11-20T04:25:13+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/nvidia-preveruje-tvrdenia-skupiny-gentlemen-o-ransomverovom-utoku-mwp2jlsl.jpg
+  alt: Nvidia HQ
+  popisok: Nvidia HQ
+  kredit: Kevin McCarthy / Wikimedia Commons
+  licencia: CC BY 2.0
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'BleepingComputer: NVIDIA investigating Gentlemen ransomware breach claims'
-  url: https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/
-- nazov: 'The Register: Nvidia adds possible hack to list of very bad things under investigation'
-  url: https://www.theregister.com/security/2026/11/19/nvidia-adds-possible-hack-to-list-of-very-bad-things-under-investigation/5311153
+  - nazov: "BleepingComputer: NVIDIA investigating Gentlemen ransomware breach claims"
+    url: https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/
+  - nazov: "The Register: Nvidia adds possible hack to list of very bad things under investigation"
+    url: https://www.theregister.com/security/2026/11/19/nvidia-adds-possible-hack-to-list-of-very-bad-things-under-investigation/5311153
 ---
 
 NVIDIA preveruje tvrdenia ransomvérovej skupiny The Gentlemen, ktorá zaradila výrobcu čipov na svoju stránku s údajnými obeťami. Skupina zatiaľ nezverejnila dôkaz o napadnutí ani ukážku údajne ukradnutých súborov. Na stránke avizuje zverejnenie informácií a zobrazuje odpočítavanie, ktoré sa má skončiť 28. novembra.
