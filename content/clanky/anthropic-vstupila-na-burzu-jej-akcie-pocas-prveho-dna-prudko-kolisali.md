@@ -3,32 +3,33 @@ title: Anthropic vstúpila na burzu, jej akcie počas prvého dňa prudko kolís
 perex: Najväčšie IPO v histórii prinieslo firme miliardy na ďalší rozvoj, no zároveň zvýraznilo otázky o obrovských nákladoch na výpočtovú infraštruktúru, bezpečnosti modelov a odpore voči dátovým centrám.
 sekcia: biznis
 tagy:
-- Anthropic
-- IPO
-- umelá inteligencia
-- dátové centrá
-publikovane: '2026-11-20T04:25:04+00:00'
+  - Anthropic
+  - IPO
+  - umelá inteligencia
+  - dátové centrá
+publikovane: 2026-11-20T04:25:04+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/anthropic-vstupila-na-burzu-jej-akcie-pocas-prveho-dna-prudko-kolisali-mwp2cxhy.webp
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Wired: Anthropic’s Record-Breaking IPO Highlights the AI Giant’s Worst Enemy—Itself'
-  url: https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/
-- nazov: 'TechCrunch: At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development'
-  url: https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/
-- nazov: 'TechCrunch: Anthropic’s IPO puts AI’s circular financing boom to the test'
-  url: https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/
-- nazov: 'The Register: Anthropic throws open doors at $2T valuation as shares pop 34% in initial trading'
-  url: https://www.theregister.com/ai-and-ml/2026/11/19/anthropic-throws-open-doors-at-2t-valuation-as-shares-pop-34-in-initial-trading/5311143
-- nazov: 'Engadget: Anthropic is now a public company worth more than $1 trillion'
-  url: https://www.engadget.com/2322144/anthropic-is-now-a-public-company-worth-more-than-1-trillion/
+  - nazov: "Wired: Anthropic’s Record-Breaking IPO Highlights the AI Giant’s Worst Enemy—Itself"
+    url: https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/
+  - nazov: "TechCrunch: At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development"
+    url: https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/
+  - nazov: "TechCrunch: Anthropic’s IPO puts AI’s circular financing boom to the test"
+    url: https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/
+  - nazov: "The Register: Anthropic throws open doors at $2T valuation as shares pop 34% in initial trading"
+    url: https://www.theregister.com/ai-and-ml/2026/11/19/anthropic-throws-open-doors-at-2t-valuation-as-shares-pop-34-in-initial-trading/5311143
+  - nazov: "Engadget: Anthropic is now a public company worth more than $1 trillion"
+    url: https://www.engadget.com/2322144/anthropic-is-now-a-public-company-worth-more-than-1-trillion/
 ---
 
 Anthropic vo štvrtok vstúpila na burzu Nasdaq v rámci najväčšej primárnej ponuky akcií (IPO) v histórii. Akcie sa predávali za 83 dolárov, no pri začiatku obchodovania ich cena dosiahla 111,50 dolára. Hodnota firmy sa tak krátko dostala približne na dva bilióny dolárov. Neskôr sa cena pohybovala okolo 95 dolárov a Engadget v tom čase odhadoval trhovú hodnotu Anthropic na 1,23 bilióna dolárov.
