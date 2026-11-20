@@ -3,27 +3,28 @@ title: Britský súd umožnil zverejniť existenciu tajného príkazu pre Apple
 perex: Rozhodnutie otvára cestu k verejnejšiemu súdnemu sporu o prístup k šifrovaným dátam iCloudu. Britské ministerstvo vnútra však podľa dostupných správ existenciu príkazu zatiaľ samo nepotvrdilo.
 sekcia: bezpecnost
 tagy:
-- Apple
-- iCloud
-- šifrovanie
-- Spojené kráľovstvo
-- súkromie
-publikovane: '2026-11-20T04:25:09+00:00'
+  - Apple
+  - iCloud
+  - šifrovanie
+  - Spojené kráľovstvo
+  - súkromie
+publikovane: 2026-11-20T04:25:09+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/britsky-sud-umoznil-zverejnit-existenciu-tajneho-prikazu-pre-apple-mwp2exde.jpg
+  alt: Apple iPhone
+  popisok: Apple iPhone
+  kredit: Pangkakit at Japanese Wikipedia / Wikimedia Commons
+  licencia: CC BY 2.5
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: '9to5Mac: UK court rules Apple can share the top secret order everyone already knew'
-  url: https://9to5mac.com/2026/11/19/uk-court-rules-apple-can-share-the-top-secret-order-everyone-already-knew/
-- nazov: 'TechCrunch: UK government forced to disclose secret Apple backdoor order'
-  url: https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/
+  - nazov: "9to5Mac: UK court rules Apple can share the top secret order everyone already knew"
+    url: https://9to5mac.com/2026/11/19/uk-court-rules-apple-can-share-the-top-secret-order-everyone-already-knew/
+  - nazov: "TechCrunch: UK government forced to disclose secret Apple backdoor order"
+    url: https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/
 ---
 
 Britský Investigatory Powers Tribunal rozhodol, že utajenie príkazu, ktorý vláda vydala spoločnosti Apple v súvislosti s prístupom k šifrovaným dátam zákazníkov, nemožno odôvodniť obavami o národnú bezpečnosť. Rozhodnutie umožňuje, aby sa podstatná časť právneho sporu o príkaze presunula na verejnosť. Samotné ministerstvo vnútra však podľa portálu TechCrunch v čase zverejnenia správy ešte existenciu príkazu nepotvrdilo.
