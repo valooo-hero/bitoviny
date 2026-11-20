@@ -1,0 +1,577 @@
+{
+  "slug": "anthropic-vstupila-na-burzu-jej-akcie-pocas-prveho-dna-prudko-kolisali",
+  "datum_sprav": "2026-11-19",
+  "dovod_vyberu": "IPO Anthropicu je významnou udalosťou v oblasti AI a jeho financovania, s dosahom na celý technologický sektor.",
+  "poznamky_pre_editora": "Odstránila som nepodloženú vetu o dôležitosti témy pre Európsku úniu a Slovensko. Rozdiely v údajoch o výnose IPO a hotovosti po IPO zostávajú vysvetlené v texte ako nejednotné odhady zdrojov.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je vysoko spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojoch a sú presne interpretované. Najvážnejším problémom je len drobná nepresnosť v tvrdení o tom, že WIRED opisuje záväzky ako výdavky rozložené na 19 rokov, čo je síce v zdroji, ale koncept to mierne zjednodušuje, no stále je to v súlade.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 29,
+        "potvrdenych": 28,
+        "chyb": 1,
+        "upozorneni": 2
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 28,
+        "potvrdenych": 28,
+        "chyb": 0,
+        "upozorneni": 1
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "Neskôr sa cena pohybovala okolo 95 dolárov a Engadget v tom čase odhadoval trhovú hodnotu Anthropic na 1,23 bilióna dolárov.",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „the company's stock is currently trading around the $95 mark. The company is currently valued around $1.23 trillion.“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Anthropic vo štvrtok vstúpila na burzu Nasdaq v rámci najväčšej primárnej ponuky akcií (IPO) v histórii.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "After closing the largest initial public offering in history on Wednesday, Anthropic has about $200 billion in the bank",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Akcie sa predávali za 83 dolárov, no pri začiatku obchodovania ich cena dosiahla 111,50 dolára.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "That $83 IPO price didn’t last long, with shares rocketing to $111.50 by the time the public could get their hands on them",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Hodnota firmy sa tak krátko dostala približne na dva bilióny dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "the company was valued at around $2 trillion as of the public availability of the 980 million shares",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Neskôr sa cena pohybovala okolo 95 dolárov a Engadget v tom čase odhadoval trhovú hodnotu Anthropic na 1,23 bilióna dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "the company's stock is currently trading around the $95 mark. The company is currently valued around $1.23 trillion.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Anthropic musí financovať výpočtovú kapacitu potrebnú na vývoj a prevádzku modelov Claude, pričom jej záväzky voči dodávateľom dosahujú stovky miliárd dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "the AI lab has also committed to paying vendors more than $900 billion over the next 19 years",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako uvádza WIRED, IPO vynieslo približne 81 miliárd dolárov, prípadne vyše 107 miliárd po započítaní súkromného predaja akcií.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The IPO raised about $81 billion (more than $107 billion when adding in private sales of shares)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TechCrunch uvádza iné súčty: približne 141 miliárd dolárov získaného kapitálu a 91,7 miliardy čistého výnosu pri cene 83 dolárov za akciu.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "the firm raised around $141 billion in capital and will take home around $91.7 billion in net proceeds at $83 per share",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "WIRED píše o približne 200 miliardách dolárov, zatiaľ čo TechCrunch uvádza asi 220 miliárd v hotovosti, jej ekvivalentoch a krátkodobých investíciách vrátane IPO a súkromného umiestnenia akcií.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Anthropic has about $200 billion in the bank",
+        "komentar": "TechCrunch uvádza 220 miliárd, čo je tiež v súlade.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa TechCrunchu firma získala od investorov 26 miliárd dolárov v tomto umiestnení.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Nvidia, AMD, Microsoft, Broadcom, Micron, and TSMC have joined Google in committing $26 billion to Anthropic at its IPO price in a private placement.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Anthropic vykázala za tretí štvrťrok 2026 tržby 17 miliárd dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Anthropic generated $17 billion in third-quarter 2026 revenue",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "WIRED uvádza medziročný rast o viac než 1 100 percent",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "the company’s most recent quarterly sales were $17 billion, up more than 1,100 percent from the year before",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "počet zákazníkov, ktorí ročne utrácajú šesťciferné sumy, bol dvanásťkrát vyšší než pred rokom.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "the number of customers spending six figures annually is up 12 times compared to a year ago",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "firma podľa rovnakého zdroja vykázala za prvých deväť mesiacov roka stratu presahujúcu 104 miliárd dolárov, ktorú výrazne ovplyvňuje účtovanie odmien zamestnancov v akciách.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "it’s still wildly unprofitable—over $104 billion in losses this year through September",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Záväzky na infraštruktúru a výpočtovú kapacitu dosahujú približne 900 miliárd dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Anthropic has already committed to spend $900 billion, primarily for compute and infrastructure, according to a regulatory filing.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "WIRED ich opisuje ako výdavky rozložené na nasledujúcich 19 rokov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "committed to paying vendors more than $900 billion over the next 19 years",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Generálny riaditeľ Dario Amodei podľa The Register pripustil, že odhad potrieb firmy je neistý a Anthropic sa pri plánovaní snaží skôr podhodnotiť budúce náklady.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Amodei admitted the company’s needs are difficult to predict, and that - get this - they try to err on the low side.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Obhajoval ich tým, že výkonnejšie modely sa firme doteraz vyplatili.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "“We’re willing to put into place these very large compute spends because, historically, we’ve seen that it pays off,”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Amazon a Google, významní infraštruktúrni partneri Anthropic, držia podľa TechCrunchu podiely, ktoré pri cene 83 dolárov za akciu spolu predstavovali približne 307,9 miliardy dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Amazon and Google, two of Anthropic’s largest infrastructure partners, hold stakes valued around a combined $307.9 billion at the company’s updated IPO price of $83 per share.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Obe spoločnosti zároveň dodávajú firme služby a infraštruktúru.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "These companies are not just investors; they’re also Anthropic’s biggest suppliers.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ďalší technologickí dodávatelia, medzi nimi Nvidia, AMD a Microsoft, sa podieľali na súkromnom umiestnení akcií.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Nvidia, AMD, Microsoft, Broadcom, Micron, and TSMC have joined Google in committing $26 billion to Anthropic at its IPO price in a private placement.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Analytici citovaní TechCrunchom sa nezhodujú v tom, či takéto prepájanie investorov a dodávateľov znamená problematické „obehové financovanie“.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "This is the circular financing that has made some observers so skeptical of the AI boom.",
+        "komentar": "Brookhart a Luria majú rozdielne názory, čo je v súlade.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Joey Brookhart zo SemiAnalysis tvrdí, že Anthropic má vďaka rastúcim príjmom šancu náklady pokryť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Brookhart thinks the company is in a strong position to pay up.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Gil Luria z D.A. Davidson upozorňuje, že hodnota firmy závisí od toho, či si udrží náskok pred OpenAI, Google DeepMind a lacnejšími otvorenými modelmi.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "if it’s overtaken by OpenAI, Google DeepMind, or even cheap open-weight models, that could change fast.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na burzovom debute Amodei znovu sľúbil, že firma bude vývoj a nasadzovanie AI prispôsobovať bezpečnostným kontrolám a nedovolí, aby systémy prestali byť pod ľudskou kontrolou.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Amodei vowed that the AI company would not bend to either business or political pressure and would “remain under human control.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zároveň zdôraznil riziká zneužitia, narušenia ekonomiky či straty kontroly nad AI.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "the potential for things like “economic disruption” and “losing control of AI systems.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Anthropic je verejnoprospešnou korporáciou, ktorá môže pri rozhodovaní zohľadňovať spoločenský dosah popri záujmoch akcionárov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The San Francisco-based developer is organized as a public benefit corporation, a legal designation that allows it to prioritize societal impacts alongside shareholder interests.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "WIRED opisuje protesty proti projektu v Západnej Virgínii, kde obyvatelia upozorňujú na dopady výstavby a obavy o životné prostredie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "protests against new projects show no signs of slowing... fighting an under-construction data center intended for Anthropic in West Virginia",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pre firmu, ktorá potrebuje čoraz viac výpočtovej kapacity, môžu podobné spory predlžovať budovanie infraštruktúry.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Delays in the launch or expansion of new facilities could leave Anthropic struggling to train more powerful AI models.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "perex",
+        "povodne": "bezpečnosti modelov a odporu voči dátovým centrám.",
+        "opravene": "bezpečnosti modelov a odpore voči dátovým centrám.",
+        "dovod": "gramatický pád po predložke o",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash (google)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "zákazníkov, ktorí ročne utrácajú šesťciferné sumy, bol",
+        "opravene": "zákazníkov, ktorí ročne míňajú šesťciferné sumy, bol",
+        "dovod": "čechizmus (utrácať -> míňať)",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash (google)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "obyvatelia upozorňujú na dopady výstavby a obavy",
+        "opravene": "obyvatelia upozorňujú na dôsledky výstavby a obavy",
+        "dovod": "čechizmus (dopad -> dôsledok/vplyv)",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash (google)"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "najväčšej",
+        "kontext": "tvrtok vstúpila na burzu Nasdaq v rámci najväčšej primárnej ponuky akcií (IPO) v histórii",
+        "navrhy": [
+          "veľkej"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (najväčšej) \"veľkej\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "účtovanie",
+        "kontext": "liárd dolárov, ktorú výrazne ovplyvňuje účtovanie odmien zamestnancov v akciách.\n\nZáväzky",
+        "navrhy": [
+          "uchovanie",
+          "zúčtovanie",
+          "účtovacie"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "e 900 miliárd dolárov. WIRED ich opisuje ako výdavky rozložené na nasledujúcich 19 r",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -3 +3 @@\n-Najväčšie IPO v histórii prinieslo firme miliardy na ďalší rozvoj, no zároveň zvýraznilo otázky o obrovských nákladoch na výpočtovú infraštruktúru, bezpečnosti modelov a odporu voči dátovým centrám.\n+Najväčšie IPO v histórii prinieslo firme miliardy na ďalší rozvoj, no zároveň zvýraznilo otázky o obrovských nákladoch na výpočtovú infraštruktúru, bezpečnosti modelov a odpore voči dátovým centrám.\n@@ -17 +17 @@\n-Anthropic vykázala za tretí štvrťrok 2026 tržby 17 miliárd dolárov. WIRED uvádza medziročný rast o viac než 1 100 percent a dodáva, že počet zákazníkov, ktorí ročne utrácajú šesťciferné sumy, bol dvanásťkrát vyšší než pred rokom. Zároveň však firma podľa rovnakého zdroja vykázala za prvých deväť mesiacov roka stratu presahujúcu 104 miliárd dolárov, ktorú výrazne ovplyvňuje účtovanie odmien zamestnancov v akciách.\n+Anthropic vykázala za tretí štvrťrok 2026 tržby 17 miliárd dolárov. WIRED uvádza medziročný rast o viac než 1 100 percent a dodáva, že počet zákazníkov, ktorí ročne míňajú šesťciferné sumy, bol dvanásťkrát vyšší než pred rokom. Zároveň však firma podľa rovnakého zdroja vykázala za prvých deväť mesiacov roka stratu presahujúcu 104 miliárd dolárov, ktorú výrazne ovplyvňuje účtovanie odmien zamestnancov v akciách.\n@@ -31 +31 @@\n-Rast naráža aj na miestny odpor voči novým dátovým centrám. WIRED opisuje protesty proti projektu v Západnej Virgínii, kde obyvatelia upozorňujú na dopady výstavby a obavy o životné prostredie. Pre firmu, ktorá potrebuje čoraz viac výpočtovej kapacity, môžu podobné spory predlžovať budovanie infraštruktúry.\n+Rast naráža aj na miestny odpor voči novým dátovým centrám. WIRED opisuje protesty proti projektu v Západnej Virgínii, kde obyvatelia upozorňujú na dôsledky výstavby a obavy o životné prostredie. Pre firmu, ktorá potrebuje čoraz viac výpočtovej kapacity, môžu podobné spory predlžovať budovanie infraštruktúry."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Anthropic_Logo_2.webp",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://media.wired.com/photos/6afdeccab8b6cf0d23988257/191:100/w_1280,c_limit/Anthropic-IPO-Business-2297744238.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6afdeccab8b6cf0d23988257/master/pass/Anthropic-IPO-Business-2297744238.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2025/04/RebeccaBellan_default-large-1-e1787760589727.jpg?w=147",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Rebecca Bellan",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/16d23d1acf41600294bf8b07d8b50f14f44415d88f76bf0ab725ad5405e748ca?s=96&d=identicon&r=g",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Sarah Perez",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2025/05/russell-e1755718978143.jpg?w=110",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Russell Brandom",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://image.theregister.com/?imageId=166252&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/anthropic-is-now-a-public-company-worth-more-than-1-trillion/l-intro-1795113508.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/anthropic-is-now-a-public-company-worth-more-than-1-trillion/intro-1795113508.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2304538389.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "14 November 2026, Baden-Württemberg, Rottweil: The logo of Anthropic, a U.S.-based artificial intelligence company, is visible on a laptop screen against a Nasdaq-100 candlestick chart. The company is scheduled to begin trading on Thursday, November 19, 2026, under the ticker symbol ANT. Photo: Silas Stein/dpa (Photo by Silas Stein/picture alliance via Getty Images)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305298275.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "CEO of Anthropic Dario Amodei speaks inside the Nasdaq MarketSite ahead of the anticipated IPO of artificial intelligence company Anthropic in New York City on November 19, 2026. Anthropic will begin trading on Thursday on the Nasdaq exchange after pricing its initial public offering at $83 a share, above its expected range and toppling SpaceX's IPO to set a new record. (Photo by CHARLY TRIBALLEAU / AFP via Getty Images)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/11/anthropic-opening-Getty.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Anthropic PBC signage ahead of the company's initial public offering (IPO) at the Nasdaq MarketSite in New York, US, on Thursday, Nov. 19, 2026. Anthropic PBC awarded $550 million to the Wall Street banks working on its blockbuster IPO - more than they made on SpaceX, the previous title holder for the biggest debut ever. Photographer: Michael Nagle/Bloomberg",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Bloomberg)."
+      }
+    ],
+    "dopyty": [
+      "Anthropic logo",
+      "data center",
+      "stock exchange floor"
+    ],
+    "alternativy": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Anthropic_Logo_2.webp",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/d/da/Anthropic_Logo_2.webp",
+        "nazov": "Anthropic Logo 2.webp",
+        "autor": "https://brandfetch.com/anthropic.com?view=library&library=default&collection=logos&asset=idBLFXf2oS",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Anthropic_Logo_2.webp",
+        "povod": "wikimedia",
+        "dopyt": "Anthropic logo"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg",
+        "nahlad": "https://api.openverse.org/v1/images/113408d8-8d61-4b89-b221-369217e2ff34/thumb/",
+        "nazov": "Anthropic logo",
+        "autor": "Mr.Fine24",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=133837549",
+        "povod": "openverse",
+        "dopyt": "Anthropic logo"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/1280px-Virginia_Tech_-_data_center.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/1280px-Virginia_Tech_-_data_center.jpg",
+        "nazov": "Virginia Tech - data center.jpg",
+        "autor": "Christopher Bowns",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Virginia_Tech_-_data_center.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center"
+      },
+      {
+        "url": "https://live.staticflickr.com/6156/6205315211_fe458e509e_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/ace73214-3ddb-4fba-92bd-12b15dd2d911/thumb/",
+        "nazov": "Mediq Utrecht Data center Gwan Kho",
+        "autor": "Gwan Kho",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/43669498@N05/6205315211",
+        "povod": "openverse",
+        "dopyt": "data center"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/NY_stock_exchange_traders_floor_LC-U9-10548-6.jpg/1280px-NY_stock_exchange_traders_floor_LC-U9-10548-6.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/NY_stock_exchange_traders_floor_LC-U9-10548-6.jpg/1280px-NY_stock_exchange_traders_floor_LC-U9-10548-6.jpg",
+        "nazov": "NY stock exchange traders floor LC-U9-10548-6.jpg",
+        "autor": "Thomas J. O'Halloran",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:NY_stock_exchange_traders_floor_LC-U9-10548-6.jpg",
+        "povod": "wikimedia",
+        "dopyt": "stock exchange floor"
+      },
+      {
+        "url": "https://live.staticflickr.com/209/508717757_fc96f15431_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/bbcdbdd3-3102-4ffb-9933-fcb6caeb3b6e/thumb/",
+        "nazov": "No Known Restrictions: New York Stock Exchange Floor by Thomas J. O'Halloran, 1963 (LOC)",
+        "autor": "pingnews.com",
+        "licencia": "PDM 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "stranka": "https://www.flickr.com/photos/39735679@N00/508717757",
+        "povod": "openverse",
+        "dopyt": "stock exchange floor"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Contocracy_icon.png",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Contocracy_icon.png",
+        "nazov": "Contocracy icon.png",
+        "autor": "Contocrat Fan",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Contocracy_icon.png",
+        "povod": "wikimedia",
+        "dopyt": "Anthropic logo"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Data_Center_3_%28UNC%29.jpg/1280px-Data_Center_3_%28UNC%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Data_Center_3_%28UNC%29.jpg/1280px-Data_Center_3_%28UNC%29.jpg",
+        "nazov": "Data Center 3 (UNC).jpg",
+        "autor": "Ana Las Heras",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Data_Center_3_(UNC).jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic editorial illustration of a rising AI company balancing a soaring stock chart against towering data center servers and a small community resisting their construction, no logos or real people."
+  },
+  "prompt_ilustracie": "A symbolic editorial illustration of a rising AI company balancing a soaring stock chart against towering data center servers and a small community resisting their construction, no logos or real people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/ba68a103a260b95eb8449aa4ed70e1ca",
+  "text_agentov": {
+    "titulok": "Anthropic vstúpila na burzu, jej akcie počas prvého dňa prudko kolísali",
+    "perex": "Najväčšie IPO v histórii prinieslo firme miliardy na ďalší rozvoj, no zároveň zvýraznilo otázky o obrovských nákladoch na výpočtovú infraštruktúru, bezpečnosti modelov a odpore voči dátovým centrám.",
+    "telo": "Anthropic vo štvrtok vstúpila na burzu Nasdaq v rámci najväčšej primárnej ponuky akcií (IPO) v histórii. Akcie sa predávali za 83 dolárov, no pri začiatku obchodovania ich cena dosiahla 111,50 dolára. Hodnota firmy sa tak krátko dostala približne na dva bilióny dolárov. Neskôr sa cena pohybovala okolo 95 dolárov a Engadget v tom čase odhadoval trhovú hodnotu Anthropic na 1,23 bilióna dolárov.\n\nBurzový debut priniesol firme nový kapitál, ale aj ostrý pohľad investorov na jej nákladný rast. Anthropic musí financovať výpočtovú kapacitu potrebnú na vývoj a prevádzku modelov Claude, pričom jej záväzky voči dodávateľom dosahujú stovky miliárd dolárov.\n\n## Rekordný debut a nejednotné odhady\n\nAko uvádza WIRED, IPO vynieslo približne 81 miliárd dolárov, prípadne vyše 107 miliárd po započítaní súkromného predaja akcií. TechCrunch uvádza iné súčty: približne 141 miliárd dolárov získaného kapitálu a 91,7 miliardy čistého výnosu pri cene 83 dolárov za akciu. Čísla sa zrejme líšia tým, čo jednotlivé výpočty zahŕňajú; zdroje však neposkytujú úplne zhodné vysvetlenie.\n\nPodobne sa líšia aj odhady hotovosti po IPO. WIRED píše o približne 200 miliardách dolárov, zatiaľ čo TechCrunch uvádza asi 220 miliárd v hotovosti, jej ekvivalentoch a krátkodobých investíciách vrátane IPO a súkromného umiestnenia akcií. Podľa TechCrunchu firma získala od investorov 26 miliárd dolárov v tomto umiestnení.\n\n## Veľké tržby, ešte väčšie výdavky\n\nAnthropic vykázala za tretí štvrťrok 2026 tržby 17 miliárd dolárov. WIRED uvádza medziročný rast o viac než 1 100 percent a dodáva, že počet zákazníkov, ktorí ročne míňajú šesťciferné sumy, bol dvanásťkrát vyšší než pred rokom. Zároveň však firma podľa rovnakého zdroja vykázala za prvých deväť mesiacov roka stratu presahujúcu 104 miliárd dolárov, ktorú výrazne ovplyvňuje účtovanie odmien zamestnancov v akciách.\n\nZáväzky na infraštruktúru a výpočtovú kapacitu dosahujú približne 900 miliárd dolárov. WIRED ich opisuje ako výdavky rozložené na nasledujúcich 19 rokov. Generálny riaditeľ Dario Amodei podľa The Register pripustil, že odhad potrieb firmy je neistý a Anthropic sa pri plánovaní snaží skôr podhodnotiť budúce náklady. Obhajoval ich tým, že výkonnejšie modely sa firme doteraz vyplatili.\n\n## Dodávatelia sú aj investormi\n\nAmazon a Google, významní infraštruktúrni partneri Anthropic, držia podľa TechCrunchu podiely, ktoré pri cene 83 dolárov za akciu spolu predstavovali približne 307,9 miliardy dolárov. Obe spoločnosti zároveň dodávajú firme služby a infraštruktúru. Ďalší technologickí dodávatelia, medzi nimi Nvidia, AMD a Microsoft, sa podieľali na súkromnom umiestnení akcií.\n\nAnalytici citovaní TechCrunchom sa nezhodujú v tom, či takéto prepájanie investorov a dodávateľov znamená problematické „obehové financovanie“. Joey Brookhart zo SemiAnalysis tvrdí, že Anthropic má vďaka rastúcim príjmom šancu náklady pokryť. Gil Luria z D.A. Davidson upozorňuje, že hodnota firmy závisí od toho, či si udrží náskok pred OpenAI, Google DeepMind a lacnejšími otvorenými modelmi.\n\n## Bezpečnosť a odpor voči dátovým centrám\n\nNa burzovom debute Amodei znovu sľúbil, že firma bude vývoj a nasadzovanie AI prispôsobovať bezpečnostným kontrolám a nedovolí, aby systémy prestali byť pod ľudskou kontrolou. Zároveň zdôraznil riziká zneužitia, narušenia ekonomiky či straty kontroly nad AI. Anthropic je verejnoprospešnou korporáciou, ktorá môže pri rozhodovaní zohľadňovať spoločenský dosah popri záujmoch akcionárov.\n\nRast naráža aj na miestny odpor voči novým dátovým centrám. WIRED opisuje protesty proti projektu v Západnej Virgínii, kde obyvatelia upozorňujú na dôsledky výstavby a obavy o životné prostredie. Pre firmu, ktorá potrebuje čoraz viac výpočtovej kapacity, môžu podobné spory predlžovať budovanie infraštruktúry."
+  }
+}
