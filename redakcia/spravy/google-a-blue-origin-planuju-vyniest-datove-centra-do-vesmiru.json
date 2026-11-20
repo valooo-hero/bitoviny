@@ -1,0 +1,476 @@
+{
+  "slug": "google-a-blue-origin-planuju-vyniest-datove-centra-do-vesmiru",
+  "datum_sprav": "2026-11-19",
+  "dovod_vyberu": "Plán Googlu poslať dátové centrá na obežnú dráhu je inovatívny krok, ktorý môže zmeniť budúcnosť cloud computingu a má širší technologický dosah.",
+  "poznamky_pre_editora": "Citát Travisa Bealsa som upravila tak, aby „on our roadmap“ vyjadrovalo „v našom pláne“, nie „na našej ceste“. Vypustila som nepodloženú vetu o používateľoch na Slovensku a v EÚ.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je vysoko spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojoch a sú presne prenesené. Nebol nájdený žiadny závažný problém.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 24,
+        "potvrdenych": 22,
+        "chyb": 2,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 25,
+        "potvrdenych": 25,
+        "chyb": 0,
+        "upozorneni": 1
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "„Tento špeciálny štart s Blue Origin predstavuje dôležitý míľnik v našom pláne,“ uviedol v tlačovej správe Travis Beals, senior riaditeľ projektu v Google.",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „“This dedicated launch with Blue Origin represents a crucial milestone on our roadmap as we expand the boundaries of what’s possible for the future of compute,”“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Google uzavrel s Blue Origin dohodu o vynesení družíc určených na výpočty umelej inteligencie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Google has partnered up with Jeff Bezos' Blue Origin to deploy small satellite data centers into space",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Štart raketou New Glenn má byť súčasťou výskumného projektu Project Suncatcher",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Blue Origin announced Thursday that its New Glenn rocket will launch data center satellites for Google in 2029 as part of that company’s Project Suncatcher program.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa portálu Engadget sa prvý štart očakáva začiatkom roka 2029",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "The first launch isn't scheduled until early 2029",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ars Technica uvádza rok 2029 bez bližšieho určenia termínu.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "its New Glenn rocket will launch data center satellites for Google in 2029",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Google chce na družice umiestniť vlastné čipy Tensor Processing Unit (TPU) a serverové vybavenie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "The rocket will carry several Google tensor processing units, the company's proprietary AI chips, along with data center servers.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Každá má mať výpočtovú kapacitu približne na úrovni jedného racku dátového centra.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Each of these satellites will be equipped with \"roughly the capacity of a data center rack\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Družice majú zamieriť na slnečne synchrónnu obežnú dráhu, kde budú môcť využívať takmer nepretržitý prísun slnečnej energie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "into Sun-synchronous orbit where they can receive nearly continuous solar energy.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Google označuje Suncatcher za dlhodobý výskumný projekt.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "This is an experiment that Google calls a \"long-term moonshot\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "„Tento špeciálny štart s Blue Origin predstavuje dôležitý míľnik v našom pláne,“ uviedol v tlačovej správe Travis Beals, senior riaditeľ projektu v Google.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "“This dedicated launch with Blue Origin represents a crucial milestone on our roadmap as we expand the boundaries of what’s possible for the future of compute,” said Travis Beals, senior director of Project Suncatcher at Google",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Cieľom plánovanej misie má byť podľa Ars Technica overiť prepojenie solárnych družíc a predviesť výpočty strojového učenia vo vesmíre.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "The purpose of the 2029 launch will likely be to test the ability to network solar-powered satellites equipped with AI chips and demonstrate machine-learning compute in space.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Google projekt škálovateľných orbitálnych dátových centier predstavil približne pred rokom.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Google disclosed it was working on scalable orbiting data centers about a year ago",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Engadget zároveň píše, že spoločnosť v októbri vyslala na nízku obežnú dráhu prvú družicu so serverom pre umelú inteligenciu.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Google did deploy its first AI server satellite back in October, but it was sent into low-Earth orbit",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tá však dokáže pracovať iba 15 minút naraz.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "can only operate for 15 minutes at a time.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podrobnosti o tom, kto postaví družice pre misiu v roku 2029, Google podľa Ars Technica nezverejnil.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Google did not say who it was contracting with to build the satellites",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ich hmotnosť by mohla dosahovať niekoľko ton.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "which may weigh something on the order of several tons.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Engadget upozorňuje, že bežný spôsob odvádzania tepla tam nefunguje a teplo treba vyžarovať cez potrubia a panely.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "standard heat dissipation doesn't work in space, so it has to be released through pipes and panels",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ďalším rizikom je kozmické žiarenie, ktoré môže spôsobiť takzvané preklopenie bitu — zmenu binárnej hodnoty z nuly na jednotku alebo naopak.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "There's also the matter of radiation. It's everywhere and causes something called \"bit flip.\" This essentially flips the binary code from a one to a zero, or vice versa.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ars Technica píše, že kapacity komerčných ťažkých rakiet v USA sa zapĺňajú až do roku 2030.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "US commercial heavy lift rockets, including New Glenn, are filling up their capacity through the year 2030.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Google má letieť menšou verziou New Glenn označenou 7×2",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "The Google mission will fly on the 7×2 variant of the New Glenn rocket",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "podľa článku absolvovala táto verzia tri štarty.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "the smaller version of the vehicle that has launched three times to date.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Portál zároveň upozorňuje, že bez veľmi lacnej dopravy ťažkých nákladov sa orbitálne dátové centrá nemôžu ekonomicky vyrovnať pozemským.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Without ultra low-cost, heavy lift capability, there is no way that data centers in space can be economically competitive with terrestrial data centers.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pre Google preto môže byť dôležité, či bude mať v budúcnosti vlastný spôsob vynášania rozsiahlejšej siete družíc.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "whether it is tenable for a company to have ambitions for a large constellation of orbital data centers in the 2030s without its own launch vehicle.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Engadget pripomína aj možné následky rastúceho počtu objektov na obežnej dráhe: pri častých zrážkach by vznikajúci odpad mohol vyvolať ďalšie kolízie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "This is when the density of objects in low-orbit gets so high and collisions become so commonplace that it creates a chain reaction of debris.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Článok uvádza nárast počtu sledovaných objektov z necelých 2 000 na viac než 47 000.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "This theory was posited back when there were just under 2,000 items circling a low-Earth orbit. That number has since risen to over 47,000",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Projekt je zatiaľ experimentom, nie oznámením komerčnej služby.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "In that sense, it will be a technology demonstration.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "perex",
+        "povodne": "majú poháňať solárna energia",
+        "opravene": "majú poháňať solárna energia",
+        "dovod": "text je bez chýb",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "racku",
+        "kontext": "m výkonom približne jedného serverového racku majú poháňať solárna energia a čipy Goo",
+        "navrhy": [
+          "Báčku",
+          "Račko",
+          "Račou"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "racku",
+        "kontext": "vú kapacitu približne na úrovni jedného racku dátového centra. Družice majú zamieriť ",
+        "navrhy": [
+          "Báčku",
+          "Račko",
+          "Račou"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "slnečne",
+        "kontext": "tového centra. Družice majú zamieriť na slnečne synchrónnu obežnú dráhu, kde budú môcť ",
+        "navrhy": [
+          "slnečné",
+          "slečne",
+          "slnečnej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "škálovateľných",
+        "kontext": "vého učenia vo vesmíre.\n\nGoogle projekt škálovateľných orbitálnych dátových centier predstavil",
+        "navrhy": [
+          "žalovateľných"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "povodny",
+      "url": "https://cdn.arstechnica.net/wp-content/uploads/2025/11/NG2-Launch-Rollout-3-1152x648.jpg",
+      "poznamka": "Pravdepodobne tlačový materiál. Editor musí potvrdiť pôvod."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2025/11/NG2-Launch-Rollout-3-1152x648.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Blue Origin",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (Blue Origin): pravdepodobne tlačový materiál."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2025/11/NG2-Launch-Rollout-3-500x500.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Blue Origin",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (Blue Origin): pravdepodobne tlačový materiál."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/google-signs-deal-with-blue-origin-to-send-satellite-data-centers-into-orbit/l-intro-1795109453.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/google-signs-deal-with-blue-origin-to-send-satellite-data-centers-into-orbit/intro-1795109453.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Google data center",
+      "Blue Origin rocket",
+      "satellite"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Google_data_center.jpg/1280px-Google_data_center.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Google_data_center.jpg/1280px-Google_data_center.jpg",
+        "nazov": "Google data center.jpg",
+        "autor": "Lambtron",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Google_data_center.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Google data center"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Google_Data_Center%2C_The_Dalles.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/8b7e88a5-cc0e-42d4-bec1-9bd9698aeeca/thumb/",
+        "nazov": "Google Data Center, The Dalles",
+        "autor": "Visitor7",
+        "licencia": "BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=16564116",
+        "povod": "openverse",
+        "dopyt": "Google data center"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Blue_Origin_Canaveral_Rocket_Factory_-_Sadik_Hakan_Guris_-_2017.jpg/1280px-Blue_Origin_Canaveral_Rocket_Factory_-_Sadik_Hakan_Guris_-_2017.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Blue_Origin_Canaveral_Rocket_Factory_-_Sadik_Hakan_Guris_-_2017.jpg/1280px-Blue_Origin_Canaveral_Rocket_Factory_-_Sadik_Hakan_Guris_-_2017.jpg",
+        "nazov": "Blue Origin Canaveral Rocket Factory - Sadik Hakan Guris - 2017.jpg",
+        "autor": "Sadik hakan",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Blue_Origin_Canaveral_Rocket_Factory_-_Sadik_Hakan_Guris_-_2017.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Blue Origin rocket"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/51324831229_fdb8736d09_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/af00249c-4feb-42dc-95f4-8351bf5b4743/thumb/",
+        "nazov": "Which rocket did it better?",
+        "autor": "Tim Evanson",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/23165290@N00/51324831229",
+        "povod": "openverse",
+        "dopyt": "Blue Origin rocket"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/1280px-FullMoon2010.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/FullMoon2010.jpg/1280px-FullMoon2010.jpg",
+        "nazov": "FullMoon2010.jpg",
+        "autor": "Gregory H. Revera",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+        "povod": "wikimedia",
+        "dopyt": "satellite"
+      },
+      {
+        "url": "https://live.staticflickr.com/7020/6760154095_81bf80f60f_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/8c194029-26c7-4fbe-9c35-fff2c4d9cbd6/thumb/",
+        "nazov": "True-Color Image of Southeastern United States from NASA's Newest Earth Observing Satellite Suomi NPP",
+        "autor": "NASA Goddard Photo and Video",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/24662369@N07/6760154095",
+        "povod": "openverse",
+        "dopyt": "satellite"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Google_Data_Center%2C_The_Dalles.jpg/1280px-Google_Data_Center%2C_The_Dalles.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Google_Data_Center%2C_The_Dalles.jpg/1280px-Google_Data_Center%2C_The_Dalles.jpg",
+        "nazov": "Google Data Center, The Dalles.jpg",
+        "autor": "Visitor7",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Google_Data_Center,_The_Dalles.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Google data center"
+      },
+      {
+        "url": "https://live.staticflickr.com/3172/2901591828_74d79372cc_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/e45e3e08-2eaa-4227-9845-f6bea4b4d570/thumb/",
+        "nazov": "Google Data Center?",
+        "autor": "Jarmo #Striimivaari Lahti",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/9184828@N06/2901591828",
+        "povod": "openverse",
+        "dopyt": "Google data center"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic illustration of a small solar-powered orbital data center satellite with abstract server racks and panels above Earth, editorial technology art, no logos, no text, not photorealistic."
+  },
+  "prompt_ilustracie": "A symbolic illustration of a small solar-powered orbital data center satellite with abstract server racks and panels above Earth, editorial technology art, no logos, no text, not photorealistic.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/dd1bc867deaf7e49f324f827c46962fc",
+  "text_agentov": {
+    "titulok": "Google a Blue Origin plánujú vyniesť dátové centrá do vesmíru",
+    "perex": "Družice s výpočtovým výkonom približne jedného serverového racku majú poháňať solárna energia a čipy Google. Prvá spoločná misia je naplánovaná na rok 2029.",
+    "telo": "Google uzavrel s Blue Origin dohodu o vynesení družíc určených na výpočty umelej inteligencie. Štart raketou New Glenn má byť súčasťou výskumného projektu Project Suncatcher, ktorý skúma, či možno vytvoriť sieť dátových centier na obežnej dráhe. Podľa portálu Engadget sa prvý štart očakáva začiatkom roka 2029; Ars Technica uvádza rok 2029 bez bližšieho určenia termínu.\n\nGoogle chce na družice umiestniť vlastné čipy Tensor Processing Unit (TPU) a serverové vybavenie. Každá má mať výpočtovú kapacitu približne na úrovni jedného racku dátového centra. Družice majú zamieriť na slnečne synchrónnu obežnú dráhu, kde budú môcť využívať takmer nepretržitý prísun slnečnej energie.\n\n## Výskumná misia, nie hotová služba\n\nGoogle označuje Suncatcher za dlhodobý výskumný projekt. „Tento špeciálny štart s Blue Origin predstavuje dôležitý míľnik v našom pláne,“ uviedol v tlačovej správe Travis Beals, senior riaditeľ projektu v Google. Cieľom plánovanej misie má byť podľa Ars Technica overiť prepojenie solárnych družíc a predviesť výpočty strojového učenia vo vesmíre.\n\nGoogle projekt škálovateľných orbitálnych dátových centier predstavil približne pred rokom. Engadget zároveň píše, že spoločnosť v októbri vyslala na nízku obežnú dráhu prvú družicu so serverom pre umelú inteligenciu. Tá však dokáže pracovať iba 15 minút naraz. Podrobnosti o tom, kto postaví družice pre misiu v roku 2029, Google podľa Ars Technica nezverejnil. Ich hmotnosť by mohla dosahovať niekoľko ton.\n\n## Technické a ekonomické prekážky\n\nPremiestnenie serverov do vesmíru nerieši automaticky ich chladenie. Engadget upozorňuje, že bežný spôsob odvádzania tepla tam nefunguje a teplo treba vyžarovať cez potrubia a panely. Ďalším rizikom je kozmické žiarenie, ktoré môže spôsobiť takzvané preklopenie bitu — zmenu binárnej hodnoty z nuly na jednotku alebo naopak.\n\nZostáva aj otázka ceny. Ars Technica píše, že kapacity komerčných ťažkých rakiet v USA sa zapĺňajú až do roku 2030. Google má letieť menšou verziou New Glenn označenou 7×2; podľa článku absolvovala táto verzia tri štarty. Portál zároveň upozorňuje, že bez veľmi lacnej dopravy ťažkých nákladov sa orbitálne dátové centrá nemôžu ekonomicky vyrovnať pozemským. Pre Google preto môže byť dôležité, či bude mať v budúcnosti vlastný spôsob vynášania rozsiahlejšej siete družíc.\n\nEngadget pripomína aj možné následky rastúceho počtu objektov na obežnej dráhe: pri častých zrážkach by vznikajúci odpad mohol vyvolať ďalšie kolízie. Článok uvádza nárast počtu sledovaných objektov z necelých 2 000 na viac než 47 000. Projekt je zatiaľ experimentom, nie oznámením komerčnej služby."
+  }
+}
