@@ -3,23 +3,24 @@ title: Chyby v NGINX umožňujú vzdialené spustenie kódu a prevzatie servera
 perex: Dve zraniteľnosti HTTP/2 môžu útočníkom otvoriť cestu k vykonaniu kódu bez prihlásenia. Výskumníci zároveň ukázali, že jedna z nich sa dá spojiť s chybou jadra Linuxu a získať prístup root.
 sekcia: bezpecnost
 tagy:
-- NGINX
-- HTTP/2
-- kybernetická bezpečnosť
-publikovane: '2026-11-20T04:25:21+00:00'
+  - NGINX
+  - HTTP/2
+  - kybernetická bezpečnosť
+publikovane: 2026-11-20T04:25:21+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/chyby-v-nginx-umoznuju-vzdialene-spustenie-kodu-a-prevzatie-servera-mwp2i291.webp
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'BleepingComputer: Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers'
-  url: https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/
+  - nazov: "BleepingComputer: Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers"
+    url: https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/
 ---
 
 Dve kritické chyby v NGINX môžu umožniť neautentifikovaným útočníkom spustiť na zraniteľnom serveri vlastný kód. Bezpečnostní výskumníci ich označili spoločným názvom „nginx2root“ a pri jednej zraniteľnosti predviedli aj cestu k oprávneniam root, keď ju spojili s ďalšou chybou v jadre Linuxu. Opravy sú dostupné; prevádzkovatelia majú aktualizovať bez odkladu.
