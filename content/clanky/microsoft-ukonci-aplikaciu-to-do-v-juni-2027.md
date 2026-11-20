@@ -6,7 +6,7 @@ tagy:
   - Microsoft To Do
   - Microsoft Planner
   - Microsoft 365
-publikovane: 2026-11-20T04:25:29+00:00
+publikovane: 2026-11-20T14:10:41Z
 obrazok:
   src: /obrazky/microsoft-ukonci-aplikaciu-to-do-v-juni-2027-mwp23ojq.webp
   alt: Ilustračný obrázok.
@@ -18,6 +18,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Register: Microsoft To Do will soon become Microsoft Done"
     url: https://www.theregister.com/personal-tech/2026/11/19/microsoft-to-do-will-soon-become-microsoft-done/5310973
