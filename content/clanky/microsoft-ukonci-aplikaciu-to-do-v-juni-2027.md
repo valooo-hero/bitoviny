@@ -3,25 +3,26 @@ title: Microsoft ukončí aplikáciu To Do v júni 2027
 perex: Používatelia pracovných účtov majú prejsť na Planner, no ten zatiaľ neponúka všetky funkcie To Do. Súkromné účty Microsoftu v ňom podporované nie sú a úlohy ani zoznamy sa automaticky neprenesú.
 sekcia: softver
 tagy:
-- Microsoft To Do
-- Microsoft Planner
-- Microsoft 365
-publikovane: '2026-11-20T04:25:29+00:00'
+  - Microsoft To Do
+  - Microsoft Planner
+  - Microsoft 365
+publikovane: 2026-11-20T04:25:29+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/microsoft-ukonci-aplikaciu-to-do-v-juni-2027-mwp23ojq.webp
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'The Register: Microsoft To Do will soon become Microsoft Done'
-  url: https://www.theregister.com/personal-tech/2026/11/19/microsoft-to-do-will-soon-become-microsoft-done/5310973
-- nazov: '9to5Mac: Microsoft To Do is retiring, including Mac and iOS apps'
-  url: https://9to5mac.com/2026/11/19/microsoft-to-do-is-retiring-including-mac-and-ios-apps/
+  - nazov: "The Register: Microsoft To Do will soon become Microsoft Done"
+    url: https://www.theregister.com/personal-tech/2026/11/19/microsoft-to-do-will-soon-become-microsoft-done/5310973
+  - nazov: "9to5Mac: Microsoft To Do is retiring, including Mac and iOS apps"
+    url: https://9to5mac.com/2026/11/19/microsoft-to-do-is-retiring-including-mac-and-ios-apps/
 ---
 
 Microsoft ukončí aplikácie To Do pre Windows, Mac, iOS, Android aj web 30. júna 2027. Pre používateľov pracovných a školských účtov odporúča ako náhradu Planner, no upozorňuje, že niektoré funkcie To Do v ňom chýbajú. Súkromné účty Microsoftu vrátane predplatiteľov Microsoft 365 Personal a Family Planner nepodporuje, takže si budú musieť nájsť inú aplikáciu.
