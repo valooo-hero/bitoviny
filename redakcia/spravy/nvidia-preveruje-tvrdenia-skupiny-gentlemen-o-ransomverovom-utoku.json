@@ -1,0 +1,447 @@
+{
+  "slug": "nvidia-preveruje-tvrdenia-skupiny-gentlemen-o-ransomverovom-utoku",
+  "datum_sprav": "2026-11-19",
+  "dovod_vyberu": "Možný ransomware útok na NVIDIA je závažnou bezpečnostnou hrozbou pre jedného z kľúčových hráčov v oblasti hardvéru a AI.",
+  "poznamky_pre_editora": "Vypustila som nepodložené vysvetlenie, že údaje o počtoch obetí zachytávajú odlišné súbory prípadov. Údaj o rozsahu úniku z roku 2022 som upravila na „viac než 71 000 zamestnancov“, podľa formulácie v zdroji BleepingComputer. Zdroje sa pri časovej osi a opise úniku z roku 2022 naďalej líšia.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojoch a správne reflektuje aj rozdiely v údajoch medzi médiami. Najvážnejším problémom nie je žiadna chyba, ale len to, že koncept neuvádza, že The Register spomína aj vyšší počet obetí z telemetrie, čo je však v texte zahrnuté.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 24,
+        "potvrdenych": 22,
+        "chyb": 3,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 24,
+        "potvrdenych": 23,
+        "chyb": 2,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 23,
+        "potvrdenych": 23,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "NVIDIA preveruje tvrdenia ransomvérovej skupiny The Gentlemen, ktorá zaradila výrobcu čipov na svoju stránku s údajnými obeťami.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Skupina zatiaľ nezverejnila dôkaz o napadnutí ani ukážku údajne ukradnutých súborov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Although the ransomware operation now lists the American multinational tech giant, it has not yet shared any proof of the breach.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na stránke avizuje zverejnenie informácií a zobrazuje odpočítavanie, ktoré sa má skončiť 28. novembra.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "On their leak site, the cybercrime gang threatens to release data and has added a countdown that ends in nine days, on November 28.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Firma uviedla, že nenašla známky toho, že by boli zasiahnuté jej systémy alebo sieť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "We have found no indication that NVIDIA systems or networks were affected.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Súčasne preveruje „incident, ktorý mohol zasiahnuť externého partnera“, citoval jej hovorcu portál BleepingComputer.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "NVIDIA is investigating an incident that may have affected a third-party partner,",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "NVIDIA dodala, že situáciu naďalej sleduje.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "We continue to monitor the situation.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Stránka skupiny podľa portálu The Register neuvádza, aké informácie mali útočníci získať.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The ransomware gang’s data-leak site, shared on social media and seen by The Register, doesn’t show any stolen files or indicate what information the group claims to have stolen.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V príspevku sa objavuje len prísľub „DATA INFO – SOON“ a termín odpočítavania.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "with The Gentlemen promising “DATA INFO - SOON.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Obe médiá upozorňujú, že tvrdenia zločincov sa nepodarilo nezávisle potvrdiť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "While we can’t verify the criminals’ claims,",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Gentlemen funguje ako ransomvér ako služba (RaaS): prevádzkovatelia poskytujú nástroje a spolupracovníci podnikajú útoky, pričom získajú podiel z výkupného.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The Gentlemen surfaced last year as a closed ransomware group and then switched to a Ransomware-as-a-Service (RaaS) model, offering affiliates up to a 90% cut of ransom proceeds",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "BleepingComputer uvádza, že skupina ponúka spolupracovníkom až 90 percent výnosov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "offering affiliates up to a 90% cut of ransom proceeds",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri útokoch s dvojitým vydieraním zločinci najprv získavajú citlivé dáta a následne hrozia ich zverejnením, popri zašifrovaní systémov obete.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "It operates as a double-extortion group, exfiltrating sensitive data from victims' networks before encrypting their systems and pressuring them with the threat of leaking the stolen information online.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "BleepingComputer píše, že od svojho vzniku skupina vyhlásila viac než 1 100 obetí.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Since it emerged, The Gentlemen has claimed more than 1,100 victims from various sectors",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register uvádza vyše 320 nárokov na obete k aprílu",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Its affiliates claimed more than 320 victims as of April,",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "a zároveň píše, že 240 údajných ransomvérových infekcií pripadlo na prvú polovicu roka 2026.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "with the majority of these alleged ransomware infections (240) occurring in the first half of 2026.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register ďalej cituje výskumníkov Check Pointu, ktorí pri vyšetrovaní incidentu získali prístup k živému riadiacemu serveru jedného spolupracovníka.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Check Point researchers accessed an affiliate’s live command-and-control server during an incident response case earlier this year.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Telemetria na ňom podľa nich ukázala viac než 1 570 obetí, prevažne v USA a vo firemných či organizačných prostrediach.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The server contained victim telemetry that revealed more than 1,570 victims, mostly located in the US, and primarily corporate and organizational environments.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "BleepingComputer pripomína, že v máji NVIDIA potvrdila vystavenie údajov niektorých používateľov z Arménska po napadnutí regionálneho partnera GeForce NOW Alliance.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "NVIDIA confirmed a data breach earlier this year, in May, when it told BleepingComputer that some Armenian users' information ... had been exposed after a regional GeForce NOW Alliance partner was hacked.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Išlo o mená, e-mailové adresy, telefónne čísla, dátumy narodenia a používateľské mená.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "including their names, email addresses, phone numbers, dates of birth, and usernames",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Firma vtedy uviedla, že jej sieť ani služby prevádzkované priamo NVIDIA zasiahnuté neboli.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "the company added that the May breach did not affect its network or NVIDIA-operated services.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri inom incidente z roku 2022 sa zdroje líšia v opise časovej osi a rozsahu: BleepingComputer píše o potvrdení úniku v marci a viac než 71 000 zamestnancoch,",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The tech giant also disclosed another data breach in March 2022 (claimed by the Lapsus$ extortion gang) that affected more than 71,000 employees",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "zatiaľ čo The Register uvádza februárový únik prihlasovacích údajov a proprietárneho kódu.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "In February 2022, an Nvidia data breach exposed employees’ credentials and proprietary code.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "O zodpovednosť sa vtedy prihlásila skupina Lapsus$.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "claimed by the Lapsus$ extortion gang",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "titulok",
+        "text": "ransomvérovom",
+        "kontext": " preveruje tvrdenia skupiny Gentlemen o ransomvérovom útoku",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "ransomvérovej",
+        "kontext": "NVIDIA preveruje tvrdenia ransomvérovej skupiny The Gentlemen, ktorá zaradila v",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "závisle potvrdiť.\n\nThe Gentlemen funguje ako ransomvér ako služba (RaaS): prevádzkov",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "ransomvér",
+        "kontext": "le potvrdiť.\n\nThe Gentlemen funguje ako ransomvér ako služba (RaaS): prevádzkovatelia pos",
+        "navrhy": [
+          "Hannover",
+          "Hanover",
+          "ranovej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "iť.\n\nThe Gentlemen funguje ako ransomvér ako služba (RaaS): prevádzkovatelia poskytu",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "ransomvérových",
+        "kontext": " aprílu a zároveň píše, že 240 údajných ransomvérových infekcií pripadlo na prvú polovicu roka",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://www.bleepstatic.com/content/hl-images/2026/11/19/NVIDIA_logo.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.bleepstatic.com/images/news/u/1109292/2026/NVIDIA-gentlemen-dls.jpeg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "NVIDIA entry on data leak site",
+        "popisok": "NVIDIA entry on data leak site (BleepingComputer)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://image.theregister.com/?imageId=5311157&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "NVIDIA headquarters",
+      "NVIDIA graphics card",
+      "server rack"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg",
+        "nazov": "Nvidia HQ.jpg",
+        "autor": "Kevin McCarthy",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Nvidia_HQ.jpg",
+        "povod": "wikimedia",
+        "dopyt": "NVIDIA headquarters"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/NVIDIA_Headquarters.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/617cd75a-b4de-4e8b-b049-7c31683011d5/thumb/",
+        "nazov": "NVIDIA Headquarters",
+        "autor": "Coolcaesar",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=74676142",
+        "povod": "openverse",
+        "dopyt": "NVIDIA headquarters"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/ASUS_NVIDIA_GeForce_210_silent_graphics_card_with_HDMI.JPG/1280px-ASUS_NVIDIA_GeForce_210_silent_graphics_card_with_HDMI.JPG",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/ASUS_NVIDIA_GeForce_210_silent_graphics_card_with_HDMI.JPG/1280px-ASUS_NVIDIA_GeForce_210_silent_graphics_card_with_HDMI.JPG",
+        "nazov": "ASUS NVIDIA GeForce 210 silent graphics card with HDMI.JPG",
+        "autor": "Joydeep",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:ASUS_NVIDIA_GeForce_210_silent_graphics_card_with_HDMI.JPG",
+        "povod": "wikimedia",
+        "dopyt": "NVIDIA graphics card"
+      },
+      {
+        "url": "https://live.staticflickr.com/3340/3610579095_202a4e6903_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/e3c6a517-605b-4a52-9c43-f2b4c2566599/thumb/",
+        "nazov": "Do you have an NVIDIA graphics card and your videos play too dark?",
+        "autor": "▓▒░ TORLEY ░▒▓",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/70285332@N00/3610579095",
+        "povod": "openverse",
+        "dopyt": "NVIDIA graphics card"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Nvidia_sign.jpg/1280px-Nvidia_sign.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Nvidia_sign.jpg/1280px-Nvidia_sign.jpg",
+        "nazov": "Nvidia sign.jpg",
+        "autor": "Will Buckner",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Nvidia_sign.jpg",
+        "povod": "wikimedia",
+        "dopyt": "NVIDIA headquarters"
+      },
+      {
+        "url": "https://live.staticflickr.com/157/400107233_e39dc7fe3c_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/50b6e36f-a671-4a51-ac81-e7e4ef88441d/thumb/",
+        "nazov": "Google Headquarters on six displays",
+        "autor": "twid",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/48741368@N00/400107233",
+        "povod": "openverse",
+        "dopyt": "NVIDIA headquarters"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a semiconductor chip beside a shadowy digital countdown and encrypted data fragments, without depicting real people or a documentary scene."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a semiconductor chip beside a shadowy digital countdown and encrypted data fragments, without depicting real people or a documentary scene.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/dd98cd4d19fc91db674606bb33b8add5",
+  "text_agentov": {
+    "titulok": "NVIDIA preveruje tvrdenia skupiny Gentlemen o ransomvérovom útoku",
+    "perex": "Kyberzločinci zaradili firmu na svoju stránku s údajnými obeťami a avizujú zverejnenie dát. NVIDIA zatiaľ nenašla známky prieniku do vlastných systémov, preveruje však incident u externého partnera.",
+    "telo": "NVIDIA preveruje tvrdenia ransomvérovej skupiny The Gentlemen, ktorá zaradila výrobcu čipov na svoju stránku s údajnými obeťami. Skupina zatiaľ nezverejnila dôkaz o napadnutí ani ukážku údajne ukradnutých súborov. Na stránke avizuje zverejnenie informácií a zobrazuje odpočítavanie, ktoré sa má skončiť 28. novembra.\n\nFirma uviedla, že nenašla známky toho, že by boli zasiahnuté jej systémy alebo sieť. Súčasne preveruje „incident, ktorý mohol zasiahnuť externého partnera“, citoval jej hovorcu portál BleepingComputer. NVIDIA dodala, že situáciu naďalej sleduje. Zatiaľ teda nie je potvrdené, či k úniku došlo, aké údaje by sa mohli týkať firmy ani či incident súvisí priamo s jej infraštruktúrou.\n\n## Zatiaľ bez dôkazu o odcudzených dátach\n\nStránka skupiny podľa portálu The Register neuvádza, aké informácie mali útočníci získať. V príspevku sa objavuje len prísľub „DATA INFO – SOON“ a termín odpočítavania. Obe médiá upozorňujú, že tvrdenia zločincov sa nepodarilo nezávisle potvrdiť.\n\nThe Gentlemen funguje ako ransomvér ako služba (RaaS): prevádzkovatelia poskytujú nástroje a spolupracovníci podnikajú útoky, pričom získajú podiel z výkupného. BleepingComputer uvádza, že skupina ponúka spolupracovníkom až 90 percent výnosov. Pri útokoch s dvojitým vydieraním zločinci najprv získavajú citlivé dáta a následne hrozia ich zverejnením, popri zašifrovaní systémov obete.\n\n## Počty obetí sa v zdrojoch líšia\n\nO rozsahu činnosti skupiny prinášajú zdroje rozdielne údaje. BleepingComputer píše, že od svojho vzniku skupina vyhlásila viac než 1 100 obetí. The Register uvádza vyše 320 nárokov na obete k aprílu a zároveň píše, že 240 údajných ransomvérových infekcií pripadlo na prvú polovicu roka 2026.\n\nThe Register ďalej cituje výskumníkov Check Pointu, ktorí pri vyšetrovaní incidentu získali prístup k živému riadiacemu serveru jedného spolupracovníka. Telemetria na ňom podľa nich ukázala viac než 1 570 obetí, prevažne v USA a vo firemných či organizačných prostrediach.\n\n## NVIDIA už riešila úniky súvisiace s partnermi\n\nBleepingComputer pripomína, že v máji NVIDIA potvrdila vystavenie údajov niektorých používateľov z Arménska po napadnutí regionálneho partnera GeForce NOW Alliance. Išlo o mená, e-mailové adresy, telefónne čísla, dátumy narodenia a používateľské mená. Firma vtedy uviedla, že jej sieť ani služby prevádzkované priamo NVIDIA zasiahnuté neboli.\n\nPri inom incidente z roku 2022 sa zdroje líšia v opise časovej osi a rozsahu: BleepingComputer píše o potvrdení úniku v marci a viac než 71 000 zamestnancoch, zatiaľ čo The Register uvádza februárový únik prihlasovacích údajov a proprietárneho kódu. O zodpovednosť sa vtedy prihlásila skupina Lapsus$."
+  }
+}
