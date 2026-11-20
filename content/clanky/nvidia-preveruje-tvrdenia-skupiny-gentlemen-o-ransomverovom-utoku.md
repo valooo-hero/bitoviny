@@ -6,7 +6,7 @@ tagy:
   - NVIDIA
   - ransomvér
   - kyberbezpečnosť
-publikovane: 2026-11-20T04:25:13+00:00
+publikovane: 2026-11-20T14:23:03Z
 obrazok:
   src: /obrazky/nvidia-preveruje-tvrdenia-skupiny-gentlemen-o-ransomverovom-utoku-mwp2jlsl.jpg
   alt: Nvidia HQ
@@ -18,6 +18,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "BleepingComputer: NVIDIA investigating Gentlemen ransomware breach claims"
     url: https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/
