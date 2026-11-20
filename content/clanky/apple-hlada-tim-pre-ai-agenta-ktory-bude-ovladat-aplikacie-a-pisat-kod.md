@@ -3,26 +3,27 @@ title: Apple hľadá tím pre AI agenta, ktorý bude ovládať aplikácie a pís
 perex: Pracovné ponuky naznačujú, že firma skúma asistenta schopného plánovať viacstupňové úlohy naprieč aplikáciami, webom aj príkazovým riadkom. Zatiaľ však ide o nábor, nie o predstavenie hotového produktu.
 sekcia: ai
 tagy:
-- Apple
-- AI agenti
-- Siri
-- iOS
-publikovane: '2026-11-20T04:25:33+00:00'
+  - Apple
+  - AI agenti
+  - Siri
+  - iOS
+publikovane: 2026-11-20T04:25:33+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/apple-hlada-tim-pre-ai-agenta-ktory-bude-ovladat-aplikacie-a-pisat-kod-mwp22aos.webp
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / ChatGPT Images 2.0
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: '9to5Mac: Report: Apple job listings detail plans for autonomous AI agents'
-  url: https://9to5mac.com/2026/11/19/report-apple-job-listings-detail-plans-for-autonomous-ai-agents/
-- nazov: 'The Verge: Apple is hiring engineers to build its own AI agent'
-  url: https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing
+  - nazov: "9to5Mac: Report: Apple job listings detail plans for autonomous AI agents"
+    url: https://9to5mac.com/2026/11/19/report-apple-job-listings-detail-plans-for-autonomous-ai-agents/
+  - nazov: "The Verge: Apple is hiring engineers to build its own AI agent"
+    url: https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing
 ---
 
 Apple hľadá ľudí na vývoj AI asistenta, ktorý by dokázal samostatne vykonávať úlohy naprieč aplikáciami. Podľa pracovných ponúk, na, ktoré upozornil Bloomberg a o ktorých píšu 9to5Mac aj The Verge, má agent vedieť prehliadať web, pracovať s aplikáciami, písať a opravovať kód či využívať online služby. Opis naznačuje, že Apple chce, aby systém úlohy nielen vykonával, ale aj plánoval jednotlivé kroky a vyberal nástroje.
