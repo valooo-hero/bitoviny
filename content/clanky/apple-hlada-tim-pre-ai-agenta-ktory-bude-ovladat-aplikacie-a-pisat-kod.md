@@ -7,7 +7,7 @@ tagy:
   - AI agenti
   - Siri
   - iOS
-publikovane: 2026-11-20T04:25:33+00:00
+publikovane: 2026-11-20T14:09:35Z
 obrazok:
   src: /obrazky/apple-hlada-tim-pre-ai-agenta-ktory-bude-ovladat-aplikacie-a-pisat-kod-mwp22aos.webp
   alt: Ilustračný obrázok.
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "9to5Mac: Report: Apple job listings detail plans for autonomous AI agents"
     url: https://9to5mac.com/2026/11/19/report-apple-job-listings-detail-plans-for-autonomous-ai-agents/
