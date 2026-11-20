@@ -1,0 +1,541 @@
+{
+  "slug": "britsky-sud-umoznil-zverejnit-existenciu-tajneho-prikazu-pre-apple",
+  "datum_sprav": "2026-11-19",
+  "dovod_vyberu": "Rozhodnutie britského súdu o zverejnení tajného príkazu na obídenie šifrovania Applu má zásadný vplyv na súkromie a bezpečnosť používateľov v EÚ.",
+  "poznamky_pre_editora": "Overiť aktuálny stav potvrdenia príkazu ministerstvom vnútra a presné znenie rozhodnutia. Zdroje sa v dôraze líšia: 9to5Mac píše, že Apple môže príkaz zverejniť, TechCrunch zdôrazňuje povinnosť vlády potvrdiť jeho existenciu, pričom ministerstvo ju zatiaľ nepotvrdilo. Konkrétne detaily príkazu majú byť predmetom ďalšieho pojednávania.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojoch. Najvážnejším problémom nie je žiadna faktická chyba, ale drobné formulačné nepresnosti, ktoré však nemenia význam.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 27,
+        "potvrdenych": 27,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Britský Investigatory Powers Tribunal rozhodol, že utajenie príkazu, ktorý vláda vydala spoločnosti Apple v súvislosti s prístupom k šifrovaným dátam zákazníkov, nemožno odôvodniť obavami o národnú bezpečnosť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The tribunal's ruling rejected the Home Office's claim that disclosing the order would be damaging to national security.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rozhodnutie umožňuje, aby sa podstatná časť právneho sporu o príkaze presunula na verejnosť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "The ruling means that […] “much” of Apple and the non-profits’ legal challenge can now take place in open court.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Samotné ministerstvo vnútra však podľa portálu TechCrunch v čase zverejnenia správy ešte existenciu príkazu nepotvrdilo.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "A spokesperson for the U.K. Home Office, which has yet to confirm the existence of a notice, did not respond to a request for comment.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ide o takzvané oznámenie o technickej spôsobilosti (technical capability notice, TCN).",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "to reveal that Apple had received a “technical capability notice” (TCN), the tribunal said.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podrobnosti o ňom boli utajované a Apple pred rozhodnutím súdu nemohol verejne potvrdiť, že ho dostal.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Prior to the ruling, Apple was legally barred from disclosing the order, even after details leaked.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako uvádza 9to5Mac, súd teraz umožnil spoločnosti o príkaze hovoriť otvorenejšie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "has ruled that Apple is allowed to reveal a secret order it received from the UK government.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jadrom prípadu je funkcia Advanced Data Protection (ADP), ktorú Apple predstavil v roku 2022.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "The story centers on Apple’s introduction of the Advanced Data Protection (ADP) privacy feature back in 2022.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Po jej zapnutí sú takmer všetky dáta používateľa v iCloude chránené end-to-end šifrovaním.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "This extended end-to-end encryption to almost all your iCloud data",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dešifrovať ich môže používateľ na svojich dôveryhodných zariadeniach, nie Apple.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "ADP protects iCloud data with end-to-end encryption, which means the data can only be decrypted by the user who owns it, and only on their trusted devices.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Funkcia je vypnutá predvolene; pri jej používaní Apple zároveň nemôže pomôcť obnoviť dáta, ak používateľ zabudne heslo k účtu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "The feature is off by default because it means Apple cannot help you access any of your data if, for example, you forget your iCloud password.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Britská vláda podľa správ z roku 2025 požadovala, aby Apple vytvoril spôsob, ktorým by bezpečnostné zložky získali prístup k šifrovaným údajom.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The ruling comes a year after the U.K. government reportedly demanded that Apple build a backdoor to allow U.K. authorities access to customer data anywhere in the world.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pôvodná požiadavka sa mala týkať dát zákazníkov kdekoľvek na svete.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "demanded that Apple build a backdoor to allow U.K. authorities access to customer data anywhere in the world.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TechCrunch píše, že príkaz bol neskôr zúžený na údaje britských občanov uložené v šifrovanom cloude Apple.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The U.K.’s secret order was later narrowed to allow access to British nationals’ data stored in Apple’s encrypted cloud",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť napadla aj túto upravenú požiadavku.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "and Apple also challenged this second order.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Apple príkazu nevyhovel.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "California-based Apple refused the order",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Namiesto toho v Spojenom kráľovstve prestal novým používateľom umožňovať zapnúť ADP.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "blocked U.K. users from switching on its Advanced Data Protection data-encryption feature for iCloud",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Firma zároveň oznámila, že existujúci používatelia v krajine budú musieť funkciu časom vypnúť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "current UK users will eventually need to disable this security feature.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Uviedla, že nikdy nevytvorila zadné vrátka ani univerzálny kľúč pre svoje produkty a služby a ani to neplánuje.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "we have never built a backdoor or master key to any of our products or services and we never will.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "O príkaze sa už pred súdnym rozhodnutím písalo v médiách po úniku jeho podrobností.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Details of the so-called “technical capabilities notice,” which are issued under strict non-disclosure rules, leaked to the media",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kritizovali ho aj predstavitelia Bieleho domu a americkí zákonodarcovia, podľa ktorých by požiadavka mohla ohroziť súkromie ľudí v USA.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "drew ire from White House officials and U.S. lawmakers who criticized the effort, arguing that the U.K. order would put Americans’ privacy at risk.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Príkaz pritom zostával utajený aj napriek tomu, že sa o ňom verejne diskutovalo.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "despite the fact that everyone in the security and privacy field knew about it and was talking about it, Apple was still not allowed to officially confirm it.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rozhodnutie súdu podľa TechCrunch odmietlo tvrdenie ministerstva vnútra, že potvrdenie existencie príkazu by poškodilo národnú bezpečnosť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The tribunal’s ruling rejected the Home Office’s claim that disclosing the order would be damaging to national security.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Skupina Liberty International, ktorá podala právnu námietku v mene dvoch ľudí, označila prípad za prvý známy prípad, keď vláda bola nútená potvrdiť existenciu takéhoto tajného príkazu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Rights group Liberty International, which brought the legal challenge on behalf of two individuals, said that this is the first known time that the government has been compelled to confirm the existence of a secret technical order.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rozhodnutie však samo osebe požiadavku na prístup k dátam neruší.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "To be clear, the actual requirement for a backdoor remains in place",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako upozorňuje 9to5Mac, tá zostáva predmetom napadnutia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "but this can now be challenged in open court.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "O tom, ktoré konkrétne detaily príkazu možno zverejniť, má rozhodnúť ďalšie pojednávanie, ktoré sa podľa TechCrunch očakáva v budúcom roku.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "A final hearing on what specific order details can be released is anticipated next year.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pre používateľov iPhonov v EÚ je prípad relevantný ako spor o hranice medzi šifrovaním služieb a požiadavkami štátnych orgánov; zdroje však neuvádzajú zmenu dostupnosti ADP mimo Spojeného kráľovstva.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The U.K.’s secret order was later narrowed to allow access to British nationals’ data stored in Apple’s encrypted cloud",
+        "komentar": "Zdroje neuvádzajú zmenu dostupnosti ADP mimo UK, čo koncept správne konštatuje.",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "iCloudu",
+        "kontext": "nemu sporu o prístup k šifrovaným dátam iCloudu. Britské ministerstvo vnútra však podľa",
+        "navrhy": [
+          "iCloud"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "technical",
+        "kontext": "né oznámenie o technickej spôsobilosti (technical capability notice, TCN). Podrobnosti o ",
+        "navrhy": [
+          "Lechnica",
+          "Technics",
+          "technici"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "capability",
+        "kontext": "ie o technickej spôsobilosti (technical capability notice, TCN). Podrobnosti o ňom boli ut",
+        "navrhy": [
+          "lability",
+          "stability",
+          "variability"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "notice",
+        "kontext": "ckej spôsobilosti (technical capability notice, TCN). Podrobnosti o ňom boli utajované",
+        "navrhy": [
+          "nosiče",
+          "noticke",
+          "nôtime"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iCloude",
+        "kontext": "enejšie.\n\n## Spor sa týka ochrany dát v iCloude\n\nJadrom prípadu je funkcia Advanced Dat",
+        "navrhy": [
+          "iCloud"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iCloude",
+        "kontext": "utí sú takmer všetky dáta používateľa v iCloude chránené end-to-end šifrovaním. Dešifro",
+        "navrhy": [
+          "iCloud"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "end-to-end",
+        "kontext": "tky dáta používateľa v iCloude chránené end-to-end šifrovaním. Dešifrovať ich môže používa",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "predvolene",
+        "kontext": "adeniach, nie Apple. Funkcia je vypnutá predvolene; pri jej používaní Apple zároveň nemôže",
+        "navrhy": [
+          "predvolené",
+          "predvolané",
+          "predvolebne"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cloude",
+        "kontext": " britských občanov uložené v šifrovanom cloude Apple. Spoločnosť napadla aj túto uprav",
+        "navrhy": [
+          "clou de"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iPhonov",
+        "kontext": "čakáva v budúcom roku. Pre používateľov iPhonov v EÚ je prípad relevantný ako spor o hr",
+        "navrhy": [
+          "Iónov",
+          "honov",
+          "iónov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ateľov iPhonov v EÚ je prípad relevantný ako spor o hranice medzi šifrovaním služieb",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Apple_iPhone.jpg/1280px-Apple_iPhone.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2025/03/Apple-standing-up-for-Advanced-Data-Protection-is-way-more-important-than-it-seems.jpg?quality=82&strip=all&w=800",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "UK court rules Apple can share the top secret order everyone already knew | Eyes peering out of the darkness",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/b9db61d5cef3fec85352bf3d7768d06ff353055f7b4b968a103f9fba4b451a1a?s=96&d=mm&r=r",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Ben Lovejoy",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2021/08/icloud-pattern-with-key-red.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "An illustration of a key over a cloud icon, background of cloud and lock icons. (Image: Bryce Durbin/TechCrunch)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/1099c2a5bc8d3b9d36c58466359702654ca1d0824999adb24660b78d8e685d76?s=96&d=identicon&r=g",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Zack Whittaker",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Apple iPhone",
+      "Apple data center",
+      "UK court building"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Apple_iPhone.jpg/1280px-Apple_iPhone.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Apple_iPhone.jpg/1280px-Apple_iPhone.jpg",
+        "nazov": "Apple iPhone.jpg",
+        "autor": "Pangkakit at Japanese Wikipedia",
+        "licencia": "CC BY 2.5",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.5",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Apple_iPhone.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Apple iPhone"
+      },
+      {
+        "url": "https://live.staticflickr.com/3257/2565317822_b7e0dbd720.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/7a2260af-0d40-4b95-a276-9a7cfdcd6cb3/thumb/",
+        "nazov": "APPLE/IPHONE",
+        "autor": "James Mitchell",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/19916528@N00/2565317822",
+        "povod": "openverse",
+        "dopyt": "Apple iPhone"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/September_14_2001.jpg/1280px-September_14_2001.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/September_14_2001.jpg/1280px-September_14_2001.jpg",
+        "nazov": "September 14 2001.jpg",
+        "autor": "Journalist 1st Class Preston Keres",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:September_14_2001.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Apple data center"
+      },
+      {
+        "url": "https://live.staticflickr.com/2799/4205240466_2e6d9c3378_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/5cadeb4d-50b5-4467-8183-a911938ee716/thumb/",
+        "nazov": "Apple Desktop Bus Mouse",
+        "autor": "raneko",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/24926669@N07/4205240466",
+        "povod": "openverse",
+        "dopyt": "Apple data center"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/British_Museum_Great_Court%2C_London%2C_UK_-_Diliff.jpg/1280px-British_Museum_Great_Court%2C_London%2C_UK_-_Diliff.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/British_Museum_Great_Court%2C_London%2C_UK_-_Diliff.jpg/1280px-British_Museum_Great_Court%2C_London%2C_UK_-_Diliff.jpg",
+        "nazov": "British Museum Great Court, London, UK - Diliff.jpg",
+        "autor": "Diliff",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:British_Museum_Great_Court,_London,_UK_-_Diliff.jpg",
+        "povod": "wikimedia",
+        "dopyt": "UK court building"
+      },
+      {
+        "url": "https://live.staticflickr.com/3052/3112348985_82607bddf1_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/1cec7d09-e912-49cf-a6d2-a04176dea031/thumb/",
+        "nazov": "Nuffield College",
+        "autor": "SBA73",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/7455207@N05/3112348985",
+        "povod": "openverse",
+        "dopyt": "UK court building"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Apple_iPad_11_gen._%26_Apple_iPhone_16_%28still_in_a_box%29_%282025-12-02%29.jpg/1280px-Apple_iPad_11_gen._%26_Apple_iPhone_16_%28still_in_a_box%29_%282025-12-02%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Apple_iPad_11_gen._%26_Apple_iPhone_16_%28still_in_a_box%29_%282025-12-02%29.jpg/1280px-Apple_iPad_11_gen._%26_Apple_iPhone_16_%28still_in_a_box%29_%282025-12-02%29.jpg",
+        "nazov": "Apple iPad 11 gen. & Apple iPhone 16 (still in a box) (2025-12-02).jpg",
+        "autor": "Olgierd Rudak",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Apple_iPad_11_gen._%26_Apple_iPhone_16_(still_in_a_box)_(2025-12-02).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Apple iPhone"
+      },
+      {
+        "url": "https://live.staticflickr.com/5452/7081464339_0390f4629e_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/5c3d990d-657e-43db-bfff-e863b87f9614/thumb/",
+        "nazov": "Apple iPhone 5 mock-up",
+        "autor": "DavidMartynHunt",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/35395389@N00/7081464339",
+        "povod": "openverse",
+        "dopyt": "Apple iPhone"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic illustration of an encrypted cloud behind a partially opened courtroom door, with abstract keys and balanced scales, using a restrained palette and no text, logos, or real people."
+  },
+  "prompt_ilustracie": "Create a symbolic illustration of an encrypted cloud behind a partially opened courtroom door, with abstract keys and balanced scales, using a restrained palette and no text, logos, or real people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/ac452482d68927fad032d5f5e2bcbaf0",
+  "text_agentov": {
+    "titulok": "Britský súd umožnil zverejniť existenciu tajného príkazu pre Apple",
+    "perex": "Rozhodnutie otvára cestu k verejnejšiemu súdnemu sporu o prístup k šifrovaným dátam iCloudu. Britské ministerstvo vnútra však podľa dostupných správ existenciu príkazu zatiaľ samo nepotvrdilo.",
+    "telo": "Britský Investigatory Powers Tribunal rozhodol, že utajenie príkazu, ktorý vláda vydala spoločnosti Apple v súvislosti s prístupom k šifrovaným dátam zákazníkov, nemožno odôvodniť obavami o národnú bezpečnosť. Rozhodnutie umožňuje, aby sa podstatná časť právneho sporu o príkaze presunula na verejnosť. Samotné ministerstvo vnútra však podľa portálu TechCrunch v čase zverejnenia správy ešte existenciu príkazu nepotvrdilo.\n\nIde o takzvané oznámenie o technickej spôsobilosti (technical capability notice, TCN). Podrobnosti o ňom boli utajované a Apple pred rozhodnutím súdu nemohol verejne potvrdiť, že ho dostal. Ako uvádza 9to5Mac, súd teraz umožnil spoločnosti o príkaze hovoriť otvorenejšie.\n\n## Spor sa týka ochrany dát v iCloude\n\nJadrom prípadu je funkcia Advanced Data Protection (ADP), ktorú Apple predstavil v roku 2022. Po jej zapnutí sú takmer všetky dáta používateľa v iCloude chránené end-to-end šifrovaním. Dešifrovať ich môže používateľ na svojich dôveryhodných zariadeniach, nie Apple. Funkcia je vypnutá predvolene; pri jej používaní Apple zároveň nemôže pomôcť obnoviť dáta, ak používateľ zabudne heslo k účtu.\n\nBritská vláda podľa správ z roku 2025 požadovala, aby Apple vytvoril spôsob, ktorým by bezpečnostné zložky získali prístup k šifrovaným údajom. Pôvodná požiadavka sa mala týkať dát zákazníkov kdekoľvek na svete. TechCrunch píše, že príkaz bol neskôr zúžený na údaje britských občanov uložené v šifrovanom cloude Apple. Spoločnosť napadla aj túto upravenú požiadavku.\n\n## Apple obmedzil funkciu pre britských používateľov\n\nApple príkazu nevyhovel. Namiesto toho v Spojenom kráľovstve prestal novým používateľom umožňovať zapnúť ADP. Firma zároveň oznámila, že existujúci používatelia v krajine budú musieť funkciu časom vypnúť. Uviedla, že nikdy nevytvorila zadné vrátka ani univerzálny kľúč pre svoje produkty a služby a ani to neplánuje.\n\nO príkaze sa už pred súdnym rozhodnutím písalo v médiách po úniku jeho podrobností. Kritizovali ho aj predstavitelia Bieleho domu a americkí zákonodarcovia, podľa ktorých by požiadavka mohla ohroziť súkromie ľudí v USA. Príkaz pritom zostával utajený aj napriek tomu, že sa o ňom verejne diskutovalo.\n\n## Ďalšie podrobnosti sú ešte predmetom sporu\n\nRozhodnutie súdu podľa TechCrunch odmietlo tvrdenie ministerstva vnútra, že potvrdenie existencie príkazu by poškodilo národnú bezpečnosť. Skupina Liberty International, ktorá podala právnu námietku v mene dvoch ľudí, označila prípad za prvý známy prípad, keď vláda bola nútená potvrdiť existenciu takéhoto tajného príkazu.\n\nRozhodnutie však samo osebe požiadavku na prístup k dátam neruší. Ako upozorňuje 9to5Mac, tá zostáva predmetom napadnutia. O tom, ktoré konkrétne detaily príkazu možno zverejniť, má rozhodnúť ďalšie pojednávanie, ktoré sa podľa TechCrunch očakáva v budúcom roku. Pre používateľov iPhonov v EÚ je prípad relevantný ako spor o hranice medzi šifrovaním služieb a požiadavkami štátnych orgánov; zdroje však neuvádzajú zmenu dostupnosti ADP mimo Spojeného kráľovstva."
+  }
+}
