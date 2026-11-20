@@ -7,7 +7,7 @@ tagy:
   - IPO
   - umelá inteligencia
   - dátové centrá
-publikovane: 2026-11-20T04:25:04+00:00
+publikovane: 2026-11-20T14:17:54Z
 obrazok:
   src: /obrazky/anthropic-vstupila-na-burzu-jej-akcie-pocas-prveho-dna-prudko-kolisali-mwp2cxhy.webp
   alt: Ilustračný obrázok.
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Wired: Anthropic’s Record-Breaking IPO Highlights the AI Giant’s Worst Enemy—Itself"
     url: https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/
