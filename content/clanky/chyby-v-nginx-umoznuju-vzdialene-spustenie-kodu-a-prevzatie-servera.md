@@ -6,7 +6,7 @@ tagy:
   - NGINX
   - HTTP/2
   - kybernetická bezpečnosť
-publikovane: 2026-11-20T04:25:21+00:00
+publikovane: 2026-11-20T14:21:51Z
 obrazok:
   src: /obrazky/chyby-v-nginx-umoznuju-vzdialene-spustenie-kodu-a-prevzatie-servera-mwp2i291.webp
   alt: Ilustračný obrázok.
@@ -18,6 +18,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "BleepingComputer: Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers"
     url: https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/
