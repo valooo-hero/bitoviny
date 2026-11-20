@@ -1,0 +1,462 @@
+{
+  "slug": "microsoft-ukonci-aplikaciu-to-do-v-juni-2027",
+  "datum_sprav": "2026-11-19",
+  "dovod_vyberu": "Zrušenie Microsoft To Do ovplyvní mnoho používateľov, ktorí hľadajú alternatívy, a je to dôležitá zmena v produktovom portfóliu Microsoftu.",
+  "poznamky_pre_editora": "Vypustila som nepodložené tvrdenie, že pre používateľov na Slovensku platia rovnaké oznámené termíny a obmedzenia, keďže zdroje osobitné podmienky pre Slovensko neuvádzajú.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojoch. Najvážnejším problémom nie je žiadna chyba, ale možno drobné štylistické zjednodušenia, ktoré však nemenia význam.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 28,
+        "potvrdenych": 27,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 27,
+        "potvrdenych": 27,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Microsoft ukončí aplikácie To Do pre Windows, Mac, iOS, Android aj web 30. júna 2027.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "the To Do apps are retiring on June 30, 2027",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pre používateľov pracovných a školských účtov odporúča ako náhradu Planner",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "For work or school accounts, Microsoft Planner will be the destination for managing personal work tasks alongside assigned work.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "niektoré funkcie To Do v ňom chýbajú",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The problem is that Planner doesn't do everything To Do does.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Súkromné účty Microsoftu vrátane predplatiteľov Microsoft 365 Personal a Family Planner nepodporuje",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Planner isn't available to them, including Microsoft 365 Personal and Family subscribers.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "oznámenie súvisí s plánom Microsoftu zjednotiť správu úloh a plánov v Microsoft 365",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The confirmation came in an announcement about unified tasks and plans for Copilot and Microsoft 365.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Firma chce vytvoriť spoločné prostredie pre jednotlivcov, tímy aj organizácie",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The idea is \"a single system for tracking your work as an individual, as a team, and as an organization.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "sprístupniť Planner cez Copilot, Cowork a Autopilot",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "This unified platform makes accessing Planner through Copilot, Cowork and Autopilot easier.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "To Do sa do tejto budúcnosti dostane len prostredníctvom niektorých svojich funkcií, nie ako samostatná aplikácia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "To Do contributes features to that future, but its apps don't get to join it.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Existujúce úlohy a zoznamy To Do sa do Planneru neprenesú.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Existing To Do tasks and lists won't migrate to Planner either.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Používatelia ich však budú môcť v Planneri zobrazovať do 30. júna 2027.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "They'll remain accessible through Planner until June 30, 2027",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft podľa The Register uvádza, že tento dátum sám osebe neznamená vymazanie dát.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Microsoft says the date does not itself trigger deletion of the underlying data.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Portál 9to5Mac zároveň píše, že samotná služba a synchronizácia skončia až neskôr; presný termín neuvádza.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "The underlying service and sync support will retire later, according to Microsoft’s support document.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft plánuje ponúknuť možnosť exportu pred ukončením aplikácií.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Microsoft plans to offer an export option before the apps retire.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podrobné pokyny zatiaľ podľa The Register ešte neboli zverejnené.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Export instructions are still to come",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Export navyše nemusí byť vo formáte, ktorý dokáže bez ďalších úprav načítať iná aplikácia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "exporting won't necessarily produce something another app can import.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pre pracovné a školské účty sa nové prostredie „My tasks“ začne podľa Microsoftu postupne sprístupňovať v decembri 2026.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "The updated My tasks experience begins rolling out in December 2026.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Planner zatiaľ nie je úplnou náhradou. Podľa The Register nepodporuje prílohy pri úlohách v súkromnom pláne",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "file attachments aren't supported on tasks in the Planner private plan",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "nemá zodpovedajúcu funkciu skupín zoznamov, akú ponúka To Do",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "there's no equivalent to To Do list groups in Planner.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft zatiaľ neplánuje ani náhradu za tlač a posielanie zoznamov e-mailom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Equivalent To Do printing and email-list capabilities are not currently planned for the replacement experience",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na Macu bude Planner dostupný cez web alebo Teams.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "On the Mac, you can use Planner on the web or in Teams.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft podľa 9to5Mac neplánuje samostatnú natívnu aplikáciu pre Mac.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Microsoft explicitly says it has no plans for a native Mac app.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Aj to je rozdiel oproti To Do, ktoré má aplikácie pre viacero platforiem.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Microsoft is saying goodbye to its task management service To Do, including the Mac and iOS apps.",
+        "komentar": "Zdroj potvrdzuje, že To Do má aplikácie pre viacero platforiem, vrátane Mac a iOS.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Planner nie je dostupný pre osobné účty Microsoftu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Personal Microsoft account holders are left in an even worse state: Planner isn't available to them",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "To sa týka aj predplatiteľov Microsoft 365 Personal a Family, takže samotné platené predplatné im prechod na Planner neumožní.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "including Microsoft 365 Personal and Family subscribers.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft im odporúča zvoliť inú aplikáciu na správu úloh a pripraviť sa na export dát.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Microsoft's advice is to choose another task-management app and prepare to export their data.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft kúpil spoločnosť stojacu za Wunderlistom v roku 2015",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Microsoft bought the company behind Wunderlist in 2015",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "prvú ukážkovú verziu To Do pre iPhone vydal v apríli 2017",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "released the first iPhone preview of To Do in April 2017.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ov pracovných a školských účtov odporúča ako náhradu Planner, no upozorňuje, že niek",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „že“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "\nAko",
+        "kontext": "kže si budú musieť nájsť inú aplikáciu.\n\nAko uvádza The Register, oznámenie súvisí s",
+        "navrhy": [
+          ", Ako"
+        ],
+        "dovod": "Dajte čiarku pred „že“: \", Ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "dníctvom niektorých svojich funkcií, nie ako samostatná aplikácia.\n\n## Úlohy sa nepr",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „že“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "tasks",
+        "kontext": "é a školské účty sa nové prostredie „My tasks“ začne podľa Microsoftu postupne spríst",
+        "navrhy": [
+          "TASS",
+          "tasáš",
+          "tasíš"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Camera_zoom_burst_on_a_Microsoft_computer_keyboard_in_Tuntorp_8.jpg/1280px-Camera_zoom_burst_on_a_Microsoft_computer_keyboard_in_Tuntorp_8.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://image.theregister.com/?imageId=223152&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/microsoft-to-do.webp?w=800",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/af01c840dac8281fd5f1986a8504e54222700437fa19c3083e578c1ddf6386a6?s=96&d=mm&r=r",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Zac Hall",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Microsoft To Do",
+      "Microsoft Planner",
+      "task list app"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Camera_zoom_burst_on_a_Microsoft_computer_keyboard_in_Tuntorp_8.jpg/1280px-Camera_zoom_burst_on_a_Microsoft_computer_keyboard_in_Tuntorp_8.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Camera_zoom_burst_on_a_Microsoft_computer_keyboard_in_Tuntorp_8.jpg/1280px-Camera_zoom_burst_on_a_Microsoft_computer_keyboard_in_Tuntorp_8.jpg",
+        "nazov": "Camera zoom burst on a Microsoft computer keyboard in Tuntorp 8.jpg",
+        "autor": "W.carter",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Camera_zoom_burst_on_a_Microsoft_computer_keyboard_in_Tuntorp_8.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft To Do"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Softwarepaket_Microsoft_MS-DOS_5.0.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/cfee413e-b7b2-423a-98b4-c8e14bcba64c/thumb/",
+        "nazov": "File:Softwarepaket Microsoft MS-DOS 5.0.jpg",
+        "autor": "Thiemo Schuff",
+        "licencia": "BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=15968575",
+        "povod": "openverse",
+        "dopyt": "Microsoft To Do"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/MS_Planner%28home-page%29_Screenshot_2026%28rus-vrs%29.png/1280px-MS_Planner%28home-page%29_Screenshot_2026%28rus-vrs%29.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/MS_Planner%28home-page%29_Screenshot_2026%28rus-vrs%29.png/1280px-MS_Planner%28home-page%29_Screenshot_2026%28rus-vrs%29.png",
+        "nazov": "MS Planner(home-page) Screenshot 2026(rus-vrs).png",
+        "autor": "Корпорация Майкрософт",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:MS_Planner(home-page)_Screenshot_2026(rus-vrs).png",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft Planner"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Arcticons-black_microsoft_planner.svg",
+        "nahlad": "https://api.openverse.org/v1/images/5d27229c-b599-4dce-a05e-c4e78df50dd5/thumb/",
+        "nazov": "Arcticons-black microsoft planner",
+        "autor": "Arcticons Team",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=157226717",
+        "povod": "openverse",
+        "dopyt": "Microsoft Planner"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Tamatem_app_screenshot_task_list.png",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Tamatem_app_screenshot_task_list.png",
+        "nazov": "Tamatem app screenshot task list.png",
+        "autor": "abd3lraouf, LLC",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Tamatem_app_screenshot_task_list.png",
+        "povod": "wikimedia",
+        "dopyt": "task list app"
+      },
+      {
+        "url": "https://live.staticflickr.com/2767/4385013603_761fe44cf1_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/be30f4c9-8c5e-42f9-9a1a-47f2d1bbb7f4/thumb/",
+        "nazov": "Remember the Milk",
+        "autor": "Johan Larsson",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/38305415@N00/4385013603",
+        "povod": "openverse",
+        "dopyt": "task list app"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Praia_do_Ribeiro_do_Cavalo2.jpg/1280px-Praia_do_Ribeiro_do_Cavalo2.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Praia_do_Ribeiro_do_Cavalo2.jpg/1280px-Praia_do_Ribeiro_do_Cavalo2.jpg",
+        "nazov": "Praia do Ribeiro do Cavalo2.jpg",
+        "autor": "The Cosmonaut",
+        "licencia": "CC BY-SA 2.5 ca",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.5/ca/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Praia_do_Ribeiro_do_Cavalo2.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft To Do"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Installation_floppy_disks_%283.5-inch%29_for_Microsoft_MS-DOS_6.22.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/7f39258a-4a58-4f5c-a6b6-de24f27984e7/thumb/",
+        "nazov": "Installation floppy disks (3.5-inch) for Microsoft MS-DOS 6.22",
+        "autor": "Blake Patterson from Alexandria, VA, USA",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=128247456",
+        "povod": "openverse",
+        "dopyt": "Microsoft To Do"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a familiar task checklist being folded into a larger planning board, with no logos, text, or realistic product interface."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a familiar task checklist being folded into a larger planning board, with no logos, text, or realistic product interface.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/611adfcf258151e38c6b001f44d4d806",
+  "text_agentov": {
+    "titulok": "Microsoft ukončí aplikáciu To Do v júni 2027",
+    "perex": "Používatelia pracovných účtov majú prejsť na Planner, no ten zatiaľ neponúka všetky funkcie To Do. Súkromné účty Microsoftu v ňom podporované nie sú a úlohy ani zoznamy sa automaticky neprenesú.",
+    "telo": "Microsoft ukončí aplikácie To Do pre Windows, Mac, iOS, Android aj web 30. júna 2027. Pre používateľov pracovných a školských účtov odporúča ako náhradu Planner, no upozorňuje, že niektoré funkcie To Do v ňom chýbajú. Súkromné účty Microsoftu vrátane predplatiteľov Microsoft 365 Personal a Family Planner nepodporuje, takže si budú musieť nájsť inú aplikáciu.\n\nAko uvádza The Register, oznámenie súvisí s plánom Microsoftu zjednotiť správu úloh a plánov v Microsoft 365. Firma chce vytvoriť spoločné prostredie pre jednotlivcov, tímy aj organizácie a sprístupniť Planner cez Copilot, Cowork a Autopilot. To Do sa do tejto budúcnosti dostane len prostredníctvom niektorých svojich funkcií, nie ako samostatná aplikácia.\n\n## Úlohy sa nepresunú automaticky\n\nExistujúce úlohy a zoznamy To Do sa do Planneru neprenesú. Používatelia ich však budú môcť v Planneri zobrazovať do 30. júna 2027. Microsoft podľa The Register uvádza, že tento dátum sám osebe neznamená vymazanie dát. Portál 9to5Mac zároveň píše, že samotná služba a synchronizácia skončia až neskôr; presný termín neuvádza.\n\nMicrosoft plánuje ponúknuť možnosť exportu pred ukončením aplikácií. Podrobné pokyny zatiaľ podľa The Register ešte neboli zverejnené. Export navyše nemusí byť vo formáte, ktorý dokáže bez ďalších úprav načítať iná aplikácia.\n\n## Planner zatiaľ nemá všetky funkcie\n\nPre pracovné a školské účty sa nové prostredie „My tasks“ začne podľa Microsoftu postupne sprístupňovať v decembri 2026. Planner však zatiaľ nie je úplnou náhradou. Podľa The Register nepodporuje prílohy pri úlohách v súkromnom pláne a nemá zodpovedajúcu funkciu skupín zoznamov, akú ponúka To Do. Microsoft zatiaľ neplánuje ani náhradu za tlač a posielanie zoznamov e-mailom.\n\nNa Macu bude Planner dostupný cez web alebo Teams. Microsoft podľa 9to5Mac neplánuje samostatnú natívnu aplikáciu pre Mac. Aj to je rozdiel oproti To Do, ktoré má aplikácie pre viacero platforiem.\n\n## Súkromní používatelia musia hľadať inde\n\nPlanner nie je dostupný pre osobné účty Microsoftu. To sa týka aj predplatiteľov Microsoft 365 Personal a Family, takže samotné platené predplatné im prechod na Planner neumožní. Microsoft im odporúča zvoliť inú aplikáciu na správu úloh a pripraviť sa na export dát.\n\nKoniec To Do uzatvára príbeh služby nadväzujúcej na Wunderlist. Microsoft kúpil spoločnosť stojacu za Wunderlistom v roku 2015 a prvú ukážkovú verziu To Do pre iPhone vydal v apríli 2017, uvádza 9to5Mac."
+  }
+}
