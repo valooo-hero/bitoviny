@@ -8,7 +8,7 @@ tagy:
   - šifrovanie
   - Spojené kráľovstvo
   - súkromie
-publikovane: 2026-11-20T04:25:09+00:00
+publikovane: 2026-11-20T14:19:26Z
 obrazok:
   src: /obrazky/britsky-sud-umoznil-zverejnit-existenciu-tajneho-prikazu-pre-apple-mwp2exde.jpg
   alt: Apple iPhone
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "9to5Mac: UK court rules Apple can share the top secret order everyone already knew"
     url: https://9to5mac.com/2026/11/19/uk-court-rules-apple-can-share-the-top-secret-order-everyone-already-knew/
