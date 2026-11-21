@@ -3,26 +3,27 @@ title: OpenAI testuje Dots aj s používateľmi ChatGPT Plus
 perex: Osobní AI agenti sa dostávajú k malej skupine predplatiteľov Plus a k všetkým zákazníkom Business Standard. OpenAI zatiaľ neuviedla, aké limity budú pre tieto plány platiť.
 sekcia: ai
 tagy:
-- OpenAI
-- ChatGPT
-- Dots
-- AI agenti
-publikovane: '2026-11-21T04:16:22+00:00'
+  - OpenAI
+  - ChatGPT
+  - Dots
+  - AI agenti
+publikovane: 2026-11-21T04:16:22+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/openai-testuje-dots-aj-s-pouzivatelmi-chatgpt-plus-mwqeyv2x.jpg
+  alt: Dots by OpenAI
+  popisok: Dots by OpenAI
+  kredit: OpenAI
+  licencia: tlacovy material
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: '9to5Mac: OpenAI begins testing dots with ChatGPT Plus users, expands Business access'
-  url: https://9to5mac.com/2026/11/19/openai-begins-testing-dots-with-chatgpt-plus-users-expands-business-access/
-- nazov: 'Engadget: OpenAI is testing Dots personal agents on its $20 per month Plus tier'
-  url: https://www.engadget.com/2322656/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier/
+  - nazov: "9to5Mac: OpenAI begins testing dots with ChatGPT Plus users, expands Business access"
+    url: https://9to5mac.com/2026/11/19/openai-begins-testing-dots-with-chatgpt-plus-users-expands-business-access/
+  - nazov: "Engadget: OpenAI is testing Dots personal agents on its $20 per month Plus tier"
+    url: https://www.engadget.com/2322656/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier/
 ---
 
 OpenAI rozširuje prístup k svojim proaktívnym AI agentom Dots. Funkciu začína testovať s malou skupinou predplatiteľov ChatGPT Plus a zároveň ju sprístupňuje všetkým používateľom plánu ChatGPT Business Standard. O rozšírení informoval Thibault „Tibo“ Sottiaux, ktorý v OpenAI vedie inžinierske tímy pre Codex a ChatGPT.
