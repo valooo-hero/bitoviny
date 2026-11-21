@@ -1,0 +1,471 @@
+{
+  "slug": "matematik-anthropic-tvrdi-ze-s-claudom-dokazal-riemannovu-hypotezu",
+  "datum_sprav": "2026-11-20",
+  "dovod_vyberu": "Vyriešenie Riemannovej hypotézy, jedného z najväčších otvorených problémov matematiky, by malo zásadný dosah na vedu aj technológie.",
+  "poznamky_pre_editora": "Overiť aktuálny stav odbornej kontroly Alpögeho dôkazu a presný rozsah nezávislej kontroly Lean zápisu. Zdroje sa líšia v tom, či je dôkaz nezávisle overený: The Verge píše, že zatiaľ nie, kým aktualizovaný TechCrunch uvádza úspešnú kompiláciu nezávislými matematikmi. V texte sa tieto tvrdenia odlišujú od všeobecného prijatia dôkazu. Výsledok Masulla je samostatný a týka sa zovšeobecnenej hypotézy.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je veľmi spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojoch a sú presne interpretované. Najvážnejším problémom je len drobná nepresnosť pri citácii Masullovho výroku, ktorá však nemení význam.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 24,
+        "potvrdenych": 24,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Levent Alpöge zverejnil dôkaz zapísaný v jazyku Lean.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Alpöge's solution, presented in Lean, has only been published on his website",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nezávislí matematici potvrdili, že sa dá skompilovať.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Several participants in the Zulip chat, including MIT mathematician Andrew Sutherland, say they have successfully confirmed that Alpöge’s solution can be compiled successfully.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jeho správnosť ani prijatie odbornou komunitou však zatiaľ nie sú uzavreté.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Alpöge’s solution has yet to be verified independently.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Matematik Levent Alpöge, zamestnanec spoločnosti Anthropic, tvrdí, že s pomocou jej modelu Claude našiel dôkaz Riemannovej hypotézy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis... with the help of Claude",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ide o jeden z najznámejších nevyriešených problémov matematiky, ktorý siaha do roku 1859.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "First proposed in 1859, the Riemann hypothesis concerns the distribution of prime numbers",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Riemannova hypotéza sa týka rozdelenia prvočísel a vlastností núl funkcie zeta.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "the Riemann hypothesis concerns the distribution of prime numbers and how zeroes of a function are involved",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako vysvetľuje Clay Mathematics Institute, hypotéza hovorí, že všetky jej „zaujímavé“ riešenia ležia na určitej zvislej priamke.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The Riemann hypothesis asserts that all interesting solutions of the equation ζ(s) = 0 lie on a certain vertical straight line",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výsledok by podľa inštitútu pomohol objasniť viaceré záhady týkajúce sa rozloženia prvočísel.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "A proof that it is true for every interesting solution would shed light on many of the mysteries surrounding the distribution of prime numbers.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Alpöge vo svojom texte uvádza, že metóda by sa dala rozšíriť aj na zovšeobecnenú Riemannovu hypotézu a neskôr možno na jej rozšírenú verziu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Anthropic podľa The Verge oznámil, že na probléme pracoval s Claudom už v auguste, vtedy však neočakával, že použité techniky povedú k dôkazu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Anthropic said it was working on the Riemann Hypothesis with Claude in August, but noted at the time: “We don’t expect that the techniques Claude used will lead to proving the Riemann hypothesis.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Lean je programovací jazyk určený na zápis matematických dôkazov v podobe, ktorú možno formálne overovať.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Lean is an an open-source coding language used to express mathematical ideas as code, allowing proofs to be formally verified.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Portál TechCrunch po aktualizácii článku uviedol, že matematici vrátane Andrewa Sutherlanda z MIT úspešne skompilovali Alpögeho dôkaz.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Several participants in the Zulip chat, including MIT mathematician Andrew Sutherland, say they have successfully confirmed that Alpöge’s solution can be compiled successfully.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Niekoľko účastníkov odbornej diskusie preto vyjadrilo dôveru, že formalizovaný zápis obstojí.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "most appear confident that the formalized Lean result will hold.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Verge však v čase svojho článku napísal, že riešenie zatiaľ nebolo nezávisle overené.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Alpöge’s solution has yet to be verified independently.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TechCrunch zároveň upozorňuje, že odborníci ešte potrebujú čas, aby argumentu porozumeli a dokázali ho vysvetliť v ľudskej, čitateľnej podobe.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "we’ll have to wait for humans to be able to understand the result and explain it to each other",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Alpöge prisľúbil, že sa o to bude usilovať.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "something Alpöge has committed to pursue.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Riemannova hypotéza patrí medzi sedem problémov Millennium Prize.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "The Riemann hypothesis is one of seven Millennium Prize problems",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Clay Mathematics Institute ponúka za vyriešenie každého z nich milión dolárov, no podľa pravidiel musí byť dôkaz publikovaný a najmenej dva roky podrobený odbornej kontrole.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "offers a $1 million bounty for each problem solved. Under the institute’s rules, a proposed solution must be published and withstand at least two years of scrutiny",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zároveň musí získať všeobecné prijatie matematickou komunitou.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "it must have “received general acceptance in the global mathematics community.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zatiaľ bol oficiálne vyriešený iba jeden z týchto problémov, Poincarého domnienka.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "only one problem has been officially solved: The Poincaré conjecture",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Súbežne sa objavil aj odlišný matematický výsledok: stanfordský profesor Ravi Vakil zverejnil dôkaz zovšeobecnenej Riemannovej hypotézy, ktorý pripravil postdoktorand Alessandro Masullo bez AI.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Ravi Vakil, a Stanford professor and the president of the American Mathematics Association, posted a proof of the General Riemann hypothesis written by Stanford postdoc Alessandro Masullo, noting that “it is all human, with no AI.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Masullo uviedol, že na ňom pracoval dvanásť rokov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Masullo wrote that “if any message at all this work is meant to send... it is this: we are still here. We are very much alive. We are not going anywhere.”",
+        "komentar": "TechCrunch uvádza, že Masullo povedal, že je to výsledok 12 rokov práce, ale citát v zdroji to neobsahuje priamo; koncept to tvrdí správne.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Keďže tento zápis nebol vyjadrený v Lean, jeho správnosť je podľa TechCrunch takisto priskoro hodnotiť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Without being expressed in Lean, it is too early to say whether the proof checks out",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "OpenAI v septembri tvrdilo, že dosiahlo riešenie problému Navierových–Stokesových rovníc; výsledok zatiaľ nemá formálne uznanie a sprevádzali ho spory o výskumné postupy, ktoré firma odmietla.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "In September, OpenAI claimed to have cracked another, the Navier-Stokes problem... The result is widely considered credible, though it has yet to receive formal recognition. But the achievement has been marred by allegations of questionable research practices... OpenAI has strongly denied wrongdoing",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "alebo že je",
+        "opravene": "alebo, že je",
+        "dovod": "LanguageTool: Dajte čiarku pred „že“: \", že\".",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "LanguageTool"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "tvrdí",
+        "kontext": "e jeho argument úplne pochopený.\n\n## Čo tvrdí nový dôkaz\n\nRiemannova hypotéza sa týka",
+        "navrhy": [
+          "tvrdý"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (tvrdí) \"tvrdý\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "skompilovali",
+        "kontext": "átane Andrewa Sutherlanda z MIT úspešne skompilovali Alpögeho dôkaz. Niekoľko účastníkov odb",
+        "navrhy": [
+          "kompilovali",
+          "skompilovaní",
+          "s kompilovali"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "stanfordský",
+        "kontext": "bjavil aj odlišný matematický výsledok: stanfordský profesor Ravi Vakil zverejnil dôkaz zov",
+        "navrhy": [
+          "Stankovsky",
+          "Stankovský",
+          "staroruský"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "postdoktorand",
+        "kontext": "j Riemannovej hypotézy, ktorý pripravil postdoktorand Alessandro Masullo bez AI. Masullo uvie",
+        "navrhy": [
+          "post doktorand"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "Navierových–Stokesových",
+        "kontext": " tvrdilo, že dosiahlo riešenie problému Navierových–Stokesových rovníc; výsledok zatiaľ nemá formálne u",
+        "navrhy": [
+          "Navierových – Stokesových",
+          "Navierových-Stokesových"
+        ],
+        "dovod": "Pomlčka sa oddeľuje medzerami. Pridajte medzery (\"Navierových – Stokesových\") alebo ju nahraďte spojovníkom (\"Navierovýc"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "nemá",
+        "kontext": "ých–Stokesových rovníc; výsledok zatiaľ nemá formálne uznanie a sprevádzali ho spory",
+        "navrhy": [
+          "nemé"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (nemá) \"nemé\""
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -5 +5 @@\n-Matematik Levent Alpöge, zamestnanec spoločnosti Anthropic, tvrdí, že s pomocou jej modelu Claude našiel dôkaz Riemannovej hypotézy. Ide o jeden z najznámejších nevyriešených problémov matematiky, ktorý siaha do roku 1859. Alpöge zverejnil dôkaz v jazyku Lean; nezávislí matematici podľa portálu TechCrunch potvrdili, že sa dá skompilovať. To však ešte neznamená, že ho odborná komunita prijala alebo že je jeho argument úplne pochopený.\n+Matematik Levent Alpöge, zamestnanec spoločnosti Anthropic, tvrdí, že s pomocou jej modelu Claude našiel dôkaz Riemannovej hypotézy. Ide o jeden z najznámejších nevyriešených problémov matematiky, ktorý siaha do roku 1859. Alpöge zverejnil dôkaz v jazyku Lean; nezávislí matematici podľa portálu TechCrunch potvrdili, že sa dá skompilovať. To však ešte neznamená, že ho odborná komunita prijala alebo, že je jeho argument úplne pochopený."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Claude_AI_website_screenshot.webp/1280px-Claude_AI_website_screenshot.webp",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2022/08/GettyImages-1219382595.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Image of math equations written on a blackboard.",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/02/TIm.jpg?w=150",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Tim Fernholz",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/FpyrzhxuSBtv2GwT3GsT95-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2305894185.jpg?quality=90&strip=all&crop=0,10.732984293194,100,78.534031413613",
+        "zdroj_clanku": "The Verge",
+        "alt": "Anthropic Makes Trading Debut With IPO At Nasdaq Stock Exchange",
+        "popisok": "Anthropic went public on November 19th, 2026. | Photo: Getty Images",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "Claude AI",
+      "server rack",
+      "chalkboard equations"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Claude_AI_website_screenshot.webp/1280px-Claude_AI_website_screenshot.webp",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Claude_AI_website_screenshot.webp/1280px-Claude_AI_website_screenshot.webp",
+        "nazov": "Claude AI website screenshot.webp",
+        "autor": "Software: Anthropic PBC Screenshot: VulcanSphere",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Claude_AI_website_screenshot.webp",
+        "povod": "wikimedia",
+        "dopyt": "Claude AI"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Claude_AI_symbol.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "nahlad": "https://api.openverse.org/v1/images/e6473ad3-a1af-41ff-a581-9fd42658369a/thumb/",
+        "nazov": "Claude AI symbol",
+        "autor": "Claude Logo Symbol",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=164296390",
+        "povod": "openverse",
+        "dopyt": "Claude AI"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Example_absolute_value.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/0/06/Example_absolute_value.jpg",
+        "nazov": "Example absolute value.jpg",
+        "autor": "Manuelzapata04",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Example_absolute_value.jpg",
+        "povod": "wikimedia",
+        "dopyt": "chalkboard equations"
+      },
+      {
+        "url": "https://live.staticflickr.com/125/359634390_e3d534e04b_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/468a046a-44ad-4aa2-b4c8-63e1159fc1ed/thumb/",
+        "nazov": "The Grand Challenge Equations: San Diego Supercomputer Center",
+        "autor": "dullhunk",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/14829735@N00/359634390",
+        "povod": "openverse",
+        "dopyt": "chalkboard equations"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Claude_chatbot_example_screenshot_%28LV%29.webp/1280px-Claude_chatbot_example_screenshot_%28LV%29.webp",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Claude_chatbot_example_screenshot_%28LV%29.webp/1280px-Claude_chatbot_example_screenshot_%28LV%29.webp",
+        "nazov": "Claude chatbot example screenshot (LV).webp",
+        "autor": "Claude Opus 4, Anthropic PBC",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Claude_chatbot_example_screenshot_(LV).webp",
+        "povod": "wikimedia",
+        "dopyt": "Claude AI"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/54585378881_c3af946154_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/1b4c3563-541c-4177-8ebc-85099a09f728/thumb/",
+        "nazov": "Claude AI by Anthropic",
+        "autor": "RyanDonegan",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/203061726@N08/54585378881",
+        "povod": "openverse",
+        "dopyt": "Claude AI"
+      }
+    ],
+    "prompt_ilustracie": "Create an abstract illustration of a winding prime-number pattern converging toward a precise vertical line, with subtle geometric code-like forms suggesting machine-assisted mathematics, no people, logos, or text."
+  },
+  "prompt_ilustracie": "Create an abstract illustration of a winding prime-number pattern converging toward a precise vertical line, with subtle geometric code-like forms suggesting machine-assisted mathematics, no people, logos, or text.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/c80434775cf3700d0c84947cf29d405a",
+  "text_agentov": {
+    "titulok": "Matematik Anthropic tvrdí, že s Claudom dokázal Riemannovu hypotézu",
+    "perex": "Levent Alpöge zverejnil dôkaz zapísaný v jazyku Lean. Nezávislí matematici potvrdili, že sa dá skompilovať, jeho správnosť ani prijatie odbornou komunitou však zatiaľ nie sú uzavreté.",
+    "telo": "Matematik Levent Alpöge, zamestnanec spoločnosti Anthropic, tvrdí, že s pomocou jej modelu Claude našiel dôkaz Riemannovej hypotézy. Ide o jeden z najznámejších nevyriešených problémov matematiky, ktorý siaha do roku 1859. Alpöge zverejnil dôkaz v jazyku Lean; nezávislí matematici podľa portálu TechCrunch potvrdili, že sa dá skompilovať. To však ešte neznamená, že ho odborná komunita prijala alebo, že je jeho argument úplne pochopený.\n\n## Čo tvrdí nový dôkaz\n\nRiemannova hypotéza sa týka rozdelenia prvočísel a vlastností núl funkcie zeta. Ako vysvetľuje Clay Mathematics Institute, hypotéza hovorí, že všetky jej „zaujímavé“ riešenia ležia na určitej zvislej priamke. Výsledok by podľa inštitútu pomohol objasniť viaceré záhady týkajúce sa rozloženia prvočísel.\n\nAlpöge vo svojom texte uvádza, že metóda by sa dala rozšíriť aj na zovšeobecnenú Riemannovu hypotézu a neskôr možno na jej rozšírenú verziu. Ide o jeho tvrdenie, nie o potvrdený výsledok. Anthropic podľa The Verge oznámil, že na probléme pracoval s Claudom už v auguste, vtedy však neočakával, že použité techniky povedú k dôkazu.\n\n## Zápis v Lean ešte neuzatvára spor\n\nLean je programovací jazyk určený na zápis matematických dôkazov v podobe, ktorú možno formálne overovať. Portál TechCrunch po aktualizácii článku uviedol, že matematici vrátane Andrewa Sutherlanda z MIT úspešne skompilovali Alpögeho dôkaz. Niekoľko účastníkov odbornej diskusie preto vyjadrilo dôveru, že formalizovaný zápis obstojí.\n\nThe Verge však v čase svojho článku napísal, že riešenie zatiaľ nebolo nezávisle overené. Tieto informácie sa nemusia vylučovať: úspešná kompilácia je kontrolou formalizovaného zápisu, nie potvrdením, že matematická komunita dôkaz preskúmala a všeobecne prijala. TechCrunch zároveň upozorňuje, že odborníci ešte potrebujú čas, aby argumentu porozumeli a dokázali ho vysvetliť v ľudskej, čitateľnej podobe. Alpöge prisľúbil, že sa o to bude usilovať.\n\n## Cena vyžaduje dlhšie uznanie\n\nRiemannova hypotéza patrí medzi sedem problémov Millennium Prize. Clay Mathematics Institute ponúka za vyriešenie každého z nich milión dolárov, no podľa pravidiel musí byť dôkaz publikovaný a najmenej dva roky podrobený odbornej kontrole. Zároveň musí získať všeobecné prijatie matematickou komunitou. Zatiaľ bol oficiálne vyriešený iba jeden z týchto problémov, Poincarého domnienka.\n\nSúbežne sa objavil aj odlišný matematický výsledok: stanfordský profesor Ravi Vakil zverejnil dôkaz zovšeobecnenej Riemannovej hypotézy, ktorý pripravil postdoktorand Alessandro Masullo bez AI. Masullo uviedol, že na ňom pracoval dvanásť rokov. Keďže tento zápis nebol vyjadrený v Lean, jeho správnosť je podľa TechCrunch takisto priskoro hodnotiť. Nejde teda o nezávislé potvrdenie Alpögeho dôkazu.\n\nPrípad nadväzuje na nedávne pokusy zapojiť AI do veľkých matematických problémov. OpenAI v septembri tvrdilo, že dosiahlo riešenie problému Navierových–Stokesových rovníc; výsledok zatiaľ nemá formálne uznanie a sprevádzali ho spory o výskumné postupy, ktoré firma odmietla. Nové tvrdenie tak otvára otázku, ako hodnotiť dôkazy vytvorené s pomocou AI — no rozhodujúce bude až ich dôkladné preskúmanie matematikmi."
+  }
+}
