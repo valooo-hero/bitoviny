@@ -8,7 +8,7 @@ tagy:
   - Riemannova hypotéza
   - matematika
   - Lean
-publikovane: 2026-11-21T04:16:11+00:00
+publikovane: 2026-11-21T13:03:28Z
 obrazok:
   src: /obrazky/matematik-anthropic-tvrdi-ze-s-claudom-dokazal-riemannovu-hypotezu-mwqf52qr.webp
   alt: Ilustračný obrázok.
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Verge: Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude"
     url: https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem
