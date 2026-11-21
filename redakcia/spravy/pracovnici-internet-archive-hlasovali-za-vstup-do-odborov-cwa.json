@@ -1,0 +1,504 @@
+{
+  "slug": "pracovnici-internet-archive-hlasovali-za-vstup-do-odborov-cwa",
+  "datum_sprav": "2026-11-20",
+  "dovod_vyberu": "Unionizácia pracovníkov Internet Archive je dôležitá správa o pracovných podmienkach v technologickom sektore.",
+  "poznamky_pre_editora": "Overiť aktuálny stav uznania odborov a konania pred NLRB: WIRED píše, že hlasovanie pred úradom by nasledovalo až pri odmietnutí uznania, kým Engadget tvrdí, že pracovníci už žiadosť oň podali. Obe správy uvádzajú výsledok v prospech odborov, ale odlišne opisujú ďalší proces.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojoch a správne zachytáva aj rozdiel medzi WIRED a Engadgetom v otázke podania žiadosti o hlasovanie pred NLRB. Najvážnejším problémom nie je žiadna faktická chyba, ale len drobné formulačné nepresnosti, ktoré však nemenia význam.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 26,
+        "potvrdenych": 26,
+        "chyb": 0,
+        "upozorneni": 1
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "WIRED píše, že zamestnanci na dobrovoľné uznanie čakajú a hlasovanie pred NLRB by nasledovalo až v prípade, že ho Kahle odmietne.",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „they are currently awaiting voluntary recognition of the union from Internet Archive founder Brewster Kahle. If Kahle does not grant voluntary recognition, empl“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Pracovníci neziskovej organizácie Internet Archive hlasovali za vstup do odborov Communications Workers of America (CWA).",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Staffers at the Internet Archive, the nonprofit “digital library” that runs the Wayback Machine, are voting to join the Communications Workers of America (CWA).",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa portálu WIRED hlasovalo za združenie viac ako 80 zo 124 oprávnených zamestnancov v USA.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "More than 80 of the 124 eligible US staffers voted in favor of unionizing",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zakladateľ Brewster Kahle ho zatiaľ formálne neuznal, takže ďalší postup nie je istý.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "they are currently awaiting voluntary recognition of the union from Internet Archive founder Brewster Kahle.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Organizácia prevádzkuje okrem iného Wayback Machine, ktorý uchováva staršie verzie webových stránok.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "the nonprofit “digital library” that runs the Wayback Machine",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zamestnanci žiadajú, aby Kahle odbory uznal dobrovoľne a začal s nimi rokovať.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "they are currently awaiting voluntary recognition of the union from Internet Archive founder Brewster Kahle.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kahle na žiadosť WIRED o vyjadrenie bezprostredne nereagoval.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Kahle did not immediately respond to WIRED’s request for comment.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ak zamestnávateľ odbory neuzná, pracovníci môžu o ich potvrdení hlasovať v procese vedenom americkým Národným úradom pre pracovné vzťahy (NLRB).",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "If Kahle does not grant voluntary recognition, employees will vote whether to certify the union in a process run by the National Labor Relations Board.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "WIRED píše, že zamestnanci na dobrovoľné uznanie čakajú a hlasovanie pred NLRB by nasledovalo až v prípade, že ho Kahle odmietne.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "they are currently awaiting voluntary recognition of the union from Internet Archive founder Brewster Kahle. If Kahle does not grant voluntary recognition, employees will vote whether to certify the union in a process run by the National Labor Relations Board.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Engadget uvádza, že pracovníci už žiadosť o takéto hlasovanie podali ako záložný postup.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "As a backup, they've filed for a National Labor Relations Board (NLRB) election.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Isté je, že podľa oboch správ sa zamestnanci obrátili na Kahleho so žiadosťou o dobrovoľné uznanie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "they are currently awaiting voluntary recognition of the union from Internet Archive founder Brewster Kahle.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroje tiež uvádzajú výsledok hlasovania v prospech odborov, no nedávajú zhodnú informáciu o tom, či už beží proces pred NLRB.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "More than 80 of the 124 eligible US staffers voted in favor of unionizing, and they are currently awaiting voluntary recognition of the union",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Medzi hlavné požiadavky patria zvýšenie miezd, dodatočné benefity dostupné naprieč organizáciou a jasnejšie možnosti rozvíjať zručnosti či postupovať na vyššie pozície.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "among the union’s core goals are securing wage increases and additional benefits, and ensuring that these benefits are consistently available to employees across the company.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Danielle Leard, technická pracovníčka digitalizácie mikrofiší, pre WIRED uviedla, že odbory chcú, aby sa podmienky v organizácii viac zhodovali s potrebami a hodnotami jej zamestnancov.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Microfiche digitization technician Danielle Leard tells WIRED that the union is “very optimistic” that Kahle will voluntarily recognize it and come to the bargaining table.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Internet Archive zamestnáva ľudí z rozličných profesií: knihovníkov, inžinierov, odborníkov na fyzické médiá aj pracovníkov zodpovedných za prevádzku budovy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "employs a highly diverse set of workers, including librarians, engineers, physical media specialists, and facility coordinators who maintain the archive’s building",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rozmanitosť pracovných úloh podľa Leard sťažovala organizovanie, ktoré sa začalo vo februári 2025.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Leard says that the staff’s diversity has made the organizing process, which began in February 2025, “a unique challenge,”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Will Howes, inžinier Internet Archive, však tvrdí, že zamestnancov spája podpora poslania organizácie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Will Howes, an Internet Archive engineer, says that the organizing process has demonstrated how “aligned” employees are in their passion for Kahle’s goals.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Internet Archive založil Kahle v roku 1996 s cieľom sprístupňovať poznanie.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The Internet Archive ... was founded by Kahle in 1996. Kahle’s mission was to provide “Universal Access to All Knowledge.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Organizácia uvádza, že archivovala viac ako bilión webových stránok.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "the Internet Archive—which claims to have archived more than 1 trillion web pages",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Odborová iniciatíva má podľa pracovníkov pomôcť zabezpečiť, aby organizácia aj jej zamestnanci mohli dlhodobo fungovať.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Howes says that the union wants to ensure that the 30-year-old project continues to thrive in the long term—and that its workers do too.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kampaň prichádza po tom, čo sa do CWA združili aj pracovníci Wikimedia Foundation, ktorá stojí za Wikipédiou.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The vote comes slightly more than two months after staffers at the Wikimedia Foundation, the nonprofit behind Wikipedia, voted to join CWA.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa Engadgetu sa tak stalo v septembri, po tom, čo nadácia dobrovoľné uznanie odmietla a vec dospela k hlasovaniu pred NLRB.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Wikimedia Foundation workers joined the CWA in September, but only after the foundation refused to voluntarily recognize the effort and it went to an NLRB vote.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Za odbory tam hlasovalo 158 pracovníkov a proti 14.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Wikimedia workers ultimately voted in favor by a count of 158 to 14.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Niektoré spravodajské weby začali blokovať jeho roboty, pretože sa obávajú, že archivované články by mohli slúžiť ako obchádzka pri získavaní obsahu pre systémy umelej inteligencie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "some news websites, struggling to prevent companies like OpenAI or Anthropic from harvesting their articles, have started blocking web crawlers from the Internet Archive, arguing it gives AI companies a back door to their content.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Organizácia sa v posledných rokoch stretla aj so súdnym rozhodnutím z roku 2023, podľa ktorého porušila autorské práva pri požičiavaní elektronických kníh",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "In 2023, a judge ruled that it violated copyright law by lending ebooks",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "a s kybernetickým útokom v nasledujúcom roku, ktorý na týždne vyradil Wayback Machine.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "it suffered a major cyberattack the following year that left the Wayback Machine out of commission for weeks.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Naopak, v roku 2025 ju Senát USA určil za oficiálne úložisko vládnych dokumentov.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "the US Senate designated the Internet Archive as an official US government document depository in 2025.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ortálu WIRED hlasovalo za združenie viac ako 80 zo 124 oprávnených zamestnancov v US",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ci už žiadosť o takéto hlasovanie podali ako záložný postup.\n\nIsté je, že podľa oboc",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "benefity",
+        "kontext": " či už beží proces pred NLRB.\n\n## Mzdy, benefity aj kariérny rast\n\nMedzi hlavné požiadav",
+        "navrhy": [
+          "benefičný"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "benefity",
+        "kontext": "adavky patria zvýšenie miezd, dodatočné benefity dostupné naprieč organizáciou a jasnejš",
+        "navrhy": [
+          "benefičný"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "mikrofiší",
+        "kontext": "rd, technická pracovníčka digitalizácie mikrofiší, pre WIRED uviedla, že odbory chcú, aby",
+        "navrhy": [
+          "mikrofiši",
+          "mikrofiš",
+          "mikrofiše"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": " Organizácia uvádza, že archivovala viac ako bilión webových stránok. Odborová inici",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "neziskovkami",
+        "kontext": "odobo fungovať.\n\n## Súvislosť s ďalšími neziskovkami\n\nKampaň prichádza po tom, čo sa do CWA ",
+        "navrhy": [
+          "neziskovými"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ú, že archivované články by mohli slúžiť ako obchádzka pri získavaní obsahu pre syst",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Internet_Archive_Building_-_5078390577.jpg/1280px-Internet_Archive_Building_-_5078390577.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://media.wired.com/photos/6aff42c79dcb7a65d0403601/191:100/w_1280,c_limit/Internet-Archive-Union-Business-shutterstock_1469312786.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6aff42c79dcb7a65d0403601/master/pass/Internet-Archive-Union-Business-shutterstock_1469312786.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/the-internet-archives-workers-are-unionizing/l-intro-1795212757.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/the-internet-archives-workers-are-unionizing/intro-1795212757.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Internet Archive building",
+      "server rack",
+      "union ballot box"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Internet_Archive_Building_-_5078390577.jpg/1280px-Internet_Archive_Building_-_5078390577.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Internet_Archive_Building_-_5078390577.jpg/1280px-Internet_Archive_Building_-_5078390577.jpg",
+        "nazov": "Internet Archive Building - 5078390577.jpg",
+        "autor": "Beatrice Murch",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Internet_Archive_Building_-_5078390577.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Internet Archive building"
+      },
+      {
+        "url": "https://live.staticflickr.com/4108/5078390577_5ec19bf01a_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/418f2588-527b-4987-9c12-15bfeb351d2e/thumb/",
+        "nazov": "Internet Archive Building",
+        "autor": "blmurch",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/82439748@N00/5078390577",
+        "povod": "openverse",
+        "dopyt": "Internet Archive building"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Grand_Union_Canal_at_Ballot_Box_Bridge_-_geograph.org.uk_-_6401995.jpg/1280px-Grand_Union_Canal_at_Ballot_Box_Bridge_-_geograph.org.uk_-_6401995.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Grand_Union_Canal_at_Ballot_Box_Bridge_-_geograph.org.uk_-_6401995.jpg/1280px-Grand_Union_Canal_at_Ballot_Box_Bridge_-_geograph.org.uk_-_6401995.jpg",
+        "nazov": "Grand Union Canal at Ballot Box Bridge - geograph.org.uk - 6401995.jpg",
+        "autor": "Ian S",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Grand_Union_Canal_at_Ballot_Box_Bridge_-_geograph.org.uk_-_6401995.jpg",
+        "povod": "wikimedia",
+        "dopyt": "union ballot box"
+      },
+      {
+        "url": "https://live.staticflickr.com/3867/14644744689_875c1e17f4_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/01f35879-5689-4637-81c2-566e7bd0571f/thumb/",
+        "nazov": "Conscription Poster",
+        "autor": "Archives New Zealand",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/35759981@N08/14644744689",
+        "povod": "openverse",
+        "dopyt": "union ballot box"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Christian_science_church122908_02.jpg/1280px-Christian_science_church122908_02.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Christian_science_church122908_02.jpg/1280px-Christian_science_church122908_02.jpg",
+        "nazov": "Christian science church122908 02.jpg",
+        "autor": "Girl2k",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Christian_science_church122908_02.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Internet Archive building"
+      },
+      {
+        "url": "https://live.staticflickr.com/3261/5808683757_25d74d7123_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/fcd88b77-2b3e-4831-8bc7-2918a0a4c47e/thumb/",
+        "nazov": "The Internet Archive building",
+        "autor": "mia!",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/12383598@N00/5808683757",
+        "povod": "openverse",
+        "dopyt": "Internet Archive building"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a digital archive represented by shelves of glowing webpages, with a small group of diverse workers joining hands around it, in a calm contemporary style, without text, logos, or recognizable people."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a digital archive represented by shelves of glowing webpages, with a small group of diverse workers joining hands around it, in a calm contemporary style, without text, logos, or recognizable people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/e9b2e26efdfb0d7e2be61f569d504264",
+  "text_agentov": {
+    "titulok": "Pracovníci Internet Archive hlasovali za vstup do odborov CWA",
+    "perex": "Odborovú organizáciu zatiaľ zakladateľ Brewster Kahle formálne neuznal. Zdroje sa nezhodujú v tom, či už pracovníci podali žiadosť o hlasovanie pred americkým pracovným úradom.",
+    "telo": "Pracovníci neziskovej organizácie Internet Archive hlasovali za vstup do odborov Communications Workers of America (CWA). Podľa portálu WIRED hlasovalo za združenie viac ako 80 zo 124 oprávnených zamestnancov v USA. Zakladateľ Brewster Kahle ho zatiaľ formálne neuznal, takže ďalší postup nie je istý.\n\nOrganizácia prevádzkuje okrem iného Wayback Machine, ktorý uchováva staršie verzie webových stránok. Zamestnanci žiadajú, aby Kahle odbory uznal dobrovoľne a začal s nimi rokovať. Kahle na žiadosť WIRED o vyjadrenie bezprostredne nereagoval.\n\n## Nejasný stav ďalšieho hlasovania\n\nAk zamestnávateľ odbory neuzná, pracovníci môžu o ich potvrdení hlasovať v procese vedenom americkým Národným úradom pre pracovné vzťahy (NLRB). V tomto bode sa však správy WIRED a Engadget rozchádzajú. WIRED píše, že zamestnanci na dobrovoľné uznanie čakajú a hlasovanie pred NLRB by nasledovalo až v prípade, že ho Kahle odmietne. Engadget uvádza, že pracovníci už žiadosť o takéto hlasovanie podali ako záložný postup.\n\nIsté je, že podľa oboch správ sa zamestnanci obrátili na Kahleho so žiadosťou o dobrovoľné uznanie. Zdroje tiež uvádzajú výsledok hlasovania v prospech odborov, no nedávajú zhodnú informáciu o tom, či už beží proces pred NLRB.\n\n## Mzdy, benefity aj kariérny rast\n\nMedzi hlavné požiadavky patria zvýšenie miezd, dodatočné benefity dostupné naprieč organizáciou a jasnejšie možnosti rozvíjať zručnosti či postupovať na vyššie pozície. Danielle Leard, technická pracovníčka digitalizácie mikrofiší, pre WIRED uviedla, že odbory chcú, aby sa podmienky v organizácii viac zhodovali s potrebami a hodnotami jej zamestnancov.\n\nInternet Archive zamestnáva ľudí z rozličných profesií: knihovníkov, inžinierov, odborníkov na fyzické médiá aj pracovníkov zodpovedných za prevádzku budovy. Rozmanitosť pracovných úloh podľa Leard sťažovala organizovanie, ktoré sa začalo vo februári 2025. Will Howes, inžinier Internet Archive, však tvrdí, že zamestnancov spája podpora poslania organizácie.\n\nInternet Archive založil Kahle v roku 1996 s cieľom sprístupňovať poznanie. Organizácia uvádza, že archivovala viac ako bilión webových stránok. Odborová iniciatíva má podľa pracovníkov pomôcť zabezpečiť, aby organizácia aj jej zamestnanci mohli dlhodobo fungovať.\n\n## Súvislosť s ďalšími neziskovkami\n\nKampaň prichádza po tom, čo sa do CWA združili aj pracovníci Wikimedia Foundation, ktorá stojí za Wikipédiou. Podľa Engadgetu sa tak stalo v septembri, po tom, čo nadácia dobrovoľné uznanie odmietla a vec dospela k hlasovaniu pred NLRB. Za odbory tam hlasovalo 158 pracovníkov a proti 14.\n\nInternet Archive zároveň čelí tlakom súvisiacim s používaním jeho archívu. Niektoré spravodajské weby začali blokovať jeho roboty, pretože sa obávajú, že archivované články by mohli slúžiť ako obchádzka pri získavaní obsahu pre systémy umelej inteligencie. Organizácia sa v posledných rokoch stretla aj so súdnym rozhodnutím z roku 2023, podľa ktorého porušila autorské práva pri požičiavaní elektronických kníh, a s kybernetickým útokom v nasledujúcom roku, ktorý na týždne vyradil Wayback Machine. Naopak, v roku 2025 ju Senát USA určil za oficiálne úložisko vládnych dokumentov."
+  }
+}
