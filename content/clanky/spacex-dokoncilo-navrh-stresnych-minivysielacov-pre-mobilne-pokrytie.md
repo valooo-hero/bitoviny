@@ -7,7 +7,7 @@ tagy:
   - Starlink
   - mobilné siete
   - Direct-to-Cell
-publikovane: 2026-11-21T04:16:38+00:00
+publikovane: 2026-11-21T13:02:23Z
 obrazok:
   src: /obrazky/spacex-dokoncilo-navrh-stresnych-minivysielacov-pre-mobilne-pokrytie-mwqf3psx.webp
   alt: Ilustračný obrázok.
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "TechCrunch: Elon Musk says SpaceX has a plan to eliminate cell phone dead zones"
     url: https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/
