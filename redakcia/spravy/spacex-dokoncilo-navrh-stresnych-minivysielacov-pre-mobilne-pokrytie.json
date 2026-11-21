@@ -1,0 +1,470 @@
+{
+  "slug": "spacex-dokoncilo-navrh-stresnych-minivysielacov-pre-mobilne-pokrytie",
+  "datum_sprav": "2026-11-20",
+  "dovod_vyberu": "Plán SpaceX na elimináciu mŕtvych zón mobilného signálu by mohol zásadne zmeniť konektivitu na celom svete.",
+  "poznamky_pre_editora": "Overiť presný plán výroby a či je rok 2027 potvrdený, keďže Musk povedal „myslím, že budúci rok“. Zdroj neuvádza dostupnosť v EÚ ani technické parametre zariadenia. Druhý dodaný článok Ars Technica sa týka financovania AI čipov a orbitálnych dátových centier, preto nebol použitý ako nesúvisiaci s hlavnou témou.",
+  "upozornenia": [
+    "Článok čerpá len z jedného zdroja, hoci ich bolo viac."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojoch a sú presne prenesené. Najvážnejším problémom nie je žiadna faktická chyba, ale možná interpretácia, že ide o hotový produkt, hoci zdroj hovorí o návrhu a plánoch.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 24,
+        "potvrdenych": 24,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "SpaceX dokončilo návrh malých mobilných vysielačov, ktoré by sa montovali na strechy",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "CEO Elon Musk said SpaceX has completed the design of a miniature rooftop cell tower",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Elon Musk ich predstavil ako riešenie miest, kde signál zo satelitov nedokáže preniknúť do budov, najmä cez hrubé alebo kovové strechy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "if you’re indoors, especially if you have a metal roof, that blocks the signal from space",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výrobu chce firma podľa Muska začať v roku 2027, hoci jeho vyjadrenie naznačovalo, že termín ešte nie je pevný.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "These mini cell towers are expected to go into production in 2027, Musk said",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Musk o pláne hovoril na DealBook Summite, ako uviedol portál TechCrunch.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Musk said, during an interview at the DealBook Summit this week.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "SpaceX podľa neho pracuje na sieti, ktorá by poskytovala mobilný prístup naprieč Zemou.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "We’ve got a plan that enables ubiquitous access on Earth, including via cell phone",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Satelity však nevyriešia každú situáciu: prekážkou zostávajú budovy, v ktorých môže byť príjem zo signálu z vesmíru slabý alebo nemožný.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "if you’re indoors, especially if you have a metal roof, that blocks the signal from space",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "SpaceX plánuje na budúci rok vypustiť svoju konšteláciu Direct-to-Cell V2.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "the company is launching its Direct-to-Cell V2 satellite constellation next year",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Musk tvrdí, že jej kapacita bude oproti súčasnému riešeniu 40-násobná.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "which will increase bandwidth 40-fold",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Musk zariadenie opísal ako malú bunkovú stanicu, ktorú možno umiestniť na strechu podobne ako anténu Starlinku.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "a micro cell tower thing that you just put on your roof, like a Starlink dish.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jednou z možností je podľa neho predávať základňové stanice spolu s terminálmi Starlink.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Musk said one approach would be to bundle the small cellular base stations together with Starlink terminals.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podrobnosti o ich podobe, cene ani o tom, kde by sa nasadzovali, však zatiaľ nezverejnil.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Even with this latest progress report, SpaceX appears to be still working out the details.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Prezidentka SpaceX Gwynne Shotwellová už na augustovom hovore o výsledkoch firmy uviedla, že spoločnosť nechce stavať veľké mobilné veže.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "SpaceX President Gwynne Shotwell said during the company’s August earnings call that it wouldn’t use big cell towers",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Namiesto nich plánuje malé základňové stanice s nízkou spotrebou energie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "would instead deploy small, low-power cellular base stations.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Aktuálne vyjadrenia tak potvrdzujú smer, o ktorom firma hovorila skôr, no podľa TechCrunch ešte nie je jasné, ako presne bude systém fungovať.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The idea isn’t new, but it wasn’t clear until this week how much progress SpaceX had made toward developing the hardware.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Firma sa spočiatku sústreďovala na získanie bezdrôtových frekvencií.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The company’s efforts initially focused on buying wireless spectrum",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Americká Federálna komisia pre komunikácie (FCC) jej v roku 2024 schválila pokračovanie plánov na priamu satelitnú službu pre telefóny v spolupráci s T-Mobile.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "after receiving the Federal Communications Commission’s approval in 2024 to move forward with plans to offer a direct-to-phone version of its Starlink satellite internet service, in partnership with T-Mobile.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V roku 2025 SpaceX uzavrelo dohodu s EchoStar v hodnote 17 miliárd dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "SpaceX struck a $17 billion deal with EchoStar in 2025",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tento rok sa tiež dohodlo na kúpe portfólia nízkopásmových frekvencií, ktorého hodnota sa podľa TechCrunch odhaduje na 8 miliárd dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "agreed this year to acquire a portfolio of low-band spectrum valued at $8 billion.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Musk tvrdí, že spojenie frekvencií s malými pozemnými vysielačmi má pomôcť odstrániť miesta bez mobilného signálu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Combining that wireless spectrum with mini cell towers should boost signals and end the dead zone problem, he said.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Musk odmieta, že by nový systém mal vytlačiť zavedených operátorov, ako sú AT&T alebo Verizon.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "I don’t think this means, like you know, AT&T, Verizon, or others go out of business or anything",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pripúšťa, že môžu prísť o časť príjmov",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "adding that maybe they’ll lose some revenue.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Za budúci zdroj tohto dopytu označuje najmä umelú inteligenciu a roboty, ktoré podľa neho budú potrebovať viac prenosovej kapacity než ľudia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "bandwidth will be driven primarily by superintelligence and robots, and they’re going to need a lot more bandwidth than humans.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pre zákazníkov na Slovensku a v Európskej únii zatiaľ zdroj neuvádza termín dostupnosti ani konkrétne plány nasadenia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Even with this latest progress report, SpaceX appears to be still working out the details.",
+        "komentar": "Zdroj neuvádza žiadne informácie o dostupnosti pre EÚ, čo je v súlade s tvrdením.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Oznámenie sa týka návrhu zariadenia a predpokladaného začiatku výroby; samo osebe preto nepotvrdzuje, kedy sa služba dostane k používateľom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "These mini cell towers are expected to go into production in 2027, Musk said",
+        "komentar": "Zdroj neuvádza dátum dostupnosti pre používateľov, iba začiatok výroby.",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "titulok",
+        "povodne": "strešných mini vysielačov",
+        "opravene": "strešných minivysielačov",
+        "dovod": "písanie prvej časti slova",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "titulok",
+        "text": "minivysielačov",
+        "kontext": "SpaceX dokončilo návrh strešných minivysielačov pre mobilné pokrytie",
+        "navrhy": [
+          "mini vysielačov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ytie Starlinku. Elon Musk ich predstavil ako riešenie miest, kde signál zo satelitov",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ebo v jej okolí.\n\nMusk zariadenie opísal ako malú bunkovú stanicu, ktorú možno umies",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ktorú možno umiestniť na strechu podobne ako anténu Starlinku. Jednou z možností je ",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "veže",
+        "kontext": " spoločnosť nechce stavať veľké mobilné veže. Namiesto nich plánuje malé základňové ",
+        "navrhy": [
+          "feze",
+          "ježe",
+          "kéže"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "nízkopásmových",
+        "kontext": "o rok sa tiež dohodlo na kúpe portfólia nízkopásmových frekvencií, ktorého hodnota sa podľa Te",
+        "navrhy": [
+          "nízko pásmových"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -1 +1 @@\n-# SpaceX dokončilo návrh strešných mini vysielačov pre mobilné pokrytie\n+# SpaceX dokončilo návrh strešných minivysielačov pre mobilné pokrytie"
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "povodny",
+      "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/HS7_82eXsAAa-Hx-1152x648.jpeg",
+      "poznamka": "Pravdepodobne tlačový materiál. Editor musí potvrdiť pôvod."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/HS7_82eXsAAa-Hx-1152x648.jpeg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "SpaceX",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (SpaceX): pravdepodobne tlačový materiál."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/HS7_82eXsAAa-Hx-500x500.jpeg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "SpaceX",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (SpaceX): pravdepodobne tlačový materiál."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/starlink.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Starlink",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/33559a60fd1d7a1bafca5ac95584c3073bbff7670008c1490ccc9e6c29f6ef89?s=96&d=identicon&r=g",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Kirsten Korosec",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "SpaceX Starlink station",
+      "Starlink antenna",
+      "rooftop antenna"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Starlink_10-36_Launches_from_Cape_Canaveral_Space_Force_Station_%289533843%29.jpg/1280px-Starlink_10-36_Launches_from_Cape_Canaveral_Space_Force_Station_%289533843%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Starlink_10-36_Launches_from_Cape_Canaveral_Space_Force_Station_%289533843%29.jpg/1280px-Starlink_10-36_Launches_from_Cape_Canaveral_Space_Force_Station_%289533843%29.jpg",
+        "nazov": "Starlink 10-36 Launches from Cape Canaveral Space Force Station (9533843).jpg",
+        "autor": "U.S. Space Force photo by Robert Mason",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Starlink_10-36_Launches_from_Cape_Canaveral_Space_Force_Station_(9533843).jpg",
+        "povod": "wikimedia",
+        "dopyt": "SpaceX Starlink station"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/52313050555_c70c17a288.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/2bc99d7f-320e-469a-8e94-210a3326fba1/thumb/",
+        "nazov": "Cellular Base Stations in Orbit — From 5G to Zero-G",
+        "autor": "jurvetson",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/44124348109@N01/52313050555",
+        "povod": "openverse",
+        "dopyt": "SpaceX Starlink station"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Starlink_antenna_at_St._Albans_-_BugWarp.jpg/1280px-Starlink_antenna_at_St._Albans_-_BugWarp.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Starlink_antenna_at_St._Albans_-_BugWarp.jpg/1280px-Starlink_antenna_at_St._Albans_-_BugWarp.jpg",
+        "nazov": "Starlink antenna at St. Albans - BugWarp.jpg",
+        "autor": "BugWarp",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Starlink_antenna_at_St._Albans_-_BugWarp.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Starlink antenna"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Starlink_antenna_on_the_ground.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "nahlad": "https://api.openverse.org/v1/images/451427ed-ccbc-4df7-8eff-a97464e03c63/thumb/",
+        "nazov": "Starlink antenna on the ground",
+        "autor": "Odapresste",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=193382936",
+        "povod": "openverse",
+        "dopyt": "Starlink antenna"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/%D0%92%D0%BE%D0%B9%D0%B1%D0%BE%D0%BA%D0%B0%D0%BB%D0%BE_%28%D0%BF%D0%BE%D1%81%D1%91%D0%BB%D0%BE%D0%BA_%D0%BF%D1%80%D0%B8_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8%29%2C_%D0%B0%D0%BD%D1%82%D0%B5%D0%BD%D0%BD%D0%B0.jpg/1280px-%D0%92%D0%BE%D0%B9%D0%B1%D0%BE%D0%BA%D0%B0%D0%BB%D0%BE_%28%D0%BF%D0%BE%D1%81%D1%91%D0%BB%D0%BE%D0%BA_%D0%BF%D1%80%D0%B8_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8%29%2C_%D0%B0%D0%BD%D1%82%D0%B5%D0%BD%D0%BD%D0%B0.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/%D0%92%D0%BE%D0%B9%D0%B1%D0%BE%D0%BA%D0%B0%D0%BB%D0%BE_%28%D0%BF%D0%BE%D1%81%D1%91%D0%BB%D0%BE%D0%BA_%D0%BF%D1%80%D0%B8_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8%29%2C_%D0%B0%D0%BD%D1%82%D0%B5%D0%BD%D0%BD%D0%B0.jpg/1280px-%D0%92%D0%BE%D0%B9%D0%B1%D0%BE%D0%BA%D0%B0%D0%BB%D0%BE_%28%D0%BF%D0%BE%D1%81%D1%91%D0%BB%D0%BE%D0%BA_%D0%BF%D1%80%D0%B8_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8%29%2C_%D0%B0%D0%BD%D1%82%D0%B5%D0%BD%D0%BD%D0%B0.jpg",
+        "nazov": "Войбокало (посёлок при станции), антенна.jpg",
+        "autor": "Екатерина Борисова",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%BE%D0%B9%D0%B1%D0%BE%D0%BA%D0%B0%D0%BB%D0%BE_(%D0%BF%D0%BE%D1%81%D1%91%D0%BB%D0%BE%D0%BA_%D0%BF%D1%80%D0%B8_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8),_%D0%B0%D0%BD%D1%82%D0%B5%D0%BD%D0%BD%D0%B0.jpg",
+        "povod": "wikimedia",
+        "dopyt": "rooftop antenna"
+      },
+      {
+        "url": "https://live.staticflickr.com/1/334166_087ca261a3_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/928a4ffa-7af8-44fd-ab8f-bc6f00853be2/thumb/",
+        "nazov": "Rooftop Antennae",
+        "autor": "Penningtron",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/49503087439@N01/334166",
+        "povod": "openverse",
+        "dopyt": "rooftop antenna"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Starlink_10-36_Launches_from_Cape_Canaveral_Space_Force_Station_%289533842%29.jpg/1280px-Starlink_10-36_Launches_from_Cape_Canaveral_Space_Force_Station_%289533842%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Starlink_10-36_Launches_from_Cape_Canaveral_Space_Force_Station_%289533842%29.jpg/1280px-Starlink_10-36_Launches_from_Cape_Canaveral_Space_Force_Station_%289533842%29.jpg",
+        "nazov": "Starlink 10-36 Launches from Cape Canaveral Space Force Station (9533842).jpg",
+        "autor": "U.S. Space Force photo by Robert Mason",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Starlink_10-36_Launches_from_Cape_Canaveral_Space_Force_Station_(9533842).jpg",
+        "povod": "wikimedia",
+        "dopyt": "SpaceX Starlink station"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/51471848354_ceccfeeb9e_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/b0fc728f-92cb-4e9e-8f6b-bbfc99c99b80/thumb/",
+        "nazov": "2021_09_13_spacex-launch_21",
+        "autor": "Nfrastructure",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/46167543@N05/51471848354",
+        "povod": "openverse",
+        "dopyt": "SpaceX Starlink station"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic illustration of a small, unbranded rooftop cellular node bridging a building interior with a satellite signal, using clean geometric shapes and no text."
+  },
+  "prompt_ilustracie": "Create a symbolic illustration of a small, unbranded rooftop cellular node bridging a building interior with a satellite signal, using clean geometric shapes and no text.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/58fff0129e635b6a9334afe4f60a34cb",
+  "text_agentov": {
+    "titulok": "SpaceX dokončilo návrh strešných minivysielačov pre mobilné pokrytie",
+    "perex": "Elon Musk tvrdí, že malé základňové stanice majú pomôcť aj tam, kam sa signál zo satelitov Starlink nedostane cez strechy budov. Do výroby by mohli ísť v roku 2027.",
+    "telo": "SpaceX dokončilo návrh malých mobilných vysielačov, ktoré by sa montovali na strechy a doplnili satelitné pokrytie Starlinku. Elon Musk ich predstavil ako riešenie miest, kde signál zo satelitov nedokáže preniknúť do budov, najmä cez hrubé alebo kovové strechy. Výrobu chce firma podľa Muska začať v roku 2027, hoci jeho vyjadrenie naznačovalo, že termín ešte nie je pevný.\n\nMusk o pláne hovoril na DealBook Summite, ako uviedol portál TechCrunch. SpaceX podľa neho pracuje na sieti, ktorá by poskytovala mobilný prístup naprieč Zemou. Satelity však nevyriešia každú situáciu: prekážkou zostávajú budovy, v ktorých môže byť príjem zo signálu z vesmíru slabý alebo nemožný.\n\n## Satelitná sieť potrebuje pozemnú súčasť\n\nSpaceX plánuje na budúci rok vypustiť svoju konšteláciu Direct-to-Cell V2. Musk tvrdí, že jej kapacita bude oproti súčasnému riešeniu 40-násobná. Strešné zariadenia majú doplniť toto satelitné spojenie o pozemné vysielanie v miestach, kde je potrebný signál priamo v budove alebo v jej okolí.\n\nMusk zariadenie opísal ako malú bunkovú stanicu, ktorú možno umiestniť na strechu podobne ako anténu Starlinku. Jednou z možností je podľa neho predávať základňové stanice spolu s terminálmi Starlink. Podrobnosti o ich podobe, cene ani o tom, kde by sa nasadzovali, však zatiaľ nezverejnil.\n\nPrezidentka SpaceX Gwynne Shotwellová už na augustovom hovore o výsledkoch firmy uviedla, že spoločnosť nechce stavať veľké mobilné veže. Namiesto nich plánuje malé základňové stanice s nízkou spotrebou energie. Aktuálne vyjadrenia tak potvrdzujú smer, o ktorom firma hovorila skôr, no podľa TechCrunch ešte nie je jasné, ako presne bude systém fungovať.\n\n## SpaceX už získava frekvencie\n\nProjekt nadväzuje na snahu SpaceX vybudovať hybridnú sieť, ktorá spojí satelity s pozemnými mobilnými službami. Firma sa spočiatku sústreďovala na získanie bezdrôtových frekvencií. Americká Federálna komisia pre komunikácie (FCC) jej v roku 2024 schválila pokračovanie plánov na priamu satelitnú službu pre telefóny v spolupráci s T-Mobile.\n\nV roku 2025 SpaceX uzavrelo dohodu s EchoStar v hodnote 17 miliárd dolárov. Tento rok sa tiež dohodlo na kúpe portfólia nízkopásmových frekvencií, ktorého hodnota sa podľa TechCrunch odhaduje na 8 miliárd dolárov. Musk tvrdí, že spojenie frekvencií s malými pozemnými vysielačmi má pomôcť odstrániť miesta bez mobilného signálu.\n\n## Musk očakáva rast dopytu po dátach\n\nMusk odmieta, že by nový systém mal vytlačiť zavedených operátorov, ako sú AT&T alebo Verizon. Pripúšťa, že môžu prísť o časť príjmov, no očakáva, že celkový dopyt po dátach výrazne narastie. Za budúci zdroj tohto dopytu označuje najmä umelú inteligenciu a roboty, ktoré podľa neho budú potrebovať viac prenosovej kapacity než ľudia.\n\nPre zákazníkov na Slovensku a v Európskej únii zatiaľ zdroj neuvádza termín dostupnosti ani konkrétne plány nasadenia. Oznámenie sa týka návrhu zariadenia a predpokladaného začiatku výroby; samo osebe preto nepotvrdzuje, kedy sa služba dostane k používateľom."
+  }
+}
