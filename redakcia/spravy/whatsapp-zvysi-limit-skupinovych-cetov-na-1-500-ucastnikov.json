@@ -1,0 +1,427 @@
+{
+  "slug": "whatsapp-zvysi-limit-skupinovych-cetov-na-1-500-ucastnikov",
+  "datum_sprav": "2026-11-20",
+  "dovod_vyberu": "WhatsApp zvyšuje limit skupín na 1 500 členov, čo je praktická zmena pre mnohých používateľov v EÚ.",
+  "poznamky_pre_editora": "Vypustila som tvrdenie, že dostupnosť pre používateľov na Slovensku bude závisieť od sprístupnenia novinky na ich účte, pretože zdroje o Slovensku nehovoria.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojoch. Najvážnejším problémom je len drobná nepresnosť v perexe, kde sa spomína „nie každý používateľ zmenu uvidí hneď“, čo je v súlade so zdrojmi, ale nie je to problém.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 20,
+        "potvrdenych": 19,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 18,
+        "potvrdenych": 18,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "WhatsApp postupne zvyšuje maximálny počet účastníkov v jednej skupine z 1 024 na 1 500.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "WhatsApp is gradually rolling out an increase to its group chat limit, allowing up to 1,500 participants to join in, instead of the previous 1,024 cap.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zmena sa podľa portálov 9to5Mac a Engadget sprístupňuje v aplikáciách pre Android aj iOS, ale nasadenie prebieha postupne.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "WABetaInfo says the new participant limit will be available on both Android and iOS apps, but since the Meta-owned chat app is gradually rolling it out, some people may not be able to access it until later.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nie všetky účty preto dostanú nový limit v rovnakom čase.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "the rollout is gradual, meaning “not every account will see the higher limit immediately.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rozšírenie môže pomôcť najmä správcom veľkých skupín, napríklad pri organizovaní komunikácie v školách alebo miestnych komunitách.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "the new capacity could be very useful for administrators who handle chats for schools and local communities.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa informácií, ktoré priniesol web WABetaInfo a ktoré citujú oba zdroje, správcovia nemusia pre vyšší limit nič nastavovať.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "This means that admins do not need to take any action to unlock the higher capacity.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Existujúce skupiny sa po sprístupnení zmeny majú automaticky aktualizovať tak, aby mohli mať do 1 500 členov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "WhatsApp is automatically updating existing groups to support the new limit.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri skupine, ktorá už dosiahla pôvodný strop 1 024 účastníkov, by tak mohlo pribudnúť až 476 ďalších.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "the update lets admins add up to 476 new members to their existing groups.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Engadget aj 9to5Mac upozorňujú na postupné nasadzovanie, takže používatelia môžu novú kapacitu dostať až neskôr.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "since the Meta-owned chat app is gradually rolling it out, some people may not be able to access it until later.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroje neuvádzajú konkrétny termín, dokedy má byť zmena dostupná pre všetky účty.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "the rollout is gradual, meaning “not every account will see the higher limit immediately.”",
+        "komentar": "Oba zdroje nešpecifikujú termín, len spomínajú postupné nasadzovanie.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa 9to5Mac sa limit v roku 2016 posunul zo 100 na 256 účastníkov, neskôr stúpol na 512 a v roku 2022 na 1 024.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "jumping from 100 to 256 in 2016, then to 512 and, soon after, to 1,024 in 2022.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Teraz aplikácia pridáva ďalších 476 miest oproti doterajšiemu maximu.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "the update lets admins add up to 476 new members to their existing groups.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vyššia kapacita môže znížiť potrebu rozdeľovať jednu komunitu do viacerých skupín.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "If a community has a larger number of people, the administrator may have to create another group. The new capacity could be large enough to serve their needs.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Engadget ako možné využitie spomína školské skupiny a miestne komunity.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "the new capacity could be very useful for administrators who handle chats for schools and local communities.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroje však neuvádzajú, že by WhatsApp menil pravidlá správy skupín alebo spôsob, akým sa v nich zobrazujú správy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "WhatsApp is automatically updating existing groups to support the new limit. This means that admins do not need to take any action to unlock the higher capacity.",
+        "komentar": "Zdroje nehovoria o zmenách pravidiel správy ani zobrazovania správ.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "WhatsApp pridal možnosť pripnúť správy na dlhší čas, zdieľať stavové aktualizácie priamo v skupinách a filtrovať konverzácie podľa zmienok a odpovedí.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "the ability to pin messages indefinitely, share status updates within groups, filter conversations by mentions and replies",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Noví členovia môžu podľa zdrojov dostať aj staršiu históriu správ, ktorú im poskytnú existujúci účastníci.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "old participants within the group will now be able to share their message history with anybody new the admin adds.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Engadget osobitne upozorňuje, že zatiaľ nie je jasné, či takto veľké skupiny budú môcť od začiatku využívať hlasové „audio hangouts“.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "It's not clear if chats with 1,500 people in them can use \"audio hangouts,\" WhatsApp's Discord-like voice feature, from the start.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "WhatsApp podľa článku túto otázku bližšie nevysvetlil.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "It's not clear if chats with 1,500 people in them can use \"audio hangouts,\" WhatsApp's Discord-like voice feature, from the start.",
+        "komentar": "Engadget neuvádza žiadne vyjadrenie WhatsAppu k tejto otázke.",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "a ktoré citujú",
+        "opravene": "a, ktoré citujú",
+        "dovod": "LanguageTool: Dajte čiarku pred „ktorý“: \", ktoré\".",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "LanguageTool"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "titulok",
+        "text": "četov",
+        "kontext": "WhatsApp zvýši limit skupinových četov na 1 500 účastníkov",
+        "navrhy": [
+          "centov",
+          "cepov",
+          "cerov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "tisícpäťstovke",
+        "kontext": "re všetky účty.\n\n## Od menších skupín k tisícpäťstovke\n\nWhatsApp zvyšoval kapacitu skupín už v",
+        "navrhy": [
+          "tisíc päťstovke"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "u komunitu do viacerých skupín. Engadget ako možné využitie spomína školské skupiny ",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "četové",
+        "kontext": "ú správy.\n\n## Ďalšie nástroje pre veľké četové skupiny\n\nZmena prichádza po nedávnom ro",
+        "navrhy": [
+          "Cerove",
+          "Letove",
+          "celové"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "četov",
+        "kontext": " nedávnom rozšírení funkcií skupinových četov. WhatsApp pridal možnosť pripnúť správy",
+        "navrhy": [
+          "centov",
+          "cepov",
+          "cerov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "hangouts",
+        "kontext": "ôcť od začiatku využívať hlasové „audio hangouts“. WhatsApp podľa článku túto otázku bli",
+        "navrhy": [
+          "Gangou",
+          "Hankou",
+          "Hanou"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -11 +11 @@\n-Podľa informácií, ktoré priniesol web WABetaInfo a ktoré citujú oba zdroje, správcovia nemusia pre vyšší limit nič nastavovať. Existujúce skupiny sa po sprístupnení zmeny majú automaticky aktualizovať tak, aby mohli mať do 1 500 členov. Pri skupine, ktorá už dosiahla pôvodný strop 1 024 účastníkov, by tak mohlo pribudnúť až 476 ďalších.\n+Podľa informácií, ktoré priniesol web WABetaInfo a, ktoré citujú oba zdroje, správcovia nemusia pre vyšší limit nič nastavovať. Existujúce skupiny sa po sprístupnení zmeny majú automaticky aktualizovať tak, aby mohli mať do 1 500 členov. Pri skupine, ktorá už dosiahla pôvodný strop 1 024 účastníkov, by tak mohlo pribudnúť až 476 ďalších."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Music_group_logo_and_name_LITERASIKUSTIK.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/whatsapp-05.jpg?quality=82&strip=all&w=800",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/bb78cec603180c1a17605af3930b21e40c59b276cb679e543c98215204aaf0f1?s=96&d=mm&r=r",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Marcus Mendes",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/whatsapps-group-chats-can-now-have-up-to-1500-members/l-intro-1795174992.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/whatsapps-group-chats-can-now-have-up-to-1500-members/intro-1795174992.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "WhatsApp group chat",
+      "smartphone messaging",
+      "people using phones"
+    ],
+    "alternativy": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Music_group_logo_and_name_LITERASIKUSTIK.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/8/88/Music_group_logo_and_name_LITERASIKUSTIK.jpg",
+        "nazov": "Music group logo and name LITERASIKUSTIK.jpg",
+        "autor": "Ibrahim Kamil and Qonit Lutfi",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Music_group_logo_and_name_LITERASIKUSTIK.jpg",
+        "povod": "wikimedia",
+        "dopyt": "WhatsApp group chat"
+      },
+      {
+        "url": "https://live.staticflickr.com/8238/8523990450_e2c9e75740.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/91794a02-5551-413c-bade-b891c2433198/thumb/",
+        "nazov": "Family's whatsapp group chat",
+        "autor": "chankai",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/7985309@N07/8523990450",
+        "povod": "openverse",
+        "dopyt": "WhatsApp group chat"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Messaging_on_smartphone_%2822389367255%29.jpg/1280px-Messaging_on_smartphone_%2822389367255%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Messaging_on_smartphone_%2822389367255%29.jpg/1280px-Messaging_on_smartphone_%2822389367255%29.jpg",
+        "nazov": "Messaging on smartphone (22389367255).jpg",
+        "autor": "StockyPics",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Messaging_on_smartphone_(22389367255).jpg",
+        "povod": "wikimedia",
+        "dopyt": "smartphone messaging"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Reading_the_smartphone_messages_instead_of_the_book_%2835225380945%29.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/ba6b57a1-0446-4069-be6d-9a1023ad0ec7/thumb/",
+        "nazov": "Reading the smartphone messages instead of the book (35225380945)",
+        "autor": "Pedro Ribeiro Simões from Lisboa, Portugal",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=85144658",
+        "povod": "openverse",
+        "dopyt": "smartphone messaging"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Diverse_people_using_phones.jpeg/1280px-Diverse_people_using_phones.jpeg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Diverse_people_using_phones.jpeg/1280px-Diverse_people_using_phones.jpeg",
+        "nazov": "Diverse people using phones.jpeg",
+        "autor": "Rawpixel Ltd",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Diverse_people_using_phones.jpeg",
+        "povod": "wikimedia",
+        "dopyt": "people using phones"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Diverse_people_using_phones.jpeg",
+        "nahlad": "https://api.openverse.org/v1/images/5180549a-bc2c-4860-a465-5d83e5d9548d/thumb/",
+        "nazov": "Diverse people using phones",
+        "autor": "Rawpixel Ltd",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=76020329",
+        "povod": "openverse",
+        "dopyt": "people using phones"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/INTERNATIONAL_EDUCATORS_SUMMIT.jpg/1280px-INTERNATIONAL_EDUCATORS_SUMMIT.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/INTERNATIONAL_EDUCATORS_SUMMIT.jpg/1280px-INTERNATIONAL_EDUCATORS_SUMMIT.jpg",
+        "nazov": "INTERNATIONAL EDUCATORS SUMMIT.jpg",
+        "autor": "Bobbyfijah",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:INTERNATIONAL_EDUCATORS_SUMMIT.jpg",
+        "povod": "wikimedia",
+        "dopyt": "WhatsApp group chat"
+      },
+      {
+        "url": "https://live.staticflickr.com/601/21397030865_a779839888.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/35afc354-9273-4e80-baca-506c9501d5da/thumb/",
+        "nazov": "Whatsapp group chat.",
+        "autor": "theexploradora",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "stranka": "https://www.flickr.com/photos/130460019@N02/21397030865",
+        "povod": "openverse",
+        "dopyt": "WhatsApp group chat"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic illustration of a messaging app group expanding to hold 1,500 participants, using abstract chat bubbles and simple interface shapes, without logos or real people."
+  },
+  "prompt_ilustracie": "Create a symbolic illustration of a messaging app group expanding to hold 1,500 participants, using abstract chat bubbles and simple interface shapes, without logos or real people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/1a2f56c8532b486bfe87832674a4e7c6",
+  "text_agentov": {
+    "titulok": "WhatsApp zvýši limit skupinových četov na 1 500 účastníkov",
+    "perex": "Nový strop sa postupne sprístupňuje v aplikáciách pre Android aj iOS. Existujúce skupiny sa majú upraviť automaticky, no nie každý používateľ zmenu uvidí hneď.",
+    "telo": "WhatsApp postupne zvyšuje maximálny počet účastníkov v jednej skupine z 1 024 na 1 500. Zmena sa podľa portálov 9to5Mac a Engadget sprístupňuje v aplikáciách pre Android aj iOS, ale nasadenie prebieha postupne. Nie všetky účty preto dostanú nový limit v rovnakom čase.\n\nRozšírenie môže pomôcť najmä správcom veľkých skupín, napríklad pri organizovaní komunikácie v školách alebo miestnych komunitách.\n\n## Skupiny sa majú upraviť automaticky\n\nPodľa informácií, ktoré priniesol web WABetaInfo a, ktoré citujú oba zdroje, správcovia nemusia pre vyšší limit nič nastavovať. Existujúce skupiny sa po sprístupnení zmeny majú automaticky aktualizovať tak, aby mohli mať do 1 500 členov. Pri skupine, ktorá už dosiahla pôvodný strop 1 024 účastníkov, by tak mohlo pribudnúť až 476 ďalších.\n\nSamotné rozšírenie však neznamená, že sa limit zmení každému okamžite. Engadget aj 9to5Mac upozorňujú na postupné nasadzovanie, takže používatelia môžu novú kapacitu dostať až neskôr. Zdroje neuvádzajú konkrétny termín, dokedy má byť zmena dostupná pre všetky účty.\n\n## Od menších skupín k tisícpäťstovke\n\nWhatsApp zvyšoval kapacitu skupín už v minulosti. Podľa 9to5Mac sa limit v roku 2016 posunul zo 100 na 256 účastníkov, neskôr stúpol na 512 a v roku 2022 na 1 024. Teraz aplikácia pridáva ďalších 476 miest oproti doterajšiemu maximu.\n\nVyššia kapacita môže znížiť potrebu rozdeľovať jednu komunitu do viacerých skupín. Engadget ako možné využitie spomína školské skupiny a miestne komunity. Zdroje však neuvádzajú, že by WhatsApp menil pravidlá správy skupín alebo spôsob, akým sa v nich zobrazujú správy.\n\n## Ďalšie nástroje pre veľké četové skupiny\n\nZmena prichádza po nedávnom rozšírení funkcií skupinových četov. WhatsApp pridal možnosť pripnúť správy na dlhší čas, zdieľať stavové aktualizácie priamo v skupinách a filtrovať konverzácie podľa zmienok a odpovedí. Noví členovia môžu podľa zdrojov dostať aj staršiu históriu správ, ktorú im poskytnú existujúci účastníci.\n\nTieto nástroje môžu pomôcť s orientáciou vo väčšom množstve správ, no dostupné informácie nehovoria, či budú všetky funkcie fungovať rovnako v skupine s 1 500 členmi. Engadget osobitne upozorňuje, že zatiaľ nie je jasné, či takto veľké skupiny budú môcť od začiatku využívať hlasové „audio hangouts“. WhatsApp podľa článku túto otázku bližšie nevysvetlil."
+  }
+}
