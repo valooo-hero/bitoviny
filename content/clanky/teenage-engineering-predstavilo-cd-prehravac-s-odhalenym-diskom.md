@@ -3,26 +3,27 @@ title: Teenage Engineering predstavilo CD prehrávač s odhaleným diskom
 perex: EP/BC-1 pripomína gramofón, no prehráva kompaktné disky aj disky s MP3 súbormi. Ponúka variabilnú rýchlosť, detekciu tempa a bezdrôtové streamovanie.
 sekcia: hardver
 tagy:
-- Teenage Engineering
-- EP/BC-1
-- CD prehrávač
-- Auracast
-publikovane: '2026-11-21T04:16:34+00:00'
+  - Teenage Engineering
+  - EP/BC-1
+  - CD prehrávač
+  - Auracast
+publikovane: 2026-11-21T04:16:34+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/teenage-engineering-predstavilo-cd-prehravac-s-odhalenym-diskom-mwqf2ml8.jpg
+  alt: Teenage Engineering CD player
+  popisok: Teenage Engineering CD player
+  kredit: Teenage Engineering
+  licencia: tlacovy material
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Engadget: Teenage Engineering''s first CD player kind of looks like a turntable'
-  url: https://www.engadget.com/2323390/teenage-engineerings-first-cd-player-kind-of-looks-like-a-turntable/
-- nazov: 'The Verge: Teenage Engineering’s first CD player puts the spinning disc on display'
-  url: https://www.theverge.com/tech/1038692/teenage-engineering-ep-bc-1-cd-compact-disc-player-broadcast-series-bluetooth
+  - nazov: "Engadget: Teenage Engineering's first CD player kind of looks like a turntable"
+    url: https://www.engadget.com/2323390/teenage-engineerings-first-cd-player-kind-of-looks-like-a-turntable/
+  - nazov: "The Verge: Teenage Engineering’s first CD player puts the spinning disc on display"
+    url: https://www.theverge.com/tech/1038692/teenage-engineering-ep-bc-1-cd-compact-disc-player-broadcast-series-bluetooth
 ---
 
 Teenage Engineering predstavilo svoj prvý CD prehrávač. Model EP/BC-1 má nezvyčajný plochý dizajn, pri ktorom sa disk otáča odkrytý na vrchnej strane zariadenia, takže prístroj pripomína skôr gramofón než tradičný CD prehrávač. Firma ho označuje za prvý produkt novej série Broadcast.
