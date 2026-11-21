@@ -1,0 +1,526 @@
+{
+  "slug": "signal-predvolene-blokuje-snimky-obrazovky-aby-obmedzil-pristup-ai-k-cetom",
+  "datum_sprav": "2026-11-20",
+  "dovod_vyberu": "Signal blokuje screenshoty na iPhone, čo je dôležitý krok na ochranu súkromia používateľov pred AI agentmi.",
+  "poznamky_pre_editora": "Vypustila som záverečné tvrdenie o tom, čo je podstatné pre používateľov na Slovensku a v EÚ, pretože ho zdroje nepodkladajú.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojoch. Najvážnejším problémom nie je žiadna faktická chyba, ale možno mierne zjednodušenie pri opise ochrany na Androide, ktoré však zodpovedá zdrojom.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 30,
+        "potvrdenych": 29,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 29,
+        "potvrdenych": 29,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Signal predvolene blokuje snímky obrazovky, aby obmedzil prístup AI k četom",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Signal now blocks screenshots by default to stymie AI agents",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nová ochrana sa líši podľa zariadenia: na iPhone vypína snímky obrazovky, na Androide využíva existujúce nastavenie zabezpečenia obrazovky.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "The new settings are slightly different on iOS and Android. On iPhone, a new \"Block Siri AI\" setting is on by default. On Android, Signal uses its existing \"Screen security\" option.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Signal zároveň žiada systémové riešenie od výrobcov platforiem.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "As for Signal, it wants a standard, system-level way to block AI agents from reading apps' content.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na iPhone je zapnutá predvolene a blokuje snímky obrazovky",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Signal’s latest app update on iPhone disables a key system feature: taking screenshots.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "na Androide aplikácia využíva existujúcu funkciu zabezpečenia obrazovky, keď sa ju asistent pokúsi čítať.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "On Android, Signal uses its existing \"Screen security\" option.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Opatrenie má obmedziť prístup nástrojov ako Siri a Gemini k správam",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "The measures keep Apple's Siri AI and Google's Gemini Intelligence from snooping on your chats, at least to a degree.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "no nechráni pred všetkými spôsobmi, ktorými môžu AI agenti získať obsah.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "But that protection only goes so far.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na iPhone pribudlo v nastaveniach súkromia prepínacie tlačidlo „Block Siri AI“.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Users who want to re-enable screenshots can do so by visiting Signal’s privacy settings and turning off the new toggle that’s labeled ‘Block Siri AI.’",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa portálu 9to5Mac bráni Siri AI skenovať obsah Signalu a zároveň vypína vytváranie snímok obrazovky aj zobrazovanie obsahu v prepínači aplikácií.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Prevent Siri AI from scanning Signal content. This will also block you from taking screenshots in the app and App Switcher.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Používateľ, ktorý chce snímky opäť povoľovať, môže toto nastavenie vypnúť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Users who want to re-enable screenshots can do so by visiting Signal’s privacy settings and turning off the new toggle",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri pokuse o zachytenie obrazovky sa zobrazí upozornenie, že snímku zablokovala daná funkcia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "By default, users who update and try to take a screenshot will see a message that says: “Screenshot prevented by ‘Block Siri AI’ setting.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na Androide Signal používa svoju už existujúcu možnosť „Screen security“.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "On Android, Signal uses its existing \"Screen security\" option.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Engadget uvádza, že aplikácia ponúkne vypnutie ochrany, keď zistí, že sa AI asistent pokúša čítať obrazovku.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "On both platforms, you'll see a prompt offering to turn the protection off when it detects either a screenshot (iOS) or an AI assistant reading the screen (Android).",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Opatrenie sa tak zameriava na prístup asistenta k zobrazenému obsahu, nie na všeobecný zákaz snímok v každej situácii.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "On Android, Signal uses its existing \"Screen security\" option.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Signal upozorňuje, že asistent môže správy spracovať mimo aplikácie a poslať ich na vzdialený server, ktorý nemá pod kontrolou používateľ ani Signal.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "But the byproduct is that chats meant to be private — including encrypted ones — can end up on a remote server outside your or Signal's control.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Samotné šifrovanie konverzácie preto nemusí zabrániť tomu, aby obsah prečítal nástroj s prístupom k obrazovke.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "But the byproduct is that chats meant to be private — including encrypted ones — can end up on a remote server outside your or Signal's control.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Engadget pripomína prípad nástroja Muse od spoločnosti Meta, pri ktorom agent podľa zistení Reuters čítal správy zo Signalu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "It's also worried about third-party agents like Meta's Muse, which Reuters caught reading Signal messages via permissions granted during setup.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na Androide využil prístup k upozorneniam, na Macu oprávnenia na prístupnosť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "On Android, it read messages from notifications; on Mac, it used accessibility permissions",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Signal varuje, že takéto oprávnenia môžu poskytnúť široký prístup k zariadeniu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "which Signal warns can be exploited \"as a skeleton key.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Blokovanie snímok na jednom zariadení nezabráni AI prečítať správy na telefóne druhej osoby, ak tam ochranu vypla.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "If the other person has switched protections off, blocking screenshots on your end won't stop an AI assistant or agent from reading your messages on the other person's device.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nezastaví ani tretie strany, ktoré získajú prístup cez upozornenia alebo súbory.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "It also won't prevent third-party agents from reading notifications or digging through files.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Signal podľa Engadgetu nemá na Macu žiadnu používateľskú ochranu tohto typu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "On Mac, that leaves Signal without any user protections at all.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Signal podobný problém riešil už minulý rok pri funkcii Recall vo Windows 11, ktorá vytvárala snímky obrazovky.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "The move echoes one from last year, when Signal blocked Microsoft's Recall from snapshotting chats on Windows 11.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Terajší krok však spoločnosť považuje len za čiastočné riešenie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "But that protection only goes so far.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa Engadgetu žiada od výrobcov operačných systémov jednotný spôsob, ako aplikáciám umožniť zakázať AI agentom čítanie ich obsahu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "As for Signal, it wants a standard, system-level way to block AI agents from reading apps' content.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Signal uviedol, že o tejto možnosti rokuje s Apple a Google a výsledok zatiaľ hodnotí opatrne optimisticky.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "It says it's talking with Apple and Google and is cautiously optimistic about where that's headed.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Portál 9to5Mac zároveň upozorňuje, že Apple už používateľom umožňuje vylúčiť vybrané aplikácie z prístupu Siri AI a túto voľbu zjednodušilo v iOS 27.2.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Apple already lets you block Siri AI from accessing whichever apps you manually exclude, and that became even easier in iOS 27.2.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Signal napriek tomu zaviedol vlastný prepínač, ktorý spája ochranu pred Siri s blokovaním snímok.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "But rather than directing users to that system option, Signal seems to believe it needed to take action itself with this update.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rozsah ochrany závisí od platformy, nastavení na oboch koncoch konverzácie aj oprávnení, ktoré majú ďalšie aplikácie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "But that protection only goes so far. If the other person has switched protections off, blocking screenshots on your end won't stop an AI assistant or agent from reading your messages on the other person's device. It also won't prevent third-party agents from reading notifications or digging through files.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "titulok",
+        "text": "predvolene",
+        "kontext": "Signal predvolene blokuje snímky obrazovky, aby obmedzil ",
+        "navrhy": [
+          "predvolené",
+          "predvolané",
+          "predvolebne"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "titulok",
+        "text": "četom",
+        "kontext": "ky obrazovky, aby obmedzil prístup AI k četom",
+        "navrhy": [
+          "Peťom",
+          "celom",
+          "centom"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "predvolene",
+        "kontext": "mných konverzácií. Na iPhone je zapnutá predvolene a blokuje snímky obrazovky; na Androide",
+        "navrhy": [
+          "predvolené",
+          "predvolané",
+          "predvolebne"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": " Opatrenie má obmedziť prístup nástrojov ako Siri a Gemini k správam, no nechráni pr",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " Ako",
+        "kontext": "ktorými môžu AI agenti získať obsah.\n\n## Ako sa ochrana prejaví na iPhone a Androide",
+        "navrhy": [
+          ", Ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", Ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "security",
+        "kontext": "íva svoju už existujúcu možnosť „Screen security“. Engadget uvádza, že aplikácia ponúkne",
+        "navrhy": [
+          "Sekurity"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "blokovaním",
+        "kontext": "epínač, ktorý spája ochranu pred Siri s blokovaním snímok.\n\nRozsah ochrany závisí od platf",
+        "navrhy": [
+          "blokovacím",
+          "blokovania",
+          "blokovanie"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Signal_Messenger_downloads_between_2021-01-12_and_2021-01-14.png/1280px-Signal_Messenger_downloads_between_2021-01-12_and_2021-01-14.png",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/signal-app-icon-fi.jpg?quality=82&strip=all&w=800",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/bff64efa105c91e6f9c64ea73476006e59b7e460b60496788eec4ade77e58f72?s=96&d=mm&r=r",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Ryan Christoffel",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents/l-intro-1795205811.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/signal-now-blocks-screenshots-by-default-to-stymie-ai-agents/intro-1795205811.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Signal messenger",
+      "iPhone screenshot lock",
+      "Android lock screen"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Signal_Messenger_downloads_between_2021-01-12_and_2021-01-14.png/1280px-Signal_Messenger_downloads_between_2021-01-12_and_2021-01-14.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Signal_Messenger_downloads_between_2021-01-12_and_2021-01-14.png/1280px-Signal_Messenger_downloads_between_2021-01-12_and_2021-01-14.png",
+        "nazov": "Signal Messenger downloads between 2021-01-12 and 2021-01-14.png",
+        "autor": "Grin",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Signal_Messenger_downloads_between_2021-01-12_and_2021-01-14.png",
+        "povod": "wikimedia",
+        "dopyt": "Signal messenger"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Dutch_Screenshot_of_Signal_Messenger_on_Android.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/5b56bb5d-9e1b-45c2-a97c-4bee4c9b87de/thumb/",
+        "nazov": "Dutch Screenshot of Signal Messenger on Android",
+        "autor": "Lackpaid",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=158034730",
+        "povod": "openverse",
+        "dopyt": "Signal messenger"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/SamsungGalaxyA02.jpg/1280px-SamsungGalaxyA02.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/SamsungGalaxyA02.jpg/1280px-SamsungGalaxyA02.jpg",
+        "nazov": "SamsungGalaxyA02.jpg",
+        "autor": "Manhdeptraipro2114",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:SamsungGalaxyA02.jpg",
+        "povod": "wikimedia",
+        "dopyt": "iPhone screenshot lock"
+      },
+      {
+        "url": "https://live.staticflickr.com/4077/4872164727_5f724feae6_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/2c235062-dc3f-439c-8e09-5e191351493a/thumb/",
+        "nazov": "iPhone Lock & Home screens.",
+        "autor": "ianmunroe",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/86838704@N00/4872164727",
+        "povod": "openverse",
+        "dopyt": "iPhone screenshot lock"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Customized_Android_16_Lock_Screen.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/5/59/Customized_Android_16_Lock_Screen.jpg",
+        "nazov": "Customized Android 16 Lock Screen.jpg",
+        "autor": "கவிஸ்ரீ",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Customized_Android_16_Lock_Screen.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Android lock screen"
+      },
+      {
+        "url": "https://live.staticflickr.com/5535/10851778346_8dd0b9abe6_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c8262281-1193-486b-8686-8171c8266a0c/thumb/",
+        "nazov": "ICE information on Android lock screen",
+        "autor": "Miia Sample",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/78835633@N00/10851778346",
+        "povod": "openverse",
+        "dopyt": "Android lock screen"
+      },
+      {
+        "url": "https://live.staticflickr.com/2914/14278560021_b5677d679e_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/5937e55f-958a-40a6-8cd3-9c088f099687/thumb/",
+        "nazov": "Dennis de Bel Iphone smoke signal messenger service",
+        "autor": "Rosa Menkman",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/68716054@N00/14278560021",
+        "povod": "openverse",
+        "dopyt": "Signal messenger"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/General_Mobile_GM8_Go_phone.jpg/1280px-General_Mobile_GM8_Go_phone.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/General_Mobile_GM8_Go_phone.jpg/1280px-General_Mobile_GM8_Go_phone.jpg",
+        "nazov": "General Mobile GM8 Go phone.jpg",
+        "autor": "UnknownExplorer41",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:General_Mobile_GM8_Go_phone.jpg",
+        "povod": "wikimedia",
+        "dopyt": "iPhone screenshot lock"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic illustration of a secure messaging app interface shielded from an abstract AI eye, with a crossed-out screenshot icon, clean editorial style, no text, no logos, no realistic devices."
+  },
+  "prompt_ilustracie": "A symbolic illustration of a secure messaging app interface shielded from an abstract AI eye, with a crossed-out screenshot icon, clean editorial style, no text, no logos, no realistic devices.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/edaa373d0cb1731d661ac8e3e738af13",
+  "text_agentov": {
+    "titulok": "Signal predvolene blokuje snímky obrazovky, aby obmedzil prístup AI k četom",
+    "perex": "Nová ochrana sa líši podľa zariadenia: na iPhone vypína snímky obrazovky, na Androide využíva existujúce nastavenie zabezpečenia obrazovky. Signal zároveň žiada systémové riešenie od výrobcov platforiem.",
+    "telo": "Signal zavádza ochranu, ktorá má sťažiť AI asistentom čítanie obsahu súkromných konverzácií. Na iPhone je zapnutá predvolene a blokuje snímky obrazovky; na Androide aplikácia využíva existujúcu funkciu zabezpečenia obrazovky, keď sa ju asistent pokúsi čítať. Opatrenie má obmedziť prístup nástrojov ako Siri a Gemini k správam, no nechráni pred všetkými spôsobmi, ktorými môžu AI agenti získať obsah.\n\n## Ako sa ochrana prejaví na iPhone a Androide\n\nNa iPhone pribudlo v nastaveniach súkromia prepínacie tlačidlo „Block Siri AI“. Podľa portálu 9to5Mac bráni Siri AI skenovať obsah Signalu a zároveň vypína vytváranie snímok obrazovky aj zobrazovanie obsahu v prepínači aplikácií. Používateľ, ktorý chce snímky opäť povoľovať, môže toto nastavenie vypnúť. Pri pokuse o zachytenie obrazovky sa zobrazí upozornenie, že snímku zablokovala daná funkcia.\n\nNa Androide Signal používa svoju už existujúcu možnosť „Screen security“. Engadget uvádza, že aplikácia ponúkne vypnutie ochrany, keď zistí, že sa AI asistent pokúša čítať obrazovku. Opatrenie sa tak zameriava na prístup asistenta k zobrazenému obsahu, nie na všeobecný zákaz snímok v každej situácii.\n\n## Šifrovanie nestačí, ak obsah číta iná služba\n\nSignal upozorňuje, že asistent môže správy spracovať mimo aplikácie a poslať ich na vzdialený server, ktorý nemá pod kontrolou používateľ ani Signal. Samotné šifrovanie konverzácie preto nemusí zabrániť tomu, aby obsah prečítal nástroj s prístupom k obrazovke.\n\nObavy sa netýkajú iba asistentov priamo zabudovaných do telefónov. Engadget pripomína prípad nástroja Muse od spoločnosti Meta, pri ktorom agent podľa zistení Reuters čítal správy zo Signalu. Na Androide využil prístup k upozorneniam, na Macu oprávnenia na prístupnosť. Signal varuje, že takéto oprávnenia môžu poskytnúť široký prístup k zariadeniu.\n\n## Ochrana má hranice\n\nBlokovanie snímok na jednom zariadení nezabráni AI prečítať správy na telefóne druhej osoby, ak tam ochranu vypla. Nezastaví ani tretie strany, ktoré získajú prístup cez upozornenia alebo súbory. Signal podľa Engadgetu nemá na Macu žiadnu používateľskú ochranu tohto typu.\n\nSignal podobný problém riešil už minulý rok pri funkcii Recall vo Windows 11, ktorá vytvárala snímky obrazovky. Terajší krok však spoločnosť považuje len za čiastočné riešenie. Podľa Engadgetu žiada od výrobcov operačných systémov jednotný spôsob, ako aplikáciám umožniť zakázať AI agentom čítanie ich obsahu.\n\n## Signal chce systémové riešenie\n\nSignal uviedol, že o tejto možnosti rokuje s Apple a Google a výsledok zatiaľ hodnotí opatrne optimisticky. Portál 9to5Mac zároveň upozorňuje, že Apple už používateľom umožňuje vylúčiť vybrané aplikácie z prístupu Siri AI a túto voľbu zjednodušilo v iOS 27.2. Signal napriek tomu zaviedol vlastný prepínač, ktorý spája ochranu pred Siri s blokovaním snímok.\n\nRozsah ochrany závisí od platformy, nastavení na oboch koncoch konverzácie aj oprávnení, ktoré majú ďalšie aplikácie."
+  }
+}
