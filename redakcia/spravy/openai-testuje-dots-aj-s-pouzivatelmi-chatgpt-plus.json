@@ -1,0 +1,548 @@
+{
+  "slug": "openai-testuje-dots-aj-s-pouzivatelmi-chatgpt-plus",
+  "datum_sprav": "2026-11-20",
+  "dovod_vyberu": "OpenAI testuje osobné AI agenty Dots pre predplatiteľov Plus, čo naznačuje smer vývoja AI asistentov.",
+  "poznamky_pre_editora": "Overiť presné pomenovanie pôvodných plánov: 9to5Mac uvádza Pro, Business Premium a Enterprise, zatiaľ čo Engadget píše všeobecne „Pro a vyššie“. Zdroje nepotvrdzujú limity pre Plus a Business Standard ani to, či sa test pre Plus stane trvalým. Dostupnosť na Slovensku a miestnu cenu neuvádzajú.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojoch. Najvážnejším problémom nie je žiadna faktická chyba, ale drobné štylistické rozdiely, ktoré však nemenia význam.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 29,
+        "potvrdenych": 29,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "OpenAI testuje Dots aj s používateľmi ChatGPT Plus",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "OpenAI is now beginning to test ChatGPT dot with a small number of ChatGPT Plus subscribers.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Osobní AI agenti sa dostávajú k malej skupine predplatiteľov Plus a k všetkým zákazníkom Business Standard.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Dots are also coming to all ChatGPT Business Standard users starting today.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "OpenAI zatiaľ neuviedla, aké limity budú pre tieto plány platiť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "It’s not yet clear whether ChatGPT Plus and Business Standard users will have the same Dots usage allowances as subscribers on higher-tier plans",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Funkciu začína testovať s malou skupinou predplatiteľov ChatGPT Plus",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "OpenAI is now beginning to test ChatGPT dot with a small number of ChatGPT Plus subscribers.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "zároveň ju sprístupňuje všetkým používateľom plánu ChatGPT Business Standard",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Dots are also coming to all ChatGPT Business Standard users starting today.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "O rozšírení informoval Thibault „Tibo“ Sottiaux, ktorý v OpenAI vedie inžinierske tímy pre Codex a ChatGPT.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "OpenAI’s Thibault “Tibo” Sottiaux, who leads engineering for Codex and ChatGPT, announced that the company will start expanding dots availability",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dots boli doteraz určené pre vyššie úrovne predplatného. Podľa portálu 9to5Mac išlo o ChatGPT Pro, Business Premium a Enterprise.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Following its launch for ChatGPT Pro, Business Premium, and Enterprise users",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Engadget opisuje pôvodnú dostupnosť všeobecnejšie ako plány Pro a vyššie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "After launching the feature for higher-tier plans from ChatGP Pro and up",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nové oznámenie teda rozširuje okruh používateľov o Business Standard a časť zákazníkov Plus, no pri Plus zatiaľ nejde o plošné sprístupnenie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "the company will start expanding dots availability to Plus subscribers (though for now this will be a limited test), in addition to rolling it out to all ChatGPT Business Standard users",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "OpenAI predstavila Dots v septembri ako stále dostupných asistentov, ktorí dokážu pokračovať v úlohách aj vtedy, keď s nimi používateľ práve nekomunikuje.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "In September, OpenAI announced ChatGPT dot, an always-on, proactive assistant that can handle ongoing tasks, work across connected apps, and make progress on projects even when users aren’t actively interacting with it.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Môžu pracovať na priebežných úlohách a projektoch, využívať pripojené aplikácie",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "an always-on, proactive assistant that can handle ongoing tasks, work across connected apps, and make progress on projects even when users aren’t actively interacting with it.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "podľa Engadgetu sa dokážu pripojiť aj k počítaču používateľa",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "They can even connect to your PC, allowing them to control it on your behalf and work alongside you.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Priebeh práce možno sledovať otvorením ich virtuálneho „počítača“.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "You can check up on their progress by opening a Dot's \"computer\" at any time.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na prístup k aplikáciám využívajú ekosystém pluginov OpenAI. Spoločnosť uviedla, že Dots sa cezň môžu prepájať s viac než 4 000 aplikáciami.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Through our ecosystem of plugins, they can readily connect to over 4,000 apps",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Funkcia tak má sprostredkovať prácu naprieč službami, ktoré si používateľ pripojí; zdroje však neuvádzajú, ktoré konkrétne aplikácie budú dostupné každému používateľovi.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Through our ecosystem of plugins, they can readily connect to over 4,000 apps",
+        "komentar": "Zdroje neuvádzajú konkrétne aplikácie, takže tvrdenie o ich neuvádzaní je podporené absenciou.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri uvedení boli Dots poháňané modelom GPT-6 Astra.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Powered by GPT-6 Astra, they have their own cloud computer",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "OpenAI k nemu neskôr pridala GPT-6.1 Terra, uvádzajú oba zdroje.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "adding GPT-6.1 Terra alongside GPT-6 Astra earlier this month.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rozšírila tiež možnosti ovládania: pribudli widgety a podpora Skratiek v iOS, odpovedanie z oznámení iPhonu a komunikácia cez iMessage či RCS na Androide.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "including iOS widgets and Shortcuts integration, the ability to communicate with Dots through iMessage and RCS on Android",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podpora iMessage a RCS bola podľa 9to5Mac v beta verzii pre predplatiteľov Pro v USA.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "currently in beta for Pro subscribers in the US",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "OpenAI pridala aj vlastné pokyny, pomocou ktorých môžu používatelia určovať, ako sa má ich agent správať a odpovedať.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "OpenAI added custom instructions, allowing users to specify how their Dots should behave and respond.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Sottiaux na sieti X uviedol, že spoločnosť chce pri rozširovaní ďalej získavať spätnú väzbu.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Looking forward to the continued feedback as we expand",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spomenul tiež, že po viacerých vylepšeniach vníma viac pozitívnych reakcií na proaktivitu Dots.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "I'm recently seeing a lot more positives around how good the proactivity has been after many improvements.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri predplatiteľoch Pro a Business Premium sa rozhovory s Dots podľa 9to5Mac nezapočítavajú do bežných limitov používania ChatGPT.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "conversations with ChatGPT dots don’t count toward regular ChatGPT usage limits for Pro and Business Premium subscribers",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výnimkou sú náročnejšie úlohy, na ktoré sa vzťahujú samostatné kvóty.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "although more complex tasks are subject to separate allowances.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Práca delegovaná na ChatGPT Work alebo Codex sa zasa započítava do limitov týchto produktov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "any work delegated to ChatGPT Work or Codex counts toward the allowances for those products.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nie je jasné, či rovnaké podmienky dostanú aj používatelia Plus a Business Standard, ani či budú ich kvóty obmedzenejšie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "It’s not yet clear whether ChatGPT Plus and Business Standard users will have the same Dots usage allowances as subscribers on higher-tier plans, or whether additional restrictions will apply",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Engadget uvádza, že Plus stojí 20 dolárov mesačne",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "the cheaper $20 per month ChatGPT Plus plan.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "OpenAI zatiaľ nepotvrdila, či sa testovaný prístup stane trvalou súčasťou tohto plánu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "OpenAI has yet to say whether the upgrade will be permanent.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pre používateľov na Slovensku zdroje neuvádzajú osobitné podmienky dostupnosti ani cenu v eurách.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "To learn more about OpenAI Dots, follow this link.",
+        "komentar": "Zdroje neobsahujú žiadne informácie o Slovensku, takže tvrdenie o ich neuvádzaní je podporené absenciou.",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "na ktoré sa",
+        "opravene": "na, ktoré sa",
+        "dovod": "LanguageTool: Dajte čiarku pred „ktorý“: \", ktoré\".",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "LanguageTool"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "proaktívnym",
+        "kontext": "OpenAI rozširuje prístup k svojim proaktívnym AI agentom Dots. Funkciu začína testova",
+        "navrhy": [
+          "produktívnym",
+          "protivným",
+          "reaktívnym"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "opisuje pôvodnú dostupnosť všeobecnejšie ako plány Pro a vyššie. Nové oznámenie teda",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "nov\n\nOpenAI predstavila Dots v septembri ako stále dostupných asistentov, ktorí doká",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "stále",
+        "kontext": "OpenAI predstavila Dots v septembri ako stále dostupných asistentov, ktorí dokážu pok",
+        "navrhy": [
+          "stálych"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (stále) \"stálych\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "pluginov",
+        "kontext": "rístup k aplikáciám využívajú ekosystém pluginov OpenAI. Spoločnosť uviedla, že Dots sa ",
+        "navrhy": [
+          "plevínov",
+          "plúžikov",
+          "pľuzgirov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cezň",
+        "kontext": " OpenAI. Spoločnosť uviedla, že Dots sa cezň môžu prepájať s viac než 4 000 aplikáci",
+        "navrhy": [
+          "cez",
+          "cezeň",
+          "cezo"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "widgety",
+        "kontext": "írila tiež možnosti ovládania: pribudli widgety a podpora Skratiek v iOS, odpovedanie z",
+        "navrhy": [
+          "bidety"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iPhonu",
+        "kontext": " Skratiek v iOS, odpovedanie z oznámení iPhonu a komunikácia cez iMessage či RCS na An",
+        "navrhy": [
+          "iPhone"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "proaktivitu",
+        "kontext": "niach vníma viac pozitívnych reakcií na proaktivitu Dots.\n\n## Limity pre nové plány zatiaľ ",
+        "navrhy": [
+          "produktivitu",
+          "reaktivitu"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -23 +23 @@\n-Pri predplatiteľoch Pro a Business Premium sa rozhovory s Dots podľa 9to5Mac nezapočítavajú do bežných limitov používania ChatGPT. Výnimkou sú náročnejšie úlohy, na ktoré sa vzťahujú samostatné kvóty. Práca delegovaná na ChatGPT Work alebo Codex sa zasa započítava do limitov týchto produktov.\n+Pri predplatiteľoch Pro a Business Premium sa rozhovory s Dots podľa 9to5Mac nezapočítavajú do bežných limitov používania ChatGPT. Výnimkou sú náročnejšie úlohy, na, ktoré sa vzťahujú samostatné kvóty. Práca delegovaná na ChatGPT Work alebo Codex sa zasa započítava do limitov týchto produktov."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Ausgabe_in_ChatGPT%2C_bei_der_ein_Internetzugang_notwendig_ist.jpg/1280px-Ausgabe_in_ChatGPT%2C_bei_der_ein_Internetzugang_notwendig_ist.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/05/chatgpt-blue.webp?w=800",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/bb78cec603180c1a17605af3930b21e40c59b276cb679e543c98215204aaf0f1?s=96&d=mm&r=r",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Marcus Mendes",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier/l-intro-1795158872.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier/intro-1795158872.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "ChatGPT app",
+      "AI chatbot interface",
+      "computer screen"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Ausgabe_in_ChatGPT%2C_bei_der_ein_Internetzugang_notwendig_ist.jpg/1280px-Ausgabe_in_ChatGPT%2C_bei_der_ein_Internetzugang_notwendig_ist.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Ausgabe_in_ChatGPT%2C_bei_der_ein_Internetzugang_notwendig_ist.jpg/1280px-Ausgabe_in_ChatGPT%2C_bei_der_ein_Internetzugang_notwendig_ist.jpg",
+        "nazov": "Ausgabe in ChatGPT, bei der ein Internetzugang notwendig ist.jpg",
+        "autor": "PantheraLeo1359531",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Ausgabe_in_ChatGPT,_bei_der_ein_Internetzugang_notwendig_ist.jpg",
+        "povod": "wikimedia",
+        "dopyt": "ChatGPT app"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Smartphone_with_ChatGPT_app_and_laptop_%2852917381683%29.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c8869f7c-e334-4e40-997d-21b7e24a957c/thumb/",
+        "nazov": "Smartphone with ChatGPT app and laptop (52917381683)",
+        "autor": "Jernej Furman from Slovenia",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=134006156",
+        "povod": "openverse",
+        "dopyt": "ChatGPT app"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/SillyTavern_1.12.1_screenshot.png/1280px-SillyTavern_1.12.1_screenshot.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/SillyTavern_1.12.1_screenshot.png/1280px-SillyTavern_1.12.1_screenshot.png",
+        "nazov": "SillyTavern 1.12.1 screenshot.png",
+        "autor": "David Revoy",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:SillyTavern_1.12.1_screenshot.png",
+        "povod": "wikimedia",
+        "dopyt": "AI chatbot interface"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Lezing_WikiconNL2024_Wikipedia_en_AI_vrienden_of_vijanden%3F_Marian_Grubben%2C_Sirous_Kavehercy_en_Hay_Kranen.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/8a9fefd5-ae76-4fe2-8b4b-ad00ddbeaaac/thumb/",
+        "nazov": "Lezing WikiconNL2024 Wikipedia en AI vrienden of vijanden? Marian Grubben, Sirous Kavehercy en Hay Kranen",
+        "autor": "Marcel Hospers",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=149045687",
+        "povod": "openverse",
+        "dopyt": "AI chatbot interface"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Amiga500_system.jpg/1280px-Amiga500_system.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Amiga500_system.jpg/1280px-Amiga500_system.jpg",
+        "nazov": "Amiga500 system.jpg",
+        "autor": "Bill Bertram",
+        "licencia": "CC BY-SA 2.5",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.5",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Amiga500_system.jpg",
+        "povod": "wikimedia",
+        "dopyt": "computer screen"
+      },
+      {
+        "url": "https://live.staticflickr.com/8482/8191245592_65e5bbd144_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/e1e12a84-a47d-4946-8611-8fd583f980d9/thumb/",
+        "nazov": "Google Analytics on Computer Screen",
+        "autor": "bluefountainmedia",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/32110556@N03/8191245592",
+        "povod": "openverse",
+        "dopyt": "computer screen"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Beispiel_Werbetexte_f%C3%BCr_Mikroprozessoren_von_ChatGPT_20240709.jpg/1280px-Beispiel_Werbetexte_f%C3%BCr_Mikroprozessoren_von_ChatGPT_20240709.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Beispiel_Werbetexte_f%C3%BCr_Mikroprozessoren_von_ChatGPT_20240709.jpg/1280px-Beispiel_Werbetexte_f%C3%BCr_Mikroprozessoren_von_ChatGPT_20240709.jpg",
+        "nazov": "Beispiel Werbetexte für Mikroprozessoren von ChatGPT 20240709.jpg",
+        "autor": "PantheraLeo1359531",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Beispiel_Werbetexte_f%C3%BCr_Mikroprozessoren_von_ChatGPT_20240709.jpg",
+        "povod": "wikimedia",
+        "dopyt": "ChatGPT app"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Smartphone_with_ChatGPT_app_%2852917381673%29.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/1cfeb0a9-f73a-483d-a2b2-30c8b81c385c/thumb/",
+        "nazov": "Smartphone with ChatGPT app (52917381673)",
+        "autor": "Jernej Furman from Slovenia",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=134006158",
+        "povod": "openverse",
+        "dopyt": "ChatGPT app"
+      }
+    ],
+    "prompt_ilustracie": "Create an abstract illustration of a constellation of small glowing AI nodes coordinating tasks across connected app-like geometric windows, with no logos, people, or text."
+  },
+  "prompt_ilustracie": "Create an abstract illustration of a constellation of small glowing AI nodes coordinating tasks across connected app-like geometric windows, with no logos, people, or text.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/a3373133355acb650af6a7e13797fdf7",
+  "text_agentov": {
+    "titulok": "OpenAI testuje Dots aj s používateľmi ChatGPT Plus",
+    "perex": "Osobní AI agenti sa dostávajú k malej skupine predplatiteľov Plus a k všetkým zákazníkom Business Standard. OpenAI zatiaľ neuviedla, aké limity budú pre tieto plány platiť.",
+    "telo": "OpenAI rozširuje prístup k svojim proaktívnym AI agentom Dots. Funkciu začína testovať s malou skupinou predplatiteľov ChatGPT Plus a zároveň ju sprístupňuje všetkým používateľom plánu ChatGPT Business Standard. O rozšírení informoval Thibault „Tibo“ Sottiaux, ktorý v OpenAI vedie inžinierske tímy pre Codex a ChatGPT.\n\nDots boli doteraz určené pre vyššie úrovne predplatného. Podľa portálu 9to5Mac išlo o ChatGPT Pro, Business Premium a Enterprise. Engadget opisuje pôvodnú dostupnosť všeobecnejšie ako plány Pro a vyššie. Nové oznámenie teda rozširuje okruh používateľov o Business Standard a časť zákazníkov Plus, no pri Plus zatiaľ nejde o plošné sprístupnenie.\n\n## Asistent pracuje aj bez priebežného zadávania pokynov\n\nOpenAI predstavila Dots v septembri ako stále dostupných asistentov, ktorí dokážu pokračovať v úlohách aj vtedy, keď s nimi používateľ práve nekomunikuje. Môžu pracovať na priebežných úlohách a projektoch, využívať pripojené aplikácie a podľa Engadgetu sa dokážu pripojiť aj k počítaču používateľa. Priebeh práce možno sledovať otvorením ich virtuálneho „počítača“.\n\nNa prístup k aplikáciám využívajú ekosystém pluginov OpenAI. Spoločnosť uviedla, že Dots sa cezň môžu prepájať s viac než 4 000 aplikáciami. Funkcia tak má sprostredkovať prácu naprieč službami, ktoré si používateľ pripojí; zdroje však neuvádzajú, ktoré konkrétne aplikácie budú dostupné každému používateľovi.\n\n## Nové funkcie a modely\n\nPri uvedení boli Dots poháňané modelom GPT-6 Astra. OpenAI k nemu neskôr pridala GPT-6.1 Terra, uvádzajú oba zdroje. Rozšírila tiež možnosti ovládania: pribudli widgety a podpora Skratiek v iOS, odpovedanie z oznámení iPhonu a komunikácia cez iMessage či RCS na Androide. Podpora iMessage a RCS bola podľa 9to5Mac v beta verzii pre predplatiteľov Pro v USA.\n\nOpenAI pridala aj vlastné pokyny, pomocou ktorých môžu používatelia určovať, ako sa má ich agent správať a odpovedať. Sottiaux na sieti X uviedol, že spoločnosť chce pri rozširovaní ďalej získavať spätnú väzbu. Spomenul tiež, že po viacerých vylepšeniach vníma viac pozitívnych reakcií na proaktivitu Dots.\n\n## Limity pre nové plány zatiaľ nie sú známe\n\nPri predplatiteľoch Pro a Business Premium sa rozhovory s Dots podľa 9to5Mac nezapočítavajú do bežných limitov používania ChatGPT. Výnimkou sú náročnejšie úlohy, na, ktoré sa vzťahujú samostatné kvóty. Práca delegovaná na ChatGPT Work alebo Codex sa zasa započítava do limitov týchto produktov.\n\nNie je jasné, či rovnaké podmienky dostanú aj používatelia Plus a Business Standard, ani či budú ich kvóty obmedzenejšie. Engadget uvádza, že Plus stojí 20 dolárov mesačne, no OpenAI zatiaľ nepotvrdila, či sa testovaný prístup stane trvalou súčasťou tohto plánu. Pre používateľov na Slovensku zdroje neuvádzajú osobitné podmienky dostupnosti ani cenu v eurách."
+  }
+}
