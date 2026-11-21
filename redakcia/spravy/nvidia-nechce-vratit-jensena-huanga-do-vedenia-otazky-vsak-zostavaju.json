@@ -1,0 +1,478 @@
+{
+  "slug": "nvidia-nechce-vratit-jensena-huanga-do-vedenia-otazky-vsak-zostavaju",
+  "datum_sprav": "2026-11-20",
+  "dovod_vyberu": "Vyšetrovanie Nvidie v Kalifornii kvôli väzbám na Čínu má širšie geopolitické a obchodné dôsledky pre technologický priemysel.",
+  "poznamky_pre_editora": "Overiť aktuálny stav vyšetrovaní, žalôb a Huangovej plánovanej výpovede. WIRED uvádza, že predstavenstvo nechce Huanga obnoviť, no sprostredkúva aj správu Semaforu o podpore malej skupiny členov. Obvinenie, že Alice Huangová pôsobila pre Čínu, je nepotvrdené a čínske ministerstvo ho odmietlo. Tvrdenia o Huangovom manažérskom správaní pripísať zdrojom; jeho hovorca ich označil za výmysly.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojoch. Najvážnejším problémom je, že niektoré formulácie sú mierne voľnejšie, ale žiadne tvrdenie nie je v rozpore so zdrojmi.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 23,
+        "potvrdenych": 23,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Predstavenstvo jeho rezignáciu prijalo jednomyseľne a podľa predsedu Harveyho Jonesa ho nechce opätovne dosadiť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "chair Harvey Jones said, “The Nvidia board unanimously accepted his resignation but does not intend to reinstate Jensen Huang as CEO.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Huang odstúpil po tom, čo sa objavili správy o jeho mimomanželských vzťahoch vrátane údajného vzťahu s Alice Huangovou, ktorá podľa amerických úradov môže byť napojená na čínsku rozviedku.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "following news of former CEO Jensen Huang’s affair with a woman who the U.S. government believes is a Chinese spy.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Čínske ministerstvo zahraničných vecí toto obvinenie odmietlo.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "China’s Ministry of Foreign Affairs has rejected allegations that Alice Huang was a spy.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Samotná existencia vzťahu preto nepotvrdzuje, že žena pôsobila ako agentka.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "the board couldn’t determine in the moment whether she was an intelligence operative for China",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Členovia rady sa ho podľa týchto zdrojov pýtali na Alice Huangovú už po správach o obchodnom vzťahu Nvidie so singapurskou spoločnosťou Megaspeed, v ktorej pracovala.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "members of the board had asked Huang about Alice Huang after The New York Times first reported in October 2025 that Nvidia had an unusually robust business relationship with a Singapore-based data center company named Megaspeed",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Huang mal vtedy nevhodný vzťah poprieť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Jensen Huang at the time denied any inappropriate relationship with Alice Huang to the board",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Wired píše, že predstavenstvo považovalo problém za otázku integrity a dôvery.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "“It was a matter of integrity and trust,” this person said.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V internom stretnutí Jones uviedol, že zverejnené osobné správanie a nedostatok otvorenosti odporovali pravidlám a hodnotám firmy.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "the disclosure of personal behavior and a lack of candor inconsistent with the company's code of conduct, standards, and values made this a necessary decision.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jeho vyjadrenie je v rozpore s predstavou niektorých zamestnancov, že Huang bol donútený odísť v rámci koordinovanej kampane.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Some employees are miffed at how quickly the board accepted Huang’s resignation, insisting the longtime leader must have been the victim of a coordinated campaign intended to unseat him.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Niektorí pracovníci žiadajú druhú šancu, iní podľa správ médií kritizovali jeho spôsob vedenia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Thousands of employees have signed a letter asking for Huang’s return, but others tell The New York Times he ruled through praise and fear",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The New York Times, ako uvádza TechCrunch, opísal Huangov manažérsky štýl ako založený na pochvale aj strachu a informoval o ponižovaní podriadených.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "others tell The New York Times he ruled through praise and fear, as well as by humiliating people.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Hovorca Huanga tieto tvrdenia označil za výmysly.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Huang’s spokesman calls the allegations fabrications.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kalifornský generálny prokurátor Rob Bonta oznámil vyšetrovanie toho, či sa do Číny dostali pokročilé grafické procesory alebo dôverné informácie a či Nvidia zavádzala investorov či verejnosť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The state is investigating the company to find out if its advanced GPUs or confidential information may have been shared with China, and if the company had somehow misled its investors and the public.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť dostala predvolanie v rámci vyšetrovania.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "the state has served an investigative subpoena to Nvidia",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa TechCrunch sa o možné zavádzajúce zverejnenia zaujíma aj americká Komisia pre cenné papiere a burzu (SEC)",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "the SEC is said to be launching a civil probe into the company, trying to find out if Nvidia’s public disclosures could have misled investors.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "kongresmani chcú Huanga vypočuť a on súhlasil s výpoveďou.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Huang has agreed to testify before Congress after several senior lawmakers threatened to subpoena him.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nvidia zároveň poverila právnickú kanceláriu a nezávislých členov predstavenstva preskúmaním prípadu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The company’s board has hired a law firm as well as an independent slate of directors to investigate the extent of the damage",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Huang aj Nvidia čelia aj žalobám akcionárov, ktorí tvrdia, že informácie o Megaspeed a Alice Huangovej boli podané zavádzajúco.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Nvidia and Huang are also facing several shareholder lawsuits, alleging the CEO and the company made misleading statements about dealings with Alice Huang and Megaspeed.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Elon Musk a ďalší podporovatelia tvrdia, že Huang je pre firmu nenahraditeľný.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "But Anduril CEO Palmer Luckey said that “nobody can take Jensen’s place in this critical juncture”",
+        "komentar": "Musk a ďalší podporovatelia vrátane Luckeyho vyjadrili podporu, hoci Luckeyho výrok je o nenahraditeľnosti.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Huang sám povedal, že by bol poctený návratom.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "he returned to X to announce that he would be honored to reclaim his position if offered.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "WIRED však upozorňuje, že taka možnosť môže sťažiť hľadanie nového lídra a vyvoláva otázku, prečo firma nemala pripravený plán nástupníctva.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The possibility, even a remote one, that he will be reinstated may discourage the best candidates from considering an offer to lead Nvidia.",
+        "komentar": "Zdroj spomína aj nedostatok plánu nástupníctva.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Správy o postoji predstavenstva nie sú celkom jednotné: jeho predseda verejne odmietol návrat, no Semafor podľa WIRED informoval, že menšia skupina členov rady ho údajne podporovala.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Semafor has reported that Huang himself had spoken to at least one board member about his reinstatement and that several directors may still be open to the possibility.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Predstavenstvo sa k tejto správe nevyjadrilo.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Jones has not responded to WIRED’s inquiries about the board’s reported division on the topic of Huang’s return.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "V internom stretnutí Jones",
+        "opravene": "Na internom stretnutí Jones",
+        "dovod": "predložková väzba",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "že WIRED však upozorňuje, že taka",
+        "opravene": "že WIRED však upozorňuje, že taká",
+        "dovod": "dĺžeň",
+        "stav": "nenajdena",
+        "poznamka": "úryvok sa v texte nenachádza",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ahu preto nepotvrdzuje, že žena pôsobila ako agentka.\n\n## Predstavenstvo zdôrazňuje ",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "chCrunch, opísal Huangov manažérsky štýl ako založený na pochvale aj strachu a infor",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "zavádzajúco",
+        "kontext": "Megaspeed a Alice Huangovej boli podané zavádzajúco.\n\n## Tlak na návrat a otázka nástupníct",
+        "navrhy": [
+          "zavadzajúc",
+          "zavádzajúc",
+          "zavádzajúca"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -13 +13 @@\n-V internom stretnutí Jones uviedol, že zverejnené osobné správanie a nedostatok otvorenosti odporovali pravidlám a hodnotám firmy. Jeho vyjadrenie je v rozpore s predstavou niektorých zamestnancov, že Huang bol donútený odísť v rámci koordinovanej kampane. Niektorí pracovníci žiadajú druhú šancu, iní podľa správ médií kritizovali jeho spôsob vedenia.\n+Na internom stretnutí Jones uviedol, že zverejnené osobné správanie a nedostatok otvorenosti odporovali pravidlám a hodnotám firmy. Jeho vyjadrenie je v rozpore s predstavou niektorých zamestnancov, že Huang bol donútený odísť v rámci koordinovanej kampane. Niektorí pracovníci žiadajú druhú šancu, iní podľa správ médií kritizovali jeho spôsob vedenia."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/05/nemoclaw.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Nvidia CEO Jensen Huang wears NemoClaw hands",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/3c990409086a104870ea2888b7c7b4f002f98c13a1c80b3d5cdae4e59ea02aec?s=96&d=identicon&r=g",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Ram Iyer",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2025/01/Connie-Loizos-1.jpg?w=150",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Connie Loizos",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6aff6b595608d6b32a9beb56/191:100/w_1280,c_limit/Backchannel-Backchannel-Silicon-Valley-Psychosis-Business.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6aff6b595608d6b32a9beb56/master/pass/Backchannel-Backchannel-Silicon-Valley-Psychosis-Business.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6b007b4f6873ef9746910ee1/191:100/w_1280,c_limit/GettyImages-2298479100.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6b007b4f6873ef9746910ee1/master/pass/GettyImages-2298479100.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2266464474.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Nvidia CEO Jensen Huang interacts with a Disney animatronic robot during his keynote address at the company's annual GTC developers conference at the SAP Center in San Jose, California, on March 16, 2026. (Photo by JOSH EDELSON / AFP via Getty Images)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "Nvidia headquarters",
+      "Nvidia logo",
+      "graphics card"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg",
+        "nazov": "Nvidia HQ.jpg",
+        "autor": "Kevin McCarthy",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Nvidia_HQ.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia headquarters"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/NVIDIA_Headquarters.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/617cd75a-b4de-4e8b-b049-7c31683011d5/thumb/",
+        "nazov": "NVIDIA Headquarters",
+        "autor": "Coolcaesar",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=74676142",
+        "povod": "openverse",
+        "dopyt": "Nvidia headquarters"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/NVIDIA_Headquarters.jpg/1280px-NVIDIA_Headquarters.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/NVIDIA_Headquarters.jpg/1280px-NVIDIA_Headquarters.jpg",
+        "nazov": "NVIDIA Headquarters.jpg",
+        "autor": "Coolcaesar",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:NVIDIA_Headquarters.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia logo"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/MSI_promotional_models_with_Nvidia_logo_at_Computex_20140606a.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/f76b15c8-338e-4496-9724-e2e6a1395d13/thumb/",
+        "nazov": "MSI promotional models with Nvidia logo at Computex 20140606a",
+        "autor": "JΛCK VIΞW",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=59988160",
+        "povod": "openverse",
+        "dopyt": "Nvidia logo"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/%E9%BB%91%E7%A5%9E%E8%AF%9D%EF%BC%9A%E6%82%9F%E7%A9%BA%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%EF%BC%81%E9%9C%80%E8%A6%81%E4%BB%80%E4%B9%88%E6%98%BE%E5%8D%A1%E6%89%8D%E8%83%BD%E7%8E%A9%EF%BC%9F%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_%282160p_60fps_VP9-160kbit_Opus%29-00.00.18.325.png/1280px-%E9%BB%91%E7%A5%9E%E8%AF%9D%EF%BC%9A%E6%82%9F%E7%A9%BA%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%EF%BC%81%E9%9C%80%E8%A6%81%E4%BB%80%E4%B9%88%E6%98%BE%E5%8D%A1%E6%89%8D%E8%83%BD%E7%8E%A9%EF%BC%9F%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_%282160p_60fps_VP9-160kbit_Opus%29-00.00.18.325.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/%E9%BB%91%E7%A5%9E%E8%AF%9D%EF%BC%9A%E6%82%9F%E7%A9%BA%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%EF%BC%81%E9%9C%80%E8%A6%81%E4%BB%80%E4%B9%88%E6%98%BE%E5%8D%A1%E6%89%8D%E8%83%BD%E7%8E%A9%EF%BC%9F%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_%282160p_60fps_VP9-160kbit_Opus%29-00.00.18.325.png/1280px-%E9%BB%91%E7%A5%9E%E8%AF%9D%EF%BC%9A%E6%82%9F%E7%A9%BA%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%EF%BC%81%E9%9C%80%E8%A6%81%E4%BB%80%E4%B9%88%E6%98%BE%E5%8D%A1%E6%89%8D%E8%83%BD%E7%8E%A9%EF%BC%9F%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_%282160p_60fps_VP9-160kbit_Opus%29-00.00.18.325.png",
+        "nazov": "黑神话：悟空性能测试！需要什么显卡才能玩？(极客湾Geekerwan) (2160p 60fps VP9-160kbit Opus)-00.00.18.325.png",
+        "autor": "极客湾Geekerwan",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:%E9%BB%91%E7%A5%9E%E8%AF%9D%EF%BC%9A%E6%82%9F%E7%A9%BA%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%EF%BC%81%E9%9C%80%E8%A6%81%E4%BB%80%E4%B9%88%E6%98%BE%E5%8D%A1%E6%89%8D%E8%83%BD%E7%8E%A9%EF%BC%9F(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_(2160p_60fps_VP9-160kbit_Opus)-00.00.18.325.png",
+        "povod": "wikimedia",
+        "dopyt": "graphics card"
+      },
+      {
+        "url": "https://live.staticflickr.com/7155/6421468805_6b1fcd33e7_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/9d1424c4-373b-4b1d-bbfb-b29f108b09b5/thumb/",
+        "nazov": "Graphics Card",
+        "autor": "Sean MacEntee",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/18090920@N07/6421468805",
+        "povod": "openverse",
+        "dopyt": "graphics card"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Nvidia_sign.jpg/1280px-Nvidia_sign.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Nvidia_sign.jpg/1280px-Nvidia_sign.jpg",
+        "nazov": "Nvidia sign.jpg",
+        "autor": "Will Buckner",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Nvidia_sign.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia headquarters"
+      },
+      {
+        "url": "https://live.staticflickr.com/157/400107233_e39dc7fe3c_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/50b6e36f-a671-4a51-ac81-e7e4ef88441d/thumb/",
+        "nazov": "Google Headquarters on six displays",
+        "autor": "twid",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/48741368@N00/400107233",
+        "povod": "openverse",
+        "dopyt": "Nvidia headquarters"
+      }
+    ],
+    "prompt_ilustracie": "Create an abstract editorial illustration of a powerful technology company facing a leadership crossroads, with a shadowed boardroom, a branching path, and a subtle chip-like pattern, no people, logos, or text."
+  },
+  "prompt_ilustracie": "Create an abstract editorial illustration of a powerful technology company facing a leadership crossroads, with a shadowed boardroom, a branching path, and a subtle chip-like pattern, no people, logos, or text.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/a987b2f790aaafa187a965b39f94396b",
+  "text_agentov": {
+    "titulok": "Nvidia nechce vrátiť Jensena Huanga do vedenia, otázky však zostávajú",
+    "perex": "Predstavenstvo odmieta obnoviť mandát bývalého šéfa, ktorého odchod sprevádzajú otázky o dôveryhodnosti aj možných väzbách na Čínu. Súčasne pokračujú vyšetrovania a časť podporovateľov žiada jeho návrat.",
+    "telo": "Nvidia zatiaľ neplánuje vrátiť Jensena Huanga na pozíciu generálneho riaditeľa. Predstavenstvo jeho rezignáciu prijalo jednomyseľne a podľa predsedu Harveyho Jonesa ho nechce opätovne dosadiť. Napriek tomu časť zamestnancov aj známych podnikateľov žiada, aby sa zakladateľ firmy vrátil. Spor sa odohráva v čase, keď spoločnosť čelí otázkam o svojom podnikaní s Čínou a o tom, čo jej vedenie vedelo.\n\nHuang odstúpil po tom, čo sa objavili správy o jeho mimomanželských vzťahoch vrátane údajného vzťahu s Alice Huangovou, ktorá podľa amerických úradov môže byť napojená na čínsku rozviedku. Čínske ministerstvo zahraničných vecí toto obvinenie odmietlo. Samotná existencia vzťahu preto nepotvrdzuje, že žena pôsobila ako agentka.\n\n## Predstavenstvo zdôrazňuje dôveru\n\nPodľa zdrojov, s ktorými hovoril Wired, neboli pre predstavenstvo rozhodujúce iba osobné vzťahy, ale aj Huangova údajná neúprimnosť. Členovia rady sa ho podľa týchto zdrojov pýtali na Alice Huangovú už po správach o obchodnom vzťahu Nvidie so singapurskou spoločnosťou Megaspeed, v ktorej pracovala. Huang mal vtedy nevhodný vzťah poprieť. Wired píše, že predstavenstvo považovalo problém za otázku integrity a dôvery.\n\nNa internom stretnutí Jones uviedol, že zverejnené osobné správanie a nedostatok otvorenosti odporovali pravidlám a hodnotám firmy. Jeho vyjadrenie je v rozpore s predstavou niektorých zamestnancov, že Huang bol donútený odísť v rámci koordinovanej kampane. Niektorí pracovníci žiadajú druhú šancu, iní podľa správ médií kritizovali jeho spôsob vedenia.\n\nThe New York Times, ako uvádza TechCrunch, opísal Huangov manažérsky štýl ako založený na pochvale aj strachu a informoval o ponižovaní podriadených. Hovorca Huanga tieto tvrdenia označil za výmysly. Ide teda o sporné obvinenia, nie o potvrdené zistenia vyšetrovania.\n\n## Vyšetrovania sa rozširujú\n\nKalifornský generálny prokurátor Rob Bonta oznámil vyšetrovanie toho, či sa do Číny dostali pokročilé grafické procesory alebo dôverné informácie a či Nvidia zavádzala investorov či verejnosť. Spoločnosť dostala predvolanie v rámci vyšetrovania. Podľa TechCrunch sa o možné zavádzajúce zverejnenia zaujíma aj americká Komisia pre cenné papiere a burzu (SEC); kongresmani chcú Huanga vypočuť a on súhlasil s výpoveďou.\n\nNvidia zároveň poverila právnickú kanceláriu a nezávislých členov predstavenstva preskúmaním prípadu. Samotné vyšetrovania zatiaľ neznamenajú, že firma porušila zákon. Huang aj Nvidia čelia aj žalobám akcionárov, ktorí tvrdia, že informácie o Megaspeed a Alice Huangovej boli podané zavádzajúco.\n\n## Tlak na návrat a otázka nástupníctva\n\nElon Musk a ďalší podporovatelia tvrdia, že Huang je pre firmu nenahraditeľný. Huang sám povedal, že by bol poctený návratom. WIRED však upozorňuje, že taka možnosť môže sťažiť hľadanie nového lídra a vyvoláva otázku, prečo firma nemala pripravený plán nástupníctva.\n\nSprávy o postoji predstavenstva nie sú celkom jednotné: jeho predseda verejne odmietol návrat, no Semafor podľa WIRED informoval, že menšia skupina členov rady ho údajne podporovala. Predstavenstvo sa k tejto správe nevyjadrilo. Pre investorov aj technologický sektor bude podstatné, či Nvidia dokáže obnoviť dôveru a vysvetliť, ako dohliadala na obchodné riziká spojené s Čínou."
+  }
+}
