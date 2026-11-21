@@ -425,10 +425,16 @@
         "zdroj_clanku": "Engadget",
         "alt": "",
         "popisok": "",
-        "kredit": "",
-        "licencia": "",
-        "zaradenie": "nejasne",
-        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+        "kredit": "OpenAI",
+        "licencia": "tlacovy material",
+        "zaradenie": "tlacove",
+        "dovod": "Rozhodnutie editora: tlacovy material",
+        "automaticke_zaradenie": "nejasne",
+        "automaticky_dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené.",
+        "rozhodol_editor": {
+          "kto": "valooo-hero",
+          "kedy": "2026-11-21T12:58:08Z"
+        }
       },
       {
         "url": "https://www.engadget.com/img/gallery/openai-is-testing-dots-personal-agents-on-its-20-per-month-plus-tier/intro-1795158872.jpg",
