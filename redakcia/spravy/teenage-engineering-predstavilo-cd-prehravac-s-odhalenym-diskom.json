@@ -1,0 +1,456 @@
+{
+  "slug": "teenage-engineering-predstavilo-cd-prehravac-s-odhalenym-diskom",
+  "datum_sprav": "2026-11-20",
+  "dovod_vyberu": "Nový CD prehrávač od Teenage Engineering je inovatívny hardvér, ktorý zaujme technologických nadšencov.",
+  "poznamky_pre_editora": "Overiť rozdiel v uvádzanej cene (299 vs. 329 dolárov), presnú funkciu a typ portov USB a či parametre WAV „44,1 Hz/16 bitov“ v článku The Verge neobsahujú chybu. Zdroje odlišne opisujú EP-35 ako prenosný reproduktor a batériový zosilňovač.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojoch a rozdiely medzi článkami sú korektne identifikované. Najvážnejším problémom je len drobná nepresnosť v preklade, keď koncept hovorí o „diskoch s MP3 súbormi“ namiesto „diskov plných MP3 súborov“, čo však nemení význam.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 20,
+        "potvrdenych": 20,
+        "chyb": 0,
+        "upozorneni": 4
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "Zdroje sa však nezhodujú na cene: The Verge uvádza 299 dolárov, zatiaľ čo Engadget píše o 329 dolároch.",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „The EP/BC-1 is available now through Teenage Engineering’s online store for $299. / The EP/BC-1 costs $329.“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      },
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "Prehrávač má konektor na slúchadlá a port USB 2.0, pričom Engadget uvádza nabíjanie cez USB-C.",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „a headphone jack and a USB 2.0 port. / It's a portable device that charges via USB-C.“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      },
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "Oba články spomínajú zariadenie EP-35, no Engadget ho nazýva prenosným reproduktorom a The Verge batériovým zosilňovačom.",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „the EP-35 portable speaker / the recently-announced EP-35 battery-powered amp“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      },
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "Zdroje neuvádzajú, či bude EP/BC-1 dostupný na Slovensku ani aká by bola jeho cena v eurách.",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „No mention of Slovakia or EUR pricing in either source.“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Teenage Engineering predstavilo svoj prvý CD prehrávač.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Teenage Engineering just revealed its very first CD player, the EP/BC-1.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Model EP/BC-1 má nezvyčajný plochý dizajn, pri ktorom sa disk otáča odkrytý na vrchnej strane zariadenia, takže prístroj pripomína skôr gramofón než tradičný CD prehrávač.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "slab-like design that leaves the spinning disc exposed instead of hiding it under a lid or inside a slide-out tray",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Firma ho označuje za prvý produkt novej série Broadcast.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "the EP/BC–1 is the first entry in its new broadcast series of products",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa portálu The Verge je prehrávač dostupný v internetovom obchode výrobcu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "The EP/BC-1 is available now through Teenage Engineering’s online store",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroje sa však nezhodujú na cene: The Verge uvádza 299 dolárov, zatiaľ čo Engadget píše o 329 dolároch.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge, Engadget",
+        "dokaz": "The EP/BC-1 is available now through Teenage Engineering’s online store for $299. / The EP/BC-1 costs $329.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "EP/BC-1 prehráva štandardné CD aj disky obsahujúce súbory MP3.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "The EP/BC-1 is compatible with standard CDs as well as discs full of MP3 files",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ponúka ovládanie rýchlosti prehrávania pomocou otočného prvku, čo môže pomôcť pri zosúlaďovaní tempa skladieb.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "speed up or slow down tracks via a varispeed dial. This should be very useful to DJs who are looking to beatmatch",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vstavaná detekcia beatov dokáže tempo rozpoznať a odoslať ho v synchronizovanej podobe.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "there's a built-in beat detection algorithm with the ability to output tempo in sync.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zariadenie má tiež značky pre cue body a jog wheel, ktorým možno vyhľadávať dopredu aj dozadu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "cue markers, a jog wheel for forward and reverse search",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na displejoch sa zobrazujú údaje o skladbe, indexe a čase, ako aj úrovne zvuku.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "digital displays showing track, index, time information, and audio levels",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Engadget opisuje červené LED indikátory, ktoré zobrazujú hlasitosť ľavého a pravého kanála.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "a line of red LEDs that light up to show volume across the left and right channels",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zvuk možno posielať do Bluetooth slúchadiel alebo cez Auracast do viacerých kompatibilných zariadení.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "supports both Bluetooth connections to headphones and Auracast streaming to multiple devices that support it",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Verge uvádza, že pri štandardných CD možno skladby skopírovať do súborov WAV s parametrami 44,1 Hz a 16 bitov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "it can rip tracks to 44.1 Hz/16-bit WAV files",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Súbory MP3 ani iné formáty zariadenie podľa článku nekonvertuje; používateľ si ich musí pripraviť samostatne.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "If you want MP3s or other formats, you’ll need to convert them yourself.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Prehrávač má konektor na slúchadlá a port USB 2.0, pričom Engadget uvádza nabíjanie cez USB-C.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge, Engadget",
+        "dokaz": "a headphone jack and a USB 2.0 port. / It's a portable device that charges via USB-C.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Verge potvrdzuje nabíjateľnú batériu, ale nespresňuje spôsob nabíjania.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "the CD player has a rechargeable battery",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "EP/BC-1 má podľa The Verge rovnaké rozmery ako syntetizátor K.O. II, ktorý Teenage Engineering uviedlo v roku 2023.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "has the same dimensions as its KO II synthesizer that launched in 2023",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Oba články spomínajú zariadenie EP-35, no Engadget ho nazýva prenosným reproduktorom a The Verge batériovým zosilňovačom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget, The Verge",
+        "dokaz": "the EP-35 portable speaker / the recently-announced EP-35 battery-powered amp",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť podľa The Verge hovorí, že nová séria má priniesť fyzické zvukové formáty do súčasného kontextu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "bring “physical audio formats into a modern context, evolved from a shared obligation within the company to preserve the formats they grew up with.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroje neuvádzajú, či bude EP/BC-1 dostupný na Slovensku ani aká by bola jeho cena v eurách.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget, The Verge",
+        "dokaz": "No mention of Slovakia or EUR pricing in either source.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "streamovanie",
+        "kontext": "ú rýchlosť, detekciu tempa a bezdrôtové streamovanie.",
+        "navrhy": [
+          "stravovanie",
+          "stresovanie"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "zosúlaďovaní",
+        "kontext": "ocou otočného prvku, čo môže pomôcť pri zosúlaďovaní tempa skladieb. Vstavaná detekcia beato",
+        "navrhy": [
+          "zoslabovaní"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cue",
+        "kontext": "j podobe. Zariadenie má tiež značky pre cue body a jog wheel, ktorým možno vyhľadáv",
+        "navrhy": [
+          "CME",
+          "che",
+          "cle"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "wheel",
+        "kontext": "denie má tiež značky pre cue body a jog wheel, ktorým možno vyhľadávať dopredu aj doz",
+        "navrhy": [
+          "Heéj",
+          "chcel",
+          "chmeľ"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "nabíjateľnú",
+        "kontext": "bíjanie cez USB-C. The Verge potvrdzuje nabíjateľnú batériu, ale nespresňuje spôsob nabíjan",
+        "navrhy": [
+          "nabíja teľnú",
+          "nabíjate ľnú"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "produktovej",
+        "kontext": "ciu treba ešte overiť.\n\n## Súčasť novej produktovej série\n\nEP/BC-1 má podľa The Verge rovna",
+        "navrhy": [
+          "produkt ovej",
+          "produktov ej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "/BC-1 má podľa The Verge rovnaké rozmery ako syntetizátor K.O. II, ktorý Teenage Eng",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Crosley_Stereo_with_LP%2C_Cassette%2C_and_CD_Player_and_Converter.jpg/1280px-Crosley_Stereo_with_LP%2C_Cassette%2C_and_CD_Player_and_Converter.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/tecd1.jpg?quality=90&strip=all&crop=0,10.740836125969,100,78.518327748063",
+        "zdroj_clanku": "The Verge",
+        "alt": "tecd1",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/teenage-engineerings-first-cd-player-kind-of-looks-like-a-turntable/l-intro-1795200766.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/teenage-engineerings-first-cd-player-kind-of-looks-like-a-turntable/intro-1795200766.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Teenage Engineering EP/BC-1",
+      "CD player",
+      "portable CD player"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Crosley_Stereo_with_LP%2C_Cassette%2C_and_CD_Player_and_Converter.jpg/1280px-Crosley_Stereo_with_LP%2C_Cassette%2C_and_CD_Player_and_Converter.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Crosley_Stereo_with_LP%2C_Cassette%2C_and_CD_Player_and_Converter.jpg/1280px-Crosley_Stereo_with_LP%2C_Cassette%2C_and_CD_Player_and_Converter.jpg",
+        "nazov": "Crosley Stereo with LP, Cassette, and CD Player and Converter.jpg",
+        "autor": "Melissa Ursula Dawn Goldsmith",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Crosley_Stereo_with_LP,_Cassette,_and_CD_Player_and_Converter.jpg",
+        "povod": "wikimedia",
+        "dopyt": "CD player"
+      },
+      {
+        "url": "https://live.staticflickr.com/1629/25498067944_a8a7535754_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/6cc89597-67c4-4f9b-a68f-a1abd05be822/thumb/",
+        "nazov": "Sony D-50 Portable CD Player Teardown",
+        "autor": "eevblog",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "stranka": "https://www.flickr.com/photos/58072483@N02/25498067944",
+        "povod": "openverse",
+        "dopyt": "CD player"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Panasonic_Portable_CD_Player_%28Model_SL-S250C%29.jpg/1280px-Panasonic_Portable_CD_Player_%28Model_SL-S250C%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Panasonic_Portable_CD_Player_%28Model_SL-S250C%29.jpg/1280px-Panasonic_Portable_CD_Player_%28Model_SL-S250C%29.jpg",
+        "nazov": "Panasonic Portable CD Player (Model SL-S250C).jpg",
+        "autor": "Mk2010",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Panasonic_Portable_CD_Player_(Model_SL-S250C).jpg",
+        "povod": "wikimedia",
+        "dopyt": "portable CD player"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/CD_player_with_open_tray.jpg/1280px-CD_player_with_open_tray.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/CD_player_with_open_tray.jpg/1280px-CD_player_with_open_tray.jpg",
+        "nazov": "CD player with open tray.jpg",
+        "autor": "Jberkel",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:CD_player_with_open_tray.jpg",
+        "povod": "wikimedia",
+        "dopyt": "CD player"
+      },
+      {
+        "url": "https://live.staticflickr.com/5/5026299_eba3f69e04_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/dafae0ac-3436-4492-a915-1b569b1ac0e8/thumb/",
+        "nazov": "Naked CD player",
+        "autor": "Robbie1",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/85278812@N00/5026299",
+        "povod": "openverse",
+        "dopyt": "CD player"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Portable_CD_player_%282005_06%29_02.jpg/1280px-Portable_CD_player_%282005_06%29_02.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Portable_CD_player_%282005_06%29_02.jpg/1280px-Portable_CD_player_%282005_06%29_02.jpg",
+        "nazov": "Portable CD player (2005 06) 02.jpg",
+        "autor": "Gpkp",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Portable_CD_player_(2005_06)_02.jpg",
+        "povod": "wikimedia",
+        "dopyt": "portable CD player"
+      },
+      {
+        "url": "https://live.staticflickr.com/1446/25500037743_48f4fa9ac2_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/73dbca9d-bc74-4177-8927-39d485873a12/thumb/",
+        "nazov": "Sony D-50 Portable CD Player Teardown",
+        "autor": "eevblog",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "stranka": "https://www.flickr.com/photos/58072483@N02/25500037743",
+        "povod": "openverse",
+        "dopyt": "portable CD player"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/CD_player_inside1.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/4/49/CD_player_inside1.jpg",
+        "nazov": "CD player inside1.jpg",
+        "autor": "都会の中の田舎",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:CD_player_inside1.jpg",
+        "povod": "wikimedia",
+        "dopyt": "CD player"
+      }
+    ],
+    "prompt_ilustracie": "Create a clean conceptual illustration of a compact disc spinning exposed on a minimalist slab-shaped audio device, with subtle red sound-level lights and abstract wireless sound waves, no logos, no text, no people."
+  },
+  "prompt_ilustracie": "Create a clean conceptual illustration of a compact disc spinning exposed on a minimalist slab-shaped audio device, with subtle red sound-level lights and abstract wireless sound waves, no logos, no text, no people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/1558428f564e7718d583cd92cbe45491",
+  "text_agentov": {
+    "titulok": "Teenage Engineering predstavilo CD prehrávač s odhaleným diskom",
+    "perex": "EP/BC-1 pripomína gramofón, no prehráva kompaktné disky aj disky s MP3 súbormi. Ponúka variabilnú rýchlosť, detekciu tempa a bezdrôtové streamovanie.",
+    "telo": "Teenage Engineering predstavilo svoj prvý CD prehrávač. Model EP/BC-1 má nezvyčajný plochý dizajn, pri ktorom sa disk otáča odkrytý na vrchnej strane zariadenia, takže prístroj pripomína skôr gramofón než tradičný CD prehrávač. Firma ho označuje za prvý produkt novej série Broadcast.\n\nPodľa portálu The Verge je prehrávač dostupný v internetovom obchode výrobcu. Zdroje sa však nezhodujú na cene: The Verge uvádza 299 dolárov, zatiaľ čo Engadget píše o 329 dolároch. Rozdiel si z dostupných informácií nemožno vysvetliť.\n\n## Ovládanie inšpirované DJ-mi\n\nEP/BC-1 prehráva štandardné CD aj disky obsahujúce súbory MP3. Ponúka ovládanie rýchlosti prehrávania pomocou otočného prvku, čo môže pomôcť pri zosúlaďovaní tempa skladieb. Vstavaná detekcia beatov dokáže tempo rozpoznať a odoslať ho v synchronizovanej podobe. Zariadenie má tiež značky pre cue body a jog wheel, ktorým možno vyhľadávať dopredu aj dozadu.\n\nNa displejoch sa zobrazujú údaje o skladbe, indexe a čase, ako aj úrovne zvuku. Engadget opisuje červené LED indikátory, ktoré zobrazujú hlasitosť ľavého a pravého kanála. Takéto prvky dávajú prehrávaču vzhľad zariadenia určeného aj na prácu s hudbou, nie iba na bežné počúvanie.\n\n## Streamovanie aj kopírovanie CD\n\nZvuk možno posielať do Bluetooth slúchadiel alebo cez Auracast do viacerých kompatibilných zariadení. Prehrávanie je tak možné aj bez káblového pripojenia. The Verge uvádza, že pri štandardných CD možno skladby skopírovať do súborov WAV s parametrami 44,1 Hz a 16 bitov. Súbory MP3 ani iné formáty zariadenie podľa článku nekonvertuje; používateľ si ich musí pripraviť samostatne.\n\nPrehrávač má konektor na slúchadlá a port USB 2.0, pričom Engadget uvádza nabíjanie cez USB-C. The Verge potvrdzuje nabíjateľnú batériu, ale nespresňuje spôsob nabíjania. Zdroje teda opisujú porty rozdielne: môžu hovoriť o odlišných konektoroch s rôznym účelom, no ich funkciu treba ešte overiť.\n\n## Súčasť novej produktovej série\n\nEP/BC-1 má podľa The Verge rovnaké rozmery ako syntetizátor K.O. II, ktorý Teenage Engineering uviedlo v roku 2023. Vďaka tomu sa dá spájať s ďalšími produktmi firmy. Oba články spomínajú zariadenie EP-35, no Engadget ho nazýva prenosným reproduktorom a The Verge batériovým zosilňovačom. Spoločnosť podľa The Verge hovorí, že nová séria má priniesť fyzické zvukové formáty do súčasného kontextu.\n\nZariadenie tak spája prehrávanie CD s funkciami, ktoré sa hodia pri práci s hudbou, a s bezdrôtovým prenosom zvuku. Zdroje neuvádzajú, či bude EP/BC-1 dostupný na Slovensku ani aká by bola jeho cena v eurách."
+  }
+}
