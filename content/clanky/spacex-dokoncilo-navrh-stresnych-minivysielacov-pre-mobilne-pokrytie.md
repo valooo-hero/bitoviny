@@ -3,24 +3,25 @@ title: SpaceX dokončilo návrh strešných minivysielačov pre mobilné pokryti
 perex: Elon Musk tvrdí, že malé základňové stanice majú pomôcť aj tam, kam sa signál zo satelitov Starlink nedostane cez strechy budov. Do výroby by mohli ísť v roku 2027.
 sekcia: mobil
 tagy:
-- SpaceX
-- Starlink
-- mobilné siete
-- Direct-to-Cell
-publikovane: '2026-11-21T04:16:38+00:00'
+  - SpaceX
+  - Starlink
+  - mobilné siete
+  - Direct-to-Cell
+publikovane: 2026-11-21T04:16:38+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/spacex-dokoncilo-navrh-stresnych-minivysielacov-pre-mobilne-pokrytie-mwqf3psx.webp
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'TechCrunch: Elon Musk says SpaceX has a plan to eliminate cell phone dead zones'
-  url: https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/
+  - nazov: "TechCrunch: Elon Musk says SpaceX has a plan to eliminate cell phone dead zones"
+    url: https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/
 ---
 
 SpaceX dokončilo návrh malých mobilných vysielačov, ktoré by sa montovali na strechy a doplnili satelitné pokrytie Starlinku. Elon Musk ich predstavil ako riešenie miest, kde signál zo satelitov nedokáže preniknúť do budov, najmä cez hrubé alebo kovové strechy. Výrobu chce firma podľa Muska začať v roku 2027, hoci jeho vyjadrenie naznačovalo, že termín ešte nie je pevný.
