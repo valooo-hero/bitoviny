@@ -7,7 +7,7 @@ tagy:
   - ChatGPT
   - Dots
   - AI agenti
-publikovane: 2026-11-21T04:16:22+00:00
+publikovane: 2026-11-21T12:58:37Z
 obrazok:
   src: /obrazky/openai-testuje-dots-aj-s-pouzivatelmi-chatgpt-plus-mwqeyv2x.jpg
   alt: Dots by OpenAI
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "9to5Mac: OpenAI begins testing dots with ChatGPT Plus users, expands Business access"
     url: https://9to5mac.com/2026/11/19/openai-begins-testing-dots-with-chatgpt-plus-users-expands-business-access/
