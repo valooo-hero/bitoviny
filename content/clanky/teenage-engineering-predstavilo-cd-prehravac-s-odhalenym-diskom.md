@@ -7,7 +7,7 @@ tagy:
   - EP/BC-1
   - CD prehrávač
   - Auracast
-publikovane: 2026-11-21T04:16:34+00:00
+publikovane: 2026-11-21T13:01:33Z
 obrazok:
   src: /obrazky/teenage-engineering-predstavilo-cd-prehravac-s-odhalenym-diskom-mwqf2ml8.jpg
   alt: Teenage Engineering CD player
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Engadget: Teenage Engineering's first CD player kind of looks like a turntable"
     url: https://www.engadget.com/2323390/teenage-engineerings-first-cd-player-kind-of-looks-like-a-turntable/
