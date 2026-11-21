@@ -3,29 +3,30 @@ title: Matematik Anthropic tvrdí, že s Claudom dokázal Riemannovu hypotézu
 perex: Levent Alpöge zverejnil dôkaz zapísaný v jazyku Lean. Nezávislí matematici potvrdili, že sa dá skompilovať, jeho správnosť ani prijatie odbornou komunitou však zatiaľ nie sú uzavreté.
 sekcia: veda
 tagy:
-- Anthropic
-- Claude
-- Riemannova hypotéza
-- matematika
-- Lean
-publikovane: '2026-11-21T04:16:11+00:00'
+  - Anthropic
+  - Claude
+  - Riemannova hypotéza
+  - matematika
+  - Lean
+publikovane: 2026-11-21T04:16:11+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/matematik-anthropic-tvrdi-ze-s-claudom-dokazal-riemannovu-hypotezu-mwqf52qr.webp
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'The Verge: Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude'
-  url: https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem
-- nazov: 'TechCrunch: AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too'
-  url: https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/
-- nazov: 'Tom''s Hardware: Anthropic mathematician claims to have solved 167-year-old math problem with Claude'
-  url: https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-mathematician-claims-to-have-solved-167-year-old-math-problem-with-claude-riemann-hypothesis-proof-allegedly-discovered-but-remains-unconfirmed
+  - nazov: "The Verge: Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude"
+    url: https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem
+  - nazov: "TechCrunch: AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too"
+    url: https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/
+  - nazov: "Tom's Hardware: Anthropic mathematician claims to have solved 167-year-old math problem with Claude"
+    url: https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-mathematician-claims-to-have-solved-167-year-old-math-problem-with-claude-riemann-hypothesis-proof-allegedly-discovered-but-remains-unconfirmed
 ---
 
 Matematik Levent Alpöge, zamestnanec spoločnosti Anthropic, tvrdí, že s pomocou jej modelu Claude našiel dôkaz Riemannovej hypotézy. Ide o jeden z najznámejších nevyriešených problémov matematiky, ktorý siaha do roku 1859. Alpöge zverejnil dôkaz v jazyku Lean; nezávislí matematici podľa portálu TechCrunch potvrdili, že sa dá skompilovať. To však ešte neznamená, že ho odborná komunita prijala alebo, že je jeho argument úplne pochopený.
