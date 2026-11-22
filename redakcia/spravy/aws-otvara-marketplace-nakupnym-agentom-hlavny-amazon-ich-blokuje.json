@@ -1,0 +1,453 @@
+{
+  "slug": "aws-otvara-marketplace-nakupnym-agentom-hlavny-amazon-ich-blokuje",
+  "datum_sprav": "2026-11-21",
+  "dovod_vyberu": "Rozdielny prístup Amazonu k botom na AWS a hlavnom webe je zaujímavý obchodný a technologický paradox.",
+  "poznamky_pre_editora": "Overiť dátum publikovania zdroja: je uvedený ako 20. november 2026. K dispozícii je len jeden zdroj; tvrdenia o blokovaní agentov a žalobe proti Perplexity preto nie sú nezávisle potvrdené. Zdroj neuvádza dostupnosť agentických nákupov v EÚ.",
+  "upozornenia": [
+    "Téma má len jeden zdroj. Redakčné zásady žiadajú aspoň dva, zvážte doplnenie alebo zahodenie."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojovom článku The Register. Najvážnejším problémom nie je žiadna faktická chyba, ale skutočnosť, že koncept je takmer doslovným prepisom zdroja bez pridanej hodnoty, čo však nie je predmetom factchecku.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 25,
+        "potvrdenych": 25,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Agenti s umelou inteligenciou môžu cez AWS Marketplace vyhľadávať a kupovať vybraný softvér pomocou platobného protokolu x402.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "AWS Marketplace is allowing AI agents to scour its site and buy some cloud software products using the x402 agentic payment protocol",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Amazon pritom podľa The Register obmedzuje ich prístup na svoj hlavný nákupný web.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The ecommerce giant has been busy banning AI shopping agents from accessing its website.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "AWS Marketplace umožňuje AI agentom vyhľadávať a kupovať vybrané cloudové softvérové produkty.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "AWS Marketplace is allowing AI agents to scour its site and buy some cloud software products",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Hlavný nákupný web Amazonu pritom podľa portálu The Register blokuje prístup nákupných agentov a ďalších automatizovaných služieb.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The ecommerce giant has been busy banning AI shopping agents from accessing its website.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nové možnosti AWS Marketplace sú založené na protokole x402, ktorý je určený na platby sprostredkované softvérovými agentmi.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "AWS Marketplace is allowing AI agents to scour its site and buy some cloud software products using the x402 agentic payment protocol",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register informuje, že nákupy podporuje aj služba Amazon Bedrock AgentCore payments.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "which is supported by Amazon Bedrock AgentCore payments.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rozdiel medzi politikou AWS a hlavného webu môže vyvolávať otázky o tom, ako Amazon plánuje pristupovať k automatizovanému obchodovaniu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "the openness of AWS Marketplace to agentic commerce invites questions.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť na otázky portálu The Register do publikovania článku neodpovedala.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "We asked Amazon to explain but we've not heard back.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Aby predajca umožnil agentické nákupy, musí sa zaregistrovať v AWS Marketplace a začleniť do svojho riešenia súpravu AWS Marketplace x402 SDK.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "AWS requires sellers to register with AWS Marketplace and to integrate the AWS Marketplace x402 SDK to enable agentic product purchases.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Platby sa vyrovnávajú v amerických dolároch cez fakturáciu AWS, takže pri nich možno používať existujúce výdavkové limity a kontroly zákazníka.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Transactions settle in USD through AWS billing so existing spending controls can be applied.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Protokol x402 predstavili Coinbase a Cloudflare a neskôr ho odovzdali nadácii Linux Foundation.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Introduced by Coinbase and Cloudflare , x402 got handed over to the Linux Foundation earlier this year",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podporu preň podľa The Register poskytujú aj AWS, Google, Stripe a viaceré blockchainové siete.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "now has support from a variety of tech platforms, including AWS, Google, Stripe, and various blockchain networks.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Približne týždeň pred publikovaním správy oznámila podporu platieb x402 cez svoje vyhľadávacie API aj spoločnosť Brave Software.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "About a week ago, Brave Software announced support for x402 payments through its search API.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "AWS zároveň umožňuje zákazníkom v USA kúpiť niektorý softvér z Marketplace aj bez účtu AWS.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "customers in the US can buy some AWS Marketplace software without an AWS account",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri nákupe môžu použiť e-mailovú adresu alebo prihlásenie cez sociálnu sieť a platobnú kartu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "instead they're asked to provide an email or social media login, and a credit card.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Táto možnosť sa podľa správy týka zákazníkov v Spojených štátoch; zdroj neuvádza, či je dostupná aj v Európe.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "customers in the US can buy some AWS Marketplace software without an AWS account",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "AWS neplánuje zostať len pri predaji softvéru a API.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Beyond software and APIs, the biz sees a future in selling content and data.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Mya Papolu z AWS Marketplace a Partner Services oznámila, že platforma predáva aj „data as a service“, teda komerčné dátové služby.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Papolu announced that AWS is now selling \" data as a service .\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Poskytovatelia ich môžu sprístupniť ľuďom aj softvérovým agentom cez web Marketplace, API a MCP server.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Data providers can list their offerings in AWS Marketplace, making commercial data accessible to both human teams and the agents working alongside them via the AWS Marketplace website, APIs, and MCP server.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Medzi uvedené ponuky patria server Moody’s Credit MCP na finančný výskum, geopolitické správy Reuters pripravené pre AI, údaje o stavebných povoleniach, dodávateľoch a obyvateľoch v USA od Shovels a zvukový korpus Uber AI Solutions.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "This includes services like Moody's Credit MCP server for financial research; Reuters Geopolitical News for AI-structured reporting; US Building Permits, Contractors & Residents Data from Shovels; and US-EN Multi-Speaker Conversational Acoustic Corpus from Uber AI Solutions.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register pripomína, že Amazon obmedzoval prístup botov spájaných s Google, Meta a OpenAI a podnikol právne kroky proti prehliadaču Comet od Perplexity.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "For a company that has blocked bots from Google, Meta, and OpenAI, and sued Perplexity to keep its AI-encumbered Comet browser away",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Správa však tieto opatrenia nerozoberá podrobne.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "For a company that has blocked bots from Google, Meta, and OpenAI, and sued Perplexity to keep its AI-encumbered Comet browser away, the openness of AWS Marketplace to agentic commerce invites questions.",
+        "komentar": "Zdroj spomína tieto opatrenia len v jednej vete, bez podrobností.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Agentický režim AWS Marketplace existoval už približne rok a umožňoval používateľom vyhľadávať v ponuke pomocou pokynov v prirodzenom jazyku.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Agent mode for AWS Marketplace has been available for about a year as a way to query the market via prompt.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nové rozšírenie má podľa AWS umožniť podrobnejšie zisťovanie informácií o zabezpečení predajcov a požiadavkách projektov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "That's being expanded to allow deeper queries about seller security and project requirements.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pre firmy a zákazníkov na Slovensku je podstatné, že zdroj nepotvrdzuje dostupnosť nákupov bez účtu AWS mimo USA ani európske podmienky používania.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "customers in the US can buy some AWS Marketplace software without an AWS account",
+        "komentar": "Zdroj spomína len USA, o Európe nič nehovorí.",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cloudové",
+        "kontext": "AI agentom vyhľadávať a kupovať vybrané cloudové softvérové produkty. Hlavný nákupný web",
+        "navrhy": [
+          "Chodove",
+          "chodové",
+          "clonové"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "agentické",
+        "kontext": "by cez AWS a x402\n\nAby predajca umožnil agentické nákupy, musí sa zaregistrovať v AWS Mar",
+        "navrhy": [
+          "agentiek",
+          "agentke",
+          "agentské"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "blockchainové",
+        "kontext": "kytujú aj AWS, Google, Stripe a viaceré blockchainové siete. Približne týždeň pred publikovan",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "data",
+        "kontext": "ices oznámila, že platforma predáva aj „data as a service“, teda komerčné dátové slu",
+        "navrhy": [
+          "dáta",
+          "ATA",
+          "Daga"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "service",
+        "kontext": "ila, že platforma predáva aj „data as a service“, teda komerčné dátové služby. Poskytov",
+        "navrhy": [
+          "servise"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "botov",
+        "kontext": "pripomína, že Amazon obmedzoval prístup botov spájaných s Google, Meta a OpenAI a pod",
+        "navrhy": [
+          "Bohov",
+          "Otov",
+          "bitov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "patrenia nerozoberá podrobne. Uvádza ich ako kontrast k tomu, že AWS umožňuje agento",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg/1280px-Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://image.theregister.com/?imageId=5311499&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Amazon data center",
+      "server rack",
+      "cloud server"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg/1280px-Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg/1280px-Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg",
+        "nazov": "Amazon Prime van blocking bike lane at CityCenterDC.jpg",
+        "autor": "Sdkb",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Amazon data center"
+      },
+      {
+        "url": "https://live.staticflickr.com/3045/5863167909_c4357c71e0_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/5710c71e-30fb-4a2c-8203-03b788e23969/thumb/",
+        "nazov": "New Amazon data center",
+        "autor": "xcorex",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/79616869@N00/5863167909",
+        "povod": "openverse",
+        "dopyt": "Amazon data center"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Virtual_Private_Server.png/1280px-Virtual_Private_Server.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Virtual_Private_Server.png/1280px-Virtual_Private_Server.png",
+        "nazov": "Virtual Private Server.png",
+        "autor": "Mynameismael",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Virtual_Private_Server.png",
+        "povod": "wikimedia",
+        "dopyt": "cloud server"
+      },
+      {
+        "url": "https://live.staticflickr.com/4059/4445177251_da008402e0_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/046be3d7-2fd2-4091-8313-88d9f57419f1/thumb/",
+        "nazov": "ubuntu 9.10 cloud server cd",
+        "autor": "fsse8info",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/37031529@N00/4445177251",
+        "povod": "openverse",
+        "dopyt": "cloud server"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Amazonian_Leaders_Discuss_Using_NASA_Data_to_Protect_the_Amazon_%28NHQ202311170014%29.jpg/1280px-Amazonian_Leaders_Discuss_Using_NASA_Data_to_Protect_the_Amazon_%28NHQ202311170014%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Amazonian_Leaders_Discuss_Using_NASA_Data_to_Protect_the_Amazon_%28NHQ202311170014%29.jpg/1280px-Amazonian_Leaders_Discuss_Using_NASA_Data_to_Protect_the_Amazon_%28NHQ202311170014%29.jpg",
+        "nazov": "Amazonian Leaders Discuss Using NASA Data to Protect the Amazon (NHQ202311170014).jpg",
+        "autor": "NASA HQ PHOTO",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Amazonian_Leaders_Discuss_Using_NASA_Data_to_Protect_the_Amazon_(NHQ202311170014).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Amazon data center"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/48594167912_a82615271b_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/6502144b-371c-4046-a47e-bba95636a990/thumb/",
+        "nazov": "Fires in Brazil",
+        "autor": "NASA Goddard Photo and Video",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/24662369@N07/48594167912",
+        "povod": "openverse",
+        "dopyt": "Amazon data center"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic illustration of two contrasting digital storefronts, one welcoming a small abstract AI shopping agent and the other guarded by a barrier, using a restrained palette and no text, logos, or recognizable people."
+  },
+  "prompt_ilustracie": "Create a symbolic illustration of two contrasting digital storefronts, one welcoming a small abstract AI shopping agent and the other guarded by a barrier, using a restrained palette and no text, logos, or recognizable people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/9098ce1a11076280391a7e6611ab5c75",
+  "text_agentov": {
+    "titulok": "AWS otvára Marketplace nákupným agentom, hlavný Amazon ich blokuje",
+    "perex": "Agenti s umelou inteligenciou môžu cez AWS Marketplace vyhľadávať a kupovať vybraný softvér pomocou platobného protokolu x402. Amazon pritom podľa The Register obmedzuje ich prístup na svoj hlavný nákupný web.",
+    "telo": "Amazon pristupuje k nákupom sprostredkovaným umelou inteligenciou rozdielne podľa toho, o ktorú časť firmy ide. AWS Marketplace umožňuje AI agentom vyhľadávať a kupovať vybrané cloudové softvérové produkty. Hlavný nákupný web Amazonu pritom podľa portálu The Register blokuje prístup nákupných agentov a ďalších automatizovaných služieb.\n\nNové možnosti AWS Marketplace sú založené na protokole x402, ktorý je určený na platby sprostredkované softvérovými agentmi. The Register informuje, že nákupy podporuje aj služba Amazon Bedrock AgentCore payments. Rozdiel medzi politikou AWS a hlavného webu môže vyvolávať otázky o tom, ako Amazon plánuje pristupovať k automatizovanému obchodovaniu. Spoločnosť na otázky portálu The Register do publikovania článku neodpovedala.\n\n## Platby cez AWS a x402\n\nAby predajca umožnil agentické nákupy, musí sa zaregistrovať v AWS Marketplace a začleniť do svojho riešenia súpravu AWS Marketplace x402 SDK. Platby sa vyrovnávajú v amerických dolároch cez fakturáciu AWS, takže pri nich možno používať existujúce výdavkové limity a kontroly zákazníka.\n\nProtokol x402 predstavili Coinbase a Cloudflare a neskôr ho odovzdali nadácii Linux Foundation. Podporu preň podľa The Register poskytujú aj AWS, Google, Stripe a viaceré blockchainové siete. Približne týždeň pred publikovaním správy oznámila podporu platieb x402 cez svoje vyhľadávacie API aj spoločnosť Brave Software.\n\nAWS zároveň umožňuje zákazníkom v USA kúpiť niektorý softvér z Marketplace aj bez účtu AWS. Pri nákupe môžu použiť e-mailovú adresu alebo prihlásenie cez sociálnu sieť a platobnú kartu. Táto možnosť sa podľa správy týka zákazníkov v Spojených štátoch; zdroj neuvádza, či je dostupná aj v Európe.\n\n## Marketplace rozširuje ponuku o dáta\n\nAWS neplánuje zostať len pri predaji softvéru a API. Mya Papolu z AWS Marketplace a Partner Services oznámila, že platforma predáva aj „data as a service“, teda komerčné dátové služby. Poskytovatelia ich môžu sprístupniť ľuďom aj softvérovým agentom cez web Marketplace, API a MCP server.\n\nMedzi uvedené ponuky patria server Moody’s Credit MCP na finančný výskum, geopolitické správy Reuters pripravené pre AI, údaje o stavebných povoleniach, dodávateľoch a obyvateľoch v USA od Shovels a zvukový korpus Uber AI Solutions. Ide teda o rôzne druhy dát, ktoré môžu organizácie využívať pri výskume či vývoji AI produktov.\n\n## Rozdielny prístup v rámci Amazonu\n\nThe Register pripomína, že Amazon obmedzoval prístup botov spájaných s Google, Meta a OpenAI a podnikol právne kroky proti prehliadaču Comet od Perplexity. Správa však tieto opatrenia nerozoberá podrobne. Uvádza ich ako kontrast k tomu, že AWS umožňuje agentom nakupovať na vlastnom trhovisku.\n\nAgentický režim AWS Marketplace existoval už približne rok a umožňoval používateľom vyhľadávať v ponuke pomocou pokynov v prirodzenom jazyku. Nové rozšírenie má podľa AWS umožniť podrobnejšie zisťovanie informácií o zabezpečení predajcov a požiadavkách projektov. Pre firmy a zákazníkov na Slovensku je podstatné, že zdroj nepotvrdzuje dostupnosť nákupov bez účtu AWS mimo USA ani európske podmienky používania."
+  }
+}
