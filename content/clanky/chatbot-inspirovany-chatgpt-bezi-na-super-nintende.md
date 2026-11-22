@@ -3,26 +3,27 @@ title: Chatbot inšpirovaný ChatGPT beží na Super Nintende
 perex: Experiment Benja Edwardsa prináša na starú konzolu malý jazykový model s 2,2 milióna parametrov. Odpovede sú obmedzené, no projekt možno spustiť aj na skutočnom SNES-e.
 sekcia: hardver
 tagy:
-- Super Nintendo
-- SNES
-- ChatGPT
-- umelá inteligencia
-publikovane: '2026-11-22T03:34:04+00:00'
+  - Super Nintendo
+  - SNES
+  - ChatGPT
+  - umelá inteligencia
+publikovane: 2026-11-22T03:34:04+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/chatbot-inspirovany-chatgpt-bezi-na-super-nintende-mwsfqa9p.jpg
+  alt: Nintendo-Super-NES-Console-101-FL
+  popisok: Nintendo-Super-NES-Console-101-FL
+  kredit: Evan-Amos / Wikimedia Commons
+  licencia: Public domain
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'The Register: ChatGPT shrunk down to run on a Super Nintendo'
-  url: https://www.theregister.com/offbeat/2026/11/21/chatgpt-shrunk-down-to-run-on-a-super-nintendo/5311418
-- nazov: 'Tom''s Hardware: 35-year-old SNES runs ChatGPT, accelerated with a Super FX 2 chip — 21 MHz of RISC muscle speeds 2.2M parameter chatbot replies'
-  url: https://www.tomshardware.com/tech-industry/artificial-intelligence/35-year-old-snes-runs-chatgpt-accelerated-with-a-super-fx-2-chip-21-mhz-of-risc-muscle-speeds-2-2m-parameter-chatbot-replies
+  - nazov: "The Register: ChatGPT shrunk down to run on a Super Nintendo"
+    url: https://www.theregister.com/offbeat/2026/11/21/chatgpt-shrunk-down-to-run-on-a-super-nintendo/5311418
+  - nazov: "Tom's Hardware: 35-year-old SNES runs ChatGPT, accelerated with a Super FX 2 chip — 21 MHz of RISC muscle speeds 2.2M parameter chatbot replies"
+    url: https://www.tomshardware.com/tech-industry/artificial-intelligence/35-year-old-snes-runs-chatgpt-accelerated-with-a-super-fx-2-chip-21-mhz-of-risc-muscle-speeds-2-2m-parameter-chatbot-replies
 ---
 
 Benj Edwards vytvoril chatbot pre konzolu Super Nintendo, ktorý využíva jazykový model s 2,2 milióna parametrov. Projekt ChatGPT for SNES si možno vyskúšať v emulátore aj stiahnuť ako ROM pre skutočný hardvér. Nejde však o zmenšenú verziu dnešného asistenta s porovnateľnými schopnosťami: tvorca ho opisuje ako experiment, ktorý často odpovedá nesprávne.
