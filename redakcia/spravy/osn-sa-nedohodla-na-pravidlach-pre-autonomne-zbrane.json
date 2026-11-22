@@ -1,0 +1,406 @@
+{
+  "slug": "osn-sa-nedohodla-na-pravidlach-pre-autonomne-zbrane",
+  "datum_sprav": "2026-11-21",
+  "dovod_vyberu": "Neúspech OSN pri regulácii autonómnych zbraní je dôležitá globálna téma s etickými a bezpečnostnými implikáciami.",
+  "poznamky_pre_editora": "Čerpané z jediného zdroja The Verge, ktorý pri opise prekážok cituje NPR. Pred publikovaním overiť presné znenie a stav rokovaní, najmä tvrdenie o úlohe Izraela; zdroj neuvádza jeho konkrétny postup. Rozlišovať medzi dvojročnou lehotou na predloženie návrhov a prijatím pravidiel, ku ktorému nedošlo.",
+  "upozornenia": [
+    "Téma má len jeden zdroj. Redakčné zásady žiadajú aspoň dva, zvážte doplnenie alebo zahodenie."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojovom článku The Verge. Najvážnejším problémom nie je žiadna faktická chyba, ale absencia priameho odkazu na zdroj v texte, čo je však skôr redakčná záležitosť.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 20,
+        "potvrdenych": 20,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Diplomati OSN v Ženeve sa po týždni rokovaní nedohodli na pravidlách pre autonómne zbrane, označované aj ako „zabijacké roboty“.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "The UN fails to agree on rules regulating ‘killer robots’",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výsledkom bolo len spoločné stanovisko, že krajiny začnú diskutovať o možnostiach regulácie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "representatives left the meetings agreeing to “start discussing options”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dohoda tak zatiaľ neurčuje, ktoré zbrane obmedziť ani ako prípadné pravidlá vymáhať.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Negotiations between countries on which regulations to adopt and how to enforce them will likely drag on well beyond that.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Medzinárodný výbor Červeného kríža (MVČK), ktorý dohliada na Ženevské konvencie, pred rokovaniami vyzval na vypracovanie právne záväzných pravidiel do jedného roka.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "the International Committee of the Red Cross, the guardian of the Geneva Conventions, said it was urgent for legally binding rules to be drafted within a year.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa The Verge túto požiadavku podporili aj generálny tajomník OSN a pápež Lev.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "That call was backed by the U.N. secretary-general and by Pope Leo.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Krajiny sa napokon dohodli na miernejšom postupe: návrhy regulácie majú predložiť do dvoch rokov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "The compromise reached was that countries would instead have two years to propose regulations.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ani tento termín však neznamená, že vtedy budú pravidlá schválené. O ich podobe a presadzovaní sa bude rokovať až následne a podľa The Verge môžu rokovania trvať podstatne dlhšie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Negotiations between countries on which regulations to adopt and how to enforce them will likely drag on well beyond that.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kompromis ponecháva otvorenú aj možnosť, že časť budúcich opatrení nebude právne záväzná.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "room was left for some of those yet-to-be-adopted regulations to remain “optional.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "To je dôležitý rozdiel oproti požiadavke MVČK na záväzné pravidlá: krajiny sa zatiaľ nezhodli ani na tom, či regulácia musí mať takúto podobu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "room was left for some of those yet-to-be-adopted regulations to remain “optional.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Samotný výsledok stretnutia preto nepredstavuje zákaz autonómnych zbraní ani prijatie spoločných obmedzení. Ide o dohodu pokračovať v diskusii.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Countries agree to ‘start discussing options’ for rules around autonomous weapons.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Z rokovaní podľa dostupnej správy nevzišli konkrétne podmienky, ktoré by určovali, aké systémy by pravidlá zahŕňali.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Negotiations between countries on which regulations to adopt and how to enforce them will likely drag on well beyond that.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Verge s odvolaním na NPR uvádza, že medzi hlavné prekážky patrili Rusko, Izrael a Spojené štáty.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "According to NPR, Russia, Israel, and the US proved to be the primary obstructions:",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rusko podľa tejto správy hneď v prvý deň namietalo proti programu rokovania a zdržalo jeho začiatok.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "On day one, Russia delayed proceedings by objecting to the meeting’s agenda.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spojené štáty následne navrhli päťročné obdobie na diskusiu o nezáväzných, dobrovoľných usmerneniach.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Then the United States proposed a five-year window to discuss nonbinding, optional guidelines for autonomous weapons.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tento americký návrh sa líšil od výzvy na záväzné pravidlá v horizonte jedného roka.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Then the United States proposed a five-year window to discuss nonbinding, optional guidelines for autonomous weapons.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Konečný kompromis počíta s dvoma rokmi na predloženie návrhov, nie s prijatím pravidiel.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "The compromise reached was that countries would instead have two years to propose regulations.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Správa však neuvádza, aké konkrétne stanovisko zastával Izrael, hoci ho zaraďuje medzi hlavné prekážky.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "According to NPR, Russia, Israel, and the US proved to be the primary obstructions:",
+        "komentar": "Zdroj spomína Izrael ako prekážku, ale nešpecifikuje jeho stanovisko.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Humanitárne organizácie a niektoré štáty podľa The Verge žiadajú rýchlejšiu dohodu, pretože poloautonómne zbrane a drony podľa nich prispeli k značnému počtu civilných obetí v konfliktoch.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Humanitarian organizations and some countries see a need to urgently adopt legally binding rules as semi-autonomous weapons and drones have been responsible for a significant number of civilian deaths in conflicts around the globe",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Článok spomína Ukrajinu, Gazu a Sudán.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "including in Ukraine, Gaza, and Sudan.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zatiaľ nie je jasné, kedy sa rokovania o konkrétnych pravidlách skončia. Súčasný výsledok iba otvára ďalšiu fázu diskusie; spôsob regulácie aj jej vymáhanie zostávajú predmetom budúcich rokovaní.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Negotiations between countries on which regulations to adopt and how to enforce them will likely drag on well beyond that.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "lách pre autonómne zbrane, označované aj ako „zabijacké roboty“. Výsledkom bolo len ",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "zabijacké",
+        "kontext": "re autonómne zbrane, označované aj ako „zabijacké roboty“. Výsledkom bolo len spoločné st",
+        "navrhy": [
+          "zabíjačke",
+          "nabíjačke",
+          "zabijacký"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "tiaľ neurčuje, ktoré zbrane obmedziť ani ako prípadné pravidlá vymáhať.\n\n## Výzva na",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "právne",
+        "kontext": "pred rokovaniami vyzval na vypracovanie právne záväzných pravidiel do jedného roka. Po",
+        "navrhy": [
+          "právnych"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (právne) \"právnych\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "právne",
+        "kontext": "žnosť, že časť budúcich opatrení nebude právne záväzná. To je dôležitý rozdiel oproti ",
+        "navrhy": [
+          "právna"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (právne) \"právna\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "poloautonómne",
+        "kontext": "erge žiadajú rýchlejšiu dohodu, pretože poloautonómne zbrane a drony podľa nich prispeli k zn",
+        "navrhy": [
+          "polo autonómne"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "drony",
+        "kontext": " dohodu, pretože poloautonómne zbrane a drony podľa nich prispeli k značnému počtu ci",
+        "navrhy": [
+          "Dony",
+          "Hrony",
+          "Rony"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg/1280px-Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13611631/503831564.jpg.jpg?quality=90&strip=all&crop=0,11.089604074363,100,77.820791851273",
+        "zdroj_clanku": "The Verge",
+        "alt": "US Conducts Air War Against ISIL From Secret Base In Persian Gulf Region",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "United Nations Headquarters",
+      "UN building",
+      "military drone"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg/1280px-Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg/1280px-Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231001_1103_1006.jpg",
+        "nazov": "Headquarters of the United Nations, New York City, 20231001 1103 1006.jpg",
+        "autor": "Jakub Hałun",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Headquarters_of_the_United_Nations,_New_York_City,_20231001_1103_1006.jpg",
+        "povod": "wikimedia",
+        "dopyt": "United Nations Headquarters"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/United_Nations_Headquarters_in_New_York_City%2C_view_from_Roosevelt_Island.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/ec8b9a75-6cca-48d4-9f2d-fe927a2bbfff/thumb/",
+        "nazov": "United Nations Headquarters in New York City, view from Roosevelt Island",
+        "autor": "Neptuul",
+        "licencia": "BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=31552107",
+        "povod": "openverse",
+        "dopyt": "United Nations Headquarters"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/United_Nations_Building%2C_Geneva_%28Ank_Kumar%29_04.jpg/1280px-United_Nations_Building%2C_Geneva_%28Ank_Kumar%29_04.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/United_Nations_Building%2C_Geneva_%28Ank_Kumar%29_04.jpg/1280px-United_Nations_Building%2C_Geneva_%28Ank_Kumar%29_04.jpg",
+        "nazov": "United Nations Building, Geneva (Ank Kumar) 04.jpg",
+        "autor": "Ank gsx",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:United_Nations_Building,_Geneva_(Ank_Kumar)_04.jpg",
+        "povod": "wikimedia",
+        "dopyt": "UN building"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Nyc-un-building.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/e4281eb2-aae0-4973-90f9-9db71405bd75/thumb/",
+        "nazov": "Nyc-un-building",
+        "autor": "",
+        "licencia": "BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=69002",
+        "povod": "openverse",
+        "dopyt": "UN building"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/UA_military_FPV_drones_02.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/4/4a/UA_military_FPV_drones_02.jpg",
+        "nazov": "UA military FPV drones 02.jpg",
+        "autor": "АрміяInform",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:UA_military_FPV_drones_02.jpg",
+        "povod": "wikimedia",
+        "dopyt": "military drone"
+      },
+      {
+        "url": "https://live.staticflickr.com/8397/8625784588_b8b68c7ef1_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/4fcea18c-8e1a-4697-9b8b-7e73b9644b47/thumb/",
+        "nazov": "Protest against US wars and military drones",
+        "autor": "Fibonacci Blue",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/44550450@N04/8625784588",
+        "povod": "openverse",
+        "dopyt": "military drone"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Shore_of_the_East_River_with_Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231005_1132_2230.jpg/1280px-Shore_of_the_East_River_with_Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231005_1132_2230.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Shore_of_the_East_River_with_Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231005_1132_2230.jpg/1280px-Shore_of_the_East_River_with_Headquarters_of_the_United_Nations%2C_New_York_City%2C_20231005_1132_2230.jpg",
+        "nazov": "Shore of the East River with Headquarters of the United Nations, New York City, 20231005 1132 2230.jpg",
+        "autor": "Jakub Hałun",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Shore_of_the_East_River_with_Headquarters_of_the_United_Nations,_New_York_City,_20231005_1132_2230.jpg",
+        "povod": "wikimedia",
+        "dopyt": "United Nations Headquarters"
+      },
+      {
+        "url": "https://live.staticflickr.com/8202/8190418837_f49edc3ca1_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/1aed2ba8-fcde-4ac1-8d0c-ae93b584b8d1/thumb/",
+        "nazov": "United Nations Headquarters and the Trump World Tower",
+        "autor": "Reading Tom",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/16801915@N06/8190418837",
+        "povod": "openverse",
+        "dopyt": "United Nations Headquarters"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a distant robotic silhouette behind a translucent diplomatic conference table, with abstract protective barriers and no people, logos, or text."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a distant robotic silhouette behind a translucent diplomatic conference table, with abstract protective barriers and no people, logos, or text.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/5ceb55e3c3d3d0b133f7184decec7504",
+  "text_agentov": {
+    "titulok": "OSN sa nedohodla na pravidlách pre autonómne zbrane",
+    "perex": "Diplomati v Ženeve sa po týždni rokovaní zhodli iba na tom, že začnú diskutovať o možnostiach regulácie. Návrh pravidiel môže byť na stole až o dva roky a niektoré opatrenia by mohli zostať dobrovoľné.",
+    "telo": "Diplomati OSN v Ženeve sa po týždni rokovaní nedohodli na pravidlách pre autonómne zbrane, označované aj ako „zabijacké roboty“. Výsledkom bolo len spoločné stanovisko, že krajiny začnú diskutovať o možnostiach regulácie. Dohoda tak zatiaľ neurčuje, ktoré zbrane obmedziť ani ako prípadné pravidlá vymáhať.\n\n## Výzva na rýchlejšiu dohodu\n\nMedzinárodný výbor Červeného kríža (MVČK), ktorý dohliada na Ženevské konvencie, pred rokovaniami vyzval na vypracovanie právne záväzných pravidiel do jedného roka. Podľa The Verge túto požiadavku podporili aj generálny tajomník OSN a pápež Lev.\n\nKrajiny sa napokon dohodli na miernejšom postupe: návrhy regulácie majú predložiť do dvoch rokov. Ani tento termín však neznamená, že vtedy budú pravidlá schválené. O ich podobe a presadzovaní sa bude rokovať až následne a podľa The Verge môžu rokovania trvať podstatne dlhšie.\n\n## Niektoré pravidlá môžu byť dobrovoľné\n\nKompromis ponecháva otvorenú aj možnosť, že časť budúcich opatrení nebude právne záväzná. To je dôležitý rozdiel oproti požiadavke MVČK na záväzné pravidlá: krajiny sa zatiaľ nezhodli ani na tom, či regulácia musí mať takúto podobu.\n\nSamotný výsledok stretnutia preto nepredstavuje zákaz autonómnych zbraní ani prijatie spoločných obmedzení. Ide o dohodu pokračovať v diskusii. Z rokovaní podľa dostupnej správy nevzišli konkrétne podmienky, ktoré by určovali, aké systémy by pravidlá zahŕňali.\n\n## Spory o rokovania aj ich rozsah\n\nThe Verge s odvolaním na NPR uvádza, že medzi hlavné prekážky patrili Rusko, Izrael a Spojené štáty. Rusko podľa tejto správy hneď v prvý deň namietalo proti programu rokovania a zdržalo jeho začiatok. Spojené štáty následne navrhli päťročné obdobie na diskusiu o nezáväzných, dobrovoľných usmerneniach.\n\nTento americký návrh sa líšil od výzvy na záväzné pravidlá v horizonte jedného roka. Konečný kompromis počíta s dvoma rokmi na predloženie návrhov, nie s prijatím pravidiel. Správa však neuvádza, aké konkrétne stanovisko zastával Izrael, hoci ho zaraďuje medzi hlavné prekážky.\n\n## Dôvodom sú aj civilné obete\n\nHumanitárne organizácie a niektoré štáty podľa The Verge žiadajú rýchlejšiu dohodu, pretože poloautonómne zbrane a drony podľa nich prispeli k značnému počtu civilných obetí v konfliktoch. Článok spomína Ukrajinu, Gazu a Sudán.\n\nZatiaľ nie je jasné, kedy sa rokovania o konkrétnych pravidlách skončia. Súčasný výsledok iba otvára ďalšiu fázu diskusie; spôsob regulácie aj jej vymáhanie zostávajú predmetom budúcich rokovaní."
+  }
+}
