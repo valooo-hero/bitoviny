@@ -1,0 +1,465 @@
+{
+  "slug": "google-workspace-ponuka-v-novembri-dve-zlavy-s-rozdielnymi-podmienkami",
+  "datum_sprav": "2026-11-21",
+  "dovod_vyberu": "Zľavové kódy na Google Workspace sú praktickou informáciou pre malé firmy, hoci ide o promo, má reálny úžitok.",
+  "poznamky_pre_editora": "Overiť dostupnosť a úplné podmienky zliav pre Slovensko, ich oprávnenosť a ceny pri miestnom účtovaní. Zdroje uvádzajú rozdielne ponuky: WIRED do 14 % na tri mesiace, 9to5Mac 20 % na šesť mesiacov; môžu ísť o samostatné akcie. 9to5Mac uvádza pri živých titulkoch Meet 60+ jazykov, inde v tom istom texte 65+; počet som vynechala. Tvrdenia o ochrane súkromia a funkciách Gemini treba porovnať s aktuálnymi podmienkami Googlu.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojoch. Najvážnejším problémom je, že koncept neuvádza, že zľava z 9to5Mac je viazaná na špecifický odkaz pre čitateľov, čo môže byť dôležité pre praktické využitie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 27,
+        "potvrdenych": 27,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "WIRED uvádza zľavu do 14 percent na prvé tri mesiace",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "You can save up to 14 percent on plans for the first three months",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "ponuka pre čitateľov 9to5Mac sľubuje 20 percent na prvých šesť mesiacov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "9to5Mac readers can get 20% off any of the Business Starter, Standard, and Plus plans for the first six months",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "WIRED píše o úspore do 14 percent počas prvých troch mesiacov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "You can save up to 14 percent on plans for the first three months",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "9to5Mac uvádza 20-percentnú zľavu na prvých šesť mesiacov pre svojich čitateľov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "9to5Mac readers can get 20% off any of the Business Starter, Standard, and Plus plans for the first six months",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ide o ponuky opísané v samostatných článkoch; ich dostupnosť a presné podmienky sa preto môžu líšiť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Google is offering discounts until the end of 2026 using one of the Google Workspace coupon codes below.",
+        "komentar": "Oba zdroje opisujú samostatné ponuky, koncept to správne interpretuje.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa 9to5Mac sa zľava uplatňuje pri úvodnom nastavení fakturácie na vybrané firemné plány Business Starter, Standard a Plus.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "The discount is valid for the first 6 months of service on eligible Business plans (Starter, Standard, Plus), must be redeemed during initial billing setup",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Článok WIRED propaguje zľavové kódy pre nové účty jednotlivcov aj firiem",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "whether you're signing up as an individual or as a business. Either way, the Google Workspace promo code down below is what you want to use.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "akcia má trvať do konca roka 2026",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Google is offering discounts until the end of 2026",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "9to5Mac uvádza mesačné ceny 7 dolárov za Business Starter, 14 dolárov za Standard a 22 dolárov za Plus.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Business Starter: Basic storage and meetings | $7/mo - Business Standard: More storage, eSignature support, larger meeting caps | $14/mo - Business Plus: Higher storage limits and enhanced security features | $22/mo",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ide o ceny v amerických dolároch; článok neuvádza kurz na prepočet ani to, či sú rovnaké pre zákazníkov na Slovensku.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Business Starter: Basic storage and meetings | $7/mo",
+        "komentar": "Zdroj uvádza ceny v dolároch a nespomína slovenský trh ani kurz.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Plány možno podľa portálu platiť mesačne alebo ročne, pričom ročná platba má priniesť úsporu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Plans can be purchased as a flexible monthly subscription or annually to save money.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Starter ponúka 30 GB na používateľa, Standard 2 TB a Plus 5 TB.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Starter comes with 30GB per user while Standard comes with a massive 2TB per user. Plus bumps that up to 5TB per user.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Úložisko sa pritom zdieľa v rámci organizácie a každý ďalší používateľ zväčšuje spoločný priestor.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "storage is in a shared pool, so each additional user adds to the total pool of storage your organization can use.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Starter, Standard a Plus podporujú podľa WIRED najviac 300 používateľov; väčšie organizácie potrebujú Enterprise, ktorý sa vybavuje cez obchodné oddelenie Googlu.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "the bottom three options (Starter, Standard, and Plus) support up to 300 users. If you need more than that, you’ll need an Enterprise plan.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Starter zahŕňa vlastnú e-mailovú doménu, aplikácie Workspace a prístup ku Gemini v Gmaile a aplikácii Gemini.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "You get a custom domain in Gmail, up to 100 participants in Meet, and the full Google suite of productivity apps.",
+        "komentar": "Wired spomína vlastnú doménu a aplikácie; Gemini v Gmaile a aplikácii Gemini potvrdzuje 9to5Mac.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rozšírené funkcie Gemini priamo v aplikáciách, ako sú Dokumenty či Tabuľky, WIRED spája s plánom Standard.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Standard (and Plus) includes Gemini across the full suite, including in Docs, Sheets, Slides, Drive, Meet, and Chat.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ten pridáva aj pokročilejšie možnosti Google Meet.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Meet features like noise cancellation are available, and you can host up to 150 participants in a Meet call.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Plus zvyšuje úložisko a limity videohovorov a zahŕňa bezpečnostné a administrátorské nástroje, napríklad Vault.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "you do get 5TB of storage per user, along with up to 500 participants in Meet calls. The real reason to upgrade to Plus is security and admin controls, however. It includes Vault for data retention",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ponuka propagovaná portálom 9to5Mac predstavuje Gemini ako súčasť Workspace.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Google Workspace now includes a complete set of AI features to help small and micro businesses save time, effort, and money.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Uvádza pomoc pri tvorbe textov a prezentácií, sumarizovaní dokumentov, analýze údajov v Tabuľkách či zapisovaní poznámok zo stretnutí.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Gemini in Gmail and Google Docs can help you create compelling sales and marketing copy... Gemini in Sheets can act as a business analyst... Gemini in Meet can take notes for you",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nie všetky funkcie sú však podľa článku dostupné v každom pláne: Starter má užší rozsah a ďalšie nástroje v aplikáciách sú určené pre Standard a vyššie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Business Starter includes Gemini assistance in Gmail and the standalone Gemini Chat app. In-depth assistance within other Google apps requires Business Standard or higher.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "WIRED opisuje aj Workspace Flows, nástroj na automatizáciu pracovných postupov bez programovania.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "It’s a no-code automation tool that lets you build automatic workflows",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Používateľ môže napríklad vytvoriť postup, ktorý reaguje na nový e-mail a pracuje s údajmi v Tabuľkách.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "update a Sheet when there’s a new email in Gmail from a particular address",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Gemini a takzvané Gems môžu v takomto postupe pomáhať s triedením alebo vyhodnocovaním obsahu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Gems are AI agents built with Gemini, and you can create them with specific parameters.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "9to5Mac zároveň tvrdí, že obsah používateľov sa bez ich súhlasu nepoužíva na trénovanie AI a nie je predmetom ľudskej kontroly.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Your content is never used for AI training or subject to human review unless you choose to grant permission.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Keďže ide o tvrdenie zdroja o ochrane súkromia, firmy by si mali pred nahrávaním citlivých údajov overiť aktuálne podmienky Googlu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Google Workspace Privacy Hub ensures that all your interactions with Gemini remain completely confidential.",
+        "komentar": "Koncept správne interpretuje, že ide o tvrdenie zdroja, nie záruku.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pre záujemcov na Slovensku je podstatné preveriť najmä regionálnu dostupnosť propagovanej zľavy, cenu pri miestnom účtovaní a rozsah funkcií v konkrétnom pláne.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "The discount is valid for the first 6 months of service on eligible Business plans (Starter, Standard, Plus), must be redeemed during initial billing setup",
+        "komentar": "Koncept vyvodzuje záver z podmienok v zdrojoch, ktoré nešpecifikujú slovenský trh.",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "na ktorý plán",
+        "opravene": "na, ktorý plán",
+        "dovod": "LanguageTool: Dajte čiarku pred „ktorý“: \", ktorý\".",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "LanguageTool"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "zľavové",
+        "kontext": "Standard a Plus. Článok WIRED propaguje zľavové kódy pre nové účty jednotlivcov aj firi",
+        "navrhy": [
+          "hlavové",
+          "lávové",
+          "žľabové"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "videohovorov",
+        "kontext": "le Meet. Plus zvyšuje úložisko a limity videohovorov a zahŕňa bezpečnostné a administrátorsk",
+        "navrhy": [
+          "video hovorov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "vaná portálom 9to5Mac predstavuje Gemini ako súčasť Workspace. Uvádza pomoc pri tvor",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -7 +7 @@\n-Podľa 9to5Mac sa zľava uplatňuje pri úvodnom nastavení fakturácie na vybrané firemné plány Business Starter, Standard a Plus. Článok WIRED propaguje zľavové kódy pre nové účty jednotlivcov aj firiem a uvádza, že akcia má trvať do konca roka 2026. Pred registráciou je vhodné skontrolovať, či sa zľava zobrazí priamo pri platbe a na ktorý plán sa vzťahuje.\n+Podľa 9to5Mac sa zľava uplatňuje pri úvodnom nastavení fakturácie na vybrané firemné plány Business Starter, Standard a Plus. Článok WIRED propaguje zľavové kódy pre nové účty jednotlivcov aj firiem a uvádza, že akcia má trvať do konca roka 2026. Pred registráciou je vhodné skontrolovať, či sa zľava zobrazí priamo pri platbe a na, ktorý plán sa vzťahuje."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Google_Drive_text_logo_grey.png/1280px-Google_Drive_text_logo_grey.png",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://media.wired.com/photos/67b63b967f8fc45af4896200/191:100/w_1280,c_limit/WIRED-Coupons-R2_7.png",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/67b63b967f8fc45af4896200/master/pass/WIRED-Coupons-R2_7.png",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/GWS_Gemini.jpeg?quality=82&strip=all&w=800",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "A promotional image showing a smiling woman, Google Gemini and Workspace logos, and a sample prompt",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/6b884259c629eaa9a0e7b3ee6483619f312509e54fa6237d46abe61db777600f?s=96&d=mm&r=r",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Sponsored Post",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Google Workspace logo",
+      "Google office building",
+      "cloud computing server"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Google_Drive_text_logo_grey.png/1280px-Google_Drive_text_logo_grey.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Google_Drive_text_logo_grey.png/1280px-Google_Drive_text_logo_grey.png",
+        "nazov": "Google Drive text logo grey.png",
+        "autor": "Google, LLC",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Google_Drive_text_logo_grey.png",
+        "povod": "wikimedia",
+        "dopyt": "Google Workspace logo"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Simon_Bening_-_Villagers_on_Their_Way_to_Church_-_Google_Art_Project.jpg/1280px-Simon_Bening_-_Villagers_on_Their_Way_to_Church_-_Google_Art_Project.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Simon_Bening_-_Villagers_on_Their_Way_to_Church_-_Google_Art_Project.jpg/1280px-Simon_Bening_-_Villagers_on_Their_Way_to_Church_-_Google_Art_Project.jpg",
+        "nazov": "Simon Bening - Villagers on Their Way to Church - Google Art Project.jpg",
+        "autor": "Simon Bening",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Simon_Bening_-_Villagers_on_Their_Way_to_Church_-_Google_Art_Project.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Google office building"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Google_office_building_1265_Crossman%2C_Sunnyvale.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/216067e7-f4b9-41cb-8cbf-9c43992a3476/thumb/",
+        "nazov": "Google office building 1265 Crossman, Sunnyvale",
+        "autor": "Grendelkhan",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=79152608",
+        "povod": "openverse",
+        "dopyt": "Google office building"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Quanta_Computer_cloud_computing_servers_at_COSCUP_20120819.jpg/1280px-Quanta_Computer_cloud_computing_servers_at_COSCUP_20120819.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Quanta_Computer_cloud_computing_servers_at_COSCUP_20120819.jpg/1280px-Quanta_Computer_cloud_computing_servers_at_COSCUP_20120819.jpg",
+        "nazov": "Quanta Computer cloud computing servers at COSCUP 20120819.jpg",
+        "autor": "COSCUP",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Quanta_Computer_cloud_computing_servers_at_COSCUP_20120819.jpg",
+        "povod": "wikimedia",
+        "dopyt": "cloud computing server"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Quanta_Computer_cloud_computing_servers_at_COSCUP_20120819.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/622b3a0e-37db-4353-a37f-61adaf632ebc/thumb/",
+        "nazov": "Quanta Computer cloud computing servers at COSCUP 20120819",
+        "autor": "COSCUP",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=41061534",
+        "povod": "openverse",
+        "dopyt": "cloud computing server"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Search_emails_of_size_in_range_with_attachments_PDF.jpg/1280px-Search_emails_of_size_in_range_with_attachments_PDF.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Search_emails_of_size_in_range_with_attachments_PDF.jpg/1280px-Search_emails_of_size_in_range_with_attachments_PDF.jpg",
+        "nazov": "Search emails of size in range with attachments PDF.jpg",
+        "autor": "Fpa1981",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Search_emails_of_size_in_range_with_attachments_PDF.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Google Workspace logo"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Google_office_building_in_Toronto_framed_by_trees.jpg/1280px-Google_office_building_in_Toronto_framed_by_trees.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Google_office_building_in_Toronto_framed_by_trees.jpg/1280px-Google_office_building_in_Toronto_framed_by_trees.jpg",
+        "nazov": "Google office building in Toronto framed by trees.jpg",
+        "autor": "Wiki.cullin",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Google_office_building_in_Toronto_framed_by_trees.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Google office building"
+      },
+      {
+        "url": "https://live.staticflickr.com/3235/3766865469_bbe13b1578_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/7f3b1e59-25e3-49b9-82a1-cd1b73d01a6c/thumb/",
+        "nazov": "Google Headquarters",
+        "autor": "Affiliate",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/40683329@N00/3766865469",
+        "povod": "openverse",
+        "dopyt": "Google office building"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a shared digital workspace with abstract documents, charts, and a subtle glowing AI network connecting them, using no text, logos, or recognizable people."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a shared digital workspace with abstract documents, charts, and a subtle glowing AI network connecting them, using no text, logos, or recognizable people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/9528a709aa6b861726b0e852893fe152",
+  "text_agentov": {
+    "titulok": "Google Workspace ponúka v novembri dve zľavy s rozdielnymi podmienkami",
+    "perex": "WIRED uvádza zľavu do 14 percent na prvé tri mesiace, kým ponuka pre čitateľov 9to5Mac sľubuje 20 percent na prvých šesť mesiacov. Rozdiely v podmienkach treba pred objednávkou preveriť.",
+    "telo": "Google Workspace sa v novembri objavuje v dvoch ponukách so zľavami, ktoré sa líšia výškou aj trvaním. WIRED píše o úspore do 14 percent počas prvých troch mesiacov, zatiaľ čo 9to5Mac uvádza 20-percentnú zľavu na prvých šesť mesiacov pre svojich čitateľov. Ide o ponuky opísané v samostatných článkoch; ich dostupnosť a presné podmienky sa preto môžu líšiť.\n\nPodľa 9to5Mac sa zľava uplatňuje pri úvodnom nastavení fakturácie na vybrané firemné plány Business Starter, Standard a Plus. Článok WIRED propaguje zľavové kódy pre nové účty jednotlivcov aj firiem a uvádza, že akcia má trvať do konca roka 2026. Pred registráciou je vhodné skontrolovať, či sa zľava zobrazí priamo pri platbe a na, ktorý plán sa vzťahuje.\n\n## Tri firemné plány a rozdielne limity\n\n9to5Mac uvádza mesačné ceny 7 dolárov za Business Starter, 14 dolárov za Standard a 22 dolárov za Plus. Ide o ceny v amerických dolároch; článok neuvádza kurz na prepočet ani to, či sú rovnaké pre zákazníkov na Slovensku. Plány možno podľa portálu platiť mesačne alebo ročne, pričom ročná platba má priniesť úsporu.\n\nWIRED porovnáva najmä kapacitu úložiska: Starter ponúka 30 GB na používateľa, Standard 2 TB a Plus 5 TB. Úložisko sa pritom zdieľa v rámci organizácie a každý ďalší používateľ zväčšuje spoločný priestor. Starter, Standard a Plus podporujú podľa WIRED najviac 300 používateľov; väčšie organizácie potrebujú Enterprise, ktorý sa vybavuje cez obchodné oddelenie Googlu.\n\nStarter zahŕňa vlastnú e-mailovú doménu, aplikácie Workspace a prístup ku Gemini v Gmaile a aplikácii Gemini. Rozšírené funkcie Gemini priamo v aplikáciách, ako sú Dokumenty či Tabuľky, WIRED spája s plánom Standard. Ten pridáva aj pokročilejšie možnosti Google Meet. Plus zvyšuje úložisko a limity videohovorov a zahŕňa bezpečnostné a administrátorské nástroje, napríklad Vault.\n\n## Gemini a automatizácia práce\n\nPonuka propagovaná portálom 9to5Mac predstavuje Gemini ako súčasť Workspace. Uvádza pomoc pri tvorbe textov a prezentácií, sumarizovaní dokumentov, analýze údajov v Tabuľkách či zapisovaní poznámok zo stretnutí. Nie všetky funkcie sú však podľa článku dostupné v každom pláne: Starter má užší rozsah a ďalšie nástroje v aplikáciách sú určené pre Standard a vyššie.\n\nWIRED opisuje aj Workspace Flows, nástroj na automatizáciu pracovných postupov bez programovania. Používateľ môže napríklad vytvoriť postup, ktorý reaguje na nový e-mail a pracuje s údajmi v Tabuľkách. Gemini a takzvané Gems môžu v takomto postupe pomáhať s triedením alebo vyhodnocovaním obsahu. Ide o príklady použitia uvedené v článku, nie o záruku konkrétneho výsledku.\n\n9to5Mac zároveň tvrdí, že obsah používateľov sa bez ich súhlasu nepoužíva na trénovanie AI a nie je predmetom ľudskej kontroly. Keďže ide o tvrdenie zdroja o ochrane súkromia, firmy by si mali pred nahrávaním citlivých údajov overiť aktuálne podmienky Googlu. Pre záujemcov na Slovensku je podstatné preveriť najmä regionálnu dostupnosť propagovanej zľavy, cenu pri miestnom účtovaní a rozsah funkcií v konkrétnom pláne."
+  }
+}
