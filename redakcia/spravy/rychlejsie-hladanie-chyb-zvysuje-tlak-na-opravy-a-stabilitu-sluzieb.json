@@ -1,0 +1,464 @@
+{
+  "slug": "rychlejsie-hladanie-chyb-zvysuje-tlak-na-opravy-a-stabilitu-sluzieb",
+  "datum_sprav": "2026-11-21",
+  "dovod_vyberu": "Výpadky AWS majú širší dosah na digitálnu infraštruktúru a sú relevantné pre čitateľov v EÚ.",
+  "poznamky_pre_editora": "Nálezy k číslam 25 a 100 nepovažujem za chyby a tvrdenia som ponechala: zdroj Wired uvádza „around 25,000 recorded vulnerabilities“ za rok 2022 a že počet zraniteľností v roku 2026 „surpassed 100,000“. Čísla sú teda podložené zdrojom.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojoch. Najvážnejším problémom nie je žiadna faktická chyba, ale možná interpretácia, že AI priamo spôsobila výpadky, hoci zdroje to výslovne popierajú.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 26,
+        "potvrdenych": 26,
+        "chyb": 2,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 27,
+        "potvrdenych": 27,
+        "chyb": 2,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 27,
+        "potvrdenych": 27,
+        "chyb": 2,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_cisel",
+        "zavaznost": "chyba",
+        "text": "Číslo 25",
+        "komentar": "Číslo je v koncepte, ale v žiadnom zdroji sa nenachádza.",
+        "navrh_opravy": "Opraviť podľa zdroja alebo vypustiť. Ak ide o prepočet, uviesť to v poznámkach."
+      },
+      {
+        "povod": "kontrola_cisel",
+        "zavaznost": "chyba",
+        "text": "Číslo 100",
+        "komentar": "Číslo je v koncepte, ale v žiadnom zdroji sa nenachádza.",
+        "navrh_opravy": "Opraviť podľa zdroja alebo vypustiť. Ak ide o prepočet, uviesť to v poznámkach."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Nedávne výpadky podľa dostupných informácií nespôsobila koordinovaná hackerská kampaň ani umelá inteligencia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "While there’s no evidence that these were cyberattacks... The incidents were definitely not caused by some sort of coordinated AI hacking spree",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Bezpečnostní odborníci varujú, že AI zrýchľuje objavovanie zraniteľností aj tlak na ich rýchle opravovanie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "AI-assisted vulnerability discovery has unleashed a torrent of software bugs. Attackers are then using AI tools to exploit those vulnerabilities faster",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výpadky služieb Microsoftu, Applu, viacerých amerických bánk, United Airlines aj internej komunikačnej siete NSA vyvolali špekulácie o spoločnej príčine.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "the disruptive streak of technical outages that hit everything from Outlook to Apple, a half dozen US banks, United Airlines, and even the NSA’s classified network",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dôkazy o koordinovanom kybernetickom útoku však podľa magazínu Wired nie sú.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "While there’s no evidence that these were cyberattacks",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jednotlivé incidenty mali bežné príčiny, napríklad chybnú aktualizáciu alebo problémy so sieťou.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "taken individually, they all seem to have routine explanations",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nástroje AI pomáhajú výskumníkom rýchlejšie nachádzať zraniteľnosti.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "AI-assisted vulnerability discovery has unleashed a torrent of software bugs.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Útočníci zas môžu automatizáciu využiť na rýchlejšie zneužitie známych nedostatkov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Attackers are then using AI tools to exploit those vulnerabilities faster",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Organizácie tak musia vyhodnotiť a nasadiť čoraz viac opráv v kratšom čase, často na systémy, od ktorých závisia ďalšie služby.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "puts more pressure than ever on organizations to quickly patch their systems... IT teams scrambling to evaluate a massive number of patches",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Wired uvádza, že nedávny rozsiahly výpadok Microsoft 365 súvisel s chybnou aktualizáciou infraštruktúry a ďalšími problémami siete.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Microsoft’s massive 365 outage last week was caused by a flawed update in its infrastructure exacerbated by other network failures.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "NSA pripísala výpadok svojej internej komunikačnej siete nepodarenej oprave po kritických októbrových aktualizáciách PHP.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "the NSA outage to its internal communication system was due to botched patching following October’s critical PHP updates.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Apple zase oznámil, že jeho problémy súviseli s internou aktualizáciou.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Apple also said its snafus this week related to an internal update.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tieto vysvetlenia neznamenajú, že incidenty zapríčinila AI; ukazujú však, ako sa chyba pri nasadzovaní môže prejaviť vo veľkom rozsahu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The incidents were definitely not caused by some sort of coordinated AI hacking spree",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rýchlejšie opravy sú dôležité, pretože útočníci môžu chyby začať zneužívať krátko po ich odhalení.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "a “patch needs to go instantly from being available to being patched in production because it’s being exploited in the wild.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zároveň však urýchlené nasadzovanie zvyšuje riziko, že aktualizácia sama spôsobí problém.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "AI vulnerability discovery and the resulting patching are “putting tremendous strain on systems that weren’t built to handle that pace of change,”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Satya Nadella, šéf Microsoftu, podľa Wired upozornil, že ďalšia nestabilita môže vzniknúť, keď treba opravu nasadiť okamžite po jej sprístupnení.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Microsoft CEO Satya Nadella said this week, because a “patch needs to go instantly from being available to being patched in production because it’s being exploited in the wild.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Organizácie zápasia aj s takzvaným technickým dlhom: roky odkladanou modernizáciou a údržbou systémov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "many organizations around the world have a significant amount of what’s often called “tech debt,” because they have cut corners and failed to invest in upgrading and maintaining their digital systems for years.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Joe Slowik z Dataminr povedal Wired, že bezpečnostné tímy môžu stratiť čas na overenie opráv, ktorý predtým mali.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "“Historically, even a couple of years ago, a vendor releases a patch for a nasty bug. You might have some time to do some validation and apply it,” says Joe Slowik... “Now, that may not even be an option, because we’re talking about turnaround times that completely defeat the ability to do patch verification.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "AI im pri triedení a príprave aktualizácií pomôže, no podľa bezpečnostnej výskumníčky Ley Schönherrovej nenahradí ľudské posúdenie toho, či oprava rieši príčinu a či podobný problém nie je aj inde.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "“AI can help, but people still need to understand what went wrong, check that the patch addresses the cause, and look for similar issues elsewhere,” says Lea Schönherr",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Portál The Register upozornil na samostatný incident AWS z 15. novembra.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "But on November 15, AWS confirmed an incident that disrupted 11 of those ~12 good services in their oldest and most important region, us-east-1.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa jeho opisu zasiahol služby v regióne us-east-1 a komplikoval najmä prihlasovanie správcov do účtov AWS.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "the services that were most impacted (IAM Identity Center) were for engineers signing in to AWS accounts",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Keďže sa odohral nadránom v nedeľu tichomorského času a používatelia nemuseli priamo vidieť nefunkčnú aplikáciu, získal menšiu pozornosť než rozsiahlejšie výpadky.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "First, it was pre-dawn Pacific time on Sunday. Most of us slept through it; my kids aren't even up that early.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Príklad ukazuje, že počet hlásení na Downdetectori nemusí zodpovedať rozsahu technického problému.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The November 15 outage didn't produce that kind of screaming. Ironically, the tool that AWS is complaining about in the newspaper is the reason they skated by without notice on this outage.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Počet zaznamenaných zraniteľností v roku 2026 podľa Wired prekročil 100-tisíc.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "This week the total number of vulnerabilities found in 2026 surpassed 100,000.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V roku 2022 ich bolo približne 25-tisíc; tohtoročný počet mal byť už viac než dvojnásobkom súčtu za roky 2024 a 2025.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "in 2022, the final year before LLMs went mainstream, there were around 25,000 recorded vulnerabilities. And this year’s figure, with more than a month still to go, is double the combined totals of 2024 and 2025.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nie každá chyba je však rovnako nebezpečná: v katalógu americkej CISA pribudlo tento rok 300 zneužívaných zraniteľností, kým databáza VulnCheck ich evidovala 1 500.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Only 300 vulnerabilities have been added to the US Cybersecurity and Infrastructure Security Agency’s catalog of exploited vulnerabilities this year... VulnCheck... puts the number of known exploited vulnerabilities higher, at 1,500 so far in 2026",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Matthew Prince z Cloudflare predpovedá náročné obdobie, no zároveň očakáva, že AI môže v budúcnosti pomôcť lepšie zabezpečiť softvér.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Matthew Prince, CEO and cofounder of the web infrastructure giant Cloudflare, predicts that “it’s going to feel like the sky is falling for two years.” He suspects, though, that eventually AI acceleration will help defenders get on top of common vulnerabilities and better secure software in general.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zodpovednosť za jej nasadenie a prístup k infraštruktúre podľa Schönherrovej zostáva na ľuďoch a firmách.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "“Responsibility lies with the people and companies that choose to use AI and give it access to infrastructure, and there should be consequences and regulations that can be applied.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "hackerská",
+        "kontext": "ých informácií nespôsobila koordinovaná hackerská kampaň ani umelá inteligencia. Bezpečno",
+        "navrhy": [
+          "hackera",
+          "hračkárska",
+          "maskérska"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "technickým",
+        "kontext": "ní.\n\nOrganizácie zápasia aj s takzvaným technickým dlhom: roky odkladanou modernizáciou a ",
+        "navrhy": [
+          "technickom"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (technickým) \"technickom\""
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://media.wired.com/photos/6b00ba06fb286bb31d23be2b/191:100/w_1280,c_limit/Kernel-Panic-Brace-for-More-Outages-Security.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6b00ba06fb286bb31d23be2b/master/pass/Kernel-Panic-Brace-for-More-Outages-Security.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://image.theregister.com/?imageId=5311515&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "server rack",
+      "cybersecurity",
+      "data center"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Cybersecurity_vs_information_security.png/1280px-Cybersecurity_vs_information_security.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Cybersecurity_vs_information_security.png/1280px-Cybersecurity_vs_information_security.png",
+        "nazov": "Cybersecurity vs information security.png",
+        "autor": "Pcoronaf",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Cybersecurity_vs_information_security.png",
+        "povod": "wikimedia",
+        "dopyt": "cybersecurity"
+      },
+      {
+        "url": "https://live.staticflickr.com/4055/4514214062_79722300b1_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/43946083-5dd9-48d7-92fe-a0123b9cc8b4/thumb/",
+        "nazov": "Garmisch 2010 Cybersecurity Meeting",
+        "autor": "veni markovski",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/78124518@N00/4514214062",
+        "povod": "openverse",
+        "dopyt": "cybersecurity"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/1280px-Virginia_Tech_-_data_center.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/1280px-Virginia_Tech_-_data_center.jpg",
+        "nazov": "Virginia Tech - data center.jpg",
+        "autor": "Christopher Bowns",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Virginia_Tech_-_data_center.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center"
+      },
+      {
+        "url": "https://live.staticflickr.com/6156/6205315211_fe458e509e_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/ace73214-3ddb-4fba-92bd-12b15dd2d911/thumb/",
+        "nazov": "Mediq Utrecht Data center Gwan Kho",
+        "autor": "Gwan Kho",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/43669498@N05/6205315211",
+        "povod": "openverse",
+        "dopyt": "data center"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg/1280px-Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg/1280px-Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg",
+        "nazov": "Rack of Cisco Hyperflex HXAF 240c M5 nodes.jpg",
+        "autor": "Btrs",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/24/65675213_de819df88d_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c28b5999-ea14-4b83-ace1-aa2e496803a7/thumb/",
+        "nazov": "Server Rack in the Laundry Room",
+        "autor": "zdw",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/75783104@N00/65675213",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a patchwork digital network under pressure, with glowing software patches and small cracks spreading between connected servers, no text and no realistic depiction of real people or events."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a patchwork digital network under pressure, with glowing software patches and small cracks spreading between connected servers, no text and no realistic depiction of real people or events.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/dbab176cc8c30b35d4d7ae6030a3f80d",
+  "text_agentov": {
+    "titulok": "Rýchlejšie hľadanie chýb zvyšuje tlak na opravy a stabilitu služieb",
+    "perex": "Nedávne výpadky podľa dostupných informácií nespôsobila koordinovaná hackerská kampaň ani umelá inteligencia. Bezpečnostní odborníci však varujú, že AI zrýchľuje objavovanie zraniteľností aj tlak na ich rýchle opravovanie.",
+    "telo": "Výpadky služieb Microsoftu, Applu, viacerých amerických bánk, United Airlines aj internej komunikačnej siete NSA vyvolali špekulácie o spoločnej príčine. Dôkazy o koordinovanom kybernetickom útoku však podľa magazínu Wired nie sú. Jednotlivé incidenty mali bežné príčiny, napríklad chybnú aktualizáciu alebo problémy so sieťou. Bezpečnostní odborníci napriek tomu upozorňujú, že umelá inteligencia mení tempo, akým vznikajú aj zneužívajú sa softvérové chyby.\n\n## Viac chýb, menej času na opravu\n\nNástroje AI pomáhajú výskumníkom rýchlejšie nachádzať zraniteľnosti. Útočníci zas môžu automatizáciu využiť na rýchlejšie zneužitie známych nedostatkov. Organizácie tak musia vyhodnotiť a nasadiť čoraz viac opráv v kratšom čase, často na systémy, od ktorých závisia ďalšie služby.\n\nWired uvádza, že nedávny rozsiahly výpadok Microsoft 365 súvisel s chybnou aktualizáciou infraštruktúry a ďalšími problémami siete. NSA pripísala výpadok svojej internej komunikačnej siete nepodarenej oprave po kritických októbrových aktualizáciách PHP. Apple zase oznámil, že jeho problémy súviseli s internou aktualizáciou. Tieto vysvetlenia neznamenajú, že incidenty zapríčinila AI; ukazujú však, ako sa chyba pri nasadzovaní môže prejaviť vo veľkom rozsahu.\n\n## Oprava môže prísť skôr, než ju stihnú preveriť\n\nRýchlejšie opravy sú dôležité, pretože útočníci môžu chyby začať zneužívať krátko po ich odhalení. Zároveň však urýchlené nasadzovanie zvyšuje riziko, že aktualizácia sama spôsobí problém. Satya Nadella, šéf Microsoftu, podľa Wired upozornil, že ďalšia nestabilita môže vzniknúť, keď treba opravu nasadiť okamžite po jej sprístupnení.\n\nOrganizácie zápasia aj s takzvaným technickým dlhom: roky odkladanou modernizáciou a údržbou systémov. Joe Slowik z Dataminr povedal Wired, že bezpečnostné tímy môžu stratiť čas na overenie opráv, ktorý predtým mali. AI im pri triedení a príprave aktualizácií pomôže, no podľa bezpečnostnej výskumníčky Ley Schönherrovej nenahradí ľudské posúdenie toho, či oprava rieši príčinu a či podobný problém nie je aj inde.\n\n## Aj výpadok AWS mohol zostať takmer nepovšimnutý\n\nPortál The Register upozornil na samostatný incident AWS z 15. novembra. Podľa jeho opisu zasiahol služby v regióne us-east-1 a komplikoval najmä prihlasovanie správcov do účtov AWS. Keďže sa odohral nadránom v nedeľu tichomorského času a používatelia nemuseli priamo vidieť nefunkčnú aplikáciu, získal menšiu pozornosť než rozsiahlejšie výpadky. Príklad ukazuje, že počet hlásení na Downdetectori nemusí zodpovedať rozsahu technického problému.\n\nPočet zaznamenaných zraniteľností v roku 2026 podľa Wired prekročil 100-tisíc. V roku 2022 ich bolo približne 25-tisíc; tohtoročný počet mal byť už viac než dvojnásobkom súčtu za roky 2024 a 2025. Nie každá chyba je však rovnako nebezpečná: v katalógu americkej CISA pribudlo tento rok 300 zneužívaných zraniteľností, kým databáza VulnCheck ich evidovala 1 500. Matthew Prince z Cloudflare predpovedá náročné obdobie, no zároveň očakáva, že AI môže v budúcnosti pomôcť lepšie zabezpečiť softvér. Zodpovednosť za jej nasadenie a prístup k infraštruktúre podľa Schönherrovej zostáva na ľuďoch a firmách."
+  }
+}
