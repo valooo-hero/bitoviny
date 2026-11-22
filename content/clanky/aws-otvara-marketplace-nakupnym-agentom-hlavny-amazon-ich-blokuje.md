@@ -3,25 +3,26 @@ title: AWS otvára Marketplace nákupným agentom, hlavný Amazon ich blokuje
 perex: Agenti s umelou inteligenciou môžu cez AWS Marketplace vyhľadávať a kupovať vybraný softvér pomocou platobného protokolu x402. Amazon pritom podľa The Register obmedzuje ich prístup na svoj hlavný nákupný web.
 sekcia: biznis
 tagy:
-- Amazon
-- AWS Marketplace
-- AI agenti
-- x402
-- agentické nakupovanie
-publikovane: '2026-11-22T03:33:59+00:00'
+  - Amazon
+  - AWS Marketplace
+  - AI agenti
+  - x402
+  - agentické nakupovanie
+publikovane: 2026-11-22T03:33:59+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/aws-otvara-marketplace-nakupnym-agentom-hlavny-amazon-ich-blokuje-mwsfrqku.webp
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'The Register: Amazon''s split personality: AWS embraces bot commerce while main site enforces bans'
-  url: https://www.theregister.com/ai-and-ml/2026/11/20/amazons-split-personality-aws-embraces-bot-commerce-while-main-site-enforces-bans/5311493
+  - nazov: "The Register: Amazon's split personality: AWS embraces bot commerce while main site enforces bans"
+    url: https://www.theregister.com/ai-and-ml/2026/11/20/amazons-split-personality-aws-embraces-bot-commerce-while-main-site-enforces-bans/5311493
 ---
 
 Amazon pristupuje k nákupom sprostredkovaným umelou inteligenciou rozdielne podľa toho, o ktorú časť firmy ide. AWS Marketplace umožňuje AI agentom vyhľadávať a kupovať vybrané cloudové softvérové produkty. Hlavný nákupný web Amazonu pritom podľa portálu The Register blokuje prístup nákupných agentov a ďalších automatizovaných služieb.
