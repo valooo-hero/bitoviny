@@ -7,7 +7,7 @@ tagy:
   - SNES
   - ChatGPT
   - umelá inteligencia
-publikovane: 2026-11-22T03:34:04+00:00
+publikovane: 2026-11-22T22:55:28Z
 obrazok:
   src: /obrazky/chatbot-inspirovany-chatgpt-bezi-na-super-nintende-mwsfqa9p.jpg
   alt: Nintendo-Super-NES-Console-101-FL
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Register: ChatGPT shrunk down to run on a Super Nintendo"
     url: https://www.theregister.com/offbeat/2026/11/21/chatgpt-shrunk-down-to-run-on-a-super-nintendo/5311418
