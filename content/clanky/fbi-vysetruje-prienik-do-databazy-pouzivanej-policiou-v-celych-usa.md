@@ -6,7 +6,7 @@ tagy:
   - FBI
   - NCIC
   - kyberbezpečnosť
-publikovane: 2026-11-22T03:33:43+00:00
+publikovane: 2026-11-22T22:57:54Z
 obrazok:
   src: /obrazky/fbi-vysetruje-prienik-do-databazy-pouzivanej-policiou-v-celych-usa-mwsft8h4.jpg
   alt: FBI Headquarters - J. Edgar Hoover Building (53840035941)
@@ -18,6 +18,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "BleepingComputer: FBI reportedly hacked again, this time targeting nationwide police database"
     url: https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/
