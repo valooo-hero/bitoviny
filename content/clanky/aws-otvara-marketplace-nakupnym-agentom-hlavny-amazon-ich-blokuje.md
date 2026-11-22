@@ -8,7 +8,7 @@ tagy:
   - AI agenti
   - x402
   - agentické nakupovanie
-publikovane: 2026-11-22T03:33:59+00:00
+publikovane: 2026-11-22T22:56:36Z
 obrazok:
   src: /obrazky/aws-otvara-marketplace-nakupnym-agentom-hlavny-amazon-ich-blokuje-mwsfrqku.webp
   alt: Ilustračný obrázok.
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Register: Amazon's split personality: AWS embraces bot commerce while main site enforces bans"
     url: https://www.theregister.com/ai-and-ml/2026/11/20/amazons-split-personality-aws-embraces-bot-commerce-while-main-site-enforces-bans/5311493
