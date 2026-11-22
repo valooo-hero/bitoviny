@@ -3,27 +3,28 @@ title: FBI vyšetruje prienik do databázy používanej políciou v celých USA
 perex: Útočníci sa podľa medializovaných správ dostali k systému, v ktorom policajné zložky zdieľajú údaje o zatykačoch či nezvestných osobách. Rozsah incidentu ani to, či boli dáta odcudzené alebo pozmenené, zatiaľ nie sú známe.
 sekcia: bezpecnost
 tagy:
-- FBI
-- NCIC
-- kyberbezpečnosť
-publikovane: '2026-11-22T03:33:43+00:00'
+  - FBI
+  - NCIC
+  - kyberbezpečnosť
+publikovane: 2026-11-22T03:33:43+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/fbi-vysetruje-prienik-do-databazy-pouzivanej-policiou-v-celych-usa-mwsft8h4.jpg
+  alt: FBI Headquarters - J. Edgar Hoover Building (53840035941)
+  popisok: FBI Headquarters - J. Edgar Hoover Building (53840035941)
+  kredit: ajay_suresh / Wikimedia Commons
+  licencia: CC BY 2.0
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'BleepingComputer: FBI reportedly hacked again, this time targeting nationwide police database'
-  url: https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/
-- nazov: 'The Verge: The FBI and USDA were reportedly hacked'
-  url: https://www.theverge.com/tech/1039543/fbi-usda-hacked
-- nazov: 'TechCrunch: Trump says reported FBI database hack is ‘not good’'
-  url: https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/
+  - nazov: "BleepingComputer: FBI reportedly hacked again, this time targeting nationwide police database"
+    url: https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/
+  - nazov: "The Verge: The FBI and USDA were reportedly hacked"
+    url: https://www.theverge.com/tech/1039543/fbi-usda-hacked
+  - nazov: "TechCrunch: Trump says reported FBI database hack is ‘not good’"
+    url: https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/
 ---
 
 FBI vyšetruje údajný prienik do National Crime Information Center (NCIC), databázy používanej policajnými zložkami naprieč Spojenými štátmi. Informácie o incidente priniesli CNN a ďalšie médiá. Zatiaľ nie je jasné, kedy sa útočníci dostali do systému, ako prístup získali ani či z neho údaje skopírovali.
