@@ -1,0 +1,529 @@
+{
+  "slug": "amazon-zlavil-svoj-prvy-digitalny-fotoramik-az-o-polovicu",
+  "datum_sprav": "2026-11-21",
+  "dovod_vyberu": "Prvý digitálny fotorámik od Amazonu so zľavou je nový produkt, ktorý môže zaujať čitateľov.",
+  "poznamky_pre_editora": "Overiť aktuálnu cenu, trvanie zľavy a dostupnosť pred publikovaním; zdroj opisuje ponuku Amazonu a Best Buy v USA a je datovaný 21. novembra 2026. Zdroj neuvádza slovenskú ani európsku cenu. Ďalšie zdroje neboli dodané, preto nebolo možné porovnať tvrdenia.",
+  "upozornenia": [
+    "Téma má len jeden zdroj. Redakčné zásady žiadajú aspoň dva, zvážte doplnenie alebo zahodenie."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojovom článku The Verge a neobsahuje žiadne podstatné nepresnosti. Najvážnejším problémom je len to, že koncept neuvádza, že zľava je až 50 percent, čo je v titulku zdroja, ale to nie je faktická chyba.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 33,
+        "potvrdenych": 33,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Alexa Photo Frame sa začal predávať len nedávno",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Amazon only announced its first digital photo frame less than a month ago",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "počas Black Friday je v USA dostupný od 114 dolárov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "You can currently grab the Alexa Photo Frame at Amazon and Best Buy starting at $114",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zariadenie zobrazuje fotografie z Amazon Photos",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "It displays images from Amazon Photos",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "umožňuje ich vyhľadávať hlasom",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "You can also search for specific photos with voice commands",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Amazon znížil cenu svojho prvého digitálneho fotorámika Alexa Photo Frame počas výpredajov Black Friday",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Amazon’s first digital photo frame is up to 50 percent off for Black Friday",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "základné vyhotovenia sa predávajú od 114 dolárov, čo predstavuje zľavu 115 dolárov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "starting at $114 ($115 off)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Verzia s orechovým rámom stojí v Best Buy 134,99 dolára, teda o 95 dolárov menej",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "it’s also on sale at Best Buy for $134.99 ($95 off)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ide o prvú zaznamenanú zľavu na zariadenie",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "which, like with the others, is the first discount we’ve seen",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Amazon predstavil pred necelým mesiacom",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Amazon only announced its first digital photo frame less than a month ago",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ponuka sa podľa zdroja týka predajcov Amazon a Best Buy v Spojených štátoch",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "You can currently grab the Alexa Photo Frame at Amazon and Best Buy",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Verge neuvádza cenu ani dostupnosť v Európe",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "You can currently grab the Alexa Photo Frame at Amazon and Best Buy starting at $114",
+        "komentar": "Zdroj spomína len americké predajne, o Európe sa nezmieňuje.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Fotorámik má 10-palcový dotykový displej s polomatným povrchom",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "The Alexa Photo Frame features a 10-inch, semi-matte touchscreen",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "ktorý má podľa Amazonu pôsobiť prirodzenejšie pri zobrazovaní fotografií",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "designed to make digital photos look more natural",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zabudované svetelné snímače automaticky upravujú jas počas dňa",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "built-in light sensors that automatically adjust brightness throughout the day",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zákazníci si môžu vybrať medzi čiernym, brezovým a orechovým vyhotovením",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "If you prefer the walnut trim over the birch or standard black models",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "zľava na orechový rám je dostupná v Best Buy",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "it’s also on sale at Best Buy for $134.99 ($95 off)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Do nej možno nahrávať snímky z telefónov s iOS aj Androidom vrátane fotografií uložených v iCloude",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "supports uploads from both iOS and Android devices, including photos stored in iCloud",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Používateľ si nastaví, ktoré albumy alebo osoby sa majú zobrazovať",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "You can choose which people or albums to display",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "prípadne môže výber ponechať na Alexa Plus",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "or let Alexa Plus do the work",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tá podľa zdroja môže vyberať fotografie aj podľa výrazu tváre, ročného obdobia či osvetlenia",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "which often results in photos based on your facial expression, the season, and even the lighting",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jednou z funkcií je hlasové vyhľadávanie",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "You can also search for specific photos with voice commands",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Namiesto prechádzania rozsiahlej knižnice môže používateľ požiadať Alexu o konkrétnu fotografiu, napríklad snímku prvého psa alebo dieťaťa z obdobia, keď bolo malé",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "letting you easily pull up images of your first dog, your child as a baby",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Verge opisuje túto možnosť ako spôsob, ako sa dostať k starším záberom bez ručného listovania v albumoch",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "without having to scroll endlessly through years of photos yourself",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "K jednotlivým fotografiám možno cez aplikáciu Amazon Photos pripojiť aj hlasovú nahrávku",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Amazon also lets you attach voice notes to individual photos via the Amazon Photos app",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Môže ísť napríklad o komentár dieťaťa k fotografii z Halloweenu",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "you can add a recording of your kid explaining their Halloween costume to a trick-or-treating photo",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rám možno pred darovaním naplniť fotografiami a nahrávkami, aby si ho obdarovaný nemusel najprv sám nastavovať",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "you can preload the frame with photos and recordings before gifting it, so your loved one won’t have to spend time setting it up",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Členstvo Prime podľa článku zahŕňa neobmedzené úložisko fotografií v plnom rozlíšení a prístup k Alexa Plus bez ďalšieho poplatku",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "A Prime subscription grants you unlimited full-resolution photo storage and access to Alexa Plus at no additional cost",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na používanie fotorámika však predplatné potrebné nie je",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "you don’t need a subscription to use it",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "noví používatelia môžu využiť časovo obmedzenú skúšobnú verziu Alexa Plus",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "new users can always access a limited-time trial of Alexa Plus",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Redakcia The Verge zariadenie ešte testuje",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "We’re still testing Amazon’s answer to the Aura frame",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "opisuje ho ako konkurenta rámika Aura",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Amazon’s answer to the Aura frame",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Alexa Photo Frame na rozdiel od inteligentných displejov Amazonu nezobrazuje reklamy",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "unlike Amazon’s smart displays, the frame doesn’t serve up annoying ads",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Keďže dostupné informácie sa týkajú amerických obchodov a konkrétnej akcie Black Friday, cenu aj trvanie ponuky treba pred nákupom overiť u predajcu",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "You can currently grab the Alexa Photo Frame at Amazon and Best Buy starting at $114",
+        "komentar": "Zdroj neuvádza trvanie akcie, preto je odporúčanie overiť si ju opodstatnené.",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "titulok",
+        "text": "fotorámik",
+        "kontext": "Amazon zľavil svoj prvý digitálny fotorámik až o polovicu",
+        "navrhy": [
+          "foto rámik"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "fotorámika",
+        "kontext": "n znížil cenu svojho prvého digitálneho fotorámika Alexa Photo Frame počas výpredajov Blac",
+        "navrhy": [
+          "foto rámika"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "polomatným",
+        "kontext": "orámik má 10-palcový dotykový displej s polomatným povrchom, ktorý má podľa Amazonu pôsobi",
+        "navrhy": [
+          "polo matným"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iCloude",
+        "kontext": "ndroidom vrátane fotografií uložených v iCloude. Používateľ si nastaví, ktoré albumy al",
+        "navrhy": [
+          "iCloud"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "olo malé. The Verge opisuje túto možnosť ako spôsob, ako sa dostať k starším záberom",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "fotorámika",
+        "kontext": "us bez ďalšieho poplatku. Na používanie fotorámika však predplatné potrebné nie je; noví p",
+        "navrhy": [
+          "foto rámika"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "rge zariadenie ešte testuje a opisuje ho ako konkurenta rámika Aura. Zároveň uvádza,",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Alexa_%2810560272463%29.jpg/1280px-Alexa_%2810560272463%29.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268832_Amazon_Alexa_Frame_JTuohy_0011.jpg?quality=90&strip=all&crop=0,10.732984293194,100,78.534031413613",
+        "zdroj_clanku": "The Verge",
+        "alt": "268832_Amazon_Alexa_Frame_JTuohy_0011",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268832_Amazon_Alexa_Frame_JTuohy_0006.jpg?w=300",
+        "zdroj_clanku": "The Verge",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Alexa Photo Frame",
+      "digital photo frame",
+      "smart home display"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Alexa_%2810560272463%29.jpg/1280px-Alexa_%2810560272463%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Alexa_%2810560272463%29.jpg/1280px-Alexa_%2810560272463%29.jpg",
+        "nazov": "Alexa (10560272463).jpg",
+        "autor": "Lies Thru a Lens ",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Alexa_(10560272463).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Alexa Photo Frame"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Digital_photo_frame_with_picture.jpg/1280px-Digital_photo_frame_with_picture.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Digital_photo_frame_with_picture.jpg/1280px-Digital_photo_frame_with_picture.jpg",
+        "nazov": "Digital photo frame with picture.jpg",
+        "autor": "Hustvedt",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Digital_photo_frame_with_picture.jpg",
+        "povod": "wikimedia",
+        "dopyt": "digital photo frame"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Victorian_%28Australia%29_Smart_Meter.jpg/1280px-Victorian_%28Australia%29_Smart_Meter.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Victorian_%28Australia%29_Smart_Meter.jpg/1280px-Victorian_%28Australia%29_Smart_Meter.jpg",
+        "nazov": "Victorian (Australia) Smart Meter.jpg",
+        "autor": "Christopher Corneschi",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Victorian_(Australia)_Smart_Meter.jpg",
+        "povod": "wikimedia",
+        "dopyt": "smart home display"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Alexa_%2810570669135%29.jpg/1280px-Alexa_%2810570669135%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Alexa_%2810570669135%29.jpg/1280px-Alexa_%2810570669135%29.jpg",
+        "nazov": "Alexa (10570669135).jpg",
+        "autor": "Lies Thru a Lens ",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Alexa_(10570669135).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Alexa Photo Frame"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Meural_Digital_Frame.jpg/1280px-Meural_Digital_Frame.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Meural_Digital_Frame.jpg/1280px-Meural_Digital_Frame.jpg",
+        "nazov": "Meural Digital Frame.jpg",
+        "autor": "Meural Inc.",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Meural_Digital_Frame.jpg",
+        "povod": "wikimedia",
+        "dopyt": "digital photo frame"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Toshiba_Toko_Meter_Systems_SmaMeII-TypeH_smart_meter.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Toshiba_Toko_Meter_Systems_SmaMeII-TypeH_smart_meter.jpg",
+        "nazov": "Toshiba Toko Meter Systems SmaMeII-TypeH smart meter.jpg",
+        "autor": "Darklanlan",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Toshiba_Toko_Meter_Systems_SmaMeII-TypeH_smart_meter.jpg",
+        "povod": "wikimedia",
+        "dopyt": "smart home display"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Axonal_MNTB_tracks_in_the_Trapezoid_Body_of_WT_CBA_mouse_brainstem_K_Bondarenko.jpg/1280px-Axonal_MNTB_tracks_in_the_Trapezoid_Body_of_WT_CBA_mouse_brainstem_K_Bondarenko.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Axonal_MNTB_tracks_in_the_Trapezoid_Body_of_WT_CBA_mouse_brainstem_K_Bondarenko.jpg/1280px-Axonal_MNTB_tracks_in_the_Trapezoid_Body_of_WT_CBA_mouse_brainstem_K_Bondarenko.jpg",
+        "nazov": "Axonal MNTB tracks in the Trapezoid Body of WT CBA mouse brainstem K Bondarenko.jpg",
+        "autor": "Kseniia Bondarenko",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Axonal_MNTB_tracks_in_the_Trapezoid_Body_of_WT_CBA_mouse_brainstem_K_Bondarenko.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Alexa Photo Frame"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/SoftBank_PhotoVision_HW001S.jpg/1280px-SoftBank_PhotoVision_HW001S.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/SoftBank_PhotoVision_HW001S.jpg/1280px-SoftBank_PhotoVision_HW001S.jpg",
+        "nazov": "SoftBank PhotoVision HW001S.jpg",
+        "autor": "photo: Qurren ( talk ) Taken with Canon IXY 10S (Digital IXUS 210)",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:SoftBank_PhotoVision_HW001S.jpg",
+        "povod": "wikimedia",
+        "dopyt": "digital photo frame"
+      }
+    ],
+    "prompt_ilustracie": "Create a warm, minimal editorial illustration of a digital photo frame displaying abstract family snapshots, with subtle voice-wave lines and a soft seasonal glow, no people, logos, brands, or text."
+  },
+  "prompt_ilustracie": "Create a warm, minimal editorial illustration of a digital photo frame displaying abstract family snapshots, with subtle voice-wave lines and a soft seasonal glow, no people, logos, brands, or text.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/5e7fa3696978b4268740cab6862751e2",
+  "text_agentov": {
+    "titulok": "Amazon zľavil svoj prvý digitálny fotorámik až o polovicu",
+    "perex": "Alexa Photo Frame sa začal predávať len nedávno, no počas Black Friday je v USA dostupný od 114 dolárov. Zariadenie zobrazuje fotografie z Amazon Photos a umožňuje ich vyhľadávať hlasom.",
+    "telo": "Amazon znížil cenu svojho prvého digitálneho fotorámika Alexa Photo Frame počas výpredajov Black Friday. Podľa portálu The Verge sa základné vyhotovenia predávajú od 114 dolárov, čo predstavuje zľavu 115 dolárov. Verzia s orechovým rámom stojí v Best Buy 134,99 dolára, teda o 95 dolárov menej. Ide o prvú zaznamenanú zľavu na zariadenie, ktoré Amazon predstavil pred necelým mesiacom.\n\nPonuka sa podľa zdroja týka predajcov Amazon a Best Buy v Spojených štátoch. The Verge neuvádza cenu ani dostupnosť v Európe, preto zľavu nemožno automaticky považovať za ponuku dostupnú aj na Slovensku.\n\n## Obrazovka prispôsobuje jas okoliu\n\nFotorámik má 10-palcový dotykový displej s polomatným povrchom, ktorý má podľa Amazonu pôsobiť prirodzenejšie pri zobrazovaní fotografií. Zabudované svetelné snímače automaticky upravujú jas počas dňa. Zákazníci si môžu vybrať medzi čiernym, brezovým a orechovým vyhotovením; podľa The Verge je zľava na orechový rám dostupná v Best Buy.\n\nFotografie zariadenie čerpá zo služby Amazon Photos. Do nej možno nahrávať snímky z telefónov s iOS aj Androidom vrátane fotografií uložených v iCloude. Používateľ si nastaví, ktoré albumy alebo osoby sa majú zobrazovať, prípadne môže výber ponechať na Alexa Plus. Tá podľa zdroja môže vyberať fotografie aj podľa výrazu tváre, ročného obdobia či osvetlenia.\n\n## Fotografie možno vyhľadať hlasom\n\nJednou z funkcií je hlasové vyhľadávanie. Namiesto prechádzania rozsiahlej knižnice môže používateľ požiadať Alexu o konkrétnu fotografiu, napríklad snímku prvého psa alebo dieťaťa z obdobia, keď bolo malé. The Verge opisuje túto možnosť ako spôsob, ako sa dostať k starším záberom bez ručného listovania v albumoch.\n\nK jednotlivým fotografiám možno cez aplikáciu Amazon Photos pripojiť aj hlasovú nahrávku. Môže ísť napríklad o komentár dieťaťa k fotografii z Halloweenu. Rám možno pred darovaním naplniť fotografiami a nahrávkami, aby si ho obdarovaný nemusel najprv sám nastavovať.\n\n## Výhody členstva Prime\n\nThe Verge upozorňuje, že rám sa môže hodiť najmä ľuďom, ktorí už používajú služby Amazonu. Členstvo Prime podľa článku zahŕňa neobmedzené úložisko fotografií v plnom rozlíšení a prístup k Alexa Plus bez ďalšieho poplatku. Na používanie fotorámika však predplatné potrebné nie je; noví používatelia môžu využiť časovo obmedzenú skúšobnú verziu Alexa Plus.\n\nRedakcia The Verge zariadenie ešte testuje a opisuje ho ako konkurenta rámika Aura. Zároveň uvádza, že Alexa Photo Frame na rozdiel od inteligentných displejov Amazonu nezobrazuje reklamy. Keďže dostupné informácie sa týkajú amerických obchodov a konkrétnej akcie Black Friday, cenu aj trvanie ponuky treba pred nákupom overiť u predajcu."
+  }
+}
