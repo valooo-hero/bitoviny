@@ -1,0 +1,551 @@
+{
+  "slug": "chatbot-inspirovany-chatgpt-bezi-na-super-nintende",
+  "datum_sprav": "2026-11-21",
+  "dovod_vyberu": "Beh ChatGPT na SNES je kuriózny technický počin, ktorý ukazuje limity a kreativitu v hardvéri.",
+  "poznamky_pre_editora": "Overila som údaj o počte článkov a ponechala „približne 150-tisíc“: The Register uvádza „around 150,000 simple English Wikipedia articles“ a Tom’s Hardware „150,000 Simple English Wikipedia articles“. Nález preto nemení tvrdenie; v konceptе už zodpovedá zdrojom.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je veľmi spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojoch a sú presne prenesené. Najvážnejším problémom je len subjektívna poznámka o nezhode zdrojov, ktorá je však v rámci faktov korektná.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 28,
+        "potvrdenych": 28,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 30,
+        "potvrdenych": 30,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 28,
+        "potvrdenych": 28,
+        "chyb": 1,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_cisel",
+        "zavaznost": "chyba",
+        "text": "Číslo 150",
+        "komentar": "Číslo je v koncepte, ale v žiadnom zdroji sa nenachádza.",
+        "navrh_opravy": "Opraviť podľa zdroja alebo vypustiť. Ak ide o prepočet, uviesť to v poznámkach."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Experiment Benja Edwardsa prináša na starú konzolu malý jazykový model s 2,2 milióna parametrov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "it’s a 2.2 million-parameter offshoot of OpenAI’s GPT-OSS-120b",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Projekt ChatGPT for SNES si možno vyskúšať v emulátore aj stiahnuť ako ROM pre skutočný hardvér.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "He's published it online running in an emulator... and for download as an SNES ROM, too.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nejde však o zmenšenú verziu dnešného asistenta s porovnateľnými schopnosťami: tvorca ho opisuje ako experiment, ktorý často odpovedá nesprávne.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Edwards admits that it’s not the most helpful AI model, either – this is just an experiment after all.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Model vznikol destiláciou veľkého modelu GPT-OSS-120b.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "it’s a 2.2 million-parameter offshoot of OpenAI’s GPT-OSS-120b",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri tomto postupe sa z väčšieho modelu pripravili tréningové rozhovory pre menší systém.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "which was used to develop its training conversations",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Projekt ponúka základnú verziu s veľkosťou približne 4 MB a rozšírenú verziu s veľkosťou 19 MB.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "the basic build is about 4MB and the factbook build is just 19MB.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Druhá obsahuje aj zbierku úvodných viet z približne 150-tisíc článkov anglickej Wikipédie v jednoduchej angličtine.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "a fact book culled from the opening sentences of around 150,000 simple English Wikipedia articles.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Táto doplnková databáza má modelu poskytnúť viac faktických informácií; podľa testu Tom’s Hardware môže pomôcť aj pri výpočtoch.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "We recommend the latter, so the model knows a few more facts and can work as a calculator.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri porovnaní oboch variantov sa rozdiel podľa The Register prejaví výrazne.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "If you opt to run both versions and ask it the same questions, you’ll notice a massive difference.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Edwards upozorňuje, že model pozná asi 8 000 slov a môže sa mýliť, niekedy aj s veľkou istotou.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "knows about 8,000 words, and often gets things wrong, sometimes confidently",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Chyby sa môžu nachádzať aj v samotnej faktografickej databáze.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The fact book can carry mistakes too.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tvorca preto projekt neprezentuje ako užitočného asistenta, ale skôr ako ukážku toho, čo sa dá na starom hernom zariadení vytvoriť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Edwards admits that it’s not the most helpful AI model, either – this is just an experiment after all.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rozhranie zachováva atmosféru konzoly: pri písaní zaznievajú dobové zvukové efekty a aplikáciu sprevádza chiptune hudba.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "you can enjoy SNES-appropriate input sound effects, plus a chirpy chip-tune soundtrack.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V emulátore možno zadávať text z počítačovej klávesnice, takže na komunikáciu netreba ovládač.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "You don’t need a joypad for text entry either, thankfully; just get typing to interact with ChatGPT for SNES",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tom’s Hardware uvádza, že výpočty zrýchľuje čip Super FX 2, ktorý pracuje na frekvencii 21,47 MHz.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Inside the SFX2... was a 21.47 MHz RISC CPU",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pôvodne pomáhal hrám s pokročilejšou 2D grafikou a 3D polygónmi.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "This coprocessor chip enhanced SNES games with faster 2D and 3D graphics",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Hlavný procesor SNES-u podľa toho istého zdroja pracuje na frekvencii 2,68 MHz.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the SNES main CPU, a 16-bit Ricoh 5A22 running at 2.68 MHz.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na spustenie na skutočnej konzole treba flashovaciu kazetu, ktorá podporuje príslušný koprocesor.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "you’ll need a cartridge that allows running of custom ROMs, and that supports Nintendo’s Super FX graphics coprocessor.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register spomína modely FXPak Pro a SD2SNES.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Cartridges like the FXPak Pro and SD2SNES support it.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rozšírená verzia s encyklopedickou databázou navyše potrebuje podporu MSU-1, rozšírenia umožňujúceho ukladať doplnkové dáta na kazete.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The factbook version also requires support for the aftermarket Media Streaming Unit 1 (MSU-1), which adds CD-ROM like features to the SNES.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register zároveň uvádza, že existuje aj základná verzia upravená tak, aby fungovala bez čipu Super FX.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "I do have a version of ChatGPT for SNES that can run without the Super FX chip",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Odpovede sú podľa Edwardsa v takom prípade slabšie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "but without the extra processing power the answers are not as good.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V tomto bode sa zdroje nezhodujú priamo: Tom’s Hardware zdôrazňuje zrýchlenie pomocou Super FX 2, zatiaľ čo The Register opisuje aj variant bez koprocesora.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "accelerating the chatbot's responsiveness using “the Super NES's best GPU, the Super FX 2 chip.”",
+        "komentar": "Oba zdroje sa dopĺňajú, nie sú v rozpore; konštatovanie o nezhode je subjektívne, ale nie je nepravdivé.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Edwards pre The Register povedal, že samotné programovanie zabezpečili AI nástroje, no človek určil rozsah projektu, spôsob fungovania aj podobu rozhrania.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "the coding work was done by AI... I designed the scope of what the software should be, how it should work broadly, what chip it should use, how the interface should look and work",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tvorca sa podľa vlastných slov už dlhšie zaujíma o malé „hovoriace stroje“ a chce skúmať, či sa dajú takéto modely ešte zlepšiť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "I've been theorizing about what I call ‘tiny talking machines’ … over the past year",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Chatbot pre SNES je súčasťou širšieho experimentovania: Edwards vytvoril aj ROM pre pôvodný Nintendo Entertainment System, v ktorej menší model simuluje rozhovor s duchom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "he also created an NES ROM called Séance that uses an even smaller AI model able to run on an original Nintendo Entertainment System that simulates talking to a ghost",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri SNES projekte však AI agenti zapojení do programovania odhadli, že možnosti modelu na danom hardvéri sa už vyčerpali.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The AI agents who did the coding for this project currently advise that we've hit the limit of how good the AI model can be on the limited hardware",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Edwards s tým nesúhlasí a tvrdí, že hľadá ďalšie spôsoby, ako zlepšiť jeho súdržnosť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "he’s not taking their word for it, though. “It's up to human creativity to transcend those assumptions. I have already come up with new ideas that I believe can make a tiny model like ChatGPT for SNES even more coherent, and I'm working on them now.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "chatbot",
+        "kontext": "Benj Edwards vytvoril chatbot pre konzolu Super Nintendo, ktorý využí",
+        "navrhy": [
+          "chabo",
+          "chabol",
+          "chabom"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "i možno vyskúšať v emulátore aj stiahnuť ako ROM pre skutočný hardvér. Nejde však o ",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ateľnými schopnosťami: tvorca ho opisuje ako experiment, ktorý často odpovedá nesprá",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "\nAko",
+        "kontext": "riment, ktorý často odpovedá nesprávne.\n\nAko informovali The Register a Tom’s Hardwa",
+        "navrhy": [
+          ", Ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", Ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "chatbot",
+        "kontext": "ozhovory pre menší systém. Výsledkom je chatbot, ktorý sa zmestí do možností hernej kon",
+        "navrhy": [
+          "chabo",
+          "chabol",
+          "chabom"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "abáze. Tvorca preto projekt neprezentuje ako užitočného asistenta, ale skôr ako ukáž",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ntuje ako užitočného asistenta, ale skôr ako ukážku toho, čo sa dá na starom hernom ",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "chiptune",
+        "kontext": "vé zvukové efekty a aplikáciu sprevádza chiptune hudba. V emulátore možno zadávať text z",
+        "navrhy": [
+          "chitíne",
+          "chitóne"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "chatbot",
+        "kontext": "točný výkon, hoci z neho nerobí moderný chatbot.\n\nNa spustenie na skutočnej konzole tre",
+        "navrhy": [
+          "chabo",
+          "chabol",
+          "chabom"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "flashovaciu",
+        "kontext": "Na spustenie na skutočnej konzole treba flashovaciu kazetu, ktorá podporuje príslušný kopro",
+        "navrhy": [
+          "hlasovaciu"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Nintendo-Super-NES-Console-101-FL.jpg/1280px-Nintendo-Super-NES-Console-101-FL.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://image.theregister.com/?imageId=5311423&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/eW8pC2LZHDfYVmLGbGD5k7-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Benj Edwards",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Benj Edwards."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/rJPMW9HzRkxorSKyfnhng7-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "ChatGPT for SNES in action - screenshot",
+        "popisok": "",
+        "kredit": "(Image credit: Future)",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Future."
+      }
+    ],
+    "dopyty": [
+      "Super Nintendo",
+      "SNES console",
+      "retro game console"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Nintendo-Super-NES-Console-101-FL.jpg/1280px-Nintendo-Super-NES-Console-101-FL.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Nintendo-Super-NES-Console-101-FL.jpg/1280px-Nintendo-Super-NES-Console-101-FL.jpg",
+        "nazov": "Nintendo-Super-NES-Console-101-FL.jpg",
+        "autor": "Evan-Amos",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Nintendo-Super-NES-Console-101-FL.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Super Nintendo"
+      },
+      {
+        "url": "https://live.staticflickr.com/7088/7276332612_4e95d62d38_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/90d1ee63-adf7-448c-94c7-d62ce65c2d05/thumb/",
+        "nazov": "Nintendo NES and Super Nintendo controllers",
+        "autor": "dvanzuijlekom",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/52365139@N05/7276332612",
+        "povod": "openverse",
+        "dopyt": "Super Nintendo"
+      },
+      {
+        "url": "https://live.staticflickr.com/1414/5126910732_a6ef8a55d5_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/90862a39-e501-472d-9611-bb6812de0c89/thumb/",
+        "nazov": "Mario Bros Boo Pumpkin",
+        "autor": "spencer77",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/16784359@N07/5126910732",
+        "povod": "openverse",
+        "dopyt": "SNES console"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Game-Boy-Original.jpg/1280px-Game-Boy-Original.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Game-Boy-Original.jpg/1280px-Game-Boy-Original.jpg",
+        "nazov": "Game-Boy-Original.jpg",
+        "autor": "Evan-Amos",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Game-Boy-Original.jpg",
+        "povod": "wikimedia",
+        "dopyt": "retro game console"
+      },
+      {
+        "url": "https://live.staticflickr.com/826/42059644931_281e17042a_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/a47a5fa0-682d-4a5e-b127-4bd81b6b5599/thumb/",
+        "nazov": "#gpn18 Retro Game Console",
+        "autor": "Yves Sorge",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/155322279@N02/42059644931",
+        "povod": "openverse",
+        "dopyt": "retro game console"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Super_Nintendo_Entertainment_System_controller_for_Nintendo_Switch%2C_in_box%2C_2026-02-08.jpg/1280px-Super_Nintendo_Entertainment_System_controller_for_Nintendo_Switch%2C_in_box%2C_2026-02-08.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Super_Nintendo_Entertainment_System_controller_for_Nintendo_Switch%2C_in_box%2C_2026-02-08.jpg/1280px-Super_Nintendo_Entertainment_System_controller_for_Nintendo_Switch%2C_in_box%2C_2026-02-08.jpg",
+        "nazov": "Super Nintendo Entertainment System controller for Nintendo Switch, in box, 2026-02-08.jpg",
+        "autor": "Chris Woodrich",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Super_Nintendo_Entertainment_System_controller_for_Nintendo_Switch,_in_box,_2026-02-08.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Super Nintendo"
+      },
+      {
+        "url": "https://live.staticflickr.com/4126/4976872902_581f01b137_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/7993065b-c699-4a10-ae5b-249472be3af7/thumb/",
+        "nazov": "Super Nintendo controller",
+        "autor": "dgoomany",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/38681461@N08/4976872902",
+        "povod": "openverse",
+        "dopyt": "Super Nintendo"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Nintendo-Super-Famicom-Set-FL.jpg/1280px-Nintendo-Super-Famicom-Set-FL.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Nintendo-Super-Famicom-Set-FL.jpg/1280px-Nintendo-Super-Famicom-Set-FL.jpg",
+        "nazov": "Nintendo-Super-Famicom-Set-FL.jpg",
+        "autor": "Evan-Amos",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Nintendo-Super-Famicom-Set-FL.jpg",
+        "povod": "wikimedia",
+        "dopyt": "SNES console"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic illustration of a tiny glowing language model inside a retro Super Nintendo cartridge, with pixelated speech bubbles and a 16-bit console aesthetic, not depicting any real person."
+  },
+  "prompt_ilustracie": "A symbolic illustration of a tiny glowing language model inside a retro Super Nintendo cartridge, with pixelated speech bubbles and a 16-bit console aesthetic, not depicting any real person.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/353ef1356d7552eef40a343604468069",
+  "text_agentov": {
+    "titulok": "Chatbot inšpirovaný ChatGPT beží na Super Nintende",
+    "perex": "Experiment Benja Edwardsa prináša na starú konzolu malý jazykový model s 2,2 milióna parametrov. Odpovede sú obmedzené, no projekt možno spustiť aj na skutočnom SNES-e.",
+    "telo": "Benj Edwards vytvoril chatbot pre konzolu Super Nintendo, ktorý využíva jazykový model s 2,2 milióna parametrov. Projekt ChatGPT for SNES si možno vyskúšať v emulátore aj stiahnuť ako ROM pre skutočný hardvér. Nejde však o zmenšenú verziu dnešného asistenta s porovnateľnými schopnosťami: tvorca ho opisuje ako experiment, ktorý často odpovedá nesprávne.\n\nAko informovali The Register a Tom’s Hardware, model vznikol destiláciou veľkého modelu GPT-OSS-120b. Pri tomto postupe sa z väčšieho modelu pripravili tréningové rozhovory pre menší systém. Výsledkom je chatbot, ktorý sa zmestí do možností hernej konzoly, no jeho vedomosti aj kvalita odpovedí sú výrazne obmedzené.\n\n## Dve verzie s odlišnými možnosťami\n\nProjekt ponúka základnú verziu s veľkosťou približne 4 MB a rozšírenú verziu s veľkosťou 19 MB. Druhá obsahuje aj zbierku úvodných viet z približne 150-tisíc článkov anglickej Wikipédie v jednoduchej angličtine. Táto doplnková databáza má modelu poskytnúť viac faktických informácií; podľa testu Tom’s Hardware môže pomôcť aj pri výpočtoch.\n\nPri porovnaní oboch variantov sa rozdiel podľa The Register prejaví výrazne. Edwards upozorňuje, že model pozná asi 8 000 slov a môže sa mýliť, niekedy aj s veľkou istotou. Chyby sa môžu nachádzať aj v samotnej faktografickej databáze. Tvorca preto projekt neprezentuje ako užitočného asistenta, ale skôr ako ukážku toho, čo sa dá na starom hernom zariadení vytvoriť.\n\nRozhranie zachováva atmosféru konzoly: pri písaní zaznievajú dobové zvukové efekty a aplikáciu sprevádza chiptune hudba. V emulátore možno zadávať text z počítačovej klávesnice, takže na komunikáciu netreba ovládač.\n\n## Čo robí koprocesor a čo potrebuje konzola\n\nTom’s Hardware uvádza, že výpočty zrýchľuje čip Super FX 2, ktorý pracuje na frekvencii 21,47 MHz. Pôvodne pomáhal hrám s pokročilejšou 2D grafikou a 3D polygónmi. Hlavný procesor SNES-u podľa toho istého zdroja pracuje na frekvencii 2,68 MHz. Super FX 2 tak poskytuje projektu dodatočný výkon, hoci z neho nerobí moderný chatbot.\n\nNa spustenie na skutočnej konzole treba flashovaciu kazetu, ktorá podporuje príslušný koprocesor. The Register spomína modely FXPak Pro a SD2SNES. Rozšírená verzia s encyklopedickou databázou navyše potrebuje podporu MSU-1, rozšírenia umožňujúceho ukladať doplnkové dáta na kazete.\n\nThe Register zároveň uvádza, že existuje aj základná verzia upravená tak, aby fungovala bez čipu Super FX. Odpovede sú podľa Edwardsa v takom prípade slabšie. V tomto bode sa zdroje nezhodujú priamo: Tom’s Hardware zdôrazňuje zrýchlenie pomocou Super FX 2, zatiaľ čo The Register opisuje aj variant bez koprocesora.\n\n## Kód napísala AI, návrh určil človek\n\nEdwards pre The Register povedal, že samotné programovanie zabezpečili AI nástroje, no človek určil rozsah projektu, spôsob fungovania aj podobu rozhrania. Tvorca sa podľa vlastných slov už dlhšie zaujíma o malé „hovoriace stroje“ a chce skúmať, či sa dajú takéto modely ešte zlepšiť.\n\nChatbot pre SNES je súčasťou širšieho experimentovania: Edwards vytvoril aj ROM pre pôvodný Nintendo Entertainment System, v ktorej menší model simuluje rozhovor s duchom. Pri SNES projekte však AI agenti zapojení do programovania odhadli, že možnosti modelu na danom hardvéri sa už vyčerpali. Edwards s tým nesúhlasí a tvrdí, že hľadá ďalšie spôsoby, ako zlepšiť jeho súdržnosť."
+  }
+}
