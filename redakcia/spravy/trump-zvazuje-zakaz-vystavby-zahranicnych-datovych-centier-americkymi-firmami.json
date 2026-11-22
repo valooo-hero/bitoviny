@@ -1,0 +1,450 @@
+{
+  "slug": "trump-zvazuje-zakaz-vystavby-zahranicnych-datovych-centier-americkymi-firmami",
+  "datum_sprav": "2026-11-21",
+  "dovod_vyberu": "Trumpov návrh zakázať americkým firmám stavať dáta centrá v zahraničí ovplyvní globálny technologický trh a EÚ.",
+  "poznamky_pre_editora": "Vypustila som vetu, že miestne dohody neriešia otázku zákazu výstavby za hranicami, keďže zdroj túto interpretáciu neobsahuje. Číslo pri ponuke developera som ponechala: zdroj Tom’s Hardware uvádza „$10,000 per household“, takže tvrdenie o 10-tisíc dolároch má oporu v zdroji; nejde o prepočet.",
+  "upozornenia": [
+    "Téma má len jeden zdroj. Redakčné zásady žiadajú aspoň dva, zvážte doplnenie alebo zahodenie."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojovom článku. Najvážnejším problémom nie je žiadna faktická chyba, ale len drobné štylistické úpravy, ktoré nemenia význam.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 26,
+        "potvrdenych": 26,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 27,
+        "potvrdenych": 26,
+        "chyb": 2,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 26,
+        "potvrdenych": 26,
+        "chyb": 1,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_cisel",
+        "zavaznost": "chyba",
+        "text": "Číslo 10",
+        "komentar": "Číslo je v koncepte, ale v žiadnom zdroji sa nenachádza.",
+        "navrh_opravy": "Opraviť podľa zdroja alebo vypustiť. Ak ide o prepočet, uviesť to v poznámkach."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Americký prezident Donald Trump chce obmedziť výstavbu dátových centier americkými spoločnosťami v zahraničí.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "President Donald Trump ... said that he wants to prevent U.S. companies from building data centers in other countries",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako alternatívu spomenul „obrovskú daň“ pre firmy, ktoré by napriek tomu pokračovali v plánoch.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "or charge them with a “tremendous tax” if they push ahead with their overseas plans",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa portálu Tom’s Hardware, ktorý sa odvoláva na Axios, Trump uviedol, že návrh ešte nepreberal so svojím kabinetom ani poradcami.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "he hasn’t even discussed the proposed policy with his cabinet and advisors, reports Axios",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zatiaľ teda nejde o oznámené pravidlo ani hotový legislatívny plán.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The move comes as a surprise, Trump said, as he hasn’t even discussed the proposed policy with his cabinet and advisors",
+        "komentar": "Zdroj neuvádza formálne oznámenie ani legislatívny návrh, takže konštatovanie je v súlade.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Prezident svoje úvahy zdôvodnil obavou, že zahraničné dátové centrá by mohli využívať čínske spoločnosti.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "One possible reason Trump is considering a ban on overseas data centers for U.S. companies is that Chinese AI labs have been exploiting a loophole in U.S. law",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "„Čína si ich všetky vezme,“ povedal podľa Tom’s Hardware.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "“We’re not allowing data centers to go into other countries because China will take all of them, and we’re not allowing that to happen,” Trump said.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroj spája túto obavu s možnosťou, že čínske AI laboratóriá obchádzajú americké obmedzenia vývozu čipov tým, že spracúvajú dáta v dátových centrách mimo Číny.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Chinese AI labs have been exploiting a loophole in U.S. law. This technicality has allowed them to export data to overseas data centers that use AI chips banned for export to China",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spomína čipy Nvidia Blackwell a pripravovanú generáciu Vera Rubin.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "like Nvidia’s Blackwell and upcoming Vera Rubin chips",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Americká Snemovňa reprezentantov v januári 2026 schválila zákon Remote Access Security Act, ktorý má túto cestu uzavrieť.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The U.S. House of Representatives passed the Remote Access Security Act (RASA) in January 2026 to close the workaround",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Návrh však podľa zdroja odvtedy uviazol v Senáte.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "but the bill has been in limbo in the Senate since then",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kroky na obmedzenie takéhoto prístupu podniká aj Úrad pre priemysel a bezpečnosť (BIS).",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The U.S. Bureau of Industry and Security (BIS) is also taking steps to prevent this",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nvidia zas upozornila klientov na možné právne riziká a na podmienku, že aspoň 51 percent ich zákazníkov nebude z Číny.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Nvidia warning its clients that their customers should be at least 51% not from China to avoid legal exposure",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tom’s Hardware uvádza, že počet moratórií na nové dátové centrá tam prekročil 500.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "data center moratoriums have already surged past 500 across the U.S.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Opatrenia súvisiace s dátovými centrami podľa článku neuspeli ani v nedávnych voľbách do miestnych zastupiteľských orgánov, označených v zdroji ako midterms.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "AI data center measures put forward in the recently concluded mid-term elections have been comprehensively defeated",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Mesto v Pensylvánii zverejnilo 43 podmienok na schválenie AI dátového centra.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "one Pennsylvania town listing 43 specific demands to approve an AI data center",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Štát New York odporučil samosprávam požadovať investíciu do komunity vo výške jedného milióna dolárov za každý megawatt výkonu.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "New York State recommended the municipalities demand a $1 million community investment per megawatt",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jeden developer ponúkol domácnostiam po 10-tisíc dolárov, ak projekt získa povolenie.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "one offering $10,000 per household if its 1,3000-acre facility gets approved",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "SpaceX podľa zdroja vykupuje 418 domov v okolí svojho hlavného AI dátového centra.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Elon Musk’s SpaceX is buying out 418 homes near its flagship AI data center",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Trump zároveň tvrdí, že firmy z oblasti umelej inteligencie majú dosť peňazí na to, aby prispeli miestnym komunitám.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "“They’re making so much money they don’t know what to do with it,” the U.S. president said.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Obyvateľom odporúčal vyjednávať s prevádzkovateľmi o znížení nákladov a daní.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "He added that Americans should negotiate with AI hyperscalers that want to establish data centers in communities, as they could help reduce costs and taxes.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa článku má právomoc ukladať federálne dane Kongres, takže zavedenie Trumpom spomínanej dane by si vyžadovalo jeho súhlas.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Congress is the only federal body with the constitutional power to impose taxes",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroj zároveň píše, že opozičná strana ovláda obe komory Kongresu, čo by presadenie návrhu komplikovalo.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "with the opposing party controlling both the House and the Senate, it would be doubly hard for the White House to implement its legislative priorities",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zahraničné dátové centrá môžu byť potrebné aj preto, že niektoré vlády vyžadujú, aby údaje zostali na ich území.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "some governments demand that their data remain within their territory",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ich umiestnenie bližšie k zákazníkom navyše skracuje čas odozvy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "keeping data centers in the U.S. would result in longer latency and slower responses",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ak by americké firmy museli všetku infraštruktúru sústreďovať v USA, mohli by podľa zdroja prísť o časť zahraničných trhov a poskytovať tam služby pomalšie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "if Washington proceeds with the ban, American tech companies could potentially lose this market",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Článok však neuvádza, že by Trump taký zákaz už formálne predložil.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The move comes as a surprise, Trump said, as he hasn’t even discussed the proposed policy with his cabinet and advisors",
+        "komentar": "Zdroj nehovorí o formálnom predložení, takže konštatovanie je správne.",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "upiteľských orgánov, označených v zdroji ako midterms.\n\nNiektoré samosprávy žiadajú ",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "midterms",
+        "kontext": "ľských orgánov, označených v zdroji ako midterms.\n\nNiektoré samosprávy žiadajú od invest",
+        "navrhy": [
+          "Intermi",
+          "Mister",
+          "ikterus"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "developer",
+        "kontext": "dolárov za každý megawatt výkonu. Jeden developer ponúkol domácnostiam po 10-tisíc doláro",
+        "navrhy": [
+          "KDevelop"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Data_Center_3_%28UNC%29.jpg/1280px-Data_Center_3_%28UNC%29.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/RFvVuwiNda6baSCvcjjFgE-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Microsoft data center in Mount Pleasant, Wisconsin",
+        "popisok": "",
+        "kredit": "(Image credit: Microsoft)",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Microsoft."
+      }
+    ],
+    "dopyty": [
+      "data center building",
+      "server rack",
+      "server room"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Data_Center_3_%28UNC%29.jpg/1280px-Data_Center_3_%28UNC%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Data_Center_3_%28UNC%29.jpg/1280px-Data_Center_3_%28UNC%29.jpg",
+        "nazov": "Data Center 3 (UNC).jpg",
+        "autor": "Ana Las Heras",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Data_Center_3_(UNC).jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center building"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Bellingham_data_center_building_2003.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/64ca8986-6f4a-4748-ac0e-41fc371daa7a/thumb/",
+        "nazov": "Bellingham data center building 2003",
+        "autor": "Jonathan Schilling",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=99694704",
+        "povod": "openverse",
+        "dopyt": "data center building"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/139_Server_Room_01.jpg/1280px-139_Server_Room_01.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/139_Server_Room_01.jpg/1280px-139_Server_Room_01.jpg",
+        "nazov": "139 Server Room 01.jpg",
+        "autor": "Indrajit Das",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:139_Server_Room_01.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server room"
+      },
+      {
+        "url": "https://live.staticflickr.com/3186/2759159448_17455a0fb2_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/720cb108-319f-47e2-8c7a-c110bc9af59f/thumb/",
+        "nazov": "17° Server Room @ Work",
+        "autor": "Leonardo Rizzi",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/29479498@N05/2759159448",
+        "povod": "openverse",
+        "dopyt": "server room"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Data_Center_2_%28UNC%29.jpg/1280px-Data_Center_2_%28UNC%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Data_Center_2_%28UNC%29.jpg/1280px-Data_Center_2_%28UNC%29.jpg",
+        "nazov": "Data Center 2 (UNC).jpg",
+        "autor": "Ana Las Heras",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Data_Center_2_(UNC).jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center building"
+      },
+      {
+        "url": "https://live.staticflickr.com/8602/15376280544_75fa94f69b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/f1ba3e2c-5ed5-4d87-8380-e571f73e3421/thumb/",
+        "nazov": "At the Satellite/Data Center building for work today",
+        "autor": "stupid_systemus",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/40750945@N06/15376280544",
+        "povod": "openverse",
+        "dopyt": "data center building"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic illustration of a globe with data center buildings on different continents and a subtle boundary line, editorial style, no text, no logos, no real people."
+  },
+  "prompt_ilustracie": "A symbolic illustration of a globe with data center buildings on different continents and a subtle boundary line, editorial style, no text, no logos, no real people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/8bb9e92e75799b0a7a4f2666a5fad21a",
+  "text_agentov": {
+    "titulok": "Trump zvažuje zákaz výstavby zahraničných dátových centier americkými firmami",
+    "perex": "Americký prezident hovorí aj o „obrovskej dani“ pre firmy, ktoré by plánovali stavať za hranicami. Návrh prichádza v čase, keď v USA pribúdajú prekážky pre nové dátové centrá.",
+    "telo": "Americký prezident Donald Trump chce obmedziť výstavbu dátových centier americkými spoločnosťami v zahraničí. Ako alternatívu spomenul „obrovskú daň“ pre firmy, ktoré by napriek tomu pokračovali v plánoch. Podľa portálu Tom’s Hardware, ktorý sa odvoláva na Axios, Trump uviedol, že návrh ešte nepreberal so svojím kabinetom ani poradcami. Zatiaľ teda nejde o oznámené pravidlo ani hotový legislatívny plán.\n\n## Trump spája návrh s obmedzením prístupu Číny\n\nPrezident svoje úvahy zdôvodnil obavou, že zahraničné dátové centrá by mohli využívať čínske spoločnosti. „Čína si ich všetky vezme,“ povedal podľa Tom’s Hardware. Zdroj spája túto obavu s možnosťou, že čínske AI laboratóriá obchádzajú americké obmedzenia vývozu čipov tým, že spracúvajú dáta v dátových centrách mimo Číny. Spomína čipy Nvidia Blackwell a pripravovanú generáciu Vera Rubin.\n\nAmerická Snemovňa reprezentantov v januári 2026 schválila zákon Remote Access Security Act, ktorý má túto cestu uzavrieť. Návrh však podľa zdroja odvtedy uviazol v Senáte. Kroky na obmedzenie takéhoto prístupu podniká aj Úrad pre priemysel a bezpečnosť (BIS). Nvidia zas upozornila klientov na možné právne riziká a na podmienku, že aspoň 51 percent ich zákazníkov nebude z Číny.\n\n## Miestne odpory komplikujú nové projekty\n\nTrumpove úvahy prichádzajú v čase, keď výstavbu dátových centier brzdia aj prekážky priamo v USA. Tom’s Hardware uvádza, že počet moratórií na nové dátové centrá tam prekročil 500. Opatrenia súvisiace s dátovými centrami podľa článku neuspeli ani v nedávnych voľbách do miestnych zastupiteľských orgánov, označených v zdroji ako midterms.\n\nNiektoré samosprávy žiadajú od investorov konkrétne záväzky. Mesto v Pensylvánii zverejnilo 43 podmienok na schválenie AI dátového centra. Štát New York odporučil samosprávam požadovať investíciu do komunity vo výške jedného milióna dolárov za každý megawatt výkonu. Jeden developer ponúkol domácnostiam po 10-tisíc dolárov, ak projekt získa povolenie. SpaceX podľa zdroja vykupuje 418 domov v okolí svojho hlavného AI dátového centra.\n\nTrump zároveň tvrdí, že firmy z oblasti umelej inteligencie majú dosť peňazí na to, aby prispeli miestnym komunitám. Obyvateľom odporúčal vyjednávať s prevádzkovateľmi o znížení nákladov a daní.\n\n## Zákaz by mohol obmedziť služby v zahraničí\n\nTom’s Hardware upozorňuje na právne aj obchodné prekážky. Podľa článku má právomoc ukladať federálne dane Kongres, takže zavedenie Trumpom spomínanej dane by si vyžadovalo jeho súhlas. Zdroj zároveň píše, že opozičná strana ovláda obe komory Kongresu, čo by presadenie návrhu komplikovalo.\n\nZahraničné dátové centrá môžu byť potrebné aj preto, že niektoré vlády vyžadujú, aby údaje zostali na ich území. Ich umiestnenie bližšie k zákazníkom navyše skracuje čas odozvy. Ak by americké firmy museli všetku infraštruktúru sústreďovať v USA, mohli by podľa zdroja prísť o časť zahraničných trhov a poskytovať tam služby pomalšie. Článok však neuvádza, že by Trump taký zákaz už formálne predložil."
+  }
+}
