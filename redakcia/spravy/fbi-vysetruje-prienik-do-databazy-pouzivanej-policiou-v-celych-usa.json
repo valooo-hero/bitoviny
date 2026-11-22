@@ -1,0 +1,437 @@
+{
+  "slug": "fbi-vysetruje-prienik-do-databazy-pouzivanej-policiou-v-celych-usa",
+  "datum_sprav": "2026-11-21",
+  "dovod_vyberu": "Údajný hack FBI a USDA je závažná bezpečnostná správa s medzinárodným dosahom, potvrdená viacerými zdrojmi.",
+  "poznamky_pre_editora": "Vypustila som nepodložené hodnotenie, že prípad je pre slovenských čitateľov relevantný ako ukážka rizík narušenia zdieľaných štátnych databáz.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojoch a sú presne prenesené. Najvážnejším problémom nie je žiadna faktická chyba, ale drobné štylistické zjednodušenia, ktoré nemenia význam.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 23,
+        "potvrdenych": 22,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 22,
+        "potvrdenych": 22,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "FBI vyšetruje údajný prienik do National Crime Information Center (NCIC), databázy používanej policajnými zložkami naprieč Spojenými štátmi.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "According to CNN's reporting, the FBI is investigating an apparent breach of the NCIC system, citing two people briefed on the investigation.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Informácie o incidente priniesli CNN a ďalšie médiá.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "According to CNN's reporting, the FBI is investigating an apparent breach of the NCIC system",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zatiaľ nie je jasné, kedy sa útočníci dostali do systému, ako prístup získali ani či z neho údaje skopírovali.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "although it is unclear when the breach occurred, how the attackers gained access, or whether any information was stolen.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "NCIC prevádzkuje FBI a využívajú ho federálne, štátne aj miestne orgány činné v trestnom konaní.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The National Crime Information Center is an FBI-operated database used by law enforcement agencies across the United States",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "FBI incident v čase zverejnenia prvých správ verejne nepotvrdila.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The FBI has not publicly confirmed the incident and did not respond to CNN's request for comment.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Neskôr sa k nemu vyjadril prezident Donald Trump, no jeho slová neposkytli konkrétne informácie o rozsahu ani následkoch prieniku.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "President Donald Trump addressed the reports during an interview Saturday with Fox News, saying, “We just heard about it and I will say that it’s not good.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "NCIC obsahuje záznamy o hľadaných a nezvestných osobách, nevybavených zatykačoch, odcudzených vozidlách a strelných zbraniach či ochranných príkazoch.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "used by law enforcement agencies across the United States to share information about wanted and missing persons, outstanding arrest warrants, stolen vehicles and firearms, protection orders",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Policajti systém podľa BleepingComputer bežne využívajú pri vyšetrovaní, preverovaní osôb aj dopravných kontrolách.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Police officers routinely use the system during traffic stops, criminal investigations, and background checks.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "CNN o vyšetrovaní informovala s odvolaním sa na dve osoby oboznámené s prípadom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "According to CNN's reporting, the FBI is investigating an apparent breach of the NCIC system, citing two people briefed on the investigation.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako uvádzajú TechCrunch a The Verge, rozsah možného narušenia zatiaľ nie je známy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The scope of the breach does not yet appear to be clear.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nie je potvrdené, či útočníci získali prístup k citlivým záznamom alebo či incident obmedzil dostupnosť databázy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "It remains unclear whether the attackers accessed sensitive law enforcement records stored in NCIC or whether the intrusion affected the system's availability to law enforcement agencies.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Bývalý predstaviteľ FBI, ktorého citoval CNN a následne TechCrunch, upozornil, že rizikom nemusí byť iba únik informácií. Podstatné je aj to, či niekto dokázal zmeniť ich správnosť.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "A former FBI official told CNN that they’re not just concerned about “whether hackers gained access to sensitive information, although that is an issue, but whether they could compromise the accuracy of the information that officers rely on.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Policajti sa na záznamy z NCIC spoliehajú pri rozhodovaní v teréne; nepravdivé alebo pozmenené údaje by preto mohli narušiť ich prácu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "whether they could compromise the accuracy of the information that officers rely on.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Z dostupných správ však nevyplýva, že k takým zmenám došlo.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "It remains unclear whether the attackers accessed sensitive law enforcement records stored in NCIC",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Trump podľa TechCrunch v rozhovore pre Fox News povedal: „Práve sme sa o tom dozvedeli a poviem, že to nie je dobré.“",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "“We just heard about it and I will say that it’s not good.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zároveň naznačil, že prienik by mohol odhaliť informácie súvisiace s vyšetrovaním údajných volebných podvodov a s Ruskom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Trump also said that as a result of the breach, “maybe we’ll learn things that we would have never learned otherwise because, you know, you had the Russia, Russia, Russia hoax.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Verge jeho vyjadrenia opísal ako potvrdenie útoku, no citované výroky samy osebe neobjasňujú, čo presne vláda o incidente vie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "President Donald Trump later confirmed the hack in an interview with Fox News.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Správa prichádza približne dva mesiace po tom, ako skupina ShinyHunters tvrdila, že prenikla do systémov FBI cez zraniteľnosť platformy Oracle PeopleSoft spojenej s náborovým webom FBIJobs.gov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The reported breach comes just two months after the ShinyHunters extortion group claimed to have breached the FBI's systems by exploiting an unpatched Oracle PeopleSoft vulnerability.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa BleepingComputer skupina uviedla, že získala citlivé informácie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "with ShinyHunters claiming to have stolen sensitive information from the agency's systems.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Verge zase v súvislosti s útokom z konca septembra písal o údajne odcudzených osobných záznamoch zamestnancov FBI a uchádzačov o prácu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "The FBI suffered a breach, reported in late September, that allegedly compromised personal records of “all FBI employees and applicants.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "FBI vtedy začala vyšetrovanie; BleepingComputer uvádza aj zatknutia podozrivých členov skupiny vrátane kanadského predstaviteľa kyberbezpečnostnej firmy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The FBI subsequently launched an investigation that led to the arrests of suspected ShinyHunters members, including a Canadian cybersecurity executive reportedly linked to the attacks.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zatiaľ však nie je náznak, že by aktuálny prípad NCIC súvisel so ShinyHunters alebo s predchádzajúcim prienikom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "There is currently no indication that the latest NCIC incident is connected to ShinyHunters or the earlier breach.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "citoval CNN a",
+        "opravene": "citovala CNN a",
+        "dovod": "zhoda podmetu s prísudkom",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "medializovaných",
+        "kontext": "Útočníci sa podľa medializovaných správ dostali k systému, v ktorom polic",
+        "navrhy": [
+          "dialyzovaných",
+          "federalizovaných",
+          "legalizovaných"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "Ruskom. The Verge jeho vyjadrenia opísal ako potvrdenie útoku, no citované výroky sa",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "gov",
+        "kontext": "Soft spojenej s náborovým webom FBIJobs.gov. Podľa BleepingComputer skupina uviedla",
+        "navrhy": [
+          "GSv",
+          "Gój",
+          "MOV"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "kyberbezpečnostnej",
+        "kontext": "kupiny vrátane kanadského predstaviteľa kyberbezpečnostnej firmy. Zatiaľ však nie je náznak, že by",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -15 +15 @@\n-Bývalý predstaviteľ FBI, ktorého citoval CNN a následne TechCrunch, upozornil, že rizikom nemusí byť iba únik informácií. Podstatné je aj to, či niekto dokázal zmeniť ich správnosť. Policajti sa na záznamy z NCIC spoliehajú pri rozhodovaní v teréne; nepravdivé alebo pozmenené údaje by preto mohli narušiť ich prácu. Z dostupných správ však nevyplýva, že k takým zmenám došlo.\n+Bývalý predstaviteľ FBI, ktorého citovala CNN a následne TechCrunch, upozornil, že rizikom nemusí byť iba únik informácií. Podstatné je aj to, či niekto dokázal zmeniť ich správnosť. Policajti sa na záznamy z NCIC spoliehajú pri rozhodovaní v teréne; nepravdivé alebo pozmenené údaje by preto mohli narušiť ich prácu. Z dostupných správ však nevyplýva, že k takým zmenám došlo."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/FBI_Headquarters_-_J._Edgar_Hoover_Building_%2853840035941%29.jpg/1280px-FBI_Headquarters_-_J._Edgar_Hoover_Building_%2853840035941%29.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://www.bleepstatic.com/content/hl-images/2022/12/16/FBI__headpic.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318430/akrales_220309_4977_0038.jpg?quality=90&strip=all&crop=0,10.732984293194,100,78.534031413613",
+        "zdroj_clanku": "The Verge",
+        "alt": "Digital photo illustration of a laptop displaying a black and green image of the Capitol building, with ones and zeroes falling in the background.",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/213d511460b4d497d3ab322f9148369351bb9181280554d6d611c3e13f498b21?s=96&d=identicon&r=g",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Anthony Ha",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/09/fbi-edgar-hoover-building-2288940613.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "WASHINGTON, DC - AUGUST 8: The seal of the Federal Bureau of Investigation (FBI), part of the U.S. Department of Justice, is displayed at the J. Edgar Hoover Building on August 8, 2026 in Washington, DC. (Photo by Kevin Carter/Getty Images)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "FBI headquarters",
+      "law enforcement data center",
+      "server rack"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/FBI_Headquarters_-_J._Edgar_Hoover_Building_%2853840035941%29.jpg/1280px-FBI_Headquarters_-_J._Edgar_Hoover_Building_%2853840035941%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/FBI_Headquarters_-_J._Edgar_Hoover_Building_%2853840035941%29.jpg/1280px-FBI_Headquarters_-_J._Edgar_Hoover_Building_%2853840035941%29.jpg",
+        "nazov": "FBI Headquarters - J. Edgar Hoover Building (53840035941).jpg",
+        "autor": "ajay_suresh",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:FBI_Headquarters_-_J._Edgar_Hoover_Building_(53840035941).jpg",
+        "povod": "wikimedia",
+        "dopyt": "FBI headquarters"
+      },
+      {
+        "url": "https://live.staticflickr.com/1936/45030408811_be171c2b0e_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/b2e145fa-19e0-4cd7-89ea-6805eb41410e/thumb/",
+        "nazov": "FBI headquarters, Washington DC",
+        "autor": "patrick_thibodeau",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/18635830@N00/45030408811",
+        "povod": "openverse",
+        "dopyt": "FBI headquarters"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/FEMA_-_43650_-_Law_Enforcement_Training_at_the_Center_for_Domestic_Preparedness.jpg/1280px-FEMA_-_43650_-_Law_Enforcement_Training_at_the_Center_for_Domestic_Preparedness.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/FEMA_-_43650_-_Law_Enforcement_Training_at_the_Center_for_Domestic_Preparedness.jpg/1280px-FEMA_-_43650_-_Law_Enforcement_Training_at_the_Center_for_Domestic_Preparedness.jpg",
+        "nazov": "FEMA - 43650 - Law Enforcement Training at the Center for Domestic Preparedness.jpg",
+        "autor": "Shannon Arledge",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:FEMA_-_43650_-_Law_Enforcement_Training_at_the_Center_for_Domestic_Preparedness.jpg",
+        "povod": "wikimedia",
+        "dopyt": "law enforcement data center"
+      },
+      {
+        "url": "https://live.staticflickr.com/8588/15872841301_24c1e37261_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/9d059443-949e-46ca-a8ef-9bbbe93da552/thumb/",
+        "nazov": "Raymond W. Kelly, former NYPD commissioner, speaks at Policy Exchange",
+        "autor": "Policy Exchange",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/66261959@N08/15872841301",
+        "povod": "openverse",
+        "dopyt": "law enforcement data center"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/FBI_Headquarters_-_J._Edgar_Hoover_Building_%2853840035941%29_b.jpg/1280px-FBI_Headquarters_-_J._Edgar_Hoover_Building_%2853840035941%29_b.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/FBI_Headquarters_-_J._Edgar_Hoover_Building_%2853840035941%29_b.jpg/1280px-FBI_Headquarters_-_J._Edgar_Hoover_Building_%2853840035941%29_b.jpg",
+        "nazov": "FBI Headquarters - J. Edgar Hoover Building (53840035941) b.jpg",
+        "autor": "File:FBI Headquarters - J. Edgar Hoover Building (53840035941).jpg : ajay_suresh derivative work: Georgfotoart",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:FBI_Headquarters_-_J._Edgar_Hoover_Building_(53840035941)_b.jpg",
+        "povod": "wikimedia",
+        "dopyt": "FBI headquarters"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/FBI_Headquarters_-_J._Edgar_Hoover_Building_%2853840035941%29.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/4ffa12b6-8373-4934-a570-0342d433bd88/thumb/",
+        "nazov": "FBI Headquarters - J. Edgar Hoover Building (53840035941)",
+        "autor": "ajay_suresh",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=150221890",
+        "povod": "openverse",
+        "dopyt": "FBI headquarters"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a secure law-enforcement database represented by abstract data lines behind a partially opened digital lock, with no real people, logos, or documentary details."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a secure law-enforcement database represented by abstract data lines behind a partially opened digital lock, with no real people, logos, or documentary details.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/fad180f1fa5127dbd4486878cec46d3b",
+  "text_agentov": {
+    "titulok": "FBI vyšetruje prienik do databázy používanej políciou v celých USA",
+    "perex": "Útočníci sa podľa medializovaných správ dostali k systému, v ktorom policajné zložky zdieľajú údaje o zatykačoch či nezvestných osobách. Rozsah incidentu ani to, či boli dáta odcudzené alebo pozmenené, zatiaľ nie sú známe.",
+    "telo": "FBI vyšetruje údajný prienik do National Crime Information Center (NCIC), databázy používanej policajnými zložkami naprieč Spojenými štátmi. Informácie o incidente priniesli CNN a ďalšie médiá. Zatiaľ nie je jasné, kedy sa útočníci dostali do systému, ako prístup získali ani či z neho údaje skopírovali.\n\nNCIC prevádzkuje FBI a využívajú ho federálne, štátne aj miestne orgány činné v trestnom konaní. FBI incident v čase zverejnenia prvých správ verejne nepotvrdila. Neskôr sa k nemu vyjadril prezident Donald Trump, no jeho slová neposkytli konkrétne informácie o rozsahu ani následkoch prieniku.\n\n## Databáza slúži pri vyšetrovaniach aj kontrolách\n\nNCIC obsahuje záznamy o hľadaných a nezvestných osobách, nevybavených zatykačoch, odcudzených vozidlách a strelných zbraniach či ochranných príkazoch. Policajti systém podľa BleepingComputer bežne využívajú pri vyšetrovaní, preverovaní osôb aj dopravných kontrolách.\n\nCNN o vyšetrovaní informovala s odvolaním sa na dve osoby oboznámené s prípadom. Ako uvádzajú TechCrunch a The Verge, rozsah možného narušenia zatiaľ nie je známy. Nie je potvrdené, či útočníci získali prístup k citlivým záznamom alebo či incident obmedzil dostupnosť databázy.\n\nBývalý predstaviteľ FBI, ktorého citovala CNN a následne TechCrunch, upozornil, že rizikom nemusí byť iba únik informácií. Podstatné je aj to, či niekto dokázal zmeniť ich správnosť. Policajti sa na záznamy z NCIC spoliehajú pri rozhodovaní v teréne; nepravdivé alebo pozmenené údaje by preto mohli narušiť ich prácu. Z dostupných správ však nevyplýva, že k takým zmenám došlo.\n\n## Trump incident komentoval, okolnosti zostávajú nejasné\n\nTrump podľa TechCrunch v rozhovore pre Fox News povedal: „Práve sme sa o tom dozvedeli a poviem, že to nie je dobré.“ Zároveň naznačil, že prienik by mohol odhaliť informácie súvisiace s vyšetrovaním údajných volebných podvodov a s Ruskom. The Verge jeho vyjadrenia opísal ako potvrdenie útoku, no citované výroky samy osebe neobjasňujú, čo presne vláda o incidente vie.\n\n## Predchádzajúci incident nemusí súvisieť\n\nSpráva prichádza približne dva mesiace po tom, ako skupina ShinyHunters tvrdila, že prenikla do systémov FBI cez zraniteľnosť platformy Oracle PeopleSoft spojenej s náborovým webom FBIJobs.gov. Podľa BleepingComputer skupina uviedla, že získala citlivé informácie. The Verge zase v súvislosti s útokom z konca septembra písal o údajne odcudzených osobných záznamoch zamestnancov FBI a uchádzačov o prácu.\n\nFBI vtedy začala vyšetrovanie; BleepingComputer uvádza aj zatknutia podozrivých členov skupiny vrátane kanadského predstaviteľa kyberbezpečnostnej firmy. Zatiaľ však nie je náznak, že by aktuálny prípad NCIC súvisel so ShinyHunters alebo s predchádzajúcim prienikom."
+  }
+}
