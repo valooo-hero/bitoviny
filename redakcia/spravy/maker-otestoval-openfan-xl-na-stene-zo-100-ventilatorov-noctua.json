@@ -1,0 +1,497 @@
+{
+  "slug": "maker-otestoval-openfan-xl-na-stene-zo-100-ventilatorov-noctua",
+  "datum_sprav": "2026-11-22",
+  "dovod_vyberu": "Kreatívny projekt so 100 Noctua ventilátormi je vizuálne pútavý a môže zaujať komunitu PC nadšencov.",
+  "poznamky_pre_editora": "Overiť cenu OpenFAN XL: článok uvádza 2 355 USD (z 2 926 USD), no v komentároch Sasa Karanovic označuje túto informáciu za chybu a autor sľubuje opravu; správna suma v dodanom zdroji nie je. Rozlíšiť tvrdený teoretický rozsah 500 ventilátorov pri zapojení cez rozbočovače od odhadovaného limitu aktuálnej verzie približne 200 kusov.",
+  "upozornenia": [
+    "Téma má len jeden zdroj. Redakčné zásady žiadajú aspoň dva, zvážte doplnenie alebo zahodenie."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je veľmi spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojoch a sú presne prenesené. Najvážnejším problémom je, že cena 2 355 dolárov je v zdroji spochybnená samotným autorom, čo koncept správne reflektuje, ale mohol byť explicitnejší v tom, že ide o nepotvrdený údaj.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 25,
+        "potvrdenych": 25,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Kanadský tvorca Sasa Karanovic zostavil stenu zo 100 počítačových ventilátorov Noctua",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "A wall of 100 Noctua PC fans was built by maker Sasa Karanovic because \"why not.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ventilátory usporiadal do mriežky 10 × 10 a zapojil ich do desiatich výstupov zariadenia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "A video shows the setup and control of a 10x10 Noctua fan grid controlled via the 10 headers on the controller.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Projekt pripomína výstredné konštrukcie zo sveta Mad Maxa",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Maker builds Mad Max-inspired wall of 100 Noctua PC fans",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Karanovic ukázal aj inú podobu zostavy: dva výstupy ovládali po 50 ventilátorov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "A 50x2 setup was also shown working off the controller.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa tvorcu zvládol ovládač stovku bez väčšej námahy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Karanovic indicates that 100 fans was \"no sweat\" for the new controller",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V súčasnej podobe však jeho celkový limit leží približne pri 200 ventilátoroch.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "it would max out at around 200 spinners in its current iteration.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "OpenFAN XL má desať konektorov na ventilátory, preto bola mriežka rozdelená na desať riadených skupín.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "As the new OpenFAN XL controller has 10 headers, the natural first step in controlling them all was to make a grid of 10 x 10 units.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V ukážke nebolo možné nastavovať každý zo 100 kusov samostatne: najmenšou ovládanou jednotkou bola skupina ventilátorov pripojená k jednému kanálu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the 100 fans aren't individually controllable, they are controlled in banks of 10 due to the 10 header channels.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri mriežke tak regulácia prebiehala po desiatich kusoch.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the granularity of control on offer here can only apply to 10 fans at the fewest in an array of 100 fans.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri variante s dvoma skupinami po 50 kusov tvorca použil rozbočovače a upravené zapojenie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Karanovic also sought to show the flexibility of his system by using wiring/splitters so that the first two headers controlled 50 fans each.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tom’s Hardware píše, že pri dostatku ventilátorov by sa podobným spôsobom dalo teoreticky rozšíriť zapojenie až na 500 kusov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "If he'd had enough fans he could have theoretically expanded the cooling wall to 500 fans controlled by his OpenFan software in this way.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "To však nie je totožné s limitom aktuálnej zostavy: ten Karanovic odhaduje približne na 200 ventilátorov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "But there are some other limits to the controller which means it tops out at around 200 fans.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Päťstovka je teda uvedená ako možnosť daného spôsobu zapojenia, nie ako potvrdená kapacita ovládača.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "If he'd had enough fans he could have theoretically expanded the cooling wall to 500 fans controlled by his OpenFan software in this way.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na jej zostavenie bolo treba 200 ochranných mriežok na ventilátory, 800 skrutiek a množstvo kabeláže vrátane desiatok rozbočovačov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "there's also 200 fan grills, 800 screws, and oodles of wiring, including tens of fan splitters.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Karanovic podľa článku získal všetkých 100 ventilátorov vďaka šťastnej náhode a pomoci priateľa.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "recently acquired 100 fans through a combination of \"a ton of luck and a good friend.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ovládač podporuje aj pripojenie až štyroch teplotných sond.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the controller supports up to four integrated temperature probes to check if it is, actually, sweating.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tie môžu sledovať teplotu a poslúžiť pri regulácii ventilátorov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the controller supports up to four integrated temperature probes to check if it is, actually, sweating.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroje však neuvádzajú výsledky meraní teploty ani prietoku vzduchu zo samotnej steny.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the controller supports up to four integrated temperature probes to check if it is, actually, sweating.",
+        "komentar": "Zdroj neobsahuje žiadne merania teploty ani prietoku vzduchu, takže tvrdenie je podložené absenciou.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Projekt preto ukazuje najmä zapojenie a rozsah riadenia, nie porovnávací test chladiaceho výkonu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "A video shows the setup and control of a 10x10 Noctua fan grid controlled via the 10 headers on the controller.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Karanovic podľa Tom’s Hardware pripustil, že takáto chladiaca konštrukcia v praxi nemusí dávať veľký zmysel.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "this beastly cooling \"contraption probably makes no sense,\" admitted the OpenFAN XL controller designer.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ovládač cieli skôr na staviteľov serverov a ďalších výkonných zariadení, pri ktorých môže byť riadenie väčšieho počtu ventilátorov užitočné.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The product retail page more seriously pitches the controller as a useful product for server or other high-power device builders.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tom’s Hardware v článku uviedol cenu 2 355 dolárov pri predobjednávke, zníženú z 2 926 dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "grab one from Karanovic Research for $2,355, currently discounted from $2,926 on pre-order",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V komentároch však Karanovic označil údaj za chybu a spochybnil, že by išlo o cenu samotného ovládača; autor článku reagoval, že cenu považoval za prekvapivú, a poďakoval za opravu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "There is a minor typo in the article ... I don't think anyone would be willing to pay 2k for a fan controller...",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Správnu cenu zdroj neuvádza, preto ju nemožno považovať za potvrdenú.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "I'm not sure where this number comes from. The only number mentioned that is close to this was the cost of 100x fans shown around 1:15.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pre čitateľov na Slovensku ani v EÚ zdroj nepotvrdzuje dostupnosť zariadenia v miestnom predaji.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "you can make one yourself or grab one from Karanovic Research for $2,355",
+        "komentar": "Zdroj neuvádza žiadne informácie o dostupnosti v EÚ alebo na Slovensku, takže tvrdenie je podložené absenciou.",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "\nAko",
+        "kontext": "stovať nový otvorený hardvér a softvér.\n\nAko informuje Tom’s Hardware, Karanovic uká",
+        "navrhy": [
+          ", Ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", Ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": " ventilátorov. Päťstovka je teda uvedená ako možnosť daného spôsobu zapojenia, nie a",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ko možnosť daného spôsobu zapojenia, nie ako potvrdená kapacita ovládača.\n\n## Veľa k",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "né. Samotná stena tak slúži predovšetkým ako demonštrácia možností OpenFAN XL.\n\nTom’",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "predobjednávke",
+        "kontext": "v článku uviedol cenu 2 355 dolárov pri predobjednávke, zníženú z 2 926 dolárov. V komentároch",
+        "navrhy": [
+          "pred objednávke"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "povodny",
+      "url": "https://cdn.mos.cms.futurecdn.net/Y3DebBKkA5ePUXBxKFiiX3-1920-80.jpg",
+      "poznamka": "Pravdepodobne tlačový materiál. Editor musí potvrdiť pôvod."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/Y3DebBKkA5ePUXBxKFiiX3-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "OpenFAN XL controller controls 100 fans",
+        "popisok": "OpenFAN XL controller controls 100 fans",
+        "kredit": "Sasa Karanovic",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (Sasa Karanovic): pravdepodobne tlačový materiál."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/Y3DebBKkA5ePUXBxKFiiX3.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "OpenFAN XL controller controls 100 fans",
+        "popisok": "OpenFAN XL controller controls 100 fans",
+        "kredit": "(Image credit: Sasa Karanovic )",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (Sasa Karanovic): pravdepodobne tlačový materiál."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:420,cw:1080,ch:1080,q:80,w:1080/Y3DebBKkA5ePUXBxKFiiX3.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "OpenFAN XL controller controls 100 fans",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:240,cw:1440,ch:1080,q:80,w:1440/Y3DebBKkA5ePUXBxKFiiX3.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "OpenFAN XL controller controls 100 fans",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/56vqMYLDaKRHPhHZgbADFR.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "Mark Tyson",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/7cUTDmN2PHNRiNBVqbKf56.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "Google Preferred Source",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/Zduc534bvWyhbUpJ3ugYg3.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "OpenFAN XL controller controls 100 fans",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/gU8XJQTvNS5dbV5k6Ur6k3.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "OpenFAN XL controller controls 100 fans",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "OpenFAN XL",
+      "fan controller",
+      "computer fans"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/20250922_xl_0937a_Hertha_BSC%2C_Fan-Signatur.jpg/1280px-20250922_xl_0937a_Hertha_BSC%2C_Fan-Signatur.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/20250922_xl_0937a_Hertha_BSC%2C_Fan-Signatur.jpg/1280px-20250922_xl_0937a_Hertha_BSC%2C_Fan-Signatur.jpg",
+        "nazov": "20250922 xl 0937a Hertha BSC, Fan-Signatur.jpg",
+        "autor": "Molgreen",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:20250922_xl_0937a_Hertha_BSC,_Fan-Signatur.jpg",
+        "povod": "wikimedia",
+        "dopyt": "OpenFAN XL"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/PC-PSU-FAN-TH-CTRL_IMG_0803.JPG/1280px-PC-PSU-FAN-TH-CTRL_IMG_0803.JPG",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/PC-PSU-FAN-TH-CTRL_IMG_0803.JPG/1280px-PC-PSU-FAN-TH-CTRL_IMG_0803.JPG",
+        "nazov": "PC-PSU-FAN-TH-CTRL IMG 0803.JPG",
+        "autor": "Hans Haase",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:PC-PSU-FAN-TH-CTRL_IMG_0803.JPG",
+        "povod": "wikimedia",
+        "dopyt": "fan controller"
+      },
+      {
+        "url": "https://live.staticflickr.com/8064/8258936334_344617f7a7_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/8cb5f266-c2c8-4fef-856b-ae3df6aedb70/thumb/",
+        "nazov": "Ceiling fan controls",
+        "autor": "yeric",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/26370973@N08/8258936334",
+        "povod": "openverse",
+        "dopyt": "fan controller"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Two_computer_cooling_fans_%28Globe_Fan_and_Cooler_Master%29%2C_back.jpg/1280px-Two_computer_cooling_fans_%28Globe_Fan_and_Cooler_Master%29%2C_back.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Two_computer_cooling_fans_%28Globe_Fan_and_Cooler_Master%29%2C_back.jpg/1280px-Two_computer_cooling_fans_%28Globe_Fan_and_Cooler_Master%29%2C_back.jpg",
+        "nazov": "Two computer cooling fans (Globe Fan and Cooler Master), back.jpg",
+        "autor": "Antonio Mette",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Two_computer_cooling_fans_(Globe_Fan_and_Cooler_Master),_back.jpg",
+        "povod": "wikimedia",
+        "dopyt": "computer fans"
+      },
+      {
+        "url": "https://live.staticflickr.com/4072/4331560119_61e94cb16b_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/25c00c27-72e5-465d-a4da-39d0e449aa23/thumb/",
+        "nazov": "CreativeTools.se - PackshotCreator - Computer fan tunnel",
+        "autor": "Creative Tools",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/33907867@N02/4331560119",
+        "povod": "openverse",
+        "dopyt": "computer fans"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/20260821_xl_1724_Dynamo_Dresden_Fan-Signatur.jpg/1280px-20260821_xl_1724_Dynamo_Dresden_Fan-Signatur.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/20260821_xl_1724_Dynamo_Dresden_Fan-Signatur.jpg/1280px-20260821_xl_1724_Dynamo_Dresden_Fan-Signatur.jpg",
+        "nazov": "20260821 xl 1724 Dynamo Dresden Fan-Signatur.jpg",
+        "autor": "Molgreen",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:20260821_xl_1724_Dynamo_Dresden_Fan-Signatur.jpg",
+        "povod": "wikimedia",
+        "dopyt": "OpenFAN XL"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/PC-PSU-FAN-TH-CTRL_IMG_0743.JPG/1280px-PC-PSU-FAN-TH-CTRL_IMG_0743.JPG",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/PC-PSU-FAN-TH-CTRL_IMG_0743.JPG/1280px-PC-PSU-FAN-TH-CTRL_IMG_0743.JPG",
+        "nazov": "PC-PSU-FAN-TH-CTRL IMG 0743.JPG",
+        "autor": "Hans Haase",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:PC-PSU-FAN-TH-CTRL_IMG_0743.JPG",
+        "povod": "wikimedia",
+        "dopyt": "fan controller"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/48323153311_c0ae084f61_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/0cb46140-8570-41c6-9dd4-5cd6890d3dda/thumb/",
+        "nazov": "Cable installation in a tunnel ventilation fan control panel that will monitor for shock and vibration. (CS179, 07-15-2019)",
+        "autor": "MTA C&D - EAST SIDE ACCESS",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/59595815@N03/48323153311",
+        "povod": "openverse",
+        "dopyt": "fan controller"
+      }
+    ],
+    "prompt_ilustracie": "Create a stylized, abstract illustration of a monumental grid of computer cooling fans connected by colorful wires to a compact open hardware controller, with a rugged post-apocalyptic workshop atmosphere, no logos, no text, and no real people."
+  },
+  "prompt_ilustracie": "Create a stylized, abstract illustration of a monumental grid of computer cooling fans connected by colorful wires to a compact open hardware controller, with a rugged post-apocalyptic workshop atmosphere, no logos, no text, and no real people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/a0514a766e75f055a3965a39369f0516",
+  "text_agentov": {
+    "titulok": "Maker otestoval OpenFAN XL na stene zo 100 ventilátorov Noctua",
+    "perex": "Mriežka v usporiadaní 10 × 10 mala preveriť nový otvorený ovládač ventilátorov. Zostava ukázala, že OpenFAN XL zvládne riadiť aj veľké skupiny, hoci nie každý ventilátor osobitne.",
+    "telo": "Kanadský tvorca Sasa Karanovic zostavil stenu zo 100 počítačových ventilátorov Noctua, aby predviedol možnosti svojho ovládača OpenFAN XL. Ventilátory usporiadal do mriežky 10 × 10 a zapojil ich do desiatich výstupov zariadenia. Projekt pripomína výstredné konštrukcie zo sveta Mad Maxa, no jeho hlavnou úlohou bolo otestovať nový otvorený hardvér a softvér.\n\nAko informuje Tom’s Hardware, Karanovic ukázal aj inú podobu zostavy: dva výstupy ovládali po 50 ventilátorov. Podľa tvorcu zvládol ovládač stovku bez väčšej námahy. V súčasnej podobe však jeho celkový limit leží približne pri 200 ventilátoroch.\n\n## Desať skupín namiesto samostatného riadenia\n\nOpenFAN XL má desať konektorov na ventilátory, preto bola mriežka rozdelená na desať riadených skupín. V ukážke nebolo možné nastavovať každý zo 100 kusov samostatne: najmenšou ovládanou jednotkou bola skupina ventilátorov pripojená k jednému kanálu. Pri mriežke tak regulácia prebiehala po desiatich kusoch.\n\nPri variante s dvoma skupinami po 50 kusov tvorca použil rozbočovače a upravené zapojenie. Tom’s Hardware píše, že pri dostatku ventilátorov by sa podobným spôsobom dalo teoreticky rozšíriť zapojenie až na 500 kusov. To však nie je totožné s limitom aktuálnej zostavy: ten Karanovic odhaduje približne na 200 ventilátorov. Päťstovka je teda uvedená ako možnosť daného spôsobu zapojenia, nie ako potvrdená kapacita ovládača.\n\n## Veľa kabeláže aj drobných súčiastok\n\nZa jednoduchým pohľadom na mriežku sa skrýva rozsiahla montáž. Na jej zostavenie bolo treba 200 ochranných mriežok na ventilátory, 800 skrutiek a množstvo kabeláže vrátane desiatok rozbočovačov. Karanovic podľa článku získal všetkých 100 ventilátorov vďaka šťastnej náhode a pomoci priateľa.\n\nOvládač podporuje aj pripojenie až štyroch teplotných sond. Tie môžu sledovať teplotu a poslúžiť pri regulácii ventilátorov. Zdroje však neuvádzajú výsledky meraní teploty ani prietoku vzduchu zo samotnej steny. Projekt preto ukazuje najmä zapojenie a rozsah riadenia, nie porovnávací test chladiaceho výkonu.\n\n## Nezvyčajná ukážka, sporná cena\n\nKaranovic podľa Tom’s Hardware pripustil, že takáto chladiaca konštrukcia v praxi nemusí dávať veľký zmysel. Ovládač cieli skôr na staviteľov serverov a ďalších výkonných zariadení, pri ktorých môže byť riadenie väčšieho počtu ventilátorov užitočné. Samotná stena tak slúži predovšetkým ako demonštrácia možností OpenFAN XL.\n\nTom’s Hardware v článku uviedol cenu 2 355 dolárov pri predobjednávke, zníženú z 2 926 dolárov. V komentároch však Karanovic označil údaj za chybu a spochybnil, že by išlo o cenu samotného ovládača; autor článku reagoval, že cenu považoval za prekvapivú, a poďakoval za opravu. Správnu cenu zdroj neuvádza, preto ju nemožno považovať za potvrdenú. Pre čitateľov na Slovensku ani v EÚ zdroj nepotvrdzuje dostupnosť zariadenia v miestnom predaji."
+  }
+}
