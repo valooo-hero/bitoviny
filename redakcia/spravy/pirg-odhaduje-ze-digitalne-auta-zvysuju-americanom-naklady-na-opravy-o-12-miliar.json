@@ -1,0 +1,442 @@
+{
+  "slug": "pirg-odhaduje-ze-digitalne-auta-zvysuju-americanom-naklady-na-opravy-o-12-miliar",
+  "datum_sprav": "2026-11-22",
+  "dovod_vyberu": "Náklady na opravy digitálnych áut v USA poukazujú na trend, ktorý môže ovplyvniť aj európskych spotrebiteľov.",
+  "poznamky_pre_editora": "Čerpané z jediného článku The Register, ktorý sumarizuje tvrdenia PIRG; pred publikovaním overiť pôvodnú správu *Closing Shop*, najmä výpočet 12 miliárd dolárov a údaj o jednej pätine opráv. Zdroj neobsahuje nezávislé potvrdenie týchto odhadov. V texte nie sú pokyny vložené do zdrojového článku.",
+  "upozornenia": [
+    "Téma má len jeden zdroj. Redakčné zásady žiadajú aspoň dva, zvážte doplnenie alebo zahodenie."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojovom článku The Register. Najvážnejším problémom nie je žiadna faktická chyba, ale možno len drobné štylistické odchýlky, ktoré však nemenia význam.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 24,
+        "potvrdenych": 24,
+        "chyb": 0,
+        "upozorneni": 1
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "Nathan Proctor, ktorý vedie kampaň Right to Repair v PIRG a je spoluautorom správy, prirovnal súčasný systém k spoplatnenej ceste medzi mechanikom a opravou.",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „Nathan Proctor, leader of PIRG’s Right to Repair campaign and co-author on the report. “We’ve allowed car manufacturers to build a toll road between the mechani“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Americkí vodiči platia podľa odhadu spotrebiteľskej organizácie Public Interest Research Group (PIRG) ročne o 12 miliárd dolárov viac za opravy áut v dôsledku rastúcej digitalizácie vozidiel.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "An investigation by the non-profit consumer group estimates that car repair costs for Americans have been inflated by $12 billion each year, as vehicles integrate more computerized functions.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Organizácia tvrdí, že náklady zvyšujú poplatky za softvér a ďalšie prekážky, s ktorými sa stretávajú autoservisy pri diagnostike a opravách.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "software fees and other charges faced by mechanics push up garage costs.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Informoval o tom portál The Register s odkazom na správu PIRG s názvom *Closing Shop*.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Its report, Closing Shop , is available online.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Mechanici majú stráviť spolu približne 83 miliónov hodín ročne nákupom a sťahovaním softvéru, prihlasovaním do systémov a čakaním.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "they spend an estimated collective 83 million hours a year buying, downloading, logging in, and waiting.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Organizácia tento čas prepočítava na 12 miliárd dolárov pri typických sadzbách za opravy.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "At typical repair rates, that adds up to $12 billion.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri práci na modernom aute sa technik často musí pripojiť k vozidlu notebookom alebo tabletom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "a technician has to first connect a laptop or tablet to the vehicle.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Takto môže hľadať chybný senzor, uvoľniť elektronickú parkovaciu brzdu alebo spustiť diagnostiku.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "To find a failed sensor, release an electronic parking brake, or perform diagnostics",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Servis však potrebuje vhodné softvérové nástroje a prístup k údajom, ktoré výrobcovia sprístupňujú za predplatné alebo iné poplatky.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "the repair shop has to have the right software tools, and that means paying the vehicle manufacturer subscription charges and other fees",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "PIRG uvádza, že približne jednu pätinu opráv môžu takéto servisy odovzdať autorizovaným predajcom.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "they may be forced to steer customers to authorized dealerships for some fixes – about one in five jobs",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tí si podľa organizácie môžu za prácu účtovať viac.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "this allows the latter to charge more.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jej správa opisuje vznik dvojúrovňového systému, v ktorom nezávislé dielne pracujú s obmedzenejšími informáciami a diagnostickými nástrojmi.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "a two-tiered repair model now exists, where independent sites conduct repairs with less information, less powerful diagnostic tools",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "PIRG tvrdí, že drahšie opravy sa môžu prejaviť aj v poistnom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "PIRG claims that drivers pay for this through their insurance premiums",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ak poisťovne vyplácajú vyššie sumy za opravy, náklady podľa organizácie dopadajú aj na vodičov, ktorí sami servis nepotrebujú.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "even if they never need to get their car fixed, because higher repair costs mean higher insurance claims.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "PIRG zároveň uvádza, že ceny poistenia áut v USA od roku 2012 rástli trikrát rýchlejšie než zvyšok americkej ekonomiky.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "the price of auto insurance has risen three times as fast as the rest of the US economy since 2012.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Toto porovnanie aj výpočet dodatočných výdavkov sú tvrdeniami organizácie, ktorá presadzuje právo na opravu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "PIRG claims that drivers pay for this through their insurance premiums",
+        "komentar": "Zdroj uvádza, že ide o tvrdenia PIRG, a koncept to správne označuje.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register neuvádza nezávislé overenie odhadu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "An investigation by the non-profit consumer group estimates",
+        "komentar": "Zdroj prezentuje odhad ako tvrdenie PIRG, nie ako nezávisle overený fakt.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Správa sa týka amerického trhu a sama osebe neurčuje, či sú rovnaké náklady prítomné na Slovensku alebo v Európskej únii.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "US consumers pay an extra $12 billion a year for repairs",
+        "komentar": "Zdroj sa zameriava na USA, takže konštatovanie o americkom trhu je podložené.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Organizácia vyzýva zákonodarcov, aby zabránili výrobcom blokovať nezávislé servisy pri jednoduchých úkonoch, napríklad pri výmene brzdových doštičiek.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "stop manufacturers from locking out independent mechanics from simple repair jobs like changing brake pads",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Navrhuje tiež štandardizovaný spôsob overovania diagnostických nástrojov nezávislých dielní",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "require them to support a standard protocol for authenticating independent diagnostic tools.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "a systém, cez ktorý by majitelia mohli sprístupniť údaje o vozidle vybranému servisu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "give owners control over their vehicle’s data via a standardized platform for accessing telematics repair information",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "PIRG chce, aby majitelia aj domáci opravári mali prístup k servisným informáciám a základnému diagnostickému softvéru.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "DIY repairers should be able to get everything they need to fix their own cars. Service information and basic diagnostic software should be free",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Odporúča tiež zastropovať licenčné poplatky za oficiálne nástroje výrobcov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "PIRG also wants a cap on the license fees manufacturers charge for their official software tools.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nathan Proctor, ktorý vedie kampaň Right to Repair v PIRG a je spoluautorom správy, prirovnal súčasný systém k spoplatnenej ceste medzi mechanikom a opravou.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Nathan Proctor, leader of PIRG’s Right to Repair campaign and co-author on the report. “We’ve allowed car manufacturers to build a toll road between the mechanic and the repair,”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výrobcovia podľa neho vytvorili viacero poplatkových prekážok, ktoré predlžujú prácu a zvyšujú jej cenu.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "We have a plethora of tolls on the road – subscriptions you need for manuals, diagnostic tools, secure access and more. Not only are all these tolls expensive, they also create traffic jams, slowing down the whole process, which adds to the costs for consumers.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "cez ktorý by",
+        "opravene": "cez, ktorý by",
+        "dovod": "LanguageTool: Dajte čiarku pred „ktorý“: \", ktorý\".",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "LanguageTool"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "tabletom",
+        "kontext": "usí pripojiť k vozidlu notebookom alebo tabletom. Takto môže hľadať chybný senzor, uvoľn",
+        "navrhy": [
+          "tabletou",
+          "tabletám",
+          "trbletom"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "menšie",
+        "kontext": " za predplatné alebo iné poplatky.\n\nPre menšie nezávislé dielne môžu byť náklady na po",
+        "navrhy": [
+          "malé"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (menšie) \"malé\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "dvojúrovňového",
+        "kontext": " účtovať viac. Jej správa opisuje vznik dvojúrovňového systému, v ktorom nezávislé dielne prac",
+        "navrhy": [
+          "dvoj úrovňového"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "doštičiek",
+        "kontext": "úkonoch, napríklad pri výmene brzdových doštičiek. Navrhuje tiež štandardizovaný spôsob o",
+        "navrhy": [
+          "detičiek",
+          "doštičke",
+          "hostiniek"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "zastropovať",
+        "kontext": " diagnostickému softvéru. Odporúča tiež zastropovať licenčné poplatky za oficiálne nástroje",
+        "navrhy": [
+          "zastrašovať",
+          "zastreľovať",
+          "zastrešovať"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -23 +23 @@\n-Organizácia vyzýva zákonodarcov, aby zabránili výrobcom blokovať nezávislé servisy pri jednoduchých úkonoch, napríklad pri výmene brzdových doštičiek. Navrhuje tiež štandardizovaný spôsob overovania diagnostických nástrojov nezávislých dielní a systém, cez ktorý by majitelia mohli sprístupniť údaje o vozidle vybranému servisu.\n+Organizácia vyzýva zákonodarcov, aby zabránili výrobcom blokovať nezávislé servisy pri jednoduchých úkonoch, napríklad pri výmene brzdových doštičiek. Navrhuje tiež štandardizovaný spôsob overovania diagnostických nástrojov nezávislých dielní a systém, cez, ktorý by majitelia mohli sprístupniť údaje o vozidle vybranému servisu."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Community_Diagnostics_Centre_Mobile_MRI_Scanner%2C_Kingston_upon_Hull_Dec25.jpg/1280px-Community_Diagnostics_Centre_Mobile_MRI_Scanner%2C_Kingston_upon_Hull_Dec25.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://image.theregister.com/?imageId=5311508&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "diagnostic scanner",
+      "car repair shop",
+      "engine bay"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Community_Diagnostics_Centre_Mobile_MRI_Scanner%2C_Kingston_upon_Hull_Dec25.jpg/1280px-Community_Diagnostics_Centre_Mobile_MRI_Scanner%2C_Kingston_upon_Hull_Dec25.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Community_Diagnostics_Centre_Mobile_MRI_Scanner%2C_Kingston_upon_Hull_Dec25.jpg/1280px-Community_Diagnostics_Centre_Mobile_MRI_Scanner%2C_Kingston_upon_Hull_Dec25.jpg",
+        "nazov": "Community Diagnostics Centre Mobile MRI Scanner, Kingston upon Hull Dec25.jpg",
+        "autor": "Hullian111",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Community_Diagnostics_Centre_Mobile_MRI_Scanner,_Kingston_upon_Hull_Dec25.jpg",
+        "povod": "wikimedia",
+        "dopyt": "diagnostic scanner"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Hitachi%2C_Ultrasound_Diagnostic_Scanner%2C_Noblus%2C.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/647f6cdc-272b-4687-bbb8-ae93f2976f8e/thumb/",
+        "nazov": "Hitachi, Ultrasound Diagnostic Scanner, Noblus,",
+        "autor": "Mj-bird",
+        "licencia": "BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=22956183",
+        "povod": "openverse",
+        "dopyt": "diagnostic scanner"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Car_repair_shop.jpg/1280px-Car_repair_shop.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Car_repair_shop.jpg/1280px-Car_repair_shop.jpg",
+        "nazov": "Car repair shop.jpg",
+        "autor": "Martin Vorel",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Car_repair_shop.jpg",
+        "povod": "wikimedia",
+        "dopyt": "car repair shop"
+      },
+      {
+        "url": "https://live.staticflickr.com/6089/6057753185_c3434f84b5_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/f21542a1-0e8a-402b-9798-a64ef50b4b9a/thumb/",
+        "nazov": "Classic car repair shop",
+        "autor": "vetaturfumare - thanks for 4 MILLION views!!!",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/10047629@N04/6057753185",
+        "povod": "openverse",
+        "dopyt": "car repair shop"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Porsche_911_Carrera_Motorhaube-20190501-RM-154600.jpg/1280px-Porsche_911_Carrera_Motorhaube-20190501-RM-154600.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Porsche_911_Carrera_Motorhaube-20190501-RM-154600.jpg/1280px-Porsche_911_Carrera_Motorhaube-20190501-RM-154600.jpg",
+        "nazov": "Porsche 911 Carrera Motorhaube-20190501-RM-154600.jpg",
+        "autor": "Ermell",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Porsche_911_Carrera_Motorhaube-20190501-RM-154600.jpg",
+        "povod": "wikimedia",
+        "dopyt": "engine bay"
+      },
+      {
+        "url": "https://live.staticflickr.com/4056/4717397470_d1d4ed3ea9_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/f36cb292-415d-429d-85c3-0ba72d88670f/thumb/",
+        "nazov": "Skoda Fabia Cylinder Head - Engine bay",
+        "autor": "L.C.Nøttaasen",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/35166455@N00/4717397470",
+        "povod": "openverse",
+        "dopyt": "engine bay"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Community_Diagnostics_Centre_Mobile_MRI_Scanner_Rear%2C_Kingston_upon_Hull_Dec25.jpg/1280px-Community_Diagnostics_Centre_Mobile_MRI_Scanner_Rear%2C_Kingston_upon_Hull_Dec25.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Community_Diagnostics_Centre_Mobile_MRI_Scanner_Rear%2C_Kingston_upon_Hull_Dec25.jpg/1280px-Community_Diagnostics_Centre_Mobile_MRI_Scanner_Rear%2C_Kingston_upon_Hull_Dec25.jpg",
+        "nazov": "Community Diagnostics Centre Mobile MRI Scanner Rear, Kingston upon Hull Dec25.jpg",
+        "autor": "Hullian111",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Community_Diagnostics_Centre_Mobile_MRI_Scanner_Rear,_Kingston_upon_Hull_Dec25.jpg",
+        "povod": "wikimedia",
+        "dopyt": "diagnostic scanner"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/2024-12-17_14_05_06_UVeye_automobile_diagnostic_scanner_at_Team_Toyota_of_Princeton_along_U.S._Route_1_%28Brunswick_Pike%29_in_Lawrence_Township%2C_Mercer_County%2C_New_Jersey.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/563e9b5a-d0b4-4921-a27c-7243d2a7baf7/thumb/",
+        "nazov": "2024-12-17 14 05 06 UVeye automobile diagnostic scanner at Team Toyota of Princeton along U.S. Route 1 (Brunswick Pike) in Lawrence Township, Mercer County, New Jersey",
+        "autor": "Famartin",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=156824040",
+        "povod": "openverse",
+        "dopyt": "diagnostic scanner"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a modern car connected by glowing data cables to a repair garage, with toll-like barriers representing software access fees, using a clean abstract style and no text, logos, or real people."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a modern car connected by glowing data cables to a repair garage, with toll-like barriers representing software access fees, using a clean abstract style and no text, logos, or real people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/af3e56686ea660d025f20ea42d668a33",
+  "text_agentov": {
+    "titulok": "PIRG odhaduje, že digitálne autá zvyšujú Američanom náklady na opravy o 12 miliárd dolárov ročne",
+    "perex": "Podľa spotrebiteľskej organizácie sa časť zdraženia spája s poplatkami za diagnostický softvér a prístup k údajom vozidiel. Náklady môžu zasiahnuť aj vodičov, ktorí auto opravovať nepotrebujú.",
+    "telo": "Americkí vodiči platia podľa odhadu spotrebiteľskej organizácie Public Interest Research Group (PIRG) ročne o 12 miliárd dolárov viac za opravy áut v dôsledku rastúcej digitalizácie vozidiel. Organizácia tvrdí, že náklady zvyšujú poplatky za softvér a ďalšie prekážky, s ktorými sa stretávajú autoservisy pri diagnostike a opravách. Informoval o tom portál The Register s odkazom na správu PIRG s názvom *Closing Shop*.\n\nOdhad sa opiera aj o čas, ktorý servisy podľa PIRG venujú získavaniu potrebných nástrojov. Mechanici majú stráviť spolu približne 83 miliónov hodín ročne nákupom a sťahovaním softvéru, prihlasovaním do systémov a čakaním. Organizácia tento čas prepočítava na 12 miliárd dolárov pri typických sadzbách za opravy.\n\n## Diagnostika závisí od prístupu k softvéru\n\nPri práci na modernom aute sa technik často musí pripojiť k vozidlu notebookom alebo tabletom. Takto môže hľadať chybný senzor, uvoľniť elektronickú parkovaciu brzdu alebo spustiť diagnostiku. Servis však potrebuje vhodné softvérové nástroje a prístup k údajom, ktoré výrobcovia sprístupňujú za predplatné alebo iné poplatky.\n\nPre menšie nezávislé dielne môžu byť náklady na potrebné programy a prístupy príliš vysoké. PIRG uvádza, že približne jednu pätinu opráv môžu takéto servisy odovzdať autorizovaným predajcom. Tí si podľa organizácie môžu za prácu účtovať viac. Jej správa opisuje vznik dvojúrovňového systému, v ktorom nezávislé dielne pracujú s obmedzenejšími informáciami a diagnostickými nástrojmi.\n\n## Náklady sa môžu premietnuť do poistenia\n\nPIRG tvrdí, že drahšie opravy sa môžu prejaviť aj v poistnom. Ak poisťovne vyplácajú vyššie sumy za opravy, náklady podľa organizácie dopadajú aj na vodičov, ktorí sami servis nepotrebujú. PIRG zároveň uvádza, že ceny poistenia áut v USA od roku 2012 rástli trikrát rýchlejšie než zvyšok americkej ekonomiky.\n\nToto porovnanie aj výpočet dodatočných výdavkov sú tvrdeniami organizácie, ktorá presadzuje právo na opravu. The Register neuvádza nezávislé overenie odhadu. Správa sa týka amerického trhu a sama osebe neurčuje, či sú rovnaké náklady prítomné na Slovensku alebo v Európskej únii.\n\n## PIRG žiada zmeny pravidiel\n\nOrganizácia vyzýva zákonodarcov, aby zabránili výrobcom blokovať nezávislé servisy pri jednoduchých úkonoch, napríklad pri výmene brzdových doštičiek. Navrhuje tiež štandardizovaný spôsob overovania diagnostických nástrojov nezávislých dielní a systém, cez, ktorý by majitelia mohli sprístupniť údaje o vozidle vybranému servisu.\n\nPIRG chce, aby majitelia aj domáci opravári mali prístup k servisným informáciám a základnému diagnostickému softvéru. Odporúča tiež zastropovať licenčné poplatky za oficiálne nástroje výrobcov. Nathan Proctor, ktorý vedie kampaň Right to Repair v PIRG a je spoluautorom správy, prirovnal súčasný systém k spoplatnenej ceste medzi mechanikom a opravou. Výrobcovia podľa neho vytvorili viacero poplatkových prekážok, ktoré predlžujú prácu a zvyšujú jej cenu."
+  }
+}
