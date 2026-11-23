@@ -1,0 +1,573 @@
+{
+  "slug": "komunita-prinasa-windowsu-7-podporu-directx-12-a-vulkanu-1-4",
+  "datum_sprav": "2026-11-22",
+  "dovod_vyberu": "Neoficiálna podpora DirectX 12 a Vulkan 1.4 pre starý Windows 7 je zaujímavá pre technických nadšencov a predlžuje životnosť systému.",
+  "poznamky_pre_editora": "Overiť dostupnosť a obsah súborov na W7Revived, rozsah podpory Vulkanu 1.4 a DirectX 12 a tvrdenia o ray tracingu a DLSS; zdroj ich opisuje ako neoficiálne a závislé od hardvéru, ovládača a aplikácie. Výsledky porovnania Windows 7 a 11 sú prevzaté len z testu Tom’s Hardware. K dispozícii bol jeden zdroj; nejde o nezávislé potvrdenie projektu.",
+  "upozornenia": [
+    "Téma má len jeden zdroj. Redakčné zásady žiadajú aspoň dva, zvážte doplnenie alebo zahodenie."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojovom článku. Najvážnejším problémom nie je žiadna faktická chyba, ale možno len drobné štylistické odchýlky, ktoré však neovplyvňujú správnosť.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 27,
+        "potvrdenych": 27,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Neoficiálny projekt upravuje ovládačový model systému a má umožniť využívať novšie grafické karty Nvidia, AMD aj Intel.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "A new community project is now giving Windows 7 the ability to support modern Nvidia, AMD, and Intel graphics cards",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podpora funkcií však závisí od hardvéru, ovládača aj aplikácie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "actual feature support depends on the graphics card, driver implementation, and application.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Komunitný projekt má priniesť 17-ročnému systému Windows 7 neoficiálnu podporu DirectX 12 a Vulkanu 1.4",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "17-year-old Windows 7 gets unofficial DirectX 12 and Vulkan 1.4 support",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ide o úpravu vytvorenú nadšencami, nie o aktualizáciu od Microsoftu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "that hasn’t stopped enthusiasts from finding ways to bring modern hardware and features to Microsoft’s beloved operating system.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "projekt vyvíjajú EAZY BLACK, kryptik a VisualEhrmanntraut",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Developed by enthusiasts EAZY BLACK, kryptik, and VisualEhrmanntraut",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Základom je prenesenie novšej verzie ovládačového modelu WDDM 2.2 do Windowsu 7.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the project backports WDDM 2.2 from Windows 10.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Úspešné rozpoznanie grafickej karty však samo osebe nezaručuje, že budú fungovať všetky jej funkcie alebo každá aplikácia, ktorá ich využíva.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "actual feature support depends on the graphics card, driver implementation, and application.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa príspevku používateľa @TheBobPony na sociálnej sieti X projekt podporuje karty Nvidia GeForce RTX 40 a RTX 50, AMD Radeon RX 7000 a RX 9000 a vybrané modely Intel Arc.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "According to a post by @TheBobPony on X , Nvidia's RTX 40 and RTX 50 series, AMD's Radeon RX 7000 and RX 9000 series, and select Intel Arc graphics cards are supported.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Snímky obrazovky podľa článku ukazujú, že Windows 7 dokáže tieto karty rozpoznať; údaje o nich zobrazujú aj nástroje tretích strán, napríklad GPU-Z.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Screenshots confirm that the backport enables GPUs to be recognized by Windows 7 as well as third-party apps like GPU-Z.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Autori projektu podľa reportáže tvrdia, že na kompatibilnom hardvéri môžu fungovať aj ray tracing a DLSS.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "It is also claimed that features such as ray tracing and DLSS also work on compatible hardware.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tieto možnosti však nemožno považovať za automaticky dostupné pre každú kartu zo spomínaných radov. Výsledok závisí od konkrétneho GPU, implementácie ovládača a aplikácie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "actual feature support depends on the graphics card, driver implementation, and application.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Z projektu môžu podľa článku profitovať aj niektoré staršie karty, napríklad Nvidia RTX 30 a AMD Radeon RX 6000.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Older GPUs, including Nvidia's RTX 30 series and AMD's Radeon RX 6000 series, may also benefit from the project.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Súbory projektu a upravené ovládače sú dostupné na stránke W7Revived, na ktorú odkazuje Tom’s Hardware.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "You can grab the project files and modified drivers by heading to the W7Revived website .",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Článok spomína aj kompatibilitnú vrstvu VxKex, s ktorou možno skúšať spúšťať novšie aplikácie pre Windows na starších systémoch.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Users can also combine it with the VxKex compatibility layer, allowing newer Windows apps to run on older operating systems.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nejde teda o oficiálnu podporu operačného systému zo strany Microsoftu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Windows 7 may have been retired years ago, but that hasn’t stopped enthusiasts from finding ways",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Windows 7 vyšiel v roku 2009 s WDDM 1.1.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Windows 7 originally launched with WDDM 1.1",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft zaviedol WDDM 2.0 vo Windows 10 v roku 2015",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Microsoft introduced WDDM 2.0 with Windows 10 in 2015",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "verziu 2.2 priniesla aktualizácia Creators Update v roku 2017",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "WDDM 2.2 with the Creators Update in 2017",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Práve WDDM 2.2 sa komunitný projekt pokúša preniesť do staršieho systému.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the project backports WDDM 2.2 from Windows 10.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft už v roku 2019 sprístupnil obmedzenú verziu DirectX 12 pre Windows 7.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Microsoft also introduced a limited version of DirectX 12 for Windows 7 in 2019",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Bola však určená na to, aby vývojári mohli preniesť vybrané hry na starší operačný systém.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "that implementation was only meant for developers to port select games to the older operating system.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nový komunitný projekt preto predstavuje iný spôsob, ako rozšíriť podporu grafických funkcií, no stále nejde o plnohodnotnú oficiálnu podporu Microsoftu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "A new community project is now giving Windows 7 the ability to support modern Nvidia, AMD, and Intel graphics cards",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Windows 7 zostáva zaujímavý pre používateľov, ktorí uprednostňujú jeho prostredie alebo potrebujú starší softvér a hardvér.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "For anyone who still prefers Windows 7 or relies on older software and hardware, this project is worth exploring",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tom’s Hardware pripomína aj vlastné porovnanie systému s Windowsom 11 na počítači s procesorom AMD Ryzen 7 9800X3D, grafikou Radeon RX 6950 XT a 64 GB pamäte DDR5.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "We recently tested the aging operating system against Windows 11 on a modern PC running on an AMD Ryzen 7 9800X3D, Radeon RX 6950 XT, and 64GB of DDR5 memory.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Test zahŕňal osem hier s DirectX 11 a dve s DirectX 9.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The tests included eight DirectX 11 and two DirectX 9 titles",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Windows 7 v niektorých situáciách dosiahol vyšší výkon, najmä pri hrách limitovaných procesorom, a v niektorých tituloch mal lepšie hodnoty 1 % low.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "with Windows 7 delivering better performance in certain scenarios, particularly CPU-bound games, along with stronger 1% lows in some titles.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výsledok sa týka konkrétneho testu; sám osebe neznamená, že je starší systém vhodnejší pre každý moderný počítač alebo hru.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The tests included eight DirectX 11 and two DirectX 9 titles, with Windows 7 delivering better performance in certain scenarios",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": " Ktoré",
+        "opravene": ", Ktoré",
+        "dovod": "LanguageTool: Dajte čiarku pred „ktorý“: \", Ktoré\".",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "LanguageTool"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "ovládačový",
+        "kontext": "Neoficiálny projekt upravuje ovládačový model systému a má umožniť využívať nov",
+        "navrhy": [
+          "ovládačov",
+          "ovládačov ý"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "novšie",
+        "kontext": "ový model systému a má umožniť využívať novšie grafické karty Nvidia, AMD aj Intel. Po",
+        "navrhy": [
+          "nové"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (novšie) \"nové\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "novších",
+        "kontext": "lnu podporu DirectX 12 a Vulkanu 1.4 aj novších grafických kariet od Nvidie, AMD a Inte",
+        "navrhy": [
+          "nových"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (novších) \"nových\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "kryptik",
+        "kontext": " Hardware, projekt vyvíjajú EAZY BLACK, kryptik a VisualEhrmanntraut.\n\nZákladom je pren",
+        "navrhy": [
+          "kýptik"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "ovládačového",
+        "kontext": ".\n\nZákladom je prenesenie novšej verzie ovládačového modelu WDDM 2.2 do Windowsu 7. Úspešné ",
+        "navrhy": [
+          "ovládacieho"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "@TheBobPony",
+        "kontext": "ekt uvádza\n\nPodľa príspevku používateľa @TheBobPony na sociálnej sieti X projekt podporuje ",
+        "navrhy": [
+          "@ TheBobPony"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "reportáže",
+        "kontext": "napríklad GPU-Z.\n\nAutori projektu podľa reportáže tvrdia, že na kompatibilnom hardvéri mô",
+        "navrhy": [
+          "reportáž",
+          "reportážne",
+          "reportáž e"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "ray",
+        "kontext": "kompatibilnom hardvéri môžu fungovať aj ray tracing a DLSS. Tieto možnosti však nem",
+        "navrhy": [
+          "RAF",
+          "RAM",
+          "Rác"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "tracing",
+        "kontext": "atibilnom hardvéri môžu fungovať aj ray tracing a DLSS. Tieto možnosti však nemožno pov",
+        "navrhy": [
+          "tra cing"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "kompatibilitnú",
+        "kontext": "azuje Tom’s Hardware. Článok spomína aj kompatibilitnú vrstvu VxKex, s ktorou možno skúšať spú",
+        "navrhy": [
+          "kompatibilitou",
+          "kompatibilitu"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "starší",
+        "kontext": " vývojári mohli preniesť vybrané hry na starší operačný systém. Nový komunitný projekt",
+        "navrhy": [
+          "starý"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (starší) \"starý\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "low",
+        "kontext": "ktorých tituloch mal lepšie hodnoty 1 % low. Výsledok sa týka konkrétneho testu; sá",
+        "navrhy": [
+          "LOB",
+          "Lok",
+          "how"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -9 +9 @@\n-## Ktoré grafické karty projekt uvádza\n+##, Ktoré grafické karty projekt uvádza"
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_13.png/1280px-Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_13.png",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/rYri7MBJ84vEgNQnQiuqeK-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "A post by @TheBobPony talking about a new project that brings support for modern Nvidia, AMD and Intel GPUs to Windows 7",
+        "popisok": "@TheBobPony on X",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/ZtjMLiw6Bg6mY5n696k4bK-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "A post by @TheBobPony talking about a new project that brings support for modern Nvidia, AMD and Intel GPUs to Windows 7",
+        "popisok": "@TheBobPony on X",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/seqxkF5e6axMihUjszT9fK-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "A screenshot shared by @TheBobPony showing a new project that brings support for modern Nvidia, AMD and Intel GPUs to Windows 7",
+        "popisok": "@TheBobPony on X",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/qw7gKGAxfWpxWo8wyPqekK-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "A post by @TheBobPony talking about a new project that brings support for modern Nvidia, AMD and Intel GPUs to Windows 7",
+        "popisok": "@TheBobPony on X",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/MAS29A8ZaDyac63oybzR59-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "Nvidia GeForce RTX 3080",
+      "graphics card",
+      "PC tower"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_13.png/1280px-Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_13.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_13.png/1280px-Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_13.png",
+        "nazov": "Video über die RTX 4080 Super und Vergleichskarten (极客湾Geekerwan) 13.png",
+        "autor": "极客湾Geekerwan",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_13.png",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia GeForce RTX 3080"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/CUDA_Cores_and_Memory_Bandwidth_per_USD_for_RTX_30-series.png",
+        "nahlad": "https://api.openverse.org/v1/images/cf3c85e2-8f57-439f-bbb7-005289cc781e/thumb/",
+        "nazov": "CUDA Cores and Memory Bandwidth per USD for RTX 30-series",
+        "autor": "WikiEwout",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=169218965",
+        "povod": "openverse",
+        "dopyt": "Nvidia GeForce RTX 3080"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/%E9%BB%91%E7%A5%9E%E8%AF%9D%EF%BC%9A%E6%82%9F%E7%A9%BA%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%EF%BC%81%E9%9C%80%E8%A6%81%E4%BB%80%E4%B9%88%E6%98%BE%E5%8D%A1%E6%89%8D%E8%83%BD%E7%8E%A9%EF%BC%9F%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_%282160p_60fps_VP9-160kbit_Opus%29-00.00.18.325.png/1280px-%E9%BB%91%E7%A5%9E%E8%AF%9D%EF%BC%9A%E6%82%9F%E7%A9%BA%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%EF%BC%81%E9%9C%80%E8%A6%81%E4%BB%80%E4%B9%88%E6%98%BE%E5%8D%A1%E6%89%8D%E8%83%BD%E7%8E%A9%EF%BC%9F%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_%282160p_60fps_VP9-160kbit_Opus%29-00.00.18.325.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/%E9%BB%91%E7%A5%9E%E8%AF%9D%EF%BC%9A%E6%82%9F%E7%A9%BA%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%EF%BC%81%E9%9C%80%E8%A6%81%E4%BB%80%E4%B9%88%E6%98%BE%E5%8D%A1%E6%89%8D%E8%83%BD%E7%8E%A9%EF%BC%9F%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_%282160p_60fps_VP9-160kbit_Opus%29-00.00.18.325.png/1280px-%E9%BB%91%E7%A5%9E%E8%AF%9D%EF%BC%9A%E6%82%9F%E7%A9%BA%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%EF%BC%81%E9%9C%80%E8%A6%81%E4%BB%80%E4%B9%88%E6%98%BE%E5%8D%A1%E6%89%8D%E8%83%BD%E7%8E%A9%EF%BC%9F%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_%282160p_60fps_VP9-160kbit_Opus%29-00.00.18.325.png",
+        "nazov": "黑神话：悟空性能测试！需要什么显卡才能玩？(极客湾Geekerwan) (2160p 60fps VP9-160kbit Opus)-00.00.18.325.png",
+        "autor": "极客湾Geekerwan",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:%E9%BB%91%E7%A5%9E%E8%AF%9D%EF%BC%9A%E6%82%9F%E7%A9%BA%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%EF%BC%81%E9%9C%80%E8%A6%81%E4%BB%80%E4%B9%88%E6%98%BE%E5%8D%A1%E6%89%8D%E8%83%BD%E7%8E%A9%EF%BC%9F(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_(2160p_60fps_VP9-160kbit_Opus)-00.00.18.325.png",
+        "povod": "wikimedia",
+        "dopyt": "graphics card"
+      },
+      {
+        "url": "https://live.staticflickr.com/7155/6421468805_6b1fcd33e7_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/9d1424c4-373b-4b1d-bbfb-b29f108b09b5/thumb/",
+        "nazov": "Graphics Card",
+        "autor": "Sean MacEntee",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/18090920@N07/6421468805",
+        "povod": "openverse",
+        "dopyt": "graphics card"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/PC-Geh%C3%A4use_Kolink_Observatory_RGB_Midi-Tower_20201120_DSC6134.jpg/1280px-PC-Geh%C3%A4use_Kolink_Observatory_RGB_Midi-Tower_20201120_DSC6134.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/PC-Geh%C3%A4use_Kolink_Observatory_RGB_Midi-Tower_20201120_DSC6134.jpg/1280px-PC-Geh%C3%A4use_Kolink_Observatory_RGB_Midi-Tower_20201120_DSC6134.jpg",
+        "nazov": "PC-Gehäuse Kolink Observatory RGB Midi-Tower 20201120 DSC6134.jpg",
+        "autor": "PantheraLeo1359531",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:PC-Geh%C3%A4use_Kolink_Observatory_RGB_Midi-Tower_20201120_DSC6134.jpg",
+        "povod": "wikimedia",
+        "dopyt": "PC tower"
+      },
+      {
+        "url": "https://live.staticflickr.com/8624/29857659710_bf84ff47f5_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/d75c697b-d632-4754-b7bd-84e4b0085a75/thumb/",
+        "nazov": "No Man's Sky PC tower",
+        "autor": "blakespot",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/35448539@N00/29857659710",
+        "povod": "openverse",
+        "dopyt": "PC tower"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_14.png/1280px-Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_14.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_14.png/1280px-Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_14.png",
+        "nazov": "Video über die RTX 4080 Super und Vergleichskarten (极客湾Geekerwan) 14.png",
+        "autor": "极客湾Geekerwan",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_14.png",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia GeForce RTX 3080"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Video_%C3%BCber_die_RTX_4080_Super_und_Vergleichskarten_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_15.png",
+        "nahlad": "https://api.openverse.org/v1/images/5d785499-f178-4d24-a96b-f506a54c2601/thumb/",
+        "nazov": "Video über die RTX 4080 Super und Vergleichskarten (极客湾Geekerwan) 15",
+        "autor": "极客湾Geekerwan",
+        "licencia": "BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=147495054",
+        "povod": "openverse",
+        "dopyt": "Nvidia GeForce RTX 3080"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic illustration of an aging desktop operating system connecting to modern graphics hardware through layered driver interfaces, using abstract circuit patterns and a restrained blue-green palette, with no logos, people, or text."
+  },
+  "prompt_ilustracie": "Create a symbolic illustration of an aging desktop operating system connecting to modern graphics hardware through layered driver interfaces, using abstract circuit patterns and a restrained blue-green palette, with no logos, people, or text.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/b5ad2bd2c5333d76ef2f1ae81a1891e0",
+  "text_agentov": {
+    "titulok": "Komunita prináša Windowsu 7 podporu DirectX 12 a Vulkanu 1.4",
+    "perex": "Neoficiálny projekt upravuje ovládačový model systému a má umožniť využívať novšie grafické karty Nvidia, AMD aj Intel. Podpora funkcií však závisí od hardvéru, ovládača aj aplikácie.",
+    "telo": "Komunitný projekt má priniesť 17-ročnému systému Windows 7 neoficiálnu podporu DirectX 12 a Vulkanu 1.4 aj novších grafických kariet od Nvidie, AMD a Intelu. Ide o úpravu vytvorenú nadšencami, nie o aktualizáciu od Microsoftu. Ako uvádza Tom’s Hardware, projekt vyvíjajú EAZY BLACK, kryptik a VisualEhrmanntraut.\n\nZákladom je prenesenie novšej verzie ovládačového modelu WDDM 2.2 do Windowsu 7. Úspešné rozpoznanie grafickej karty však samo osebe nezaručuje, že budú fungovať všetky jej funkcie alebo každá aplikácia, ktorá ich využíva.\n\n##, Ktoré grafické karty projekt uvádza\n\nPodľa príspevku používateľa @TheBobPony na sociálnej sieti X projekt podporuje karty Nvidia GeForce RTX 40 a RTX 50, AMD Radeon RX 7000 a RX 9000 a vybrané modely Intel Arc. Snímky obrazovky podľa článku ukazujú, že Windows 7 dokáže tieto karty rozpoznať; údaje o nich zobrazujú aj nástroje tretích strán, napríklad GPU-Z.\n\nAutori projektu podľa reportáže tvrdia, že na kompatibilnom hardvéri môžu fungovať aj ray tracing a DLSS. Tieto možnosti však nemožno považovať za automaticky dostupné pre každú kartu zo spomínaných radov. Výsledok závisí od konkrétneho GPU, implementácie ovládača a aplikácie. Z projektu môžu podľa článku profitovať aj niektoré staršie karty, napríklad Nvidia RTX 30 a AMD Radeon RX 6000.\n\nSúbory projektu a upravené ovládače sú dostupné na stránke W7Revived, na ktorú odkazuje Tom’s Hardware. Článok spomína aj kompatibilitnú vrstvu VxKex, s ktorou možno skúšať spúšťať novšie aplikácie pre Windows na starších systémoch. Nejde teda o oficiálnu podporu operačného systému zo strany Microsoftu.\n\n## Čo znamená návrat WDDM\n\nWindows 7 vyšiel v roku 2009 s WDDM 1.1. Microsoft zaviedol WDDM 2.0 vo Windows 10 v roku 2015 a verziu 2.2 priniesla aktualizácia Creators Update v roku 2017. Práve WDDM 2.2 sa komunitný projekt pokúša preniesť do staršieho systému.\n\nMicrosoft už v roku 2019 sprístupnil obmedzenú verziu DirectX 12 pre Windows 7. Bola však určená na to, aby vývojári mohli preniesť vybrané hry na starší operačný systém. Nový komunitný projekt preto predstavuje iný spôsob, ako rozšíriť podporu grafických funkcií, no stále nejde o plnohodnotnú oficiálnu podporu Microsoftu.\n\n## Starý systém na novom počítači\n\nWindows 7 zostáva zaujímavý pre používateľov, ktorí uprednostňujú jeho prostredie alebo potrebujú starší softvér a hardvér. Tom’s Hardware pripomína aj vlastné porovnanie systému s Windowsom 11 na počítači s procesorom AMD Ryzen 7 9800X3D, grafikou Radeon RX 6950 XT a 64 GB pamäte DDR5.\n\nTest zahŕňal osem hier s DirectX 11 a dve s DirectX 9. Windows 7 v niektorých situáciách dosiahol vyšší výkon, najmä pri hrách limitovaných procesorom, a v niektorých tituloch mal lepšie hodnoty 1 % low. Výsledok sa týka konkrétneho testu; sám osebe neznamená, že je starší systém vhodnejší pre každý moderný počítač alebo hru."
+  }
+}
