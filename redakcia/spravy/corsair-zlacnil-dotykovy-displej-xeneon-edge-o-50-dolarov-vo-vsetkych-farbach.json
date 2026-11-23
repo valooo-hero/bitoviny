@@ -1,0 +1,468 @@
+{
+  "slug": "corsair-zlacnil-dotykovy-displej-xeneon-edge-o-50-dolarov-vo-vsetkych-farbach",
+  "datum_sprav": "2026-11-22",
+  "dovod_vyberu": "Zľava na Corsair Xeneon Edge dotykový displej je menej podstatná, ale môže byť zaujímavá pre používateľov hľadajúcich príslušenstvo.",
+  "poznamky_pre_editora": "Čerpané z jediného zdroja. Pred zverejnením overiť, či akcia a cena 199 USD stále platia, a preveriť cenu a dostupnosť pre Slovensko/EÚ. Zdroj spomína pripojenie cez HDMI, ale neobjasňuje, ako je pri tomto zapojení riešené napájanie; článok to preto ponecháva ako otvorenú otázku.",
+  "upozornenia": [
+    "Téma má len jeden zdroj. Redakčné zásady žiadajú aspoň dva, zvážte doplnenie alebo zahodenie."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je veľmi spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojovom článku a neobsahuje žiadne podstatné nepresnosti. Najvážnejším problémom je len drobná interpretácia pomeru strán, ktorá však nie je v rozpore so zdrojom.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 24,
+        "potvrdenych": 24,
+        "chyb": 0,
+        "upozorneni": 1
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "Článok zverejnený 22. novembra 2026 uvádza, že displej možno kúpiť priamo na stránke Corsairu.",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „publikovane=\"2026-11-22T21:32:16+00:00\"“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Corsair zlacnil dotykový displej Xeneon Edge o 50 dolárov vo všetkých farbách",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Corsair's tiny Xeneon Edge PC touchscreen discounted by $50 in all five colors",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "14,5-palcový doplnkový displej stojí počas čiernopiatkovej akcie 199 dolárov namiesto bežných 250.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "it was subsequently marked down from its $250 list price to $199. Now, the deal is back in all five colors for Black Friday, meaning you can score one for just $199 at Corsair, $50 off the usual price",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zľava platí pre všetkých päť farebných vyhotovení.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "All five colors are on sale with the same discount, so you can choose between White, Black, Smoke, Translucent, and Atomic Purple.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Corsair ponúka svoj malý dotykový displej Xeneon Edge za 199 dolárov, čo je o 50 dolárov menej než jeho uvádzaná bežná cena 250 dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "you can score one for just $199 at Corsair, $50 off the usual price",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa portálu Tom’s Hardware sa zľava v rámci čiernopiatkovej akcie vzťahuje na všetkých päť farebných verzií.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the deal is back in all five colors for Black Friday",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Článok zverejnený 22. novembra 2026 uvádza, že displej možno kúpiť priamo na stránke Corsairu.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "publikovane=\"2026-11-22T21:32:16+00:00\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Xeneon Edge má uhlopriečku 14,5 palca a slúži ako doplnková obrazovka k počítaču.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The Corsair Xeneon Edge is a 14.5-inch display designed to serve as an extension for your desktop",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jeho pomer strán a rozlíšenie 2560 × 720 ho predurčujú na zobrazenie aplikácií či informácií vedľa hlavného monitora, prípadne pod ním.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "it has a sharp resolution of 2560 x 720",
+        "komentar": "Zdroj uvádza rozlíšenie, ale nie pomer strán; tvrdenie o pomeri strán je interpretáciou, ale nie je v rozpore.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Obnovovacia frekvencia dosahuje 60 Hz a panel podporuje päťbodové dotykové ovládanie, teda súčasné rozpoznanie viacerých dotykov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "a refresh rate of 60Hz. It also comes with a five-point touchscreen, giving you multi-touch capabilities.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Corsair dodáva displej so stojanom, ktorý ho na stole nakloní smerom k používateľovi.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The Xeneon Edge comes with a built-in stand to angle the display up toward you while it's sitting on a desk.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zadná magnetická doska umožňuje pripevnenie na kovový povrch a zariadenie možno použiť aj v niektorých počítačových skrinkách Corsairu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "it comes with a magnetic backplate, so you can mount it on virtually any surface, and it even integrates directly into some of Corsair's PC cases.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výrobca podľa Tom’s Hardware do displeja zabudoval 14 magnetov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "In addition to 14 magnets to hold the display on virtually any metal surface",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "K dispozícii sú tiež dva montážne otvory so závitom 1/4-20 palca na použitie so štandardnými audiovizuálnymi stojanmi a príslušenstvom.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the display has two 1/4-20\" mounting holes, allowing you to use the display with standard A/V stands and accessories.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na prenos obrazu a napájanie môže poslúžiť jediný kábel USB-C, ak počítač podporuje DisplayPort Alt Mode.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The monitor can connect with a sole USB-C cable, providing both power and signal via DisplayPort Alt Mode.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Alternatívou je vstup HDMI 2.0, ktorý sa hodí v prípade, že počítač nemá kompatibilný port USB-C.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "You can also use the display with the HDMI 2.0 connection if you don't have a USB-C port.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroj však neuvádza, či pri zapojení cez HDMI treba na napájanie použiť ďalší kábel.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "You can also use the display with the HDMI 2.0 connection if you don't have a USB-C port.",
+        "komentar": "Zdroj nespomína napájanie pri HDMI, takže tvrdenie o absencii informácie je správne.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Využitie obrazovky si možno nastaviť cez aplikáciu Corsair iCue.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Through Corsair's iCue, you can set up the display to do virtually anything",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Môže zobrazovať napríklad systémové údaje v reálnom čase alebo fungovať ako rozhranie s tlačidlami podobné Stream Decku.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "from providing a Stream Deck-style button interface to showing you real-time system metrics.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Corsair ponúka aj knižnicu widgetov: niektoré sú platené, k dispozícii sú však aj bezplatné možnosti vrátane sledovania zliav na Steame či živých výsledkov NBA.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Some widgets are paid, but there are dozens of free options, as well, from a Steam deal tracker to live NBA scores.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť sprístupňuje aj knižnicu 3D modelov na stránke Printables, ktoré možno použiť na úpravu vzhľadu displeja.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Corsair maintains an official library of 3D models on Printables that you can use to trick out your Xeneon Edge",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zľava platí pre varianty White, Black, Smoke, Translucent a Atomic Purple.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "you can choose between White, Black, Smoke, Translucent, and Atomic Purple.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tom’s Hardware pripomína, že cena 199 dolárov sa objavila už po znížení z pôvodnej ceny počas leta; v čase čiernopiatkovej akcie sa ponuka vrátila.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "it was subsequently marked down from its $250 list price to $199. Now, the deal is back in all five colors for Black Friday",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Portál zároveň upozorňuje, že uvádzané predchádzajúce ceny sa môžu medzi predajcami líšiť, keďže používajú rôzne metódy ich výpočtu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The listed previous prices can vary based on retailer, as many use different metrics, like 90-day rolling averages or ‘estimated value’",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pre záujemcov na Slovensku a v EÚ zdroj neuvádza miestnu cenu, dostupnosť ani podmienky dopravy; suma 199 dolárov preto sama osebe nepotvrdzuje, za akú cenu bude displej možné kúpiť v regióne.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The listed previous prices can vary based on retailer, as many use different metrics, like 90-day rolling averages or ‘estimated value’",
+        "komentar": "Zdroj neuvádza žiadne informácie o EÚ alebo Slovensku, takže tvrdenie o absencii je správne.",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "čiernopiatkovej",
+        "kontext": "5-palcový doplnkový displej stojí počas čiernopiatkovej akcie 199 dolárov namiesto bežných 250.",
+        "navrhy": [
+          "čierno piatkovej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "čiernopiatkovej",
+        "kontext": "portálu Tom’s Hardware sa zľava v rámci čiernopiatkovej akcie vzťahuje na všetkých päť farebnýc",
+        "navrhy": [
+          "čierno piatkovej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "n Edge má uhlopriečku 14,5 palca a slúži ako doplnková obrazovka k počítaču. Jeho po",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "nemá",
+        "kontext": ".0, ktorý sa hodí v prípade, že počítač nemá kompatibilný port USB-C. Zdroj však neu",
+        "navrhy": [
+          "nemý"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (nemá) \"nemý\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iCue",
+        "kontext": "si možno nastaviť cez aplikáciu Corsair iCue. Môže zobrazovať napríklad systémové úd",
+        "navrhy": [
+          "CME",
+          "ECU",
+          "Ficu"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "mové údaje v reálnom čase alebo fungovať ako rozhranie s tlačidlami podobné Stream D",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "widgetov",
+        "kontext": "tream Decku. Corsair ponúka aj knižnicu widgetov: niektoré sú platené, k dispozícii sú v",
+        "navrhy": [
+          "bidetov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "čiernopiatkovej",
+        "kontext": "žení z pôvodnej ceny počas leta; v čase čiernopiatkovej akcie sa ponuka vrátila. Portál zároveň",
+        "navrhy": [
+          "čierno piatkovej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "povodny",
+      "url": "https://cdn.mos.cms.futurecdn.net/XqEQmS7rgfr3KxJ9WVgfuG-1920-80.jpg",
+      "poznamka": "Pravdepodobne tlačový materiál. Editor musí potvrdiť pôvod."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/XqEQmS7rgfr3KxJ9WVgfuG-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Corsair",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (Corsair): pravdepodobne tlačový materiál."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/ubCfbLcN2HwcjV49i2ripd-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Corsair Xeneon Edge",
+      "touchscreen monitor",
+      "14.5 inch display"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Hear_Music_touchscreen.jpg/1280px-Hear_Music_touchscreen.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Hear_Music_touchscreen.jpg/1280px-Hear_Music_touchscreen.jpg",
+        "nazov": "Hear Music touchscreen.jpg",
+        "autor": "Thomas Duesing from Austin, TX, USA ( tfduesing )",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Hear_Music_touchscreen.jpg",
+        "povod": "wikimedia",
+        "dopyt": "touchscreen monitor"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/52877211042_f95f165d78_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/1bacd6c8-3e88-4e57-a61e-90e78e77f6c8/thumb/",
+        "nazov": ": HÄ???? Zen-Buddhismus in der Kunst zwei japanische IIyama #Touchscreen-Monitore mit einer chinesischen #VESA Aufhängung zu verbinden. Wie zum Hacker justieren ich die Gasdruck-Dämpfer???? Nicht aufregen. OOhhhmm! Der chinesische Hersteller versprich",
+        "autor": "der sich den wolf tanzt",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/65506604@N00/52877211042",
+        "povod": "openverse",
+        "dopyt": "touchscreen monitor"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/HMAS_Torrens_%28DE_53%29_QF_4.5-inch_Mk_I_%E2%80%93_V_naval_gun_on_display_at_Princess_Royal_Fortress%2C_April_2022_04.jpg/1280px-HMAS_Torrens_%28DE_53%29_QF_4.5-inch_Mk_I_%E2%80%93_V_naval_gun_on_display_at_Princess_Royal_Fortress%2C_April_2022_04.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/HMAS_Torrens_%28DE_53%29_QF_4.5-inch_Mk_I_%E2%80%93_V_naval_gun_on_display_at_Princess_Royal_Fortress%2C_April_2022_04.jpg/1280px-HMAS_Torrens_%28DE_53%29_QF_4.5-inch_Mk_I_%E2%80%93_V_naval_gun_on_display_at_Princess_Royal_Fortress%2C_April_2022_04.jpg",
+        "nazov": "HMAS Torrens (DE 53) QF 4.5-inch Mk I – V naval gun on display at Princess Royal Fortress, April 2022 04.jpg",
+        "autor": "Calistemon",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:HMAS_Torrens_(DE_53)_QF_4.5-inch_Mk_I_%E2%80%93_V_naval_gun_on_display_at_Princess_Royal_Fortress,_April_2022_04.jpg",
+        "povod": "wikimedia",
+        "dopyt": "14.5 inch display"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Cavansite-Stilbite-Ca-242503.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/ff10ceab-0b2a-4eaa-98b3-84aba780c1da/thumb/",
+        "nazov": "Cavansite-Stilbite-Ca-242503",
+        "autor": "Robert M. Lavinsky",
+        "licencia": "BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=10165717",
+        "povod": "openverse",
+        "dopyt": "14.5 inch display"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Livid_DIY_Controller_-_touchscreen_by_retrofittable_resistive_%282010-04-15_12.08.14_by_c-g.%29.jpg/1280px-Livid_DIY_Controller_-_touchscreen_by_retrofittable_resistive_%282010-04-15_12.08.14_by_c-g.%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Livid_DIY_Controller_-_touchscreen_by_retrofittable_resistive_%282010-04-15_12.08.14_by_c-g.%29.jpg/1280px-Livid_DIY_Controller_-_touchscreen_by_retrofittable_resistive_%282010-04-15_12.08.14_by_c-g.%29.jpg",
+        "nazov": "Livid DIY Controller - touchscreen by retrofittable resistive (2010-04-15 12.08.14 by c-g.).jpg",
+        "autor": "c-g.",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Livid_DIY_Controller_-_touchscreen_by_retrofittable_resistive_(2010-04-15_12.08.14_by_c-g.).jpg",
+        "povod": "wikimedia",
+        "dopyt": "touchscreen monitor"
+      },
+      {
+        "url": "https://live.staticflickr.com/162/410484763_6f48ddd04c_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/4c802eaa-76ad-42ca-82e2-96b6dfcf8f73/thumb/",
+        "nazov": "Wooden Touchscreen Terminal - latest update",
+        "autor": "barnoid",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/50359335@N00/410484763",
+        "povod": "openverse",
+        "dopyt": "touchscreen monitor"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/HMAS_Swan_%28DE_50%29_QF_4.5-inch_Mk_I_%E2%80%93_V_naval_gun_on_display_at_Princess_Royal_Fortress%2C_April_2022_02.jpg/1280px-HMAS_Swan_%28DE_50%29_QF_4.5-inch_Mk_I_%E2%80%93_V_naval_gun_on_display_at_Princess_Royal_Fortress%2C_April_2022_02.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/HMAS_Swan_%28DE_50%29_QF_4.5-inch_Mk_I_%E2%80%93_V_naval_gun_on_display_at_Princess_Royal_Fortress%2C_April_2022_02.jpg/1280px-HMAS_Swan_%28DE_50%29_QF_4.5-inch_Mk_I_%E2%80%93_V_naval_gun_on_display_at_Princess_Royal_Fortress%2C_April_2022_02.jpg",
+        "nazov": "HMAS Swan (DE 50) QF 4.5-inch Mk I – V naval gun on display at Princess Royal Fortress, April 2022 02.jpg",
+        "autor": "Calistemon",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:HMAS_Swan_(DE_50)_QF_4.5-inch_Mk_I_%E2%80%93_V_naval_gun_on_display_at_Princess_Royal_Fortress,_April_2022_02.jpg",
+        "povod": "wikimedia",
+        "dopyt": "14.5 inch display"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Samsung_Galaxy_Tab_GT-P1000_-_touchscreen_Atmel_71549-B1-8267.jpg/1280px-Samsung_Galaxy_Tab_GT-P1000_-_touchscreen_Atmel_71549-B1-8267.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Samsung_Galaxy_Tab_GT-P1000_-_touchscreen_Atmel_71549-B1-8267.jpg/1280px-Samsung_Galaxy_Tab_GT-P1000_-_touchscreen_Atmel_71549-B1-8267.jpg",
+        "nazov": "Samsung Galaxy Tab GT-P1000 - touchscreen Atmel 71549-B1-8267.jpg",
+        "autor": "Raimond Spekking",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_Tab_GT-P1000_-_touchscreen_Atmel_71549-B1-8267.jpg",
+        "povod": "wikimedia",
+        "dopyt": "touchscreen monitor"
+      }
+    ],
+    "prompt_ilustracie": "Create a clean editorial illustration of a compact widescreen touch display attached beside a desktop monitor, with abstract interface tiles and a subtle magnetic mounting motif, no logos, text, or real people."
+  },
+  "prompt_ilustracie": "Create a clean editorial illustration of a compact widescreen touch display attached beside a desktop monitor, with abstract interface tiles and a subtle magnetic mounting motif, no logos, text, or real people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/48bcca573f69ef1f480ebbc279c85ddc",
+  "text_agentov": {
+    "titulok": "Corsair zlacnil dotykový displej Xeneon Edge o 50 dolárov vo všetkých farbách",
+    "perex": "14,5-palcový doplnkový displej stojí počas čiernopiatkovej akcie 199 dolárov namiesto bežných 250. Zľava platí pre všetkých päť farebných vyhotovení.",
+    "telo": "Corsair ponúka svoj malý dotykový displej Xeneon Edge za 199 dolárov, čo je o 50 dolárov menej než jeho uvádzaná bežná cena 250 dolárov. Podľa portálu Tom’s Hardware sa zľava v rámci čiernopiatkovej akcie vzťahuje na všetkých päť farebných verzií. Článok zverejnený 22. novembra 2026 uvádza, že displej možno kúpiť priamo na stránke Corsairu.\n\n## Displej na pracovný stôl aj do počítačovej skrinky\n\nXeneon Edge má uhlopriečku 14,5 palca a slúži ako doplnková obrazovka k počítaču. Jeho pomer strán a rozlíšenie 2560 × 720 ho predurčujú na zobrazenie aplikácií či informácií vedľa hlavného monitora, prípadne pod ním. Obnovovacia frekvencia dosahuje 60 Hz a panel podporuje päťbodové dotykové ovládanie, teda súčasné rozpoznanie viacerých dotykov.\n\nCorsair dodáva displej so stojanom, ktorý ho na stole nakloní smerom k používateľovi. Zadná magnetická doska umožňuje pripevnenie na kovový povrch a zariadenie možno použiť aj v niektorých počítačových skrinkách Corsairu. Výrobca podľa Tom’s Hardware do displeja zabudoval 14 magnetov. K dispozícii sú tiež dva montážne otvory so závitom 1/4-20 palca na použitie so štandardnými audiovizuálnymi stojanmi a príslušenstvom.\n\n## Pripojenie cez USB-C alebo HDMI\n\nNa prenos obrazu a napájanie môže poslúžiť jediný kábel USB-C, ak počítač podporuje DisplayPort Alt Mode. Alternatívou je vstup HDMI 2.0, ktorý sa hodí v prípade, že počítač nemá kompatibilný port USB-C. Zdroj však neuvádza, či pri zapojení cez HDMI treba na napájanie použiť ďalší kábel.\n\nVyužitie obrazovky si možno nastaviť cez aplikáciu Corsair iCue. Môže zobrazovať napríklad systémové údaje v reálnom čase alebo fungovať ako rozhranie s tlačidlami podobné Stream Decku. Corsair ponúka aj knižnicu widgetov: niektoré sú platené, k dispozícii sú však aj bezplatné možnosti vrátane sledovania zliav na Steame či živých výsledkov NBA. Spoločnosť sprístupňuje aj knižnicu 3D modelov na stránke Printables, ktoré možno použiť na úpravu vzhľadu displeja.\n\n## Päť farieb za rovnakú cenu\n\nZľava platí pre varianty White, Black, Smoke, Translucent a Atomic Purple. Tom’s Hardware pripomína, že cena 199 dolárov sa objavila už po znížení z pôvodnej ceny počas leta; v čase čiernopiatkovej akcie sa ponuka vrátila. Portál zároveň upozorňuje, že uvádzané predchádzajúce ceny sa môžu medzi predajcami líšiť, keďže používajú rôzne metódy ich výpočtu.\n\nPre záujemcov na Slovensku a v EÚ zdroj neuvádza miestnu cenu, dostupnosť ani podmienky dopravy; suma 199 dolárov preto sama osebe nepotvrdzuje, za akú cenu bude displej možné kúpiť v regióne."
+  }
+}
