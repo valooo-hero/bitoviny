@@ -1,0 +1,653 @@
+{
+  "slug": "lenovo-pro-9n-spaja-oled-displej-s-18-jadrovym-cipom-rtx-spark",
+  "datum_sprav": "2026-11-22",
+  "dovod_vyberu": "Recenzia Lenovo Pro 9n s výkonným procesorom a GPU je užitočná pre záujemcov o nové notebooky.",
+  "poznamky_pre_editora": "Číslo 6 300 som ponechala: zdroj Tom’s Hardware v časti „Productivity Performance on the Lenovo Pro 9n“ uvádza, že „Most of the runs were in the high 6,300s.“ Formulácia v texte vychádza z tohto údaja; podľa zdroja nejde o nepodložené číslo.",
+  "upozornenia": [
+    "Téma má len jeden zdroj. Redakčné zásady žiadajú aspoň dva, zvážte doplnenie alebo zahodenie."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je prevažne spoľahlivý a všetky kľúčové tvrdenia majú oporu v zdrojoch. Jediným problémom je nepodložené tvrdenie o dôležitosti pre slovenských používateľov, ktoré by sa malo vypustiť.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 25,
+        "potvrdenych": 25,
+        "chyb": 1,
+        "upozorneni": 1
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 25,
+        "potvrdenych": 25,
+        "chyb": 1,
+        "upozorneni": 2
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 25,
+        "potvrdenych": 24,
+        "chyb": 2,
+        "upozorneni": 1
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "Súčasťou výbavy je aj stylus Lenovo Yoga Pen Gen 2, ktorý možno používať na touchpade.",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „Stylus Lenovo Yoga Pen Gen 2; a stylus that works on the touchpad.“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      },
+      {
+        "povod": "factchecker",
+        "zavaznost": "chyba",
+        "text": "Testy sa týkajú notebookov s Windows 11 na architektúre Arm, čo je dôležité aj pri porovnávaní ich výkonu a kompatibility s aplikáciami pre používateľov na Slovensku.",
+        "komentar": "[nepodlozene] Zdroj uvádza Windows 11 on Arm, ale nehovorí nič o dôležitosti pre slovenských používateľov.",
+        "navrh_opravy": "Vypustiť poslednú vetu o význame pre slovenských používateľov."
+      },
+      {
+        "povod": "kontrola_cisel",
+        "zavaznost": "chyba",
+        "text": "Číslo 6300",
+        "komentar": "Číslo je v koncepte, ale v žiadnom zdroji sa nenachádza.",
+        "navrh_opravy": "Opraviť podľa zdroja alebo vypustiť. Ak ide o prepočet, uviesť to v poznámkach."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Lenovo Pro 9n je prémiový notebook s 15,3-palcovým OLED displejom a 18-jadrovou verziou čipu Nvidia RTX Spark.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The Lenovo Pro 9n features the lesser variant of the RTX Spark N1X... This version has an 18-core CPU... 15.3-inch OLED screen.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Testovaná zostava stojí 3 249,99 dolára.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Price (as configured) $3,249.99",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dotykový panel má rozlíšenie 2 560 × 1 600 bodov a obnovovaciu frekvenciu 165 Hz.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Display 15.3-inch, 2560 x 1600, OLED, touch, 165 Hz",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Recenzent vyzdvihol jeho sýte farby a jas, ktorý podľa neho postačuje na väčšinu bežných použití.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The 165 Hz panel is vivid and bright enough for most uses.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri meraní pokryl 198 percent farebného priestoru sRGB podľa objemu; dodaný text recenzie však neobsahuje dokončené porovnanie s ostatnými notebookmi.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "covering 198% of the sRGB color space by volume, significantly higher than",
+        "komentar": "Zdroj uvádza 198 % a porovnanie je skutočne nedokončené.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Notebook má 32 GB pamäte LPDDR5X-9400 a 1 TB úložisko PCIe.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Memory 32GB LPDDR5X-9400; Storage 1TB PCIe",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Konektorová výbava zahŕňa HDMI 2.1, dve USB-A, dva porty USB4 typu C, čítačku kariet SD a 3,5-milimetrový slúchadlový konektor.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Ports HDMI 2.1, 2s USB Type-A (10Gbps), 2x USB4 Type-C (40 Gbps), 3.5 mm headphone jack, SD card reader (UHS-II)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Na oboch bokoch sa nachádza USB-C aj USB-A.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "I appreciate that both sides of the laptop have both USB Type-C and Type-A.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zariadenie má tiež webkameru s rozlíšením 9,2 megapixela, infračerveným snímačom a elektronickou uzávierkou.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Camera 9.2 MP, IR, e-Shutter",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Telo meria 347 × 242 × 16,7 milimetra a váži 1,65 kilogramu.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Dimensions (WxDxH) 13.66 x 9.53 x 0.66 inches / 347 mm x 242 mm x 16.7 mm; Weight 3.64 pounds (1.65 kg)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Batéria má kapacitu 92,5 Wh a notebook sa dodáva so 140-wattovým adaptérom USB-C.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Battery 92.5 WHr; Power Adapter 140W USB Type-C",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Súčasťou výbavy je aj stylus Lenovo Yoga Pen Gen 2, ktorý možno používať na touchpade.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Stylus Lenovo Yoga Pen Gen 2; a stylus that works on the touchpad.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Testovaná verzia čipu má 18 jadier CPU a 5 120 jadier CUDA.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "This version has an 18-core CPU... 5,120 CUDA cores",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Lenovo podľa recenzie ponúka aj konfiguráciu s 20-jadrovým čipom a 6 144 jadrami CUDA, akú mal testovaný Microsoft Surface Laptop Ultra.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "It can be upgraded to a 20-core / 6,144 CUDA core chip in some configurations, which is the same chip we saw in the Surface Laptop Ultra.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V teste Geekbench 6 skončil Pro 9n mierne za týmto Surface v jednojadrovom aj viacjadrovom výkone.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "On Geekbench 6, the Pro 9n came in slightly behind the Surface Laptop in both single-core and multi-core performance",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri prevode 4K videa do 1080p potreboval 2 minúty a 1 sekundu, o 7 sekúnd viac než porovnávaný model s 20-jadrovým čipom.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "On Handbrake, the Pro 9n transcoded a 4K video to 1080p in 2 minutes and 1 second, or 7 seconds behind the Surface Pro with the 20-core CPU.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V záťažovom teste Cinebench 2026 dosiahol Pro 9n najvyššie skóre 6 417,45 v šiestom z desiatich behov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "topped out on run 6 at 6,417.45",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výsledky sa pritom podľa recenzie držali prevažne v horných hodnotách pásma 6 300 bodov, takže výkon pri opakovanom zaťažení výrazne neklesal.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Most of the runs were in the high 6,300s.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V teste 3DMark Steel Nomad získal notebook 2 796 bodov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "On 3DMark Steel Nomad, the Pro 9n earned a score of 2,796",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výkonnejší Surface dosiahol 4 355 bodov a MacBook Pro 3 865, no Pro 9n prekonal notebook Asus ZenBook A16 s čipom Snapdragon X2 Elite Extreme, ktorý získal 1 262 bodov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "falling behind the Laptop Ultra (4,355) and the MacBook Pro (3,865). It's still a more powerful system than the Zenbook with Snapdragon X2 Elite Extreme (1,262).",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V hrách Shadow of the Tomb Raider a Cyberpunk 2077 boli výsledky oboch verzií RTX Spark takmer rovnaké.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "with nearly identical scores on Shadow of the Tomb Raider and Cyberpunk 2077",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri hre Far Cry 6 sa prejavila výhoda výkonnejšieho procesora.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Far Cry 6, which is more CPU-focused, ran better on the 20-core RTX Spark.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V teste lokálnej AI AgentPerf-Local dokončil Pro 9n úlohu za 1 196,6 sekundy, zatiaľ čo Surface za 1 148,3 sekundy.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The Surface Laptop Ultra completed the benchmark in 1,148.3 seconds, while the Pro 9n took 1,196.6 seconds.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rozdiel v prospech výkonnejšieho čipu tak podľa merania nebol veľký.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The difference between the two RTX Spark systems wasn't particularly significant here.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Testy sa týkajú notebookov s Windows 11 na architektúre Arm, čo je dôležité aj pri porovnávaní ich výkonu a kompatibility s aplikáciami pre používateľov na Slovensku.",
+        "typ": "ine",
+        "verdikt": "nepodlozene",
+        "zdroj": "",
+        "dokaz": "",
+        "komentar": "Zdroj uvádza Windows 11 on Arm, ale nehovorí nič o dôležitosti pre slovenských používateľov.",
+        "navrh_opravy": "Vypustiť poslednú vetu o význame pre slovenských používateľov."
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "V teste portálu Tom’s Hardware sa ukázal ako schopný pracovný počítač, no v graficko",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "sRGB",
+        "kontext": " pokryl 198 percent farebného priestoru sRGB podľa objemu; dodaný text recenzie však",
+        "navrhy": [
+          "RGB",
+          "Srb",
+          "srb"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "webkameru",
+        "kontext": "ádza USB-C aj USB-A. Zariadenie má tiež webkameru s rozlíšením 9,2 megapixela, infračerve",
+        "navrhy": [
+          "web kameru"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "megapixela",
+        "kontext": "enie má tiež webkameru s rozlíšením 9,2 megapixela, infračerveným snímačom a elektronickou",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "stylus",
+        "kontext": " adaptérom USB-C. Súčasťou výbavy je aj stylus Lenovo Yoga Pen Gen 2, ktorý možno použ",
+        "navrhy": [
+          "stilus",
+          "štýlu"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "touchpade",
+        "kontext": "Yoga Pen Gen 2, ktorý možno používať na touchpade.\n\n## Výkon závisí od konfigurácie\n\nTest",
+        "navrhy": [
+          "Touch ID"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "jednojadrovom",
+        "kontext": "končil Pro 9n mierne za týmto Surface v jednojadrovom aj viacjadrovom výkone. Pri prevode 4K ",
+        "navrhy": [
+          "jedno jadrovom"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/LG_gram_Pro_16_%282024%29_16Z90SPG_OLED_DISPLAY_RGB_DOT_MATRIX%2C_OLED_PANEL_MADE_BY_SAMSUNG_DISPLAY.jpg/1280px-LG_gram_Pro_16_%282024%29_16Z90SPG_OLED_DISPLAY_RGB_DOT_MATRIX%2C_OLED_PANEL_MADE_BY_SAMSUNG_DISPLAY.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/KJomJBaFP6EGikdcpQxz6A-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Lenovo Pro 9n",
+        "popisok": "Tom's Hardware",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/WwxaUFzdu5nmmjH78MhS5A-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Lenovo Pro 9n",
+        "popisok": "Tom's Hardware",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/4iXcoXfvihnNaDuGa5be4A-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Lenovo Pro 9n",
+        "popisok": "Tom's Hardware",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/YQdShqftrCsf8gtCUtb24A-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Lenovo Pro 9n",
+        "popisok": "Tom's Hardware",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/z3jTB2TspiAmtVEWYNgPx9-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Lenovo Pro 9n",
+        "popisok": "Tom's Hardware",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/V76pe8uP5jehgnnNvge2MV-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Lenovo Pro 9n",
+        "popisok": "Tom's Hardware",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/5D85SAnyYTznJ9Z64nbzNV-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Lenovo Pro 9n",
+        "popisok": "Tom's Hardware",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/YVKyXcsBwPFapQn2kKYuMV-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Lenovo Pro 9n",
+        "popisok": "Tom's Hardware",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/FrmKchMnB8Et7DJkvUGKLV-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Lenovo Pro 9n",
+        "popisok": "Tom's Hardware",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/VrVtqmjjLpJqdtAp39vPTV-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Lenovo Pro 9n",
+        "popisok": "Tom's Hardware",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/3QbENiBRbGXRsHkcVjAzEA-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Lenovo Pro 9n",
+        "popisok": "Tom's Hardware",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/gouLikj988PwFbtDnjcsEA-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Lenovo Pro 9n",
+        "popisok": "Tom's Hardware",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/RF3YqBEK6Qoox8UiA5QxEA-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Lenovo Pro 9n",
+        "popisok": "Tom's Hardware",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/ZXSfLv5CgGWf6ginq5ZsFA-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Tom's Hardware",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Vlastný obrázok vydavateľa (Tom's Hardware)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/iRnRA3LuyoKTfY4Nw8puRV-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Lenovo Pro 9n",
+        "popisok": "",
+        "kredit": "(Image credit: Tom's Hardware)",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Vlastný obrázok vydavateľa (Tom's Hardware)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/bUrLsHSgC3BDn7M5QuL67A-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Lenovo Pro 9n",
+        "popisok": "",
+        "kredit": "(Image credit: Tom's Hardware)",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Vlastný obrázok vydavateľa (Tom's Hardware)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/jSab32zv2W8pbJGEESge8A-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Lenovo Pro 9n",
+        "popisok": "",
+        "kredit": "(Image credit: Tom's Hardware)",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Vlastný obrázok vydavateľa (Tom's Hardware)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/MBXxVdGNDxrv7Ssrs6cPAA-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Lenovo Pro 9n",
+        "popisok": "",
+        "kredit": "(Image credit: Tom's Hardware)",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Vlastný obrázok vydavateľa (Tom's Hardware)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/E5jJMVkMq8zqfR9zZKUD6A-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Lenovo Pro 9n",
+        "popisok": "",
+        "kredit": "(Image credit: Tom's Hardware)",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Vlastný obrázok vydavateľa (Tom's Hardware)."
+      }
+    ],
+    "dopyty": [
+      "Lenovo Pro 9n",
+      "OLED laptop",
+      "RTX Spark laptop"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/LG_gram_Pro_16_%282024%29_16Z90SPG_OLED_DISPLAY_RGB_DOT_MATRIX%2C_OLED_PANEL_MADE_BY_SAMSUNG_DISPLAY.jpg/1280px-LG_gram_Pro_16_%282024%29_16Z90SPG_OLED_DISPLAY_RGB_DOT_MATRIX%2C_OLED_PANEL_MADE_BY_SAMSUNG_DISPLAY.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/LG_gram_Pro_16_%282024%29_16Z90SPG_OLED_DISPLAY_RGB_DOT_MATRIX%2C_OLED_PANEL_MADE_BY_SAMSUNG_DISPLAY.jpg/1280px-LG_gram_Pro_16_%282024%29_16Z90SPG_OLED_DISPLAY_RGB_DOT_MATRIX%2C_OLED_PANEL_MADE_BY_SAMSUNG_DISPLAY.jpg",
+        "nazov": "LG gram Pro 16 (2024) 16Z90SPG OLED DISPLAY RGB DOT MATRIX, OLED PANEL MADE BY SAMSUNG DISPLAY.jpg",
+        "autor": "Dinkun Chen",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:LG_gram_Pro_16_(2024)_16Z90SPG_OLED_DISPLAY_RGB_DOT_MATRIX,_OLED_PANEL_MADE_BY_SAMSUNG_DISPLAY.jpg",
+        "povod": "wikimedia",
+        "dopyt": "OLED laptop"
+      },
+      {
+        "url": "https://live.staticflickr.com/3003/2986137267_c52b6a1d96_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/64452302-91c8-4409-a8d3-b28c8a7807d0/thumb/",
+        "nazov": "Gathering around the ol' Laptop at PDC2008",
+        "autor": "D.Begley",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/9438069@N04/2986137267",
+        "povod": "openverse",
+        "dopyt": "OLED laptop"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Huawei_MateBook_14_OLED_%28Oct_1%2C_2025%29.jpg/1280px-Huawei_MateBook_14_OLED_%28Oct_1%2C_2025%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Huawei_MateBook_14_OLED_%28Oct_1%2C_2025%29.jpg/1280px-Huawei_MateBook_14_OLED_%28Oct_1%2C_2025%29.jpg",
+        "nazov": "Huawei MateBook 14 OLED (Oct 1, 2025).jpg",
+        "autor": "茅野ふたば",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Huawei_MateBook_14_OLED_(Oct_1,_2025).jpg",
+        "povod": "wikimedia",
+        "dopyt": "OLED laptop"
+      },
+      {
+        "url": "https://live.staticflickr.com/7293/9651195924_9c273bf2b8_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/140ab763-c1a0-4a36-b1dd-370ef759cb28/thumb/",
+        "nazov": "‘예술’을 품은 LG 올레드 TV",
+        "autor": "LGEPR",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/32985045@N08/9651195924",
+        "povod": "openverse",
+        "dopyt": "OLED laptop"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Asus_vivobook_S15_i9.jpg/1280px-Asus_vivobook_S15_i9.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Asus_vivobook_S15_i9.jpg/1280px-Asus_vivobook_S15_i9.jpg",
+        "nazov": "Asus vivobook S15 i9.jpg",
+        "autor": "Gannu03",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Asus_vivobook_S15_i9.jpg",
+        "povod": "wikimedia",
+        "dopyt": "OLED laptop"
+      },
+      {
+        "url": "https://live.staticflickr.com/50/106876213_de145fc9e9.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/dbf23e0f-9ad2-4027-873a-4bb4729dd68d/thumb/",
+        "nazov": "bedroom",
+        "autor": "Diabolic Preacher",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/85427765@N00/106876213",
+        "povod": "openverse",
+        "dopyt": "OLED laptop"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/%28%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%801%29_LG_%EA%B7%B8%EB%9E%A8_%EC%8A%A4%ED%83%80%EC%9D%BC.jpg/1280px-%28%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%801%29_LG_%EA%B7%B8%EB%9E%A8_%EC%8A%A4%ED%83%80%EC%9D%BC.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/%28%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%801%29_LG_%EA%B7%B8%EB%9E%A8_%EC%8A%A4%ED%83%80%EC%9D%BC.jpg/1280px-%28%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%801%29_LG_%EA%B7%B8%EB%9E%A8_%EC%8A%A4%ED%83%80%EC%9D%BC.jpg",
+        "nazov": "(제품이미지1) LG 그램 스타일.jpg",
+        "autor": "LG전자",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:(%EC%A0%9C%ED%92%88%EC%9D%B4%EB%AF%B8%EC%A7%801)_LG_%EA%B7%B8%EB%9E%A8_%EC%8A%A4%ED%83%80%EC%9D%BC.jpg",
+        "povod": "wikimedia",
+        "dopyt": "OLED laptop"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a premium dark gray laptop with a glowing OLED screen and abstract graphics-chip motifs, without logos or realistic product branding."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a premium dark gray laptop with a glowing OLED screen and abstract graphics-chip motifs, without logos or realistic product branding.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/98d000fb92788a3168ef4b19b4fd0aef",
+  "text_agentov": {
+    "titulok": "Lenovo Pro 9n spája OLED displej s 18-jadrovým čipom RTX Spark",
+    "perex": "Prémiový notebook ponúka dotykový OLED panel, bohatú konektorovú výbavu a 32 GB pamäte. V testoch však slabšia verzia čipu RTX Spark zaostala za výkonnejším variantom najmä v grafike.",
+    "telo": "Lenovo Pro 9n je prémiový notebook s 15,3-palcovým OLED displejom a 18-jadrovou verziou čipu Nvidia RTX Spark. V teste portálu Tom’s Hardware sa ukázal ako schopný pracovný počítač, no v grafickom výkone zaostal za konfiguráciou s výkonnejším, 20-jadrovým čipom. Testovaná zostava stojí 3 249,99 dolára.\n\n## OLED displej a bohatá výbava\n\nDotykový panel má rozlíšenie 2 560 × 1 600 bodov a obnovovaciu frekvenciu 165 Hz. Recenzent vyzdvihol jeho sýte farby a jas, ktorý podľa neho postačuje na väčšinu bežných použití. Pri meraní pokryl 198 percent farebného priestoru sRGB podľa objemu; dodaný text recenzie však neobsahuje dokončené porovnanie s ostatnými notebookmi.\n\nNotebook má 32 GB pamäte LPDDR5X-9400 a 1 TB úložisko PCIe. Konektorová výbava zahŕňa HDMI 2.1, dve USB-A, dva porty USB4 typu C, čítačku kariet SD a 3,5-milimetrový slúchadlový konektor. Na oboch bokoch sa nachádza USB-C aj USB-A. Zariadenie má tiež webkameru s rozlíšením 9,2 megapixela, infračerveným snímačom a elektronickou uzávierkou.\n\nTelo meria 347 × 242 × 16,7 milimetra a váži 1,65 kilogramu. Batéria má kapacitu 92,5 Wh a notebook sa dodáva so 140-wattovým adaptérom USB-C. Súčasťou výbavy je aj stylus Lenovo Yoga Pen Gen 2, ktorý možno používať na touchpade.\n\n## Výkon závisí od konfigurácie\n\nTestovaná verzia čipu má 18 jadier CPU a 5 120 jadier CUDA. Lenovo podľa recenzie ponúka aj konfiguráciu s 20-jadrovým čipom a 6 144 jadrami CUDA, akú mal testovaný Microsoft Surface Laptop Ultra. V teste Geekbench 6 skončil Pro 9n mierne za týmto Surface v jednojadrovom aj viacjadrovom výkone. Pri prevode 4K videa do 1080p potreboval 2 minúty a 1 sekundu, o 7 sekúnd viac než porovnávaný model s 20-jadrovým čipom.\n\nV záťažovom teste Cinebench 2026 dosiahol Pro 9n najvyššie skóre 6 417,45 v šiestom z desiatich behov. Výsledky sa pritom podľa recenzie držali prevažne v horných hodnotách pásma 6 300 bodov, takže výkon pri opakovanom zaťažení výrazne neklesal.\n\n## Grafika a lokálna AI\n\nV teste 3DMark Steel Nomad získal notebook 2 796 bodov. Výkonnejší Surface dosiahol 4 355 bodov a MacBook Pro 3 865, no Pro 9n prekonal notebook Asus ZenBook A16 s čipom Snapdragon X2 Elite Extreme, ktorý získal 1 262 bodov. V hrách Shadow of the Tomb Raider a Cyberpunk 2077 boli výsledky oboch verzií RTX Spark takmer rovnaké. Pri hre Far Cry 6 sa prejavila výhoda výkonnejšieho procesora.\n\nV teste lokálnej AI AgentPerf-Local dokončil Pro 9n úlohu za 1 196,6 sekundy, zatiaľ čo Surface za 1 148,3 sekundy. Rozdiel v prospech výkonnejšieho čipu tak podľa merania nebol veľký. Testy sa týkajú notebookov s Windows 11 na architektúre Arm, čo je dôležité aj pri porovnávaní ich výkonu a kompatibility s aplikáciami pre používateľov na Slovensku."
+  }
+}
