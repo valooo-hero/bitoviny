@@ -1,0 +1,543 @@
+{
+  "slug": "nintendo-znizuje-cenu-balika-switch-2-s-mario-kart-world-o-50-dolarov",
+  "datum_sprav": "2026-11-22",
+  "dovod_vyberu": "Zľavy na Nintendo Switch 2 sú relevantné pre hráčov, ale keďže ide o nákupný tip, zaraďujem ho ako menej dôležitý.",
+  "poznamky_pre_editora": "Zmenila som údaj „23.59 h“ na „11:59 PM“, aby zodpovedal formulácii zdroja The Verge, ktorý uvádza, že digitálne ponuky v eShope trvajú do 11:59 PM PT v stredu 2. decembra 2026. Ostatné tvrdenia som nemenila.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojoch. Najvážnejším problémom je, že niektoré tvrdenia sú len parafrázou a zdroje neuvádzajú konkrétne ceny pre všetky balíky, čo je však v koncepte správne reflektované.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 24,
+        "potvrdenych": 24,
+        "chyb": 1,
+        "upozorneni": 1
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 25,
+        "potvrdenych": 25,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Nintendo v rámci predvianočných zliav znížilo cenu balíka Switch 2 s hrou Mario Kart World o 50 dolárov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Nintendo has knocked $50 off one of its two current console bundles",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa portálu The Verge stojí počas akcie 499,99 dolára namiesto 549,99 dolára",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "The Mario Kart World bundle runs $499.99 (previously $549.99)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "čím sa cena vracia na úroveň spred zdraženia zo začiatku septembra.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "temporarily rolling back the $50 price increase that went into effect in early September.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Balík obsahuje konzolu, digitálnu verziu hry a trojmesačné individuálne členstvo Nintendo Switch Online.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "includes the console, a digital copy of the aforementioned game, and three months of Nintendo Switch Online.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zľava sa začala 22. novembra.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "can do so starting today, November 22nd",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Verge uvádza, že má trvať do 5. decembra",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "through Saturday, December 5th",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "balík je dostupný cez Amazon, Best Buy, Walmart aj Nintendo.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Both are currently available from Amazon, Best Buy, Walmart, and Nintendo.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tom’s Hardware opisuje rovnakú ponuku na Amazone a uvádza cenu 499 dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Amazon has it marked down by $50, bringing the bundle down to its original price of $499.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri kúpe základného balíka treba počítať s tým, že Mario Kart World je kód na stiahnutie, nie fyzická kazeta.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the game is included as a redeemable code, not a physical cartridge.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa The Verge má Nintendo v ponuke aj balík Switch 2 s hrou Nintendo Switch Sports Resort.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Then there’s the Nintendo Switch Sports Resort bundle for $529.99",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ten stojí 529,99 dolára a jeho cena sa počas akcie nemení.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "for $529.99 (price unchanged for Black Friday)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "WIRED píše, že tento balík je jednou z ponúk dostupných od 22. novembra v oficiálnom obchode Nintendo a u veľkých predajcov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "These deals will be available from the official Nintendo Store starting November 22, but you can also expect to find them at all major retailers.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tom’s Hardware spomína aj ďalšie kombinácie konzoly s ovládačom Switch 2 Pro Controller, kartou microSD Express alebo novou verziou The Legend of Zelda: Ocarina of Time.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "You can pick up the kit alongside a Switch 2 Pro Controller, the new Legend of Zelda: Ocarina of Time Remake, or a microSD Express card with the same discount.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa článku Amazon na tieto balíky uplatňuje rovnakú zľavu 50 dolárov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "with the same discount.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroj však neuvádza ich konkrétne výsledné ceny, preto ich nemožno priamo porovnať s ponukou za 499,99 dolára.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "You can pick up the kit alongside a Switch 2 Pro Controller, the new Legend of Zelda: Ocarina of Time Remake, or a microSD Express card with the same discount.",
+        "komentar": "Zdroj neuvádza konkrétne ceny týchto balíkov, takže tvrdenie o ich neporovnateľnosti je podložené.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Verge uvádza napríklad Donkey Kong Bananza za 49,99 dolára namiesto 69,99",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Donkey Kong Bananza , which is $49.99 (usually $69.99)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Super Mario Party Jamboree Plus Jamboree TV za 59,99 dolára namiesto 79,99.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Super Mario Party Jamboree Plus Jamboree TV for $59.99 (usually $79.99)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Medzi ďalšie zľavnené tituly patria Metroid Prime 4: Beyond za 49,99 dolára či Kirby Air Riders za 49,99 dolára; WIRED pri týchto hrách uvádza úsporu 20 dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Metroid Prime 4: Beyond – Nintendo Switch 2 Edition for $50 ($20 off) ... Kirby Air Riders for $50 ($20 off)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Verge upozorňuje, že koniec akcií sa líši podľa obchodu a dostupnosti.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "their respective end times and availability varies.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Niektoré zľavy na hry sa podľa informácií od Nintenda končia 29. novembra.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Nintendo shared that some game sales will end on November 29th.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Digitálne ponuky v eShope majú byť dostupné do 11:59 PM tichomorského času v stredu 2. decembra 2026.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "digital game deals are happening through Nintendo’s eShop until 11:59 PM PT on Wednesday, December 2nd, 2026.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "WIRED uvádza, že zľavy na vybrané hry sa vzťahujú aj na fyzické kópie u veľkých predajcov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "you should find the same discounts on physical copies from all the major retailers",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tom’s Hardware píše o tejto hre ako o súčasti zľavneného balíka, zatiaľ čo WIRED ju medzi akciovými ponukami neuvádza.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "You can pick up the kit alongside a Switch 2 Pro Controller, the new Legend of Zelda: Ocarina of Time Remake, or a microSD Express card with the same discount.",
+        "komentar": "Tom's Hardware spomína Ocarina of Time v balíku, Wired ju neuvádza, čo je v súlade s tvrdením.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Verge spomína digitálnu verziu za 54,99 dolára namiesto 59,99 dolára, čo je iná ponuka než zľava na balík.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "The Legend of Zelda: The Ocarina of Time ... $59.99 $54.99 at Amazon (digital)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Všetky uvedené sumy sú v amerických dolároch a zdroje neuvádzajú ceny ani dostupnosť na Slovensku či v iných krajinách EÚ.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The listed previous prices can vary based on retailer, as many use different metrics, like 90-day rolling averages or ‘estimated value’ due to ongoing shortages and price hikes.",
+        "komentar": "Zdroje uvádzajú ceny v USD a nezmieňujú Slovensko ani EÚ, takže tvrdenie je podložené.",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "microSD",
+        "kontext": "ládačom Switch 2 Pro Controller, kartou microSD Express alebo novou verziou *The Legend",
+        "navrhy": [
+          "Miroš"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "eShope",
+        "kontext": "končia 29. novembra. Digitálne ponuky v eShope majú byť dostupné do 11:59 PM tichomors",
+        "navrhy": [
+          "shope",
+          "e Shope"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "zhodujú. Tom’s Hardware píše o tejto hre ako o súčasti zľavneného balíka, zatiaľ čo ",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "povodny",
+      "url": "https://cdn.mos.cms.futurecdn.net/ptNhHsYDmJvKfBw5V7v5mn-1920-80.jpg",
+      "poznamka": "Pravdepodobne tlačový materiál. Editor musí potvrdiť pôvod."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/ptNhHsYDmJvKfBw5V7v5mn-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Nintendo",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (Nintendo): pravdepodobne tlačový materiál."
+      },
+      {
+        "url": "https://media.wired.com/photos/6b00a8e85e9b91466a86b55b/191:100/w_1280,c_limit/The-Best-Black-Friday-Nintendo-Switch-2-Deals.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6b00a8e85e9b91466a86b55b/master/pass/The-Best-Black-Friday-Nintendo-Switch-2-Deals.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/257769_Switch_2_AKrales_0093_fe9169.jpg?quality=90&strip=all&crop=0,10.732984293194,100,78.534031413613",
+        "zdroj_clanku": "The Verge",
+        "alt": "A photo of the Nintendo Switch 2 running Mario Kart World in handheld mode.",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Nintendo-Switch-2-Mario-Kart-World-Bundle-Box-Art.jpg?w=300",
+        "zdroj_clanku": "The Verge",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/07/NS2_DonkeyKongBananza_SCRN_25.jpg?quality=90&strip=all&crop=0,3.453144302606,100,93.093711394788",
+        "zdroj_clanku": "The Verge",
+        "alt": "Screenshot from Donkey Kong Bananza featuring Donkey Kong punching rocks with a young Pauline hanging off his shoulder.",
+        "popisok": "This ain’t gonna buff out.",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/12/Switch2_MetroidPrime4Beyond_scrn22_940be7.png?w=300",
+        "zdroj_clanku": "The Verge",
+        "alt": "A screenshot from the video game Metroid Prime 4: Beyond.",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/10/Donkey-Kong-Bananza-2.jpg?w=300",
+        "zdroj_clanku": "The Verge",
+        "alt": "A screenshot of Donkey Kong Bananza featuring Donkey Kong and Pauline in a forest level with spiky vines.",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/NS2_TheLegendofZeldaOcarinaofTime_scrn_15_dce060.png?w=300",
+        "zdroj_clanku": "The Verge",
+        "alt": "A screenshot from the video game The Legend of Zelda: Ocarina of Time.",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/super-mario-party-jamboree.png?w=300",
+        "zdroj_clanku": "The Verge",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/EA-Sports-FC-27.png?w=300",
+        "zdroj_clanku": "The Verge",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/MHWilds_Hunter_Palico_bmp_jpgcopy.png?w=300",
+        "zdroj_clanku": "The Verge",
+        "alt": "A screenshot of the video game Monster Hunter Wilds.",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Kirby-and-the-Forgotten-Land-Image.jpg?w=300",
+        "zdroj_clanku": "The Verge",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/Gkq77wqsoM4TcsWuXsVC9F-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Nintendo Switch console",
+      "Mario Kart game case",
+      "gaming console bundle"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Nintendo-Switch-Console-Docked-wJoyConRB.jpg/1280px-Nintendo-Switch-Console-Docked-wJoyConRB.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Nintendo-Switch-Console-Docked-wJoyConRB.jpg/1280px-Nintendo-Switch-Console-Docked-wJoyConRB.jpg",
+        "nazov": "Nintendo-Switch-Console-Docked-wJoyConRB.jpg",
+        "autor": "Evan-Amos",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Nintendo-Switch-Console-Docked-wJoyConRB.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Nintendo Switch console"
+      },
+      {
+        "url": "https://live.staticflickr.com/2948/32674601664_1414f174db_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/7d4a2e21-a8d8-401b-bc10-173b2c079ddd/thumb/",
+        "nazov": "Nintendo Switch Console - Powered On",
+        "autor": "brettchalupa",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/51037366@N05/32674601664",
+        "povod": "openverse",
+        "dopyt": "Nintendo Switch console"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Nintendo_Switch_game_card_-_1.jpg/1280px-Nintendo_Switch_game_card_-_1.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Nintendo_Switch_game_card_-_1.jpg/1280px-Nintendo_Switch_game_card_-_1.jpg",
+        "nazov": "Nintendo Switch game card - 1.jpg",
+        "autor": "Kyu3a",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Nintendo_Switch_game_card_-_1.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Mario Kart game case"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Wii-Mini-Console-Set-H.jpg/1280px-Wii-Mini-Console-Set-H.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Wii-Mini-Console-Set-H.jpg/1280px-Wii-Mini-Console-Set-H.jpg",
+        "nazov": "Wii-Mini-Console-Set-H.jpg",
+        "autor": "Evan-Amos",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Wii-Mini-Console-Set-H.jpg",
+        "povod": "wikimedia",
+        "dopyt": "gaming console bundle"
+      },
+      {
+        "url": "https://live.staticflickr.com/7489/15366238393_51cdfae6cb_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/a55503f0-6a31-4135-beb8-9451bb55abcb/thumb/",
+        "nazov": "Pokemon Alpha Sapphire",
+        "autor": "Adam Purves (S3ISOR)",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/59263516@N08/15366238393",
+        "povod": "openverse",
+        "dopyt": "gaming console bundle"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Nintendo_Switch_2_in_Docking_Console.jpg/1280px-Nintendo_Switch_2_in_Docking_Console.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Nintendo_Switch_2_in_Docking_Console.jpg/1280px-Nintendo_Switch_2_in_Docking_Console.jpg",
+        "nazov": "Nintendo Switch 2 in Docking Console.jpg",
+        "autor": "Crisco 1492",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Nintendo_Switch_2_in_Docking_Console.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Nintendo Switch console"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/48241687981_17024d88e5_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/5b4def78-8f1e-410d-bb52-631273177989/thumb/",
+        "nazov": "Nintendo Switch console minimal wallpaper iPad Pro 12.9-inch",
+        "autor": "Matt Gemmell",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/81834828@N00/48241687981",
+        "povod": "openverse",
+        "dopyt": "Nintendo Switch console"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Montpellier_in_Game_-_2010_-_Ambiance_-_P1420684.jpg/1280px-Montpellier_in_Game_-_2010_-_Ambiance_-_P1420684.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Montpellier_in_Game_-_2010_-_Ambiance_-_P1420684.jpg/1280px-Montpellier_in_Game_-_2010_-_Ambiance_-_P1420684.jpg",
+        "nazov": "Montpellier in Game - 2010 - Ambiance - P1420684.jpg",
+        "autor": "Esby ( talk ) 20:55, 17 October 2010 (UTC)",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Montpellier_in_Game_-_2010_-_Ambiance_-_P1420684.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Mario Kart game case"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic illustration of a handheld game console beside a digital price tag marked with a modest discount, using festive sale colors and no logos or realistic product details."
+  },
+  "prompt_ilustracie": "Create a symbolic illustration of a handheld game console beside a digital price tag marked with a modest discount, using festive sale colors and no logos or realistic product details.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/24b8a1c61c02aa6d710ba8652bfce6ed",
+  "text_agentov": {
+    "titulok": "Nintendo znižuje cenu balíka Switch 2 s Mario Kart World o 50 dolárov",
+    "perex": "Akcia vracia cenu jedného z balíkov na úroveň pred septembrovým zdražením. Zľavy sa týkajú aj vybraných hier, no ceny uvedené v ponukách sú v amerických dolároch.",
+    "telo": "Nintendo v rámci predvianočných zliav znížilo cenu balíka Switch 2 s hrou *Mario Kart World* o 50 dolárov. Podľa portálu The Verge stojí počas akcie 499,99 dolára namiesto 549,99 dolára, čím sa cena vracia na úroveň spred zdraženia zo začiatku septembra. Balík obsahuje konzolu, digitálnu verziu hry a trojmesačné individuálne členstvo Nintendo Switch Online.\n\nZľava sa začala 22. novembra. The Verge uvádza, že má trvať do 5. decembra a balík je dostupný cez Amazon, Best Buy, Walmart aj Nintendo. Tom’s Hardware opisuje rovnakú ponuku na Amazone a uvádza cenu 499 dolárov. Pri kúpe základného balíka treba počítať s tým, že *Mario Kart World* je kód na stiahnutie, nie fyzická kazeta.\n\n## Zľava na konzolu, nie na každý balík\n\nPodľa The Verge má Nintendo v ponuke aj balík Switch 2 s hrou *Nintendo Switch Sports Resort*. Ten stojí 529,99 dolára a jeho cena sa počas akcie nemení. WIRED píše, že tento balík je jednou z ponúk dostupných od 22. novembra v oficiálnom obchode Nintendo a u veľkých predajcov.\n\nTom’s Hardware spomína aj ďalšie kombinácie konzoly s ovládačom Switch 2 Pro Controller, kartou microSD Express alebo novou verziou *The Legend of Zelda: Ocarina of Time*. Podľa článku Amazon na tieto balíky uplatňuje rovnakú zľavu 50 dolárov. Zdroj však neuvádza ich konkrétne výsledné ceny, preto ich nemožno priamo porovnať s ponukou za 499,99 dolára.\n\n## Zľavy sa týkajú aj hier\n\nViaceré obchody zlacnili vybrané hry pre Switch 2. The Verge uvádza napríklad *Donkey Kong Bananza* za 49,99 dolára namiesto 69,99 a *Super Mario Party Jamboree Plus Jamboree TV* za 59,99 dolára namiesto 79,99. Medzi ďalšie zľavnené tituly patria *Metroid Prime 4: Beyond* za 49,99 dolára či *Kirby Air Riders* za 49,99 dolára; WIRED pri týchto hrách uvádza úsporu 20 dolárov.\n\nThe Verge upozorňuje, že koniec akcií sa líši podľa obchodu a dostupnosti. Niektoré zľavy na hry sa podľa informácií od Nintenda končia 29. novembra. Digitálne ponuky v eShope majú byť dostupné do 11:59 PM tichomorského času v stredu 2. decembra 2026. WIRED uvádza, že zľavy na vybrané hry sa vzťahujú aj na fyzické kópie u veľkých predajcov.\n\n## Ponuky sa medzi zdrojmi líšia\n\nPri *The Legend of Zelda: Ocarina of Time* sa informácie nezhodujú. Tom’s Hardware píše o tejto hre ako o súčasti zľavneného balíka, zatiaľ čo WIRED ju medzi akciovými ponukami neuvádza. The Verge spomína digitálnu verziu za 54,99 dolára namiesto 59,99 dolára, čo je iná ponuka než zľava na balík.\n\nVšetky uvedené sumy sú v amerických dolároch a zdroje neuvádzajú ceny ani dostupnosť na Slovensku či v iných krajinách EÚ. Zákazníci preto musia pri porovnávaní ponúk zohľadniť, že ide o ceny amerických obchodov."
+  }
+}
