@@ -7,7 +7,7 @@ tagy:
   - Decart
   - AI čipy
   - Trainium
-publikovane: 2026-11-24T07:16:49+00:00
+publikovane: 2026-11-24T13:32:51Z
 obrazok:
   src: /obrazky/amazon-kupuje-technologiu-decart-na-efektivnejsie-vyuzitie-ai-cipov-mwuqigy0.webp
   alt: Ilustračný obrázok.
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Register: Amazon scoops up AI accelerator tech to keep chips busy at all times"
     url: https://www.theregister.com/ai-and-ml/2026/11/23/amazon-scoops-up-ai-accelerator-tech-to-keep-chips-busy-at-all-times/5311754
