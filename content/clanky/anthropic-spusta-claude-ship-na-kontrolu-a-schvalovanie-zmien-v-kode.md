@@ -7,7 +7,7 @@ tagy:
   - Claude
   - AI agenti
   - vývoj softvéru
-publikovane: 2026-11-24T07:17:08+00:00
+publikovane: 2026-11-24T13:22:07Z
 obrazok:
   src: /obrazky/anthropic-spusta-claude-ship-na-kontrolu-a-schvalovanie-zmien-v-kode-mwuq4muu.webp
   alt: Ilustračný obrázok.
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "TechCrunch: Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes"
     url: https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/
