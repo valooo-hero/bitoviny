@@ -7,6 +7,14 @@ roly:
       - &lite { provider: google, model: gemini-3.5-flash-lite }
       - &ernie { provider: openrouter, model: "baidu/ernie-5.5-flash-preview:free", metoda: json_schema }
 
+  # Jazykový verdikt nad titulkom, perexom a zdrojmi. Vstup sa delí na dávky.
+  kontrola_duplicit:
+    teplota: 0.0
+    modely:
+      - { provider: google, model: gemini-3.5-flash-lite }
+      - { provider: groq, model: openai/gpt-oss-120b }
+      - { provider: openrouter, model: "baidu/ernie-5.5-flash-preview:free", metoda: json_schema }
+
   autorka:
     teplota: 0.6
     modely:

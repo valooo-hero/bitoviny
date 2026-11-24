@@ -12,7 +12,7 @@ const s = await statistikyRedakcie();
 const roly = parse(readFileSync('config/modely.yaml', 'utf8')).roly as Record<string, { modely: { model: string }[] }>;
 const retazec = (rola: string) => roly[rola]?.modely.map((m) => m.model.replace(/^.*\//, '').replace(/:free$/, '')).join(', ') ?? '';
 const modely: Record<string, string> = {
-  robert: `výber tém: ${retazec('vyber_tem')}; zoskupovanie: lokálny bge-small`,
+  robert: `výber tém: ${retazec('vyber_tem')}; kontrola duplicít: ${retazec('kontrola_duplicit')}; zoskupovanie: lokálny bge-small`,
   klara: retazec('autorka'),
   tomas: retazec('factcheck'),
   ciarka: retazec('korektura'),

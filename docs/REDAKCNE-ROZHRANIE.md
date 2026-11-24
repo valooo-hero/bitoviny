@@ -9,6 +9,16 @@
 3. Editor otvorí **`/admin/`**, koncept si prečíta, upraví text, vyberie alebo vygeneruje obrázok.
 4. **Zverejniť** doplní čas a schválenie, zlúči pull request do `main` a Cloudflare Pages web znovu zostaví.
 
+### Kontrola duplicít
+
+Róbert pred písaním porovná každú tému s článkami zverejnenými za posledných 168 hodín podľa času behu a so všetkými otvorenými konceptmi. Kontroluje aj témy schválené v tom istom behu. Pri duplicite alebo nejasnej zhode zaznamená dôvod a odkaz do výpisu GitHub Actions a pokračuje ďalšou vhodnou témou. Pri neúplnom čítaní GitHubu alebo neplatnom verdikte zo všetkých modelov beh zlyhá bez ďalšieho zápisu.
+
+Skúšobný beh vypíše verdikty bez písania konceptov a vytvárania PR.
+
+    python -m bitoviny.redakcia --iba-kontrola --datum RRRR-MM-DD --pocet 5
+
+GitHub Actions používa existujúci token repozitára. Pri lokálnom skúšobnom behu nastav GITHUB_TOKEN s prístupom na čítanie obsahu a pull requestov, aby čítanie väčšieho archívu nevyčerpalo limit anonymných požiadaviek. Rola kontrola_duplicit v config/modely.yaml používa existujúce kľúče pre Gemini, Groq alebo bezplatný OpenRouter. Pri ručnom schválení admin overí aktuálnu vetvu main a odmietne obsadenú adresu alebo úplne zhodné zdroje čerstvého článku.
+
 Pull requesty konceptov sa nezlučujú ručne na GitHube. Ak by sa to stalo, web článok bez schválenia a s zástupným obrázkom na produkcii nezobrazí (`src/lib/clanky.ts`).
 
 ## Rozhranie

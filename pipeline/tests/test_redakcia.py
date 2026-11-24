@@ -6,6 +6,8 @@ from langchain_core.runnables import RunnableLambda
 
 from bitoviny.llm import konfiguracia
 from bitoviny.redakcia.__main__ import koncept_na_markdown, slug
+from bitoviny.redakcia.archiv import Snimka
+from bitoviny.redakcia.duplicity import PosudenieTemy
 from bitoviny.redakcia.graf import skontroluj_koncept, sprava_autorky, sprava_vyberu, vyber_temy, zostav_graf
 from bitoviny.redakcia.modely import Koncept, VybranaTema, VyberTem
 
@@ -213,7 +215,8 @@ def test_roly_s_jedinym_klucom(kluc, monkeypatch):
 
     for nazov in ("GOOGLE_API_KEY", "GROQ_API_KEY", "OPENROUTER_API_KEY"):
         monkeypatch.setenv(nazov, "test" if nazov == kluc else "")
-    for rola, schema in (("vyber_tem", VyberTem), ("autorka", Koncept), ("factcheck", Factcheck),
+    for rola, schema in (("vyber_tem", VyberTem), ("kontrola_duplicit", PosudenieTemy),
+                         ("autorka", Koncept), ("factcheck", Factcheck),
                          ("korektura", Korektura), ("fotoeditor", Dopyty)):
         if kluc is None:
             with pytest.raises(RuntimeError, match=rola):
@@ -236,8 +239,10 @@ def test_vypadok_factchecku_nevytvori_koncept(tmp_path, monkeypatch, caplog):
     graf = zostav_graf(model_autorky=model, **{**BEZ_SIETE, "model_factchecku": RunnableLambda(nedostupny)})
     monkeypatch.setattr(redakcia, "KOREN", tmp_path)
     monkeypatch.setattr(redakcia, "langfuse_klient", lambda: None)
+    monkeypatch.setattr(redakcia.ArchivGitHub, "nacitaj", lambda _: Snimka([], set()))
     monkeypatch.setattr(redakcia, "zostav_graf", lambda: graf)
     monkeypatch.setattr(redakcia, "vyber_temy", lambda *a, **kw: [{"tema": _tema()}])
-    assert redakcia.spusti(den, 1) == []
+    with pytest.raises(RuntimeError, match="Počet zlyhaných redakčných operácií: 1"):
+        redakcia.spusti(den, 1)
     assert not list(tmp_path.rglob("*.md"))
     assert "Povinný factcheck zlyhal: 429" in caplog.text
