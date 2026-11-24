@@ -274,8 +274,9 @@ import { FLUX, GPT_IMAGE, KLEIN, MUSE } from '../../../functions-lib/modely-obra
   .hlasenie { padding: 10px 14px; border-radius: 6px; background: var(--warn-bg); color: var(--warn-text); }
   .hlasenie.chyba { background: color-mix(in srgb, var(--zle) 15%, var(--surface)); color: var(--text); border: 1px solid var(--zle); }
   .koncept-riadok { display: flex; justify-content: space-between; gap: 16px; align-items: baseline; padding: 14px 0; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
-  .koncept-riadok button { font-family: var(--serif); font-size: 1.15rem; font-weight: 700; background: none; border: 0; color: inherit; text-align: left; cursor: pointer; padding: 0; }
-  .koncept-riadok button:hover { color: var(--accent); }
+  .koncept-riadok > button { font-family: var(--serif); font-size: 1.15rem; font-weight: 700; background: none; border: 0; color: inherit; text-align: left; cursor: pointer; padding: 0; }
+  .koncept-riadok > button:hover { color: var(--accent); }
+  .koncept-akcie { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
   .karty { display: flex; gap: 4px; border-bottom: 1px solid var(--line); margin: 16px 0; overflow-x: auto; }
   .karta-tl { font: inherit; font-weight: 600; padding: 10px 14px; background: none; border: 0; border-bottom: 2px solid transparent; color: var(--muted); cursor: pointer; white-space: nowrap; }
   .karta-tl[aria-selected='true'] { color: var(--accent); border-bottom-color: var(--accent); }
@@ -380,7 +381,15 @@ import { FLUX, GPT_IMAGE, KLEIN, MUSE } from '../../../functions-lib/modely-obra
         ...koncepty.map((k: any) =>
           el('div', { class: 'koncept-riadok' },
             el('button', { type: 'button', onclick: () => otvor(k.pr) }, k.titulok),
-            el('span', { class: 'meta' }, new Date(k.vytvorene).toLocaleString('sk-SK')),
+            el('div', { class: 'koncept-akcie' },
+              el('span', { class: 'meta' }, new Date(k.vytvorene).toLocaleString('sk-SK')),
+              el('button', {
+                class: 'tl nebezpecne',
+                type: 'button',
+                'aria-label': 'Zahodiť koncept „' + k.titulok + '“',
+                onclick: (e: Event) => zahodKoncept(k.pr, k.titulok, e.currentTarget as HTMLButtonElement),
+              }, 'Zahodiť koncept'),
+            ),
           ),
         ),
       );
@@ -882,15 +891,18 @@ import { FLUX, GPT_IMAGE, KLEIN, MUSE } from '../../../functions-lib/modely-obra
       hlas(`Článok je zverejnený. Na webe sa objaví po zostavení, zhruba o minútu: ${clanok}`);
     });
   });
-  $('zahodit').addEventListener('click', (e) => {
-    if (!confirm('Zahodiť tento koncept? Pull request sa zavrie a vetva zmaže.')) return;
-    pracuj(e.currentTarget as HTMLButtonElement, 'Zahadzujem…', async () => {
-      await api(`/api/koncept/${stav.pr}/zahodit`, 'POST', {});
-      zavriDetail();
+  function zahodKoncept(pr: number, titulok: string, tlacidlo: HTMLButtonElement) {
+    if (!confirm('Zahodiť koncept „' + titulok + '“? Pull request sa zavrie a vetva zmaže.')) return;
+    return pracuj(tlacidlo, 'Zahadzujem…', async () => {
+      await api('/api/koncept/' + pr + '/zahodit', 'POST', {});
+      if (stav && !stav.zverejneny && Number(stav.pr) === pr) zavriDetail();
       await nacitajZoznam();
       hlas('Koncept je zahodený.');
     });
-  });
+  }
+  $('zahodit').addEventListener('click', (e) =>
+    zahodKoncept(Number(stav.pr), stav.hlavicka.title, e.currentTarget as HTMLButtonElement)
+  );
 
   // ---------- navigácia ----------
 
