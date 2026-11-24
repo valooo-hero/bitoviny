@@ -3,26 +3,27 @@ title: Anthropic spúšťa Claude Ship na kontrolu a schvaľovanie zmien v kóde
 perex: Nová sada agentov dokáže kontrolovať návrhy zmien, opravovať problémy a schváliť tie, ktoré spĺňajú pravidlá tímu. Funkcia automatického schvaľovania je zatiaľ v beta verzii.
 sekcia: ai
 tagy:
-- Anthropic
-- Claude
-- AI agenti
-- vývoj softvéru
-publikovane: '2026-11-24T07:17:08+00:00'
+  - Anthropic
+  - Claude
+  - AI agenti
+  - vývoj softvéru
+publikovane: 2026-11-24T07:17:08+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/anthropic-spusta-claude-ship-na-kontrolu-a-schvalovanie-zmien-v-kode-mwuq4muu.webp
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'TechCrunch: Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes'
-  url: https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/
-- nazov: '9to5Mac: Anthropic launches new Claude Ship feature for builders'
-  url: https://9to5mac.com/2026/11/23/anthropic-launches-new-claude-ship-feature-for-builders/
+  - nazov: "TechCrunch: Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes"
+    url: https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/
+  - nazov: "9to5Mac: Anthropic launches new Claude Ship feature for builders"
+    url: https://9to5mac.com/2026/11/23/anthropic-launches-new-claude-ship-feature-for-builders/
 ---
 
 Anthropic predstavil Claude Ship, sadu AI agentov, ktorá má automatizovať kontrolu, opravy aj schvaľovanie zmien v kóde. Kým viaceré nástroje už dokážu navrhovaný kód kontrolovať, novinkou je možnosť zveriť agentovi aj rozhodnutie, či konkrétna zmena spĺňa pravidlá tímu a môže pokračovať k zlúčeniu do projektu.
