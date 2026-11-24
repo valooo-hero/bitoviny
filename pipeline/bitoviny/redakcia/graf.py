@@ -199,7 +199,13 @@ def uzol_factcheck(model: Any | None = None) -> Callable[[StavClanku], dict]:
             "chyb": sum(n.zavaznost == "chyba" for n in nalezy),
             "upozorneni": sum(n.zavaznost == "upozornenie" for n in nalezy),
         }
-        return {"factcheck": fc, "nalezy": nalezy, "kolo": kolo, "historia": stav.get("historia", []) + [zaznam]}
+        return {
+            "factcheck": fc,
+            "nalezy": nalezy,
+            "overeny_text": (k.titulok, k.perex, k.telo),
+            "kolo": kolo,
+            "historia": stav.get("historia", []) + [zaznam],
+        }
 
     return factcheck
 

@@ -38,6 +38,7 @@ class StavClanku(TypedDict, total=False):
     upozornenia: list[str]
     factcheck: Any  # Factcheck z posledného kola
     nalezy: list  # list[Nalez] z posledného kola
+    overeny_text: tuple[str, str, str]  # titulok, perex a telo z posledného factchecku
     kolo: int  # počet dokončených kôl factchecku
     historia: list[dict]  # súhrn každého kola pre redakčnú správu
     rozsirene: bool  # krátky koncept už dostal pokus o rozšírenie

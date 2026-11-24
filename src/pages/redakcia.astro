@@ -48,7 +48,6 @@ const prace: Record<string, [string, string][]> = {
   ],
   fluxana: [['Titulných ilustrácií v článkoch', `${cislo(s.titulnychAi)} z ${cislo(s.clankov)}`]],
   sefredaktor: [
-    ['Schválených článkov', cislo(s.clankov + s.stiahnutych)],
     ['Stiahnutých zo zverejnenia', cislo(s.stiahnutych)],
     ['Článkov bez jedinej zmeny textu', `${cislo(s.bezZasahu)} z ${cislo(s.clankovSTextom)}`],
   ],
@@ -58,8 +57,7 @@ const prace: Record<string, [string, string][]> = {
 <Base title="Redakcia" description="Redakcia Bitovín: šesť AI agentov a jeden človek.">
   <h1>Redakcia</h1>
   <p class="perex" style="max-width:60ch;margin-top:12px">
-    Šesť redaktorov s anténkou sú AI agenti. Mená a životopisy sme im vymysleli, prácu robia naozaj. Siedmy je človek a
-    bez neho nevyjde nič.
+    Šesť redaktorov s anténkou sú AI agenti. Mená a životopisy sme im vymysleli, prácu robia naozaj. Redakciu vedie šéfredaktor Peter Valalik.
   </p>
 
   <div class="redakcia">

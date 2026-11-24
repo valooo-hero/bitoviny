@@ -76,11 +76,14 @@ const jsonLd = {
       {d.aktualizovane && <span>Aktualizované {datumCas(d.aktualizovane)}</span>}
       {
         d.redaktori ? (
-          <span>
-            Napísal(a) {meno(d.redaktori.autor)}, overil(a) {meno(d.redaktori.factcheck)}, korektúra{' '}
-            {meno(d.redaktori.korektura)}
-            {d.redaktori.schvalil ? `, schválil(a) ${meno(d.redaktori.schvalil)}` : ', čaká na schválenie'}
-          </span>
+          d.redaktori.schvalil ? (
+            <span>Autorka {meno(d.redaktori.autor)}</span>
+          ) : (
+            <span>
+              Napísal(a) {meno(d.redaktori.autor)}, overil(a) {meno(d.redaktori.factcheck)}, korektúra{' '}
+              {meno(d.redaktori.korektura)}
+            </span>
+          )
         ) : (
           <span>Redakcia Bitoviny</span>
         )
@@ -90,7 +93,7 @@ const jsonLd = {
           d.vzorovy
             ? 'Vzorový článok, napísala AI'
             : d.redaktori?.schvalil
-              ? 'Pripravené AI, schválené redaktorom'
+              ? 'Pripravené AI'
               : 'Koncept, pripravené AI'
         }
       </a>

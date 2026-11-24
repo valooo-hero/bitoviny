@@ -1,7 +1,7 @@
 import { getCollection } from 'astro:content';
 import { jeZastupnyObrazok } from '../../functions-lib/github.js';
 
-// Na produkčnej vetve sa nezverejní článok, ktorý neschválil človek alebo má
+// Na produkčnej vetve sa nezverejní neschválený článok alebo článok, ktorý má
 // zástupný obrázok, ani keby sa omylom dostal do main. V náhľadoch pull
 // requestov a lokálne ho vidno.
 const SKRY_KONCEPTY = process.env.CF_PAGES_BRANCH === 'main';

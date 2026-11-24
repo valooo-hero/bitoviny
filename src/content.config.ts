@@ -31,7 +31,7 @@ const clanky = defineCollection({
         autor: z.string(),
         factcheck: z.string(),
         korektura: z.string(),
-        // Dopĺňa sa až pri zverejnení v redakčnom rozhraní.
+        // Evidencia schválenia článku pred zaradením na web.
         schvalil: z.string().optional(),
       })
       .optional(),
