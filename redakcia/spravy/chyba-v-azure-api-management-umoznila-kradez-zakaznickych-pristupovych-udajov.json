@@ -1,0 +1,409 @@
+{
+  "slug": "chyba-v-azure-api-management-umoznila-kradez-zakaznickych-pristupovych-udajov",
+  "datum_sprav": "2026-11-23",
+  "dovod_vyberu": "Zneužitie kritickej chyby v Azure API Management môže ohroziť používateľov cloudových služieb v EÚ.",
+  "poznamky_pre_editora": "Opravené podľa nálezu: Skagerak Energi už nie je označená ako vodárenská spoločnosť, ale ako spoločnosť zaoberajúca sa vodnou energiou. Ostatné tvrdenia a formulácie zostali nezmenené.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojoch a sú prenesené presne. Najvážnejším problémom je len drobné zjednodušenie v perexe, kde sa nespomína, že zraniteľnosť sa týkala len Classic úrovní, čo je však v texte neskôr uvedené.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 26,
+        "potvrdenych": 25,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 25,
+        "potvrdenych": 25,
+        "chyb": 0,
+        "upozorneni": 1
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "Bezpečnostný expert Anders Kristiansen upozornil, že získané prihlasovacie údaje môžu v niektorých prípadoch fungovať priamo voči chránenej službe, teda aj mimo APIM. Rozsah prístupu závisí od oprávnení a od toho, či sú údaje stále platné.",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „If someone obtains a credential from that configuration, they may be able to use it directly against the service it protects, outside APIM. What they can reach “",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Microsoft upozornil zákazníkov na zraniteľnosť v službe Azure API Management (APIM), ktorú útočníci mohli využiť na prístup k uloženým tajomstvám a vykonávanie administrátorských operácií.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa spoločnosti boli ohrozené iba inštancie APIM Classic.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Microsoft told BleepingComputer that the vulnerability impacted the Developer, Basic, Standard, and Premium tiers of Azure API Management (APIM) Classic",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft problém identifikoval 18. novembra 2026 a nasledujúci deň nasadil opravu.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Microsoft said it identified the vulnerability on November 18, 2026, and deployed a mitigation the following day.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zraniteľnosť sa týkala úrovní Developer, Basic, Standard a Premium.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Microsoft told BleepingComputer that the vulnerability impacted the Developer, Basic, Standard, and Premium tiers of Azure API Management (APIM) Classic",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Úroveň Consumption v APIM Classic ani novšie úrovne APIM v2 zasiahnuté neboli.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "the Consumption tier of APIM Classic and all APIM v2 tiers were not affected.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft uviedol, že k problému dochádzalo pri inštanciách, ktoré neboli nastavené podľa odporúčaných bezpečnostných postupov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "the vulnerability allowed unauthorized access to certain management functionality when APIM Classic instances were not configured according to recommended security best practices.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Medzi potenciálne dostupné údaje patrili tajomstvá uložené v položkách Named Values, prihlasovacie tajomstvá poskytovateľov identity a OpenID Connect, predplatiteľské kľúče aj tokeny na volanie priamych rozhraní na správu služby.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Secrets stored in Named Values, Client secrets associated with identity providers, Client secrets associated with OpenID Connect providers, Subscription keys, Tokens used to call direct management APIs",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tieto údaje môžu podľa svojich oprávnení otvárať prístup aj k ďalším aplikáciám, službám či systémom napojeným na APIM.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "These credentials could potentially allow attackers to access additional applications, services, or backend systems, depending on their permissions.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Bezpečnostný expert Anders Kristiansen upozornil, že získané prihlasovacie údaje môžu v niektorých prípadoch fungovať priamo voči chránenej službe, teda aj mimo APIM. Rozsah prístupu závisí od oprávnení a od toho, či sú údaje stále platné.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "If someone obtains a credential from that configuration, they may be able to use it directly against the service it protects, outside APIM. What they can reach depends on the credential's permissions and whether it is still valid.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register uvádza, že riziko sa mohlo týkať aj organizácií, ktoré zabudli na staršie testovacie alebo vývojové inštancie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Customers who spoke to The Register warned that forgotten development and test instances could leave more organizations exposed.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroje však neuvádzajú, koľko zákazníkov bolo skutočne napadnutých.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The extent of exploitation remains unclear.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nórsky Národný bezpečnostný úrad (NSM) uviedol, že nórsky energetický sektor zraniteľnosť odhalil ako prvý a že útoky zasiahli aj organizácie v ďalších krajinách a odvetviach.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The agency said Norway's energy sector first discovered the vulnerability and that organizations in other countries and industries were also affected.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Menoval energetickú spoločnosť Equinor a spoločnosť Skagerak Energi zaoberajúcu sa vodnou energiou.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "It named gas giant Equinor and hydropower company Skagerak Energi among the affected organizations.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Equinor oznámil kybernetický útok 17. novembra, no neskôr uviedol, že ho zastavil a nenašiel známky odcudzenia alebo zmeny dát.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Equinor disclosed an ongoing cyberattack on November 17... The company later announced that it had stopped the attack and found no indication that data had been stolen or altered.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Skagerak Energi informoval o pokuse o útok, ktorý podľa firmy neovplyvnil prevádzku; dôkazy o úniku informácií nenašla.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Skagerak Energi also reported an attempted cyberattack but said it had no impact on its operations and no evidence that information was compromised.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "NSM odporúča predpokladať, že tajomstvá a položky Named Values mohli byť sprístupnené, a vymeniť všetky príslušné tokeny a tajomstvá.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Norway's National Security Authority (NSM) urged organizations using APIM to assume their secrets and named values had been exposed and rotate all tokens and secrets.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zákazníkom tiež radí zmapovať, ku ktorým systémom mali jednotlivé APIM inštancie prístup.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The agency also advised mapping the information accessible through each APIM instance to assess the potential scope of any compromise.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft tvrdí, že uzavrel cestu k neoprávnenému prístupu a opravu automaticky nasadil na inštancie hostované Microsoftom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Microsoft confirmed that its November 19 remediation was fully deployed to Microsoft-hosted API Management instances and required no customer action.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zároveň upozorňuje, že tým nezneplatnil zákaznícke údaje, ku ktorým sa útočníci mohli dostať pred opravou.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "However, it does not automatically invalidate credentials that may have been accessed before the fix was deployed.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zákazníci majú preto vymeniť potenciálne odhalené údaje, preveriť podozrivú aktivitu v nadväzujúcich systémoch a skontrolovať dostupné záznamy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Microsoft urged affected customers to immediately rotate potentially exposed credentials, investigate suspicious activity in systems accessible through those credentials, and review available logs for signs of unauthorized access.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Microsoft podľa BleepingComputer tvrdí, že jeho oprava bola plne nasadená a nevyžaduje zásah zákazníka.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Microsoft confirmed that its November 19 remediation was fully deployed to Microsoft-hosted API Management instances and required no customer action.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "NSM však organizáciám radí overiť verziu prostredia a kontaktovať poskytovateľa, ak inštancia nedostala aktualizáciu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The agency warns that instances running below specific runtime versions remain vulnerable and advises customers to contact their 'service provider' if they have not received the update.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register tiež informuje o upozornení NSM na neopravené verzie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "NSM nevertheless advised organizations to check their instance's runtime version against its published patch thresholds and contact their provider if it remained unpatched.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroje neuvádzajú konkrétne hranice verzií.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The agency warns that instances running below specific runtime versions remain vulnerable",
+        "komentar": "Zdroje spomínajú 'specific runtime versions', ale neuvádzajú čísla verzií.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pre firmy na Slovensku či inde v EÚ ide o pripomienku, že tajomstvá uložené v cloudovej službe treba po bezpečnostnom incidente vymeniť aj po nasadení opravy; zdroje však neuvádzajú zasiahnutú slovenskú organizáciu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Microsoft urged affected customers to immediately rotate potentially exposed credentials",
+        "komentar": "Zdroje neuvádzajú slovenskú organizáciu, čo koncept správne konštatuje.",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "Skagerak Energi informoval o pokuse",
+        "opravene": "Skagerak Energi informovala o pokuse",
+        "dovod": "zhoda podmetu s prísudkom",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash (google)"
+      }
+    ],
+    "podozrive": [],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -19 +19 @@\n-Nórsky Národný bezpečnostný úrad (NSM) uviedol, že nórsky energetický sektor zraniteľnosť odhalil ako prvý a že útoky zasiahli aj organizácie v ďalších krajinách a odvetviach. Menoval energetickú spoločnosť Equinor a spoločnosť Skagerak Energi zaoberajúcu sa vodnou energiou. Equinor oznámil kybernetický útok 17. novembra, no neskôr uviedol, že ho zastavil a nenašiel známky odcudzenia alebo zmeny dát. Skagerak Energi informoval o pokuse o útok, ktorý podľa firmy neovplyvnil prevádzku; dôkazy o úniku informácií nenašla.\n+Nórsky Národný bezpečnostný úrad (NSM) uviedol, že nórsky energetický sektor zraniteľnosť odhalil ako prvý a že útoky zasiahli aj organizácie v ďalších krajinách a odvetviach. Menoval energetickú spoločnosť Equinor a spoločnosť Skagerak Energi zaoberajúcu sa vodnou energiou. Equinor oznámil kybernetický útok 17. novembra, no neskôr uviedol, že ho zastavil a nenašiel známky odcudzenia alebo zmeny dát. Skagerak Energi informovala o pokuse o útok, ktorý podľa firmy neovplyvnil prevádzku; dôkazy o úniku informácií nenašla."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Windows_Azure_logo.png",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://image.theregister.com/?imageId=260104&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.bleepstatic.com/content/hl-images/2026/08/21/Microsoft.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Microsoft Azure logo",
+      "cloud data center",
+      "server rack"
+    ],
+    "alternativy": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Windows_Azure_logo.png",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Windows_Azure_logo.png",
+        "nazov": "Windows Azure logo.png",
+        "autor": "Microsoft",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Windows_Azure_logo.png",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft Azure logo"
+      },
+      {
+        "url": "https://live.staticflickr.com/5511/11225654646_7fc9621cc9_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c9a793a4-e9cf-44fd-af8a-8dc29e7f31e3/thumb/",
+        "nazov": "Windows Azure",
+        "autor": "rainerstropek@yahoo.com",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/76164541@N06/11225654646",
+        "povod": "openverse",
+        "dopyt": "Microsoft Azure logo"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Center_of_the_Milky_Way_Galaxy_IV_%E2%80%93_Composite.jpg/1280px-Center_of_the_Milky_Way_Galaxy_IV_%E2%80%93_Composite.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Center_of_the_Milky_Way_Galaxy_IV_%E2%80%93_Composite.jpg/1280px-Center_of_the_Milky_Way_Galaxy_IV_%E2%80%93_Composite.jpg",
+        "nazov": "Center of the Milky Way Galaxy IV – Composite.jpg",
+        "autor": "NASA/JPL-Caltech/ESA/CXC/STScI",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Center_of_the_Milky_Way_Galaxy_IV_%E2%80%93_Composite.jpg",
+        "povod": "wikimedia",
+        "dopyt": "cloud data center"
+      },
+      {
+        "url": "https://live.staticflickr.com/8686/16810027983_dd3678f66c_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/303a64e6-8ad9-464a-8616-b45b0e7a8944/thumb/",
+        "nazov": "Cloudy Earth",
+        "autor": "NASA Goddard Photo and Video",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/24662369@N07/16810027983",
+        "povod": "openverse",
+        "dopyt": "cloud data center"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/MicrosoftAzure.png",
+        "nahlad": "https://api.openverse.org/v1/images/fa4aebcf-4d87-4630-9157-c4ca98b61509/thumb/",
+        "nazov": "File:MicrosoftAzure.png",
+        "autor": "Microsoft",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=81546572",
+        "povod": "openverse",
+        "dopyt": "Microsoft Azure logo"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/STS-130_exhaust_cloud_engulfs_Launch_Pad_39A.jpg/1280px-STS-130_exhaust_cloud_engulfs_Launch_Pad_39A.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/STS-130_exhaust_cloud_engulfs_Launch_Pad_39A.jpg/1280px-STS-130_exhaust_cloud_engulfs_Launch_Pad_39A.jpg",
+        "nazov": "STS-130 exhaust cloud engulfs Launch Pad 39A.jpg",
+        "autor": "NASA/Sandra Joseph and Kevin O'Connell",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:STS-130_exhaust_cloud_engulfs_Launch_Pad_39A.jpg",
+        "povod": "wikimedia",
+        "dopyt": "cloud data center"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a cloud API gateway protecting abstract digital keys, with a subtle security breach represented by a narrow glowing crack, in a clean non-photorealistic style."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a cloud API gateway protecting abstract digital keys, with a subtle security breach represented by a narrow glowing crack, in a clean non-photorealistic style.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/fe83680b4725c60eac448a427362849b",
+  "text_agentov": {
+    "titulok": "Chyba v Azure API Management umožnila krádež zákazníckych prístupových údajov",
+    "perex": "Microsoft opravil zraniteľnosť v starších úrovniach služby, no samotná oprava nezneplatnila tajomstvá, ku ktorým mohli útočníci získať prístup. Nórske úrady incident spájajú s útokmi na energetické firmy.",
+    "telo": "Microsoft upozornil zákazníkov na zraniteľnosť v službe Azure API Management (APIM), ktorú útočníci mohli využiť na prístup k uloženým tajomstvám a vykonávanie administrátorských operácií. Podľa spoločnosti boli ohrozené iba inštancie APIM Classic. Microsoft problém identifikoval 18. novembra 2026 a nasledujúci deň nasadil opravu.\n\nZraniteľnosť sa týkala úrovní Developer, Basic, Standard a Premium. Úroveň Consumption v APIM Classic ani novšie úrovne APIM v2 zasiahnuté neboli. Microsoft uviedol, že k problému dochádzalo pri inštanciách, ktoré neboli nastavené podľa odporúčaných bezpečnostných postupov.\n\n## Aké údaje mohli byť ohrozené\n\nAko píše BleepingComputer, medzi potenciálne dostupné údaje patrili tajomstvá uložené v položkách Named Values, prihlasovacie tajomstvá poskytovateľov identity a OpenID Connect, predplatiteľské kľúče aj tokeny na volanie priamych rozhraní na správu služby.\n\nTieto údaje môžu podľa svojich oprávnení otvárať prístup aj k ďalším aplikáciám, službám či systémom napojeným na APIM. Bezpečnostný expert Anders Kristiansen upozornil, že získané prihlasovacie údaje môžu v niektorých prípadoch fungovať priamo voči chránenej službe, teda aj mimo APIM. Rozsah prístupu závisí od oprávnení a od toho, či sú údaje stále platné.\n\nThe Register uvádza, že riziko sa mohlo týkať aj organizácií, ktoré zabudli na staršie testovacie alebo vývojové inštancie. Zdroje však neuvádzajú, koľko zákazníkov bolo skutočne napadnutých.\n\n## Nórske energetické firmy medzi zasiahnutými\n\nNórsky Národný bezpečnostný úrad (NSM) uviedol, že nórsky energetický sektor zraniteľnosť odhalil ako prvý a že útoky zasiahli aj organizácie v ďalších krajinách a odvetviach. Menoval energetickú spoločnosť Equinor a spoločnosť Skagerak Energi zaoberajúcu sa vodnou energiou. Equinor oznámil kybernetický útok 17. novembra, no neskôr uviedol, že ho zastavil a nenašiel známky odcudzenia alebo zmeny dát. Skagerak Energi informovala o pokuse o útok, ktorý podľa firmy neovplyvnil prevádzku; dôkazy o úniku informácií nenašla.\n\nNSM odporúča predpokladať, že tajomstvá a položky Named Values mohli byť sprístupnené, a vymeniť všetky príslušné tokeny a tajomstvá. Zákazníkom tiež radí zmapovať, ku ktorým systémom mali jednotlivé APIM inštancie prístup.\n\n## Oprava neznamená výmenu zákazníckych hesiel\n\nMicrosoft tvrdí, že uzavrel cestu k neoprávnenému prístupu a opravu automaticky nasadil na inštancie hostované Microsoftom. Zároveň upozorňuje, že tým nezneplatnil zákaznícke údaje, ku ktorým sa útočníci mohli dostať pred opravou. Zákazníci majú preto vymeniť potenciálne odhalené údaje, preveriť podozrivú aktivitu v nadväzujúcich systémoch a skontrolovať dostupné záznamy.\n\nMedzi odporúčaniami je rozdiel: Microsoft podľa BleepingComputer tvrdí, že jeho oprava bola plne nasadená a nevyžaduje zásah zákazníka. NSM však organizáciám radí overiť verziu prostredia a kontaktovať poskytovateľa, ak inštancia nedostala aktualizáciu. The Register tiež informuje o upozornení NSM na neopravené verzie. Zdroje neuvádzajú konkrétne hranice verzií.\n\nPre firmy na Slovensku či inde v EÚ ide o pripomienku, že tajomstvá uložené v cloudovej službe treba po bezpečnostnom incidente vymeniť aj po nasadení opravy; zdroje však neuvádzajú zasiahnutú slovenskú organizáciu."
+  }
+}
