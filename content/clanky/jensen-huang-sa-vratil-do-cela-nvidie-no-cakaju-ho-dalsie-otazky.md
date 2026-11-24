@@ -8,7 +8,7 @@ tagy:
   - čipy
   - exportné kontroly
   - Donald Trump
-publikovane: 2026-11-24T07:17:18+00:00
+publikovane: 2026-11-24T13:19:42Z
 obrazok:
   src: /obrazky/jensen-huang-sa-vratil-do-cela-nvidie-no-cakaju-ho-dalsie-otazky-mwuq1igz.jpg
   alt: Server rack
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "TechCrunch: Jensen Huang isn’t out of the woods yet"
     url: https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/
