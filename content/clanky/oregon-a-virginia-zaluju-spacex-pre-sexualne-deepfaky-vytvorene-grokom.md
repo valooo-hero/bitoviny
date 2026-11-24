@@ -8,7 +8,7 @@ tagy:
   - deepfaky
   - bezpečnosť detí
   - umelá inteligencia
-publikovane: 2026-11-24T07:17:03+00:00
+publikovane: 2026-11-24T13:31:55Z
 obrazok:
   src: /obrazky/oregon-a-virginia-zaluju-spacex-pre-sexualne-deepfaky-vytvorene-grokom-mwuqh7bf.webp
   alt: Ilustračný obrázok.
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Wired: States Sue SpaceX Over Grok Deepfakes"
     url: https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/
