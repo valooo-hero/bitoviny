@@ -3,26 +3,27 @@ title: Rýchlejšie hľadanie chýb zvyšuje tlak na opravy a stabilitu služieb
 perex: Nedávne výpadky podľa dostupných informácií nespôsobila koordinovaná hackerská kampaň ani umelá inteligencia. Bezpečnostní odborníci však varujú, že AI zrýchľuje objavovanie zraniteľností aj tlak na ich rýchle opravovanie.
 sekcia: softver
 tagy:
-- umelá inteligencia
-- kybernetická bezpečnosť
-- výpadky
-- zraniteľnosti
-publikovane: '2026-11-22T03:33:47+00:00'
+  - umelá inteligencia
+  - kybernetická bezpečnosť
+  - výpadky
+  - zraniteľnosti
+publikovane: 2026-11-22T03:33:47+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/rychlejsie-hladanie-chyb-zvysuje-tlak-na-opravy-a-stabilitu-sluzieb-mwuq6y7v.webp
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Wired: The Outages Are Just Getting Started'
-  url: https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/
-- nazov: 'The Register: AWS got hit by an outage too. Here''s why you didn''t hear about it'
-  url: https://www.theregister.com/columnists/2026/11/21/aws-got-hit-by-an-outage-too-heres-why-you-didnt-hear-about-it/5311511
+  - nazov: "Wired: The Outages Are Just Getting Started"
+    url: https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/
+  - nazov: "The Register: AWS got hit by an outage too. Here's why you didn't hear about it"
+    url: https://www.theregister.com/columnists/2026/11/21/aws-got-hit-by-an-outage-too-heres-why-you-didnt-hear-about-it/5311511
 ---
 
 Výpadky služieb Microsoftu, Applu, viacerých amerických bánk, United Airlines aj internej komunikačnej siete NSA vyvolali špekulácie o spoločnej príčine. Dôkazy o koordinovanom kybernetickom útoku však podľa magazínu Wired nie sú. Jednotlivé incidenty mali bežné príčiny, napríklad chybnú aktualizáciu alebo problémy so sieťou. Bezpečnostní odborníci napriek tomu upozorňujú, že umelá inteligencia mení tempo, akým vznikajú aj zneužívajú sa softvérové chyby.
