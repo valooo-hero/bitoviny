@@ -1,0 +1,998 @@
+{
+  "slug": "utocnici-zneuzili-chybu-v-cloude-gl-inet-na-napadnutie-routerov-a-zariadeni-kvm",
+  "datum_sprav": "2026-11-22",
+  "dovod_vyberu": "Zneužitie cloudovej chyby na infikovanie routerov a KVM zariadení je vážna bezpečnostná hrozba pre používateľov.",
+  "poznamky_pre_editora": "K dispozícii bol iba jeden zdroj; pred publikovaním doplniť nezávislé potvrdenie a overiť aktuálnosť odporúčaných verzií firmvéru. Zdroj uvádza zverejnenie 22. novembra 2026 a aktualizácie plánované na tento dátum, preto skontrolovať dátum a stav ich vydania. Možnú chybu v GoodCloud a súvislosť starších zadných vrátok s novembrovým útokom zdroj výslovne nepotvrdzuje.",
+  "upozornenia": [
+    "Téma má len jeden zdroj. Redakčné zásady žiadajú aspoň dva, zvážte doplnenie alebo zahodenie."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je vysoko spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojovom článku a neobsahuje žiadne podstatné nepresnosti. Najvážnejším problémom je len drobné zjednodušenie pri opise skriptu ni.sh, ktoré však nemení význam.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 35,
+        "potvrdenych": 35,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Útočníci zneužili chybu v cloude GL.iNet na napadnutie routerov a zariadení KVM",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výrobca opravil cestu, ktorou útočníci prenikali do zariadení cez službu GoodCloud",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The attack path has been blocked. We fixed the cloud vulnerability and blocked the access used in this incident",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Oprava neodstráni malvér zo zariadení, ktoré už boli napadnuté",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "These measures do not remove malware from devices that were already infected.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zariadenia KVM umožňujú vzdialený prístup k počítačom a ich ovládanie",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "KVM devices that allow users to access and control computers remotely.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Služba GoodCloud slúži na správu KVM aj podporovaných routerov",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Its GoodCloud platform allows customers to remotely manage supported devices, including accessing and controlling computers and servers connected to its KVM products.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "GL.iNet zatiaľ nezverejnil, ako presne útočníci chybu využili, koľko zákazníkov zasiahli ani či z napadnutých zariadení odcudzili údaje",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "GL.iNet has not disclosed how the attackers exploited its cloud platform, how many customers were impacted, or whether information was stolen from compromised devices.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Firma skúma aj možnosť, že útočníci prenikli do počítačov pripojených k zariadeniam KVM",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The company is also investigating whether computers connected to infected KVM devices were compromised.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zákazníci a výskumníci hlásili malvér vytvorený pre zariadenia GL.iNet aj reverzné shelly s oprávneniami root",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "GL.iNet customers and security researchers shared evidence of custom malware infections designed specifically for GL.iNET devices, as well as root-level reverse shells",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Reverzné shelly umožňovali vzdialené vykonávanie príkazov a pripájali napadnuté routery na adresu 170.39.226[.]219",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "root-level reverse shells that connected compromised routers to the IP address 170.39.226[.]219",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výskumníci z RemoteToHome Consulting analyzovali 183 routerov, ktoré vlastnia alebo spravujú",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "RemoteToHome says it analyzed 183 routers it owns or manages",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podozrivú aktivitu zaznamenali na 152 z nich",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "found suspicious activity on 152",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "24 malo reverzné shelly s oprávneniami root",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "including 24 with root-level reverse shells",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "47 staršie pretrvávajúce zadné vrátka",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "47 with an older persistent backdoor",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "na 81 zariadeniach našli známky vykonania príkazov dodaných útočníkom",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "81 showing evidence that attacker-supplied commands had executed",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výskumníci upozornili, že ich vzorka nemusí zodpovedať situácii u ostatných zákazníkov a staršie zadné vrátka nemusia súvisieť s novembrovým útokom",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The researchers note that their findings may not be the same as the other GL.iNet customers and that the older backdoor infections may not be linked to the November attacks.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tím opísal možnú chybu v klientovi GoodCloud: handler pre funkcie AstroWarp a SD-WAN odovzdával hodnoty z cloudu do shellových príkazov spúšťaných s oprávneniami root bez dostatočnej kontroly",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "identified a potential command injection vulnerability in GL.iNet's GoodCloud client involving a handler used for AstroWarp/SD-WAN functionality... passes cloud-supplied values into shell commands executed with root privileges without properly validating them.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "GL.iNet nepotvrdil, že práve táto chyba bola pri útoku zneužitá",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "GL.iNet has not confirmed that this particular vulnerability was used in the attacks.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Majiteľ napadnutého zariadenia GL-RM1 KVM zverejnil záznamy, podľa ktorých zariadenie 19. novembra stiahlo škodlivý skript ni.sh a ďalšie súbory z adresy 66.245.219[.]252",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "the owner of a compromised GL-RM1 KVM shared network logs showing it downloading a malicious ni.sh script and additional executable payloads from 66.245.219[.]252 on November 19.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Následne komunikovalo približne s 1 800 rezidenčnými IP adresami denne a opakovane kontaktovalo rozhranie blockchainu TRON",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "began communicating with approximately 1,800 residential IP addresses daily and repeatedly contacted the TRON blockchain API",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Účel tejto komunikácie nie je známy; nie je potvrdené, že zariadenia slúžili ako rezidenčné proxy alebo súčasť botnetu",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "the purpose of these connections is unclear, and there is no confirmation that the compromised devices were being used as residential proxies or were part of a larger botnet.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Analýza skriptu ni.sh ukázala, že rozpoznáva viacero modelov GL.iNet, sťahuje programy gl-helper a gb a nastavuje ich automatické spúšťanie",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The script recognizes numerous GL.iNet device models and downloads malicious executables named gl-helper and gb from hardcoded servers. It also establishes persistence through startup scripts and scheduled tasks",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dokázal sa tiež maskovať ako proces `crond -i /tmp/.log`, ktorý GL.iNet uviedol ako jeden z indikátorov napadnutia",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The installer includes functionality to disguise the malicious process as crond -i /tmp/.log, matching the IOC published by GL.iNet.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Skript upravoval nástroj netstat tak, aby filtroval spojenia na jednu z útočníckych adries",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "replacing the legitimate netstat utility with a modified shell script that filters out connections to 66.245.219[.]252",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "mohol inštalovať SSH kľúče na vzdialený prístup",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The installer also contains functionality to install SSH public keys for remote access",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "GL.iNet zákazníkom odporúča skontrolovať zariadenia a nainštalovať najnovší bezpečnostný firmvér",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "GL.iNet recommends that customers check their devices for signs of infection and install the latest security firmware",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pre modely KVM RM10, RM1, RM1V2, RM1PE a RM4PE uviedol verziu 1.10.3 alebo novšiu",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "recommends version 1.10.3 or later for the RM10, RM1, RM1V2, RM1PE, and RM4PE",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "pre RM10RC verziu 1.10.3 beta alebo novšiu",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "version 1.10.3 beta or later for the RM10RC",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "pre RMQ1 verziu 1.8.7 alebo novšiu",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "version 1.8.7 or later for the RMQ1",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Majitelia routerov majú použiť najnovší bezpečnostný firmvér určený pre konkrétny model",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Router owners should install the latest security firmware for their specific model as soon as it becomes available.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Firma vo svojich pokynoch odkazuje aj na komunitný nástroj na kontrolu a čistenie",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "GL.iNet has linked to a community-developed detection and cleanup tool as part of the company's official support instructions",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ten hľadá známe škodlivé súbory, podozrivé procesy a zmeny v konfigurácii",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The scanner performs additional checks for known malware files, suspicious processes, modified system utilities, and configuration files modified for persistence.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "jeho autori upozorňujú, že nezachytí každú infekciu",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The project's developers warn that the scanner cannot detect every infection",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V niektorých prípadoch môže byť potrebné firmvér preinštalovať bez obnovenia pôvodných nastavení, pretože škodlivé súbory môžu v konfigurácii prežiť bežnú aktualizáciu",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "compromised devices may require reinstalling firmware without retaining existing settings, as malicious files stored in configuration directories could survive an ordinary firmware upgrade.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pred resetovaním sa odporúča zachovať dôkazy, neobnovovať potenciálne napadnutú konfiguráciu a zmeniť heslá aj prístupové kľúče",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Customers who suspect their devices were compromised should preserve evidence before resetting them, avoid restoring potentially infected configurations, and rotate credentials and access keys that may have been exposed.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri KVM treba preveriť aj pripojené počítače",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "For KVM users, the malware may have allowed access to the computers controlled by the KVM, so those devices should also be analyzed for potential compromise.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "titulok",
+        "text": "cloude",
+        "kontext": "Útočníci zneužili chybu v cloude GL.iNet na napadnutie routerov a zariad",
+        "navrhy": [
+          "clou de"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "titulok",
+        "text": "iNet",
+        "kontext": "Útočníci zneužili chybu v cloude GL.iNet na napadnutie routerov a zariadení KVM",
+        "navrhy": [
+          "Minet",
+          "hneť",
+          "inej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "titulok",
+        "text": "routerov",
+        "kontext": "li chybu v cloude GL.iNet na napadnutie routerov a zariadení KVM",
+        "navrhy": [
+          "montérov",
+          "oterov",
+          "posterov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "malvér",
+        "kontext": "z službu GoodCloud, no už nainštalovaný malvér tým neodstránil. Rozsah napadnutia zati",
+        "navrhy": [
+          "malér"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iNet",
+        "kontext": "Spoločnosť GL.iNet potvrdila, že útočníci zneužili chybu v",
+        "navrhy": [
+          "Minet",
+          "hneť",
+          "inej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cloudových",
+        "kontext": "rdila, že útočníci zneužili chybu v jej cloudových službách na vzdialenú správu a do niekt",
+        "navrhy": [
+          "chodových",
+          "clonových",
+          "loďových"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "routerov",
+        "kontext": "ách na vzdialenú správu a do niektorých routerov a zariadení KVM nainštalovali malvér. F",
+        "navrhy": [
+          "montérov",
+          "oterov",
+          "posterov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "malvér",
+        "kontext": " routerov a zariadení KVM nainštalovali malvér. Firma tvrdí, že napadnutú cestu zablok",
+        "navrhy": [
+          "malér"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "routerov",
+        "kontext": "a ich správu aj na správu podporovaných routerov. Ako uvádza BleepingComputer, GL.iNet z",
+        "navrhy": [
+          "montérov",
+          "oterov",
+          "posterov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iNet",
+        "kontext": "uterov. Ako uvádza BleepingComputer, GL.iNet zatiaľ nezverejnil, ako presne útočníci",
+        "navrhy": [
+          "Minet",
+          "hneť",
+          "inej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "malvér",
+        "kontext": "kumníci po zverejnení incidentu hlásili malvér vytvorený pre zariadenia GL.iNet aj rev",
+        "navrhy": [
+          "malér"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iNet",
+        "kontext": "sili malvér vytvorený pre zariadenia GL.iNet aj reverzné shelly s oprávneniami root.",
+        "navrhy": [
+          "Minet",
+          "hneť",
+          "inej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "shelly",
+        "kontext": "rený pre zariadenia GL.iNet aj reverzné shelly s oprávneniami root. Tie umožňovali vzd",
+        "navrhy": [
+          "Stelly",
+          "Shell"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "root",
+        "kontext": ".iNet aj reverzné shelly s oprávneniami root. Tie umožňovali vzdialené vykonávanie p",
+        "navrhy": [
+          "Foot",
+          "Robot",
+          "foot"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "routery",
+        "kontext": "onávanie príkazov a pripájali napadnuté routery na adresu 170.39.226[.]219.\n\nVýskumníci",
+        "navrhy": [
+          "Route",
+          "otery",
+          "postery"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "routerov",
+        "kontext": "RemoteToHome Consulting analyzovali 183 routerov, ktoré vlastnia alebo spravujú. Podozri",
+        "navrhy": [
+          "montérov",
+          "oterov",
+          "posterov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "shelly",
+        "kontext": "amenali na 152 z nich: 24 malo reverzné shelly s oprávneniami root, 47 staršie pretrvá",
+        "navrhy": [
+          "Stelly",
+          "Shell"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "root",
+        "kontext": " 24 malo reverzné shelly s oprávneniami root, 47 staršie pretrvávajúce zadné vrátka ",
+        "navrhy": [
+          "Foot",
+          "Robot",
+          "foot"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "staršie",
+        "kontext": "vedať situácii u ostatných zákazníkov a staršie zadné vrátka nemusia súvisieť s novembr",
+        "navrhy": [
+          "staré"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (staršie) \"staré\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "handler",
+        "kontext": "ísal možnú chybu v klientovi GoodCloud: handler pre funkcie AstroWarp a SD-WAN podľa ne",
+        "navrhy": [
+          "handier",
+          "handle",
+          "handle r"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cloudu",
+        "kontext": " SD-WAN podľa neho odovzdával hodnoty z cloudu do shellových príkazov spúšťaných s opr",
+        "navrhy": [
+          "clou du"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "shellových",
+        "kontext": "dľa neho odovzdával hodnoty z cloudu do shellových príkazov spúšťaných s oprávneniami root",
+        "navrhy": [
+          "heslových",
+          "héliových",
+          "sedlových"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "root",
+        "kontext": "vých príkazov spúšťaných s oprávneniami root bez dostatočnej kontroly. GL.iNet však ",
+        "navrhy": [
+          "Foot",
+          "Robot",
+          "foot"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iNet",
+        "kontext": "niami root bez dostatočnej kontroly. GL.iNet však nepotvrdil, že práve táto chyba bo",
+        "navrhy": [
+          "Minet",
+          "hneť",
+          "inej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "sh",
+        "kontext": "19. novembra stiahlo škodlivý skript ni.sh a ďalšie súbory z adresy 66.245.219[.]2",
+        "navrhy": [
+          "SH",
+          "ŠH",
+          "Ch"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "blockchainu",
+        "kontext": "enne a opakovane kontaktovalo rozhranie blockchainu TRON. Účel tejto komunikácie nie je zná",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": " nie je potvrdené, že zariadenia slúžili ako rezidenčné proxy alebo súčasť botnetu.\n",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "botnetu",
+        "kontext": "úžili ako rezidenčné proxy alebo súčasť botnetu.\n\nAnalýza skriptu ni.sh podľa BleepingC",
+        "navrhy": [
+          "bot netu"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "sh",
+        "kontext": "ebo súčasť botnetu.\n\nAnalýza skriptu ni.sh podľa BleepingComputer ukázala, že rozp",
+        "navrhy": [
+          "SH",
+          "ŠH",
+          "Ch"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iNet",
+        "kontext": "ázala, že rozpoznáva viacero modelov GL.iNet, sťahuje programy gl-helper a gb a nast",
+        "navrhy": [
+          "Minet",
+          "hneť",
+          "inej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "gl-helper",
+        "kontext": "acero modelov GL.iNet, sťahuje programy gl-helper a gb a nastavuje ich automatické spúšťa",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "gb",
+        "kontext": "v GL.iNet, sťahuje programy gl-helper a gb a nastavuje ich automatické spúšťanie. ",
+        "navrhy": [
+          "GB",
+          "Gb",
+          "B"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ické spúšťanie. Dokázal sa tiež maskovať ako proces `crond -i /tmp/.log`, ktorý GL.i",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "crond -i",
+        "kontext": "e. Dokázal sa tiež maskovať ako proces `crond -i /tmp/.log`, ktorý GL.iNet uviedol ako j",
+        "navrhy": [
+          "crond-i",
+          "crond – i"
+        ],
+        "dovod": "Spojovník nemá byť oddelený medzerou. Odstráňte úvodnú medzeru (\"crond-i\") alebo ho nahraďte pomlčkou a medzerou (\"crond"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "tmp",
+        "kontext": " sa tiež maskovať ako proces `crond -i /tmp/.log`, ktorý GL.iNet uviedol ako jeden ",
+        "navrhy": [
+          "MP",
+          "imp",
+          "temp"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iNet",
+        "kontext": "o proces `crond -i /tmp/.log`, ktorý GL.iNet uviedol ako jeden z indikátorov napadnu",
+        "navrhy": [
+          "Minet",
+          "hneť",
+          "inej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ond -i /tmp/.log`, ktorý GL.iNet uviedol ako jeden z indikátorov napadnutia. Skript ",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "netstat",
+        "kontext": "ov napadnutia. Skript upravoval nástroj netstat tak, aby filtroval spojenia na jednu z ",
+        "navrhy": [
+          "neostať",
+          "nestať",
+          "nestáť"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iNet",
+        "kontext": "tup.\n\n## Aktualizácia nemusí stačiť\n\nGL.iNet zákazníkom odporúča skontrolovať zariad",
+        "navrhy": [
+          "Minet",
+          "hneť",
+          "inej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "najnovší",
+        "kontext": " skontrolovať zariadenia a nainštalovať najnovší bezpečnostný firmvér. Pre modely KVM RM",
+        "navrhy": [
+          "nový"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (najnovší) \"nový\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "firmvér",
+        "kontext": "ia a nainštalovať najnovší bezpečnostný firmvér. Pre modely KVM RM10, RM1, RM1V2, RM1PE",
+        "navrhy": [
+          "firme"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "routerov",
+        "kontext": "Q1 verziu 1.8.7 alebo novšiu. Majitelia routerov majú použiť najnovší bezpečnostný firmv",
+        "navrhy": [
+          "montérov",
+          "oterov",
+          "posterov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "najnovší",
+        "kontext": " novšiu. Majitelia routerov majú použiť najnovší bezpečnostný firmvér určený pre konkrét",
+        "navrhy": [
+          "nový"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (najnovší) \"nový\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "firmvér",
+        "kontext": "terov majú použiť najnovší bezpečnostný firmvér určený pre konkrétny model.\n\nFirma vo s",
+        "navrhy": [
+          "firme"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "firmvér",
+        "kontext": " niektorých prípadoch môže byť potrebné firmvér preinštalovať bez obnovenia pôvodných n",
+        "navrhy": [
+          "firme"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "preinštalovať",
+        "kontext": "ých prípadoch môže byť potrebné firmvér preinštalovať bez obnovenia pôvodných nastavení, pret",
+        "navrhy": [
+          "pre inštalovať"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "resetovaním",
+        "kontext": "gurácii prežiť bežnú aktualizáciu. Pred resetovaním sa odporúča zachovať dôkazy, neobnovova",
+        "navrhy": [
+          "cestovaním",
+          "pestovaním",
+          "prešetrovaním"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/GL-iNet_AR150_ports.jpg/1280px-GL-iNet_AR150_ports.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://www.bleepstatic.com/content/hl-images/2026/11/22/routers-kvms.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.bleepstatic.com/images/news/security/attacks/g/GL.iNet/gl-chinese-language.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "Chinese-language comments in the ni.sh malware script",
+        "popisok": "Chinese-language comments in the ni.sh malware script Source: BleepingComputer",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "GL.iNet router",
+      "wireless router",
+      "router hardware"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/GL-iNet_AR150_ports.jpg/1280px-GL-iNet_AR150_ports.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/GL-iNet_AR150_ports.jpg/1280px-GL-iNet_AR150_ports.jpg",
+        "nazov": "GL-iNet AR150 ports.jpg",
+        "autor": "L3u",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:GL-iNet_AR150_ports.jpg",
+        "povod": "wikimedia",
+        "dopyt": "GL.iNet router"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/54496368959_eb1e945133_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/4d6a4af7-9607-4897-ba7e-95a70be1bb9c/thumb/",
+        "nazov": "GL.iNet AC1200",
+        "autor": "en4rab",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/99032591@N05/54496368959",
+        "povod": "openverse",
+        "dopyt": "GL.iNet router"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Wi-fi_router_in_North_York_Centre_station.jpg/1280px-Wi-fi_router_in_North_York_Centre_station.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Wi-fi_router_in_North_York_Centre_station.jpg/1280px-Wi-fi_router_in_North_York_Centre_station.jpg",
+        "nazov": "Wi-fi router in North York Centre station.jpg",
+        "autor": "Al12si",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Wi-fi_router_in_North_York_Centre_station.jpg",
+        "povod": "wikimedia",
+        "dopyt": "wireless router"
+      },
+      {
+        "url": "https://live.staticflickr.com/7308/9736658840_61414bc1cb_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/e55c20a8-0ea4-41a6-bb6f-dfcd3e930e0d/thumb/",
+        "nazov": "wireless router",
+        "autor": "Sean MacEntee",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/18090920@N07/9736658840",
+        "povod": "openverse",
+        "dopyt": "wireless router"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/ADSL_router_with_Wi-Fi_%28802.11_b-g%29.jpg/1280px-ADSL_router_with_Wi-Fi_%28802.11_b-g%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/ADSL_router_with_Wi-Fi_%28802.11_b-g%29.jpg/1280px-ADSL_router_with_Wi-Fi_%28802.11_b-g%29.jpg",
+        "nazov": "ADSL router with Wi-Fi (802.11 b-g).jpg",
+        "autor": "Asim18",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:ADSL_router_with_Wi-Fi_(802.11_b-g).jpg",
+        "povod": "wikimedia",
+        "dopyt": "router hardware"
+      },
+      {
+        "url": "https://live.staticflickr.com/195/440149080_0e4e0a5d2c_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/e4ee3ea1-3659-45d0-96ea-86432056aff4/thumb/",
+        "nazov": "Inside a broadband router (detail)",
+        "autor": "jepoirrier",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/57519914@N00/440149080",
+        "povod": "openverse",
+        "dopyt": "router hardware"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/GL-iNet_Travel_Router_and_Wyze_Camera_-_Hotel_Room_Security.jpg/1280px-GL-iNet_Travel_Router_and_Wyze_Camera_-_Hotel_Room_Security.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/GL-iNet_Travel_Router_and_Wyze_Camera_-_Hotel_Room_Security.jpg/1280px-GL-iNet_Travel_Router_and_Wyze_Camera_-_Hotel_Room_Security.jpg",
+        "nazov": "GL-iNet Travel Router and Wyze Camera - Hotel Room Security.jpg",
+        "autor": "Tony Webster",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:GL-iNet_Travel_Router_and_Wyze_Camera_-_Hotel_Room_Security.jpg",
+        "povod": "wikimedia",
+        "dopyt": "GL.iNet router"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/52859525964_207cdc985c_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/48a2faa1-7f11-40c0-aca5-0524993eadff/thumb/",
+        "nazov": "IMG_20230424_095941",
+        "autor": "penyuan",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/22263171@N00/52859525964",
+        "povod": "openverse",
+        "dopyt": "GL.iNet router"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic cybersecurity illustration of a small router and KVM device surrounded by a fractured cloud connection and abstract warning signals, using a restrained dark palette, with no text, logos, or recognizable people."
+  },
+  "prompt_ilustracie": "Create a symbolic cybersecurity illustration of a small router and KVM device surrounded by a fractured cloud connection and abstract warning signals, using a restrained dark palette, with no text, logos, or recognizable people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/d033614475dc0069b3ab57e4e303ec4a",
+  "text_agentov": {
+    "titulok": "Útočníci zneužili chybu v cloude GL.iNet na napadnutie routerov a zariadení KVM",
+    "perex": "Výrobca opravil cestu, ktorou útočníci prenikali do zariadení cez službu GoodCloud, no už nainštalovaný malvér tým neodstránil. Rozsah napadnutia zatiaľ nevyčíslil.",
+    "telo": "Spoločnosť GL.iNet potvrdila, že útočníci zneužili chybu v jej cloudových službách na vzdialenú správu a do niektorých routerov a zariadení KVM nainštalovali malvér. Firma tvrdí, že napadnutú cestu zablokovala a chybu opravila. Oprava však neodstráni škodlivý softvér zo zariadení, ktoré už boli napadnuté.\n\nZariadenia KVM umožňujú vzdialený prístup k počítačom a ich ovládanie. Služba GoodCloud slúži na ich správu aj na správu podporovaných routerov. Ako uvádza BleepingComputer, GL.iNet zatiaľ nezverejnil, ako presne útočníci chybu využili, koľko zákazníkov zasiahli ani či z napadnutých zariadení odcudzili údaje. Firma skúma aj možnosť, že útočníci prenikli do počítačov pripojených k zariadeniam KVM.\n\n## Na zariadeniach našli zadné vrátka aj vzdialené príkazy\n\nZákazníci a bezpečnostní výskumníci po zverejnení incidentu hlásili malvér vytvorený pre zariadenia GL.iNet aj reverzné shelly s oprávneniami root. Tie umožňovali vzdialené vykonávanie príkazov a pripájali napadnuté routery na adresu 170.39.226[.]219.\n\nVýskumníci z RemoteToHome Consulting analyzovali 183 routerov, ktoré vlastnia alebo spravujú. Podozrivú aktivitu zaznamenali na 152 z nich: 24 malo reverzné shelly s oprávneniami root, 47 staršie pretrvávajúce zadné vrátka a na 81 zariadeniach našli známky vykonania príkazov dodaných útočníkom. Výskumníci upozornili, že ich vzorka nemusí zodpovedať situácii u ostatných zákazníkov a staršie zadné vrátka nemusia súvisieť s novembrovým útokom.\n\nTím zároveň opísal možnú chybu v klientovi GoodCloud: handler pre funkcie AstroWarp a SD-WAN podľa neho odovzdával hodnoty z cloudu do shellových príkazov spúšťaných s oprávneniami root bez dostatočnej kontroly. GL.iNet však nepotvrdil, že práve táto chyba bola pri útoku zneužitá.\n\n## Malvér sa snažil zostať skrytý\n\nMajiteľ napadnutého zariadenia GL-RM1 KVM zverejnil záznamy, podľa ktorých zariadenie 19. novembra stiahlo škodlivý skript ni.sh a ďalšie súbory z adresy 66.245.219[.]252. Následne komunikovalo približne s 1 800 rezidenčnými IP adresami denne a opakovane kontaktovalo rozhranie blockchainu TRON. Účel tejto komunikácie nie je známy; nie je potvrdené, že zariadenia slúžili ako rezidenčné proxy alebo súčasť botnetu.\n\nAnalýza skriptu ni.sh podľa BleepingComputer ukázala, že rozpoznáva viacero modelov GL.iNet, sťahuje programy gl-helper a gb a nastavuje ich automatické spúšťanie. Dokázal sa tiež maskovať ako proces `crond -i /tmp/.log`, ktorý GL.iNet uviedol ako jeden z indikátorov napadnutia. Skript upravoval nástroj netstat tak, aby filtroval spojenia na jednu z útočníckych adries, a mohol inštalovať SSH kľúče na vzdialený prístup.\n\n## Aktualizácia nemusí stačiť\n\nGL.iNet zákazníkom odporúča skontrolovať zariadenia a nainštalovať najnovší bezpečnostný firmvér. Pre modely KVM RM10, RM1, RM1V2, RM1PE a RM4PE uviedol verziu 1.10.3 alebo novšiu; pre RM10RC verziu 1.10.3 beta alebo novšiu a pre RMQ1 verziu 1.8.7 alebo novšiu. Majitelia routerov majú použiť najnovší bezpečnostný firmvér určený pre konkrétny model.\n\nFirma vo svojich pokynoch odkazuje aj na komunitný nástroj na kontrolu a čistenie. Ten hľadá známe škodlivé súbory, podozrivé procesy a zmeny v konfigurácii, ale jeho autori upozorňujú, že nezachytí každú infekciu. V niektorých prípadoch môže byť potrebné firmvér preinštalovať bez obnovenia pôvodných nastavení, pretože škodlivé súbory môžu v konfigurácii prežiť bežnú aktualizáciu. Pred resetovaním sa odporúča zachovať dôkazy, neobnovovať potenciálne napadnutú konfiguráciu a zmeniť heslá aj prístupové kľúče. Pri KVM treba preveriť aj pripojené počítače."
+  }
+}
