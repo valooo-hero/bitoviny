@@ -1,0 +1,522 @@
+{
+  "slug": "anthropic-spusta-claude-ship-na-kontrolu-a-schvalovanie-zmien-v-kode",
+  "datum_sprav": "2026-11-23",
+  "dovod_vyberu": "Nová funkcia Claude Ship od Anthropic rozširuje možnosti AI agentov v vývojárskych procesoch.",
+  "poznamky_pre_editora": "Vypustená posledná veta o tom, že vývojári na Slovensku si majú overiť dostupnosť služby: zdroje nepodkladajú tvrdenie o dostupnosti na Slovensku ani odporúčanie na overenie.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojoch. Najvážnejším problémom je len drobné zjednodušenie pri opise Code Review, ktoré však neovplyvňuje celkovú správnosť.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 25,
+        "potvrdenych": 24,
+        "chyb": 1,
+        "upozorneni": 1
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 21,
+        "potvrdenych": 21,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Anthropic predstavil Claude Ship, sadu AI agentov, ktorá má automatizovať kontrolu, opravy aj schvaľovanie zmien v kóde.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Anthropic is moving from having Claude write code to helping developers decide when that code is ready to ship. On Monday, the newly public AI company announced the launch of Claude Ship, a suite of AI agents for automating code reviews, fixes, and approvals of routine code changes.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Kým viaceré nástroje už dokážu navrhovaný kód kontrolovať, novinkou je možnosť zveriť agentovi aj rozhodnutie, či konkrétna zmena spĺňa pravidlá tímu a môže pokračovať k zlúčeniu do projektu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "What’s notable about Claude Ship is not just that it can review proposed code changes and identify and address problems, but that it also includes an agent that can approve code changes automatically based on policies set by a development team.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako uvádza TechCrunch, Anthropic ponúka Claude Ship v beta verzii pre tímy používajúce plány Claude Team a Enterprise a repozitáre na GitHube.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Claude Ship is rolling out to Claude Team and Enterprise plans for repositories on GitHub. Code Review is generally available, while PR Steward and Claude Approvals are in beta.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Samotný Code Review je už všeobecne dostupný; PR Steward a Claude Approvals zostávajú v beta verzii.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Code Review is generally available, while PR Steward and Claude Approvals are in beta.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Claude Ship tvoria tri nástroje: Code Review, PR Steward a Claude Approvals.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Claude Ship is comprised of three agents: Code Review, PR Steward, and Claude Approvals.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločne majú pokrývať viac krokov práce s pull requestom, teda návrhom na začlenenie zmien do kódu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Together, they take a pull request through review, fixes, and an approval decision so teams don’t have to manage each step manually.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Anthropic podľa 9to5Mac tvrdí, že cieľom je obmedziť potrebu manuálne riadiť každý krok tohto procesu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Together, they take a pull request through review, fixes, and an approval decision so teams don’t have to manage each step manually.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Code Review kontroluje navrhované zmeny a hľadá v nich problémy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The new offering consists of Code Review, which is already generally available, and two new agents now in beta: PR Steward and Claude Approvals.",
+        "komentar": "TechCrunch opisuje Code Review ako súčasť ponuky, ale priamo nehovorí, že kontroluje zmeny a hľadá problémy; to je implicitné z kontextu.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "PR Steward sa zameriava na ich následné riešenie: môže reagovať na neúspešné kontroly CI, konflikty pri zlučovaní kódu aj pripomienky od Code Review.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "PR Steward focuses on addressing issues such as failing CI checks, merge conflicts, and feedback from Code Review.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Po každom nahratí novej verzie má zanechať komentár s opisom vykonaných úprav a návodom, ako ich v prípade potreby vrátiť späť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "It also comments after every push on what it changed and how to roll it back, if needed.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Najvýraznejšou súčasťou novinky je Claude Approvals.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The latter is the more interesting part of this new set of tools, as AI coding tools already offered code review features before now.",
+        "komentar": "TechCrunch označuje Claude Approvals za zaujímavejšiu časť, čo zodpovedá 'najvýraznejšou súčasťou'.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tím mu môže zadať schvaľovacie pravidlá v súbore uloženom priamo v repozitári.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Claude Approvals then applies an approval policy that the team writes as a file in the repository.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa TechCrunch môžu byť napísané prirodzeným jazykom a zohľadňovať napríklad zistenia Code Review či vlastné klasifikátory firmy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "This approval process can incorporate various signals, including Code Review findings or the company’s own classifiers, with policies written in natural language.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Automatické schválenie teda nemá byť bezpodmienečné: agent posudzuje zmeny podľa pravidiel nastavených tímom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Claude Approvals then applies an approval policy that the team writes as a file in the repository.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Anthropic zároveň uvádza, že ľudia si ponechajú kontrolu nad tým, kde sa Claude Ship spúšťa, aký režim kontroly sa používa a ktoré zmeny musí posúdiť človek.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Anthropic says teams will also still remain in control of where Claude Ship runs, which review settings to use (e.g., Quick, Standard, or Deep), and which changes should be escalated to a human for a decision.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dostupné režimy kontroly sú Quick, Standard a Deep.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "which review settings to use (e.g., Quick, Standard, or Deep)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Keďže schvaľovanie agentom je stále v beta verzii, Anthropic odporúča najskôr používať režim, v ktorom systém rozhodnutia iba zaznamenáva a nemení stav návrhov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Because the offering is still in beta, Anthropic suggests running the approval functionality in observe-only mode first.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tímy môžu začať aj s jediným repozitárom a nastaviť mesačné limity výdavkov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Teams can also choose to start with just one repository and set monthly spending limits to have more control over the process.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa TechCrunch nástroj reaguje na situáciu, keď AI agenti dokážu vytvárať čoraz viac kódu, no jeho kontrola a schvaľovanie môžu vývoj spomaľovať.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The launch arrives at a time when AI coding agents have become increasingly capable of generating substantial amounts of code, leading to bottlenecks in reviewing and approving the code changes before they go live.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Claude Ship má automatizovať aj časť práce po vytvorení kódu, pričom rozhodnutie o tom, ktoré zmeny potrebujú ľudský dohľad, zostáva na tíme.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "With Claude Ship, the idea is to automate even more of the work involved in the development process, essentially by delegating approval authority to an AI agent itself.",
+        "komentar": "TechCrunch hovorí o delegovaní schvaľovania na agenta, ale aj o tom, že tímy zostávajú v kontrole, čo podporuje tvrdenie.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "9to5Mac uvádza, že vývojári môžu Claude Ship skúsiť na vlastných pull requestoch pomocou príkazu `/ship` v Claude Code.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Developers can try Claude Ship on their own pull requests with the new /ship command in Claude Code.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "Anthropic predstavil Claude Ship, sadu AI agentov, ktorá má automatizovať",
+        "opravene": "Anthropic predstavil Claude Ship, sadu AI agentov, ktorá má automatizovať",
+        "dovod": "Žiadna zmena – text je správny.",
+        "stav": "zamietnuta",
+        "poznamka": "úprava nič nemení",
+        "zdroj": "deepseek-ai/DeepSeek-V4-Flash-0731 (deepinfra)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "a ktoré zmeny",
+        "opravene": "a, ktoré zmeny",
+        "dovod": "LanguageTool: Dajte čiarku pred „ktorý“: \", ktoré\".",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "LanguageTool"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "\nAko",
+        "kontext": "môže pokračovať k zlúčeniu do projektu.\n\nAko uvádza TechCrunch, Anthropic ponúka Cla",
+        "navrhy": [
+          ", Ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", Ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "repozitáre",
+        "kontext": "vajúce plány Claude Team a Enterprise a repozitáre na GitHube. Samotný Code Review je už v",
+        "navrhy": [
+          "depozitáre"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "pull",
+        "kontext": "ločne majú pokrývať viac krokov práce s pull requestom, teda návrhom na začlenenie z",
+        "navrhy": [
+          "mull",
+          "publ",
+          "pula"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "requestom",
+        "kontext": " majú pokrývať viac krokov práce s pull requestom, teda návrhom na začlenenie zmien do kó",
+        "navrhy": [
+          "regestom"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "repozitári",
+        "kontext": "cie pravidlá v súbore uloženom priamo v repozitári. Podľa TechCrunch môžu byť napísané pri",
+        "navrhy": [
+          "depozitári"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "klasifikátory",
+        "kontext": "príklad zistenia Code Review či vlastné klasifikátory firmy.\n\nAutomatické schválenie teda nem",
+        "navrhy": [
+          "klasifikátor",
+          "klasifikátor y"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "repozitárom",
+        "kontext": "v návrhov. Tímy môžu začať aj s jediným repozitárom a nastaviť mesačné limity výdavkov.\n\nPo",
+        "navrhy": [
+          "depozitárom"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "pull",
+        "kontext": "ri môžu Claude Ship skúsiť na vlastných pull requestoch pomocou príkazu `/ship` v Cl",
+        "navrhy": [
+          "mull",
+          "publ",
+          "pula"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "requestoch",
+        "kontext": "žu Claude Ship skúsiť na vlastných pull requestoch pomocou príkazu `/ship` v Claude Code.",
+        "navrhy": [
+          "regestoch"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "ship",
+        "kontext": "tných pull requestoch pomocou príkazu `/ship` v Claude Code.",
+        "navrhy": [
+          "HIP",
+          "Skip",
+          "chip"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -19 +19 @@\n-Automatické schválenie teda nemá byť bezpodmienečné: agent posudzuje zmeny podľa pravidiel nastavených tímom. Anthropic zároveň uvádza, že ľudia si ponechajú kontrolu nad tým, kde sa Claude Ship spúšťa, aký režim kontroly sa používa a ktoré zmeny musí posúdiť človek. Dostupné režimy kontroly sú Quick, Standard a Deep.\n+Automatické schválenie teda nemá byť bezpodmienečné: agent posudzuje zmeny podľa pravidiel nastavených tímom. Anthropic zároveň uvádza, že ľudia si ponechajú kontrolu nad tým, kde sa Claude Ship spúšťa, aký režim kontroly sa používa a, ktoré zmeny musí posúdiť človek. Dostupné režimy kontroly sú Quick, Standard a Deep."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Rational_R1000_Development_System.jpg/1280px-Rational_R1000_Development_System.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/07/claude.webp?w=800",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/af01c840dac8281fd5f1986a8504e54222700437fa19c3083e578c1ddf6386a6?s=96&d=mm&r=r",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Zac Hall",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/16d23d1acf41600294bf8b07d8b50f14f44415d88f76bf0ab725ad5405e748ca?s=96&d=identicon&r=g",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Sarah Perez",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2295579000.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "LONDON, ENGLAND - SEPTEMBER 16: In this photo illustration, the icon for the AI app \"Claude\" by Anthropic is seen through running water as it is displayed on a digital screen on September 16, 2026 in London, England. (Photo by Leon Neal/Getty Images)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/11/2claude-ship.png?w=680",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Image Credits: Anthropic",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: s: Anthropic."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/11/1claude-ship.png?w=680",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Image Credits: Anthropic",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: s: Anthropic."
+      }
+    ],
+    "dopyty": [
+      "software development workstation",
+      "server rack",
+      "code review meeting"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Rational_R1000_Development_System.jpg/1280px-Rational_R1000_Development_System.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Rational_R1000_Development_System.jpg/1280px-Rational_R1000_Development_System.jpg",
+        "nazov": "Rational R1000 Development System.jpg",
+        "autor": "Provided by Grady Booch https://twitter.com/Grady_Booch/status/1167324163255623680",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Rational_R1000_Development_System.jpg",
+        "povod": "wikimedia",
+        "dopyt": "software development workstation"
+      },
+      {
+        "url": "https://live.staticflickr.com/2313/2196777606_f87c6cd395.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/0ee70972-15ed-4b05-8e7c-4293fbf5deb8/thumb/",
+        "nazov": "Funky closed offices and workstations",
+        "autor": "Campaign Monitor",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/14672697@N00/2196777606",
+        "povod": "openverse",
+        "dopyt": "software development workstation"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Wikimedia_Code_Review_Meeting.jpg/1280px-Wikimedia_Code_Review_Meeting.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Wikimedia_Code_Review_Meeting.jpg/1280px-Wikimedia_Code_Review_Meeting.jpg",
+        "nazov": "Wikimedia Code Review Meeting.jpg",
+        "autor": "Matthew (WMF)",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Wikimedia_Code_Review_Meeting.jpg",
+        "povod": "wikimedia",
+        "dopyt": "code review meeting"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Wikimedia_Code_Review_Meeting.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/eb1c4bc0-fa9d-4b33-81fb-7e14410b24e9/thumb/",
+        "nazov": "Wikimedia Code Review Meeting",
+        "autor": "Matthew (WMF)",
+        "licencia": "BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=15846594",
+        "povod": "openverse",
+        "dopyt": "code review meeting"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Photo_of_the_Week-_70s_Supercomputer_Style_%288971052970%29.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/9/99/Photo_of_the_Week-_70s_Supercomputer_Style_%288971052970%29.jpg",
+        "nazov": "Photo of the Week- 70s Supercomputer Style (8971052970).jpg",
+        "autor": "ENERGY.GOV",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Photo_of_the_Week-_70s_Supercomputer_Style_(8971052970).jpg",
+        "povod": "wikimedia",
+        "dopyt": "software development workstation"
+      },
+      {
+        "url": "https://live.staticflickr.com/5456/7160997546_dfa6fe7273_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/6a567c68-2dba-4ade-b5c1-de48d8d06a12/thumb/",
+        "nazov": "Electronic Bible publishing station",
+        "autor": "kahunapulej",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/94937042@N00/7160997546",
+        "povod": "openverse",
+        "dopyt": "software development workstation"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic illustration of an AI assistant reviewing a software pull request on a screen, with abstract code lines and a human hand retaining final oversight, editorial style, not photorealistic."
+  },
+  "prompt_ilustracie": "A symbolic illustration of an AI assistant reviewing a software pull request on a screen, with abstract code lines and a human hand retaining final oversight, editorial style, not photorealistic.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/8746c069c9da4e0ec77a13c019c6cdca",
+  "text_agentov": {
+    "titulok": "Anthropic spúšťa Claude Ship na kontrolu a schvaľovanie zmien v kóde",
+    "perex": "Nová sada agentov dokáže kontrolovať návrhy zmien, opravovať problémy a schváliť tie, ktoré spĺňajú pravidlá tímu. Funkcia automatického schvaľovania je zatiaľ v beta verzii.",
+    "telo": "Anthropic predstavil Claude Ship, sadu AI agentov, ktorá má automatizovať kontrolu, opravy aj schvaľovanie zmien v kóde. Kým viaceré nástroje už dokážu navrhovaný kód kontrolovať, novinkou je možnosť zveriť agentovi aj rozhodnutie, či konkrétna zmena spĺňa pravidlá tímu a môže pokračovať k zlúčeniu do projektu.\n\nAko uvádza TechCrunch, Anthropic ponúka Claude Ship v beta verzii pre tímy používajúce plány Claude Team a Enterprise a repozitáre na GitHube. Samotný Code Review je už všeobecne dostupný; PR Steward a Claude Approvals zostávajú v beta verzii.\n\n## Od kontroly k schváleniu\n\nClaude Ship tvoria tri nástroje: Code Review, PR Steward a Claude Approvals. Spoločne majú pokrývať viac krokov práce s pull requestom, teda návrhom na začlenenie zmien do kódu. Anthropic podľa 9to5Mac tvrdí, že cieľom je obmedziť potrebu manuálne riadiť každý krok tohto procesu.\n\nCode Review kontroluje navrhované zmeny a hľadá v nich problémy. PR Steward sa zameriava na ich následné riešenie: môže reagovať na neúspešné kontroly CI, konflikty pri zlučovaní kódu aj pripomienky od Code Review. Po každom nahratí novej verzie má zanechať komentár s opisom vykonaných úprav a návodom, ako ich v prípade potreby vrátiť späť.\n\n## Pravidlá určuje vývojový tím\n\nNajvýraznejšou súčasťou novinky je Claude Approvals. Tím mu môže zadať schvaľovacie pravidlá v súbore uloženom priamo v repozitári. Podľa TechCrunch môžu byť napísané prirodzeným jazykom a zohľadňovať napríklad zistenia Code Review či vlastné klasifikátory firmy.\n\nAutomatické schválenie teda nemá byť bezpodmienečné: agent posudzuje zmeny podľa pravidiel nastavených tímom. Anthropic zároveň uvádza, že ľudia si ponechajú kontrolu nad tým, kde sa Claude Ship spúšťa, aký režim kontroly sa používa a, ktoré zmeny musí posúdiť človek. Dostupné režimy kontroly sú Quick, Standard a Deep.\n\n## Opatrný štart v beta verzii\n\nKeďže schvaľovanie agentom je stále v beta verzii, Anthropic odporúča najskôr používať režim, v ktorom systém rozhodnutia iba zaznamenáva a nemení stav návrhov. Tímy môžu začať aj s jediným repozitárom a nastaviť mesačné limity výdavkov.\n\nPodľa TechCrunch nástroj reaguje na situáciu, keď AI agenti dokážu vytvárať čoraz viac kódu, no jeho kontrola a schvaľovanie môžu vývoj spomaľovať. Claude Ship má automatizovať aj časť práce po vytvorení kódu, pričom rozhodnutie o tom, ktoré zmeny potrebujú ľudský dohľad, zostáva na tíme.\n\n9to5Mac uvádza, že vývojári môžu Claude Ship skúsiť na vlastných pull requestoch pomocou príkazu `/ship` v Claude Code."
+  }
+}
