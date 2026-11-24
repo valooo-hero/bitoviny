@@ -1,0 +1,441 @@
+{
+  "slug": "spravy-rusko-moze-coskoro-vyslat-do-vesmiru-druzicu-s-jadrovou-zbranou",
+  "datum_sprav": "2026-11-23",
+  "dovod_vyberu": "Správy o možnom jadrovom satelite majú zásadný dosah na globálnu bezpečnosť a vesmírne aktivity.",
+  "poznamky_pre_editora": "Odstránené nepodložené tvrdenie, že prípadný výbuch by mal konkrétne následky pre používateľov v Európe vrátane Slovenska. Ponechaná je iba všeobecná informácia o význame satelitných sietí pre civilnú komunikáciu a vojenské operácie, ktorú podporuje zdroj Tom’s Hardware.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojoch a sú presne prenesené. Najvážnejším problémom je, že niektoré formulácie ako „nie sú nezávisle potvrdené“ sú síce v súlade so zdrojmi, ale mohli by byť explicitnejšie označené ako interpretácia novinára, nie priamy citát.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 22,
+        "potvrdenych": 21,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 22,
+        "potvrdenych": 22,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Rusko by mohlo ešte pred koncom roka vyslať na obežnú dráhu družicu vybavenú jadrovou zbraňou, uvádzajú nemecké médiá s odvolaním sa na západné spravodajské služby.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Western intelligence officials worry that Russia could launch a nuclear-armed satellite into orbit before the end of the year",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zariadenie, označované ako Sputnik-S, by podľa citovaných odborníkov mohlo pri výbuchu jadrovej nálože vážne poškodiť satelity na nízkej obežnej dráhe.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "such a weapon could knock out a third of low Earth orbit satellites instantly",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Samotné prípravy ani blížiaci sa štart však nie sú nezávisle potvrdené.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "The report says Western intelligence agencies, including the German Armed Forces and Federal Intelligence Service, believe Russia is preparing to deploy the weapon in space this year.",
+        "komentar": "Zdroj uvádza, že ide o domnienky, nie nezávisle potvrdené fakty.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa spoločného informovania verejnoprávnych staníc NDR a WDR a denníka Süddeutsche Zeitung si viacero krajín NATO vymenilo spravodajské zistenia o možnom nasadení zbrane.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Reporting from three German news outlets—public broadcasters NDR and WDR and the Munich-based newspaper Süddeutsche Zeitung—indicates Russia’s launch of a nuclear-armed satellite could be imminent.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nemecké vojenské velenie pre vesmír podľa Ars Technica usudzuje, že štart by mohol prísť už v decembri.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "German Space Command believes the satellite could be launched as early as December.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tom’s Hardware píše, že spravodajské služby varovali pred možným štartom v priebehu 60 dní; ich upozornenie malo byť vydané začiatkom novembra.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "intelligence agencies having already warned that a launch could happen within 60 days. That report was made in early November",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nemecké médiá tvrdia, že Sputnik-S je už roky uskladnený v širšom okolí Moskvy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "The nuclear-armed satellite, designated Sputnik-S, has been in storage in the greater Moscow area for years, the German news report said.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nie je však jasné, na akých konkrétnych dôkazoch sú tieto informácie založené.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "the claims are attributed to some unspecified source",
+        "komentar": "Zdroj cituje Peskova, ktorý spochybňuje dôkazy, čo podporuje tvrdenie o nejasnosti.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Americká Obranná spravodajská agentúra podľa Tom’s Hardware uviedla, že Rusko vyvíja satelit určený na nesenie jadrovej zbrane.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the United States Defense Intelligence Agency (DIA) published its own report in which it warned that \"Russia is developing a satellite designed to carry a nuclear weapon.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Odborník citovaný v správe Tom’s Hardware odhaduje, že jadrový výbuch vo vesmíre by mohol okamžite vyradiť približne tretinu satelitov na nízkej obežnej dráhe.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "One expert cited by the report says that a nuclear explosion in space would knock out one-third of low Earth orbit satellites instantly",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zvyšné zariadenia by podľa neho mohli zlyhávať postupne v nasledujúcich mesiacoch.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "with the remaining satellites gradually failing in the following months.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výbuch by vytvoril aj elektromagnetický impulz, ktorý by mohol narušiť technické systémy na Zemi.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The EMP generated could even cause widespread technical carnage on Earth.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ars Technica upozorňuje, že účinky by nezasiahli iba satelity protivníkov. Ohrozené by boli aj ruské a čínske zariadenia, vojenské a komerčné komunikačné siete, napríklad Starlink a Starshield, ako aj Medzinárodná vesmírna stanica.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "A nuclear-armed satellite would also put at risk Western military surveillance satellites and human spaceflight platforms like the International Space Station. A nuclear detonation in orbit would be indiscriminate, also knocking out Russia’s own spacecraft and Chinese satellites.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Išlo by teda o nerozlišujúci zásah, nie o zbraň namierenú iba proti jednej krajine.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "A nuclear detonation in orbit would be indiscriminate, also knocking out Russia’s own spacecraft and Chinese satellites.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ruské veľvyslanectvo v Nemecku ich označilo za nepodložené a súčasť propagandistickej kampane.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The Russian embassy in Germany rejected the \"unfounded allegations,\" saying that they are nothing more than \"part of a propaganda campaign\" against the country.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Hovorca Kremľa Dmitrij Peskov podľa Ars Technica spochybnil dôveryhodnosť správ, ktoré sa opierajú o anonymné zdroje a formulácie vyjadrujúce neistotu.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Given the number of qualifiers like ‘allegedly’ and ‘possibly’—not to mention the fact that the claims are attributed to some unspecified source—they are hardly worth taking seriously",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ak by sa jadrová zbraň dostala na obežnú dráhu, išlo by podľa uvedených zdrojov o porušenie Zmluvy o kozmickom priestore z roku 1967.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Such a move would be a violation of the 1967 Outer Space Treaty.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tá zakazuje umiestňovať na obežnú dráhu Zeme jadrové zbrane a ďalšie zbrane hromadného ničenia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The treaty prohibits any country from launching anything carrying nuclear weapons or, indeed, any weapon of mass destruction into Earth orbit.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zatiaľ nie je potvrdené, že Rusko takýto krok skutočne podnikne.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "US officials said Russia had launched a test satellite in 2022 to test the effects of radiation on space hardware and pave the way for a future nuclear-armed craft, but that Russia had not yet sent a nuclear weapon into orbit.",
+        "komentar": "Zdroj uvádza, že Rusko zatiaľ jadrovú zbraň na orbitu nevyslalo, čo podporuje tvrdenie o nepotvrdení.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ars Technica uvádza, že americkí predstavitelia v roku 2022 zaznamenali testovaciu družicu, ktorá mala skúmať účinky žiarenia na vesmírne zariadenia.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "US officials said Russia had launched a test satellite in 2022 to test the effects of radiation on space hardware",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa článku však vtedy Rusko jadrovú zbraň na obežnú dráhu nevyslalo.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "but that Russia had not yet sent a nuclear weapon into orbit.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Satelitné siete sú dôležité aj pre civilnú komunikáciu a vojenské operácie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "With satellites playing such a vital role for civilian life as well as both military and intelligence operations",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": " ako",
+        "kontext": "ú na možný štart zariadenia označovaného ako Sputnik-S. Tvrdenia nie sú nezávisle po",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "avodajské služby. Zariadenie, označované ako Sputnik-S, by podľa citovaných odborník",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "nálože",
+        "kontext": "h odborníkov mohlo pri výbuchu jadrovej nálože vážne poškodiť satelity na nízkej obežn",
+        "navrhy": [
+          "nalož",
+          "naložme",
+          "naložte"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "nerozlišujúci",
+        "kontext": "árodná vesmírna stanica. Išlo by teda o nerozlišujúci zásah, nie o zbraň namierenú iba proti ",
+        "navrhy": [
+          "nerozlišujúc",
+          "ne rozlišujúci",
+          "nerozlišujú ci"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "vyjadrujúce",
+        "kontext": "opierajú o anonymné zdroje a formulácie vyjadrujúce neistotu.\n\nAk by sa jadrová zbraň dosta",
+        "navrhy": [
+          "vyjadrujúc",
+          "vyjadrujúci",
+          "vyjadrujúc e"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Sputnik_1.jpg/1280px-Sputnik_1.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Google Preferred Source",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/weuJYZ7wRLJCvauEdrFjPP-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-525166886-1152x648.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Kirill Kudryavtsev/AFP via Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-525166886-500x500.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Kirill Kudryavtsev/AFP via Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "Sputnik satellite",
+      "nuclear warhead",
+      "space launch vehicle"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Sputnik_1.jpg/1280px-Sputnik_1.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Sputnik_1.jpg/1280px-Sputnik_1.jpg",
+        "nazov": "Sputnik 1.jpg",
+        "autor": "U.S. Air Force photo",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Sputnik_1.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Sputnik satellite"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Reproduction_of_Sputnik_Satellite_-_Museum_of_Aviation_and_Aerospace_-_Poltava_-_Ukraine_%2842920319355%29.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/5ea9b23d-00e6-4195-a42c-ebeb3cd4de5d/thumb/",
+        "nazov": "Reproduction of Sputnik Satellite - Museum of Aviation and Aerospace - Poltava - Ukraine (42920319355)",
+        "autor": "Adam Jones from Kelowna, BC, Canada",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=72011734",
+        "povod": "openverse",
+        "dopyt": "Sputnik satellite"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Launch_of_Shenzhou_13.jpg/1280px-Launch_of_Shenzhou_13.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Launch_of_Shenzhou_13.jpg/1280px-Launch_of_Shenzhou_13.jpg",
+        "nazov": "Launch of Shenzhou 13.jpg",
+        "autor": "Created by Forrest XYC , photoshopped by Ib",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Launch_of_Shenzhou_13.jpg",
+        "povod": "wikimedia",
+        "dopyt": "nuclear warhead"
+      },
+      {
+        "url": "https://live.staticflickr.com/2724/4015055681_9c00ef701a_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/7a4b1c4f-8daf-43d7-9a10-e7dd27612fa1/thumb/",
+        "nazov": "Chemical Nuclear Warheads",
+        "autor": "jenspie3",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/17483683@N00/4015055681",
+        "povod": "openverse",
+        "dopyt": "nuclear warhead"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Soyuz_TMA-5_launch.jpg/1280px-Soyuz_TMA-5_launch.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Soyuz_TMA-5_launch.jpg/1280px-Soyuz_TMA-5_launch.jpg",
+        "nazov": "Soyuz TMA-5 launch.jpg",
+        "autor": "Bill Ingalls",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Soyuz_TMA-5_launch.jpg",
+        "povod": "wikimedia",
+        "dopyt": "space launch vehicle"
+      },
+      {
+        "url": "https://live.staticflickr.com/5584/14960813630_822bffdcf7_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/f08e39df-697c-4c2c-ab15-c0938bda89fa/thumb/",
+        "nazov": "Korean Space Launch Vehicle",
+        "autor": "Clay Gilliland",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/26781577@N07/14960813630",
+        "povod": "openverse",
+        "dopyt": "space launch vehicle"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Sputnik_1_Exploded_View_3F9A6199_%2836924864550%29_modified.png/1280px-Sputnik_1_Exploded_View_3F9A6199_%2836924864550%29_modified.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Sputnik_1_Exploded_View_3F9A6199_%2836924864550%29_modified.png/1280px-Sputnik_1_Exploded_View_3F9A6199_%2836924864550%29_modified.png",
+        "nazov": "Sputnik 1 Exploded View 3F9A6199 (36924864550) modified.png",
+        "autor": "Музей Космонавтики from Россия, cropped, color correct, and sharpened by Kees08",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Sputnik_1_Exploded_View_3F9A6199_(36924864550)_modified.png",
+        "povod": "wikimedia",
+        "dopyt": "Sputnik satellite"
+      },
+      {
+        "url": "https://live.staticflickr.com/853/42920319355_5d6fd7c116_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/0350c23f-6ecf-412d-a79f-573b18bdae36/thumb/",
+        "nazov": "Reproduction of Sputnik Satellite - Museum of Aviation and Aerospace - Poltava - Ukraine",
+        "autor": "Adam Jones, Ph.D. - Global Photo Archive",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/41000732@N04/42920319355",
+        "povod": "openverse",
+        "dopyt": "Sputnik satellite"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic illustration of an abstract satellite orbiting Earth as a distant red glow suggests a potential space threat, no real people, no documentary scene."
+  },
+  "prompt_ilustracie": "A symbolic illustration of an abstract satellite orbiting Earth as a distant red glow suggests a potential space threat, no real people, no documentary scene.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/2981e685e67729c388061fcc90995542",
+  "text_agentov": {
+    "titulok": "Správy: Rusko môže čoskoro vyslať do vesmíru družicu s jadrovou zbraňou",
+    "perex": "Západné spravodajské služby podľa nemeckých médií upozorňujú na možný štart zariadenia označovaného ako Sputnik-S. Tvrdenia nie sú nezávisle potvrdené a Moskva ich odmieta.",
+    "telo": "Rusko by mohlo ešte pred koncom roka vyslať na obežnú dráhu družicu vybavenú jadrovou zbraňou, uvádzajú nemecké médiá s odvolaním sa na západné spravodajské služby. Zariadenie, označované ako Sputnik-S, by podľa citovaných odborníkov mohlo pri výbuchu jadrovej nálože vážne poškodiť satelity na nízkej obežnej dráhe. Samotné prípravy ani blížiaci sa štart však nie sú nezávisle potvrdené.\n\n## Čo hovoria správy o Sputnik-S\n\nPodľa spoločného informovania verejnoprávnych staníc NDR a WDR a denníka Süddeutsche Zeitung si viacero krajín NATO vymenilo spravodajské zistenia o možnom nasadení zbrane. Nemecké vojenské velenie pre vesmír podľa Ars Technica usudzuje, že štart by mohol prísť už v decembri. Tom’s Hardware píše, že spravodajské služby varovali pred možným štartom v priebehu 60 dní; ich upozornenie malo byť vydané začiatkom novembra.\n\nNemecké médiá tvrdia, že Sputnik-S je už roky uskladnený v širšom okolí Moskvy. Nie je však jasné, na akých konkrétnych dôkazoch sú tieto informácie založené. Americká Obranná spravodajská agentúra podľa Tom’s Hardware uviedla, že Rusko vyvíja satelit určený na nesenie jadrovej zbrane.\n\n## Možné následky výbuchu na orbite\n\nOdborník citovaný v správe Tom’s Hardware odhaduje, že jadrový výbuch vo vesmíre by mohol okamžite vyradiť približne tretinu satelitov na nízkej obežnej dráhe. Zvyšné zariadenia by podľa neho mohli zlyhávať postupne v nasledujúcich mesiacoch. Výbuch by vytvoril aj elektromagnetický impulz, ktorý by mohol narušiť technické systémy na Zemi.\n\nArs Technica upozorňuje, že účinky by nezasiahli iba satelity protivníkov. Ohrozené by boli aj ruské a čínske zariadenia, vojenské a komerčné komunikačné siete, napríklad Starlink a Starshield, ako aj Medzinárodná vesmírna stanica. Išlo by teda o nerozlišujúci zásah, nie o zbraň namierenú iba proti jednej krajine.\n\n## Moskva obvinenia odmieta\n\nRuské úrady tvrdenia popierajú. Ruské veľvyslanectvo v Nemecku ich označilo za nepodložené a súčasť propagandistickej kampane. Hovorca Kremľa Dmitrij Peskov podľa Ars Technica spochybnil dôveryhodnosť správ, ktoré sa opierajú o anonymné zdroje a formulácie vyjadrujúce neistotu.\n\nAk by sa jadrová zbraň dostala na obežnú dráhu, išlo by podľa uvedených zdrojov o porušenie Zmluvy o kozmickom priestore z roku 1967. Tá zakazuje umiestňovať na obežnú dráhu Zeme jadrové zbrane a ďalšie zbrane hromadného ničenia. Zatiaľ nie je potvrdené, že Rusko takýto krok skutočne podnikne.\n\nSprávy nadväzujú na dlhšie trvajúce obavy z ruského vesmírneho programu. Ars Technica uvádza, že americkí predstavitelia v roku 2022 zaznamenali testovaciu družicu, ktorá mala skúmať účinky žiarenia na vesmírne zariadenia. Podľa článku však vtedy Rusko jadrovú zbraň na obežnú dráhu nevyslalo. Satelitné siete sú dôležité aj pre civilnú komunikáciu a vojenské operácie."
+  }
+}
