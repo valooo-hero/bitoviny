@@ -8,7 +8,7 @@ tagy:
   - routery
   - malvér
   - kybernetická bezpečnosť
-publikovane: 2026-11-23T04:03:50+00:00
+publikovane: 2026-11-24T13:26:07Z
 obrazok:
   src: /obrazky/utocnici-zneuzili-chybu-v-cloude-gl-inet-na-napadnutie-routerov-a-zariadeni-kvm-mwuq9tvj.webp
   alt: Ilustračný obrázok.
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "BleepingComputer: Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices"
     url: https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/
