@@ -1,0 +1,487 @@
+{
+  "slug": "jensen-huang-sa-vratil-do-cela-nvidie-no-cakaju-ho-dalsie-otazky",
+  "datum_sprav": "2026-11-23",
+  "dovod_vyberu": "Pokračovanie príbehu okolo Nvidie a plánované svedectvo v Senáte má širší politický a trhový dosah.",
+  "poznamky_pre_editora": "Pred publikovaním overiť tvrdenia o vzťahoch, podozrení zo špionáže, pohybe čipov do Číny a Trumpovom kontakte s predstavenstvom; ide o citlivé a v zdrojoch nie vždy nezávisle potvrdené informácie. Číselné údaje o trhu opisujú rôzne ukazovatele a obdobia: Wired uvádza rast akcií Nvidie o viac než 30 % a hodnoty o viac než bilión dolárov, TechCrunch rast Nasdaqu o 7 %. Nejde nevyhnutne o rozpor. Dátumy výsluchov sú uvedené podľa konkrétneho článku TechCrunch.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je vysoko spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojoch a interpretácia je presná. Najvážnejším problémom je len drobné zjednodušenie pri opise kontaktu Alice Huangovej, ktoré však koncept sám koriguje poznámkou o nedôkaznosti.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 24,
+        "potvrdenych": 24,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Jensen Huang sa v pondelok vrátil na pozície šéfa, prezidenta a člena predstavenstva Nvidie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The chipmaker’s shares have surged more than 30 percent following the board’s announcement that it was reinstating Huang as president, CEO, and board member.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa Wired stúpli akcie Nvidie po oznámení o viac než 30 percent",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The chipmaker’s shares have surged more than 30 percent following the board’s announcement",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "trhová hodnota firmy vzrástla o viac než bilión dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The company’s valuation has soared by more than $1 trillion",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TechCrunch uviedol, že v reakcii na Huangov návrat posilnil aj index Nasdaq, a to o 7 percent.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "the Nasdaq rose 7% on the news.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Predchádzajúci týždeň pritom Nasdaq Composite klesol o 10 percent, čiastočne v súvislosti s problémami Nvidie.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Last week, the Nasdaq Composite dropped 10 percent, in part due to Nvidia’s struggles",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Wired píše, že za uplynulý mesiac sa z hodnoty firmy vymazalo takmer 2,2 bilióna dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "until nearly $2.2 trillion was erased over the past month.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Huang odišiel z vedenia 12. novembra",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Huang departed the company he helped found on November 12",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "po správach o mimomanželských vzťahoch, medzi nimi aj o vzťahu so ženou, ktorú americká vláda podozrieva zo spolupráce s čínskou rozviedkou.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "after revelations of extramarital affairs (including, critically, a dalliance with a suspected Chinese spy)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ide o obvinenia a podozrenia, nie o v zdrojoch potvrdené zistenie, že žena špionáž vykonávala.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "a woman suspected by the U.S. government of working as a Chinese spy.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Wired pripomína, že predseda predstavenstva Harvey Jones ešte minulý týždeň počas hovoru o výsledkoch povedal, že predstavenstvo nemá v úmysle vrátiť Huanga do funkcie generálneho riaditeľa.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Last week, board chair Harvey Jones said during the company’s earnings call that the board did “not intend to reinstate Jensen as CEO.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Portál zároveň informoval o obavách predstavenstva z jeho údajnej neúprimnosti.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "WIRED also reported that Nvidia’s board had been alarmed by Huang’s “lack of candor” and “lying.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa správy Semaforu, ktorú cituje Wired, sa prezident Donald Trump pripojil k zasadnutiu predstavenstva niekoľko hodín pred oznámením a argumentoval za Huangov návrat.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Semafor reported that, hours before Huang was reinstated, President Donald Trump dialed into the publicly traded company’s board meeting to argue for the ousted CEO’s return.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Najvážnejšou nevyriešenou témou zostáva, ako sa obmedzované čipy Nvidie dostávali do Číny a čo o tom firma vedela.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "serious questions remain about how Nvidia chips were smuggled into China, and how much Nvidia knew about it.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TechCrunch uviedol, že denník The New York Times informoval o dlhodobom kontakte Alice Huangovej s pracovníkom čínskeho ministerstva štátnej bezpečnosti v období, keď mala vzťah s Jensenom Huangom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The New York Times reported sustained contact between Alice Huang and a member of China’s Ministry of State Security during the same period she was having an affair with Jensen Huang.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Samotný kontakt však v predložených správach nie je dôkazom špionáže ani účasti Nvidie na pašovaní.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "it’s clear that a lot of restricted chips were flowing into China through her company.",
+        "komentar": "Zdroje nehovoria, že by kontakt bol dôkazom špionáže, ale tvrdia, že cez jej firmu prúdili čipy; koncept to správne interpretuje ako nepreukázané.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Trump podľa TechCrunch tvrdil, že americká vláda nenašla v súvislosti s prípadom bezpečnostné riziká.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "President Trump is already telling reporters that the U.S. government found no national security concerns resulting from the affair",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroje však neuvádzajú podrobnosti o prípadnom oficiálnom posúdení ani o tom, či prebehlo vyšetrovanie ministerstva spravodlivosti.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Was there any Department of Justice inquiry into whether Huang had committed a crime, or did Trump make the call on his own?",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TechCrunch píše, že Huang venoval 25 miliónov dolárov projektu Trumpovej tanečnej sály.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Huang has already donated $25 million to Trump’s ballroom project",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Huang má 3. decembra verejne vypovedať pred senátnym Výborom pre bankovníctvo.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Jensen Huang is scheduled to testify before the Senate Banking Committee on December 3",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ten sa zaoberá aj politikou exportných kontrol.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The Senate Banking Committee has jurisdiction over export control policies",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Predtým, 1. decembra, má podľa TechCrunch vystúpiť pred výbormi Snemovne reprezentantov pre zahraničné veci, spravodajské služby a Čínu.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Huang had already agreed to appear before the House Foreign Affairs Committee, the Select Committee on the Chinese Communist Party, and the House Intelligence Committee on December 1.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Obe komory Kongresu tak môžu skúmať vývoz čipov aj Huangov vzťah s podozrivou ženou.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The public hearing follows bipartisan calls for Huang to testify about his affair with the suspected Chinese spy and his potential involvement in chip-smuggling operations.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť má podľa Wired výrazný vplyv na širší ekosystém umelej inteligencie vďaka obchodným dohodám a investíciám.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Nvidia has massive sway over the wider artificial intelligence ecosystem, due to its deals with and investments in other companies.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výsledok budúcich vypočutí či vyšetrovaní zdroje nepredpovedajú; otvorené otázky však môžu udržať firmu aj jej vedenie v centre politickej pozornosti.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Congress will keep a steady drip of embarrassing revelations, milking as much political juice as possible out of Huang and everyone associated with him.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "o viac než 30 percent",
+        "opravene": "o viac než 30 %",
+        "dovod": "medzera pred znakom percenta",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "a to o 7 percent.",
+        "opravene": "a to o 7 %.",
+        "dovod": "medzera pred znakom percenta",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "nie v zdrojoch potvrdené",
+        "opravene": "v zdrojoch nepotvrdené",
+        "dovod": "zlepšenie neobratnej formulácie",
+        "stav": "nenajdena",
+        "poznamka": "úryvok sa v texte nenachádza",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "neúprimnosti",
+        "kontext": "o obavách predstavenstva z jeho údajnej neúprimnosti. Neskôr však predstavenstvo oznámilo je",
+        "navrhy": [
+          "neúprimnosť",
+          "ne úprimnosti"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "špionáže",
+        "kontext": " v predložených správach nie je dôkazom špionáže ani účasti Nvidie na pašovaní.\n\nTrump p",
+        "navrhy": [
+          "špionáž",
+          "špionážne",
+          "špionáž e"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -7 +7 @@\n-Podľa Wired stúpli akcie Nvidie po oznámení o viac než 30 percent a trhová hodnota firmy vzrástla o viac než bilión dolárov. TechCrunch uviedol, že v reakcii na Huangov návrat posilnil aj index Nasdaq, a to o 7 percent. Predchádzajúci týždeň pritom Nasdaq Composite klesol o 10 percent, čiastočne v súvislosti s problémami Nvidie. Wired píše, že za uplynulý mesiac sa z hodnoty firmy vymazalo takmer 2,2 bilióna dolárov.\n+Podľa Wired stúpli akcie Nvidie po oznámení o viac než 30 % a trhová hodnota firmy vzrástla o viac než bilión dolárov. TechCrunch uviedol, že v reakcii na Huangov návrat posilnil aj index Nasdaq, a to o 7 %. Predchádzajúci týždeň pritom Nasdaq Composite klesol o 10 percent, čiastočne v súvislosti s problémami Nvidie. Wired píše, že za uplynulý mesiac sa z hodnoty firmy vymazalo takmer 2,2 bilióna dolárov."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/ASUS_NVIDIA_GeForce_210_silent_graphics_card_with_HDMI.JPG/1280px-ASUS_NVIDIA_GeForce_210_silent_graphics_card_with_HDMI.JPG",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2025/05/russell-e1755718978143.jpg?w=110",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Russell Brandom",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6b0467fb5f8e6c0d7b84afc9/191:100/w_1280,c_limit/Business_Nvidia%20Is%20Worth%20$1%20Trillion%20More%20Than%20It%20Was%20Yesterday.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6b0467fb5f8e6c0d7b84afc9/master/pass/Business_Nvidia%20Is%20Worth%20$1%20Trillion%20More%20Than%20It%20Was%20Yesterday.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/2a533ea84316d636ed24ffbab93202f6eee557585ac281b008713e3e749b31c6?s=96&d=identicon&r=g",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Aisha Malik",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2025/12/495cdfd5deaad915a1ad58ab35edcbaa84b90c4ce9b7ded356c5ad1b61884800.png?w=150",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Lucas Ropek",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "TOKYO, JAPAN - JULY 16: NVIDIA Corp. CEO Jensen Huang speaks during a joint press conference with representatives of Fujitsu Ltd., FANUC Corp., YASKAWA Electric Corp. and Kawasaki Heavy Industries Ltd. on July 16, 2026, in Tokyo, Japan. The companies announced plans to explore business opportunities in physical AI in collaboration with the robotics industry, as well as to develop a collaborative control platform that bridges the digital and physical worlds by integrating NVIDIA's open physical AI technologies. (Photo by Tomohiro Ohsumi/Getty Images)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "Nvidia founder and CEO Jensen Huang",
+        "popisok": "Nvidia founder and CEO Jensen Huang gestures as he speaks during the World Economic Forum (WEF) annual meeting in Davos on January 21, 2026. The World Economic Forum takes place in Davos from January 19 to January 23, 2026. (Photo by Fabrice COFFRINI / AFP via Getty Images)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2297764008.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "WASHINGTON, DC - SEPTEMBER 29: U.S. President Donald Trump makes a statement while he is seated with (L-R) CEO of Meta Platforms Mark Zuckerberg, Nvidia CEO Jensen Huang, Tesla, SpaceX and X CEO Elon Musk, and Google CEO Sundar Pichai during a meeting with AI executives in the East Room of the White House on September 29, 2026 in Washington, DC. The meeting comes as some have called for a slowdown in AI development amid rising safety concerns. (Photo by Kevin Dietsch/Getty Images)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "Nvidia graphics card",
+      "GPU chip",
+      "server rack"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/ASUS_NVIDIA_GeForce_210_silent_graphics_card_with_HDMI.JPG/1280px-ASUS_NVIDIA_GeForce_210_silent_graphics_card_with_HDMI.JPG",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/ASUS_NVIDIA_GeForce_210_silent_graphics_card_with_HDMI.JPG/1280px-ASUS_NVIDIA_GeForce_210_silent_graphics_card_with_HDMI.JPG",
+        "nazov": "ASUS NVIDIA GeForce 210 silent graphics card with HDMI.JPG",
+        "autor": "Joydeep",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:ASUS_NVIDIA_GeForce_210_silent_graphics_card_with_HDMI.JPG",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia graphics card"
+      },
+      {
+        "url": "https://live.staticflickr.com/3340/3610579095_202a4e6903_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/e3c6a517-605b-4a52-9c43-f2b4c2566599/thumb/",
+        "nazov": "Do you have an NVIDIA graphics card and your videos play too dark?",
+        "autor": "▓▒░ TORLEY ░▒▓",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/70285332@N00/3610579095",
+        "povod": "openverse",
+        "dopyt": "Nvidia graphics card"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/CXD8514Q_GPU_160_pin.jpg/1280px-CXD8514Q_GPU_160_pin.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/CXD8514Q_GPU_160_pin.jpg/1280px-CXD8514Q_GPU_160_pin.jpg",
+        "nazov": "CXD8514Q GPU 160 pin.jpg",
+        "autor": "A7N8X",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:CXD8514Q_GPU_160_pin.jpg",
+        "povod": "wikimedia",
+        "dopyt": "GPU chip"
+      },
+      {
+        "url": "https://live.staticflickr.com/8345/8279097320_2df8cac8a2_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/3c3bfc46-6dd2-4592-bed6-ef22bc426fae/thumb/",
+        "nazov": "Broken Nvidia GeForce 4 Ti : Broken GPU Chip 3/4",
+        "autor": "qubodup",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "stranka": "https://www.flickr.com/photos/21051491@N02/8279097320",
+        "povod": "openverse",
+        "dopyt": "GPU chip"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Asus_C501PS_Nvidia_Geforce_7600_graphics_card_1.JPG/1280px-Asus_C501PS_Nvidia_Geforce_7600_graphics_card_1.JPG",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Asus_C501PS_Nvidia_Geforce_7600_graphics_card_1.JPG/1280px-Asus_C501PS_Nvidia_Geforce_7600_graphics_card_1.JPG",
+        "nazov": "Asus C501PS Nvidia Geforce 7600 graphics card 1.JPG",
+        "autor": "MKFI",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Asus_C501PS_Nvidia_Geforce_7600_graphics_card_1.JPG",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia graphics card"
+      },
+      {
+        "url": "https://live.staticflickr.com/2142/2107859647_aa492c310d_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/31ce79dc-3584-4818-8924-88a542dc5ff7/thumb/",
+        "nazov": "Power Mac G4 (Mirrored Drive Doors) - Technical Specifications (20071213)",
+        "autor": "Remko van Dokkum",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/24034951@N00/2107859647",
+        "povod": "openverse",
+        "dopyt": "Nvidia graphics card"
+      }
+    ],
+    "prompt_ilustracie": "Create an abstract editorial illustration of a towering semiconductor chip balanced between a rising stock chart and a shadowy maze of export-control documents, with no people, logos, or text."
+  },
+  "prompt_ilustracie": "Create an abstract editorial illustration of a towering semiconductor chip balanced between a rising stock chart and a shadowy maze of export-control documents, with no people, logos, or text.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/f00a2969de48ef94d0e4d3c09345722b",
+  "text_agentov": {
+    "titulok": "Jensen Huang sa vrátil do čela Nvidie, no čakajú ho ďalšie otázky",
+    "perex": "Návrat šéfa výrobcu čipov sprevádzal prudký rast akcií. Zároveň zostávajú otvorené otázky o vývoze čipov do Číny, vyšetrovaní aj zásahu prezidenta Trumpa.",
+    "telo": "Jensen Huang sa v pondelok vrátil na pozície šéfa, prezidenta a člena predstavenstva Nvidie. Správu sprevádzal prudký rast akcií výrobcu čipov, no nevyriešila otázky okolo jeho odchodu, možného pašovania čipov do Číny ani politického zásahu, ktorý mal návrat podporiť.\n\nPodľa Wired stúpli akcie Nvidie po oznámení o viac než 30 % a trhová hodnota firmy vzrástla o viac než bilión dolárov. TechCrunch uviedol, že v reakcii na Huangov návrat posilnil aj index Nasdaq, a to o 7 %. Predchádzajúci týždeň pritom Nasdaq Composite klesol o 10 percent, čiastočne v súvislosti s problémami Nvidie. Wired píše, že za uplynulý mesiac sa z hodnoty firmy vymazalo takmer 2,2 bilióna dolárov.\n\n## Návrat po odchode z 12. novembra\n\nHuang odišiel z vedenia 12. novembra po správach o mimomanželských vzťahoch, medzi nimi aj o vzťahu so ženou, ktorú americká vláda podozrieva zo spolupráce s čínskou rozviedkou. Ide o obvinenia a podozrenia, nie o v zdrojoch potvrdené zistenie, že žena špionáž vykonávala.\n\nWired pripomína, že predseda predstavenstva Harvey Jones ešte minulý týždeň počas hovoru o výsledkoch povedal, že predstavenstvo nemá v úmysle vrátiť Huanga do funkcie generálneho riaditeľa. Portál zároveň informoval o obavách predstavenstva z jeho údajnej neúprimnosti. Neskôr však predstavenstvo oznámilo jeho návrat. Podľa správy Semaforu, ktorú cituje Wired, sa prezident Donald Trump pripojil k zasadnutiu predstavenstva niekoľko hodín pred oznámením a argumentoval za Huangov návrat.\n\n## Otázky o čipoch a zásahu Bieleho domu\n\nNajvážnejšou nevyriešenou témou zostáva, ako sa obmedzované čipy Nvidie dostávali do Číny a čo o tom firma vedela. TechCrunch uviedol, že denník The New York Times informoval o dlhodobom kontakte Alice Huangovej s pracovníkom čínskeho ministerstva štátnej bezpečnosti v období, keď mala vzťah s Jensenom Huangom. Samotný kontakt však v predložených správach nie je dôkazom špionáže ani účasti Nvidie na pašovaní.\n\nTrump podľa TechCrunch tvrdil, že americká vláda nenašla v súvislosti s prípadom bezpečnostné riziká. Zdroje však neuvádzajú podrobnosti o prípadnom oficiálnom posúdení ani o tom, či prebehlo vyšetrovanie ministerstva spravodlivosti. Objavujú sa aj otázky, či prezidentov zásah do rozhodovania predstavenstva nepredstavuje konflikt záujmov. TechCrunch píše, že Huang venoval 25 miliónov dolárov projektu Trumpovej tanečnej sály.\n\n## Výsluchy majú pokračovať v decembri\n\nHuang má 3. decembra verejne vypovedať pred senátnym Výborom pre bankovníctvo. Ten sa zaoberá aj politikou exportných kontrol. Predtým, 1. decembra, má podľa TechCrunch vystúpiť pred výbormi Snemovne reprezentantov pre zahraničné veci, spravodajské služby a Čínu. Obe komory Kongresu tak môžu skúmať vývoz čipov aj Huangov vzťah s podozrivou ženou.\n\nNávrat preto neznamená koniec tlaku na Nvidiu. Spoločnosť má podľa Wired výrazný vplyv na širší ekosystém umelej inteligencie vďaka obchodným dohodám a investíciám. Výsledok budúcich vypočutí či vyšetrovaní zdroje nepredpovedajú; otvorené otázky však môžu udržať firmu aj jej vedenie v centre politickej pozornosti."
+  }
+}
