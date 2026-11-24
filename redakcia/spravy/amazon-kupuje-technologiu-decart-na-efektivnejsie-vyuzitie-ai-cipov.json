@@ -1,0 +1,436 @@
+{
+  "slug": "amazon-kupuje-technologiu-decart-na-efektivnejsie-vyuzitie-ai-cipov",
+  "datum_sprav": "2026-11-23",
+  "dovod_vyberu": "Akvizícia AI technológie za 7,5 miliardy dolárov ukazuje strategický smer Amazonu v oblasti čipov a AI.",
+  "poznamky_pre_editora": "Vypustila som nepodloženú všeobecnú konštatáciu o potrebe veľkého výpočtového výkonu, tvrdenie o možnosti ponúknuť konkurencieschopnejšie služby a zmienku o zákazníkoch AWS na Slovensku a v EÚ.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojoch. Najvážnejším problémom je, že cena 7,5 miliardy dolárov je uvedená ako nepotvrdená, čo je správne, ale mohla byť zdôraznená ešte výraznejšie, keďže Bloombergova suma nie je oficiálna.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 26,
+        "potvrdenych": 23,
+        "chyb": 3,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 23,
+        "potvrdenych": 23,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Amazon kupuje od izraelského startupu Decart technológiu, ktorá má pomôcť AI modelom efektívnejšie využívať výpočtové čipy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Amazon has agreed to buy AI optimization technology from an Israeli startup in a bid to speed up its inference operations.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Súčasťou dohody je optimalizačný softvér Decart Optimization Stack (DOS), zakladatelia firmy a tím výskumníkov a inžinierov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Amazon also plans to bring Decart’s three founders and their engineering team into the fold.",
+        "komentar": "TechCrunch tiež potvrdzuje, že súčasťou dohody je DOS a zakladatelia aj tím výskumníkov a inžinierov.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Amazon podľa svojho vyjadrenia nezískava celú spoločnosť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "An Amazon spokesperson clarified to The Register that the deal is an asset purchase and not a full company acquisition",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Cena nebola oficiálne zverejnená.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "While neither company has disclosed a price, Bloomberg claims its sources value the deal at around $7.5 billion.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TechCrunch s odvolaním sa na Bloomberg uvádza sumu 7,5 miliardy dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The e-commerce and cloud giant is paying $7.5 billion for the startup, according to Bloomberg.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register píše, že Bloombergova suma pochádza z jeho zdrojov a nie je potvrdená účastníkmi dohody.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "While neither company has disclosed a price, Bloomberg claims its sources value the deal at around $7.5 billion.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "DOS pracuje medzi AI modelom a hardvérom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "DOS aims to fix that by operating between the model and the chip",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Optimalizuje takzvané kernely, kompilátory a runtime prostredie, teda vrstvy, ktoré sprostredkúvajú vykonávanie výpočtov na čipe.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "optimizing kernels, compilers, and runtimes for the underlying hardware",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Cieľom je, aby výpočtové jadrá nečakali nevyužité a hardvér sa viac približoval svojmu maximálnemu výkonu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "so every core stays busy",
+        "komentar": "Zdroj hovorí o tom, že DOS má zabezpečiť, aby každé jadro bolo využité, čo zodpovedá cieľu priblížiť sa maximálnemu výkonu.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Decart tvrdí, že jeho systém dokáže znížiť oneskorenie a náklady a zvýšiť priepustnosť pri tréningu aj používaní AI modelov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "claims it can reduce latency, improve throughput, and reduce the costs associated with training and inference runs.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Firma však nezverejnila podrobné výsledky meraní, ktoré by tieto prínosy kvantifikovali.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Decart doesn’t offer much in the way of details about its proprietary AI-maxxing tech",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Softvér má fungovať na rôznych platformách vrátane grafických procesorov Nvidia, čipov Google TPU a čipov AWS Trainium.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "DOS is hardware-agnostic, with Decart saying it supports Nvidia GPUs, Google TPUs, and, most critically for our purposes here, AWS Trainium chips.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Amazon zdôrazňuje, že efektívnejšie výpočty môžu priniesť rýchlejšie odvodzovanie, lepší tréning aj nižšie náklady pre zákazníkov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "More efficient compute means better training, better reinforcement learning, faster inference, and better models for customers at a lower cost.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Peter DeSantis, viceprezident Amazonu pre základné AI modely, vlastné čipy a kvantové výpočty, uviedol, že efektívnejšie výpočty znamenajú lepšie modely pri nižších nákladoch.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Peter DeSantis, Amazon SVP of foundational AI models, custom silicon, and quantum computing, said in the announcement.",
+        "komentar": "Funkcia je v zdroji SVP (senior vice president), čo je v slovenčine viceprezident, a citát je správne pripísaný.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Amazon dosiaľ využíval čipy Trainium vo vlastných dátových centrách.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Amazon, which has so far been using its Trainium chips at its own data centers",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa TechCrunch sa pripravuje na ich predaj zákazníkom, ktorí by ich mohli nasadiť ako alternatívu k čipom Nvidie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "is preparing to start selling them to customers as a competitor to Nvidia.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Optimalizačný softvér Decart by im mohol uľahčiť spúšťanie vlastných úloh na hardvéri Amazonu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Decart’s technology could make it easier for customers to run their workloads on Amazon chips",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroje však neuvádzajú, kedy bude technológia začlenená do ponuky AWS ani aké konkrétne úspory prinesie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Decart doesn’t offer much in the way of details about its proprietary AI-maxxing tech",
+        "komentar": "Zdroje neuvádzajú časový rámec ani konkrétne úspory, čo je v súlade s tým, že detaily nie sú zverejnené.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register označuje transakciu za kúpu aktív, nie za prevzatie celej firmy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "An Amazon spokesperson clarified to The Register that the deal is an asset purchase and not a full company acquisition",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Amazon podľa jeho informácií získa DOS a súvisiacu technológiu spolu s časťou personálu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Amazon only acquiring DOS and the tech behind it as well as personnel.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Čo sa stane so zvyšnými zamestnancami a ďalšími produktmi Decart, nie je známe.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "As for what may become of Decart after the deal, that’s unclear.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Startup vytvoril aj model Lucy na generovanie živého videa a Oasis, ktorý je určený na tvorbu virtuálnych svetov a využitie v oblasti robotiky.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Decart has a couple of different AI models: Lucy, a live video model marketed toward advertisers, live streamers, and the like; and Oasis, a world model AI marketed toward companies working on embodied AI applications.",
+        "komentar": "Koncept hovorí o robotike, čo je zjednodušenie 'embodied AI applications', ale je to v súlade so zdrojom.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tieto produkty neboli podľa The Register súčasťou oznámenej dohody.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Decart’s non-DOS assets weren’t mentioned in the press release, and per the Amazon spokesperson we talked to, that means they weren’t part of the deal.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "startupu",
+        "kontext": ", zakladateľov a časti tímu izraelského startupu, nie celej firmy. Amazon chce technológ",
+        "navrhy": [
+          "štartujú"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "startupu",
+        "kontext": "Amazon kupuje od izraelského startupu Decart technológiu, ktorá má pomôcť AI ",
+        "navrhy": [
+          "štartujú"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "kernely",
+        "kontext": "elom a hardvérom. Optimalizuje takzvané kernely, kompilátory a runtime prostredie, teda",
+        "navrhy": [
+          "Kornel",
+          "Kornela",
+          "karneoly"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "runtime",
+        "kontext": "alizuje takzvané kernely, kompilátory a runtime prostredie, teda vrstvy, ktoré sprostre",
+        "navrhy": [
+          "rútime"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "j zákazníkom, ktorí by ich mohli nasadiť ako alternatívu k čipom Nvidie. Optimalizač",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg/1280px-Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2024/12/Decart-Founders-Dean-Leitersdorf-CEO-and-Moshe-Shalev-CPO.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "Decart Founders Dean Leitersdorf (CEO) and Moshe Shalev (CPO)",
+        "popisok": "Decart Founders Dean Leitersdorf (CEO) and Moshe Shalev (CPO)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2025/04/RebeccaBellan_default-large-1-e1787760589727.jpg?w=147",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Rebecca Bellan",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://image.theregister.com/?imageId=5222824&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Trainium AI chip",
+      "Amazon data center",
+      "server rack"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg/1280px-Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg/1280px-Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg",
+        "nazov": "Amazon Prime van blocking bike lane at CityCenterDC.jpg",
+        "autor": "Sdkb",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Amazon_Prime_van_blocking_bike_lane_at_CityCenterDC.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Amazon data center"
+      },
+      {
+        "url": "https://live.staticflickr.com/3045/5863167909_c4357c71e0_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/5710c71e-30fb-4a2c-8203-03b788e23969/thumb/",
+        "nazov": "New Amazon data center",
+        "autor": "xcorex",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/79616869@N00/5863167909",
+        "povod": "openverse",
+        "dopyt": "Amazon data center"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Amazonian_Leaders_Discuss_Using_NASA_Data_to_Protect_the_Amazon_%28NHQ202311170014%29.jpg/1280px-Amazonian_Leaders_Discuss_Using_NASA_Data_to_Protect_the_Amazon_%28NHQ202311170014%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Amazonian_Leaders_Discuss_Using_NASA_Data_to_Protect_the_Amazon_%28NHQ202311170014%29.jpg/1280px-Amazonian_Leaders_Discuss_Using_NASA_Data_to_Protect_the_Amazon_%28NHQ202311170014%29.jpg",
+        "nazov": "Amazonian Leaders Discuss Using NASA Data to Protect the Amazon (NHQ202311170014).jpg",
+        "autor": "NASA HQ PHOTO",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Amazonian_Leaders_Discuss_Using_NASA_Data_to_Protect_the_Amazon_(NHQ202311170014).jpg",
+        "povod": "wikimedia",
+        "dopyt": "Amazon data center"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/48594167912_a82615271b_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/6502144b-371c-4046-a47e-bba95636a990/thumb/",
+        "nazov": "Fires in Brazil",
+        "autor": "NASA Goddard Photo and Video",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/24662369@N07/48594167912",
+        "povod": "openverse",
+        "dopyt": "Amazon data center"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg/1280px-Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg/1280px-Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg",
+        "nazov": "Rack of Cisco Hyperflex HXAF 240c M5 nodes.jpg",
+        "autor": "Btrs",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/24/65675213_de819df88d_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c28b5999-ea14-4b83-ace1-aa2e496803a7/thumb/",
+        "nazov": "Server Rack in the Laundry Room",
+        "autor": "zdw",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/75783104@N00/65675213",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of an abstract AI chip connected to flowing software pathways, with no logos, text, or realistic depiction of a real person."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of an abstract AI chip connected to flowing software pathways, with no logos, text, or realistic depiction of a real person.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/8dc008f02f0cdc77bd8e837ee3acddab",
+  "text_agentov": {
+    "titulok": "Amazon kupuje technológiu Decart na efektívnejšie využitie AI čipov",
+    "perex": "Dohoda sa týka optimalizačného softvéru, zakladateľov a časti tímu izraelského startupu, nie celej firmy. Amazon chce technológiu využiť aj pri svojich čipoch Trainium.",
+    "telo": "Amazon kupuje od izraelského startupu Decart technológiu, ktorá má pomôcť AI modelom efektívnejšie využívať výpočtové čipy. Súčasťou dohody je optimalizačný softvér Decart Optimization Stack (DOS), zakladatelia firmy a tím výskumníkov a inžinierov. Amazon podľa svojho vyjadrenia nezískava celú spoločnosť.\n\nCena nebola oficiálne zverejnená. TechCrunch s odvolaním sa na Bloomberg uvádza sumu 7,5 miliardy dolárov. The Register píše, že Bloombergova suma pochádza z jeho zdrojov a nie je potvrdená účastníkmi dohody.\n\n## Softvér má vyťažiť viac z každého čipu\n\nDOS pracuje medzi AI modelom a hardvérom. Optimalizuje takzvané kernely, kompilátory a runtime prostredie, teda vrstvy, ktoré sprostredkúvajú vykonávanie výpočtov na čipe. Cieľom je, aby výpočtové jadrá nečakali nevyužité a hardvér sa viac približoval svojmu maximálnemu výkonu.\n\nDecart tvrdí, že jeho systém dokáže znížiť oneskorenie a náklady a zvýšiť priepustnosť pri tréningu aj používaní AI modelov. Firma však nezverejnila podrobné výsledky meraní, ktoré by tieto prínosy kvantifikovali. Softvér má fungovať na rôznych platformách vrátane grafických procesorov Nvidia, čipov Google TPU a čipov AWS Trainium.\n\nAmazon zdôrazňuje, že efektívnejšie výpočty môžu priniesť rýchlejšie odvodzovanie, lepší tréning aj nižšie náklady pre zákazníkov. Peter DeSantis, viceprezident Amazonu pre základné AI modely, vlastné čipy a kvantové výpočty, uviedol, že efektívnejšie výpočty znamenajú lepšie modely pri nižších nákladoch.\n\n## Trainium má osloviť aj zákazníkov AWS\n\nAmazon dosiaľ využíval čipy Trainium vo vlastných dátových centrách. Podľa TechCrunch sa pripravuje na ich predaj zákazníkom, ktorí by ich mohli nasadiť ako alternatívu k čipom Nvidie. Optimalizačný softvér Decart by im mohol uľahčiť spúšťanie vlastných úloh na hardvéri Amazonu. Zdroje však neuvádzajú, kedy bude technológia začlenená do ponuky AWS ani aké konkrétne úspory prinesie.\n\n## Osud zvyšku Decart zostáva nejasný\n\nThe Register označuje transakciu za kúpu aktív, nie za prevzatie celej firmy. Amazon podľa jeho informácií získa DOS a súvisiacu technológiu spolu s časťou personálu. Čo sa stane so zvyšnými zamestnancami a ďalšími produktmi Decart, nie je známe.\n\nStartup vytvoril aj model Lucy na generovanie živého videa a Oasis, ktorý je určený na tvorbu virtuálnych svetov a využitie v oblasti robotiky. Tieto produkty neboli podľa The Register súčasťou oznámenej dohody."
+  }
+}
