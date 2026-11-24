@@ -1,0 +1,387 @@
+{
+  "slug": "americki-predstavitelia-varuju-ze-velke-technologicke-vypadky-budu-pokracovat",
+  "datum_sprav": "2026-11-22",
+  "dovod_vyberu": "Pokračujúce veľké technologické výpadky majú široký dosah na digitálnu infraštruktúru a zaujímajú čitateľov.",
+  "poznamky_pre_editora": "Zdroj uvádza, že výpadky neboli podľa vtedajších informácií zrejme spôsobené kyberútokmi; v článku pôvodne chýbalo slovo „not“ a The Verge text následne opravil. Pri editácii zachovať rozdiel medzi výpadkom bankových služieb JPMorgan Chase a samostatnou zmienkou o útokoch na systémy JP Morgan. Zdroj neuvádza dosah na Slovensko ani EÚ.",
+  "upozornenia": [
+    "Téma má len jeden zdroj. Redakčné zásady žiadajú aspoň dva, zvážte doplnenie alebo zahodenie."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojovom článku The Verge. Najvážnejším problémom nie je žiadna faktická chyba, ale len drobné štylistické úpravy, ktoré nemenia význam.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 25,
+        "potvrdenych": 25,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "V priebehu približne jedného týždňa zasiahli Spojené štáty tri výrazné technologické problémy: celoštátne pozastavenie letov nariadené Federálnym leteckým úradom (FAA), viacdňový výpadok Outlooku a porucha bankových služieb JPMorgan Chase.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výpadok Outlooku podľa portálu The Verge zastavil prácu celých spoločností.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "a multi-day Outlook outage that brought entire companies to a standstill",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Príčina jednotlivých incidentov v článku nie je uvedená.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "While the outages over the last week were not believed to be caused by cyberattacks",
+        "komentar": "Zdroj neuvádza konkrétne príčiny, len že sa predpokladalo, že to neboli kybernetické útoky.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Americkí predstavitelia ani Microsoft však nepovažujú tieto udalosti za posledné svojho druhu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Microsoft and the US government agree there are more outages to come.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Riaditeľ Národnej spravodajskej služby Jay Clayton v rozhovore pre CNN upozornil, že verejnosť sa má pripraviť na ďalšie výpadky.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Director of National Intelligence Jay Clayton told CNN: We haven’t seen the last of the major tech outages",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa neho si modernizácia systémov vyžiada značné investície vrátane investícií do kybernetickej bezpečnosti.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "The American people should be prepared for a great deal of investment in upgrading our systems; they should be prepared for investment in cybersecurity",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Keď sa mení výpočtová technika aj aplikácie, môžu sa podľa neho objaviť „zádrhy na ceste“.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "any time there is a step change in technology, a step change in both compute and applications, there will be bumps in the road",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jeho vyjadrenie tak nepredstavuje predpoveď konkrétneho incidentu, ale upozornenie na sprievodné riziká rozsiahlych zmien.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "there will be bumps in the road",
+        "komentar": "Zdroj nešpecifikuje konkrétny incident, len všeobecné riziká.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podobne sa vyjadril prezident Microsoftu Brad Smith v relácii Face the Nation s Margaret Brennanovou na CBS News.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Microsoft President Brad Smith issued a similar warning about further outages on CBS News’ Face the Nation with Margaret Brennan",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Varoval, že na ďalšie mesiace treba byť pripravený, pretože modernizácia sa nedá dokončiť v priebehu niekoľkých týždňov.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "I think we have to be prepared, frankly, for the coming months because this isn’t the type of thing that just gets done in a couple of weeks",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa Smitha prebieha aktualizácia informačnej infraštruktúry na celom svete.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "The whole information infrastructure of the world is in effect being upgraded right now.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Z jeho slov vyplýva, že zmena sa netýka iba jednotlivých služieb.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "The whole information infrastructure of the world is in effect being upgraded right now.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Práce na infraštruktúre môžu trvať dlhšie a obdobie prechodu podľa neho môže priniesť ďalšie narušenia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "I think we have to be prepared, frankly, for the coming months because this isn’t the type of thing that just gets done in a couple of weeks",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroj však neuvádza harmonogram modernizácie ani konkrétne systémy, na ktorých sa zmeny práve vykonávajú.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "The whole information infrastructure of the world is in effect being upgraded right now.",
+        "komentar": "Zdroj nešpecifikuje harmonogram ani konkrétne systémy.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "AI podľa neho uľahčuje hľadanie slabých miest v softvéri.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Smith said that AI has made it easier to find flaws",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Takto získané poznatky môžu vývojári využiť na opravu kódu, no útočníci ich môžu použiť pri pokuse preniknúť do systémov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "you can either use that knowledge to patch the code, or if you’re a bad actor, you can use that knowledge to try to hack into systems",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Verge zároveň uvádza, že nedávne výpadky podľa vtedajších informácií zrejme nespôsobili kybernetické útoky.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "While the outages over the last week were not believed to be caused by cyberattacks",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "To ich odlišuje od nárastu útokov na vládne a komerčné systémy, ktorý zdroj zaznamenáva v posledných mesiacoch.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "The last few months have also seen an increase in attacks on government and commercial systems",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spomína systémy ministerstva poľnohospodárstva USA, JP Morgan a supermarketov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "including those at the USDA, JP Morgan, and supermarkets.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Článok však tieto útoky nespája s tromi opísanými výpadkami.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "While the outages over the last week were not believed to be caused by cyberattacks",
+        "komentar": "Zdroj ich nespája, len uvádza, že výpadky neboli spôsobené útokmi.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ďalšie narušenia môžu podľa článku vzniknúť pri opravách zastarávajúcich systémov, napríklad v dôsledku ľudskej chyby pri ich aktualizácii.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "human error during the rush to patch an aging system",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroj teda vykresľuje dve odlišné cesty k problémom: zneužitie bezpečnostných chýb útočníkmi a neúmyselné zlyhania počas údržby či modernizácie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Whether outages are brought on by AI-assisted hackers or human error during the rush to patch an aging system",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Odhad, že výpadky budú pokračovať aj v nasledujúcich mesiacoch, pripisuje The Verge varovaniam amerických predstaviteľov a Microsoftu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "Microsoft and the US government agree there are more outages to come.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Článok neuvádza konkrétne termíny, rozsah budúcich problémov ani to, ktorých služieb by sa mohli týkať.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "there will be more in the coming months.",
+        "komentar": "Zdroj nešpecifikuje termíny ani rozsah.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Opísané udalosti sa odohrali v USA; zdroj neuvádza ich dosah na Slovensko alebo Európsku úniu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Verge",
+        "dokaz": "we have seen a nationwide FAA ground stop",
+        "komentar": "Zdroj sa zameriava na USA a nespomína Slovensko ani EÚ.",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "zastarávajúcich",
+        "kontext": "môžu podľa článku vzniknúť pri opravách zastarávajúcich systémov, napríklad v dôsledku ľudskej ",
+        "navrhy": [
+          "zastarávajúc ich"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Microsoft_Data_Center_Middenmeer%2C_the_Netherlands_-_2.jpg/1280px-Microsoft_Data_Center_Middenmeer%2C_the_Netherlands_-_2.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318433/akrales_220309_4977_0182.jpg?quality=90&strip=all&crop=0,10.732984293194,100,78.534031413613",
+        "zdroj_clanku": "The Verge",
+        "alt": "A number of cursors point toward an unhappy face on a laptop",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Microsoft data center",
+      "JPMorgan Chase building",
+      "server rack"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Microsoft_Data_Center_Middenmeer%2C_the_Netherlands_-_2.jpg/1280px-Microsoft_Data_Center_Middenmeer%2C_the_Netherlands_-_2.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Microsoft_Data_Center_Middenmeer%2C_the_Netherlands_-_2.jpg/1280px-Microsoft_Data_Center_Middenmeer%2C_the_Netherlands_-_2.jpg",
+        "nazov": "Microsoft Data Center Middenmeer, the Netherlands - 2.jpg",
+        "autor": "Hay Kranen",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Microsoft_Data_Center_Middenmeer,_the_Netherlands_-_2.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft data center"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Microsoft_Data_Center_Middenmeer%2C_the_Netherlands_-_1_%28cropped%29.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/aab2ddec-01e6-4b3a-88fb-07c756811cf1/thumb/",
+        "nazov": "Microsoft Data Center Middenmeer, the Netherlands - 1 (cropped)",
+        "autor": "Hay Kranen",
+        "licencia": "BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=193402687",
+        "povod": "openverse",
+        "dopyt": "Microsoft data center"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Gulfchasehouston.jpg/1280px-Gulfchasehouston.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Gulfchasehouston.jpg/1280px-Gulfchasehouston.jpg",
+        "nazov": "Gulfchasehouston.jpg",
+        "autor": "Reagan Rothenberger",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Gulfchasehouston.jpg",
+        "povod": "wikimedia",
+        "dopyt": "JPMorgan Chase building"
+      },
+      {
+        "url": "https://live.staticflickr.com/5489/10754468233_9c97a96468_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/f9f50429-df36-40f7-8c08-bbf7dc693740/thumb/",
+        "nazov": "JPMorgan Chase Building, San Francisco, California",
+        "autor": "Ken Lund",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/75683070@N00/10754468233",
+        "povod": "openverse",
+        "dopyt": "JPMorgan Chase building"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Microsoft_Data_Center_Middenmeer%2C_the_Netherlands_-_1.jpg/1280px-Microsoft_Data_Center_Middenmeer%2C_the_Netherlands_-_1.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Microsoft_Data_Center_Middenmeer%2C_the_Netherlands_-_1.jpg/1280px-Microsoft_Data_Center_Middenmeer%2C_the_Netherlands_-_1.jpg",
+        "nazov": "Microsoft Data Center Middenmeer, the Netherlands - 1.jpg",
+        "autor": "Hay Kranen",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Microsoft_Data_Center_Middenmeer,_the_Netherlands_-_1.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Microsoft data center"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Microsoft_Data_Center_Middenmeer%2C_the_Netherlands_-_1.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/277581c2-62cb-4755-bd51-beb59b36ce2f/thumb/",
+        "nazov": "Microsoft Data Center Middenmeer, the Netherlands - 1",
+        "autor": "Hay Kranen",
+        "licencia": "BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=192879910",
+        "povod": "openverse",
+        "dopyt": "Microsoft data center"
+      }
+    ],
+    "prompt_ilustracie": "Create an abstract editorial illustration of interconnected digital infrastructure under repair, with subtle warning signals and branching paths representing both outages and cybersecurity risks, no text, logos, or real people."
+  },
+  "prompt_ilustracie": "Create an abstract editorial illustration of interconnected digital infrastructure under repair, with subtle warning signals and branching paths representing both outages and cybersecurity risks, no text, logos, or real people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/9158f0525a1eaee570eb7fcc3f251497",
+  "text_agentov": {
+    "titulok": "Americkí predstavitelia varujú, že veľké technologické výpadky budú pokračovať",
+    "perex": "Po problémoch FAA, Outlooku a bankových služieb JPMorgan Chase upozorňujú americkí predstavitelia aj Microsoft na ďalšie riziká. Modernizácia informačnej infraštruktúry potrvá a systémy môžu mať počas zmien výpadky.",
+    "telo": "## Tri incidenty v krátkom čase\n\nV priebehu približne jedného týždňa zasiahli Spojené štáty tri výrazné technologické problémy: celoštátne pozastavenie letov nariadené Federálnym leteckým úradom (FAA), viacdňový výpadok Outlooku a porucha bankových služieb JPMorgan Chase. Výpadok Outlooku podľa portálu The Verge zastavil prácu celých spoločností. Príčina jednotlivých incidentov v článku nie je uvedená.\n\nAmerickí predstavitelia ani Microsoft však nepovažujú tieto udalosti za posledné svojho druhu. Riaditeľ Národnej spravodajskej služby Jay Clayton v rozhovore pre CNN upozornil, že verejnosť sa má pripraviť na ďalšie výpadky. Podľa neho si modernizácia systémov vyžiada značné investície vrátane investícií do kybernetickej bezpečnosti.\n\n## Modernizácia môže priniesť problémy\n\nClayton spojil riziko výpadkov s výraznými technologickými zmenami. Keď sa mení výpočtová technika aj aplikácie, môžu sa podľa neho objaviť „zádrhy na ceste“. Jeho vyjadrenie tak nepredstavuje predpoveď konkrétneho incidentu, ale upozornenie na sprievodné riziká rozsiahlych zmien.\n\nPodobne sa vyjadril prezident Microsoftu Brad Smith v relácii Face the Nation s Margaret Brennanovou na CBS News. Varoval, že na ďalšie mesiace treba byť pripravený, pretože modernizácia sa nedá dokončiť v priebehu niekoľkých týždňov. Podľa Smitha prebieha aktualizácia informačnej infraštruktúry na celom svete.\n\nZ jeho slov vyplýva, že zmena sa netýka iba jednotlivých služieb. Práce na infraštruktúre môžu trvať dlhšie a obdobie prechodu podľa neho môže priniesť ďalšie narušenia. Zdroj však neuvádza harmonogram modernizácie ani konkrétne systémy, na ktorých sa zmeny práve vykonávajú.\n\n## Umelá inteligencia má dve strany\n\nSmith upozornil aj na bezpečnostný rozmer umelej inteligencie. AI podľa neho uľahčuje hľadanie slabých miest v softvéri. Takto získané poznatky môžu vývojári využiť na opravu kódu, no útočníci ich môžu použiť pri pokuse preniknúť do systémov.\n\nThe Verge zároveň uvádza, že nedávne výpadky podľa vtedajších informácií zrejme nespôsobili kybernetické útoky. To ich odlišuje od nárastu útokov na vládne a komerčné systémy, ktorý zdroj zaznamenáva v posledných mesiacoch. Spomína systémy ministerstva poľnohospodárstva USA, JP Morgan a supermarketov. Článok však tieto útoky nespája s tromi opísanými výpadkami.\n\n## Rizikom je aj ľudská chyba\n\nĎalšie narušenia môžu podľa článku vzniknúť pri opravách zastarávajúcich systémov, napríklad v dôsledku ľudskej chyby pri ich aktualizácii. Zdroj teda vykresľuje dve odlišné cesty k problémom: zneužitie bezpečnostných chýb útočníkmi a neúmyselné zlyhania počas údržby či modernizácie.\n\nOdhad, že výpadky budú pokračovať aj v nasledujúcich mesiacoch, pripisuje The Verge varovaniam amerických predstaviteľov a Microsoftu. Článok neuvádza konkrétne termíny, rozsah budúcich problémov ani to, ktorých služieb by sa mohli týkať. Opísané udalosti sa odohrali v USA; zdroj neuvádza ich dosah na Slovensko alebo Európsku úniu."
+  }
+}
