@@ -3,27 +3,28 @@ title: Oregon a Virgínia žalujú SpaceX pre sexuálne deepfaky vytvorené Grok
 perex: Štáty tvrdia, že spoločnosti nedostatočne chránili používateľov pred nekonsenzuálnymi intímnymi obrázkami a materiálmi sexuálneho zneužívania detí. Žiadajú pokuty aj zmeny, ktoré by obmedzili ďalšie šírenie takéhoto obsahu.
 sekcia: bezpecnost
 tagy:
-- SpaceX
-- Grok
-- deepfaky
-- bezpečnosť detí
-- umelá inteligencia
-publikovane: '2026-11-24T07:17:03+00:00'
+  - SpaceX
+  - Grok
+  - deepfaky
+  - bezpečnosť detí
+  - umelá inteligencia
+publikovane: 2026-11-24T07:17:03+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/oregon-a-virginia-zaluju-spacex-pre-sexualne-deepfaky-vytvorene-grokom-mwuqh7bf.webp
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Wired: States Sue SpaceX Over Grok Deepfakes'
-  url: https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/
-- nazov: 'Ars Technica: States sue SpaceX to stop Grok from generating child sex images, revenge porn'
-  url: https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/
+  - nazov: "Wired: States Sue SpaceX Over Grok Deepfakes"
+    url: https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/
+  - nazov: "Ars Technica: States sue SpaceX to stop Grok from generating child sex images, revenge porn"
+    url: https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/
 ---
 
 Oregon a Virgínia podali samostatné žaloby proti SpaceX a spoločnosti X Corp. pre obsah vytváraný chatbotom Grok. Podľa žalôb firmy zavádzali používateľov o bezpečnosti svojich nástrojov umelej inteligencie a o tom, ako bránia šíreniu materiálov sexuálneho zneužívania detí či intímnych obrázkov vytvorených bez súhlasu zobrazenej osoby. Ako uvádza WIRED, obe konania sa začali v pondelok na súdoch v Richmonde a okrese Multnomah v Oregone.
