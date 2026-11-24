@@ -7,7 +7,7 @@ tagy:
   - kybernetická bezpečnosť
   - výpadky
   - zraniteľnosti
-publikovane: 2026-11-22T03:33:47+00:00
+publikovane: 2026-11-24T13:23:53Z
 obrazok:
   src: /obrazky/rychlejsie-hladanie-chyb-zvysuje-tlak-na-opravy-a-stabilitu-sluzieb-mwuq6y7v.webp
   alt: Ilustračný obrázok.
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Wired: The Outages Are Just Getting Started"
     url: https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/
