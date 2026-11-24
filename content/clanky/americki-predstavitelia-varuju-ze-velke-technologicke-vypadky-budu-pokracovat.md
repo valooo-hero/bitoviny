@@ -8,7 +8,7 @@ tagy:
   - Outlook
   - kyberbezpečnosť
   - JPMorgan Chase
-publikovane: 2026-11-23T04:03:55+00:00
+publikovane: 2026-11-24T13:27:30Z
 obrazok:
   src: /obrazky/americki-predstavitelia-varuju-ze-velke-technologicke-vypadky-budu-pokracovat-mwuqbm2a.webp
   alt: Ilustračný obrázok.
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Verge: We haven’t seen the last of the major tech outages"
     url: https://www.theverge.com/tech/1039851/major-tech-outages
