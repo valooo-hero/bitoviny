@@ -3,24 +3,25 @@ title: Komunita prináša Windowsu 7 podporu DirectX 12 a Vulkanu 1.4
 perex: Neoficiálny projekt upravuje ovládačový model systému a má umožniť využívať novšie grafické karty Nvidia, AMD aj Intel. Podpora funkcií však závisí od hardvéru, ovládača aj aplikácie.
 sekcia: softver
 tagy:
-- Windows 7
-- DirectX 12
-- Vulkan 1.4
-- grafické karty
-publikovane: '2026-11-23T04:03:59+00:00'
+  - Windows 7
+  - DirectX 12
+  - Vulkan 1.4
+  - grafické karty
+publikovane: 2026-11-23T04:03:59+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/komunita-prinasa-windowsu-7-podporu-directx-12-a-vulkanu-1-4-mwuqd4gr.webp
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Tom''s Hardware: 17-year-old Windows 7 gets unofficial DirectX 12 and Vulkan 1.4 support'
-  url: https://www.tomshardware.com/software/windows/17-year-old-windows-7-gets-unofficial-directx-12-and-vulkan-1-4-support-enthusiasts-bring-nvidia-rtx-50-amd-rx-9000-and-intel-arc-gpus-to-the-aging-os
+  - nazov: "Tom's Hardware: 17-year-old Windows 7 gets unofficial DirectX 12 and Vulkan 1.4 support"
+    url: https://www.tomshardware.com/software/windows/17-year-old-windows-7-gets-unofficial-directx-12-and-vulkan-1-4-support-enthusiasts-bring-nvidia-rtx-50-amd-rx-9000-and-intel-arc-gpus-to-the-aging-os
 ---
 
 Komunitný projekt má priniesť 17-ročnému systému Windows 7 neoficiálnu podporu DirectX 12 a Vulkanu 1.4 aj novších grafických kariet od Nvidie, AMD a Intelu. Ide o úpravu vytvorenú nadšencami, nie o aktualizáciu od Microsoftu. Ako uvádza Tom’s Hardware, projekt vyvíjajú EAZY BLACK, kryptik a VisualEhrmanntraut.
