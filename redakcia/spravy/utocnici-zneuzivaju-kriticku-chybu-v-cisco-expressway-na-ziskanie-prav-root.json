@@ -1,0 +1,538 @@
+{
+  "slug": "utocnici-zneuzivaju-kriticku-chybu-v-cisco-expressway-na-ziskanie-prav-root",
+  "datum_sprav": "2026-11-23",
+  "dovod_vyberu": "Aktívne zneužívaná kritická zraniteľnosť v Cisco produktoch je dôležitá pre bezpečnosť firemnej infraštruktúry.",
+  "poznamky_pre_editora": "Vypustila som nepodloženú vetu odporúčajúcu organizáciám na Slovensku a v EÚ preveriť nasadenie Expressway a aplikovať opravu. Overte rozdiel v termíne pre americké federálne úrady: BleepingComputer uvádza tri dni podľa BOD 26-04, The Register píše o pondelku.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý a všetky overiteľné tvrdenia majú oporu v zdrojoch. Najvážnejším problémom je len drobná nepresnosť v citácii, ktorá je však v rámci tolerancie prekladu.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 25,
+        "potvrdenych": 24,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 22,
+        "potvrdenych": 22,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Americká agentúra CISA upozornila, že útočníci aktívne zneužívajú kritickú chybu v zariadeniach Cisco Expressway.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "CISA warned federal agencies that attackers are now exploiting a recently patched critical Cisco Expressway vulnerability in the wild.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zraniteľnosť CVE-2026-76466 umožňuje bez prihlásenia spúšťať príkazy na diaľku s najvyššími oprávneniami root.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "allows them to remotely execute commands as root without any authentication",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Týka sa zariadení Expressway-C a Expressway-E nakonfigurovaných v klastri, či už ide o virtuálne stroje alebo fyzické zariadenia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "on affected Cisco Expressway-C and Cisco Expressway-E devices configured in a cluster",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Cisco vydalo opravu ešte v októbri, keď chybu zverejnilo.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Cisco said in late October, when it released security patches to address the issue.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výrobca vtedy nepoznal prípady jej zneužitia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "At the time, the networking vendor said it wasn’t aware of any abuse of the vulnerability.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Cisco však podľa The Register ani po upozornení CISA nemá priame dôkazy o aktívnych útokoch.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Cisco updated its advisory on Monday to acknowledge CISA’s addition, while noting that it has no direct evidence of active exploitation.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Problém súvisí s pevne zakódovanými prihlasovacími údajmi a nedostatočným overovaním klientskych certifikátov v klastrovej konfigurácii.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "this security flaw stems from the use of hard-coded credentials and a failure to fully validate client certificates",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa upozornenia Cisco môže útočník, ktorý získa potrebné cookies, pristupovať k databázovej službe a vyvolať konkrétne príkazy RPC.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "An attacker with possession of the cookies could exploit this vulnerability by connecting to the database service and invoking specific remote procedure call (RPC) commands",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Úspešné zneužitie mu umožní vykonávať príkazy v operačnom systéme napadnutého zariadenia ako root.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "A successful exploit could allow the attacker to execute arbitrary commands as root on the underlying operating system of an affected device.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Expressway slúži ako brána pre firemnú hlasovú a videokomunikáciu. Prepája interné systémy s externými sieťami a používateľmi pracujúcimi na diaľku.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "connect internal voice and video systems with outside networks and remote users via a secure connection",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "F6 uviedla, že útočníci najprv napadli dve zariadenia Cisco Expressway dostupné z internetu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The attackers initially compromised two Cisco Expressway internet-facing devices.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Cez jedno z nich sa podľa firmy dostali k ďalším dvom uzlom klastra v internej sieti organizácie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Through one of them, they gained access to two additional cluster nodes located on the organization’s internal network.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Po získaní prístupu root pripravovali nástroje na ďalší pohyb po sieti.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "After obtaining root access, the attackers began preparing tooling for further lateral movement across the infrastructure.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Išlo o vlastné skripty v jazyku Python, ktoré mali vyhľadávať dostupné zdieľané súbory cez SMB, komunikovať so SQL Serverom a WinRM a prehľadávať úložiská GitLab.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "They used custom Python scripts designed to scan the network, discover accessible SMB resources, interact with SQL Server and WinRM, and explore GitLab repositories",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Cieľom malo byť nájdenie prihlasovacích údajov a ďalších citlivých informácií.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "in order to exfiltrate credentials and other sensitive information.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "F6 podľa analýzy skriptov usudzuje, že operátor používal AI asistenta.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The Python scripts used in the attack indicated that the operator used an AI assistant, according to F6.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register zároveň uvádza, že krátko pred zaznamenaným útokom sa objavil verejný proof-of-concept, teda ukážkový kód na zneužitie chyby.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "shortly after a public proof-of-concept exploit became available.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "F6 zverejnila aj možný indikátor kompromitácie: záznam „wombat@127.0.0.1“ v systémovom logu Erlang na zariadeniach Expressway.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "one of the key indicators of compromise is a nodeup “wombat@127.0.0.1” entry in the Erlang system log (erlang.log)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "CISA podrobnosti o útokoch nezverejnila.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "While CISA has yet to share details on these ongoing attacks",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "CISA zaradila chybu do katalógu Known Exploited Vulnerabilities a nariadila federálnym úradom v USA, aby systémy zabezpečili v krátkom termíne.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "added it to its Known Exploited Vulnerabilities (KEV) Catalog on Tuesday and ordered US Federal Civilian Executive Branch (FCEB) agencies to secure their systems within three days",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "BleepingComputer uvádza lehotu troch dní podľa smernice BOD 26-04; The Register píše, že úrady mali opraviť systémy do pondelka.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "secure their systems within three days, as mandated by Binding Operational Directive (BOD) 26-04.",
+        "komentar": "Oba zdroje uvádzajú termíny, ktoré sú v súlade, hoci The Register hovorí o pondelku a BleepingComputer o troch dňoch.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Agentúra vyzvala aj súkromné organizácie a ďalších správcov sietí, aby opravu uprednostnili.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "CISA urged all network defenders, including private-sector security teams, to prioritize patching this flaw",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "titulok",
+        "text": "root",
+        "kontext": "ybu v Cisco Expressway na získanie práv root",
+        "navrhy": [
+          "Foot",
+          "Robot",
+          "foot"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "root",
+        "kontext": "azy na diaľku s najvyššími oprávneniami root. Týka sa zariadení Expressway-C a Expre",
+        "navrhy": [
+          "Foot",
+          "Robot",
+          "foot"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "klastri",
+        "kontext": "ay-C a Expressway-E nakonfigurovaných v klastri, či už ide o virtuálne stroje alebo fyz",
+        "navrhy": [
+          "kla stri",
+          "klas tri"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "nemá",
+        "kontext": "dľa The Register ani po upozornení CISA nemá priame dôkazy o aktívnych útokoch. Bezp",
+        "navrhy": [
+          "nemé"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (nemá) \"nemé\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "klastri",
+        "kontext": "žili.\n\n## Chyba v overovaní zariadení v klastri\n\nProblém súvisí s pevne zakódovanými pr",
+        "navrhy": [
+          "kla stri",
+          "klas tri"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "klastrovej",
+        "kontext": "m overovaním klientskych certifikátov v klastrovej konfigurácii. Podľa upozornenia Cisco m",
+        "navrhy": [
+          "kl astrovej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cookies",
+        "kontext": "isco môže útočník, ktorý získa potrebné cookies, pristupovať k databázovej službe a vyv",
+        "navrhy": [
+          "chorieš",
+          "poorieš"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "operačnom systéme napadnutého zariadenia ako root.\n\nExpressway slúži ako brána pre f",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "root",
+        "kontext": "čnom systéme napadnutého zariadenia ako root.\n\nExpressway slúži ako brána pre firemn",
+        "navrhy": [
+          "Foot",
+          "Robot",
+          "foot"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "o zariadenia ako root.\n\nExpressway slúži ako brána pre firemnú hlasovú a videokomuni",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "videokomunikáciu",
+        "kontext": "y slúži ako brána pre firemnú hlasovú a videokomunikáciu. Prepája interné systémy s externými si",
+        "navrhy": [
+          "video komunikáciu"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "častí",
+        "kontext": "níkovi poskytnúť vstupný bod do ďalších častí podnikovej infraštruktúry.\n\n## F6 opisu",
+        "navrhy": [
+          "častej"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (častí) \"častej\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "klastra",
+        "kontext": "podľa firmy dostali k ďalším dvom uzlom klastra v internej sieti organizácie. Po získan",
+        "navrhy": [
+          "kláštora",
+          "kl astra",
+          "klas tra"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "root",
+        "kontext": " sieti organizácie. Po získaní prístupu root pripravovali nástroje na ďalší pohyb po",
+        "navrhy": [
+          "Foot",
+          "Robot",
+          "foot"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "proof-of-concept",
+        "kontext": " zaznamenaným útokom sa objavil verejný proof-of-concept, teda ukážkový kód na zneužitie chyby.\n",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "kompromitácie",
+        "kontext": "hyby.\n\nF6 zverejnila aj možný indikátor kompromitácie: záznam „wombat@127.0.0.1“ v systémovom",
+        "navrhy": [
+          "komprimácie",
+          "kompromitovanie",
+          "kompromituje"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Cisco_router_lfh60_connectors.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://www.bleepstatic.com/content/hl-images/2026/11/23/Cisco.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://image.theregister.com/?imageId=5249134&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Cisco Expressway",
+      "Cisco router",
+      "server rack"
+    ],
+    "alternativy": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Cisco_router_lfh60_connectors.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/5/58/Cisco_router_lfh60_connectors.jpg",
+        "nazov": "Cisco router lfh60 connectors.jpg",
+        "autor": "Anihl",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Cisco_router_lfh60_connectors.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Cisco router"
+      },
+      {
+        "url": "https://live.staticflickr.com/3019/2796637147_929085a728_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/a07bdfb1-e73b-40f6-be1e-c140550e71f6/thumb/",
+        "nazov": "Cisco Routers",
+        "autor": "Leonardo Rizzi",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/29479498@N05/2796637147",
+        "povod": "openverse",
+        "dopyt": "Cisco router"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Router_Cisco_1900_series.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/3/35/Router_Cisco_1900_series.jpg",
+        "nazov": "Router Cisco 1900 series.jpg",
+        "autor": "Maraguache",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Router_Cisco_1900_series.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Cisco router"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Cisco_router_WPS_button.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/dd70a6c2-0833-439a-aa42-35741666dfa0/thumb/",
+        "nazov": "Cisco router WPS button",
+        "autor": "ArnoldReinhold",
+        "licencia": "BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=17888874",
+        "povod": "openverse",
+        "dopyt": "Cisco router"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg/1280px-Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg/1280px-Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg",
+        "nazov": "Rack of Cisco Hyperflex HXAF 240c M5 nodes.jpg",
+        "autor": "Btrs",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Rack_of_Cisco_Hyperflex_HXAF_240c_M5_nodes.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/24/65675213_de819df88d_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c28b5999-ea14-4b83-ace1-aa2e496803a7/thumb/",
+        "nazov": "Server Rack in the Laundry Room",
+        "autor": "zdw",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/75783104@N00/65675213",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic cybersecurity illustration of a clustered network gateway with a highlighted vulnerability and branching paths into an abstract corporate network, using no logos, text, or realistic people."
+  },
+  "prompt_ilustracie": "Create a symbolic cybersecurity illustration of a clustered network gateway with a highlighted vulnerability and branching paths into an abstract corporate network, using no logos, text, or realistic people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/ebcf53598e1545363af8ab5ae24e8f74",
+  "text_agentov": {
+    "titulok": "Útočníci zneužívajú kritickú chybu v Cisco Expressway na získanie práv root",
+    "perex": "CISA označila zraniteľnosť za aktívne zneužívanú a vyzvala na rýchlu opravu. Bezpečnostná firma F6 opisuje prienik cez internetovo dostupné zariadenia aj prípravu na ďalší pohyb v napadnutej sieti.",
+    "telo": "Americká agentúra CISA upozornila, že útočníci aktívne zneužívajú kritickú chybu v zariadeniach Cisco Expressway. Zraniteľnosť CVE-2026-76466 umožňuje bez prihlásenia spúšťať príkazy na diaľku s najvyššími oprávneniami root. Týka sa zariadení Expressway-C a Expressway-E nakonfigurovaných v klastri, či už ide o virtuálne stroje alebo fyzické zariadenia.\n\nCisco vydalo opravu ešte v októbri, keď chybu zverejnilo. Ako uviedli BleepingComputer a The Register, výrobca vtedy nepoznal prípady jej zneužitia. Cisco však podľa The Register ani po upozornení CISA nemá priame dôkazy o aktívnych útokoch. Bezpečnostná firma F6 naopak opisuje konkrétny incident, pri ktorom útočníci chybu využili.\n\n## Chyba v overovaní zariadení v klastri\n\nProblém súvisí s pevne zakódovanými prihlasovacími údajmi a nedostatočným overovaním klientskych certifikátov v klastrovej konfigurácii. Podľa upozornenia Cisco môže útočník, ktorý získa potrebné cookies, pristupovať k databázovej službe a vyvolať konkrétne príkazy RPC. Úspešné zneužitie mu umožní vykonávať príkazy v operačnom systéme napadnutého zariadenia ako root.\n\nExpressway slúži ako brána pre firemnú hlasovú a videokomunikáciu. Prepája interné systémy s externými sieťami a používateľmi pracujúcimi na diaľku. Kompromitovanie zariadenia tak môže útočníkovi poskytnúť vstupný bod do ďalších častí podnikovej infraštruktúry.\n\n## F6 opisuje pohyb do internej siete\n\nF6 uviedla, že útočníci najprv napadli dve zariadenia Cisco Expressway dostupné z internetu. Cez jedno z nich sa podľa firmy dostali k ďalším dvom uzlom klastra v internej sieti organizácie. Po získaní prístupu root pripravovali nástroje na ďalší pohyb po sieti.\n\nIšlo o vlastné skripty v jazyku Python, ktoré mali vyhľadávať dostupné zdieľané súbory cez SMB, komunikovať so SQL Serverom a WinRM a prehľadávať úložiská GitLab. Cieľom malo byť nájdenie prihlasovacích údajov a ďalších citlivých informácií. F6 podľa analýzy skriptov usudzuje, že operátor používal AI asistenta. The Register zároveň uvádza, že krátko pred zaznamenaným útokom sa objavil verejný proof-of-concept, teda ukážkový kód na zneužitie chyby.\n\nF6 zverejnila aj možný indikátor kompromitácie: záznam „wombat@127.0.0.1“ v systémovom logu Erlang na zariadeniach Expressway. CISA podrobnosti o útokoch nezverejnila.\n\n## Výzva na opravu, no nejednotné termíny\n\nCISA zaradila chybu do katalógu Known Exploited Vulnerabilities a nariadila federálnym úradom v USA, aby systémy zabezpečili v krátkom termíne. BleepingComputer uvádza lehotu troch dní podľa smernice BOD 26-04; The Register píše, že úrady mali opraviť systémy do pondelka. Agentúra vyzvala aj súkromné organizácie a ďalších správcov sietí, aby opravu uprednostnili."
+  }
+}
