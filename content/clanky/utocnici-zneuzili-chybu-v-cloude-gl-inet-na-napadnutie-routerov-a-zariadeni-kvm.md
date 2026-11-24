@@ -3,25 +3,26 @@ title: Útočníci zneužili chybu v cloude GL.iNet na napadnutie routerov a zar
 perex: Výrobca opravil cestu, ktorou útočníci prenikali do zariadení cez službu GoodCloud, no už nainštalovaný malvér tým neodstránil. Rozsah napadnutia zatiaľ nevyčíslil.
 sekcia: bezpecnost
 tagy:
-- GL.iNet
-- GoodCloud
-- routery
-- malvér
-- kybernetická bezpečnosť
-publikovane: '2026-11-23T04:03:50+00:00'
+  - GL.iNet
+  - GoodCloud
+  - routery
+  - malvér
+  - kybernetická bezpečnosť
+publikovane: 2026-11-23T04:03:50+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/utocnici-zneuzili-chybu-v-cloude-gl-inet-na-napadnutie-routerov-a-zariadeni-kvm-mwuq9tvj.webp
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'BleepingComputer: Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices'
-  url: https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/
+  - nazov: "BleepingComputer: Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices"
+    url: https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/
 ---
 
 Spoločnosť GL.iNet potvrdila, že útočníci zneužili chybu v jej cloudových službách na vzdialenú správu a do niektorých routerov a zariadení KVM nainštalovali malvér. Firma tvrdí, že napadnutú cestu zablokovala a chybu opravila. Oprava však neodstráni škodlivý softvér zo zariadení, ktoré už boli napadnuté.
