@@ -46,18 +46,22 @@ def sprava_vyberu(kandidati: list[dict], pocet: int) -> str:
     for i, t in enumerate(kandidati, 1):
         titulky = "; ".join(_bez_znaciek(s["titulok"])[:140] for s in t["spravy"][:3])
         riadky.append(f"{i}. [{t['pocet_zdrojov']} zdroje, HN {t['signal_hn']}] {titulky}")
-    return f"Vyber {pocet} tém z tohto zoznamu.\n\n<temy>\n" + "\n".join(riadky) + "\n</temy>"
+    return f"Vyber najviac {pocet} vhodných tém a zoraď ich od najdôležitejšej.\n\n<temy>\n" + "\n".join(riadky) + "\n</temy>"
 
 
-def vyber_temy(kandidati: list[dict], pocet: int, model: Any | None = None, config: dict | None = None) -> list[StavClanku]:
+def vyber_temy(
+    kandidati: list[dict], pocet: int, model: Any | None = None, config: dict | None = None,
+    *, s_rezervou: bool = False,
+) -> list[StavClanku]:
     # Článok má stáť na aspoň dvoch nezávislých zdrojoch. Jednozdrojové témy sa
     # modelu ponúknu len vtedy, keď viaczdrojových nie je dosť.
     viac = [t for t in kandidati if t.get("pocet_zdrojov", 0) >= 2]
     if len(viac) >= pocet:
         kandidati = viac
+    limit = len(kandidati) if s_rezervou else pocet
     model = model or model_pre("vyber_tem", VyberTem)
     vyber: VyberTem = model.invoke(
-        [SystemMessage(_prompt("vyber_tem")), HumanMessage(sprava_vyberu(kandidati, pocet))], config=config
+        [SystemMessage(_prompt("vyber_tem")), HumanMessage(sprava_vyberu(kandidati, limit))], config=config
     )
     stavy, pouzite = [], set()
     for v in vyber.vybrane:
@@ -66,7 +70,7 @@ def vyber_temy(kandidati: list[dict], pocet: int, model: Any | None = None, conf
             continue
         pouzite.add(v.cislo)
         stavy.append(StavClanku(tema=kandidati[v.cislo - 1], sekcia_navrh=v.sekcia, dovod_vyberu=v.dovod))
-    return stavy[:pocet]
+    return stavy[:limit]
 
 
 # ---------- autorka ----------

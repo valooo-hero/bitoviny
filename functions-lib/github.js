@@ -26,8 +26,9 @@ export class GitHub {
     this.token = token;
   }
 
-  async api(metoda, cesta, telo) {
-    const r = await fetch(`https://api.github.com/repos/${this.repo}${cesta}`, {
+  async api(metoda, cesta, telo, stranka = false) {
+    const url = cesta.startsWith('https://api.github.com/') ? cesta : `https://api.github.com/repos/${this.repo}${cesta}`;
+    const r = await fetch(url, {
       method: metoda,
       headers: {
         Authorization: `Bearer ${this.token}`,
@@ -40,11 +41,73 @@ export class GitHub {
     if (r.status === 204) return null;
     const data = await r.json().catch(() => ({}));
     if (!r.ok) throw new Error(`GitHub ${metoda} ${cesta}: ${r.status} ${data.message || ''}`);
-    return data;
+    return stranka ? { data, link: r.headers.get('Link') } : data;
+  }
+
+  async vsetkyStrany(cesta) {
+    const vysledok = [];
+    const navstivene = new Set();
+    while (cesta) {
+      if (navstivene.has(cesta)) throw new Error('GitHub zopakoval adresu pri stránkovaní.');
+      navstivene.add(cesta);
+      const { data, link } = await this.api('GET', cesta, undefined, true);
+      vysledok.push(...data);
+      const dalsia = /<([^>]+)>;\s*rel="next"/.exec(link ?? '')?.[1];
+      if (!dalsia) break;
+      const url = new URL(dalsia);
+      const predpona = '/repos/' + this.repo;
+      const cestaRepozitara = url.pathname.startsWith(predpona + '/') || /^\/repositories\/\d+\//.test(url.pathname);
+      if (url.origin !== 'https://api.github.com' || url.username || url.password || !cestaRepozitara) {
+        throw new Error('GitHub vrátil neočakávanú adresu ďalšej strany.');
+      }
+      cesta = url.href;
+    }
+    return vysledok;
+  }
+
+  async suboryClankov() {
+    const { tree, truncated } = await this.api('GET', '/git/trees/main?recursive=1');
+    if (truncated) throw new Error('GitHub vrátil neúplný strom článkov.');
+    return tree.filter((p) => p.type === 'blob' && p.path.startsWith('content/clanky/') && p.path.endsWith('.md'));
+  }
+
+  async *textyClankov(clanky) {
+    const [owner, name] = this.repo.split('/');
+    const davka = 24;
+    for (let i = 0; i < clanky.length; i += davka) {
+      const subory = clanky.slice(i, i + davka);
+      const argumenty = subory.map((_, j) => '$sha' + j + ': GitObjectID!');
+      const polia = subory.map((_, j) =>
+        'clanok' + j + ': object(oid: $sha' + j + ') { ... on Blob { text isTruncated } }'
+      );
+      const query = 'query ($owner: String!, $name: String!, ' + argumenty.join(', ') + ') {' +
+        ' repository(owner: $owner, name: $name) { ' + polia.join(' ') + ' } }';
+      const variables = { owner, name, ...Object.fromEntries(subory.map((s, j) => ['sha' + j, s.sha])) };
+      const odpoved = await fetch('https://api.github.com/graphql', {
+        method: 'POST',
+        headers: {
+          Authorization: 'Bearer ' + this.token,
+          'Content-Type': 'application/json',
+          'User-Agent': 'bitoviny-admin',
+        },
+        body: JSON.stringify({ query, variables }),
+      });
+      const { data, errors } = await odpoved.json();
+      if (!odpoved.ok || errors?.length || !data?.repository) {
+        throw new Error('GitHub neposkytol archív na overenie duplicít.');
+      }
+      for (const [j, subor] of subory.entries()) {
+        const blob = data.repository['clanok' + j];
+        if (typeof blob?.text !== 'string' || blob.isTruncated) {
+          throw new Error('GitHub vrátil neúplný článok z archívu.');
+        }
+        yield { path: subor.path, text: blob.text };
+      }
+    }
   }
 
   async koncepty() {
-    const prs = await this.api('GET', '/pulls?state=open&per_page=50&sort=created&direction=desc');
+    const prs = await this.vsetkyStrany('/pulls?state=open&base=main&per_page=100&sort=created&direction=desc');
     return prs
       .filter((p) => p.head.ref.startsWith(PREDPONA_VETVY) && p.head.repo?.full_name === this.repo)
       .map((p) => ({

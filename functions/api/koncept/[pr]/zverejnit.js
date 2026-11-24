@@ -1,4 +1,5 @@
 import { overTexty, rozdel, zloz } from '../../../../functions-lib/clanok.js';
+import { prekazkaZverejnenia } from '../../../../functions-lib/duplicity.js';
 import { GitHub, jeZastupnyObrazok } from '../../../../functions-lib/github.js';
 import { chyba } from '../../../../functions-lib/pristup.js';
 
@@ -21,6 +22,9 @@ export async function onRequestPost({ env, params, request, data }) {
   }
   if (vstup.potvrdenie !== true) prekazky.push('Chýba potvrdenie, že editor článok skontroloval.');
   if (prekazky.length) return chyba(400, prekazky.join(' '));
+
+  const duplicita = await prekazkaZverejnenia(gh, k.clanok, hlavicka);
+  if (duplicita) return chyba(409, duplicita);
 
   hlavicka.publikovane = new Date().toISOString().replace(/\.\d+Z$/, 'Z');
   hlavicka.redaktori = { ...(hlavicka.redaktori || {}), schvalil: 'sefredaktor' };

@@ -17,6 +17,7 @@ import logging
 import os
 import re
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -41,8 +42,10 @@ def bez_html(text: str) -> str:
 
 
 def rozdel_koncept(markdown: str) -> tuple[dict, str]:
-    _, fm, telo = markdown.split("---\n", 2)
-    return yaml.safe_load(fm), telo.strip()
+    hlavicka = re.match(r"^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)", markdown)
+    if hlavicka is None:
+        raise ValueError("Článok nemá platnú YAML hlavičku.")
+    return yaml.safe_load(hlavicka[1]), markdown[hlavicka.end():].strip()
 
 
 def clanok_pre_web(fm: dict, telo: str, teraz: datetime) -> str:
@@ -104,13 +107,68 @@ def popis_pr(fm: dict, sprava: dict) -> str:
 
 
 class GitHub:
-    def __init__(self, token: str, repo: str = REPO):
+    def __init__(self, token: str | None, repo: str = REPO, *, transport=None):
         self.repo = repo
-        self.http = httpx.Client(
-            base_url=f"{API}/repos/{repo}",
-            headers={"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json", "User-Agent": "bitoviny-pipeline"},
-            timeout=30,
-        )
+        headers = {"Accept": "application/vnd.github+json", "User-Agent": "bitoviny-pipeline"}
+        if token:
+            headers["Authorization"] = f"Bearer {token}"
+        self.http = httpx.Client(base_url=f"{API}/repos/{repo}", headers=headers, timeout=20, transport=transport)
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *exc):
+        self.http.close()
+
+    def _get(self, cesta: str) -> httpx.Response:
+        for pokus in range(3):
+            try:
+                odpoved = self.http.get(cesta)
+            except httpx.TransportError:
+                if pokus == 2:
+                    raise
+                time.sleep(2 ** pokus)
+                continue
+            retry_after = odpoved.headers.get("Retry-After")
+            vycerpany_limit = odpoved.headers.get("X-RateLimit-Remaining") == "0"
+            retry = odpoved.status_code in {429, 500, 502, 503, 504} or (
+                odpoved.status_code == 403 and (retry_after is not None or vycerpany_limit)
+            )
+            if not retry or pokus == 2:
+                return odpoved
+            if retry_after and retry_after.isdigit():
+                cakanie = int(retry_after)
+            elif vycerpany_limit and odpoved.headers.get("X-RateLimit-Reset", "").isdigit():
+                cakanie = max(0, int(odpoved.headers["X-RateLimit-Reset"]) - time.time())
+            elif odpoved.status_code in {403, 429}:
+                return odpoved
+            else:
+                cakanie = 2 ** pokus
+            if cakanie > 20:
+                return odpoved
+            time.sleep(cakanie)
+        raise RuntimeError("GitHub neodpovedal.")
+
+    def citaj(self, cesta: str) -> dict:
+        return self._ok(self._get(cesta))
+
+    def strany(self, cesta: str):
+        cakajuce = set()
+        while cesta:
+            if cesta in cakajuce:
+                raise RuntimeError("GitHub zopakoval adresu pri stránkovaní.")
+            cakajuce.add(cesta)
+            odpoved = self._get(cesta)
+            strana = self._ok(odpoved)
+            if not isinstance(strana, list):
+                raise RuntimeError("GitHub nevrátil zoznam záznamov.")
+            yield from strana
+            dalsia = odpoved.links.get("next", {}).get("url")
+            if dalsia:
+                url = httpx.URL(dalsia)
+                if url.scheme != "https" or url.host != "api.github.com" or url.port or url.userinfo:
+                    raise RuntimeError("GitHub vrátil neočakávanú adresu ďalšej strany.")
+            cesta = dalsia
 
     def _ok(self, r: httpx.Response) -> dict:
         if r.status_code >= 400:
@@ -118,10 +176,14 @@ class GitHub:
         return r.json() if r.content else {}
 
     def vetva_existuje(self, vetva: str) -> bool:
-        return self.http.get(f"/git/ref/heads/{vetva}").status_code == 200
+        odpoved = self._get(f"/git/ref/heads/{vetva}")
+        if odpoved.status_code == 404:
+            return False
+        self._ok(odpoved)
+        return True
 
     def vytvor_vetvu(self, vetva: str, zaklad: str = "main") -> None:
-        sha = self._ok(self.http.get(f"/git/ref/heads/{zaklad}"))["object"]["sha"]
+        sha = self.citaj(f"/git/ref/heads/{zaklad}")["object"]["sha"]
         self._ok(self.http.post("/git/refs", json={"ref": f"refs/heads/{vetva}", "sha": sha}))
 
     def zapis_subor(self, cesta: str, obsah: str, vetva: str, sprava: str) -> None:
@@ -167,9 +229,21 @@ def main(argv: list[str] | None = None) -> int:
     if not subory:
         print(__doc__)
         return 2
-    for s in subory:
-        url = publikuj(s)
-        print(f"{s.name}: {url or 'už existuje'}")
+    from .archiv import ArchivGitHub, prekazka_zapisu
+    from .duplicity import KontrolaTem, z_hlavicky
+
+    with GitHub(os.environ["GITHUB_TOKEN"]) as gh:
+        archiv = ArchivGitHub(gh, datetime.now(timezone.utc))
+        kontrola = KontrolaTem()
+        for s in subory:
+            hlavicka, _ = rozdel_koncept(s.read_text(encoding="utf-8"))
+            tema = z_hlavicky(f"lokalny:{s.stem}", hlavicka)
+            prekazka = prekazka_zapisu(archiv, kontrola, s.stem, tema)
+            if prekazka:
+                print(f"{s.name}: {prekazka}")
+                continue
+            url = publikuj(s, gh)
+            print(f"{s.name}: {url or 'už existuje'}")
     return 0
 
 

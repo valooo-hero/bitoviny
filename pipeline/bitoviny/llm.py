@@ -65,7 +65,7 @@ def _over_vystup(vystup):
     return vystup
 
 
-def model_pre(rola: str, schema: Any | None = None, *, so_zdrojom: bool = False):
+def model_pre(rola: str, schema: Any | None = None, *, so_zdrojom: bool = False, over_vystup=None):
     """Model pre danú rolu. Ak je daná schéma, vracia overený štruktúrovaný výstup."""
     cfg = konfiguracia()[rola]
     teplota = cfg.get("teplota", 0.3)
@@ -77,6 +77,13 @@ def model_pre(rola: str, schema: Any | None = None, *, so_zdrojom: bool = False)
         if schema is not None:
             kw = {"method": s["metoda"]} if s.get("metoda") else {}
             m = m.with_structured_output(schema, **kw) | RunnableLambda(_over_vystup)
+        if over_vystup is not None:
+            def over(spravy, m=m):
+                vystup = m.invoke(spravy)
+                over_vystup(vystup, spravy)
+                return vystup
+
+            m = RunnableLambda(over)
         if so_zdrojom:
             # Zdroj sa pripája až po úspešnom overení výstupu konkrétneho modelu.
             zdroj = f"{s['model']} ({s['provider']})"

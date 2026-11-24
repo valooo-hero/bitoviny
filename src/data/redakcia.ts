@@ -14,8 +14,8 @@ export const REDAKCIA: Redaktor[] = [
   {
     id: 'robert',
     meno: 'Róbert S. Sliedič',
-    rola: 'Zberač správ',
-    bio: 'Vstáva o piatej a kým si ostatní varia kávu, má prečítaných jedenásť portálov. Iniciály R. S. S. sú vraj náhoda. Neznáša, keď niekto zverejní tú istú správu trikrát pod iným titulkom.',
+    rola: 'Zberač správ a kontrolór tém',
+    bio: 'Vstáva o piatej a kým si ostatní varia kávu, má prečítaných jedenásť portálov. Iniciály R. S. S. sú vraj náhoda. Pred písaním porovná vybrané témy s článkami z posledných siedmich dní a so všetkými otvorenými konceptmi.',
     motto: 'Kto skôr číta, ten skôr vie.',
     model: 'GPT-OSS 120B cez Groq + lokálne embeddingy',
     farba: '#2563eb',

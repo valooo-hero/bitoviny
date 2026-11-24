@@ -10,14 +10,20 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import os
 import sys
 import time
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
+
+import httpx
 
 from ..llm import KOREN, langfuse_klient, nazvy_modelov
 from ..zber.__main__ import spusti as spusti_zber
 from ..zber.rss import vcera
+from .archiv import ArchivGitHub, prekazka_zapisu
+from .duplicity import KontrolaTem, Zaznam, popis_vysledku, z_temy
+from .publikacia import GitHub, publikuj
 from .graf import vyber_temy, zostav_graf
 from .modely import Koncept, StavClanku
 
@@ -77,7 +83,12 @@ def factcheck_do_spravy(stav: StavClanku) -> dict | None:
     }
 
 
-def spusti(den: date, pocet: int, max_clankov: int | None = None) -> list[Path]:
+def spusti(
+    den: date, pocet: int, max_clankov: int | None = None,
+    *, gh: GitHub | None = None, pr: bool = False, iba_kontrola: bool = False,
+    teraz: datetime | None = None,
+) -> list[Path]:
+    teraz = teraz or datetime.now(timezone.utc)
     temy_subor = KOREN / "data" / "raw" / f"temy-{den.isoformat()}.json"
     if not temy_subor.exists():
         log.info("Témy za %s chýbajú, spúšťam Zberača.", den)
@@ -87,10 +98,18 @@ def spusti(den: date, pocet: int, max_clankov: int | None = None) -> list[Path]:
         log.warning("Žiadne témy za %s.", den)
         return []
 
+    if gh is None:
+        token = os.environ["GITHUB_TOKEN"] if pr else os.getenv("GITHUB_TOKEN")
+        with GitHub(token) as klient:
+            return spusti(
+                den, pocet, max_clankov, gh=klient, pr=pr, iba_kontrola=iba_kontrola, teraz=teraz,
+            )
+
     lf = langfuse_klient()
-    graf = zostav_graf()
-    vystup_dir = KOREN / "data" / "koncepty" / den.isoformat()
-    vystup_dir.mkdir(parents=True, exist_ok=True)
+    archiv = ArchivGitHub(gh, teraz)
+    snimka = archiv.nacitaj()
+    kontrola = KontrolaTem()
+    log.info("Záznamov na kontrolu originality: %d.", len(snimka.zaznamy))
     hotove: list[Path] = []
 
     def s_trasovanim(nazov: str, vstup: dict, fn):
@@ -107,11 +126,33 @@ def spusti(den: date, pocet: int, max_clankov: int | None = None) -> list[Path]:
     vybrane, _ = s_trasovanim(
         "vyber-tem",
         {"datum": den.isoformat(), "kandidatov": len(kandidati)},
-        lambda cfg: vyber_temy(kandidati, pocet, config=cfg),
+        lambda cfg: vyber_temy(kandidati, pocet, config=cfg, s_rezervou=True),
     )
     log.info("Vybraných %d tém z %d kandidátov.", len(vybrane), len(kandidati))
 
-    for i, stav in enumerate(vybrane[: max_clankov or pocet]):
+    schvalene: list[tuple[StavClanku, Zaznam]] = []
+    ciel = min(pocet, max_clankov) if max_clankov is not None else pocet
+    for i, stav in enumerate(vybrane, 1):
+        if len(schvalene) >= ciel:
+            break
+        tema = z_temy(stav["tema"], i)
+        nalez = kontrola.over(tema, snimka.zaznamy + [z for _, z in schvalene])
+        log.info("Róbert | %s | %s", tema.titulok, popis_vysledku(nalez))
+        if nalez.postupuje:
+            schvalene.append((stav, tema))
+
+    log.info("Róbert schválil tém: %d.", len(schvalene))
+    if iba_kontrola or not schvalene:
+        if lf is not None:
+            lf.flush()
+        return []
+
+    graf = zostav_graf()
+    vystup_dir = KOREN / "data" / "koncepty" / den.isoformat()
+    vystup_dir.mkdir(parents=True, exist_ok=True)
+    neuspechy = 0
+    pouzite_cesty = set()
+    for i, (stav, tema) in enumerate(schvalene):
         if i:
             time.sleep(PAUZA_S)
         titulok = stav["tema"]["titulok"]
@@ -123,15 +164,34 @@ def spusti(den: date, pocet: int, max_clankov: int | None = None) -> list[Path]:
             )
         except Exception as e:  # limit alebo výpadok všetkých modelov: článok sa odloží, beh pokračuje
             log.error("Článok „%s“ sa nepodarilo napísať: %s", titulok[:60], str(e)[:300])
+            neuspechy += 1
             continue
         k: Koncept = vysledok["koncept"]
-        subor = vystup_dir / f"{slug(k.titulok)}.md"
+        id_clanku = slug(k.titulok)
+        if id_clanku in pouzite_cesty:
+            log.warning("Róbert | %s | titulok by prepísal koncept z tohto behu.", k.titulok)
+            continue
+        pouzite_cesty.add(id_clanku)
+        if pr:
+            prekazka = prekazka_zapisu(archiv, kontrola, id_clanku, tema, snimka.zaznamy)
+            if prekazka:
+                log.warning("Róbert | %s | %s", k.titulok, prekazka)
+                continue
+        subor = vystup_dir / f"{id_clanku}.md"
         subor.write_text(koncept_na_markdown(k, {**stav, **vysledok}, den, trace), encoding="utf-8")
         hotove.append(subor)
         log.info("Koncept: %s", subor.name)
+        if pr:
+            try:
+                log.info("PR: %s", publikuj(subor, gh) or "už existuje")
+            except (RuntimeError, OSError, httpx.HTTPError) as e:
+                neuspechy += 1
+                log.error("Pull request pre %s sa nepodarilo vytvoriť: %s", subor.name, e)
 
     if lf is not None:
         lf.flush()
+    if neuspechy and (pr or not hotove):
+        raise RuntimeError(f"Počet zlyhaných redakčných operácií: {neuspechy}.")
     return hotove
 
 
@@ -141,7 +201,12 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--pocet", type=int, default=5, help="počet tém, ktoré má model vybrať")
     p.add_argument("--max-clankov", type=int, default=None, help="napísať najviac toľko konceptov (šetrí limity)")
     p.add_argument("--pr", action="store_true", help="z každého konceptu otvoriť pull request (treba GITHUB_TOKEN)")
+    p.add_argument("--iba-kontrola", action="store_true", help="vypíše verdikty bez písania konceptov a otvárania PR")
     a = p.parse_args(argv)
+    if a.pr and a.iba_kontrola:
+        p.error("Použite buď --pr, alebo --iba-kontrola.")
+    if a.pocet < 1 or (a.max_clankov is not None and a.max_clankov < 1):
+        p.error("Počet článkov musí byť kladný.")
 
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
     for hlucny in ("httpx", "httpcore", "huggingface_hub", "trafilatura", "google_genai", "langchain_google_genai"):
@@ -151,18 +216,16 @@ def main(argv: list[str] | None = None) -> int:
 
     den = a.datum or vcera()
     print(f"Modely autorky: {', '.join(nazvy_modelov('autorka'))}")
-    hotove = spusti(den, a.pocet, a.max_clankov)
-    print(f"\n{den}: {len(hotove)} konceptov")
-    for h in hotove:
-        print(f"  {h}")
-        if a.pr:
-            from .publikacia import publikuj
-
-            try:
-                print(f"    PR: {publikuj(h) or 'už existuje'}")
-            except Exception as e:  # zlyhanie jedného PR nesmie zastaviť ostatné
-                log.error("Pull request pre %s sa nepodarilo vytvoriť: %s", h.name, str(e)[:300])
-    return 0 if hotove else 1
+    try:
+        hotove = spusti(den, a.pocet, a.max_clankov, pr=a.pr, iba_kontrola=a.iba_kontrola)
+    except (RuntimeError, ValueError, KeyError, httpx.HTTPError) as e:
+        log.error("Redakciu sa nepodarilo dokončiť: %s", e)
+        return 1
+    if not a.iba_kontrola:
+        print(f"\n{den}: {len(hotove)} konceptov")
+        for h in hotove:
+            print(f"  {h}")
+    return 0
 
 
 if __name__ == "__main__":
