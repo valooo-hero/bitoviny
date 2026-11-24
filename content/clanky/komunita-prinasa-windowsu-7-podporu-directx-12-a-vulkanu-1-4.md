@@ -7,7 +7,7 @@ tagy:
   - DirectX 12
   - Vulkan 1.4
   - grafické karty
-publikovane: 2026-11-23T04:03:59+00:00
+publikovane: 2026-11-24T13:28:47Z
 obrazok:
   src: /obrazky/komunita-prinasa-windowsu-7-podporu-directx-12-a-vulkanu-1-4-mwuqd4gr.webp
   alt: Ilustračný obrázok.
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Tom's Hardware: 17-year-old Windows 7 gets unofficial DirectX 12 and Vulkan 1.4 support"
     url: https://www.tomshardware.com/software/windows/17-year-old-windows-7-gets-unofficial-directx-12-and-vulkan-1-4-support-enthusiasts-bring-nvidia-rtx-50-amd-rx-9000-and-intel-arc-gpus-to-the-aging-os
