@@ -1,5 +1,6 @@
 from datetime import date
 
+import pytest
 import yaml
 from langchain_core.runnables import RunnableLambda
 
@@ -45,7 +46,7 @@ def test_konfiguracia_modelov():
     assert {"vyber_tem", "autorka"} <= set(cfg)
     for rola in cfg.values():
         assert len(rola["modely"]) >= 2, "každá rola má mať aspoň jednu zálohu"
-        assert all(m["provider"] in {"google", "groq", "openrouter", "openai", "deepinfra"} for m in rola["modely"])
+        assert all(m["provider"] in {"google", "groq", "openrouter"} for m in rola["modely"])
 
 def test_vyber_tem_zahodi_neplatne_cisla_a_duplicity():
     kandidati = [_tema() for _ in range(4)]
@@ -193,52 +194,50 @@ def test_rozsirenie_ktore_text_skrati_sa_zahodi():
     assert 300 <= len(v["koncept"].telo.split()) < 310
 
 
-def test_deepinfra_bez_kluca_sa_vynecha(monkeypatch):
+@pytest.mark.parametrize("provider,model", [
+    ("openai", "gpt-6-luna"), ("deepinfra", "deepseek"),
+    ("openrouter", "baidu/ernie-5.5-flash-preview"), ("openrouter", "openrouter/auto"),
+])
+def test_platena_cesta_sa_odmietne(provider, model, monkeypatch):
     from bitoviny import llm
 
-    monkeypatch.delenv("DEEPINFRA_API_KEY", raising=False)
-    assert llm._vytvor({"provider": "deepinfra", "model": "x"}, 0.1) is None
-    monkeypatch.setenv("DEEPINFRA_API_KEY", "testovaci")
-    m = llm._vytvor({"provider": "deepinfra", "model": "deepseek-ai/DeepSeek-V4-Flash-0731"}, 0.1)
-    assert "deepinfra.com" in str(m.openai_api_base)
+    for kluc in ("OPENAI_API_KEY", "DEEPINFRA_API_KEY", "OPENROUTER_API_KEY"):
+        monkeypatch.setenv(kluc, "test")
+    with pytest.raises(ValueError):
+        llm._vytvor({"provider": provider, "model": model}, 0)
 
 
-def test_openai_bez_kluca_sa_vynecha(monkeypatch):
+@pytest.mark.parametrize("kluc", ["GOOGLE_API_KEY", "GROQ_API_KEY", "OPENROUTER_API_KEY", None])
+def test_roly_s_jedinym_klucom(kluc, monkeypatch):
     from bitoviny import llm
-    monkeypatch.delenv("OPENAI_API_KEY", raising=False)
-    assert llm._vytvor({"provider": "openai", "model": "gpt-6-luna"}, 0.6) is None
+
+    for nazov in ("GOOGLE_API_KEY", "GROQ_API_KEY", "OPENROUTER_API_KEY"):
+        monkeypatch.setenv(nazov, "test" if nazov == kluc else "")
+    for rola, schema in (("vyber_tem", VyberTem), ("autorka", Koncept), ("factcheck", Factcheck),
+                         ("korektura", Korektura), ("fotoeditor", Dopyty)):
+        if kluc is None:
+            with pytest.raises(RuntimeError, match=rola):
+                llm.model_pre(rola, schema)
+        else:
+            llm.model_pre(rola, schema)
 
 
-def test_luna_responses_json_reasoning_a_spotreba(monkeypatch):
-    import json
-    import httpx
-    from openai import OpenAI
-    from bitoviny import llm
-    from bitoviny.redakcia.korektura import Korektura
+def test_vypadok_factchecku_nevytvori_koncept(tmp_path, monkeypatch, caplog):
+    from bitoviny.redakcia import __main__ as redakcia
 
-    monkeypatch.setenv("OPENAI_API_KEY", "test-key-not-real")
-    videne = {}
-    def odpoved(request):
-        videne.update(json.loads(request.content))
-        assert request.url.path == "/v1/responses"
-        return httpx.Response(200, json={
-            "id": "resp_test", "object": "response", "created_at": 1,
-            "status": "completed", "model": "gpt-6-luna",
-            "output": [{"id": "msg_test", "type": "message", "role": "assistant", "status": "completed",
-                        "content": [{"type": "output_text", "text": '{"upravy": []}', "annotations": []}]}],
-            "usage": {"input_tokens": 100, "output_tokens": 20, "total_tokens": 120,
-                      "input_tokens_details": {"cached_tokens": 0}, "output_tokens_details": {"reasoning_tokens": 10}},
-        })
-    m = llm._vytvor({"provider": "openai", "model": "gpt-6-luna",
-                    "reasoning": "medium", "verbosity": "low", "max_output_tokens": 8192}, 0.6)
-    with OpenAI(api_key="test-key-not-real", http_client=httpx.Client(transport=httpx.MockTransport(odpoved))) as client:
-        m.root_client = client
-        v = m.with_structured_output(Korektura, method="json_schema", include_raw=True).invoke("Skontroluj text.")
-    assert v["parsing_error"] is None and v["parsed"].upravy == []
-    assert v["raw"].usage_metadata["output_token_details"]["reasoning"] == 10
-    assert videne["reasoning"] == {"effort": "medium"}
-    assert videne["text"]["verbosity"] == "low"
-    assert videne["text"]["format"]["type"] == "json_schema"
-    assert videne["max_output_tokens"] == 8192 and videne["store"] is False
-    assert "temperature" not in videne and "top_p" not in videne
-    assert m.max_retries == 1 and m.request_timeout == 180
+    def nedostupny(_):
+        raise RuntimeError("429")
+
+    den = date(2026, 11, 11)
+    raw = tmp_path / "data" / "raw"
+    raw.mkdir(parents=True)
+    (raw / f"temy-{den}.json").write_text('{"temy":[{}]}', encoding="utf-8")
+    model, _ = _autorka([450])
+    graf = zostav_graf(model_autorky=model, **{**BEZ_SIETE, "model_factchecku": RunnableLambda(nedostupny)})
+    monkeypatch.setattr(redakcia, "KOREN", tmp_path)
+    monkeypatch.setattr(redakcia, "langfuse_klient", lambda: None)
+    monkeypatch.setattr(redakcia, "zostav_graf", lambda: graf)
+    monkeypatch.setattr(redakcia, "vyber_temy", lambda *a, **kw: [{"tema": _tema()}])
+    assert redakcia.spusti(den, 1) == []
+    assert not list(tmp_path.rglob("*.md"))
+    assert "Povinný factcheck zlyhal: 429" in caplog.text

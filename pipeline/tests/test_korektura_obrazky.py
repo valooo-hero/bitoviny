@@ -246,7 +246,7 @@ def test_zdroj_modelu_patri_uspesnej_zalohe(monkeypatch):
 
     monkeypatch.setattr(llm, "konfiguracia", lambda: {"korektura": {"modely": [
         {"provider": "google", "model": "prvy"},
-        {"provider": "deepinfra", "model": "uspesna-zaloha"},
+        {"provider": "openrouter", "model": "uspesna-zaloha:free"},
     ]}})
 
     def vytvor(spec, teplota):
@@ -266,7 +266,7 @@ def test_zdroj_modelu_patri_uspesnej_zalohe(monkeypatch):
     vysledok = uzol_korektura(model, jazykova_sluzba)({"koncept": _koncept()})
     upravy = vysledok["korektura"]["upravy"]
     assert [(u["zdroj"], u["stav"]) for u in upravy] == [
-        ("uspesna-zaloha (deepinfra)", "zamietnuta"),
+        ("uspesna-zaloha:free (openrouter)", "zamietnuta"),
         ("Pevné pravidlá", "vykonana"),
         ("LanguageTool", "vykonana"),
     ]

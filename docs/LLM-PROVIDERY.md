@@ -1,130 +1,23 @@
-# LLM poskytovatelia a limity
+# Bezplatné jazykové modely redakcie
 
-Stav k 12. 11. 2026. Čísla okrem Cloudflare, OpenRouter a Langfuse pochádzajú z blogov tretích strán, nie z oficiálnych stránok, a navzájom si odporujú. **Záväzné sú až hodnoty v konzole každého poskytovateľa po založení kľúča.**
+Poradie modelov pre každú rolu určuje [konfigurácia](../config/modely.yaml). Výber tém a výrazy pre fotobanky začínajú na GPT-OSS 120B cez Groq. Klára píše a opravuje články cez Gemini 3.8 Flash. Tomáš overuje tvrdenia a Čiarka robí korektúru cez Gemini 3.5 Flash-Lite.
 
-## Zistené limity bezplatných taríf
+## Kľúče a tarify
 
-| Služba | Limit | Spoľahlivosť údaju |
-|---|---|---|
-| Gemini Flash | Novšie zdroje: 5 požiadaviek za minútu, 20 denne. Staršie uvádzajú až 1 500 denne | Nízka, zdroje si odporujú |
-| Gemini Flash-Lite | 15 za minútu, 500 denne | Stredná |
-| Gemini Pro | Bez bezplatného prístupu | Stredná |
-| Groq, malé modely (trieda Llama 8B) | 30 za minútu, 14 400 denne | Stredná |
-| Groq, veľké modely (trieda 70B a viac) | 30 za minútu, približne 1 000 denne | Stredná |
-| OpenRouter `:free` | 20 za minútu, 50 denne. Po jednorazovom nákupe kreditu za 10 USD 1 000 denne | Vysoká, oficiálna stránka |
-| Workers AI | 10 000 neurónov denne, spoločné pre všetky modely | Vysoká, oficiálna dokumentácia |
-| Langfuse Hobby | 50 000 jednotiek mesačne, 30 dní histórie, 2 používatelia | Vysoká, oficiálny cenník |
+Lokálne sa kľúče načítajú zo súboru `.env` v koreni projektu. Nočná redakcia ich dostáva z GitHub Actions Secrets. Stačí jeden z týchto kľúčov.
 
-FLUX.1-schnell na Workers AI stojí 4,80 neurónu za dlaždicu 512×512 a 9,60 za krok. Obrázok 1024×1024 (4 dlaždice) na 4 kroky vychádza približne na 58 neurónov, teda zhruba 170 obrázkov denne v bezplatnom limite. Je to vlastný prepočet z cenníka, treba ho potvrdiť meraním.
-
-## Dôsledok pre návrh
-
-Pôvodný predpoklad „všetko slovenské na Gemini Flash“ nemusí vyjsť. Pri 5 článkoch denne potrebuje pipeline približne 5 volaní autorky, 10 až 15 volaní factcheckera a 5 volaní korektorky. Ak platí limit 20 denne, Flash stačí len autorke.
-
-## Priradenie modelov
-
-| Agent | Hlavný model | Záloha |
-|---|---|---|
-| Zberač: triedenie a výber tém | Groq, malý model | Gemini Flash-Lite |
-| Zoskupovanie tém | Lokálny embedding model v GitHub Actions | žiadna |
-| Autorka | Gemini Flash | Gemini Flash-Lite, potom OpenRouter `:free` |
-| Factchecker | Gemini Flash-Lite | Groq, veľký model |
-| Korektorka | Gemini Flash-Lite | OpenRouter `:free` |
-| Prompt na ilustráciu | Groq, malý model | Gemini Flash-Lite |
-| Ilustrácia | Workers AI, FLUX.1-schnell | žiadna |
-
-Zálohy rieši LangChain cez `with_fallbacks`. Názvy konkrétnych modelov budú v konfigurácii, nie v kóde, lebo ponuka sa mení.
-
-Keď všetky modely narazia na denný limit, pipeline článok odloží na ďalší beh a nezlyhá.
-
-## Čo overiť vo Fáze 3
-
-- Skutočné limity Gemini Flash a Flash-Lite v Google AI Studio.
-- Kvalitu slovenčiny Flash-Lite pri korektúre. Ak nestačí, korektúra prejde na Flash a počet článkov klesne na 3 až 4 denne.
-- Či bezplatná tarifa Gemini platí aj pre účty z EÚ.
-
-## Zdroje
-
-- https://developers.cloudflare.com/workers-ai/platform/pricing/
-- https://openrouter.ai/pricing
-- https://langfuse.com/pricing
-- https://imisofts.com/blog/gemini-api-free-tier-limits/
-- https://www.aifreeapi.com/en/posts/google-gemini-api-free-tier
-- https://tokenmix.ai/blog/gemini-api-free-tier-limits
-- https://benchlm.ai/free-tier/groq
-
-## Overené s vlastnými kľúčmi (12. 11. 2026)
-
-Všetky štyri kľúče sa úspešne prihlásili.
-
-| Služba | Zistenie |
+| Premenná | Podmienka použitia |
 |---|---|
-| Gemini | Dostupné sú `gemini-3.8-flash` a `gemini-3.5-flash-lite`. Flash-Lite opravil slovenskú vetu správne. Flash pri teste vrátil 503 (preťaženie), takže záloha je nutná |
-| Groq | Modely Llama v ponuke už nie sú. Použiteľné sú `qwen/qwen3.8-27b`, `openai/gpt-oss-20b` a `openai/gpt-oss-120b`. Limit 1 000 požiadaviek denne a 8 000 tokenov za minútu na model. Qwen opravil slovenskú vetu správne |
-| OpenRouter | Bezplatná tarifa, 50 požiadaviek denne na modely `:free` |
-| Langfuse | Kľúče platia pre projekt „My Project“ |
+| `GOOGLE_API_KEY` | Projekt Gemini Developer API na bezplatnej tarife. Tarifu skontroluj v Google AI Studio. |
+| `GROQ_API_KEY` | Organizácia na pláne Free v konzole Groq. |
+| `OPENROUTER_API_KEY` | Konkrétny model s príponou `:free`. Požiadavka obmedzuje cenu vstupu aj výstupu na nulu. |
 
-Limit 8 000 tokenov za minútu na Groq znamená, že dlhé zdrojové texty sa doň nezmestia. Groq sa preto hodí na krátke úlohy, factcheck s celými zdrojmi musí bežať na Gemini.
+Pri zmene účtu alebo kľúča skontroluj tarifu Google a Groq. Cenu pri týchto službách určuje fakturácia účtu. Pred použitím kľúča z plateného účtu ho odober z nastavení redakcie. [Cenník Gemini](https://ai.google.dev/gemini-api/docs/pricing) · [Limity Groq](https://console.groq.com/docs/rate-limits)
 
-Denné limity Gemini API nevracia, treba ich pozrieť v Google AI Studio.
+## Zálohy a denné limity
 
-## Skúsenosti z prvých ostrých behov (12. 11. 2026)
+Redakcia preskočí poskytovateľov bez kľúča. Pri výpadku, limite alebo chybnom štruktúrovanom výstupe skúsi ďalší model pre danú rolu. Na OpenRouteri používa ERNIE Flash Preview s výstupom podľa JSON schémy. Pri dlhých zdrojových textoch je Groq až posledná možnosť, lebo jeho tokenový limit môže odmietnuť celý vstup. [Bezplatný model ERNIE](https://openrouter.ai/baidu/ernie-5.5-flash-preview%3Afree) · [Limity OpenRouter](https://openrouter.ai/docs/api/reference/limits)
 
-Platné priradenie modelov je v `config/modely.yaml`, tabuľka „Priradenie modelov“ vyššie je pôvodný návrh.
+Nočný beh cieli na osem článkov. Ak zlyhá výber tém, beh skončí pred písaním. Ak zlyhajú všetky možnosti povinného factchecku, v logu zostane dôvod, koncept sa neuloží a redakcia pokračuje ďalšou témou. Pri výpadku samotnej korektúry zostávajú dostupné pevné pravidlá a LanguageTool.
 
-- **Gemini je nespoľahlivé.** `gemini-3.8-flash` aj `gemini-3.5-flash` a Flash-Lite pri dlhom vstupe opakovane vracali 503 a 504. Prvý koncept nakoniec napísal až štvrtý model v poradí, `baidu/ernie-5.5-flash-preview:free` cez OpenRouter, v použiteľnej slovenčine.
-- **Modely Gemini 2.5 už nie sú dostupné** novým používateľom.
-- **Groq Qwen kazí volanie nástrojov** (skomolí názov schémy). Funguje so štruktúrovaným výstupom cez JSON schému. Výber tém preto robí `openai/gpt-oss-120b`, ktorý lepšie triafal aj sekcie.
-- **Gemma na OpenRouter** bola v bezplatnej tarife dočasne obmedzená (429).
-- **Bezplatné modely na OpenRouter sa menia.** Zoznam treba občas skontrolovať, inak záloha potichu prestane existovať.
-
-Pri výpadku všetkých modelov pipeline článok preskočí a pokračuje ďalším.
-
-## Platená posledná záloha: DeepInfra (od 13. 11. 2026)
-
-Každá rola má ako posledný model `deepseek-ai/DeepSeek-V4-Flash-0731` cez DeepInfra (0,06 USD za milión vstupných a 0,18 USD za milión výstupných tokenov). Použije sa len vtedy, keď zlyhajú všetky bezplatné modely v reťazci, takže bežne nestojí nič. Poradie v `config/modely.yaml` sa dá voľne meniť; ak sa DeepSeek posunie vyššie, volá sa častejšie a náklady rastú.
-
-- Kľúč je v premennej `DEEPINFRA_API_KEY`: lokálne v `.env`, pre nočný beh v GitHub Secrets. Bez kľúča sa záloha preskočí a pipeline funguje ako predtým.
-- Podľa prepočtu z Langfuse by celý článok cez tento model stál okolo 0,002 USD.
-- Cena je zadaná v Langfuse ako vlastný model (Settings > Models, zadané cez API 13. 11. 2026): vzor `(?i)^(deepseek-ai/)?deepseek-v4-flash-0731$`, 0,06 a 0,18 USD za milión tokenov. Platí len pre stopy, ktoré prídu po zadaní ceny, staršie sa neprepočítajú. Pri zmene cenníka DeepInfra treba cenu upraviť aj tam.
-
-
-## GPT-6 Luna cez OpenAI (16. 11. 2026)
-
-Model `gpt-6-luna` používa výhradne Klára (`autorka`) ako prvý model na písanie aj opravy.
-Za ním sú jej pôvodné bezplatné zálohy. Róbert, Tomáš, Čiarka a Cyril používajú bezplatné modely.
-DeepSeek zostáva poslednou platenou zálohou vo všetkých rolách. Bez príslušného API kľúča sa platený model preskočí.
-
-### Založenie a uloženie kľúča
-
-1. Na https://platform.openai.com/settings/organization/projects vytvor alebo vyber projekt napr. Bitoviny.
-2. Na https://platform.openai.com/settings/organization/billing/overview nastav API fakturáciu/kredit.
-3. Na https://platform.openai.com/api-keys v správnom projekte vyber **Create new secret key**, pomenuj ho napr. `bitoviny-redakcia` a skopíruj hodnotu. Pri obmedzených oprávneniach povoľ vytváranie odpovedí cez `/v1/responses`.
-4. Na https://github.com/valooo-hero/bitoviny/settings/secrets/actions vyber **New repository secret**, názov presne `OPENAI_API_KEY`, do **Secret** vlož hodnotu a ulož. Workflow už premennú odovzdáva pipeline.
-5. Pre lokálne spustenie pridaj do `C:/Dev/bitoviny/.env` riadok `OPENAI_API_KEY=<hodnota kľúča>`. Súbor je ignorovaný Gitom.
-
-Pre tento redakčný model sa kľúč nepridáva do Cloudflare Pages ani do Langfuse: volá ho Python pipeline v GitHub Actions alebo lokálne. Langfuse naďalej používa svoje vlastné existujúce kľúče.
-
-### Parametre volania
-
-| Rola | reasoning.effort | text.verbosity | max_output_tokens |
-|---|---|---|---:|
-| autorka (aj prepisy) | medium | medium | 8 192 |
-
-- Responses API (`https://api.openai.com/v1/responses`), štruktúrovaný JSON podľa Pydantic schémy (`metoda: json_schema`).
-- Reasoning určuje úsilie pri riešení; verbosity podrobnosť viditeľnej odpovede. Dĺžku článku naďalej určuje redakčný prompt.
-- Temperature, top_p ani reasoning summary neposielame. Pri zapnutom reasoning nie sú temperature/top_p podporované.
-- Limit tokenov zahŕňa viditeľný výstup aj reasoning. Nie je to cieľová dĺžka odpovede; pri vyčerpaní môže výstup zlyhať a použije sa záloha.
-- `store=False`, timeout 180 sekúnd, `max_retries=1` (najviac jeden opakovaný pokus SDK pri vhodnej chybe).
-- Nastavenia sú priamo pri modeli v `config/modely.yaml`.
-
-Oficiálna cena k dátumu pridania pre vstupy do 272K tokenov: 0,10 USD / milión vstupných,
-0,01 USD / milión cached input a 0,50 USD / milión výstupných tokenov. Reasoning sa účtuje ako výstup.
-Pri rovnakej spotrebe ako v DeepSeek teste (16 940 vstupných a 6 947 výstupných tokenov) by to bolo
-0,00517 USD; nejde o meranie Luny, jej vlastná spotreba vrátane reasoningu môže byť iná.
-
-Zdroje:
-- https://developers.openai.com/api/docs/models/gpt-6-luna
-- https://developers.openai.com/api/docs/guides/latest-model
-- https://developers.openai.com/api/docs/guides/reasoning
-- https://help.openai.com/en/articles/9186755-managing-projects-in-the-api-platform
+Generovanie obrázkov má vlastných poskytovateľov a účtovanie. [Redakčné rozhranie](REDAKCNE-ROZHRANIE.md)

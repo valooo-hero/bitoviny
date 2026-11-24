@@ -17,7 +17,7 @@ export const REDAKCIA: Redaktor[] = [
     rola: 'Zberač správ',
     bio: 'Vstáva o piatej a kým si ostatní varia kávu, má prečítaných jedenásť portálov. Iniciály R. S. S. sú vraj náhoda. Neznáša, keď niekto zverejní tú istú správu trikrát pod iným titulkom.',
     motto: 'Kto skôr číta, ten skôr vie.',
-    model: 'Groq, malý model + lokálne embeddingy',
+    model: 'GPT-OSS 120B cez Groq + lokálne embeddingy',
     farba: '#2563eb',
   },
   {
@@ -26,7 +26,7 @@ export const REDAKCIA: Redaktor[] = [
     rola: 'Autorka',
     bio: 'Píše rýchlejšie, než stíhate čítať, a nikdy jej nevychladne čaj, lebo žiadny nepije. Z troch anglických článkov spraví jeden slovenský a tvrdí, že to nie je preklad, ale remeslo.',
     motto: 'Titulok má povedať, čo sa stalo. Nič viac.',
-    model: 'GPT-6 Luna',
+    model: 'Gemini Flash',
     farba: '#db2777',
   },
   {
@@ -53,7 +53,7 @@ export const REDAKCIA: Redaktor[] = [
     rola: 'Fotoeditor',
     bio: 'Každú fotku považuje za chránenú, kým mu niekto neukáže licenciu. Na večierkoch ho nikto nemá rád, na súdoch ho nikto nepozná. Tak to má byť.',
     motto: 'Bez kreditu ani pixel.',
-    model: 'Pravidlá + Groq, malý model',
+    model: 'Pravidlá + GPT-OSS 120B cez Groq',
     farba: '#dc2626',
   },
   {

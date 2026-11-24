@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Any
 
 import yaml
+from langchain_core.runnables import RunnableLambda
 from dotenv import load_dotenv
 
 KOREN = Path(__file__).resolve().parents[2]
@@ -26,60 +27,42 @@ def konfiguracia() -> dict:
 
 def _vytvor(spec: dict, teplota: float):
     provider, model = spec["provider"], spec["model"]
-    # max_retries=1: pri chybe alebo limite radšej rýchlo prejsť na zálohu.
+    kluce = {"google": "GOOGLE_API_KEY", "groq": "GROQ_API_KEY", "openrouter": "OPENROUTER_API_KEY"}
+    if provider not in kluce:
+        raise ValueError(f"Nepovolený poskytovateľ textového modelu: {provider}")
+    if provider == "openrouter" and not model.endswith(":free"):
+        raise ValueError(f"OpenRouter vyžaduje konkrétny model s príponou :free: {model}")
+    kluc = os.getenv(kluce[provider])
+    if not kluc or not kluc.strip():
+        return None
+
     if provider == "google":
         from langchain_google_genai import ChatGoogleGenerativeAI
 
-        # Novšie modely Gemini teplotu ignorujú, preto sa neposiela.
-        return ChatGoogleGenerativeAI(model=model, max_retries=1, timeout=75)
+        return ChatGoogleGenerativeAI(model=model, api_key=kluc, vertexai=False, max_retries=1, timeout=75)
     if provider == "groq":
         from langchain_groq import ChatGroq
 
-        return ChatGroq(model=model, temperature=teplota, max_retries=1)
-    if provider == "openrouter":
-        from langchain_openai import ChatOpenAI
+        return ChatGroq(model=model, api_key=kluc, temperature=teplota, max_retries=1, timeout=75)
 
-        return ChatOpenAI(
-            model=model,
-            temperature=teplota,
-            max_retries=1,
-            base_url="https://openrouter.ai/api/v1",
-            api_key=os.environ["OPENROUTER_API_KEY"],
-        )
-    if provider == "openai":
-        from langchain_openai import ChatOpenAI
+    from langchain_openai import ChatOpenAI
 
-        if not os.getenv("OPENAI_API_KEY"):
-            return None
-        # Responses API podporuje reasoning aj štruktúrovaný JSON súčasne.
-        # Temperature/top_p sa pri zapnutom reasoning neposielajú.
-        return ChatOpenAI(
-            model=model,
-            api_key=os.environ["OPENAI_API_KEY"],
-            base_url="https://api.openai.com/v1",
-            use_responses_api=True,
-            reasoning={"effort": spec.get("reasoning", "medium")},
-            verbosity=spec.get("verbosity", "low"),
-            max_tokens=spec.get("max_output_tokens", 8192),
-            store=False,
-            timeout=180,
-            max_retries=1,
-        )
-    if provider == "deepinfra":
-        from langchain_openai import ChatOpenAI
+    return ChatOpenAI(
+        base_url="https://openrouter.ai/api/v1",
+        api_key=kluc,
+        model=model,
+        temperature=teplota,
+        max_retries=1,
+        timeout=75,
+        extra_body={"provider": {"require_parameters": True, "max_price": {"prompt": 0, "completion": 0}}},
+    )
 
-        # Platená záloha: bez kľúča sa vynechá a reťazec skončí pri bezplatných modeloch.
-        if not os.getenv("DEEPINFRA_API_KEY"):
-            return None
-        return ChatOpenAI(
-            model=model,
-            temperature=teplota,
-            max_retries=1,
-            timeout=120,
-            base_url="https://api.deepinfra.com/v1/openai",
-            api_key=os.environ["DEEPINFRA_API_KEY"],
-        )
-    raise ValueError(f"Neznámy provider: {provider}")
+
+def _over_vystup(vystup):
+    # Pri chýbajúcom volaní nástroja môže parser LangChain vrátiť None.
+    if vystup is None:
+        raise ValueError("Model nevrátil požadovaný štruktúrovaný výstup.")
+    return vystup
 
 
 def model_pre(rola: str, schema: Any | None = None, *, so_zdrojom: bool = False):
@@ -93,14 +76,14 @@ def model_pre(rola: str, schema: Any | None = None, *, so_zdrojom: bool = False)
             continue
         if schema is not None:
             kw = {"method": s["metoda"]} if s.get("metoda") else {}
-            m = m.with_structured_output(schema, **kw)
+            m = m.with_structured_output(schema, **kw) | RunnableLambda(_over_vystup)
         if so_zdrojom:
-            from langchain_core.runnables import RunnableLambda
-
             # Zdroj sa pripája až po úspešnom overení výstupu konkrétneho modelu.
             zdroj = f"{s['model']} ({s['provider']})"
             m = m | RunnableLambda(lambda vystup, zdroj=zdroj: (vystup, zdroj))
         modely.append(m)
+    if not modely:
+        raise RuntimeError(f"Pre rolu {rola} chýba API kľúč bezplatného poskytovateľa.")
     retazec = modely[0].with_fallbacks(modely[1:]) if len(modely) > 1 else modely[0]
     return retazec.with_config(run_name=rola)
 

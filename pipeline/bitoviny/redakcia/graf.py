@@ -182,7 +182,10 @@ def uzol_factcheck(model: Any | None = None) -> Callable[[StavClanku], dict]:
         m = model or model_pre("factcheck", Factcheck)
         k = stav["koncept"]
         sprava = "\n".join([sprava_autorky(stav), koncept_ako_text(k)])
-        fc: Factcheck = m.invoke([SystemMessage(_prompt("factcheck")), HumanMessage(sprava)])
+        try:
+            fc: Factcheck = m.invoke([SystemMessage(_prompt("factcheck")), HumanMessage(sprava)])
+        except Exception as e:
+            raise RuntimeError(f"Povinný factcheck zlyhal: {e}") from e
         nalezy = zostav_nalezy(fc, k, zdrojove_texty(stav["tema"]))
         kolo = stav.get("kolo", 0) + 1
         zaznam = {
