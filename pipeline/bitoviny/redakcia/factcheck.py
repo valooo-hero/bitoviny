@@ -143,5 +143,23 @@ def zostav_nalezy(fc: Factcheck, koncept: Koncept, zdrojove_texty: list[str]) ->
     return nalezy
 
 
+def cisty_factcheck(sprava: dict | None) -> bool:
+    """Vyžaduje potvrdené tvrdenia, dokončené kolo a žiadne otvorené nálezy."""
+    if not sprava or sprava.get("otvorene_nalezy") != []:
+        return False
+    tvrdenia, kola = sprava.get("tvrdenia"), sprava.get("kola")
+    if not tvrdenia or not kola:
+        return False
+    posledne = kola[-1]
+    return (
+        posledne.get("tvrdeni") == posledne.get("potvrdenych") == len(tvrdenia)
+        and posledne.get("chyb") == posledne.get("upozorneni") == 0
+        and all(
+            t.get("verdikt") == "potvrdene" and t.get("zdroj", "").strip() and t.get("dokaz", "").strip()
+            for t in tvrdenia
+        )
+    )
+
+
 def treba_opravit(nalezy: list[Nalez]) -> bool:
     return any(n.zavaznost == "chyba" for n in nalezy)

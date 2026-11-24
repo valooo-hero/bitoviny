@@ -1,9 +1,10 @@
 import json
 from datetime import datetime, timezone
 
+import pytest
 import yaml
 
-from bitoviny.redakcia.publikacia import ZASTUPNY_OBRAZOK, bez_html, publikuj
+from bitoviny.redakcia.publikacia import ZASTUPNY_OBRAZOK, bez_html, publikuj, rozdel_koncept
 
 KONCEPT = """---
 title: AMD udrží výkon s polovicou pamäte
@@ -47,19 +48,21 @@ Text článku <script>alert(1)</script> s <b>HTML</b>.
 class FalosnyGitHub:
     def __init__(self, existuje=False):
         self.existuje, self.subory, self.pr = existuje, {}, None
+        self.zlucene = None
 
     def vetva_existuje(self, vetva):
         return self.existuje
 
-    def vytvor_vetvu(self, vetva, zaklad="main"):
-        self.vetva = vetva
-
-    def zapis_subor(self, cesta, obsah, vetva, sprava):
-        self.subory[cesta] = obsah
+    def zapis_koncept(self, vetva, subory, sprava):
+        self.vetva, self.subory = vetva, subory
+        return "sha-konceptu"
 
     def otvor_pr(self, vetva, titulok, popis):
         self.pr = (vetva, titulok, popis)
-        return "https://github.example/pr/1"
+        return {"html_url": "https://github.example/pr/1", "number": 1}
+
+    def zluc(self, cislo, sha, titulok):
+        self.zlucene = (cislo, sha, titulok)
 
 
 def test_bez_html():
@@ -99,3 +102,39 @@ def test_existujuca_vetva_sa_preskoci(tmp_path):
     subor.write_text(KONCEPT, encoding="utf-8")
     gh = FalosnyGitHub(existuje=True)
     assert publikuj(subor, gh) is None and gh.subory == {}
+
+
+
+@pytest.mark.parametrize(("otvorene", "pocet_tvrdeni", "ilustracia", "automaticky", "schvali"), [
+    ([], 1, b"webp", True, True),
+    ([{"zavaznost": "chyba"}], 1, b"webp", True, False),
+    ([{"zavaznost": "upozornenie"}], 1, b"webp", True, False),
+    ([], 0, b"webp", True, False),
+    ([], 1, None, True, False),
+    ([], 1, b"webp", False, False),
+])
+def test_automaticke_zverejnenie(tmp_path, otvorene, pocet_tvrdeni, ilustracia, automaticky, schvali):
+    fm, _ = rozdel_koncept(KONCEPT)
+    fm["koncept"]["factcheck"] = {
+        "otvorene_nalezy": otvorene,
+        "kola": [{
+            "tvrdeni": pocet_tvrdeni, "potvrdenych": pocet_tvrdeni,
+            "chyb": 0, "upozorneni": 0,
+        }],
+        "tvrdenia": [{"verdikt": "potvrdene", "zdroj": "Zdroj A", "dokaz": "A memory chip."}] * pocet_tvrdeni,
+    }
+    subor = tmp_path / "test.md"
+    subor.write_text("---\n" + yaml.safe_dump(fm) + "---\n" + "Overený text. " * 30, encoding="utf-8")
+    gh = FalosnyGitHub()
+    publikuj(subor, gh, ilustracia=ilustracia, automaticky=automaticky)
+    hlavicka, _ = rozdel_koncept(gh.subory["content/clanky/test.md"])
+    assert bool(gh.zlucene) is schvali
+    assert bool(hlavicka["redaktori"].get("schvalil")) is schvali
+    if schvali:
+        assert hlavicka["redaktori"]["schvalil"] == "redakcia"
+        assert gh.zlucene == (1, "sha-konceptu", fm["title"])
+    if ilustracia:
+        assert hlavicka["obrazok"]["ai"]
+        assert gh.subory["public" + hlavicka["obrazok"]["src"]] == ilustracia
+    else:
+        assert hlavicka["obrazok"]["src"] == ZASTUPNY_OBRAZOK

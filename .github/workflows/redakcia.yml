@@ -1,7 +1,7 @@
 name: Redakcia
 
 # Denný beh: zber včerajších správ, písanie, factcheck, korektúra, obrázky.
-# Výsledkom sú pull requesty s konceptmi. Zverejňuje až človek v /admin/.
+# Neuzavreté redakčné nálezy ostávajú na posúdenie v pull requestoch.
 
 on:
   schedule:
@@ -49,6 +49,8 @@ jobs:
           LANGFUSE_HOST: https://cloud.langfuse.com
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID || secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           DATUM: ${{ inputs.datum }}
           POCET: ${{ inputs.pocet || '8' }}
         run: |
@@ -59,4 +61,9 @@ jobs:
           ARGS=()
           if [ -n "$DATUM" ]; then ARGS+=(--datum "$DATUM"); fi
           python -m bitoviny.zber --pocet 12 "${ARGS[@]}"
+          if [ -n "$CLOUDFLARE_ACCOUNT_ID" ] && [ -n "$CLOUDFLARE_API_TOKEN" ]; then
+            ARGS+=(--automaticky)
+          else
+            echo "::notice::Workers AI nie je nastavené. Články ostanú na ručné schválenie."
+          fi
           python -m bitoviny.redakcia --pocet "$POCET" --pr "${ARGS[@]}"

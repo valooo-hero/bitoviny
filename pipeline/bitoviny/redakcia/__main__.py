@@ -1,8 +1,7 @@
 """Redakcia: python -m bitoviny.redakcia [--datum RRRR-MM-DD] [--pocet 5]
 
 Vezme témy zo Zberača, jazykový model vyberie tie najzaujímavejšie a autorka
-ku každej napíše koncept. Koncepty idú do data/koncepty/ (mimo repozitára):
-zverejniť ich smie až človek.
+ku každej napíše koncept. Koncepty idú do data/koncepty/ (mimo repozitára).
 """
 
 from __future__ import annotations
@@ -23,9 +22,11 @@ from ..zber.__main__ import spusti as spusti_zber
 from ..zber.rss import vcera
 from .archiv import ArchivGitHub, prekazka_zapisu
 from .duplicity import KontrolaTem, Zaznam, popis_vysledku, z_temy
-from .publikacia import GitHub, publikuj
-from .graf import vyber_temy, zostav_graf
+from .factcheck import cisty_factcheck
+from .graf import uzol_factcheck, vyber_temy, zostav_graf
 from .modely import Koncept, StavClanku
+from .publikacia import GitHub, publikuj
+from .titulny import vygeneruj_titulny
 
 log = logging.getLogger("redakcia")
 
@@ -43,8 +44,7 @@ def slug(text: str) -> str:
 
 
 def koncept_na_markdown(k: Koncept, stav: StavClanku, den: date, trace: str | None) -> str:
-    """Markdown s frontmatterom v tvare, aký čaká web, plus redakčná správa v kľúči „koncept“.
-    Hlavný obrázok vyberie až editor z ponuky v koncept.obrazky."""
+    """Markdown s frontmatterom webu a redakčnou správou v kľúči „koncept“."""
     nazvy = {s["url"]: s["zdroj_nazov"] + ": " + s["titulok"] for s in stav["tema"]["spravy"]}
     fm = {
         "title": k.titulok,
@@ -83,9 +83,14 @@ def factcheck_do_spravy(stav: StavClanku) -> dict | None:
     }
 
 
+def overeny_obsah(stav: StavClanku) -> bool:
+    koncept = stav["koncept"]
+    return stav.get("overeny_text") == (koncept.titulok, koncept.perex, koncept.telo)
+
+
 def spusti(
     den: date, pocet: int, max_clankov: int | None = None,
-    *, gh: GitHub | None = None, pr: bool = False, iba_kontrola: bool = False,
+    *, gh: GitHub | None = None, pr: bool = False, iba_kontrola: bool = False, automaticky: bool = False,
     teraz: datetime | None = None,
 ) -> list[Path]:
     teraz = teraz or datetime.now(timezone.utc)
@@ -102,7 +107,8 @@ def spusti(
         token = os.environ["GITHUB_TOKEN"] if pr else os.getenv("GITHUB_TOKEN")
         with GitHub(token) as klient:
             return spusti(
-                den, pocet, max_clankov, gh=klient, pr=pr, iba_kontrola=iba_kontrola, teraz=teraz,
+                den, pocet, max_clankov, gh=klient, pr=pr, iba_kontrola=iba_kontrola,
+                automaticky=automaticky, teraz=teraz,
             )
 
     lf = langfuse_klient()
@@ -172,6 +178,30 @@ def spusti(
             log.warning("Róbert | %s | titulok by prepísal koncept z tohto behu.", k.titulok)
             continue
         pouzite_cesty.add(id_clanku)
+        ilustracia = None
+        if automaticky:
+            if cisty_factcheck(factcheck_do_spravy(vysledok)) and not overeny_obsah(vysledok):
+                try:
+                    novy_factcheck, _ = s_trasovanim(
+                        "factcheck-po-korekture", {"tema": titulok},
+                        lambda _: uzol_factcheck()({**stav, **vysledok}),
+                    )
+                    vysledok.update(novy_factcheck)
+                except Exception as e:
+                    upozornenie = "Kontrolu po korektúre sa nepodarilo dokončiť."
+                    vysledok["upozornenia"] = [*vysledok.get("upozornenia", []), upozornenie]
+                    log.warning("%s %s: %s", upozornenie, id_clanku, e)
+
+            prompt = k.prompt_ilustracie.strip() or f"Symbolic editorial illustration without text: {k.titulok}"
+            try:
+                ilustracia = vygeneruj_titulny(prompt)
+            except (RuntimeError, httpx.HTTPError) as e:
+                neuspechy += 1
+                vysledok["upozornenia"] = [
+                    *vysledok.get("upozornenia", []), "Titulnú ilustráciu sa nepodarilo pripraviť.",
+                ]
+                log.error("Titulný obrázok pre %s: %s", id_clanku, e)
+
         if pr:
             prekazka = prekazka_zapisu(archiv, kontrola, id_clanku, tema, snimka.zaznamy)
             if prekazka:
@@ -183,10 +213,14 @@ def spusti(
         log.info("Koncept: %s", subor.name)
         if pr:
             try:
-                log.info("PR: %s", publikuj(subor, gh) or "už existuje")
+                url = publikuj(
+                    subor, gh, ilustracia=ilustracia,
+                    automaticky=automaticky and overeny_obsah(vysledok),
+                )
+                log.info("PR: %s", url or "už existuje")
             except (RuntimeError, OSError, httpx.HTTPError) as e:
                 neuspechy += 1
-                log.error("Pull request pre %s sa nepodarilo vytvoriť: %s", subor.name, e)
+                log.error("Práca s pull requestom pre %s zlyhala: %s", subor.name, e)
 
     if lf is not None:
         lf.flush()
@@ -202,9 +236,12 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--max-clankov", type=int, default=None, help="napísať najviac toľko konceptov (šetrí limity)")
     p.add_argument("--pr", action="store_true", help="z každého konceptu otvoriť pull request (treba GITHUB_TOKEN)")
     p.add_argument("--iba-kontrola", action="store_true", help="vypíše verdikty bez písania konceptov a otvárania PR")
+    p.add_argument("--automaticky", action="store_true", help="pripraví titulné ilustrácie a zverejní overené články")
     a = p.parse_args(argv)
     if a.pr and a.iba_kontrola:
         p.error("Použite buď --pr, alebo --iba-kontrola.")
+    if a.automaticky and not a.pr:
+        p.error("Automatické zverejňovanie vyžaduje --pr.")
     if a.pocet < 1 or (a.max_clankov is not None and a.max_clankov < 1):
         p.error("Počet článkov musí byť kladný.")
 
@@ -217,7 +254,9 @@ def main(argv: list[str] | None = None) -> int:
     den = a.datum or vcera()
     print(f"Modely autorky: {', '.join(nazvy_modelov('autorka'))}")
     try:
-        hotove = spusti(den, a.pocet, a.max_clankov, pr=a.pr, iba_kontrola=a.iba_kontrola)
+        hotove = spusti(
+            den, a.pocet, a.max_clankov, pr=a.pr, iba_kontrola=a.iba_kontrola, automaticky=a.automaticky,
+        )
     except (RuntimeError, ValueError, KeyError, httpx.HTTPError) as e:
         log.error("Redakciu sa nepodarilo dokončiť: %s", e)
         return 1
