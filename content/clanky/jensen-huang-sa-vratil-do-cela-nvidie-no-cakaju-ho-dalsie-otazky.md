@@ -3,31 +3,32 @@ title: Jensen Huang sa vrátil do čela Nvidie, no čakajú ho ďalšie otázky
 perex: Návrat šéfa výrobcu čipov sprevádzal prudký rast akcií. Zároveň zostávajú otvorené otázky o vývoze čipov do Číny, vyšetrovaní aj zásahu prezidenta Trumpa.
 sekcia: biznis
 tagy:
-- Nvidia
-- Jensen Huang
-- čipy
-- exportné kontroly
-- Donald Trump
-publikovane: '2026-11-24T07:17:18+00:00'
+  - Nvidia
+  - Jensen Huang
+  - čipy
+  - exportné kontroly
+  - Donald Trump
+publikovane: 2026-11-24T07:17:18+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/jensen-huang-sa-vratil-do-cela-nvidie-no-cakaju-ho-dalsie-otazky-mwuq1igz.jpg
+  alt: Server rack
+  popisok: Server rack
+  kredit: towo™ / Openverse
+  licencia: BY-SA 2.0
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'TechCrunch: Jensen Huang isn’t out of the woods yet'
-  url: https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/
-- nazov: 'Wired: Jensen Huang Is Back, and So Is Nvidia’s Stock'
-  url: https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/
-- nazov: 'TechCrunch: ‘Outrageous,’ ‘reckless,’ ‘wow’: Here’s what politicians are saying about Jensen Huang’s return to Nvidia'
-  url: https://techcrunch.com/2026/11/23/outrageous-reckless-wow-heres-what-politicians-are-saying-about-jensen-huangs-return-to-nvidia/
-- nazov: 'TechCrunch: Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO'
-  url: https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/
+  - nazov: "TechCrunch: Jensen Huang isn’t out of the woods yet"
+    url: https://techcrunch.com/2026/11/23/jensen-huang-isnt-out-of-the-woods-yet/
+  - nazov: "Wired: Jensen Huang Is Back, and So Is Nvidia’s Stock"
+    url: https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/
+  - nazov: "TechCrunch: ‘Outrageous,’ ‘reckless,’ ‘wow’: Here’s what politicians are saying about Jensen Huang’s return to Nvidia"
+    url: https://techcrunch.com/2026/11/23/outrageous-reckless-wow-heres-what-politicians-are-saying-about-jensen-huangs-return-to-nvidia/
+  - nazov: "TechCrunch: Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO"
+    url: https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/
 ---
 
 Jensen Huang sa v pondelok vrátil na pozície šéfa, prezidenta a člena predstavenstva Nvidie. Správu sprevádzal prudký rast akcií výrobcu čipov, no nevyriešila otázky okolo jeho odchodu, možného pašovania čipov do Číny ani politického zásahu, ktorý mal návrat podporiť.
