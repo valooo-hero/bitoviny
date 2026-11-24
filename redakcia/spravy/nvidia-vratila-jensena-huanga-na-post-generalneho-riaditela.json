@@ -1,0 +1,688 @@
+{
+  "slug": "nvidia-vratila-jensena-huanga-na-post-generalneho-riaditela",
+  "datum_sprav": "2026-11-23",
+  "dovod_vyberu": "Návrat Jensena Huanga do čela Nvidie je významnou udalosťou pre technologický priemysel.",
+  "poznamky_pre_editora": "Opravené podľa nálezov: čas zobrazený v zdroji TechCrunch zapísaný ako „9:51 h“ namiesto „9.51 h“; údaj o petícii upravený na „viac než 200 000 podpisov“, v súlade s Wired.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je vysoko spoľahlivý, všetky overiteľné tvrdenia majú oporu v zdrojoch a sú presne interpretované. Najvážnejším problémom nie je žiadna faktická chyba, ale len drobné štylistické a formulačné rozdiely, ktoré však nemenia význam.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 22,
+        "potvrdenych": 22,
+        "chyb": 2,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 27,
+        "potvrdenych": 27,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Jensen Huang sa s okamžitou platnosťou vrátil na čelo Nvidie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Jensen Huang is stepping back into his role as chief executive of Nvidia effective immediately.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Predstavenstvo spoločnosti v pondelok 23. novembra jednomyseľne rozhodlo, že bude opäť jej generálnym riaditeľom aj prezidentom.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Nvidia today announced that effective immediately, Jensen Huang has been reinstated as President and Chief Executive Officer and as a member of the Board. The Board of Directors voted unanimously to reinstate Mr. Huang",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Obrat nastal necelé dva týždne po tom, čo Huang z funkcie odišiel, a len niekoľko dní po tom, čo predstavenstvo verejne tvrdilo, že ho neplánuje znovu dosadiť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The stunning reversal comes 11 days after Huang resigned as CEO from the company he cofounded 33 years ago and after multiple declarations from the board of directors that it had no intention of reinstating him.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako uviedli Wired a TechCrunch, rozhodnutiu predchádzali rozhovory a stretnutia s Huangom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The company said the board’s unanimous decision followed a series of discussions and meetings with Huang, after which they were “satisfied with respect to Mr. Huang’s candor and ability to lead Nvidia.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Predseda predstavenstva Harvey Jones uviedol, že členovia sú presvedčení o jeho schopnosti viesť firmu a považujú jeho návrat za najlepší pre akcionárov, zamestnancov, partnerov aj zákazníkov.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "“The Board believes Jensen is the right person to lead Nvidia and that his reinstatement is in the best interests of our stockholders, employees, partners, and customers,” said recently appointed board chair Harvey Jones",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dočasnou šéfkou bola počas jeho neprítomnosti finančná riaditeľka Colette Kress.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Huang resigned as Nvidia’s CEO on November 12, and longtime chief financial officer Colette Kress was installed as his interim replacement.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Huang odišiel 12. novembra.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Huang resigned as Nvidia’s CEO on November 12",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Po jeho odchode predstavenstvo uviedlo, že ho neplánuje vrátiť do funkcie; na výzve k jeho opätovnému dosadeniu však podľa Wired trvali aj zamestnanci.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The day Huang resigned, many Nvidia employees spoke up in his support. As reported by WIRED, employees left more than 1,600 comments on an internal “suggestion box” post in which they urged the company’s board to reinstall him as CEO.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Interný príspevok s návrhmi pre vedenie získal viac než 1 600 komentárov, ktoré podľa portálu žiadali jeho návrat.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "employees left more than 1,600 comments on an internal “suggestion box” post in which they urged the company’s board to reinstall him as CEO.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Začala kolovať aj verejná petícia, ktorá mala v čase publikovania viac než 200 000 podpisov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "a public petition calling for Huang’s reinstatement began circulating. At the time of writing, it has amassed more than 200,000 online signatures",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Niektorí známi predstavitelia technologického odvetvia verejne avizovali, že ju podporujú alebo už podpísali.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Tech elites like Elon Musk and Y Combinator CEO Garry Tan have claimed that they were going to sign the petition or had signed it.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Prezident Donald Trump rozhodnutie predstavenstva privítal.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "On Monday morning, President Donald Trump posted that the Nvidia board “has made the correct and proper decision to return Jensen Huang to the position of CEO.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa Wired už predtým naznačil, že by mu Huangov návrat neprekážal; po oznámení napísal, že predstavenstvo rozhodlo správne.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Trump told reporters on November 16 that he “would not mind” if Huang returned as chief executive, adding that he believed he had “learned a big lesson.”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Samotné predstavenstvo potvrdilo, že pri rozhodovaní získalo podnety od vysokopostavených predstaviteľov americkej vlády.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "it had “received input from senior levels of the United States government” on the way to its decision.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa zverejneného vyjadrenia dospelo k záveru, že Huangov návrat nepredstavuje riziko pre národnú bezpečnosť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "based on that input, the Board is confident that Mr. Huang’s reinstatement poses no national security risk.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Správy o jeho osobných vzťahoch vrátane vzťahu so ženou menom Alice Huang vyvolali otázky o možných väzbách na Čínu a o obchádzaní amerických exportných obmedzení.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Huang’s resignation followed days of scrutiny over several extramarital romantic relationships: one with Chinese businesswoman Alice Huang...",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Americkí predstavitelia ju podľa zdrojov podozrievali zo spolupráce s čínskymi spravodajskými službami, tieto tvrdenia však nie sú v článkoch potvrdené ako fakt.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "US intelligence officials suspected that Alice may be an asset of the Chinese Ministry of State Security, both citing an intelligence briefing that circulated among top Trump administration officials last year.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Čínska vláda podľa Wired obvinenia, že bola špiónkou, opakovane odmietla.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The Chinese government has consistently rejected claims that Alice was one of its spies.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nvidia vedie vlastné vyšetrovanie a jej predstavenstvo uviedlo, že bude pokračovať až do záveru.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "The Board reiterated that the committee’s investigation will proceed to conclusion. Mr. Huang fully supports the investigation and is committed to cooperating with it.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Engadget informuje, že Huang má 1. decembra vypovedať pred tromi výbormi Snemovne reprezentantov za zatvorenými dverami.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "It had already been confirmed that Huang will face a trio of House committees on December 1. While that testimony is slated to take place behind closed doors",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "O dva dni neskôr ho čaká verejné vypočutie v Senátnom výbore pre bankovníctvo, ktoré sa má zamerať na dohľad nad americkými exportnými kontrolami.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "the Senate Banking Committee will instead grill Huang in a public hearing on December 3. Get the popcorn ready for that one. In a statement to Bloomberg, committee chair Sen. Tim Scott said the hearing will focus on oversight of US export controls.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Senátorka Elizabeth Warrenová po jeho návrate vyhlásila, že vedenie Nvidie stále musí Kongresu vysvetliť svoj postup.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "The reckless decision to bring Jensen Huang back as CEO does not change the fact that Mr. Huang, NVIDIA executives and the company's board still owe Congress answers about the company's compliance with US export controls.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zákonodarcovia zároveň presadzujú návrhy na prísnejšie obmedzenie vývozu čipov a sledovanie ich umiestnenia v zahraničí.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Along with colleagues from both sides of the aisle, Warren is pushing forward legislation that would more tightly restrict NVIDIA exports. The AI Overwatch Act would codify Trump's limitations on chip exports to \"foreign adversaries\" into law. The Chip Security Act would force NVIDIA and other companies to monitor the locations of chips they send abroad.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "TechCrunch uvádza, že akcie pri otvorení obchodovania vzrástli o 30 percent, no o 9:51 h východoamerického času boli na úrovni 159,95 dolára, teda o 27 percent vyššie.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Nvidia shares, which had already shot up in premarket trading, opened 30% higher. Nvidia shares were priced at $159.95 a share, up 27%, at 9:51 a.m. ET.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "9to5Mac píše o raste presahujúcom 30 percent",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "The company’s share price jumped more than 30% in response",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tom’s Hardware neskôr uviedol, že akcie od oznámenia stúpli o viac než 32 percent.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Nvidia's stock has increased more than 32% since the announcement of Huang's reinstatement.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Čísla zachytávajú rôzne okamihy obchodovania a nemožno ich zamieňať za jeden konečný údaj.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Nvidia shares, which had already shot up in premarket trading, opened 30% higher. Nvidia shares were priced at $159.95 a share, up 27%, at 9:51 a.m. ET.",
+        "komentar": "Koncept správne interpretuje rozdiely v číslach ako dôsledok rôznych časov merania.",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "\nAko",
+        "kontext": "tvrdilo, že ho neplánuje znovu dosadiť.\n\nAko uviedli Wired a TechCrunch, rozhodnutiu",
+        "navrhy": [
+          ", Ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", Ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "vrdenia však nie sú v článkoch potvrdené ako fakt. Čínska vláda podľa Wired obvineni",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "východoamerického",
+        "kontext": "ania vzrástli o 30 percent, no o 9:51 h východoamerického času boli na úrovni 159,95 dolára, teda",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Google Preferred Source",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/jensen-huang-nvidia.jpg?quality=82&strip=all&w=800",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Jensen Huang (pictured) reinstated as CEO of Nvidia despite company's previous statement",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/b9db61d5cef3fec85352bf3d7768d06ff353055f7b4b968a103f9fba4b451a1a?s=96&d=mm&r=r",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Ben Lovejoy",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/33559a60fd1d7a1bafca5ac95584c3073bbff7670008c1490ccc9e6c29f6ef89?s=96&d=identicon&r=g",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Kirsten Korosec",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6b04495d307e146147156b9d/191:100/w_1280,c_limit/GettyImages-2266718431.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6b04495d307e146147156b9d/master/pass/GettyImages-2266718431.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://image.theregister.com/?imageId=5311670&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/16d23d1acf41600294bf8b07d8b50f14f44415d88f76bf0ab725ad5405e748ca?s=96&d=identicon&r=g",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Sarah Perez",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/nvidias-jensen-huang-will-testify-publicly-before-senators-on-december-3/l-intro-1795463182.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/nvidias-jensen-huang-will-testify-publicly-before-senators-on-december-3/intro-1795463182.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2024/05/AS-headshot-2026-5-e1784563584242.jpg?w=150",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Amanda Silberling",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/sDEMAVk3qrauvEM3EtLfHJ-2560-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Nvidia sign",
+        "popisok": "Nvidia sign",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:427,cw:1706,ch:1706,q:80,w:1706/sDEMAVk3qrauvEM3EtLfHJ.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "Nvidia sign",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:143,cw:2274,ch:1706,q:80,w:2274/sDEMAVk3qrauvEM3EtLfHJ.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "Nvidia sign",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/v2/t:133,l:0,cw:2560,ch:1440,q:80,w:2560/sDEMAVk3qrauvEM3EtLfHJ.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "Nvidia sign",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/MTveuGNKPqpzrLttEA9ebb.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "Andrew E. Freedman",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/7cUTDmN2PHNRiNBVqbKf56.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "Google Preferred Source",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/NfVpgKshf2uGNfh2twNZmj-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/V7MhPpXjWasaXp84nK6Meg-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "SAN JOSE, CALIFORNIA - MARCH 18: Nvidia CEO Jensen Huang delivers the keynote address during the Nvidia GTC 2025 at SAP Center on March 18, 2025 in San Jose, California. The annual Nvidia GTC conference runs through March 20th. (Photo by Justin Sullivan/Getty Images)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-2297572109.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "US President Donald Trump delivers remarks at the Peterbilt Motors facility in Denton, Texas, on October 1, 2026. (Photo by Kent NISHIMURA / AFP via Getty Images)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2301328096-1024x648.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2301328096-500x500.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2219673294.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "Jensen Huang",
+        "popisok": "PARIS, FRANCE - JUNE 11: Co-founder and chief executive officer of Nvidia Corp., Jensen Huang attends the 9th edition of the VivaTech trade show at the Parc des Expositions de la Porte de Versailles on June 11, 2025, in Paris. VivaTech, Europe's largest tech trade show, offers a unique digital format for four days of reconnection and recovery through innovation. The event brings together startups, CEOs, investors, technology leaders, and all the digital transformation players shaping the future of the internet. Founded in 2016 by Publicis Groupe and Groupe Les Echos, this annual technology conference, also known as VivaTech, is dedicated to promoting innovation and startups.. (Photo by Chesnot/Getty Images)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/sDEMAVk3qrauvEM3EtLfHJ.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Nvidia sign",
+        "popisok": "Nvidia sign",
+        "kredit": "(Image credit: Getty Images)",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/sDEMAVk3qrauvEM3EtLfHJ-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2025/08/GettyImages-2227140868.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Visitors visit the NVIDIA booth at the 3rd China International Supply Chain Expo in Beijing, China, on July 20, 2025. (Photo by Costfoto/NurPhoto via Getty Images)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "Nvidia headquarters",
+      "Nvidia GPU",
+      "server rack"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Nvidia_HQ.jpg/1280px-Nvidia_HQ.jpg",
+        "nazov": "Nvidia HQ.jpg",
+        "autor": "Kevin McCarthy",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Nvidia_HQ.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia headquarters"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/NVIDIA_Headquarters.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/617cd75a-b4de-4e8b-b049-7c31683011d5/thumb/",
+        "nazov": "NVIDIA Headquarters",
+        "autor": "Coolcaesar",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=74676142",
+        "povod": "openverse",
+        "dopyt": "Nvidia headquarters"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/NVIDIA_GPU_workstation.webp/1280px-NVIDIA_GPU_workstation.webp",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/NVIDIA_GPU_workstation.webp/1280px-NVIDIA_GPU_workstation.webp",
+        "nazov": "NVIDIA GPU workstation.webp",
+        "autor": "Wikideas1",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:NVIDIA_GPU_workstation.webp",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia GPU"
+      },
+      {
+        "url": "https://live.staticflickr.com/2590/3706444821_e124c0b6c7_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/eb921348-6dc7-49b9-bc3a-59bae8726c54/thumb/",
+        "nazov": "Tesla/NVIDIA GPU cluster",
+        "autor": "ChrisDag",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/8558461@N08/3706444821",
+        "povod": "openverse",
+        "dopyt": "Nvidia GPU"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Nvidia_sign.jpg/1280px-Nvidia_sign.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Nvidia_sign.jpg/1280px-Nvidia_sign.jpg",
+        "nazov": "Nvidia sign.jpg",
+        "autor": "Will Buckner",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Nvidia_sign.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia headquarters"
+      },
+      {
+        "url": "https://live.staticflickr.com/157/400107233_e39dc7fe3c_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/50b6e36f-a671-4a51-ac81-e7e4ef88441d/thumb/",
+        "nazov": "Google Headquarters on six displays",
+        "autor": "twid",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/48741368@N00/400107233",
+        "povod": "openverse",
+        "dopyt": "Nvidia headquarters"
+      }
+    ],
+    "prompt_ilustracie": "Create a symbolic editorial illustration of a corporate leadership comeback, showing an empty executive chair being illuminated by abstract circuit-board lines, with no real people, logos, or documentary-photography style."
+  },
+  "prompt_ilustracie": "Create a symbolic editorial illustration of a corporate leadership comeback, showing an empty executive chair being illuminated by abstract circuit-board lines, with no real people, logos, or documentary-photography style.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/a5a4ec4e911f85b8aefe5e8460285387",
+  "text_agentov": {
+    "titulok": "Nvidia vrátila Jensena Huanga na post generálneho riaditeľa",
+    "perex": "Predstavenstvo zmenilo rozhodnutie po jeho novembrovom odchode a jednomyseľne ho opäť poverilo vedením firmy. Návrat prichádza počas pokračujúcich vyšetrovaní a záujmu amerických zákonodarcov o vývoz čipov.",
+    "telo": "Jensen Huang sa s okamžitou platnosťou vrátil na čelo Nvidie. Predstavenstvo spoločnosti v pondelok 23. novembra jednomyseľne rozhodlo, že bude opäť jej generálnym riaditeľom aj prezidentom. Obrat nastal necelé dva týždne po tom, čo Huang z funkcie odišiel, a len niekoľko dní po tom, čo predstavenstvo verejne tvrdilo, že ho neplánuje znovu dosadiť.\n\nAko uviedli Wired a TechCrunch, rozhodnutiu predchádzali rozhovory a stretnutia s Huangom. Predseda predstavenstva Harvey Jones uviedol, že členovia sú presvedčení o jeho schopnosti viesť firmu a považujú jeho návrat za najlepší pre akcionárov, zamestnancov, partnerov aj zákazníkov. Dočasnou šéfkou bola počas jeho neprítomnosti finančná riaditeľka Colette Kress.\n\n## Predchádzajúce rozhodnutie predstavenstva sa obrátilo\n\nHuang odišiel 12. novembra. Po jeho odchode predstavenstvo uviedlo, že ho neplánuje vrátiť do funkcie; na výzve k jeho opätovnému dosadeniu však podľa Wired trvali aj zamestnanci. Interný príspevok s návrhmi pre vedenie získal viac než 1 600 komentárov, ktoré podľa portálu žiadali jeho návrat. Začala kolovať aj verejná petícia, ktorá mala v čase publikovania viac než 200 000 podpisov. Niektorí známi predstavitelia technologického odvetvia verejne avizovali, že ju podporujú alebo už podpísali.\n\nPrezident Donald Trump rozhodnutie predstavenstva privítal. Podľa Wired už predtým naznačil, že by mu Huangov návrat neprekážal; po oznámení napísal, že predstavenstvo rozhodlo správne. Samotné predstavenstvo potvrdilo, že pri rozhodovaní získalo podnety od vysokopostavených predstaviteľov americkej vlády. Podľa zverejneného vyjadrenia dospelo k záveru, že Huangov návrat nepredstavuje riziko pre národnú bezpečnosť.\n\n## Otázky okolo vývozu čipov zostávajú\n\nNávrat neukončil vyšetrovania týkajúce sa Huanga ani Nvidie. Správy o jeho osobných vzťahoch vrátane vzťahu so ženou menom Alice Huang vyvolali otázky o možných väzbách na Čínu a o obchádzaní amerických exportných obmedzení. Americkí predstavitelia ju podľa zdrojov podozrievali zo spolupráce s čínskymi spravodajskými službami, tieto tvrdenia však nie sú v článkoch potvrdené ako fakt. Čínska vláda podľa Wired obvinenia, že bola špiónkou, opakovane odmietla. Nvidia vedie vlastné vyšetrovanie a jej predstavenstvo uviedlo, že bude pokračovať až do záveru.\n\nEngadget informuje, že Huang má 1. decembra vypovedať pred tromi výbormi Snemovne reprezentantov za zatvorenými dverami. O dva dni neskôr ho čaká verejné vypočutie v Senátnom výbore pre bankovníctvo, ktoré sa má zamerať na dohľad nad americkými exportnými kontrolami. Senátorka Elizabeth Warrenová po jeho návrate vyhlásila, že vedenie Nvidie stále musí Kongresu vysvetliť svoj postup. Zákonodarcovia zároveň presadzujú návrhy na prísnejšie obmedzenie vývozu čipov a sledovanie ich umiestnenia v zahraničí.\n\n## Akcie po oznámení posilnili\n\nNávrat Huanga sprevádzal prudký rast akcií Nvidie. Zdroje sa však líšia v jeho výške: TechCrunch uvádza, že akcie pri otvorení obchodovania vzrástli o 30 percent, no o 9:51 h východoamerického času boli na úrovni 159,95 dolára, teda o 27 percent vyššie. 9to5Mac píše o raste presahujúcom 30 percent a Tom’s Hardware neskôr uviedol, že akcie od oznámenia stúpli o viac než 32 percent. Čísla zachytávajú rôzne okamihy obchodovania a nemožno ich zamieňať za jeden konečný údaj."
+  }
+}
