@@ -3,26 +3,27 @@ title: Amazon kupuje technológiu Decart na efektívnejšie využitie AI čipov
 perex: Dohoda sa týka optimalizačného softvéru, zakladateľov a časti tímu izraelského startupu, nie celej firmy. Amazon chce technológiu využiť aj pri svojich čipoch Trainium.
 sekcia: biznis
 tagy:
-- Amazon
-- Decart
-- AI čipy
-- Trainium
-publikovane: '2026-11-24T07:16:49+00:00'
+  - Amazon
+  - Decart
+  - AI čipy
+  - Trainium
+publikovane: 2026-11-24T07:16:49+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/amazon-kupuje-technologiu-decart-na-efektivnejsie-vyuzitie-ai-cipov-mwuqigy0.webp
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'The Register: Amazon scoops up AI accelerator tech to keep chips busy at all times'
-  url: https://www.theregister.com/ai-and-ml/2026/11/23/amazon-scoops-up-ai-accelerator-tech-to-keep-chips-busy-at-all-times/5311754
-- nazov: 'TechCrunch: Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips'
-  url: https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/
+  - nazov: "The Register: Amazon scoops up AI accelerator tech to keep chips busy at all times"
+    url: https://www.theregister.com/ai-and-ml/2026/11/23/amazon-scoops-up-ai-accelerator-tech-to-keep-chips-busy-at-all-times/5311754
+  - nazov: "TechCrunch: Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips"
+    url: https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/
 ---
 
 Amazon kupuje od izraelského startupu Decart technológiu, ktorá má pomôcť AI modelom efektívnejšie využívať výpočtové čipy. Súčasťou dohody je optimalizačný softvér Decart Optimization Stack (DOS), zakladatelia firmy a tím výskumníkov a inžinierov. Amazon podľa svojho vyjadrenia nezískava celú spoločnosť.
