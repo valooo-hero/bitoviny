@@ -3,25 +3,26 @@ title: Americkí predstavitelia varujú, že veľké technologické výpadky bud
 perex: Po problémoch FAA, Outlooku a bankových služieb JPMorgan Chase upozorňujú americkí predstavitelia aj Microsoft na ďalšie riziká. Modernizácia informačnej infraštruktúry potrvá a systémy môžu mať počas zmien výpadky.
 sekcia: biznis
 tagy:
-- technologické výpadky
-- Microsoft
-- Outlook
-- kyberbezpečnosť
-- JPMorgan Chase
-publikovane: '2026-11-23T04:03:55+00:00'
+  - technologické výpadky
+  - Microsoft
+  - Outlook
+  - kyberbezpečnosť
+  - JPMorgan Chase
+publikovane: 2026-11-23T04:03:55+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/americki-predstavitelia-varuju-ze-velke-technologicke-vypadky-budu-pokracovat-mwuqbm2a.webp
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'The Verge: We haven’t seen the last of the major tech outages'
-  url: https://www.theverge.com/tech/1039851/major-tech-outages
+  - nazov: "The Verge: We haven’t seen the last of the major tech outages"
+    url: https://www.theverge.com/tech/1039851/major-tech-outages
 ---
 
 ## Tri incidenty v krátkom čase
