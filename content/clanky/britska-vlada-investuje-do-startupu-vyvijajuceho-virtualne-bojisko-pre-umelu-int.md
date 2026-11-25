@@ -7,7 +7,7 @@ tagy:
   - obranné technológie
   - umelá inteligencia
   - kybernetická bezpečnosť
-publikovane: 2026-11-25T06:56:37+00:00
+publikovane: 2026-11-25T11:26:05Z
 obrazok:
   src: /obrazky/britska-vlada-investuje-do-startupu-vyvijajuceho-virtualne-bojisko-pre-umelu-int-mww1f8lp.webp
   alt: Ilustračný obrázok.
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Register: UK gov invests in defense startup making virtual training ground for AI"
     url: https://www.theregister.com/ai-and-ml/2026/11/24/uk-gov-invests-in-defense-startup-making-virtual-training-ground-for-ai/5311707
