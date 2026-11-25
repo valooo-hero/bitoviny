@@ -64,7 +64,7 @@ jobs:
           if [ -n "$DATUM" ]; then ARGS+=(--datum "$DATUM"); fi
           python -m bitoviny.zber --pocet 12 "${ARGS[@]}"
           if [ -n "$CLOUDFLARE_ACCOUNT_ID" ] && [ -n "$CLOUDFLARE_API_TOKEN" ]; then
-            ARGS+=(--titulne-obrazky)
+            ARGS+=(--automaticky)
           else
             echo "::warning::Chýba CLOUDFLARE_ACCOUNT_ID alebo CLOUDFLARE_API_TOKEN. Koncepty budú bez titulnej ilustrácie."
           fi
