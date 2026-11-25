@@ -3,28 +3,29 @@ title: Tidal zakáže hudbu plne vytvorenú umelou inteligenciou
 perex: Streamovacia služba Tidal oznámila radikálny krok proti prívalu obsahu z umelej inteligencie. Od decembra začne plne generované skladby mazať a odmietať.
 sekcia: biznis
 tagy:
-- Tidal
-- umelá inteligencia
-- hudobný priemysel
-- streaming
-publikovane: '2026-11-25T07:09:53+00:00'
+  - Tidal
+  - umelá inteligencia
+  - hudobný priemysel
+  - streaming
+publikovane: 2026-11-25T07:09:53+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/tidal-zakaze-hudbu-plne-vytvorenu-umelou-inteligenciou-mww1j4ch.webp
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'Engadget: Tidal is banning AI-generated music entirely'
-  url: https://www.engadget.com/2326812/tidal-is-banning-ai-generated-music-entirely/
-- nazov: 'TechCrunch: Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming'
-  url: https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/
-- nazov: 'Ars Technica: Tidal announces ban on AI-generated music; 27 million tracks will be deleted'
-  url: https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/
+  - nazov: "Engadget: Tidal is banning AI-generated music entirely"
+    url: https://www.engadget.com/2326812/tidal-is-banning-ai-generated-music-entirely/
+  - nazov: "TechCrunch: Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming"
+    url: https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/
+  - nazov: "Ars Technica: Tidal announces ban on AI-generated music; 27 million tracks will be deleted"
+    url: https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/
 ---
 
 Streamovacia služba Tidal sa chystá zaujať nekompromisný postoj voči hudbe vytvorenej výhradne umelou inteligenciou. Ako v utorok oznámil vedúci platformy Robert Anderson, spoločnosť začne s odstraňovaním plne generovaných skladieb 9. decembra. Tento krok povedie k vymazaniu približne 29 miliónov stôp, pričom samotný portál v článkoch uvádza aj číslo 27 miliónov existujúcich skladieb, čo predstavuje 6,3 percenta celkového katalógu. Podľa vyjadrení platformy bude Tidal následne každý deň odmietať 80 000 až 85 000 nových piesní.
