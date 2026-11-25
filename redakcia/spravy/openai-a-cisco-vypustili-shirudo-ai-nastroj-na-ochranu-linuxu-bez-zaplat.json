@@ -1,0 +1,785 @@
+{
+  "slug": "openai-a-cisco-vypustili-shirudo-ai-nastroj-na-ochranu-linuxu-bez-zaplat",
+  "datum_sprav": "2026-11-24",
+  "dovod_vyberu": "Cisco a OpenAI predstavili eBPF kernel pluginy na automatizované zabezpečenie neopravených Linux systémov, čo je významný krok pre enterprise IT.",
+  "poznamky_pre_editora": "Opravila som dva nálezy factcheckera: v prvom som upresnila, že myšlienka skenovania a písania kontrol sa týka odporúčaní pre AI agentov, nie všeobecných agentov. V druhom som odstránila nepodložené geografické rozšírenie na Slovensko a EÚ.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je spoľahlivý – všetky overiteľné tvrdenia (čísla, dátumy, mená, funkcie, citáty aj príčinné súvislosti) majú priamu oporu v oboch zdrojoch. Najdrobnejším problémom je vynechanie slova „networking“ pri popise Isovalentu a mierne silnejšia kauzálna formulácia o AI nástrojoch na hľadanie chýb, čo však význam neposúva.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 16,
+        "potvrdenych": 14,
+        "chyb": 2,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 27,
+        "potvrdenych": 27,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "OpenAI a Cisco vypustili Shirudo, AI nástroj na ochranu Linuxu bez záplat",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections to block vulnerability exploitation",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Otvorený nástroj využíva eBPF a AI agentov na blokovanie zneužitia zraniteľností ešte pred nasadením záplat",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Shirudo leverages the eBPF (extended Berkeley Packet Filter) mechanism in Linux to monitor for suspicious activity and deploy targeted protections",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ľudia majú nad každou ochranou finálne slovo",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The two companies envision humans checking every shield Shirudo creates before putting it into production.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nástroj nasadzuje dočasné ochrany za behu bez nutnosti reštartu služieb",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "deploys temporary runtime protections to block vulnerability exploitation while administrators prepare and roll out patches, without restarting services",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "eBPF (extended Berkeley Packet Filter) umožňuje spúšťať programy v riadenom prostredí v jadre bez zásahu do zdrojového kódu a bez reštartu",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "eBPF is a Linux technology that lets programs run in a controlled environment within the operating system's kernel without modifying its source code",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "eBPF sa už dlhšie používa na sledovanie siete a výkonu; Cisco a OpenAI ho teraz chcú využiť na bezpečnosť",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "It enables real-time monitoring of system and network activity, performance analysis, and enforcement of targeted security protections",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Shirudo vytvára cielené ochrany „shields“, ktoré blokujú nebezpečné správanie a nechávajú bežné fungovanie aplikácií nedotknuté",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Shirudo's shields aim to block malicious behavior in a targeted way, leaving legitimate application operations undisturbed.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "OpenAI vypichol štyri hlavné vlastnosti: ochranu za behu, AI podporu, dôveryhodné nasadenie cez kryptografické podpisy a hardvérové overenie cez TPM",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "OpenAI highlights four core capabilities for the tool",
+        "komentar": "Štyri vlastnosti (živá ochrana, AI podpora, dôveryhodné nasadenie, hardvérové overenie cez TPM) sú v zdroji vymenované.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Samotné nasadenie štítov ostáva pod kontrolou ľudí",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "with deployment remaining under human control",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výskumníci oboch firiem predviedli, že štít zablokoval zneužitie Java4Shell proti bežiacej službe Elasticsearch bez prerušenia prevádzky",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "demonstrated that they could successfully block a Java4Shell exploit attempt against a running Elasticsearch service without interrupting its operation",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tento rok bolo nahlásených viac než 100 000 zraniteľností, mnohé pridali nástroje na hľadanie chýb poháňané umelou inteligenciou",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "the flood of 100,000-plus software flaws reported this year, many after the debut of AI-powered bug finders",
+        "komentar": "Zdroj hovorí o chybách „po debutu“ AI nástrojov, koncept to podáva ako ich prínos; význam sa zachováva.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Organizácie zápasia s testovaním a nasadzovaním opráv a čelia záplave, ktorú nestíhajú záplatovať",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "a problem for many organizations which already struggle to test fixes or find change windows in which to implement them",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Riešením sú kompenzačné kontroly – úpravy aplikácií či infraštruktúry, ktoré ich utužia bez záplaty",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "“compensating controls” – changes to applications or infrastructure that harden them against flaws or malware, without requiring a patch",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rimini Street ich používa roky, VMware zaviedlo virtuálne záplaty, podobný prístup ponúkajú aj Palo Alto Networks či Rapid7",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "VMware has introduced “virtual patching.” Palo Alto Networks and Rapid 7 also like this approach, and offer automation to develop controls.",
+        "komentar": "Rimini Street „have used them for years“ je potvrdené voľnou vetou predchádzajúcu tomuto úryvku.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Cisco a OpenAI sa odlišujú tým, že Shirudo sprístupnili ako open-source a chcú, aby ho ďalší hráči rozvíjali",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Where Cisco and OpenAI differ is their decision to make Shirudo open source, and their ambition that other players adapt and advance it.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "AI agenti by mali skenovať infraštruktúru a pomocou nástrojov ako OpenAI Codex písať kompenzačné kontroly v podobe eBPF programov strojovou rýchlosťou",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Agents should scan your infrastructure for vulnerabilities, then use tools like OpenAI's Codex to write compensating controls as eBPF programs at machine speed.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Firmy plánujú dodávať pripravené, otestované štíty spolu so zverejnením zraniteľností, kým nebude dostupná záplata",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "plan to provide “ready-to-use” mitigations in the form of tested shields, along with vulnerability disclosures, until patching is possible",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Štíty sa šíria ako kryptograficky podpísané balíčky „.bee“ cez OCI registry",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Shields will be distributed as cryptographically signed '.bee' packages through an OCI registry.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Isovalent, ktorý Cisco kúpil v roku 2024, vysvetlil, že „Shirudo is a rewrite of Tetragon“",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "a cloud networking and security company acquired by Cisco in 2024, explain that “Shirudo is a rewrite of Tetragon,”",
+        "komentar": "Zdroj Isovalent označuje za „cloud networking and security company“, koncept vynecháva slovo „networking“.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tetragon je otvorený eBPF nástroj z roku 2022, na ktorom stojí aj Cisco Live Protect",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "an open-source eBPF-based runtime security platform the company introduced in 2022, which also serves as the foundation for Cisco's existing Live Protect",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nástroj okrem eBPF dokáže zásahom do bajtkódu chrániť aj aplikácie a po nasadení štítu ukazuje počet zásahov",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "the tool isn't limited to eBPF and can also modify application or userspace runtime bytecode to extend protection where needed",
+        "komentar": "Počet zásahov (hit counts) je potvrdený voľnou vetou „When a shield is deployed, they also provide operators with hit counts“.",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "The Register upozorňuje, že ak sa Shirudo ujme, môže to zvýšiť dopyt po OpenAI Codex",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "That offer is not entirely altruistic, as if Shirudo takes off it could create more demand for Codex.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Cisco vlastní Isovalent, ktorý stál pri zrode eBPF",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "it owns Isovalent, an early champion of eBPF and the creator of both Cilium and the Tetragon sub-project on which Shirudo is based",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Marcus Hutchins, hlavný výskumník hrozieb vo firme Expel, pripúšťa obrovský potenciál eBPF, no varuje pred AI agentmi píšícimi pravidlá zasahujúce do jadra",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Marcus Hutchins, principal threat researcher at managed detection and response company Expel, says that while there is “genuinely so much runtime exploit mitigation potential”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nástroj je obmedzený na Linux, pretože macOS a Windows nemajú potrebné komponenty",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "capabilities are limited to Linux because Mac/Windows haven't implement the components needed to be effective",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "OpenAI chystá na 15. decembra technický webinár o tom, ako nástroj kombinuje eBPF a umelú inteligenciu",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "In a deep-dive webinar on December 15, OpenAI will provide a technical rundown of how the tool works and how it combines eBPF",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Shirudo je dostupný ako open-source (BSD + GPL)",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Shirudo is open-source (BSD + GPL) and comes with a quick-start guide as well as “getting started” documentation from Isovalent.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "tento rok ich bolo nahlásených viac než 100 000, pričom mnohé pridali nástroje na hľadanie chýb poháňané umelou inteligenciou",
+        "opravene": "tento rok ich bolo nahlásených viac než 100 000, pričom mnohé boli pridané nástrojmi na hľadanie chýb poháňanými umelou inteligenciou",
+        "dovod": "chýbajúci trpný rod – neobratná formulácia",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "baidu/ernie-5.5-flash-preview:free (openrouter)"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "eBPF",
+        "kontext": "Otvorený nástroj využíva eBPF a AI agentov na blokovanie zneužitia zr",
+        "navrhy": [
+          "EBRD",
+          "EP",
+          "EPA"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "eBPF",
+        "kontext": "tartu\n\nPodstatou Shirudo je technológia eBPF (extended Berkeley Packet Filter), ktor",
+        "navrhy": [
+          "EBRD",
+          "EP",
+          "EPA"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "extended",
+        "kontext": "\nPodstatou Shirudo je technológia eBPF (extended Berkeley Packet Filter), ktorá umožňuje",
+        "navrhy": [
+          "entente",
+          "excenter",
+          "expander"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "kernel",
+        "kontext": "my v riadenom prostredí priamo v jadre (kernel) operačného systému, bez zásahu do jeho",
+        "navrhy": [
+          "Kornel",
+          "černel"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "eBPF",
+        "kontext": "do jeho zdrojového kódu a bez reštartu. eBPF sa už dlhšie používa napríklad na sledo",
+        "navrhy": [
+          "EBRD",
+          "EP",
+          "EPA"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "shields",
+        "kontext": " bezpečnosť.\n\nNástroj vytvára takzvané „shields“ (anglicky štíty) – cielené ochrany, kt",
+        "navrhy": [
+          "Hilda",
+          "Hilde",
+          "Hildu"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "fungowanie",
+        "kontext": "onkrétne nebezpečné správanie, no bežné fungowanie aplikácií nechávajú nedotknuté. Ako uvi",
+        "navrhy": [
+          "fungovanie"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "záplatovať",
+        "kontext": "ráv, tak čelia záplave, ktorú nestíhajú záplatovať.\n\nRiešením sú takzvané kompenzačné kont",
+        "navrhy": [
+          "zaplavovať",
+          "zaplánovať",
+          "záp latovať"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "sa odlišujú tým, že Shirudo sprístupnili ako open-source a chcú, aby ho ďalší hráči ",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "open-source",
+        "kontext": "lišujú tým, že Shirudo sprístupnili ako open-source a chcú, aby ho ďalší hráči rozvíjali.\n\n",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": " nájsť zraniteľnosti a pomocou nástrojov ako OpenAI Codex písať kompenzačné kontroly",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "eBPF",
+        "kontext": "dex písať kompenzačné kontroly v podobe eBPF programov „strojovou rýchlosťou“. Firmy",
+        "navrhy": [
+          "EBRD",
+          "EP",
+          "EPA"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": " nebude dostupná záplata. Štíty sa šíria ako kryptograficky podpísané balíčky „.bee“",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "bee",
+        "kontext": " ako kryptograficky podpísané balíčky „.bee“ cez OCI registry.\n\n## Tetragon, Codex ",
+        "navrhy": [
+          "BEI",
+          "BSE",
+          "Be"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "byznys",
+        "kontext": "cez OCI registry.\n\n## Tetragon, Codex a byznys\n\nShirudo nie je úplne nový základ. Výsk",
+        "navrhy": [
+          "bažný",
+          "bežný",
+          "bežným"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cloudovej",
+        "kontext": " nový základ. Výskumníci z Isovalentu – cloudovej bezpečnostnej firmy, ktorú Cisco kúpil ",
+        "navrhy": [
+          "clou dovej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "rewrite",
+        "kontext": "oku 2024 – vysvetlili, že „Shirudo is a rewrite of Tetragon“, otvoreného eBPF nástroja ",
+        "navrhy": [
+          "cerite",
+          "ceríte",
+          "ferite"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "eBPF",
+        "kontext": "o is a rewrite of Tetragon“, otvoreného eBPF nástroja z roku 2022, na ktorom stojí a",
+        "navrhy": [
+          "EBRD",
+          "EP",
+          "EPA"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "eBPF",
+        "kontext": "aj Cisco Live Protect. Nástroj sa okrem eBPF dokáže podľa Isovalentu zásahom do bajt",
+        "navrhy": [
+          "EBRD",
+          "EP",
+          "EPA"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "bajtkódu",
+        "kontext": "eBPF dokáže podľa Isovalentu zásahom do bajtkódu chrániť aj samotné aplikácie a po nasad",
+        "navrhy": [
+          "bajt kódu"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "eBPF",
+        "kontext": "vlastní Isovalent, ktorý stál pri zrode eBPF.\n\n## Výhrady a ďalšie kroky\n\nNie všetci",
+        "navrhy": [
+          "EBRD",
+          "EP",
+          "EPA"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "eBPF",
+        "kontext": "ík hrozieb vo firme Expel, pripúšťa, že eBPF má v zmierňovaní zneužití obrovský pote",
+        "navrhy": [
+          "EBRD",
+          "EP",
+          "EPA"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "genuinely",
+        "kontext": "erňovaní zneužití obrovský potenciál – „genuinely so much runtime exploit mitigation pote",
+        "navrhy": [
+          "Guiney",
+          "Sentinel",
+          "fenikely"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "much",
+        "kontext": "žití obrovský potenciál – „genuinely so much runtime exploit mitigation potential“ –",
+        "navrhy": [
+          "múch",
+          "buch",
+          "duch"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "runtime",
+        "kontext": "obrovský potenciál – „genuinely so much runtime exploit mitigation potential“ – no nech",
+        "navrhy": [
+          "rútime"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "exploit",
+        "kontext": " potenciál – „genuinely so much runtime exploit mitigation potential“ – no nechať AI ag",
+        "navrhy": [
+          "explicit",
+          "explózia",
+          "explózie"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "mitigation",
+        "kontext": "ál – „genuinely so much runtime exploit mitigation potential“ – no nechať AI agentov písať",
+        "navrhy": [
+          "mitigácia"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "potential",
+        "kontext": "nely so much runtime exploit mitigation potential“ – no nechať AI agentov písať pravidlá,",
+        "navrhy": [
+          "potenciál"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "webinár",
+        "kontext": "OpenAI chystá na 15. decembra technický webinár o tom, ako nástroj kombinuje eBPF a ume",
+        "navrhy": [
+          "debnár",
+          "seminár",
+          "zelinár"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "eBPF",
+        "kontext": "ký webinár o tom, ako nástroj kombinuje eBPF a umelú inteligenciu. Shirudo je dostup",
+        "navrhy": [
+          "EBRD",
+          "EP",
+          "EPA"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": " umelú inteligenciu. Shirudo je dostupný ako open-source (BSD + GPL), takže si ho vý",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "open-source",
+        "kontext": "ú inteligenciu. Shirudo je dostupný ako open-source (BSD + GPL), takže si ho vývojári hneď ",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -17 +17 @@\n-Podľa The Register Cisco a OpenAI reagujú na obrovský počet zraniteľností – tento rok ich bolo nahlásených viac než 100 000, pričom mnohé pridali nástroje na hľadanie chýb poháňané umelou inteligenciou. Organizácie, ktoré už dnes zápasia s testovaním a nasadzovaním opráv, tak čelia záplave, ktorú nestíhajú záplatovať.\n+Podľa The Register Cisco a OpenAI reagujú na obrovský počet zraniteľností – tento rok ich bolo nahlásených viac než 100 000, pričom mnohé boli pridané nástrojmi na hľadanie chýb poháňanými umelou inteligenciou. Organizácie, ktoré už dnes zápasia s testovaním a nasadzovaním opráv, tak čelia záplave, ktorú nestíhajú záplatovať."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Cisco_UCS_in_the_wild.jpg/1280px-Cisco_UCS_in_the_wild.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://image.theregister.com/?imageId=1682068&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.bleepstatic.com/content/hl-images/2026/11/24/Linux-shield.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.bleepstatic.com/images/news/u/1220909/2026/November/hits.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "Reporting hits of deployed shields",
+        "popisok": "Reporting hits on deployed shields Source: Isovalent",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Cisco UCS server",
+      "Linux server rack",
+      "AI accelerator"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Cisco_UCS_in_the_wild.jpg/1280px-Cisco_UCS_in_the_wild.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Cisco_UCS_in_the_wild.jpg/1280px-Cisco_UCS_in_the_wild.jpg",
+        "nazov": "Cisco UCS in the wild.jpg",
+        "autor": "ChrisDag",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Cisco_UCS_in_the_wild.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Cisco UCS server"
+      },
+      {
+        "url": "https://live.staticflickr.com/2774/4118843868_8ec613e7f0_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/6620d75c-f506-4529-b683-d6a395e30068/thumb/",
+        "nazov": "Cisco UCS in the wild",
+        "autor": "ChrisDag",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/8558461@N08/4118843868",
+        "povod": "openverse",
+        "dopyt": "Cisco UCS server"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Server_Linux.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Server_Linux.jpg",
+        "nazov": "Server Linux.jpg",
+        "autor": "Michael Jastremski",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Server_Linux.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Linux server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/1100/630044143_6ec7e7a908_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/0a0ebf07-e251-4caa-985a-2ee42158eb04/thumb/",
+        "nazov": "Rack Madness 2007",
+        "autor": "Maurizio Zanetti",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/12502065@N00/630044143",
+        "povod": "openverse",
+        "dopyt": "Linux server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Raspberry_Pi_5_Hailo_AI_Accelerator_Module.jpg/1280px-Raspberry_Pi_5_Hailo_AI_Accelerator_Module.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Raspberry_Pi_5_Hailo_AI_Accelerator_Module.jpg/1280px-Raspberry_Pi_5_Hailo_AI_Accelerator_Module.jpg",
+        "nazov": "Raspberry Pi 5 Hailo AI Accelerator Module.jpg",
+        "autor": "RetroEditor",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_5_Hailo_AI_Accelerator_Module.jpg",
+        "povod": "wikimedia",
+        "dopyt": "AI accelerator"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Cisco_UCS.jpg/1280px-Cisco_UCS.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Cisco_UCS.jpg/1280px-Cisco_UCS.jpg",
+        "nazov": "Cisco UCS.jpg",
+        "autor": "Tibigc",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Cisco_UCS.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Cisco UCS server"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Devuan_GNU-Linux_-_tty_login_-_server_rack.jpg/1280px-Devuan_GNU-Linux_-_tty_login_-_server_rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Devuan_GNU-Linux_-_tty_login_-_server_rack.jpg/1280px-Devuan_GNU-Linux_-_tty_login_-_server_rack.jpg",
+        "nazov": "Devuan GNU-Linux - tty login - server rack.jpg",
+        "autor": "Francesco Magno",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Devuan_GNU-Linux_-_tty_login_-_server_rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Linux server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/167/387676928_e23848709d_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/f61aee6f-0937-4672-b1ad-0eb7acc6553d/thumb/",
+        "nazov": "365 days of me in the IT department",
+        "autor": "Maurizio Zanetti",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/12502065@N00/387676928",
+        "povod": "openverse",
+        "dopyt": "Linux server rack"
+      }
+    ],
+    "prompt_ilustracie": "A digital shield made of eBPF code protecting a Linux server icon from malware."
+  },
+  "prompt_ilustracie": "A digital shield made of eBPF code protecting a Linux server icon from malware.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/be0f30fbb1b2e799d4bc4b1c82b2479d",
+  "text_agentov": {
+    "titulok": "OpenAI a Cisco vypustili Shirudo, AI nástroj na ochranu Linuxu bez záplat",
+    "perex": "Otvorený nástroj využíva eBPF a AI agentov na blokovanie zneužitia zraniteľností ešte predtým, než administrátori stihnú nasadiť záplaty. Ľudia však majú nad každou ochranou finálne slovo.",
+    "telo": "OpenAI a Cisco spoločne vydali otvorený nástroj Shirudo, ktorý má chrániť linuxové systémy pred zneužitím zraniteľností v čase, keď administrátori ešte nestihli nasadiť záplaty. Nástroj nasadzuje dočasné ochrany za behu, a to bez nutnosti reštartu služieb.\n\n## Ochrana bez reštartu\n\nPodstatou Shirudo je technológia eBPF (extended Berkeley Packet Filter), ktorá umožňuje spúšťať programy v riadenom prostredí priamo v jadre (kernel) operačného systému, bez zásahu do jeho zdrojového kódu a bez reštartu. eBPF sa už dlhšie používa napríklad na sledovanie siete a výkonu; Cisco a OpenAI ho teraz chcú využiť na bezpečnosť.\n\nNástroj vytvára takzvané „shields“ (anglicky štíty) – cielené ochrany, ktoré blokujú konkrétne nebezpečné správanie, no bežné fungowanie aplikácií nechávajú nedotknuté. Ako uviedol portál BleepingComputer, OpenAI vypichol štyri hlavné vlastnosti: ochranu za behu bez reštartu, AI podporu pri vyšetrovaní zraniteľností a tvorbe štítov, dôveryhodné nasadenie cez kryptografické podpisy a overovacie mechanizmy jadra a hardvérové overenie pomocou čipov TPM.\n\nKľúčové je, že samotné nasadenie ostáva pod kontrolou ľudí. Výskumníci oboch firiem predviedli, že vygenerovaný štít dokázal zablokovať pokus o zneužitie Java4Shell proti bežiacej službe Elasticsearch bez prerušenia jej prevádzky.\n\n## Prečo prichádza práve teraz\n\nPodľa The Register Cisco a OpenAI reagujú na obrovský počet zraniteľností – tento rok ich bolo nahlásených viac než 100 000, pričom mnohé boli pridané nástrojmi na hľadanie chýb poháňanými umelou inteligenciou. Organizácie, ktoré už dnes zápasia s testovaním a nasadzovaním opráv, tak čelia záplave, ktorú nestíhajú záplatovať.\n\nRiešením sú takzvané kompenzačné kontroly – úpravy aplikácií či infraštruktúry, ktoré ich utužia proti zraniteľnosti bez záplaty. Nejde o novinku: spoločnosť Rimini Street ich používa roky, VMware zaviedlo „virtuálne záplaty“ a podobný prístup ponúkajú aj Palo Alto Networks či Rapid7. Cisco a OpenAI sa odlišujú tým, že Shirudo sprístupnili ako open-source a chcú, aby ho ďalší hráči rozvíjali.\n\nPodľa odporúčaní by AI agenti mali skenovať infraštruktúru, nájsť zraniteľnosti a pomocou nástrojov ako OpenAI Codex písať kompenzačné kontroly v podobe eBPF programov „strojovou rýchlosťou“. Firmy plánujú dodávať aj pripravené, otestované štíty spolu so zverejnením zraniteľností, a to až kým nebude dostupná záplata. Štíty sa šíria ako kryptograficky podpísané balíčky „.bee“ cez OCI registry.\n\n## Tetragon, Codex a byznys\n\nShirudo nie je úplne nový základ. Výskumníci z Isovalentu – cloudovej bezpečnostnej firmy, ktorú Cisco kúpil v roku 2024 – vysvetlili, že „Shirudo is a rewrite of Tetragon“, otvoreného eBPF nástroja z roku 2022, na ktorom stojí aj Cisco Live Protect. Nástroj sa okrem eBPF dokáže podľa Isovalentu zásahom do bajtkódu chrániť aj samotné aplikácie a po nasadení štítu ukazuje počet zásahov, teda kde sa útočníci pokúšali preniknúť.\n\nThe Register upozorňuje, že krok firiem nie je úplne nezištný: ak sa Shirudo ujme, môže to zvýšiť dopyt po OpenAI Codex. Cisco zase vlastní Isovalent, ktorý stál pri zrode eBPF.\n\n## Výhrady a ďalšie kroky\n\nNie všetci sú nadšení. Marcus Hutchins, hlavný výskumník hrozieb vo firme Expel, pripúšťa, že eBPF má v zmierňovaní zneužití obrovský potenciál – „genuinely so much runtime exploit mitigation potential“ – no nechať AI agentov písať pravidlá, ktoré zasahujú do jadra, nemusí byť dobrý nápad. Upozornil tiež, že nástroj je obmedzený na Linux, pretože macOS a Windows nemajú potrebné komponenty.\n\nOpenAI chystá na 15. decembra technický webinár o tom, ako nástroj kombinuje eBPF a umelú inteligenciu. Shirudo je dostupný ako open-source (BSD + GPL), takže si ho vývojári hneď môžu vyskúšať."
+  }
+}
