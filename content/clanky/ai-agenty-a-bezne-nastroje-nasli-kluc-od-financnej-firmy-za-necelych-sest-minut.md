@@ -8,7 +8,7 @@ tagy:
   - OpenCode
   - Cairn
   - bezpecnost
-publikovane: 2026-11-25T06:53:15+00:00
+publikovane: 2026-11-25T11:24:55Z
 obrazok:
   src: /obrazky/ai-agenty-a-bezne-nastroje-nasli-kluc-od-financnej-firmy-za-necelych-sest-minut-mww1dpq0.webp
   alt: Ilustračný obrázok.
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Register: An AI coding agent, a browser, and a Mac tool found a financial firm's access key in under 6 minutes"
     url: https://www.theregister.com/security/2026/11/24/an-ai-coding-agent-a-browser-and-a-mac-tool-found-a-financial-firms-access-key-in-under-6-minutes/5311922
