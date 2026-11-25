@@ -7,7 +7,7 @@ tagy:
   - umelá inteligencia
   - hudobný priemysel
   - streaming
-publikovane: 2026-11-25T07:09:53+00:00
+publikovane: 2026-11-25T11:29:05Z
 obrazok:
   src: /obrazky/tidal-zakaze-hudbu-plne-vytvorenu-umelou-inteligenciou-mww1j4ch.webp
   alt: Ilustračný obrázok.
@@ -19,6 +19,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "Engadget: Tidal is banning AI-generated music entirely"
     url: https://www.engadget.com/2326812/tidal-is-banning-ai-generated-music-entirely/
