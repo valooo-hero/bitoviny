@@ -6,6 +6,7 @@ roly:
       - &groq { provider: groq, model: openai/gpt-oss-120b }
       - &lite { provider: google, model: gemini-3.5-flash-lite }
       - &ernie { provider: openrouter, model: "baidu/ernie-5.5-flash-preview:free", metoda: json_schema }
+      - { provider: deepinfra, model: deepseek-ai/DeepSeek-V4-Flash-0731 }
 
   # Jazykový verdikt nad titulkom, perexom a zdrojmi. Vstup sa delí na dávky.
   kontrola_duplicit:
@@ -14,6 +15,7 @@ roly:
       - { provider: google, model: gemini-3.5-flash-lite }
       - { provider: groq, model: openai/gpt-oss-120b }
       - { provider: openrouter, model: "baidu/ernie-5.5-flash-preview:free", metoda: json_schema }
+      - { provider: deepinfra, model: deepseek-ai/DeepSeek-V4-Flash-0731 }
 
   autorka:
     teplota: 0.6
@@ -22,6 +24,7 @@ roly:
       - *lite
       - *ernie
       - *groq
+      - { provider: openai, model: gpt-6-luna, metoda: json_schema, reasoning: medium, verbosity: medium, max_output_tokens: 8192 }
 
   factcheck:
     teplota: 0.0
@@ -30,6 +33,7 @@ roly:
       - *ernie
       - *flash
       - *groq
+      - { provider: deepinfra, model: deepseek-ai/DeepSeek-V4-Flash-0731 }
 
   korektura:
     teplota: 0.0
@@ -38,6 +42,7 @@ roly:
       - *flash
       - *ernie
       - *groq
+      - { provider: deepinfra, model: deepseek-ai/DeepSeek-V4-Flash-0731 }
 
   fotoeditor:
     teplota: 0.3
@@ -45,3 +50,4 @@ roly:
       - *groq
       - *lite
       - *ernie
+      - { provider: deepinfra, model: deepseek-ai/DeepSeek-V4-Flash-0731 }

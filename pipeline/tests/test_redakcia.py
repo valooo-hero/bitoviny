@@ -48,7 +48,6 @@ def test_konfiguracia_modelov():
     assert {"vyber_tem", "autorka"} <= set(cfg)
     for rola in cfg.values():
         assert len(rola["modely"]) >= 2, "každá rola má mať aspoň jednu zálohu"
-        assert all(m["provider"] in {"google", "groq", "openrouter"} for m in rola["modely"])
 
 def test_vyber_tem_zahodi_neplatne_cisla_a_duplicity():
     kandidati = [_tema() for _ in range(4)]
@@ -197,23 +196,37 @@ def test_rozsirenie_ktore_text_skrati_sa_zahodi():
 
 
 @pytest.mark.parametrize("provider,model", [
-    ("openai", "gpt-6-luna"), ("deepinfra", "deepseek"),
     ("openrouter", "baidu/ernie-5.5-flash-preview"), ("openrouter", "openrouter/auto"),
 ])
-def test_platena_cesta_sa_odmietne(provider, model, monkeypatch):
+def test_openrouter_odmietne_model_bez_free_pripony(provider, model, monkeypatch):
     from bitoviny import llm
 
-    for kluc in ("OPENAI_API_KEY", "DEEPINFRA_API_KEY", "OPENROUTER_API_KEY"):
-        monkeypatch.setenv(kluc, "test")
+    monkeypatch.setenv("OPENROUTER_API_KEY", "test")
     with pytest.raises(ValueError):
         llm._vytvor({"provider": provider, "model": model}, 0)
+
+
+def test_platene_modely_su_posledna_zaloha(monkeypatch):
+    from bitoviny import llm
+
+    monkeypatch.setenv("OPENAI_API_KEY", "test")
+    monkeypatch.setenv("DEEPINFRA_API_KEY", "test")
+    for rola, cfg in llm.konfiguracia().items():
+        *bezplatne, zaloha = cfg["modely"]
+        assert bezplatne
+        assert all(m["provider"] in {"google", "groq", "openrouter"} for m in bezplatne)
+        ocakavany = ("openai", "gpt-6-luna") if rola == "autorka" else (
+            "deepinfra", "deepseek-ai/DeepSeek-V4-Flash-0731"
+        )
+        assert (zaloha["provider"], zaloha["model"]) == ocakavany
+        assert llm._vytvor(zaloha, cfg["teplota"]).model_name == ocakavany[1]
 
 
 @pytest.mark.parametrize("kluc", ["GOOGLE_API_KEY", "GROQ_API_KEY", "OPENROUTER_API_KEY", None])
 def test_roly_s_jedinym_klucom(kluc, monkeypatch):
     from bitoviny import llm
 
-    for nazov in ("GOOGLE_API_KEY", "GROQ_API_KEY", "OPENROUTER_API_KEY"):
+    for nazov in ("GOOGLE_API_KEY", "GROQ_API_KEY", "OPENROUTER_API_KEY", "OPENAI_API_KEY", "DEEPINFRA_API_KEY"):
         monkeypatch.setenv(nazov, "test" if nazov == kluc else "")
     for rola, schema in (("vyber_tem", VyberTem), ("kontrola_duplicit", PosudenieTemy),
                          ("autorka", Koncept), ("factcheck", Factcheck),

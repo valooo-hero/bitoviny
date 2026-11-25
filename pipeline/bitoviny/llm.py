@@ -27,7 +27,13 @@ def konfiguracia() -> dict:
 
 def _vytvor(spec: dict, teplota: float):
     provider, model = spec["provider"], spec["model"]
-    kluce = {"google": "GOOGLE_API_KEY", "groq": "GROQ_API_KEY", "openrouter": "OPENROUTER_API_KEY"}
+    kluce = {
+        "google": "GOOGLE_API_KEY",
+        "groq": "GROQ_API_KEY",
+        "openrouter": "OPENROUTER_API_KEY",
+        "openai": "OPENAI_API_KEY",
+        "deepinfra": "DEEPINFRA_API_KEY",
+    }
     if provider not in kluce:
         raise ValueError(f"Nepovolený poskytovateľ textového modelu: {provider}")
     if provider == "openrouter" and not model.endswith(":free"):
@@ -46,6 +52,29 @@ def _vytvor(spec: dict, teplota: float):
         return ChatGroq(model=model, api_key=kluc, temperature=teplota, max_retries=1, timeout=75)
 
     from langchain_openai import ChatOpenAI
+
+    if provider == "openai":
+        return ChatOpenAI(
+            model=model,
+            api_key=kluc,
+            base_url="https://api.openai.com/v1",
+            use_responses_api=True,
+            reasoning={"effort": spec.get("reasoning", "medium")},
+            verbosity=spec.get("verbosity", "low"),
+            max_tokens=spec.get("max_output_tokens", 8192),
+            store=False,
+            timeout=180,
+            max_retries=1,
+        )
+    if provider == "deepinfra":
+        return ChatOpenAI(
+            model=model,
+            api_key=kluc,
+            base_url="https://api.deepinfra.com/v1/openai",
+            temperature=teplota,
+            timeout=120,
+            max_retries=1,
+        )
 
     return ChatOpenAI(
         base_url="https://openrouter.ai/api/v1",
@@ -90,7 +119,7 @@ def model_pre(rola: str, schema: Any | None = None, *, so_zdrojom: bool = False,
             m = m | RunnableLambda(lambda vystup, zdroj=zdroj: (vystup, zdroj))
         modely.append(m)
     if not modely:
-        raise RuntimeError(f"Pre rolu {rola} chýba API kľúč bezplatného poskytovateľa.")
+        raise RuntimeError(f"Pre rolu {rola} chýba API kľúč poskytovateľa.")
     retazec = modely[0].with_fallbacks(modely[1:]) if len(modely) > 1 else modely[0]
     return retazec.with_config(run_name=rola)
 
