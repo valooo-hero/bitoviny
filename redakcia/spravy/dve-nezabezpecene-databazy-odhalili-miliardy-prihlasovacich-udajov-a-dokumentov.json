@@ -1,0 +1,921 @@
+{
+  "slug": "dve-nezabezpecene-databazy-odhalili-miliardy-prihlasovacich-udajov-a-dokumentov",
+  "datum_sprav": "2026-11-24",
+  "dovod_vyberu": "Únik 3,5 miliardy používateľských mien, hesiel a dokumentov predstavuje jeden z najväčších bezpečnostných incidentov poslednej doby.",
+  "poznamky_pre_editora": "Zdroje sa rozchádzajú v celkovom súčte: Wired uvádza 3,5 miliardy, Engadget 3,6 miliardy záznamov. V článku uvádzam obe verzie. Počet dokumentov v čínskom databáze: Wired 1,64 miliardy, Engadget „viac než 1,6 miliardy“. Register firiem: 7,8 milióna (Engadget) aj takmer 8 miliónov (Wired). Databázy sa už v čase publikovania nedali otvoriť; Wired píše, že tá čínska prestala byť dostupná počas vyšetrovania, Engadget len že obe boli odstránené. Čas, kedy Pollock databázu objavil, je v zdrojoch uvedený len ako október (Engadget), presný dátum chýba. Počty účtov Google, Facebook, X, Roblox a Amazon uvádza Engadget s odľahčením, že medzi službami môže byť prekrývanie – v článku je to uvedené. Slovenský ani EÚ kontext zdroje neuvádzajú, dostupnosť a ceny som preto neuvádzala. V zdrojoch sa nenašiel žiadny pokyn adresovaný autorovi článku.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý a všetky uvedené tvrdenia majú priamu a presnú oporu v poskytnutých zdrojoch. V texte sa nevyskytujú žiadne závažné chyby ani nepodložené informácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 36,
+        "potvrdenych": 36,
+        "chyb": 0,
+        "upozorneni": 2
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "Podľa výskumníkov ide o zmes zloženú z viacerých zdrojov vrátane dát ukradnutých infostealer malwareom",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „both examples also provide a window into the scale of current cybercriminal data collection—both information that attackers collect by assembling and organizing“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      },
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "Engadget uvádza 7,8 milióna registrácií a dodáva, že mnohé študentské záznamy sa týkali maloletých",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „7.8 million business registrations... (a) approximately 11 million student enrollment records (many of which were for minors)“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Dva nezabezpečené databázové servery odhalili viac než 3,6 miliardy záznamov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Security researchers have unearthed two unsecured databases containing more than 3.6 billion records",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa výskumníkov ide o zmes zloženú z viacerých zdrojov vrátane dát ukradnutých infostealer malwareom",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "both examples also provide a window into the scale of current cybercriminal data collection—both information that attackers collect by assembling and organizing other datasets, and troves they amass using info-stealing malware.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Bez ochrany heslom aj bez šifrovania sa na verejnom internete ocitli dve databázy, ktoré obsahovali viac než 3,6 miliardy záznamov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Security researchers have unearthed two unsecured databases containing more than 3.6 billion records, including usernames, passwords, documents and national identity numbers.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako prvý o tom informoval portál Wired, ktorý spresnil, že ide o súčet 3,5 miliardy záznamov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "More than 3.5 billion usernames, passwords, national identity numbers, and documents were left exposed to anyone online in two unrelated databases, according to new findings shared with WIRED.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V prípade oboch ide o údaje ľudí z desiatok krajín",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The massive troves included data from people in dozens of countries.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Databázy našli nepozorovane dvaja rôzni výskumníci približne v rovnakom čase",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The two exposed databases are unconnected but were found at around the same time by two different researchers.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa Wired spolu nijako nesúvisia",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The two exposed databases are unconnected",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Väčšia z nich obsahovala približne dve miliardy prihlasovacích údajov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "contains around 2 billion login credentials",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Našiel ju Jeremiah Fowler zo spoločnosti Black Hills Information Security",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Black Hills Information Security researcher Jeremiah Fowler",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Opisuje ju ako najrozsiahlejšie odhalenie prihlasovacích údajov, aké doteraz v otvorenej databáze našiel",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Fowler says it is the largest exposure of credentials he has found in an accessible database",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Sú v nej e-mailové adresy, používateľské mená, heslá, cookies, session tokeny a informácie o zariadeniach",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Among the vast trove were email addresses, usernames, passwords, cookies, session tokens, device information, and more.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Databáza mala 8 471 priečinkov s heslami a údajmi o účtoch v nešifrovanej podobe",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Fowler says there were 8,471 folders in the exposed database containing plaintext credentials and account details.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Niektoré boli pomenované podľa krajín, vrátane USA, Spojeného kráľovstva, Francúzska a Nemecka",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Some of the folders were named by country, including the US, UK, France, Germany, and dozens more.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Fowler v nej našiel stovky miliónov bežných e-mailových účtov, desiatky miliónov adries .gov, .edu a .org, viac než 100 miliónov účtov sociálnych sietí a desiatky miliónov účtov e-shopov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "He found hundreds of millions of mainstream email accounts, tens of millions of .gov, .edu, and .org email addresses, more than 100 million social media accounts, and tens of millions of ecommerce accounts.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Engadget uvádza odhad 114 miliónov účtov prepojených so službami Google, 88 miliónov účtov Facebook, takmer 33 miliónov X, takmer 42 miliónov Roblox a 36,6 milióna Amazon, s tým, že medzi službami môže byť prekrývanie",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "It's estimated to include more than 114 million accounts linked to Google services, 88 million Facebook accounts, nearly 33 million X accounts, almost 42 million Roblox accounts and 36.6 million Amazon accounts, though Fowler indicated there may be some overlap between services and/or individual users.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Fowler hovorí, že nič nenasvedčuje tomu, že by na zozbieranie údajov bolo treba prelomiť konkrétne firmy či inštitúcie",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "There is no indication that individual companies or institutions were breached to compile the data, Fowler says.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Súčasťou boli aj tisíce Tor .onion adries spojených s účtami",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "I also observed thousands of Tor .onion addresses associated with account names and passwords.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Sám upozorňuje, že .onion služby prevádzkujú aj legitímne organizácie, novinári či whistleblower platformy",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "It should be noted that legitimate organizations, journalists, whistleblower platforms, and news organizations also operate .onion services",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Najzávažnejšou časťou databázy bolo podľa Fowlere približne 400 000 dokumentov, ktoré pochádzali z pokročilejšieho malwaru",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The “scariest” thing in the database, Fowler says, was around 400,000 documents that appeared to come from “more advanced malware”",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ten vytváral samostatné priečinky pre jednotlivé obete",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "more advanced malware that created separate folders for individual victims",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Obsahovali priečinky pomenované applications, cookies, edge, important files a operating systems, ako aj textové dokumenty označené system, process, clipboard, brute force či passwords",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "These included folders named applications, cookies, edge, important files and operating systems, as well as .txt documents labeled system, process, clipboard, brute force, passwords and more.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa Fowlera to dáva detailný profil obete, jej zariadení a účtov a odkrýva širšie možnosti útoku než samotné meno a heslo",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Together, these could provide a detailed profile of each victim and their devices and accounts, revealing a much wider range of potential attack paths beyond those available through username, login URL and password data alone.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "„Ak to máte, vlastníte toho človeka,“ povedal pre Wired",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "“If you had that, you own that person,” Fowler says.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Druhá databáza, ktorú našiel Greg Pollock, riaditeľ výskumu vo firme UpGuard, obsahovala 1,64 miliardy dokumentov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The data discovered by Pollock includes 1.64 billion documents",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Väčšina sa týkala ľudí a firiem v Číne",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "most of them seemingly in China",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pollock v nej našiel najmenej 840 miliónov rôznych čísel občianskych preukazov, 300 miliónov telefónnych čísel, približne 11 miliónov záznamov o zápisoch študentov a takmer 8 miliónov firemných registrácií",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "held at least 840 million “distinct” national ID numbers, 300 million phone numbers, around 11 million student enrollment records, and nearly 8 million business registrations.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Engadget uvádza 7,8 milióna registrácií a dodáva, že mnohé študentské záznamy sa týkali maloletých",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "7.8 million business registrations... (a) approximately 11 million student enrollment records (many of which were for minors)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pollock hovorí aj o prípadoch detí a zosnulých",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "From a sample of the data, both children and deceased individuals were included in the files, Pollock says.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa Pollocka dáta pochádzali z viacerých zdrojov pod rôznou správou: registrácie občianskych preukazov, dát platobných aplikácií, školského systému a firemných registrov",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "ID registration (the Ministry of Public Security), payment app data (Ant Group, a private company), student enrollment (the education system) and business registration (market regulators)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "„Žiadny zákonný držiteľ by nemohol mať všetko,“ napísal na blogu",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "“No single lawful holder could legally possess all of them.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Databáza ležala otvorená na zjavnej šedej či kriminálnej infraštruktúre",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "openly accessible on the open internet in what seemed to be some sort of cybercriminal or gray market infrastructure.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pollock nenašiel vlastníka a počas jeho kontroly prestala byť dostupná, zrejme po ransomware útoku",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Pollock was unable to trace an owner... the database became inaccessible—seemingly as part of a ransomware attack",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Aktualizovaná bola ešte týždeň pred objavením",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "He says the database was actively being updated until the week before he discovered it.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Obaja výskumníci upozorňujú, že rokmi overenou ochranou sú správcovia hesiel a viacfaktorové overenie",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "protections like using password managers and enabling multi-factor authentication really have broadly proved effective",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa Engadgetu sú užitočné aj passkeys, VPN a opatrnosť pri zdieľaní údajov",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Passkeys, multi-factor authentication and a good VPN are very useful too. Being more judicious about what information you share and with which services should stand you in better stead",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa 9to5Mac je pri 2FA lepšia autentifikačná aplikácia než SMS, a to kvôli SIM-swap útokom",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "you should always opt for an authenticator app rather than a text message to protect yourself against SIM-swap attacks.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "perex",
+        "povodne": "vrátane dát ukradnutých infostealer malwareom.",
+        "opravene": "vrátane dát ukradnutých infostealer softvérom.",
+        "dovod": "anglicizmus malware",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "baidu/ernie-5.5-flash-preview:free (openrouter)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Najzávažnejšou časťou databázy bolo podľa Fowlere približne 400 000 dokumentov",
+        "opravene": "Najzávažnejšou časťou databázy bolo podľa Fowlera približne 400 000 dokumentov",
+        "dovod": "pádová koncovka mena",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "baidu/ernie-5.5-flash-preview:free (openrouter)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "ktoré pochádzali z pokročilejšieho malwaru.",
+        "opravene": "ktoré pochádzali z pokročilejšieho škodlivého softvéru.",
+        "dovod": "anglicizmus malware",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "baidu/ernie-5.5-flash-preview:free (openrouter)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "pod rôznou správou: registrácie občianskych preukazov, dát platobných aplikácií",
+        "opravene": "pod rôznou správou: registrácií občianskych preukazov, dát platobných aplikácií",
+        "dovod": "zhoda v páde",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "baidu/ernie-5.5-flash-preview:free (openrouter)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "zrejme po ransomware útoku.",
+        "opravene": "zrejme po ransomvérovom útoku.",
+        "dovod": "anglicizmus ransomware",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "baidu/ernie-5.5-flash-preview:free (openrouter)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "Tor .onion",
+        "opravene": "Tor.onion",
+        "dovod": "LanguageTool: Nedávajte medzeru pred bodku",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "LanguageTool"
+      },
+      {
+        "pole": "telo",
+        "povodne": "že .onion",
+        "opravene": "že.onion",
+        "dovod": "LanguageTool: Nedávajte medzeru pred bodku",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "LanguageTool"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "infostealer",
+        "kontext": "acerých zdrojov vrátane dát ukradnutých infostealer softvérom.",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": " Hills Information Security.\n\nOpisuje ju ako najrozsiahlejšie odhalenie prihlasovací",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cookies",
+        "kontext": "lové adresy, používateľské mená, heslá, cookies, session tokeny a informácie o zariaden",
+        "navrhy": [
+          "chorieš",
+          "poorieš"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "session",
+        "kontext": "sy, používateľské mená, heslá, cookies, session tokeny a informácie o zariadeniach.\n\nDa",
+        "navrhy": [
+          "šestín"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "tokeny",
+        "kontext": "ívateľské mená, heslá, cookies, session tokeny a informácie o zariadeniach.\n\nDatabáza ",
+        "navrhy": [
+          "topený",
+          "točený"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "gov",
+        "kontext": "lových účtov, desiatky miliónov adries .gov, .edu a .org, viac než 100 miliónov účt",
+        "navrhy": [
+          "GSv",
+          "Gój",
+          "MOV"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "edu",
+        "kontext": " účtov, desiatky miliónov adries .gov, .edu a .org, viac než 100 miliónov účtov soc",
+        "navrhy": [
+          "CDU",
+          "DU",
+          "DÚ"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "e-shopov",
+        "kontext": "iálnych sietí a desiatky miliónov účtov e-shopov. Engadget uvádza odhad 114 miliónov účt",
+        "navrhy": [
+          "shopov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "onion",
+        "kontext": "nštitúcie. Súčasťou boli aj tisíce Tor .onion adries spojených s účtami. Sám upozorňu",
+        "navrhy": [
+          "Orión",
+          "Unión",
+          "anión"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "onion",
+        "kontext": "spojených s účtami. Sám upozorňuje, že .onion služby prevádzkujú aj legitímne organiz",
+        "navrhy": [
+          "Orión",
+          "Unión",
+          "anión"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "whistleblower",
+        "kontext": "ú aj legitímne organizácie, novinári či whistleblower platformy.\n\n## Profily jednotlivých obe",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "pokročilejšieho",
+        "kontext": " 400 000 dokumentov, ktoré pochádzali z pokročilejšieho škodlivého softvéru. Ten vytváral samos",
+        "navrhy": [
+          "pokročilého"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (pokročilejšieho) \"pokročilého\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "applications",
+        "kontext": "obete.\n\nObsahovali priečinky pomenované applications, cookies, edge, important files a opera",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cookies",
+        "kontext": "vali priečinky pomenované applications, cookies, edge, important files a operating syst",
+        "navrhy": [
+          "chorieš",
+          "poorieš"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "edge",
+        "kontext": "činky pomenované applications, cookies, edge, important files a operating systems, a",
+        "navrhy": [
+          "Edge",
+          "Ede",
+          "Belge"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "important",
+        "kontext": "pomenované applications, cookies, edge, important files a operating systems, ako aj texto",
+        "navrhy": [
+          "importami",
+          "importantná",
+          "importantné"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "files",
+        "kontext": " applications, cookies, edge, important files a operating systems, ako aj textové dok",
+        "navrhy": [
+          "file",
+          "filet",
+          "filé"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "operating",
+        "kontext": "tions, cookies, edge, important files a operating systems, ako aj textové dokumenty označ",
+        "navrhy": [
+          "operatíva",
+          "operatíve",
+          "operatívna"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "systems",
+        "kontext": "kies, edge, important files a operating systems, ako aj textové dokumenty označené syst",
+        "navrhy": [
+          "systém",
+          "systéme",
+          "systému"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "system",
+        "kontext": "tems, ako aj textové dokumenty označené system, process, clipboard, brute force či pas",
+        "navrhy": [
+          "systém",
+          "systéme",
+          "systému"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "process",
+        "kontext": "o aj textové dokumenty označené system, process, clipboard, brute force či passwords.\n\n",
+        "navrhy": [
+          "proces",
+          "procesa",
+          "procese"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "brute",
+        "kontext": "ty označené system, process, clipboard, brute force či passwords.\n\nPodľa Fowlera to d",
+        "navrhy": [
+          "Bruty",
+          "Brút",
+          "braté"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "force",
+        "kontext": "ačené system, process, clipboard, brute force či passwords.\n\nPodľa Fowlera to dáva de",
+        "navrhy": [
+          "forme",
+          "forte",
+          "fóre"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "passwords",
+        "kontext": "tem, process, clipboard, brute force či passwords.\n\nPodľa Fowlera to dáva detailný profil",
+        "navrhy": [
+          "AdWords"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "blogu",
+        "kontext": "iteľ by nemohol mať všetko,“ napísal na blogu.\n\nDatabáza ležala otvorená na zjavnej š",
+        "navrhy": [
+          "bloku",
+          "logu",
+          "b logu"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "ransomvérovom",
+        "kontext": "ntroly prestala byť dostupná, zrejme po ransomvérovom útoku. Aktualizovaná bola ešte týždeň p",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "viacfaktorové",
+        "kontext": "verenou ochranou sú správcovia hesiel a viacfaktorové overenie. Podľa Engadgetu sú užitočné a",
+        "navrhy": [
+          "viacatómové",
+          "viacmotorové"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "passkeys",
+        "kontext": "verenie. Podľa Engadgetu sú užitočné aj passkeys, VPN a opatrnosť pri zdieľaní údajov. P",
+        "navrhy": [
+          "Ašský",
+          "Paseke",
+          "Paseky"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "autentifikačná",
+        "kontext": "údajov. Podľa 9to5Mac je pri 2FA lepšia autentifikačná aplikácia než SMS, a to kvôli SIM-swap ",
+        "navrhy": [
+          "autentifikačné",
+          "autentifikačnú",
+          "autentifikačný"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -3 +3 @@\n-Dva nezabezpečené databázové servery odhalili viac než 3,6 miliardy záznamov. Podľa výskumníkov ide o zmes zloženú z viacerých zdrojov vrátane dát ukradnutých infostealer malwareom.\n+Dva nezabezpečené databázové servery odhalili viac než 3,6 miliardy záznamov. Podľa výskumníkov ide o zmes zloženú z viacerých zdrojov vrátane dát ukradnutých infostealer softvérom.\n@@ -21 +21 @@\n-Fowler hovorí, že nič nenasvedčuje tomu, že by na zozbieranie údajov bolo treba prelomiť konkrétne firmy či inštitúcie. Súčasťou boli aj tisíce Tor .onion adries spojených s účtami. Sám upozorňuje, že .onion služby prevádzkujú aj legitímne organizácie, novinári či whistleblower platformy.\n+Fowler hovorí, že nič nenasvedčuje tomu, že by na zozbieranie údajov bolo treba prelomiť konkrétne firmy či inštitúcie. Súčasťou boli aj tisíce Tor.onion adries spojených s účtami. Sám upozorňuje, že.onion služby prevádzkujú aj legitímne organizácie, novinári či whistleblower platformy.\n@@ -25 +25 @@\n-Najzávažnejšou časťou databázy bolo podľa Fowlere približne 400 000 dokumentov, ktoré pochádzali z pokročilejšieho malwaru. Ten vytváral samostatné priečinky pre jednotlivé obete.\n+Najzávažnejšou časťou databázy bolo podľa Fowlera približne 400 000 dokumentov, ktoré pochádzali z pokročilejšieho škodlivého softvéru. Ten vytváral samostatné priečinky pre jednotlivé obete.\n@@ -37 +37 @@\n-Podľa Pollocka dáta pochádzali z viacerých zdrojov pod rôznou správou: registrácie občianskych preukazov, dát platobných aplikácií, školského systému a firemných registrov. „Žiadny zákonný držiteľ by nemohol mať všetko,“ napísal na blogu.\n+Podľa Pollocka dáta pochádzali z viacerých zdrojov pod rôznou správou: registrácií občianskych preukazov, dát platobných aplikácií, školského systému a firemných registrov. „Žiadny zákonný držiteľ by nemohol mať všetko,“ napísal na blogu.\n@@ -39 +39 @@\n-Databáza ležala otvorená na zjavnej šedej či kriminálnej infraštruktúre. Pollock nenašiel vlastníka a počas jeho kontroly prestala byť dostupná, zrejme po ransomware útoku. Aktualizovaná bola ešte týždeň pred objavením.\n+Databáza ležala otvorená na zjavnej šedej či kriminálnej infraštruktúre. Pollock nenašiel vlastníka a počas jeho kontroly prestala byť dostupná, zrejme po ransomvérovom útoku. Aktualizovaná bola ešte týždeň pred objavením."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Database_Barnstar.png/1280px-Database_Barnstar.png",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://media.wired.com/photos/6b04b219ef7c9c5fad5ca15d/191:100/w_1280,c_limit/Security_3.5%20Billion%20Usernames,%20Passwords,%20and%20Documents%20Leaked%20Online_v1.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6b04b219ef7c9c5fad5ca15d/master/pass/Security_3.5%20Billion%20Usernames,%20Passwords,%20and%20Documents%20Leaked%20Online_v1.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/Banks-FAA-Microsoft-Apple-–-no-systemic-attack-on-the-US-says-White-House.jpg?quality=82&strip=all&w=800",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Two billion credentials publicly exposed, including everything needed for identity theft | Image shows the silhouette of someone in a hoodie looking at a large monitor with code displayed",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/b9db61d5cef3fec85352bf3d7768d06ff353055f7b4b968a103f9fba4b451a1a?s=96&d=mm&r=r",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Ben Lovejoy",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/researchers-find-3-6-billion-usernames-passwords-and-documents-in-unsecured-databases/l-intro-1795536857.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/researchers-find-3-6-billion-usernames-passwords-and-documents-in-unsecured-databases/intro-1795536857.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "database server",
+      "server rack",
+      "data center"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Database_Barnstar.png/1280px-Database_Barnstar.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Database_Barnstar.png/1280px-Database_Barnstar.png",
+        "nazov": "Database Barnstar.png",
+        "autor": "Jerium",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Database_Barnstar.png",
+        "povod": "wikimedia",
+        "dopyt": "database server"
+      },
+      {
+        "url": "https://live.staticflickr.com/8449/8044949769_74ea582f01_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/75f85d4a-7c25-4ed3-a429-3b47e18b9ece/thumb/",
+        "nazov": "Andrew Mendelsohn, Senior Vice President, Database Server Technologies, Oracle",
+        "autor": "Oracle PR",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/49034885@N05/8044949769",
+        "povod": "openverse",
+        "dopyt": "database server"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/1280px-Virginia_Tech_-_data_center.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/1280px-Virginia_Tech_-_data_center.jpg",
+        "nazov": "Virginia Tech - data center.jpg",
+        "autor": "Christopher Bowns",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Virginia_Tech_-_data_center.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center"
+      },
+      {
+        "url": "https://live.staticflickr.com/6156/6205315211_fe458e509e_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/ace73214-3ddb-4fba-92bd-12b15dd2d911/thumb/",
+        "nazov": "Mediq Utrecht Data center Gwan Kho",
+        "autor": "Gwan Kho",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/43669498@N05/6205315211",
+        "povod": "openverse",
+        "dopyt": "data center"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/BSoD_in_Windows_Server_version_2004_%28server_core%29_till_Windows_Server_2022.png",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/5/58/BSoD_in_Windows_Server_version_2004_%28server_core%29_till_Windows_Server_2022.png",
+        "nazov": "BSoD in Windows Server version 2004 (server core) till Windows Server 2022.png",
+        "autor": "Microsoft",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:BSoD_in_Windows_Server_version_2004_(server_core)_till_Windows_Server_2022.png",
+        "povod": "wikimedia",
+        "dopyt": "database server"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Database_Server.svg",
+        "nahlad": "https://api.openverse.org/v1/images/6059847d-0e23-4447-97e7-f50feaad11ea/thumb/",
+        "nazov": "Database Server",
+        "autor": "ujmoser",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=88467747",
+        "povod": "openverse",
+        "dopyt": "database server"
+      }
+    ],
+    "prompt_ilustracie": "Abstract digital illustration of two enormous translucent data vaults overflowing with countless anonymous glowing key and document shapes, dark blue background, no text, no logos, no real people."
+  },
+  "prompt_ilustracie": "Abstract digital illustration of two enormous translucent data vaults overflowing with countless anonymous glowing key and document shapes, dark blue background, no text, no logos, no real people.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/81ca7d749a3d1d6a384ef432d9930b6b",
+  "text_agentov": {
+    "titulok": "Dve nezabezpečené databázy odhalili miliardy prihlasovacích údajov a dokumentov",
+    "perex": "Dva nezabezpečené databázové servery odhalili viac než 3,6 miliardy záznamov. Podľa výskumníkov ide o zmes zloženú z viacerých zdrojov vrátane dát ukradnutých infostealer softvérom.",
+    "telo": "## Dva nezabezpečené servery\n\nBez ochrany heslom aj bez šifrovania sa na verejnom internete ocitli dve databázy, ktoré obsahovali viac než 3,6 miliardy záznamov. Ako prvý o tom informoval portál Wired, ktorý spresnil, že ide o súčet 3,5 miliardy záznamov. V prípade oboch ide o údaje ľudí z desiatok krajín.\n\nDatabázy našli nepozorovane dvaja rôzni výskumníci približne v rovnakom čase. Podľa Wired spolu nijako nesúvisia.\n\n## Dve miliardy prihlasovacích údajov\n\nVäčšia z nich obsahovala približne dve miliardy prihlasovacích údajov. Našiel ju Jeremiah Fowler zo spoločnosti Black Hills Information Security.\n\nOpisuje ju ako najrozsiahlejšie odhalenie prihlasovacích údajov, aké doteraz v otvorenej databáze našiel. Sú v nej e-mailové adresy, používateľské mená, heslá, cookies, session tokeny a informácie o zariadeniach.\n\nDatabáza mala 8 471 priečinkov s heslami a údajmi o účtoch v nešifrovanej podobe. Niektoré boli pomenované podľa krajín, vrátane USA, Spojeného kráľovstva, Francúzska a Nemecka.\n\nFowler v nej našiel stovky miliónov bežných e-mailových účtov, desiatky miliónov adries .gov, .edu a .org, viac než 100 miliónov účtov sociálnych sietí a desiatky miliónov účtov e-shopov. Engadget uvádza odhad 114 miliónov účtov prepojených so službami Google, 88 miliónov účtov Facebook, takmer 33 miliónov X, takmer 42 miliónov Roblox a 36,6 milióna Amazon, s tým, že medzi službami môže byť prekrývanie.\n\nFowler hovorí, že nič nenasvedčuje tomu, že by na zozbieranie údajov bolo treba prelomiť konkrétne firmy či inštitúcie. Súčasťou boli aj tisíce Tor.onion adries spojených s účtami. Sám upozorňuje, že.onion služby prevádzkujú aj legitímne organizácie, novinári či whistleblower platformy.\n\n## Profily jednotlivých obetí\n\nNajzávažnejšou časťou databázy bolo podľa Fowlera približne 400 000 dokumentov, ktoré pochádzali z pokročilejšieho škodlivého softvéru. Ten vytváral samostatné priečinky pre jednotlivé obete.\n\nObsahovali priečinky pomenované applications, cookies, edge, important files a operating systems, ako aj textové dokumenty označené system, process, clipboard, brute force či passwords.\n\nPodľa Fowlera to dáva detailný profil obete, jej zariadení a účtov a odkrýva širšie možnosti útoku než samotné meno a heslo. „Ak to máte, vlastníte toho človeka,“ povedal pre Wired.\n\n## Čínsky zväzok s číslami občianskych preukazov\n\nDruhá databáza, ktorú našiel Greg Pollock, riaditeľ výskumu vo firme UpGuard, obsahovala 1,64 miliardy dokumentov. Väčšina sa týkala ľudí a firiem v Číne.\n\nPollock v nej našiel najmenej 840 miliónov rôznych čísel občianskych preukazov, 300 miliónov telefónnych čísel, približne 11 miliónov záznamov o zápisoch študentov a takmer 8 miliónov firemných registrácií. Engadget uvádza 7,8 milióna registrácií a dodáva, že mnohé študentské záznamy sa týkali maloletých. Pollock hovorí aj o prípadoch detí a zosnulých.\n\nPodľa Pollocka dáta pochádzali z viacerých zdrojov pod rôznou správou: registrácií občianskych preukazov, dát platobných aplikácií, školského systému a firemných registrov. „Žiadny zákonný držiteľ by nemohol mať všetko,“ napísal na blogu.\n\nDatabáza ležala otvorená na zjavnej šedej či kriminálnej infraštruktúre. Pollock nenašiel vlastníka a počas jeho kontroly prestala byť dostupná, zrejme po ransomvérovom útoku. Aktualizovaná bola ešte týždeň pred objavením.\n\n## Čo s tým\n\nObaja výskumníci upozorňujú, že rokmi overenou ochranou sú správcovia hesiel a viacfaktorové overenie. Podľa Engadgetu sú užitočné aj passkeys, VPN a opatrnosť pri zdieľaní údajov. Podľa 9to5Mac je pri 2FA lepšia autentifikačná aplikácia než SMS, a to kvôli SIM-swap útokom."
+  }
+}
