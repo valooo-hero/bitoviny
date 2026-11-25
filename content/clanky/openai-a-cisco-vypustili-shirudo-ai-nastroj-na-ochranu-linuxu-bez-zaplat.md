@@ -3,27 +3,28 @@ title: OpenAI a Cisco vypustili Shirudo, AI nástroj na ochranu Linuxu bez zápl
 perex: Otvorený nástroj využíva eBPF a AI agentov na blokovanie zneužitia zraniteľností ešte predtým, než administrátori stihnú nasadiť záplaty. Ľudia však majú nad každou ochranou finálne slovo.
 sekcia: softver
 tagy:
-- OpenAI
-- Cisco
-- Linux
-- eBPF
-- bezpecnost
-publikovane: '2026-11-25T07:05:50+00:00'
+  - OpenAI
+  - Cisco
+  - Linux
+  - eBPF
+  - bezpecnost
+publikovane: 2026-11-25T07:05:50+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/openai-a-cisco-vypustili-shirudo-ai-nastroj-na-ochranu-linuxu-bez-zaplat-mww1icd3.webp
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'BleepingComputer: New Shirudo tool uses AI to shield unpatched Linux systems from exploits'
-  url: https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/
-- nazov: 'The Register: Cisco and OpenAI pitch eBPF kernel plugins as the way to tame the patchpocalypse'
-  url: https://www.theregister.com/security/2026/11/24/cisco-and-openai-pitch-ebpf-kernel-plugins-as-the-way-to-tame-the-patchpocalypse/5311795
+  - nazov: "BleepingComputer: New Shirudo tool uses AI to shield unpatched Linux systems from exploits"
+    url: https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/
+  - nazov: "The Register: Cisco and OpenAI pitch eBPF kernel plugins as the way to tame the patchpocalypse"
+    url: https://www.theregister.com/security/2026/11/24/cisco-and-openai-pitch-ebpf-kernel-plugins-as-the-way-to-tame-the-patchpocalypse/5311795
 ---
 
 OpenAI a Cisco spoločne vydali otvorený nástroj Shirudo, ktorý má chrániť linuxové systémy pred zneužitím zraniteľností v čase, keď administrátori ešte nestihli nasadiť záplaty. Nástroj nasadzuje dočasné ochrany za behu, a to bez nutnosti reštartu služieb.
