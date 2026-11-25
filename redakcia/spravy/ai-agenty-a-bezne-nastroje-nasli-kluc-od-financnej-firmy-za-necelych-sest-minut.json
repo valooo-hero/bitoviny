@@ -1,0 +1,602 @@
+{
+  "slug": "ai-agenty-a-bezne-nastroje-nasli-kluc-od-financnej-firmy-za-necelych-sest-minut",
+  "datum_sprav": "2026-11-24",
+  "dovod_vyberu": "Amazon odhalil, že AI agenti hackerov našli a využili 0‑day zraniteľnosť s minimálnym zásahom človeka, čo ukazuje nové hrozby v kybernetike.",
+  "poznamky_pre_editora": "Zdroje sa vzájomne dopĺňajú, The Register opisuje incident s OpenCode a Jesta, zatiaľ čo Ars Technica prináša informácie od Amazonu a Palo Alto Networks o frameworku Cairn a zneužití zero-day zraniteľnosti. Všetky mená, dátumy a technické detaily sú prevzaté priamo zo zdrojov.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý a všetky overiteľné tvrdenia majú presnú oporu v poskytnutých zdrojoch. V texte sa nevyskytujú žiadne vecné chyby ani nepodložené špekulácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 23,
+        "potvrdenych": 23,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "AI agenty a bežné nástroje našli kľúč k finančnej firme za necelých šesť minút",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "An AI coding agent, a browser, and a Mac tool found a financial firm's access key in under 6 minutes",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Bezpečnostní experti varujú pred novou vlnou útokov, pri ktorých hackeri využívajú voľne dostupné open-source AI agenty na automatizáciu prienikov do kritických sietí.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "tried multiple ways to break into a financial services firm, ultimately found an access key... Open source coding agents... also work just fine",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Bezpečnostný start-up Jesta so sídlom v Tel Avive zdokumentoval pokus o kybernetický útok, pri ktorom útočník z Bukurešti využil voľne dostupný open-source programovací agent s názvom OpenCode.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Jesta is a Tel Aviv-based security startup... someone in Bucharest downloaded a free AI coding agent called OpenCode",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Útok, ktorý mieril na poprednú finančnú inštitúciu, trval menej ako šesť minút a vyžiadal si minimálne úsilie zo strany človeka.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "carried out an entire (almost) attack in under six minutes... cost the human operator nothing",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa zistení spoločnosti Jesta sa útok začal 16. novembra o 4:24:57 ráno východného času.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "on November 16 at 4:24:57 a.m. ET",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Útočník použil prehliadač Chrome bežiaci na zariadení Mac a nástroj na príkazovom riadku curl verzie 8.7.1, pričom agent prenášal informácie medzi týmito nástrojmi.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Chrome browser, and a Mac... curl/8.7.1, a command-line tool that has shipped with every Mac... The agent passed information between the three tools",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nástroj OpenCode nebol navrhnutý na hackerské účely, no umožňuje pripojenie k viac ako dvom stovkám modelov, vrátane modelov od spoločností Anthropic, OpenAI, Google či DeepSeek.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Nothing in OpenCode was built for hacking... connect to more than 200 model providers... Anthropic’s Claude models, OpenAI’s GPTs, Google’s Gemini, DeepSeek",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Agent najprv neúspešne žiadal o prístup k hlavnej stránke systému a následne testoval rôzne požiadavky.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "requesting the front page of one of the financial firm’s systems. The site refused it... reads, tries something",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Keď systém odmietol vydať API definíciu, agent o niekoľko sekúnd neskôr vyskúšal inú adresu.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "asked the system for its API definition, which was also refused. Five seconds later, it tried a different address",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Táto adresa však bola vopred pripravenou pascou, takzvaným decoy prostredím, ktoré vytvorila firma Jesta na oklamanie votrelcov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "this one was a decoy set up by Jesta... fake environment designed to trick intruders",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V tomto falošnom prostredí agent objavil prístupový kľúč a následne otestoval niekoľko scenárov vrátane použitia falošného kľúča, žiadneho kľúča a vlastného vymysleného kľúča.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "phony key, which the attacker then used... tested three scenarios – using the decoy key, no key, and a fabricated key",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoluzakladateľ a technologický riaditeľ spoločnosti Jesta Lior Finkelshtein uviedol, že agent pracoval presne tak, ako by pracoval bežný vývojár.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Jesta co-founder and CTO Lior Finkelshtein... “It worked like a developer,” Finkelshtein said",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Prečítal si dokumentáciu k rozhraniu API, našiel kľúč a následne overil, či je zámok reálny.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "It read the API docs and did what they said. It found a key and used it. It checked whether the lock was real",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Celá operácia trvala päť minút a štridsaťštyri sekúnd, po ktorých útočník prestal vyvíjať aktivitu.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Five minutes and 44 seconds after the first request, it gave up, and the logs haven’t detected any activity from this same intruder since then.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Bezpečnostní experti upozorňujú, že bežné obranné mechanizmy založené na zoznamoch blokovaných adries, takzvaných blocklistoch, by v tomto prípade nedokázali útok zastaviť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "No blocklist would have helped detect the malicious traffic... a blocklist would never have stopped it",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Adresa útočníka totiž dovtedy nebola evidovaná ako škodlivá.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "None of the threat feeds the customer has knew the address",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Finkelshtein odporúča, aby sa obranné tímy namiesto IP adries zameriavali na správanie návštevníkov, keďže kombinácia netradičných krokov v priebehu niekoľkých minút môže odhaliť prítomnosť autonómneho agenta.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "paying attention to what the visitor does. In this case, several of its actions gave it away",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tento incident nie je ojedinelým prípadom využitia umelej inteligencije pri útokoch.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Amazon said AI agents recently found and exploited a zero-day",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť Amazon nedávno informovala o tom, že hackeri využili open-source framework s názvom Cairn na vyhľadanie a zneužitie zero-day zraniteľnosti.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Amazon said AI agents recently found and exploited a zero-day vulnerability... Cairn, an open source AI penetration-testing framework",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Útočníci poskytli agentom bežiacim na tomto frameworku zoznam IP adries a jednoduchý pokyn v zjednodušenej čínštine na získanie prístupu k serveru Východázijskej univerzity.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "provided prompts in simplified Chinese... gave the agents a list of IP addresses and the goal: “obtain shell access.”... East Asian university server",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Framework Cairn bol pôvodne vytvorený ako nástroj pre obrancov na autonómne penetračné testowanie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Cairn is an open source AI problem-solving engine whose first validated domain is autonomous penetration testing... Made for defenders",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Výskumníci zo spoločnosti Palo Alto Networks však zaznamenali jeho využitie útočníkmi pri dvadsiatich piatich autonómnych operáciách cielených na organizácie v oblasti polovodičov, obrany a občianskej spoločnosti, pričom najmenej desať organizácií bolo úspešne napadnutých.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Researchers from security firm Palo Alto Networks have also observed Cairn being used... conducted 25 autonomous operations against at least 19 organizations. At least 10 of the organizations were successfully breached",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Odborníci zdôrazňujú, že tieto incidenty ukazujú rýchlosť a vytrvalosť, akú moderné nástroje ponúkajú, a bezpečnostné tímy by sa mali pripraviť na nárast podobne vedených automatizovaných operácií.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "defenders should prepare for the speed and persistence these tools enable",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "titulok",
+        "povodne": "našli kľúč k finančnej firme",
+        "opravene": "našli kľúč od finančnej firmy",
+        "dovod": "predložková väzba",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "odelov, vrátane modelov",
+        "opravene": "odelov vrátane modelov",
+        "dovod": "čiarka pred vrátane",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "serveru Východázijskej univerzity",
+        "opravene": "serveru Východoázijskej univerzity",
+        "dovod": "pravopis",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "vytrvalosť, akú moderné",
+        "opravene": "vytrvalosť, akú ponúkajú moderné",
+        "dovod": "gramatika a význam",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "titulok",
+        "text": "agenty",
+        "kontext": "AI agenty a bežné nástroje našli kľúč od finančne",
+        "navrhy": [
+          "Genty",
+          "agendy",
+          "agensy"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "open-source",
+        "kontext": "torých hackeri využívajú voľne dostupné open-source AI agenty na automatizáciu prienikov do",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "agenty",
+        "kontext": "využívajú voľne dostupné open-source AI agenty na automatizáciu prienikov do kritickýc",
+        "navrhy": [
+          "Genty",
+          "agendy",
+          "agensy"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "start-up",
+        "kontext": "Bezpečnostný start-up Jesta so sídlom v Tel Avive zdokumentov",
+        "navrhy": [
+          "štartu",
+          "štartuj"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "open-source",
+        "kontext": "očník z Bukurešti využil voľne dostupný open-source programovací agent s názvom OpenCode. Ú",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "oprednú finančnú inštitúciu, trval menej ako šesť minút a vyžiadal si minimálne úsil",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "curl",
+        "kontext": "dení Mac a nástroj na príkazovom riadku curl verzie 8.7.1, pričom agent prenášal inf",
+        "navrhy": [
+          "CTRL",
+          "curk",
+          "url"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "hackerské",
+        "kontext": "mi. Nástroj OpenCode nebol navrhnutý na hackerské účely, no umožňuje pripojenie k viac ak",
+        "navrhy": [
+          "hračkárske",
+          "maskérske",
+          "áčkarské"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ské účely, no umožňuje pripojenie k viac ako dvom stovkám modelov vrátane modelov od",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "decoy",
+        "kontext": "la vopred pripravenou pascou, takzvaným decoy prostredím, ktoré vytvorila firma Jesta",
+        "navrhy": [
+          "decový",
+          "dečky",
+          "déčky"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "štridsaťštyri",
+        "kontext": "eálny. Celá operácia trvala päť minút a štridsaťštyri sekúnd, po ktorých útočník prestal vyví",
+        "navrhy": [
+          "tridsaťštyri",
+          "štyridsaťštyri",
+          "š tridsaťštyri"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "blocklistoch",
+        "kontext": "oznamoch blokovaných adries, takzvaných blocklistoch, by v tomto prípade nedokázali útok zas",
+        "navrhy": [
+          "bicyklistoch"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": " útočníka totiž dovtedy nebola evidovaná ako škodlivá. Finkelshtein odporúča, aby sa",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "open-source",
+        "kontext": "o informovala o tom, že hackeri využili open-source framework s názvom Cairn na vyhľadanie ",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "framework",
+        "kontext": "a o tom, že hackeri využili open-source framework s názvom Cairn na vyhľadanie a zneužiti",
+        "navrhy": [],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "zero-day",
+        "kontext": " názvom Cairn na vyhľadanie a zneužitie zero-day zraniteľnosti. Útočníci poskytli agento",
+        "navrhy": [
+          "Herolda",
+          "nerodný",
+          "nerozdaj"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "frameworku",
+        "kontext": "níci poskytli agentom bežiacim na tomto frameworku zoznam IP adries a jednoduchý pokyn v z",
+        "navrhy": [
+          "frajerku",
+          "frajerôčku"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "j\n\nFramework Cairn bol pôvodne vytvorený ako nástroj pre obrancov na autonómne penet",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -1 +1 @@\n-# AI agenty a bežné nástroje našli kľúč k finančnej firme za necelých šesť minút\n+# AI agenty a bežné nástroje našli kľúč od finančnej firmy za necelých šesť minút\n@@ -9 +9 @@\n-Podľa zistení spoločnosti Jesta sa útok začal 16. novembra o 4:24:57 ráno východného času. Útočník použil prehliadač Chrome bežiaci na zariadení Mac a nástroj na príkazovom riadku curl verzie 8.7.1, pričom agent prenášal informácie medzi týmito nástrojmi. Nástroj OpenCode nebol navrhnutý na hackerské účely, no umožňuje pripojenie k viac ako dvom stovkám modelov, vrátane modelov od spoločností Anthropic, OpenAI, Google či DeepSeek. \n+Podľa zistení spoločnosti Jesta sa útok začal 16. novembra o 4:24:57 ráno východného času. Útočník použil prehliadač Chrome bežiaci na zariadení Mac a nástroj na príkazovom riadku curl verzie 8.7.1, pričom agent prenášal informácie medzi týmito nástrojmi. Nástroj OpenCode nebol navrhnutý na hackerské účely, no umožňuje pripojenie k viac ako dvom stovkám modelov vrátane modelov od spoločností Anthropic, OpenAI, Google či DeepSeek. \n@@ -19 +19 @@\n-Tento incident nie je ojedinelým prípadom využitia umelej inteligencie pri útokoch. Spoločnosť Amazon nedávno informovala o tom, že hackeri využili open-source framework s názvom Cairn na vyhľadanie a zneužitie zero-day zraniteľnosti. Útočníci poskytli agentom bežiacim na tomto frameworku zoznam IP adries a jednoduchý pokyn v zjednodušenej čínštine na získanie prístupu k serveru Východázijskej univerzity. \n+Tento incident nie je ojedinelým prípadom využitia umelej inteligencie pri útokoch. Spoločnosť Amazon nedávno informovala o tom, že hackeri využili open-source framework s názvom Cairn na vyhľadanie a zneužitie zero-day zraniteľnosti. Útočníci poskytli agentom bežiacim na tomto frameworku zoznam IP adries a jednoduchý pokyn v zjednodušenej čínštine na získanie prístupu k serveru Východoázijskej univerzity. \n@@ -25 +25 @@\n-Odborníci zdôrazňujú, že tieto incidenty ukazujú rýchlosť a vytrvalosť, akú moderné nástroje ponúkajú, a bezpečnostné tímy by sa mali pripraviť na nárast podobne vedených automatizovaných operácií.\n+Odborníci zdôrazňujú, že tieto incidenty ukazujú rýchlosť a vytrvalosť, akú ponúkajú moderné nástroje ponúkajú, a bezpečnostné tímy by sa mali pripraviť na nárast podobne vedených automatizovaných operácií."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/NCipher_nShield_F3_Hardware_Security_Module.jpg/1280px-NCipher_nShield_F3_Hardware_Security_Module.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://image.theregister.com/?imageId=5311939&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cairn-banner.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Cairn | Aurich Lawson",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Cairn | Aurich Lawson."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cairn-banner-500x500.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Cairn | Aurich Lawson",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Uvedený autor alebo zdroj bez voľnej licencie: Cairn | Aurich Lawson."
+      }
+    ],
+    "dopyty": [
+      "hardware security module",
+      "server rack",
+      "data center"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/NCipher_nShield_F3_Hardware_Security_Module.jpg/1280px-NCipher_nShield_F3_Hardware_Security_Module.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/NCipher_nShield_F3_Hardware_Security_Module.jpg/1280px-NCipher_nShield_F3_Hardware_Security_Module.jpg",
+        "nazov": "NCipher nShield F3 Hardware Security Module.jpg",
+        "autor": "Alexander Klink",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:NCipher_nShield_F3_Hardware_Security_Module.jpg",
+        "povod": "wikimedia",
+        "dopyt": "hardware security module"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/NCipher_nShield_F3_Hardware_Security_Module.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/dd6bbe29-136a-4228-8c1c-d64588d6af55/thumb/",
+        "nazov": "NCipher nShield F3 Hardware Security Module",
+        "autor": "Alexander Klink",
+        "licencia": "BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=5536470",
+        "povod": "openverse",
+        "dopyt": "hardware security module"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/1280px-Virginia_Tech_-_data_center.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Virginia_Tech_-_data_center.jpg/1280px-Virginia_Tech_-_data_center.jpg",
+        "nazov": "Virginia Tech - data center.jpg",
+        "autor": "Christopher Bowns",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Virginia_Tech_-_data_center.jpg",
+        "povod": "wikimedia",
+        "dopyt": "data center"
+      },
+      {
+        "url": "https://live.staticflickr.com/6156/6205315211_fe458e509e_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/ace73214-3ddb-4fba-92bd-12b15dd2d911/thumb/",
+        "nazov": "Mediq Utrecht Data center Gwan Kho",
+        "autor": "Gwan Kho",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/43669498@N05/6205315211",
+        "povod": "openverse",
+        "dopyt": "data center"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Luna_SA_Hardware_Security_Module.jpg/1280px-Luna_SA_Hardware_Security_Module.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Luna_SA_Hardware_Security_Module.jpg/1280px-Luna_SA_Hardware_Security_Module.jpg",
+        "nazov": "Luna SA Hardware Security Module.jpg",
+        "autor": "HelmSE1",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Luna_SA_Hardware_Security_Module.jpg",
+        "povod": "wikimedia",
+        "dopyt": "hardware security module"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Luna_Hardware_Security_Modules_PCMCIA.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c2619a34-3f00-4150-bc04-3816a08c9f8a/thumb/",
+        "nazov": "Luna Hardware Security Modules PCMCIA",
+        "autor": "Alexander Klink",
+        "licencia": "BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=5537673",
+        "povod": "openverse",
+        "dopyt": "hardware security module"
+      }
+    ],
+    "prompt_ilustracie": "Abstract digital illustration of autonomous AI agents interacting with secure servers and data flows in a cyber security environment."
+  },
+  "prompt_ilustracie": "Abstract digital illustration of autonomous AI agents interacting with secure servers and data flows in a cyber security environment.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/1417c1c3a166b1cf95760c03d53a1c7b",
+  "text_agentov": {
+    "titulok": "AI agenty a bežné nástroje našli kľúč od finančnej firmy za necelých šesť minút",
+    "perex": "Bezpečnostní experti varujú pred novou vlnou útokov, pri ktorých hackeri využívajú voľne dostupné open-source AI agenty na automatizáciu prienikov do kritických sietí.",
+    "telo": "Bezpečnostný start-up Jesta so sídlom v Tel Avive zdokumentoval pokus o kybernetický útok, pri ktorom útočník z Bukurešti využil voľne dostupný open-source programovací agent s názvom OpenCode. Útok, ktorý mieril na poprednú finančnú inštitúciu, trval menej ako šesť minút a vyžiadal si minimálne úsilie zo strany človeka. \n\n## Priebeh incidentu\n\nPodľa zistení spoločnosti Jesta sa útok začal 16. novembra o 4:24:57 ráno východného času. Útočník použil prehliadač Chrome bežiaci na zariadení Mac a nástroj na príkazovom riadku curl verzie 8.7.1, pričom agent prenášal informácie medzi týmito nástrojmi. Nástroj OpenCode nebol navrhnutý na hackerské účely, no umožňuje pripojenie k viac ako dvom stovkám modelov vrátane modelov od spoločností Anthropic, OpenAI, Google či DeepSeek. \n\nAgent najprv neúspešne žiadal o prístup k hlavnej stránke systému a následne testoval rôzne požiadavky. Keď systém odmietol vydať API definíciu, agent o niekoľko sekúnd neskôr vyskúšal inú adresu. Táto adresa však bola vopred pripravenou pascou, takzvaným decoy prostredím, ktoré vytvorila firma Jesta na oklamanie votrelcov. V tomto falošnom prostredí agent objavil prístupový kľúč a následne otestoval niekoľko scenárov vrátane použitia falošného kľúča, žiadneho kľúča a vlastného vymysleného kľúča. \n\nSpoluzakladateľ a technologický riaditeľ spoločnosti Jesta Lior Finkelshtein uviedol, že agent pracoval presne tak, ako by pracoval bežný vývojár. Prečítal si dokumentáciu k rozhraniu API, našiel kľúč a následne overil, či je zámok reálny. Celá operácia trvala päť minút a štridsaťštyri sekúnd, po ktorých útočník prestal vyvíjať aktivitu. \n\n## Problémy pre obranu sietí\n\nBezpečnostní experti upozorňujú, že bežné obranné mechanizmy založené na zoznamoch blokovaných adries, takzvaných blocklistoch, by v tomto prípade nedokázali útok zastaviť. Adresa útočníka totiž dovtedy nebola evidovaná ako škodlivá. Finkelshtein odporúča, aby sa obranné tímy namiesto IP adries zameriavali na správanie návštevníkov, keďže kombinácia netradičných krokov v priebehu niekoľkých minút môže odhaliť prítomnosť autonómneho agenta.\n\nTento incident nie je ojedinelým prípadom využitia umelej inteligencie pri útokoch. Spoločnosť Amazon nedávno informovala o tom, že hackeri využili open-source framework s názvom Cairn na vyhľadanie a zneužitie zero-day zraniteľnosti. Útočníci poskytli agentom bežiacim na tomto frameworku zoznam IP adries a jednoduchý pokyn v zjednodušenej čínštine na získanie prístupu k serveru Východoázijskej univerzity. \n\n## Súvislosti a ďalší vývoj\n\nFramework Cairn bol pôvodne vytvorený ako nástroj pre obrancov na autonómne penetračné testovanie. Výskumníci zo spoločnosti Palo Alto Networks však zaznamenali jeho využitie útočníkmi pri dvadsiatich piatich autonómnych operáciách cielených na organizácie v oblasti polovodičov, obrany a občianskej spoločnosti, pričom najmenej desať organizácií bolo úspešne napadnutých. \n\nOdborníci zdôrazňujú, že tieto incidenty ukazujú rýchlosť a vytrvalosť, akú ponúkajú moderné nástroje ponúkajú, a bezpečnostné tímy by sa mali pripraviť na nárast podobne vedených automatizovaných operácií."
+  }
+}
