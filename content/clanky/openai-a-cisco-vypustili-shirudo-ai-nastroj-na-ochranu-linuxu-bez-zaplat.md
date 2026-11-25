@@ -8,7 +8,7 @@ tagy:
   - Linux
   - eBPF
   - bezpecnost
-publikovane: 2026-11-25T07:05:50+00:00
+publikovane: 2026-11-25T11:28:28Z
 obrazok:
   src: /obrazky/openai-a-cisco-vypustili-shirudo-ai-nastroj-na-ochranu-linuxu-bez-zaplat-mww1icd3.webp
   alt: Ilustračný obrázok.
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "BleepingComputer: New Shirudo tool uses AI to shield unpatched Linux systems from exploits"
     url: https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/
