@@ -6,7 +6,7 @@ tagy:
   - Kybernetická bezpečnosť
   - Európska únia
   - Ochrana údajov
-publikovane: 2026-11-25T06:49:17+00:00
+publikovane: 2026-11-25T11:23:31Z
 obrazok:
   src: /obrazky/europska-komisia-potvrdila-unik-osobnych-udajov-po-kybernetickom-utoku-mww1bxfz.jpg
   alt: European Commission headquarters, The Berlaymont Building, Brussels, Belgium ( Ank Kumar, Infosys Limited )
@@ -18,6 +18,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "The Register: European Commission confirms personal data stolen in AI-assisted cyberattack"
     url: https://www.theregister.com/cyber-crime/2026/11/24/european-commission-confirms-personal-data-stolen-in-ai-assisted-cyberattack/5311834
