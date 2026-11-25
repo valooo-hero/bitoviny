@@ -3,27 +3,28 @@ title: AI agenty a bežné nástroje našli kľúč od finančnej firmy za necel
 perex: Bezpečnostní experti varujú pred novou vlnou útokov, pri ktorých hackeri využívajú voľne dostupné open-source AI agenty na automatizáciu prienikov do kritických sietí.
 sekcia: bezpecnost
 tagy:
-- AI
-- Jesta
-- OpenCode
-- Cairn
-- bezpecnost
-publikovane: '2026-11-25T06:53:15+00:00'
+  - AI
+  - Jesta
+  - OpenCode
+  - Cairn
+  - bezpecnost
+publikovane: 2026-11-25T06:53:15+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/ai-agenty-a-bezne-nastroje-nasli-kluc-od-financnej-firmy-za-necelych-sest-minut-mww1dpq0.webp
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'The Register: An AI coding agent, a browser, and a Mac tool found a financial firm''s access key in under 6 minutes'
-  url: https://www.theregister.com/security/2026/11/24/an-ai-coding-agent-a-browser-and-a-mac-tool-found-a-financial-firms-access-key-in-under-6-minutes/5311922
-- nazov: 'Ars Technica: Amazon says hackers'' AI agents found and exploited 0-day with little human input'
-  url: https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/
+  - nazov: "The Register: An AI coding agent, a browser, and a Mac tool found a financial firm's access key in under 6 minutes"
+    url: https://www.theregister.com/security/2026/11/24/an-ai-coding-agent-a-browser-and-a-mac-tool-found-a-financial-firms-access-key-in-under-6-minutes/5311922
+  - nazov: "Ars Technica: Amazon says hackers' AI agents found and exploited 0-day with little human input"
+    url: https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/
 ---
 
 Bezpečnostný start-up Jesta so sídlom v Tel Avive zdokumentoval pokus o kybernetický útok, pri ktorom útočník z Bukurešti využil voľne dostupný open-source programovací agent s názvom OpenCode. Útok, ktorý mieril na poprednú finančnú inštitúciu, trval menej ako šesť minút a vyžiadal si minimálne úsilie zo strany človeka. 
