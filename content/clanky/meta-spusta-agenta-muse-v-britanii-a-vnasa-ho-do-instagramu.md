@@ -3,29 +3,30 @@ title: Meta spúšťa agenta Muse v Británii a vnáša ho do Instagramu
 perex: Britské regulačné fórum varovalo pred rizikami AI agentov mesiac predtým, než Meta spustila Muse v Británii a integrovala ho do Instagramu.
 sekcia: ai
 tagy:
-- Meta
-- Muse
-- AI agent
-- Instagram
-- regulácia
-publikovane: '2026-11-25T07:01:49+00:00'
+  - Meta
+  - Muse
+  - AI agent
+  - Instagram
+  - regulácia
+publikovane: 2026-11-25T07:01:49+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/meta-spusta-agenta-muse-v-britanii-a-vnasa-ho-do-instagramu-mww1grsr.webp
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: '9to5Mac: Muse safety debate continues as the AI agent rolls out in the UK'
-  url: https://9to5mac.com/2026/11/24/muse-safety-debate-continues-as-the-ai-agent-rolls-out-in-the-uk/
-- nazov: 'TechCrunch: Meta brings its Muse AI assistant directly into Instagram DMs'
-  url: https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/
-- nazov: 'Engadget: Meta is bringing Muse to Instagram'
-  url: https://www.engadget.com/2326663/meta-is-bringing-muse-to-instagram/
+  - nazov: "9to5Mac: Muse safety debate continues as the AI agent rolls out in the UK"
+    url: https://9to5mac.com/2026/11/24/muse-safety-debate-continues-as-the-ai-agent-rolls-out-in-the-uk/
+  - nazov: "TechCrunch: Meta brings its Muse AI assistant directly into Instagram DMs"
+    url: https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/
+  - nazov: "Engadget: Meta is bringing Muse to Instagram"
+    url: https://www.engadget.com/2326663/meta-is-bringing-muse-to-instagram/
 ---
 
 Titulok: Meta spúšťa agenta Muse v Británii a vnáša ho do Instagramu
