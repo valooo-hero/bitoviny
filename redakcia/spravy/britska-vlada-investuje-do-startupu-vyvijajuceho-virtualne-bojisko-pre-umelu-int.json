@@ -1,0 +1,495 @@
+{
+  "slug": "britska-vlada-investuje-do-startupu-vyvijajuceho-virtualne-bojisko-pre-umelu-int",
+  "datum_sprav": "2026-11-24",
+  "dovod_vyberu": "Britská vláda investuje do startupu na virtuálny AI tréningový priestor a varuje pred AI‑poháňanými kybernetickými útokmi, čo má regionálny dopad.",
+  "poznamky_pre_editora": "Opravila som poradie financovania podľa zdroja: kolo v hodnote 70 miliónov dolárov nasledovalo po počiatočnom kole v hodnote 30 miliónov dolárov. Ostatný text som ponechala bez zmeny.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý a všetky uvedené tvrdenia majú presnú oporu v poskytnutých zdrojových článkoch. V texte sa nenachádzajú žiadne vecné chyby ani vymyslené informácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 8,
+        "potvrdenych": 7,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 20,
+        "potvrdenych": 19,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 24,
+        "potvrdenych": 24,
+        "chyb": 0,
+        "upozorneni": 1
+      }
+    ],
+    "otvorene_nalezy": [
+      {
+        "povod": "kontrola_dokazu",
+        "zavaznost": "upozornenie",
+        "text": "NCSC upozornilo na výrazný nárast kybernetických útokov poháňaných umelou inteligenciou",
+        "komentar": "Factchecker cituje úryvok, ktorý sa v zdrojoch doslova nenachádza: „The U.K. National Cybersecurity Center (NCSC) said it has seen a “marked rise” in AI-driven cyberattacks“",
+        "navrh_opravy": "Overiť v zdrojoch ručne."
+      }
+    ],
+    "tvrdenia": [
+      {
+        "text": "Britská vláda podporila startup Agon Dynamics",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "The British government is investing in a UK-based AI defense startup... Agon Dynamics",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Znížiť závislosť krajiny od zahraničných technológií",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "in a bid to reduce the country's reliance on overseas technology.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Sovereign AI Fund spolu s National Security Strategic Investment Fund",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Both the Sovereign AI Fund and the National Security Strategic Investment Fund (NSSIF)",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Hodnota firmy sa odhaduje na 450 miliónov dolárov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "said to value the biz at $450 million.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Celkové získané financie dosiahli 100 miliónov dolárov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "takes the total capital raised by the firm to $100 million",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Počiatočné kolo v hodnote 30 miliónov dolárov, nasledovalo kolo v hodnote 70 miliónov dolárov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "This $70 million round takes the total capital raised by the firm to $100 million, following its initial $30 million seed round",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vláda presnú výšku vlastnej investície nezverejnila s odvolaním sa na obchodnú citlivosť",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "claiming such investments are commercially sensitive",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Typické podiely zo Sovereign AI Fund sa pohybujú medzi 1 miliónom až 10 miliónmi libier",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "typical equity amounts obtained from the the Sovereign AI Fund tend to be worth around £1 million to £10 million",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "1,3 milióna až 13 miliónov dolárov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "($1.3 million to $13 million).",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Trénovanie vojenskej umelej inteligencie v reálnom svete je finančne náročné a vyžaduje veľa času",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Training like this currently needs to be carried out in the real world, which is time-consuming and expensive",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť Agon buduje syntetickú bojovú arénu, ktorá slúži ako bezpečné a opakovateľné prostredie",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Agon is building a \"virtual battlefield\" environment... synthetic battle arena provides a safe, repeatable environment",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vývojári a obstarávatelia v ňom môžu testovať autonómne systémy proti tisíckam náročných scenárov",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "for developers and defense contractors to try out autonomous systems against thousands of demanding scenarios",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Simulácie dokážu napodobniť masívne útoky dronov, ktoré by inak prekonali bežnú protivzdušnú obranu",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "simulations of mass drone attacks that would overwhelm conventional air defense systems",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Preveriť správanie systémov pri prerušení komunikácie s veliteľstvom",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "ensuring that AI tools still continue to work as intended if communications with the command center are disrupted",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tristam Constant pôsobil ako dôstojník britskej armády",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "co-founder and CEO Tristam Constant, a former British Army officer",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Európa sa ocitla v pretekoch v zbrojení v oblasti umelej inteligencie",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "Europe is in an AI arms race",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vstupujeme do éry agentického boja, kde inteligentné stroje musia robiť rozhodnutia rýchlejšie, než to zvládnu samotní ľudia",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "as we enter the era of agentic warfare: intelligent agents and machines that will need to understand their environment, make decisions and adapt at a speed and scale that humans alone cannot match",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Minister pre umelú inteligenciu Kanishka Narayan vyhlásil, že Veľká Británia má dobré predpoklady na presadzovanie spoľahlivých a zodpovedných technológií",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "The Register",
+        "dokaz": "AI Minister Kanishka Narayan claimed that Britain is well-placed to lead efforts to ensure such technologies are reliable, trustworthy, and deployed responsibly.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "NCSC upozornilo na výrazný nárast kybernetických útokov poháňaných umelou inteligenciou",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The U.K. National Cybersecurity Center (NCSC) said it has seen a “marked rise” in AI-driven cyberattacks",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Hackeri čoraz častejšie využívajú autonómne nástroje na penetračné testovanie na vyhľadávanie jednoduchých chýb",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "hackers increasingly rely on autonomous hacking tools to identify and exploit simple weaknesses",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zneužívané zraniteľnosti nie sú nové, kľúčová je rýchlosť",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "while none of the vulnerabilities being exploited are new, the speed at which these AI tools are able to carry out simple hacks has changed.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Incidenty sú dôsledkom dlhodobého zanedbávania základnej bezpečnosti a nahromadeného technického dlhu v organizáciách",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "unmitigated weaknesses that are often the result of years of technical debt that organisations have accumulated",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Útoky sa zameriavajú na vystavené systémy, slabé heslá či zle zabezpečené aplikačné rozhrania",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "agentic hacking tools often look for exposed or internet-facing systems, then quickly run through lists of weak or easy-to-guess passwords or abuse API endpoints",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Prítomnosť umelej inteligencie nerobí tradičné bezpečnostné opatrenia zastaranými, ale podčiarkuje potrebu pevných základov",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "AI \"does not make established cyber security controls obsolete,\" but rather that \"building strong foundations has never mattered more.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "titulok",
+        "text": "startupu",
+        "kontext": "Britská vláda investuje do startupu vyvíjajúceho virtuálne bojisko pre umel",
+        "navrhy": [
+          "štartujú"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "titulok",
+        "text": "vyvíjajúceho",
+        "kontext": "Britská vláda investuje do startupu vyvíjajúceho virtuálne bojisko pre umelú inteligenci",
+        "navrhy": [
+          "vynikajúceho",
+          "vypínajúceho"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "startup",
+        "kontext": "Britská vláda podporila startup Agon Dynamics, ktorý buduje virtuálne p",
+        "navrhy": [
+          "štartu",
+          "štartuj",
+          "star tup"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "startupu",
+        "kontext": "láda sa rozhodla investovať do domáceho startupu Agon Dynamics, ktorý vyvíja technológie",
+        "navrhy": [
+          "štartujú"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "uje syntetickú bojovú arénu, ktorá slúži ako bezpečné a opakovateľné prostredie. Výv",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "dronov",
+        "kontext": "mulácie dokážu napodobniť masívne útoky dronov, ktoré by inak prekonali bežnú protivzd",
+        "navrhy": [
+          "Hronov",
+          "Ronov",
+          "donov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "stam Constant, ktorý v minulosti pôsobil ako dôstojník britskej armády, uviedol, že ",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "agentického",
+        "kontext": "ncie. Podľa jeho slov vstupujeme do éry agentického boja, kde inteligentné stroje musia rob",
+        "navrhy": [
+          "agentského",
+          "agonického",
+          "antického"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://live.staticflickr.com/4034/5133749225_39b5963917_b.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://image.theregister.com/?imageId=260608&width=800",
+        "zdroj_clanku": "The Register",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2023/08/password-stealing-malware.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "a photo of an angled computer in a dark room, featuring green windows on a computer display and a red glowing keyboard.",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/1099c2a5bc8d3b9d36c58466359702654ca1d0824999adb24660b78d8e685d76?s=96&d=identicon&r=g",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Zack Whittaker",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Agon Dynamics",
+      "military simulation lab",
+      "autonomous combat drone"
+    ],
+    "alternativy": [
+      {
+        "url": "https://live.staticflickr.com/4034/5133749225_39b5963917_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/58d1c056-72c1-48d6-b610-82978652c2a0/thumb/",
+        "nazov": "Italy-0155 - Fountain of the Four Rivers",
+        "autor": "archer10 (Dennis)",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/22490717@N02/5133749225",
+        "povod": "openverse",
+        "dopyt": "Agon Dynamics"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/X-33_Simulation_Lab_and_Staff_Engineers_DVIDS691192.jpg/1280px-X-33_Simulation_Lab_and_Staff_Engineers_DVIDS691192.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/X-33_Simulation_Lab_and_Staff_Engineers_DVIDS691192.jpg/1280px-X-33_Simulation_Lab_and_Staff_Engineers_DVIDS691192.jpg",
+        "nazov": "X-33 Simulation Lab and Staff Engineers DVIDS691192.jpg",
+        "autor": "Glenn Research Center",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:X-33_Simulation_Lab_and_Staff_Engineers_DVIDS691192.jpg",
+        "povod": "wikimedia",
+        "dopyt": "military simulation lab"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/1ABCT-3ID_FPV_drone_certification_%289200423%29.jpg/1280px-1ABCT-3ID_FPV_drone_certification_%289200423%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/1ABCT-3ID_FPV_drone_certification_%289200423%29.jpg/1280px-1ABCT-3ID_FPV_drone_certification_%289200423%29.jpg",
+        "nazov": "1ABCT-3ID FPV drone certification (9200423).jpg",
+        "autor": "U.S. Army photo by Staff Sgt. Dylan Bailey",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:1ABCT-3ID_FPV_drone_certification_(9200423).jpg",
+        "povod": "wikimedia",
+        "dopyt": "autonomous combat drone"
+      },
+      {
+        "url": "https://live.staticflickr.com/4066/5133757415_1335bae0f0_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/712b0d4b-90ec-400f-aa22-1d23533155e0/thumb/",
+        "nazov": "Italy-0152",
+        "autor": "archer10 (Dennis)",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/22490717@N02/5133757415",
+        "povod": "openverse",
+        "dopyt": "Agon Dynamics"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Balikatan_2026-_Lightning_Lab_%289664278%29.jpg/1280px-Balikatan_2026-_Lightning_Lab_%289664278%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Balikatan_2026-_Lightning_Lab_%289664278%29.jpg/1280px-Balikatan_2026-_Lightning_Lab_%289664278%29.jpg",
+        "nazov": "Balikatan 2026- Lightning Lab (9664278).jpg",
+        "autor": "U.S. Army photo by Spc. Christopher Moorehead",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Balikatan_2026-_Lightning_Lab_(9664278).jpg",
+        "povod": "wikimedia",
+        "dopyt": "military simulation lab"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/1ABCT-3ID_FPV_drone_%289200421%29.jpg/1280px-1ABCT-3ID_FPV_drone_%289200421%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/1ABCT-3ID_FPV_drone_%289200421%29.jpg/1280px-1ABCT-3ID_FPV_drone_%289200421%29.jpg",
+        "nazov": "1ABCT-3ID FPV drone (9200421).jpg",
+        "autor": "U.S. Army photo by Staff Sgt. Dylan Bailey",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:1ABCT-3ID_FPV_drone_(9200421).jpg",
+        "povod": "wikimedia",
+        "dopyt": "autonomous combat drone"
+      },
+      {
+        "url": "https://live.staticflickr.com/4066/5133764111_dcf7e1664e_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/a74041bc-0053-473a-9107-9e90baee535f/thumb/",
+        "nazov": "Italy-0153",
+        "autor": "archer10 (Dennis)",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/22490717@N02/5133764111",
+        "povod": "openverse",
+        "dopyt": "Agon Dynamics"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/SecDef_ensures_future_military_readiness_during_JBSA_visit_161116-A-BH785-056.jpg/1280px-SecDef_ensures_future_military_readiness_during_JBSA_visit_161116-A-BH785-056.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/SecDef_ensures_future_military_readiness_during_JBSA_visit_161116-A-BH785-056.jpg/1280px-SecDef_ensures_future_military_readiness_during_JBSA_visit_161116-A-BH785-056.jpg",
+        "nazov": "SecDef ensures future military readiness during JBSA visit 161116-A-BH785-056.jpg",
+        "autor": "Senior Airman Stormy Archer",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:SecDef_ensures_future_military_readiness_during_JBSA_visit_161116-A-BH785-056.jpg",
+        "povod": "wikimedia",
+        "dopyt": "military simulation lab"
+      }
+    ],
+    "prompt_ilustracie": "Ilustračný obrázok, vytvorené AI: virtuálne bojisko pre testovanie autonómnych vojenských systémov, bez skutočných osôb a bez dokumentárneho pôsobenia."
+  },
+  "prompt_ilustracie": "Ilustračný obrázok, vytvorené AI: virtuálne bojisko pre testovanie autonómnych vojenských systémov, bez skutočných osôb a bez dokumentárneho pôsobenia.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/f3c3edae3462d9d6439f10167c3f8203",
+  "text_agentov": {
+    "titulok": "Britská vláda investuje do startupu vyvíjajúceho virtuálne bojisko pre umelú inteligenciu",
+    "perex": "Britská vláda podporila startup Agon Dynamics, ktorý buduje virtuálne prostredie na testovanie a trénovanie autonómnych vojenských systémov. Účelom je posilniť technologickú nezávislosť krajiny.",
+    "telo": "Britská vláda sa rozhodla investovať do domáceho startupu Agon Dynamics, ktorý vyvíja technológie na trénovanie autonómnych vojenských systémov vo virtuálnom prostredí. Cieľom tohto kroku je znížiť závislosť krajiny od zahraničných technológií a posilniť národnú odolnosť v oblasti obrannej umelej inteligencie.\n\nNa financovaní v rámci kola Series A sa podieľal Sovereign AI Fund spolu s National Security Strategic Investment Fund. Hodnota firmy sa podľa dostupných informácií odhaduje na 450 miliónov dolárov. Celkové získané financie firmy dosiahli 100 miliónov dolárov, pričom po jarnom počiatočnom kole v hodnote 30 miliónov dolárov nasledovalo kolo v hodnote 70 miliónov dolárov. Vláda presnú výšku vlastnej investície nezverejnila s odvolaním sa na obchodnú citlivosť. Uviedla však, že typické podiely zo Sovereign AI Fund sa pohybujú medzi 1 miliónom až 10 miliónmi libier, čo je v prepočte približne 1,3 milióna až 13 miliónov dolárov.\n\n## Virtuálne bojisko pre autonómne systémy\n\nTrénovanie vojenskej umelej inteligencie v reálnom svete je podľa britskej vlády finančne náročné a vyžaduje veľa času. Spoločnosť Agon preto buduje syntetickú bojovú arénu, ktorá slúži ako bezpečné a opakovateľné prostredie. Vývojári a obstarávatelia v ňom môžu testovať autonómne systémy proti tisíckam náročných scenárov ešte predtým, ako ich nasadia do reálnej prevádzky. Simulácie dokážu napodobniť masívne útoky dronov, ktoré by inak prekonali bežnú protivzdušnú obranu, alebo preveriť správanie systémov pri prerušení komunikácie s veliteľstvom.\n\nSpoluzakladateľ a výkonný riaditeľ firmy Tristam Constant, ktorý v minulosti pôsobil ako dôstojník britskej armády, uviedol, že Európa sa ocitla v pretekoch v zbrojení v oblasti umelej inteligencie. Podľa jeho slov vstupujeme do éry agentického boja, kde inteligentné stroje musia robiť rozhodnutia rýchlejšie, než to zvládnu samotní ľudia. Minister pre umelú inteligenciu Kanishka Narayan vyhlásil, že Veľká Británia má dobré predpoklady na to, aby presadzovala spoľahlivé a zodpovedné nasadzovanie takýchto technológií.\n\n## Varovanie pred kybernetickými útokmi\n\nBritské národné centrum pre kybernetickú bezpečnosť (NCSC) súčasne upozornilo na výrazný nárast kybernetických útokov poháňaných umelou inteligenciou. Údaje ukazujú, že hackeri čoraz častejšie využívajú autonómne nástroje na penetračné testovanie na vyhľadávanie jednoduchých chýb v systémoch. Hoci zneužívané zraniteľnosti nie sú nové, kľúčová je rýchlosť, s akou dokážu AI nástroje jednoduché útoky realizovať.\n\nPodľa NCSC sú tieto incidenty dôsledkom dlhodobého zanedbávania základnej bezpečnosti a nahromadeného technického dlhu v organizáciách. Útoky sa zameriavajú najmä na vystavené systémy, slabé heslá či zle zabezpečené aplikačné rozhrania. Úrad zdôraznil, že prítomnosť umelej inteligencie nerobí tradičné bezpečnostné opatrenia zastaranými, ale naopak podčiarkuje potrebu pevných základov v organizáciách."
+  }
+}
