@@ -8,7 +8,7 @@ tagy:
   - AI agent
   - Instagram
   - regulácia
-publikovane: 2026-11-25T07:01:49+00:00
+publikovane: 2026-11-25T11:27:16Z
 obrazok:
   src: /obrazky/meta-spusta-agenta-muse-v-britanii-a-vnasa-ho-do-instagramu-mww1grsr.webp
   alt: Ilustračný obrázok.
@@ -20,6 +20,7 @@ redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
+  schvalil: sefredaktor
 zdroje:
   - nazov: "9to5Mac: Muse safety debate continues as the AI agent rolls out in the UK"
     url: https://9to5mac.com/2026/11/24/muse-safety-debate-continues-as-the-ai-agent-rolls-out-in-the-uk/
