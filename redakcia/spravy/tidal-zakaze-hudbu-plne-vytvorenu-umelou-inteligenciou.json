@@ -1,0 +1,558 @@
+{
+  "slug": "tidal-zakaze-hudbu-plne-vytvorenu-umelou-inteligenciou",
+  "datum_sprav": "2026-11-24",
+  "dovod_vyberu": "Tidal plánuje odstrániť milióny AI‑generovaných skladieb a zakázať ich úplne, čo mení dynamiku hudobného priemyslu a streamingových služieb.",
+  "poznamky_pre_editora": "Opravil som titulok, aby presne odrážal, že ide o plne AI-generovanú hudbu, nie akúkoľvek tvorbu s pomocou AI. V závere som upravil formuláciu o Goldman Sachs a hudobných vydavateľstvách presne podľa nálezov factcheckera.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý a všetky uvedené tvrdenia, čísla aj vyhlásenia majú priamu oporu v poskytnutých zdrojoch. Žiadne závažné chyby ani nepodložené informácie sa v texte nenachádzajú.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 26,
+        "potvrdenych": 25,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 32,
+        "potvrdenych": 29,
+        "chyb": 3,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 23,
+        "potvrdenych": 23,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Tidal zakáže hudbu plne vytvorenú umelou inteligenciou",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Tidal is banning AI-generated music entirely",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Od decembra začne plne generované skladby mazať a odmietať",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "it would begin removing wholly genAI tracks from its catalog come December 9",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako v utorok oznámil vedúci platformy Robert Anderson, spoločnosť začne s odstraňovaním plne generovaných skladieb 9. decembra.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "On Tuesday, the company announced it would begin removing wholly genAI tracks from its catalog come December 9.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tento krok povedie k vymazaniu približne 29 miliónov stôp, pričom samotný portál v článkoch uvádza aj číslo 27 miliónov existujúcich skladieb",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "result in the deletion of approximately 29 million tracks",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "čo predstavuje 6.3 percenta celkového katalógu",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "That accounts for 6.3 percent of Tidal’s total catalog.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa vyjadrení platformy bude Tidal následne každý deň odmietať 80 000 až 85 000 nových piesní.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "set the service on the path to reject 80,000 to 85,000 songs daily.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť už v priebehu roka zaviedla označovanie a demonetizáciu skladieb vytvorených umelou inteligenciou.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Tidal debuted its initial AI policy in July 2026, which included labeling and demonetizing all songs created entirely with AI.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Za posledných 90 dní bolo až 43 percent všetkých nahraných skladieb označených ako generovaných umelou inteligenciou",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Over the last 90 days, 43 percent of all tracks uploaded to the service were flagged as AI-generated",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "pričom 6. novembra toto číslo dosiahlo dokonca 60 percent",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "On November 6, new uploads to Tidal hit a whopping 60 percent AI-generated.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Služba zároveň zdôraznila, že 96 percent všetkých piesní vytvorených umelou inteligenciou nezaznamenalo vôbec žiadne prehratia.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "as 96 percent of all AI-generated songs receive zero plays at all",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zákaz sa týka výhradne hudby, ktorá bola vytvorená kompletne umelou inteligenciou bez ľudského pričinenia.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "only talking about music that has been fully created by AI. Artists can still use AI tools as long as the final product contains human elements.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť uviedla, že bude naďalej akceptovať skladby, ktoré vznikli s pomocou umelej inteligencie, ak obsahujú reálne ľudské prvky.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Distribútori však nebudú môcť dodávať stopercentne AI skladby",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Tidal is also banning distribution services from delivering 100% AI-generated tracks",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "platforma bude odmietať aj tie príspevky, ktoré budú mať v metadátach uvedené, že vznikli výhradne týmto spôsobom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "and will reject submissions if songs’ metadata says they are made fully using AI.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Okrem toho Tidal už predtým odstránil zhruba 66 000 skladieb pre vydávanie sa za iných umelcov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "Tidal says it has already removed about 66,000 tracks from its service for impersonating artists",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "problémom sú aj uploadéri, ktorí sa snažia kradnúť licenčné poplatky",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Ars Technica",
+        "dokaz": "There’s also an issue with AI uploaders who are actively attempting to steal royalty payments.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rozhodnutie platformy prekvapilo aj preto, že materskú spoločnosť Block, ktorá Tidal vlastní od roku 2021, vedie nadšenec do umelej inteligencie Jack Dorsey.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Block, the company that has owned Tidal since 2021, is led by AI enthusiast Jack Dorsey.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Medzi hlavnými hudobnými službami je Tidal po Bandcampe druhou platformou, ktorá zakázala hudbu vytvorenú umelou inteligenciou úplne.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Tidal is one of the first major platforms after Bandcamp to ban AI music outright.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Deezer pridal funkciu na skrytie takejto hudby",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Deezer, which also provides detection tools to other streaming services, said that it will introduce a toggle to let users filter out AI music.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "zatiaľ čo Apple Music skladby iba označuje",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Apple Music merely labels songs made with AI.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spotify zaujalo miernejší postoj, keďže popri odstraňovanom spame zároveň umožňuje používateľom vytvárať remixy a prerábky pomocou umelej inteligencie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Spotify, for instance, has tried to dance around the issue; in October, the company said it would continue to remove \"slop and spam\" from people's recommendations, but it did this shortly after announcing it would also allow people to remix and cover songs using AI.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "SoundCloud zas spolupracuje so spoločnosťami zaoberajúcimi sa tvorbou hudby prostredníctvom AI.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Soundcloud got into bed with AI music creation companies Elevenlabs and Moises",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Goldman Sachs vo svojich odhadoch predpokladá, že licenčné nástroje súvisiace s umelou inteligenciou a nové možnosti monetizácie by mohli do roku 2035 zlepšiť príjmy hudobných vydavateľstiev o desať percent",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Goldman Sachs estimates that by 2035, AI-related licensing tools and new monetization opportunities have the potential to improve record labels’ revenue by 10%.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "predstavuje 6.3 percenta celkového",
+        "opravene": "predstavuje 6,3 percenta celkového",
+        "dovod": "desatinná čiarka",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "t všetkých nahraných skladieb označených ako generovaných umelou inteligenciou, prič",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "generovaných",
+        "kontext": "tkých nahraných skladieb označených ako generovaných umelou inteligenciou, pričom 6. novembr",
+        "navrhy": [
+          "generovanou"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (generovaných) \"generovanou\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "zahlcuje",
+        "kontext": "množstvo automaticky vytvoreného odpadu zahlcuje systém a pochováva skutočnú hudbu a reá",
+        "navrhy": [
+          "zahlcujú",
+          "zamlčuje"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "prehratia",
+        "kontext": "nteligenciou nezaznamenalo vôbec žiadne prehratia.\n\n## Podmienky nového zákazu\n\nZákaz sa ",
+        "navrhy": [
+          "prebratia",
+          "prehradia",
+          "prehrania"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "metadátach",
+        "kontext": "etať aj tie príspevky, ktoré budú mať v metadátach uvedené, že vznikli výhradne týmto spôs",
+        "navrhy": [
+          "metadáta ch"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "uploadéri",
+        "kontext": "ie sa za iných umelcov; problémom sú aj uploadéri, ktorí sa snažia kradnúť licenčné popla",
+        "navrhy": [
+          "plodení",
+          "pulóveri",
+          "splodení"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "odstraňovanom",
+        "kontext": "y zaujalo miernejší postoj, keďže popri odstraňovanom spame zároveň umožňuje používateľom vyt",
+        "navrhy": [
+          "odstraňovaním",
+          "odstraňovačom"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "remixy",
+        "kontext": " zároveň umožňuje používateľom vytvárať remixy a prerábky pomocou umelej inteligencie.",
+        "navrhy": [
+          "remízy",
+          "re mixy"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "prerábky",
+        "kontext": "umožňuje používateľom vytvárať remixy a prerábky pomocou umelej inteligencie. SoundCloud",
+        "navrhy": [
+          "prerážky"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "monetizácie",
+        "kontext": " s umelou inteligenciou a nové možnosti monetizácie by mohli do roku 2035 zlepšiť príjmy hu",
+        "navrhy": [
+          "magnetizácie"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -5 +5 @@\n-Streamovacia služba Tidal sa chystá zaujať nekompromisný postoj voči hudbe vytvorenej výhradne umelou inteligenciou. Ako v utorok oznámil vedúci platformy Robert Anderson, spoločnosť začne s odstraňovaním plne generovaných skladieb 9. decembra. Tento krok povedie k vymazaniu približne 29 miliónov stôp, pričom samotný portál v článkoch uvádza aj číslo 27 miliónov existujúcich skladieb, čo predstavuje 6.3 percenta celkového katalógu. Podľa vyjadrení platformy bude Tidal následne každý deň odmietať 80 000 až 85 000 nových piesní.\n+Streamovacia služba Tidal sa chystá zaujať nekompromisný postoj voči hudbe vytvorenej výhradne umelou inteligenciou. Ako v utorok oznámil vedúci platformy Robert Anderson, spoločnosť začne s odstraňovaním plne generovaných skladieb 9. decembra. Tento krok povedie k vymazaniu približne 29 miliónov stôp, pričom samotný portál v článkoch uvádza aj číslo 27 miliónov existujúcich skladieb, čo predstavuje 6,3 percenta celkového katalógu. Podľa vyjadrení platformy bude Tidal následne každý deň odmietať 80 000 až 85 000 nových piesní."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "povodny",
+      "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/tidal-ai.jpg",
+      "poznamka": "Pravdepodobne tlačový materiál. Editor musí potvrdiť pôvod."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/tidal-ai.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Credit:\n\n          \n          Tidal",
+        "licencia": "",
+        "zaradenie": "tlacove",
+        "dovod": "Kredit uvádza firmu, o ktorej je článok (Tidal): pravdepodobne tlačový materiál."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/06/tidal-brand.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Tidal",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2024/09/723b22a81ff6a760c4520b963b43451e.png?w=150",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Ivan Mehta",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1083228790-2560x1440.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "In this photo illustration the logo of the music streaming service Tidal ( TIDALHiFi ) is displayed on a smartphone on January 16, 2019 in Berlin, Germany",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/tidal-is-banning-ai-generated-music-entirely/l-intro-1795543041.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/tidal-is-banning-ai-generated-music-entirely/intro-1795543041.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1083228790-1152x648.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Thomas Trutschel/Photothek via Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-1083228790-500x500.jpg",
+        "zdroj_clanku": "Ars Technica",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Thomas Trutschel/Photothek via Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "Tidal logo",
+      "headphones",
+      "music streaming app"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Tidal_Flow_-_Logo.png/1280px-Tidal_Flow_-_Logo.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Tidal_Flow_-_Logo.png/1280px-Tidal_Flow_-_Logo.png",
+        "nazov": "Tidal Flow - Logo.png",
+        "autor": "MushfiqNil",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Tidal_Flow_-_Logo.png",
+        "povod": "wikimedia",
+        "dopyt": "Tidal logo"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Bose_QuietComfort_25_Acoustic_Noise_Cancelling_Headphones_with_Carry_Case.jpg/1280px-Bose_QuietComfort_25_Acoustic_Noise_Cancelling_Headphones_with_Carry_Case.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Bose_QuietComfort_25_Acoustic_Noise_Cancelling_Headphones_with_Carry_Case.jpg/1280px-Bose_QuietComfort_25_Acoustic_Noise_Cancelling_Headphones_with_Carry_Case.jpg",
+        "nazov": "Bose QuietComfort 25 Acoustic Noise Cancelling Headphones with Carry Case.jpg",
+        "autor": "Florian Fuchs",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Bose_QuietComfort_25_Acoustic_Noise_Cancelling_Headphones_with_Carry_Case.jpg",
+        "povod": "wikimedia",
+        "dopyt": "headphones"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/POWER_98_The_Music_You_Love.jpg/1280px-POWER_98_The_Music_You_Love.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/POWER_98_The_Music_You_Love.jpg/1280px-POWER_98_The_Music_You_Love.jpg",
+        "nazov": "POWER 98 The Music You Love.jpg",
+        "autor": "Sodrama1234!",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:POWER_98_The_Music_You_Love.jpg",
+        "povod": "wikimedia",
+        "dopyt": "music streaming app"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/51735640385_be48259d72_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/69715ddb-a938-4993-a788-a57541f41d76/thumb/",
+        "nazov": "Music Streaming App",
+        "autor": "george.fawzi.ramzi",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/194589802@N06/51735640385",
+        "povod": "openverse",
+        "dopyt": "music streaming app"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Shoemaker-levy-tidal-forces.jpg/1280px-Shoemaker-levy-tidal-forces.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Shoemaker-levy-tidal-forces.jpg/1280px-Shoemaker-levy-tidal-forces.jpg",
+        "nazov": "Shoemaker-levy-tidal-forces.jpg",
+        "autor": "NASA",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Shoemaker-levy-tidal-forces.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Tidal logo"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Headphones_on_desk.jpg/1280px-Headphones_on_desk.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Headphones_on_desk.jpg/1280px-Headphones_on_desk.jpg",
+        "nazov": "Headphones on desk.jpg",
+        "autor": "Lirazelf",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Headphones_on_desk.jpg",
+        "povod": "wikimedia",
+        "dopyt": "headphones"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Music_instruments_shop_in_Hiroo.jpeg/1280px-Music_instruments_shop_in_Hiroo.jpeg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Music_instruments_shop_in_Hiroo.jpeg/1280px-Music_instruments_shop_in_Hiroo.jpeg",
+        "nazov": "Music instruments shop in Hiroo.jpeg",
+        "autor": "Hanonimas",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Music_instruments_shop_in_Hiroo.jpeg",
+        "povod": "wikimedia",
+        "dopyt": "music streaming app"
+      },
+      {
+        "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL2Zyd2luZG93c19waG9uZV9tdXNpY19tb2JpbGUtaW1hZ2Uta3oyZHlhY2kuanBn.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/260af9b7-4492-4539-b7c0-e9e677749d96/thumb/",
+        "nazov": "Xbox music streaming app mobile",
+        "autor": "",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "stranka": "https://www.rawpixel.com/image/6111529/photo-image-phone-public-domain-logo",
+        "povod": "openverse",
+        "dopyt": "music streaming app"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic abstract illustration representing the removal of artificial intelligence music from a streaming platform."
+  },
+  "prompt_ilustracie": "A symbolic abstract illustration representing the removal of artificial intelligence music from a streaming platform.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/be3e41e239a86eba4534317d293b8f1f",
+  "text_agentov": {
+    "titulok": "Tidal zakáže hudbu plne vytvorenú umelou inteligenciou",
+    "perex": "Streamovacia služba Tidal oznámila radikálny krok proti prívalu obsahu z umelej inteligencie. Od decembra začne plne generované skladby mazať a odmietať.",
+    "telo": "Streamovacia služba Tidal sa chystá zaujať nekompromisný postoj voči hudbe vytvorenej výhradne umelou inteligenciou. Ako v utorok oznámil vedúci platformy Robert Anderson, spoločnosť začne s odstraňovaním plne generovaných skladieb 9. decembra. Tento krok povedie k vymazaniu približne 29 miliónov stôp, pričom samotný portál v článkoch uvádza aj číslo 27 miliónov existujúcich skladieb, čo predstavuje 6,3 percenta celkového katalógu. Podľa vyjadrení platformy bude Tidal následne každý deň odmietať 80 000 až 85 000 nových piesní.\n\n## Príval obsahu a predchádzajúce opatrenia\n\nNové pravidlá prichádzajú po tom, čo sa ukázalo, že predchádzajúce opatrenia nestačia. Spoločnosť už v priebehu roka zaviedla označovanie a demonetizáciu skladieb vytvorených umelou inteligenciou. Napriek tomu však podľa údajov platformy tvoril tento obsah obrovskú časť nových prírastkov. Za posledných 90 dní bolo až 43 percent všetkých nahraných skladieb označených ako generovaných umelou inteligenciou, pričom 6. novembra toto číslo dosiahlo dokonca 60 percent. Predstavitelia Tidalu tvrdia, že obrovské množstvo automaticky vytvoreného odpadu zahlcuje systém a pochováva skutočnú hudbu a reálnych umelcov, ktorých poslucháči hľadajú. Služba zároveň zdôraznila, že 96 percent všetkých piesní vytvorených umelou inteligenciou nezaznamenalo vôbec žiadne prehratia.\n\n## Podmienky nového zákazu\n\nZákaz sa týka výhradne hudby, ktorá bola vytvorená kompletne umelou inteligenciou bez ľudského pričinenia. Spoločnosť uviedla, že bude naďalej akceptovať skladby, ktoré vznikli s pomocou umelej inteligencie, ak obsahujú reálne ľudské prvky. Distribútori však nebudú môcť dodávať stopercentne AI skladby a platforma bude odmietať aj tie príspevky, ktoré budú mať v metadátach uvedené, že vznikli výhradne týmto spôsobom. Okrem toho Tidal už predtým odstránil zhruba 66 000 skladieb pre vydávanie sa za iných umelcov; problémom sú aj uploadéri, ktorí sa snažia kradnúť licenčné poplatky. Rozhodnutie platformy prekvapilo aj preto, že materskú spoločnosť Block, ktorá Tidal vlastní od roku 2021, vedie nadšenec do umelej inteligencie Jack Dorsey.\n\n## Reakcie iných platforiem\n\nMedzi hlavnými hudobnými službami je Tidal po Bandcampe druhou platformou, ktorá zakázala hudbu vytvorenú umelou inteligenciou úplne. Konkurenčné služby zvolili odlišné prístupy. Deezer pridal funkciu na skrytie takejto hudby, zatiaľ čo Apple Music skladby iba označuje. Spotify zaujalo miernejší postoj, keďže popri odstraňovanom spame zároveň umožňuje používateľom vytvárať remixy a prerábky pomocou umelej inteligencie. SoundCloud zas spolupracuje so spoločnosťami zaoberajúcimi sa tvorbou hudby prostredníctvom AI. Goldman Sachs vo svojich odhadoch predpokladá, že licenčné nástroje súvisiace s umelou inteligenciou a nové možnosti monetizácie by mohli do roku 2035 zlepšiť príjmy hudobných vydavateľstiev o desať percent, čo ukazuje, že hudobné vydavateľstvá hľadajú v tejto technológii obchodné príležitosti."
+  }
+}
