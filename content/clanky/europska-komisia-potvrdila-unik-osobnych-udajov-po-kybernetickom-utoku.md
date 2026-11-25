@@ -3,25 +3,26 @@ title: Európska komisia potvrdila únik osobných údajov po kybernetickom úto
 perex: Európska komisia potvrdila, že útočníci získali osobné údaje používateľov vzdelávacej platformy EU Academy. Pri kybernetickom útoku bol použitý nástroj umelej inteligencie.
 sekcia: slovensko-eu
 tagy:
-- Kybernetická bezpečnosť
-- Európska únia
-- Ochrana údajov
-publikovane: '2026-11-25T06:49:17+00:00'
+  - Kybernetická bezpečnosť
+  - Európska únia
+  - Ochrana údajov
+publikovane: 2026-11-25T06:49:17+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/europska-komisia-potvrdila-unik-osobnych-udajov-po-kybernetickom-utoku-mww1bxfz.jpg
+  alt: European Commission headquarters, The Berlaymont Building, Brussels, Belgium ( Ank Kumar, Infosys Limited )
+  popisok: European Commission headquarters, The Berlaymont Building, Brussels, Belgium ( Ank Kumar, Infosys Limited )
+  kredit: Ank Kumar / Wikimedia Commons
+  licencia: CC BY-SA 4.0
+  ai: false
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'The Register: European Commission confirms personal data stolen in AI-assisted cyberattack'
-  url: https://www.theregister.com/cyber-crime/2026/11/24/european-commission-confirms-personal-data-stolen-in-ai-assisted-cyberattack/5311834
-- nazov: 'BleepingComputer: European Commission confirms data theft in EU Academy breach'
-  url: https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/
+  - nazov: "The Register: European Commission confirms personal data stolen in AI-assisted cyberattack"
+    url: https://www.theregister.com/cyber-crime/2026/11/24/european-commission-confirms-personal-data-stolen-in-ai-assisted-cyberattack/5311834
+  - nazov: "BleepingComputer: European Commission confirms data theft in EU Academy breach"
+    url: https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/
 ---
 
 Európska komisia oficiálne potvrdila, že pri nedávnom kybernetickom útoku došlo ku krádeži osobných údajov. Incident sa dotkol online vzdelávacej platformy EU Academy, ktorá slúži verejnosti na štúdium politík a iniciatív Európskej únie. Útočníci podľa vyjadrení inštitúcie prenikli do systémov s podporou umelej inteligencie.
