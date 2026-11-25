@@ -3,26 +3,27 @@ title: Britská vláda investuje do startupu vyvíjajúceho virtuálne bojisko p
 perex: Britská vláda podporila startup Agon Dynamics, ktorý buduje virtuálne prostredie na testovanie a trénovanie autonómnych vojenských systémov. Účelom je posilniť technologickú nezávislosť krajiny.
 sekcia: bezpecnost
 tagy:
-- Spojené kráľovstvo
-- obranné technológie
-- umelá inteligencia
-- kybernetická bezpečnosť
-publikovane: '2026-11-25T06:56:37+00:00'
+  - Spojené kráľovstvo
+  - obranné technológie
+  - umelá inteligencia
+  - kybernetická bezpečnosť
+publikovane: 2026-11-25T06:56:37+00:00
 obrazok:
-  src: /obrazky/zastupny.jpg
-  alt: Zástupný obrázok, čaká na výber editora
-  popisok: Obrázok čaká na výber editora.
-  kredit: Bitoviny
-  licencia: vlastná ilustrácia
+  src: /obrazky/britska-vlada-investuje-do-startupu-vyvijajuceho-virtualne-bojisko-pre-umelu-int-mww1f8lp.webp
+  alt: Ilustračný obrázok.
+  popisok: Ilustračný obrázok.
+  kredit: Bitoviny / FLUX.1-schnell
+  licencia: vygenerované AI
+  ai: true
 redaktori:
   autor: klara
   factcheck: tomas
   korektura: ciarka
 zdroje:
-- nazov: 'The Register: UK gov invests in defense startup making virtual training ground for AI'
-  url: https://www.theregister.com/ai-and-ml/2026/11/24/uk-gov-invests-in-defense-startup-making-virtual-training-ground-for-ai/5311707
-- nazov: 'TechCrunch: UK warns AI-driven cyberattacks are exposing years of weak security'
-  url: https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/
+  - nazov: "The Register: UK gov invests in defense startup making virtual training ground for AI"
+    url: https://www.theregister.com/ai-and-ml/2026/11/24/uk-gov-invests-in-defense-startup-making-virtual-training-ground-for-ai/5311707
+  - nazov: "TechCrunch: UK warns AI-driven cyberattacks are exposing years of weak security"
+    url: https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/
 ---
 
 Britská vláda sa rozhodla investovať do domáceho startupu Agon Dynamics, ktorý vyvíja technológie na trénovanie autonómnych vojenských systémov vo virtuálnom prostredí. Cieľom tohto kroku je znížiť závislosť krajiny od zahraničných technológií a posilniť národnú odolnosť v oblasti obrannej umelej inteligencie.
