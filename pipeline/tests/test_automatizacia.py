@@ -130,3 +130,7 @@ def test_workflow_overi_upraveny_text_aj_pripravi_obrazok(tmp_path, monkeypatch,
     assert len(redakcia.spusti(den, 1, gh=object(), pr=True, automaticky=True)) == 1
     assert ("factcheck" in volania) is zmena
     assert volania[-2:] == ["A telescope", {"ilustracia": b"webp", "automaticky": schvalenie}]
+
+    volania.clear()
+    assert len(redakcia.spusti(den, 1, gh=object(), pr=True, titulne_obrazky=True)) == 1
+    assert volania == ["A telescope", {"ilustracia": b"webp", "automaticky": False}]

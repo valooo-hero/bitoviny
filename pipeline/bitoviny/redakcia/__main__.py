@@ -91,7 +91,7 @@ def overeny_obsah(stav: StavClanku) -> bool:
 def spusti(
     den: date, pocet: int, max_clankov: int | None = None,
     *, gh: GitHub | None = None, pr: bool = False, iba_kontrola: bool = False, automaticky: bool = False,
-    teraz: datetime | None = None,
+    titulne_obrazky: bool = False, teraz: datetime | None = None,
 ) -> list[Path]:
     teraz = teraz or datetime.now(timezone.utc)
     temy_subor = KOREN / "data" / "raw" / f"temy-{den.isoformat()}.json"
@@ -108,7 +108,7 @@ def spusti(
         with GitHub(token) as klient:
             return spusti(
                 den, pocet, max_clankov, gh=klient, pr=pr, iba_kontrola=iba_kontrola,
-                automaticky=automaticky, teraz=teraz,
+                automaticky=automaticky, titulne_obrazky=titulne_obrazky, teraz=teraz,
             )
 
     lf = langfuse_klient()
@@ -192,6 +192,7 @@ def spusti(
                     vysledok["upozornenia"] = [*vysledok.get("upozornenia", []), upozornenie]
                     log.warning("%s %s: %s", upozornenie, id_clanku, e)
 
+        if automaticky or titulne_obrazky:
             prompt = k.prompt_ilustracie.strip() or f"Symbolic editorial illustration without text: {k.titulok}"
             try:
                 ilustracia = vygeneruj_titulny(prompt)
@@ -237,11 +238,14 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--pr", action="store_true", help="z každého konceptu otvoriť pull request (treba GITHUB_TOKEN)")
     p.add_argument("--iba-kontrola", action="store_true", help="vypíše verdikty bez písania konceptov a otvárania PR")
     p.add_argument("--automaticky", action="store_true", help="pripraví titulné ilustrácie a zverejní overené články")
+    p.add_argument("--titulne-obrazky", action="store_true", help="pridá ku konceptom titulné ilustrácie")
     a = p.parse_args(argv)
     if a.pr and a.iba_kontrola:
         p.error("Použite buď --pr, alebo --iba-kontrola.")
     if a.automaticky and not a.pr:
         p.error("Automatické zverejňovanie vyžaduje --pr.")
+    if a.titulne_obrazky and not a.pr:
+        p.error("Pridávanie titulných ilustrácií vyžaduje --pr.")
     if a.pocet < 1 or (a.max_clankov is not None and a.max_clankov < 1):
         p.error("Počet článkov musí byť kladný.")
 
@@ -255,7 +259,8 @@ def main(argv: list[str] | None = None) -> int:
     print(f"Modely autorky: {', '.join(nazvy_modelov('autorka'))}")
     try:
         hotove = spusti(
-            den, a.pocet, a.max_clankov, pr=a.pr, iba_kontrola=a.iba_kontrola, automaticky=a.automaticky,
+            den, a.pocet, a.max_clankov, pr=a.pr, iba_kontrola=a.iba_kontrola,
+            automaticky=a.automaticky, titulne_obrazky=a.titulne_obrazky,
         )
     except (RuntimeError, ValueError, KeyError, httpx.HTTPError) as e:
         log.error("Redakciu sa nepodarilo dokončiť: %s", e)
