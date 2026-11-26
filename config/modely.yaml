@@ -15,7 +15,7 @@ roly:
       - { provider: google, model: gemini-3.5-flash-lite }
       - { provider: groq, model: openai/gpt-oss-120b }
       - { provider: openrouter, model: "baidu/ernie-5.5-flash-preview:free", metoda: json_schema }
-      - { provider: deepinfra, model: deepseek-ai/DeepSeek-V4-Flash-0731 }
+      - { provider: deepinfra, model: deepseek-ai/DeepSeek-V4-Flash-0731, metoda: json_schema }
 
   autorka:
     teplota: 0.6

@@ -143,7 +143,8 @@ def spusti(
             break
         tema = z_temy(stav["tema"], i)
         nalez = kontrola.over(tema, snimka.zaznamy + [z for _, z in schvalene])
-        log.info("Róbert | %s | %s", tema.titulok, popis_vysledku(nalez))
+        zapis = log.warning if nalez.verdikt == "neoverena" else log.info
+        zapis("Róbert | %s | %s", tema.titulok, popis_vysledku(nalez))
         if nalez.postupuje:
             schvalene.append((stav, tema))
 

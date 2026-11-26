@@ -149,6 +149,7 @@ def test_beh_nahradi_duplicitu_rezervnou_temou_a_dry_run_nezapisuje(tmp_path, mo
         return {"titulok": titulok, "spravy": [{"titulok": titulok, "url": url}]}
 
     vstup = [
+        kandidat("Neoverená téma", "https://priklad.sk/neoverena"),
         kandidat("Nadpis starého konceptu v inom jazyku", "https://priklad.sk/koncept?utm_source=zdroj"),
         kandidat("Prvá nová", "https://priklad.sk/nova"),
         kandidat("Prvá nová premenovaná", "https://priklad.sk/nova?utm_medium=RSS"),
@@ -160,7 +161,12 @@ def test_beh_nahradi_duplicitu_rezervnou_temou_a_dry_run_nezapisuje(tmp_path, mo
         assert s_rezervou and pocet == 2
         return [{"tema": tema} for tema in kandidati]
 
-    falosny_model = RunnableLambda(lambda _: PosudenieTemy(verdikt="nova", odkaz_id="", dovod="Bez zhody."))
+    def posudenie(spravy):
+        if json.loads(spravy[-1].content)["tema"]["titulok"] == "Neoverená téma":
+            raise RuntimeError("Všetky modely zlyhali.")
+        return PosudenieTemy(verdikt="nova", odkaz_id="", dovod="Bez zhody.")
+
+    falosny_model = RunnableLambda(posudenie)
     monkeypatch.setattr(redakcia, "KOREN", tmp_path)
     monkeypatch.setattr(redakcia, "langfuse_klient", lambda: None)
     monkeypatch.setattr(redakcia, "vyber_temy", vyber)
@@ -170,6 +176,7 @@ def test_beh_nahradi_duplicitu_rezervnou_temou_a_dry_run_nezapisuje(tmp_path, mo
     with gh, caplog.at_level("INFO"):
         assert redakcia.spusti(den, 2, gh=gh, iba_kontrola=True, teraz=TERAZ) == []
     assert caplog.text.count("duplicita –") == 2
+    assert "Róbert | Neoverená téma | neoverena" in caplog.text
     assert "Róbert | Druhá nová | nova" in caplog.text
     assert "Róbert schválil tém: 2" in caplog.text
     assert not (tmp_path / "data" / "koncepty").exists()
@@ -187,8 +194,77 @@ def test_neplatny_odkaz_spusti_zalozny_model(monkeypatch):
                 lambda _: schema(verdikt="duplicita", odkaz_id=self.id, dovod="Rovnaká udalosť.")
             )
 
-    config = {"kontrola_duplicit": {"modely": [{"id": "mimo-vstupu"}, {"id": "clanok"}]}}
+    config = {"kontrola_duplicit": {"modely": [
+        {"provider": "test", "model": "mimo-vstupu"},
+        {"provider": "test", "model": "clanok"},
+    ]}}
     monkeypatch.setattr(llm, "konfiguracia", lambda: config)
-    monkeypatch.setattr(llm, "_vytvor", lambda spec, _: Provider(spec["id"]))
+    monkeypatch.setattr(llm, "_vytvor", lambda spec, _: Provider(spec["model"]))
     vysledok = KontrolaTem().over(Zaznam("tema", "Nová téma"), [Zaznam("clanok", "Starší článok")])
     assert vysledok.zhoda.id == "clanok"
+
+
+def test_limit_gemini_pocka_a_zaloguje_zlyhania_zaloh(monkeypatch, caplog):
+    from bitoviny import llm
+
+    volania = []
+    pauzy = []
+
+    def gemini(_):
+        volania.append("gemini")
+        raise RuntimeError("429 RESOURCE_EXHAUSTED: requests per minute. Please retry in 38.99s.")
+
+    def groq(_):
+        volania.append("groq")
+        raise ValueError("Chýba verdikt.")
+
+    def deepseek(_):
+        volania.append("deepseek")
+        return "nova"
+
+    modely = {"google": gemini, "groq": groq, "deepinfra": deepseek}
+    monkeypatch.setattr(llm, "_vytvor", lambda spec, _: (
+        RunnableLambda(modely[spec["provider"]]) if spec["provider"] in modely else None
+    ))
+    monkeypatch.setattr(llm.time, "sleep", pauzy.append)
+    assert llm.model_pre("kontrola_duplicit").invoke([]) == "nova"
+    assert volania == ["gemini", "gemini", "groq", "deepseek"]
+    assert pauzy == [39.99]
+    assert "google:gemini-3.5-flash-lite" in caplog.text
+    assert "groq:openai/gpt-oss-120b | Chýba verdikt." in caplog.text
+
+
+def test_deepseek_vrati_validovany_verdikt_cez_json_schemu(monkeypatch):
+    from bitoviny import llm
+    from langchain_openai import ChatOpenAI
+
+    def odpoved(req):
+        payload = json.loads(req.content)
+        assert req.url.host == "api.deepinfra.com"
+        assert payload["model"] == "deepseek-ai/DeepSeek-V4-Flash-0731"
+        assert payload["response_format"]["type"] == "json_schema"
+        verdikt = {"verdikt": "nova", "odkaz_id": "", "dovod": "Bez zhody."}
+        return httpx.Response(200, json={
+            "id": "test", "model": payload["model"],
+            "choices": [{"index": 0, "finish_reason": "stop",
+                         "message": {"role": "assistant", "content": json.dumps(verdikt)}}],
+        })
+
+    with httpx.Client(transport=httpx.MockTransport(odpoved)) as klient:
+        monkeypatch.setattr("langchain_openai.ChatOpenAI", lambda **kw: ChatOpenAI(http_client=klient, **kw))
+        for kluc in ("GOOGLE_API_KEY", "GROQ_API_KEY", "OPENROUTER_API_KEY"):
+            monkeypatch.setenv(kluc, "")
+        monkeypatch.setenv("DEEPINFRA_API_KEY", "test")
+        model = llm.model_pre("kontrola_duplicit", PosudenieTemy, over_vystup=KontrolaTem._over_odkaz)
+        verdikt = KontrolaTem(model).over(Zaznam("t", "Téma"), [Zaznam("a", "Archív")])
+        assert verdikt.verdikt == "nova"
+
+
+def test_nedostupna_kontrola_nepovoli_neoverenu_temu():
+    def chyba(_):
+        raise RuntimeError("Všetky modely zlyhali.")
+
+    kontrola = KontrolaTem(RunnableLambda(chyba))
+    vysledok = kontrola.over(Zaznam("t", "Téma"), [Zaznam("a", "Archív")])
+    assert vysledok.verdikt == "neoverena"
+    assert not vysledok.postupuje

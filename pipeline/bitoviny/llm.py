@@ -2,17 +2,21 @@
 
 from __future__ import annotations
 
+import logging
 import os
+import re
+import time
 from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
 import yaml
-from langchain_core.runnables import RunnableLambda
+from langchain_core.runnables import RunnableConfig, RunnableLambda
 from dotenv import load_dotenv
 
 KOREN = Path(__file__).resolve().parents[2]
 MODELY_YAML = KOREN / "config" / "modely.yaml"
+log = logging.getLogger(__name__)
 
 load_dotenv(KOREN / ".env")
 # Langfuse SDK číta adresu z LANGFUSE_HOST alebo LANGFUSE_BASE_URL podľa verzie.
@@ -94,6 +98,32 @@ def _over_vystup(vystup):
     return vystup
 
 
+def _pokus_modelu(model, rola: str, provider: str, nazov: str):
+    def spusti(spravy, config: RunnableConfig):
+        for pokus in range(2):
+            try:
+                return model.invoke(spravy, config=config)
+            except Exception as chyba:
+                stav = getattr(chyba, "status_code", None) or getattr(chyba.__cause__, "code", None)
+                detail = f"HTTP {stav}" if isinstance(stav, int) else type(chyba).__name__
+                if type(chyba) is ValueError:
+                    detail = str(chyba).splitlines()[0][:180] if str(chyba) else detail
+                log.warning("%s | %s:%s | %s", rola, provider, nazov, detail)
+                if pokus or rola != "kontrola_duplicit" or provider != "google":
+                    raise
+                sprava = str(chyba)
+                if "429 RESOURCE_EXHAUSTED" not in sprava or "per minute" not in sprava:
+                    raise
+                limit = re.search(r"Please retry in (\d+(?:\.\d+)?)s", sprava)
+                if limit is None or not 0 <= float(limit[1]) <= 60:
+                    raise
+                pauza = float(limit[1]) + 1
+                log.info("%s | %s | opakovanie dávky o %.1f s", rola, nazov, pauza)
+                time.sleep(pauza)
+
+    return RunnableLambda(spusti)
+
+
 def model_pre(rola: str, schema: Any | None = None, *, so_zdrojom: bool = False, over_vystup=None):
     """Model pre danú rolu. Ak je daná schéma, vracia overený štruktúrovaný výstup."""
     cfg = konfiguracia()[rola]
@@ -117,7 +147,7 @@ def model_pre(rola: str, schema: Any | None = None, *, so_zdrojom: bool = False,
             # Zdroj sa pripája až po úspešnom overení výstupu konkrétneho modelu.
             zdroj = f"{s['model']} ({s['provider']})"
             m = m | RunnableLambda(lambda vystup, zdroj=zdroj: (vystup, zdroj))
-        modely.append(m)
+        modely.append(_pokus_modelu(m, rola, s["provider"], s["model"]))
     if not modely:
         raise RuntimeError(f"Pre rolu {rola} chýba API kľúč poskytovateľa.")
     retazec = modely[0].with_fallbacks(modely[1:]) if len(modely) > 1 else modely[0]

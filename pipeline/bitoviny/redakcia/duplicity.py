@@ -127,7 +127,12 @@ class KontrolaTem:
                 self.model = model_pre("kontrola_duplicit", PosudenieTemy, over_vystup=self._over_odkaz)
             vstup = {"tema": tema.pre_model(), "existujuce": [z.pre_model() for z in davka]}
             spravy = [SystemMessage(self.prompt), HumanMessage(json.dumps(vstup, ensure_ascii=False))]
-            odpoved = self.model.invoke(spravy)
+            try:
+                odpoved = self.model.invoke(spravy)
+            except Exception:
+                return Vysledok(
+                    "neoverena", "Kontrola duplicít nedostupná. Téma vyžaduje ručné posúdenie.",
+                )
             self._over_odkaz(odpoved, spravy)
             zhoda = next((z for z in davka if z.id == odpoved.odkaz_id), None)
             if odpoved.verdikt == "duplicita":
