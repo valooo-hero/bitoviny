@@ -1,0 +1,532 @@
+{
+  "slug": "socialna-siet-x-zavadza-po-dvadsiatich-rokoch-prve-rodicovske-kontroly",
+  "datum_sprav": "2026-11-26",
+  "dovod_vyberu": "Prvé rodičovské kontroly na platforme X prinášajú dôležité nástroje na ochranu mladých používateľov, čo je relevantné pre európsku legislatívu o digitálnych službách.",
+  "poznamky_pre_editora": "Opravila som chybnú atribúciu pôvodu informácie o procese spájania účtov, ktorú uvádzal portál Engadget (v pôvodnom koncepte bol nesprávne uvedený TechCrunch).",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý a všetky uvedené tvrdenia majú priamu oporu v poskytnutých zdrojoch. V texte sa nevyskytujú žiadne vecné chyby ani nepodložené informácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 20,
+        "potvrdenych": 19,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 21,
+        "potvrdenych": 21,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Sociálna sieť X zavádza po dvadsiatich rokoch prvé rodičovské kontroly",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "After 20 years of existence, X, the social network formerly known as Twitter, has finally added parental controls for teenagers",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Platforma X prináša vôbec prvé nástroje pre rodičov na kontrolu tínedžerov vo veku od 13 do 17 rokov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Elon Musk's X has finally introduced parental controls for kids aged 13 to 17",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nový systém vyžaduje súhlas oboch strán a chráni súkromie mladých používateľov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Linking starts with the parent or guardian and finishes with the teen. Both users have to agree",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Úprava prichádza po dvadsiatich rokoch fungovania platformy a reaguje na prísnejšie predpisy vo viacerých štátoch a krajinách, ako uviedol portál Engadget.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "the platform likely introduced the new rules to comply with current or future regulations in multiple states and countries.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nové funkcie sú určené pre mladých používateľov vo veku od 13 do 17 rokov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "kids aged 13 to 17",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Účty tínedžerov sa po novom automaticky prepnú do takzvaného chráneného režimu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Teens' accounts will now default to protected mode",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Mladí používatelia nevidia citlivý obsah a sú zablokované aj cielené reklamy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "with sensitive media restricted and targeted advertising blocked",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Prepojenie účtov rodiča a dieťaťa vyžaduje súhlas oboch strán.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Both users have to agree",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa portálu Engadget proces spájania začína dospelá osoba a dokončuje ho tínedžer, ktorý presne vidí, aké obmedzenia boli na jeho účte nastavené.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Linking starts with the parent or guardian and finishes with the teen. Both users have to agree",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dohľad nad účtom automaticky skončí v deň, keď používateľ dovŕši osemnáste narodeniny, ako informoval portál 9to5Mac.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "The arrangement ends automatically when the teenager hits their 18th birthday.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Dospelé osoby zodpovedné za mladých používateľov získajú prístup k šiestim hlavným oblastiam správy.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "A parent or guardian now has control over six different aspects of the teen account",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rodičia môžu kontrolovať, koľko času ich deti strávili na sieti X za uplynulý týždeň, a nastaviť im denný časový limit.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "see how much time their kids have spent on X and set a daily limit",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Medzi ďalšie možnosti patrí vyžadovanie schvaľovania nových sledovateľov, čo zároveň automaticky urobí účty súkromnými.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Require approval for new followers, which also makes the account private",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rodičia môžu taktiež obmedziť odporúčania v sekcii Pre teba a videá výhradne na tie účty, ktoré tínedžer už sleduje.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "limit For You recommendations to accounts the teen already follows.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Systém umožňuje filtrovať konkrétne slová, úplne vypnúť citlivé mediálne materiály, kontrolovať okruh ľudí oprávnených posielať priame správy a prehliadať zoznam účtov, s ktorými tínedžer komunikoval cez súkromné správy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "filter specific words, turn off sensitive media content, allow parents to control who can send direct messages, and see which accounts their teen has chatted with",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Samotné texty správ však rodičia čítať nemôžu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "without seeing the messages themselves",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Rodičia a zákonní zástupcovia nemôžu čítať súkromné správy, prezerať históriu vyhľadávania ani históriu sledovania, nemôžu uverejňovať príspevky v mene tínedžera a nemajú priamy prístup k jeho účtu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Parents and guardians cannot read private messages, see searches or viewing history, post as their teen, or access the account.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Správu môžu rodičia vykonávať maximálne pre päť účtov tínedžerov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Parents will be able to control up to five teens' accounts.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Šéf oddelenia bezpečnosti na X Michael O’Herlihy v blogovom príspevku uviedol, že rodičia chcú praktické nástroje a tínedžeri si zaslúžia priestor na rast.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "Parents want practical tools, and teens deserve room to grow. ... Michael O’Herlihy, head of safety at X, wrote in a blog post.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zavedenie kontrol prichádza po obdobiach kritiky, ktorým platforma čelila pre nedostatočnú moderáciu a problémy spojené s generovaním nevhodného obsahu pomocou umelej inteligencie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "The controls arrive months after X came under fire for a lack of controls preventing the platform’s AI chatbot from being used to generate sexualized images",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Samotná spoločnosť pritom priznáva, že sieť nie je primárne určená deťom, no vzhľadom na štatistiky, podľa ktorých mladá generácia sieť bežne využíva, boli nové ochranné opatrenia nevyhnutné.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "While X is not designed for or promoted to children ... we take extra care with the young people who are here",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "tínedžerov",
+        "kontext": "c prvé nástroje pre rodičov na kontrolu tínedžerov vo veku od 13 do 17 rokov. Nový systém ",
+        "navrhy": [
+          "tínedžrov",
+          "tínedžer ov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "Sociálna sieť X, známa v minulosti ako Twitter, sprístupnila svoje vôbec prvé ",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "tínedžera",
+        "kontext": "\n\n## Predvolený chránený režim a súhlas tínedžera\n\nNové nastavenia prinášajú viacero auto",
+        "navrhy": [
+          "tínedžer",
+          "tínedžerka",
+          "tínedžra"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "tínedžerov",
+        "kontext": "ú viacero automatických obmedzení. Účty tínedžerov sa po novom automaticky prepnú do takzv",
+        "navrhy": [
+          "tínedžrov",
+          "tínedžer ov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "rodičia",
+        "kontext": "kromné správy. Samotné texty správ však rodičia čítať nemôžu.\n\n## Hranice dohľadu a kon",
+        "navrhy": [
+          "rodiča",
+          "rodička",
+          "rodi čia"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "tínedžera",
+        "kontext": "ia, nemôžu uverejňovať príspevky v mene tínedžera a nemajú priamy prístup k jeho účtu. Sp",
+        "navrhy": [
+          "tínedžer",
+          "tínedžerka",
+          "tínedžra"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "rodičia",
+        "kontext": "priamy prístup k jeho účtu. Správu môžu rodičia vykonávať maximálne pre päť účtov tíned",
+        "navrhy": [
+          "rodiča",
+          "rodička",
+          "rodi čia"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "tínedžerov",
+        "kontext": "dičia vykonávať maximálne pre päť účtov tínedžerov. Šéf oddelenia bezpečnosti na X Michael",
+        "navrhy": [
+          "tínedžrov",
+          "tínedžer ov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "blogovom",
+        "kontext": "ia bezpečnosti na X Michael O’Herlihy v blogovom príspevku uviedol, že rodičia chcú prak",
+        "navrhy": [
+          "blokovom"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "rodičia",
+        "kontext": "erlihy v blogovom príspevku uviedol, že rodičia chcú praktické nástroje a tínedžeri si ",
+        "navrhy": [
+          "rodiča",
+          "rodička",
+          "rodi čia"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "tínedžeri",
+        "kontext": "l, že rodičia chcú praktické nástroje a tínedžeri si zaslúžia priestor na rast. Zavedenie",
+        "navrhy": [
+          "tínedžer",
+          "tínedžri",
+          "tínedžer i"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "moderáciu",
+        "kontext": "torým platforma čelila pre nedostatočnú moderáciu a problémy spojené s generovaním nevhod",
+        "navrhy": [
+          "modeláciu",
+          "moderácia"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Lilia_Tarawa_on_Ridiculously_Human.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://www.engadget.com/img/gallery/x-is-adding-its-first-ever-parental-controls/l-intro-1795684809.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/x-is-adding-its-first-ever-parental-controls/intro-1795684809.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/X-finally-gets-six-parental-controls-for-teen-accounts-but-kids-must-consent.jpg?quality=82&strip=all&w=800",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "X finally gets six parental controls for teen accounts, but kids must consent | Image shows two screenshots, including usage times",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/b9db61d5cef3fec85352bf3d7768d06ff353055f7b4b968a103f9fba4b451a1a?s=96&d=mm&r=r",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Ben Lovejoy",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/10/twitter-x-musk-graffiti-hand.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Image Credits: TechCrunch",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/3c990409086a104870ea2888b7c7b4f002f98c13a1c80b3d5cdae4e59ea02aec?s=96&d=identicon&r=g",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Ram Iyer",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Twitter parental control",
+      "parental control app",
+      "family smartphone"
+    ],
+    "alternativy": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Lilia_Tarawa_on_Ridiculously_Human.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/919e08d8-3230-4493-8068-a95053ef1421/thumb/",
+        "nazov": "Lilia Tarawa on Ridiculously Human",
+        "autor": "Ridiculously Human",
+        "licencia": "BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=103201629",
+        "povod": "openverse",
+        "dopyt": "Twitter parental control"
+      },
+      {
+        "url": "https://live.staticflickr.com/4012/4538063170_3fcf6b4ac2.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/82e5d6ab-1754-480d-b5a8-6491fe7f33bd/thumb/",
+        "nazov": "69 Sex Positions App in Apple App Store (Entertainment category)",
+        "autor": "Wesley Fryer",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/31442459@N00/4538063170",
+        "povod": "openverse",
+        "dopyt": "parental control app"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Moto_G5.png/1280px-Moto_G5.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Moto_G5.png/1280px-Moto_G5.png",
+        "nazov": "Moto G5.png",
+        "autor": "Dienthoaiquangcao89",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Moto_G5.png",
+        "povod": "wikimedia",
+        "dopyt": "family smartphone"
+      },
+      {
+        "url": "https://live.staticflickr.com/187/419258111_a7299d6a18_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/82a00076-f758-40ee-9056-b022648b4db6/thumb/",
+        "nazov": "Gæt en smartphone - Del 1",
+        "autor": "@boetter",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/47854931@N00/419258111",
+        "povod": "openverse",
+        "dopyt": "family smartphone"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/54934505868_589f88c8a4_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/4a240b7b-6718-43f0-93e4-f551f443ff50/thumb/",
+        "nazov": "",
+        "autor": "it may help you.",
+        "licencia": "PDM 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "stranka": "https://www.flickr.com/photos/199516654@N02/54934505868",
+        "povod": "openverse",
+        "dopyt": "Twitter parental control"
+      },
+      {
+        "url": "https://live.staticflickr.com/4006/4538062898_ea70343cd0.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/f4f33832-a07e-40d0-9317-e26bceb5709b/thumb/",
+        "nazov": "Apple App Store Entertainment App: Adult Sex Strip",
+        "autor": "Wesley Fryer",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/31442459@N00/4538062898",
+        "povod": "openverse",
+        "dopyt": "parental control app"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/IPhone_models.jpg/1280px-IPhone_models.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/IPhone_models.jpg/1280px-IPhone_models.jpg",
+        "nazov": "IPhone models.jpg",
+        "autor": "Ka Kit Pang",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:IPhone_models.jpg",
+        "povod": "wikimedia",
+        "dopyt": "family smartphone"
+      },
+      {
+        "url": "https://live.staticflickr.com/7164/6499591537_57985d0d04.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/eba385fa-3dd1-41db-bed0-54898211511a/thumb/",
+        "nazov": "IMG_0679GenerationSmartphone.JPG",
+        "autor": "ed and eddie",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/96054322@N00/6499591537",
+        "povod": "openverse",
+        "dopyt": "family smartphone"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic minimalist illustration representing parental digital supervision on a smartphone screen with safety locks and shield icons."
+  },
+  "prompt_ilustracie": "A symbolic minimalist illustration representing parental digital supervision on a smartphone screen with safety locks and shield icons.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/086f1c7fe654a695991b5853b02e125f",
+  "text_agentov": {
+    "titulok": "Sociálna sieť X zavádza po dvadsiatich rokoch prvé rodičovské kontroly",
+    "perex": "Platforma X prináša vôbec prvé nástroje pre rodičov na kontrolu tínedžerov vo veku od 13 do 17 rokov. Nový systém vyžaduje súhlas oboch strán a chráni súkromie mladých používateľov.",
+    "telo": "Sociálna sieť X, známa v minulosti ako Twitter, sprístupnila svoje vôbec prvé rodičovské kontroly. Úprava prichádza po dvadsiatich rokoch fungovania platformy a reaguje na prísnejšie predpisy vo viacerých štátoch a krajinách, ako uviedol portál Engadget. Nové funkcie sú určené pre mladých používateľov vo veku od 13 do 17 rokov.\n\n## Predvolený chránený režim a súhlas tínedžera\n\nNové nastavenia prinášajú viacero automatických obmedzení. Účty tínedžerov sa po novom automaticky prepnú do takzvaného chráneného režimu. V praxi to znamená, že mladí používatelia nevidia citlivý obsah a sú zablokované aj cielené reklamy. Na rozdiel od iných platforiem však X dáva slovo aj mladým ľuďom. Prepojenie účtov rodiča a dieťaťa vyžaduje súhlas oboch strán. Podľa portálu Engadget proces spájania začína dospelá osoba a dokončuje ho tínedžer, ktorý presne vidí, aké obmedzenia boli na jeho účte nastavené. Dohľad nad účtom automaticky skončí v deň, keď používateľ dovŕši osemnáste narodeniny, ako informoval portál 9to5Mac.\n\n## Ponuka nástrojov pre rodičov\n\nDospelé osoby zodpovedné za mladých používateľov získajú prístup k šiestim hlavným oblastiam správy. Rodičia môžu kontrolovať, koľko času ich deti strávili na sieti X za uplynulý týždeň, a nastaviť im denný časový limit. Medzi ďalšie možnosti patrí vyžadovanie schvaľovania nových sledovateľov, čo zároveň automaticky urobí účty súkromnými. Rodičia môžu taktiež obmedziť odporúčania v sekcii Pre teba a videá výhradne na tie účty, ktoré tínedžer už sleduje. Systém umožňuje filtrovať konkrétne slová, úplne vypnúť citlivé mediálne materiály, kontrolovať okruh ľudí oprávnených posielať priame správy a prehliadať zoznam účtov, s ktorými tínedžer komunikoval cez súkromné správy. Samotné texty správ však rodičia čítať nemôžu.\n\n## Hranice dohľadu a kontext platformy\n\nPredstavitelia spoločnosti X zdôraznili, že nové funkcie majú poskytnúť praktické nástroje a zároveň zachovať súkromie mladých ľudí. Rodičia a zákonní zástupcovia nemôžu čítať súkromné správy, prezerať históriu vyhľadávania ani históriu sledovania, nemôžu uverejňovať príspevky v mene tínedžera a nemajú priamy prístup k jeho účtu. Správu môžu rodičia vykonávať maximálne pre päť účtov tínedžerov. Šéf oddelenia bezpečnosti na X Michael O’Herlihy v blogovom príspevku uviedol, že rodičia chcú praktické nástroje a tínedžeri si zaslúžia priestor na rast. Zavedenie kontrol prichádza po obdobiach kritiky, ktorým platforma čelila pre nedostatočnú moderáciu a problémy spojené s generovaním nevhodného obsahu pomocou umelej inteligencie. Samotná spoločnosť pritom priznáva, že sieť nie je primárne určená deťom, no vzhľadom na štatistiky, podľa ktorých mladá generácia sieť bežne využíva, boli nové ochranné opatrenia nevyhnutné."
+  }
+}
