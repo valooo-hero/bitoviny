@@ -1,0 +1,559 @@
+{
+  "slug": "dvaja-kalifornski-zakaznici-nvidie-boli-len-zasterkou-pre-sankcionovane-cinske-f",
+  "datum_sprav": "2026-11-26",
+  "dovod_vyberu": "Zastavenie dodávok AI GPU od Nvidia do juhovýchodnej Ázie ovplyvňuje globálny trh s AI technológiami a môže mať následky aj pre európsky priemysel.",
+  "poznamky_pre_editora": "Zdroje pracujú s časovým rámcom roku 2026 (spomína sa krátkodobé odstúpenie a návrat Jensena Huanga v novembri 2026 v súvislosti s aférou s Alice Huang). Údaje o výške exportu (5,6 mld. USD firmou Airvres), zákazkách Agencia Comercial Spirits (598 mil. USD) a zastavení financovania projektu Aolani (500 mil. USD) sú prevzaté z Tom's Hardware a Engadgetu bez dodatočných prepočtov na eurá, keďže menový kurz nebol v zdrojoch uvedený.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý, pričom všetky overiteľné tvrdenia majú priamu a presnú oporu v poskytnutých zdrojoch. V texte sa nenachádzajú žiadne významné odchýlky ani nepodložené informácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 25,
+        "potvrdenych": 25,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Titulok: Dvaja kalifornskí zákazníci Nvidie boli len zásterkou pre sankcionované čínske firmy",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Two Californian Nvidia AI chip customers are really Chinese-owned companies used as workaround for government export controls",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Americké spoločnosti RiCloud AI a Airvres slúžili ako krytie pre čínske subjekty na nákup vyspelých AI procesorov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "two of its Californian customers are actually fronts for Chinese companies",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zistenia prichádzajú v čase, keď Nvidia zastavuje dodávky serverov do Ázie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "NVIDIA reportedly halts AI chip shipments to Southeast Asia",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "S odvolaním sa na stanicu CBS News informoval technologický portál Tom's Hardware, že dvaja z kalifornských zákazníkov spoločnosti Nvidia fungovali ako zásterka pre materské spoločnosti z Číny.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "two of its Californian customers are actually fronts for Chinese companies... CBS News reports",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tieto subjekty využívali svoje oficiálne sídlo v Spojených štátoch na legálny nákup špičkového hardvéru, ktorý následne prepravovali alebo prenajímali firmám v juhovýchodnej Ázii.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Chips are routinely sold to companies in the U.S. before being leased or shipped to other companies in Southeast Asia.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "pozadie firmy Airvres, ktorú Nvidia na svojom webe viedla ako elitného partnera.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Airvres is currently listed as an \"elite\" partner on Nvidia's website",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť sa pôvodne volala Inspur, teda rovnako ako jej čínska materská skupina.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "it was previously called Inspur, the same name used by its Chinese parent company.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "K premenovaniu pristúpila po tom, čo americké úrady zaradili subjekty prepojené s Inspurom v marci 2023 na sankčnú čiernu listinu.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The name change came after Inspur-related firms were added to a federal blocklist in March 2023.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Airvres napriek tomu od apríla 2024 do februára 2026 vyviezla do juhovýchodnej Ázie čipy v celkovej hodnote najmenej 5,6 miliardy dolárov vrátane najmodernejšieho kremíka radu Blackwell.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Airvres reportedly exported at least $5.6 billion of chips to Southeast Asia between April 2024 and February 2026, including Nvidia's top-of-the-line Blackwell silicon.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Hardvér smeroval dvom spoločnostiam v Malajzii.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The chips went to two companies in Malaysia",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Druhým odberateľom je kalifornská spoločnosť RiCloud AI.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "RiCloud AI is an Nvidia customer",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jej vlastníkom je firma Yuxing InfoTech Investment Holdings so sídlom v čínskom Šen-čene.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "RiCloud AI is an Nvidia customer owned by Yuxing InfoTech Investment Holdings Limited, an outfit with headquarters in Shenzhen, China.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Generálny riaditeľ a spoluvlastník Yuxingu Cong Yu má podľa zistení vysokoškolský titul v odbore mobilizácie národnej obrany z veliteľskej školy čínskej armády.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Yuxing's CEO and co-owner, Cong Yu, reportedly has a degree in National Defense Mobilization from the People's Liberation Army Command College",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Medzi zákazníkmi RiCloud AI sa objavila napríklad Agencia Comercial Spirits, pôvodne malý dovozca whisky, ktorý sa v roku 2025 preorientoval na umelú inteligenciu a uzavrel dohody na dátové centrá v hodnote až 598 miliónov dolárov.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Among RiCloud AI's customers is Agencia Comercial Spirits, a small whisky importer that pivoted to AI in 2025. Since then, it has committed to AI data center deals worth up to $598 million.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Časť dodávok z Airvres smerovala k malajzijskej spoločnosti Megaspeed, ktorú americké úrady vyšetrujú a ministerstvo obchodu ju nedávno zaradilo na sankčný zoznam.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The chips went to two companies in Malaysia, one of which was Alice Huang's Megaspeed... The company is under criminal investigation currently, and it was recently blacklisted as a result.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Firma je podozrivá z obchádzania exportných obmedzení prenajímaním výpočtovej kapacity čínskym klientom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Megaspeed had leased access to NVIDIA chips to Chinese companies.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V Megaspeed predtým pôsobila Alice Huang, ktorú americké úrady podozrievajú z napojenia na čínske spravodajské služby.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Alice Huang, a former Megaspeed executive that some US officials suspect was a Chinese intelligence asset",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "K afére s touto bývalou manažérkou sa priznal šéf Nvidie Jensen Huang, keď v novembri na krátky čas rezignoval, kým ho vedenie po niekoľkých dňoch nevrátilo späť do funkcie.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Huang had resigned from his position on November 12 after reports surfaced that he had engaged in multiple extramarital affairs, including one involving Alice Huang... The news comes just days after NVIDIA reinstated Jensen Huang as its chief executive.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Len za minulý rok sa do Číny podľa odhadov prepašovali čipy Nvidia v hodnote okolo jednej miliardy dolárov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "last year alone, it's believed that around $1 billion worth of Nvidia chips were smuggled into China.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "procesory Blackwell Ultra B300 boli zaznamenané aj v sieti štátneho operátora China Telecom.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Illegal Nvidia Blackwell Ultra B300 GPUs have been spotted in use inside China Telecom's network",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "podľa odhadov inštitútu Institute for Progress poskytovali dátové centrá v juhovýchodnej Ázii približne 24 percent výpočtovej kapacity pre čínsku umelú inteligenciu.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "TechCrunch",
+        "dokaz": "the think tank Institute for Progress estimates remote data centers like these supply about 24% of China’s AI computing power.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nvidia následne nariadila výrobným partnerom, medzi ktorými sú Dell a Supermicro, aby pozastavili dodávky AI serverov do Malajzie, Singapuru, Thajska a Indonézie.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "a handful of the company's manufacturing partners, including Dell and Supermicro, told clients in Malaysia, Singapore, Thailand and Indonesia that the chipmaker is not allowing their server orders to be sent to them.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Prevádzkovatelia cloudov dostali lehotu 90 dní na získanie vývozných licencií a preukázanie, že ich klientmi nie sú sankcionované subjekty.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "the new export rules give cloud providers 90 days to apply for an export license and prove that their customers do not include restricted entities.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Nejasné pokyny však spôsobili v regióne zmätok; singapurský poskytovateľ Aolani napríklad prišiel o bankové financovanie vo výške 500 miliónov dolárov pre projekt s firmou ByteDance.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Sources say that Aolani, a Singapore-based cloud company with a deal to provide compute to ByteDance, is losing financing for the project as bankers have stopped issuing credit to the tune of $500 million",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Čínske firmy preto začínajú skúmať možnosti prenájmu kapacít aj v iných regiónoch vrátane Európy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "although some firms are looking in further areas like Europe.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": " ako",
+        "kontext": "spoločnosti RiCloud AI a Airvres slúžili ako krytie pre čínske subjekty na nákup vys",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": " zákazníkov spoločnosti Nvidia fungovali ako zásterka pre materské spoločnosti z Čín",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "vres, ktorú Nvidia na svojom webe viedla ako elitného partnera. Spoločnosť sa pôvodn",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ť sa pôvodne volala Inspur, teda rovnako ako jej čínska materská skupina. K premenov",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "kalifornská",
+        "kontext": "tiam v Malajzii.\n\nDruhým odberateľom je kalifornská spoločnosť RiCloud AI. Jej vlastníkom j",
+        "navrhy": [
+          "Kalifornská",
+          "kalifornské",
+          "kalifornskí"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cloudov",
+        "kontext": ", Thajska a Indonézie. Prevádzkovatelia cloudov dostali lehotu 90 dní na získanie vývoz",
+        "navrhy": [
+          "Chodov",
+          "bludov",
+          "chodov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/NVIDIA_H100_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_021.png/1280px-NVIDIA_H100_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_021.png",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/YAxQQsbvwDfFaHJ7zGMocj-2000-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Nvidia logo",
+        "popisok": "Nvidia logo",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:437,cw:1125,ch:1125,q:80,w:1125/YAxQQsbvwDfFaHJ7zGMocj.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "Nvidia logo",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:250,cw:1500,ch:1125,q:80,w:1500/YAxQQsbvwDfFaHJ7zGMocj.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "Nvidia logo",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/gM7E2WSDg2wgCFoaDPz9yK.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "Jowi Morales",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/7cUTDmN2PHNRiNBVqbKf56.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "Google Preferred Source",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Google Preferred Source",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/nvidia-reportedly-halts-ai-chip-shipments-to-southeast-asia/l-intro-1795716287.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/nvidia-reportedly-halts-ai-chip-shipments-to-southeast-asia/intro-1795716287.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2025/01/Connie-Loizos-1.jpg?w=150",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "Connie Loizos",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/YAxQQsbvwDfFaHJ7zGMocj.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Nvidia logo",
+        "popisok": "Nvidia logo",
+        "kredit": "(Image credit: Getty )",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/YAxQQsbvwDfFaHJ7zGMocj-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/TVYovaCvDrBoMvxiTPWqLL-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/11/Taiwan-Nvidia.jpg",
+        "zdroj_clanku": "TechCrunch",
+        "alt": "",
+        "popisok": "A man stands in front of a display showing Asian stock market indices reacting to Nvidia CEO Jensen Huang's return to the company, in Taipei on November 24, 2026. (Photo by I-Hwa Cheng / AFP via Getty Images)",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "Nvidia H100 GPU",
+      "AI accelerator",
+      "server rack"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/NVIDIA_H100_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_021.png/1280px-NVIDIA_H100_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_021.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/NVIDIA_H100_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_021.png/1280px-NVIDIA_H100_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_021.png",
+        "nazov": "NVIDIA H100 (极客湾Geekerwan) 021.png",
+        "autor": "极客湾Geekerwan",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:NVIDIA_H100_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_021.png",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia H100 GPU"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Raspberry_Pi_5_Hailo_AI_Accelerator_Module.jpg/1280px-Raspberry_Pi_5_Hailo_AI_Accelerator_Module.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Raspberry_Pi_5_Hailo_AI_Accelerator_Module.jpg/1280px-Raspberry_Pi_5_Hailo_AI_Accelerator_Module.jpg",
+        "nazov": "Raspberry Pi 5 Hailo AI Accelerator Module.jpg",
+        "autor": "RetroEditor",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Raspberry_Pi_5_Hailo_AI_Accelerator_Module.jpg",
+        "povod": "wikimedia",
+        "dopyt": "AI accelerator"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Raspberry_Pi_5_Hailo_AI_Accelerator_Module.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/2f2a8e92-470e-48ac-82b3-e2dc4947d104/thumb/",
+        "nazov": "Raspberry Pi 5 Hailo AI Accelerator Module",
+        "autor": "RetroEditor",
+        "licencia": "BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=149564777",
+        "povod": "openverse",
+        "dopyt": "AI accelerator"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/NVIDIA_H100_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_014.png/1280px-NVIDIA_H100_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_014.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/NVIDIA_H100_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_014.png/1280px-NVIDIA_H100_%28%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan%29_014.png",
+        "nazov": "NVIDIA H100 (极客湾Geekerwan) 014.png",
+        "autor": "极客湾Geekerwan",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:NVIDIA_H100_(%E6%9E%81%E5%AE%A2%E6%B9%BEGeekerwan)_014.png",
+        "povod": "wikimedia",
+        "dopyt": "Nvidia H100 GPU"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Maixduino.SipeedM1.jpg/1280px-Maixduino.SipeedM1.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Maixduino.SipeedM1.jpg/1280px-Maixduino.SipeedM1.jpg",
+        "nazov": "Maixduino.SipeedM1.jpg",
+        "autor": "Popolon",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Maixduino.SipeedM1.jpg",
+        "povod": "wikimedia",
+        "dopyt": "AI accelerator"
+      },
+      {
+        "url": "https://live.staticflickr.com/7594/28799579322_f9e3ce8511_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/b52e7dfb-5b36-417b-8387-f8d7fd8c07e3/thumb/",
+        "nazov": "Intelligence Inside: the future of AI and computation",
+        "autor": "jurvetson",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/44124348109@N01/28799579322",
+        "povod": "openverse",
+        "dopyt": "AI accelerator"
+      }
+    ],
+    "prompt_ilustracie": "An abstract conceptual illustration of advanced computer microchips connected by complex network pathways traversing a digital map of international borders, rendered in dark tech tones with glowing circuit lines."
+  },
+  "prompt_ilustracie": "An abstract conceptual illustration of advanced computer microchips connected by complex network pathways traversing a digital map of international borders, rendered in dark tech tones with glowing circuit lines.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/cd63ce7bdb8a6b99860a5fa9e9bead07",
+  "text_agentov": {
+    "titulok": "Dvaja kalifornskí zákazníci Nvidie boli len zásterkou pre sankcionované čínske firmy",
+    "perex": "Americké spoločnosti RiCloud AI a Airvres slúžili ako krytie pre čínske subjekty na nákup vyspelých AI procesorov. Zistenia prichádzajú v čase, keď Nvidia zastavuje dodávky serverov do Ázie.",
+    "telo": "Americké sankcie mali zabrániť čínskym subjektom v prístupe k najvyspelejším procesorom pre umelú inteligenciu. Ako však s odvolaním sa na stanicu CBS News informoval technologický portál Tom's Hardware, dvaja z kalifornských zákazníkov spoločnosti Nvidia fungovali ako zásterka pre materské spoločnosti z Číny. Tieto subjekty využívali svoje oficiálne sídlo v Spojených štátoch na legálny nákup špičkového hardvéru, ktorý následne prepravovali alebo prenajímali firmám v juhovýchodnej Ázii.\n\n## Zmena názvu aj prepojenie na čínsku armádu\n\nJedným z hlavných zistení vyšetrovania je pozadie firmy Airvres, ktorú Nvidia na svojom webe viedla ako elitného partnera. Spoločnosť sa pôvodne volala Inspur, teda rovnako ako jej čínska materská skupina. K premenovaniu pristúpila po tom, čo americké úrady zaradili subjekty prepojené s Inspurom v marci 2023 na sankčnú čiernu listinu. Airvres napriek tomu od apríla 2024 do februára 2026 vyviezla do juhovýchodnej Ázie čipy v celkovej hodnote najmenej 5,6 miliardy dolárov vrátane najmodernejšieho kremíka radu Blackwell. Hardvér smeroval dvom spoločnostiam v Malajzii.\n\nDruhým odberateľom je kalifornská spoločnosť RiCloud AI. Jej vlastníkom je firma Yuxing InfoTech Investment Holdings so sídlom v čínskom Šen-čene. Generálny riaditeľ a spoluvlastník Yuxingu Cong Yu má podľa zistení vysokoškolský titul v odbore mobilizácie národnej obrany z veliteľskej školy čínskej armády. Medzi zákazníkmi RiCloud AI sa objavila napríklad Agencia Comercial Spirits, pôvodne malý dovozca whisky, ktorý sa v roku 2025 preorientoval na umelú inteligenciu a uzavrel dohody na dátové centrá v hodnote až 598 miliónov dolárov.\n\n## Kauza Megaspeed a nelegálny vývoz\n\nČasť dodávok z Airvres smerovala k malajzijskej spoločnosti Megaspeed, ktorú americké úrady vyšetrujú a ministerstvo obchodu ju nedávno zaradilo na sankčný zoznam. Firma je podozrivá z obchádzania exportných obmedzení prenajímaním výpočtovej kapacity čínskym klientom. V Megaspeed predtým pôsobila Alice Huang, ktorú americké úrady podozrievajú z napojenia na čínske spravodajské služby. K afére s touto bývalou manažérkou sa priznal šéf Nvidie Jensen Huang, keď v novembri na krátky čas rezignoval, kým ho vedenie po niekoľkých dňoch nevrátilo späť do funkcie.\n\nRozsah nelegálneho toku hardvéru pritom narastá. Len za minulý rok sa do Číny podľa odhadov prepašovali čipy Nvidia v hodnote okolo jednej miliardy dolárov a procesory Blackwell Ultra B300 boli zaznamenané aj v sieti štátneho operátora China Telecom.\n\n## Stopka pre servery v juhovýchodnej Ázii\n\nAmerická administratíva sa preto rozhodla medzeru v pravidlách uzavrieť. Doteraz čínske laboratóriá využívali vzdialený prístup k hardvéru v cudzine – podľa odhadov inštitútu Institute for Progress poskytovali dátové centrá v juhovýchodnej Ázii približne 24 percent výpočtovej kapacity pre čínsku umelú inteligenciu.\n\nNvidia následne nariadila výrobným partnerom, medzi ktorými sú Dell a Supermicro, aby pozastavili dodávky AI serverov do Malajzie, Singapuru, Thajska a Indonézie. Prevádzkovatelia cloudov dostali lehotu 90 dní na získanie vývozných licencií a preukázanie, že ich klientmi nie sú sankcionované subjekty. Nejasné pokyny však spôsobili v regióne zmätok; singapurský poskytovateľ Aolani napríklad prišiel o bankové financovanie vo výške 500 miliónov dolárov pre projekt s firmou ByteDance. Čínske firmy preto začínajú skúmať možnosti prenájmu kapacít aj v iných regiónoch vrátane Európy."
+  }
+}
