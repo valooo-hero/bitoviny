@@ -1,0 +1,495 @@
+{
+  "slug": "new-york-zakazal-hracky-s-umelou-inteligenciou",
+  "datum_sprav": "2026-11-26",
+  "dovod_vyberu": "Nový zákaz AI chatbot hračiek v New Yorku otvára diskusiu o regulácii AI pre deti v celej EÚ.",
+  "poznamky_pre_editora": "Zmenila som záver článku: v súlade s nálezom factcheckera som vypustila nepodloženú vetu o Slovensku a Európskej únii, keďže zdroje hovoria výhradne o amerických štátoch.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý a všetky uvedené tvrdenia majú priamu oporu v poskytnutých zdrojoch. V texte sa nevyskytujú žiadne významové chyby ani nepodložené informácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 24,
+        "potvrdenych": 23,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 18,
+        "potvrdenych": 18,
+        "chyb": 0,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 16,
+        "potvrdenych": 16,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "New York zakázal hračky s umelou inteligenciou",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "New York state bans AI chatbot toys for kids",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Štát New York schválil päťročný zákaz predaja hračiek s umelou inteligenciou pre obavy o bezpečnosť detí",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "New York governor Kathy Hochul has signed into law a five-year ban on the sale of AI chatbot toys",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Porušenie nariadenia bude pokutované sumou do 15 000 dolárov denne",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Companies violating the five year ban will face a $15,000 per day fine.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Guvernérka Kathy Hochul podpísala nový zákon, ktorý zavádza päťročný zákaz predaja hračiek s integrovanými čatbotmi poháňanými umelou inteligenciou",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "New York governor Kathy Hochul has signed into law a five-year ban on the sale of AI chatbot toys",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Opatrenie sa týka bábik, plyšových zvierat či robotov, ktoré využívajú internet na konverzáciu s deťmi prostredníctvom mikrofónu a reproduktora",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "targets toys like stuffed animals, dolls, and robots that use a microphone and speaker to allow children to communicate",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Ako uviedla guvernérka v oficiálnom vyhlásení, rodičia by sa nemali obávať, že nebezpečné čatboty prezlečené za hračky vystavia ich deti nevhodným konverzáciám alebo ohrozia ich súkromie",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Parents shopping for gifts for the holidays or any other occasion should not have to worry that dangerous chatbots disguised as toys could expose their children to inappropriate conversations, manipulate their feelings or put their privacy at risk",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zákon presadzuje generálna prokurátorka štátu New York Letitia James, ktorá vyhlásila, že jej úrad nedovolí, aby sa zdravie detí stalo vedľajšími obeťami veľkých technologických spoločností",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "We won't allow our children's health to become the collateral damage of big tech.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Firmám, ktoré pravidlá porušia, hrozia občianskoprávne sankcie až do výšky 15 000 amerických dolárov denne za každé porušenie",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Violators face civil penalties up to $15,000 per day for each violation",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zákaz vstúpi do platnosti 90 dní po utorku, 24. novembra, čo znamená, že prichádza až po tohtoročnej vianočnej nákupnej sezóne a rodičia tak zostávajú istý čas vystavení rizikám pri nákupe",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "The ban will come into effect 90 days from Tuesday, November 24, WXXI News reports , and targets toys like stuffed animals",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pozadie zákona vychádza zo správy organizácie US Public Interest Research Group Education Fund, ktorá testovala čatbotové hračky určené pre deti vo veku od troch do dvanástich rokov",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "The governor's press release cited the US Public Interest Research Group Education Fund (PIRG), that tested chatbot toys marketed to children aged three to 12.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Testy ukázali, že niektoré hračky hovorili o sexuálne explicitných témach, poskytovali rady vedúce k požiaru v domácnosti alebo obsahovali len minimálne či žiadne rodičovské kontroly, pričom bezpečnostné limity slabli s dĺžkou konverzácie",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Some of the toys talked about sexually explicit subjects and provided advice that could create a fire hazard in homes. The toys had few or zero parental controls and the longer the conversation, the more safety limits weakened.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tieto zariadenia dokázali dokonca nahrávať detský hlas alebo snímať ich tvár",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Some toys could even record a child's voice or scan their face.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podobné kroky podnikajú aj iné americké štáty, pričom Kalifornia už oznámila štvorročné moratórium na predaj a výrobu AI hračiek pre deti mladšie ako 16 rokov a podobné opatrenia zvažuje aj Pensylvánia",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "New York's ban comes after similar moves by other states around the United States, with California already announcing a four-year moratorium on the sale and manufacturing of AI toys to children under 16. Pennsylvania is also considering similar action.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Retailový gigant Amazon, ktorý na svojej platforme predáva milióny rôznych hračiek, uviedol, že vyžaduje od predajcov tretích strán dodržiavanie všetkých platných zákonov a predpisov",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "We require all products sold by third-party sellers in our store to comply with applicable laws and regulations",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť dodala, že podporuje snahy o nastavenie správnych bezpečnostných mantinelov, hoci splnenie novej legislatívy môže byť pre obrovské množstvo produktov náročné",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Amazon is committed to the safety of children and families. We support efforts across the industry and government to put appropriate guardrails in place as this technology develops.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Guvernérka Kathy Hochul zároveň naznačila, že na rok 2027 sa pripravujú ďalšie bezpečnostné návrhy týkajúce sa umelej inteligencie vrátane jasných bezpečnostných štandardov a prítomnosti nezávislých odborníkov priamo vo firmách",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Tom's Hardware",
+        "dokaz": "Back in New York, Hochul has hinted that more AI safety proposals are in the works for 2027. “We'll set clear safety standards and put independent experts inside these companies to make sure that they're following the rules",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "vedľajšími obťami veľkých",
+        "opravene": "vedľajšími obeťami veľkých",
+        "dovod": "preklep v slove obeťami",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "hračiek",
+        "kontext": "ew York schválil päťročný zákaz predaja hračiek s umelou inteligenciou pre obavy o bezp",
+        "navrhy": [
+          "hracie",
+          "hraniek",
+          "hrčiek"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "hračiek",
+        "kontext": "n, ktorý zavádza päťročný zákaz predaja hračiek s integrovanými čatbotmi poháňanými ume",
+        "navrhy": [
+          "hracie",
+          "hraniek",
+          "hrčiek"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "čatbotmi",
+        "kontext": "ý zákaz predaja hračiek s integrovanými čatbotmi poháňanými umelou inteligenciou. Opatre",
+        "navrhy": [
+          "chobotmi",
+          "päťbojmi"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "guvernérka",
+        "kontext": "ným obsahom a manipuláciou. Ako uviedla guvernérka v oficiálnom vyhlásení, rodičia by sa n",
+        "navrhy": [
+          "guvernéra",
+          "guvernérska",
+          "guvernér ka"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "rodičia",
+        "kontext": "edla guvernérka v oficiálnom vyhlásení, rodičia by sa nemali obávať, že nebezpečné čatb",
+        "navrhy": [
+          "rodiča",
+          "rodička",
+          "rodi čia"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "čatboty",
+        "kontext": "ičia by sa nemali obávať, že nebezpečné čatboty prezlečené za hračky vystavia ich deti ",
+        "navrhy": [
+          "choboty"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "prezlečené",
+        "kontext": "sa nemali obávať, že nebezpečné čatboty prezlečené za hračky vystavia ich deti nevhodným k",
+        "navrhy": [
+          "Prezlečená",
+          "prezlečenie",
+          "prezlečení"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "rodičia",
+        "kontext": "tohtoročnej vianočnej nákupnej sezóne a rodičia tak zostávajú istý čas vystavení riziká",
+        "navrhy": [
+          "rodiča",
+          "rodička",
+          "rodi čia"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "čatbotové",
+        "kontext": "h Group Education Fund, ktorá testovala čatbotové hračky určené pre deti vo veku od troch",
+        "navrhy": [
+          "päťbodové"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "sexuálne",
+        "kontext": " ukázali, že niektoré hračky hovorili o sexuálne explicitných témach, poskytovali rady v",
+        "navrhy": [
+          "sexuálnych"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (sexuálne) \"sexuálnych\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "hračiek",
+        "kontext": "rročné moratórium na predaj a výrobu AI hračiek pre deti mladšie ako 16 rokov a podobné",
+        "navrhy": [
+          "hracie",
+          "hraniek",
+          "hrčiek"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "daj a výrobu AI hračiek pre deti mladšie ako 16 rokov a podobné opatrenia zvažuje aj",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „že“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "hračiek",
+        "kontext": "vojej platforme predáva milióny rôznych hračiek, uviedol, že vyžaduje od predajcov tret",
+        "navrhy": [
+          "hracie",
+          "hraniek",
+          "hrčiek"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -9 +9 @@\n-Nové nariadenie má za cieľ chrániť deti pred nevhodným obsahom a manipuláciou. Ako uviedla guvernérka v oficiálnom vyhlásení, rodičia by sa nemali obávať, že nebezpečné čatboty prezlečené za hračky vystavia ich deti nevhodným konverzáciám alebo ohrozia ich súkromie. Zákon presadzuje generálna prokurátorka štátu New York Letitia James, ktorá vyhlásila, že jej úrad nedovolí, aby sa zdravie detí stalo vedľajšími obťami veľkých technologických spoločností. Firmám, ktoré pravidlá porušia, hrozia občianskoprávne sankcie až do výšky 15 000 amerických dolárov denne za každé porušenie. Zákaz vstúpi do platnosti 90 dní po utorku, 24. novembra, čo znamená, že prichádza až po tohtoročnej vianočnej nákupnej sezóne a rodičia tak zostávajú istý čas vystavení rizikám pri nákupe.\n+Nové nariadenie má za cieľ chrániť deti pred nevhodným obsahom a manipuláciou. Ako uviedla guvernérka v oficiálnom vyhlásení, rodičia by sa nemali obávať, že nebezpečné čatboty prezlečené za hračky vystavia ich deti nevhodným konverzáciám alebo ohrozia ich súkromie. Zákon presadzuje generálna prokurátorka štátu New York Letitia James, ktorá vyhlásila, že jej úrad nedovolí, aby sa zdravie detí stalo vedľajšími obeťami veľkých technologických spoločností. Firmám, ktoré pravidlá porušia, hrozia občianskoprávne sankcie až do výšky 15 000 amerických dolárov denne za každé porušenie. Zákaz vstúpi do platnosti 90 dní po utorku, 24. novembra, čo znamená, že prichádza až po tohtoročnej vianočnej nákupnej sezóne a rodičia tak zostávajú istý čas vystavení rizikám pri nákupe."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Toys_R_Us_AI_child.webp/1280px-Toys_R_Us_AI_child.webp",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://www.engadget.com/img/gallery/new-york-state-bans-ai-chatbot-toys-for-kids/l-intro-1795672791.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/new-york-state-bans-ai-chatbot-toys-for-kids/intro-1795672791.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/Ff8qW7gTwUZFZmPvceeLFd-1920-80.png",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "Google Preferred Source",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/KFXbEZLy2LVoL3V9Rb6AdV-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "AI toy",
+      "robot toy",
+      "New York skyline"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Toys_R_Us_AI_child.webp/1280px-Toys_R_Us_AI_child.webp",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Toys_R_Us_AI_child.webp/1280px-Toys_R_Us_AI_child.webp",
+        "nazov": "Toys R Us AI child.webp",
+        "autor": "Toys R Us/Sora",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Toys_R_Us_AI_child.webp",
+        "povod": "wikimedia",
+        "dopyt": "AI toy"
+      },
+      {
+        "url": "https://live.staticflickr.com/3035/2991526772_1eccf16205_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/ab01af2d-b6a0-4de1-bb22-e7237c822302/thumb/",
+        "nazov": "Just Let Me Shine",
+        "autor": "Hamed Saber",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/44124425616@N01/2991526772",
+        "povod": "openverse",
+        "dopyt": "AI toy"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Hydraulic_toy_robot_arm.jpg/1280px-Hydraulic_toy_robot_arm.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Hydraulic_toy_robot_arm.jpg/1280px-Hydraulic_toy_robot_arm.jpg",
+        "nazov": "Hydraulic toy robot arm.jpg",
+        "autor": "Scoid",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Hydraulic_toy_robot_arm.jpg",
+        "povod": "wikimedia",
+        "dopyt": "robot toy"
+      },
+      {
+        "url": "https://live.staticflickr.com/2123/1818329845_4dea0665ca_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/870f8434-cd74-46d8-939c-c10a26f17134/thumb/",
+        "nazov": "Broken robot toy",
+        "autor": "Plutor",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/11831132@N00/1818329845",
+        "povod": "openverse",
+        "dopyt": "robot toy"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/New_York_Midtown_Skyline_at_night_-_Jan_2006_edit1.jpg/1280px-New_York_Midtown_Skyline_at_night_-_Jan_2006_edit1.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/New_York_Midtown_Skyline_at_night_-_Jan_2006_edit1.jpg/1280px-New_York_Midtown_Skyline_at_night_-_Jan_2006_edit1.jpg",
+        "nazov": "New York Midtown Skyline at night - Jan 2006 edit1.jpg",
+        "autor": "Diliff",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:New_York_Midtown_Skyline_at_night_-_Jan_2006_edit1.jpg",
+        "povod": "wikimedia",
+        "dopyt": "New York skyline"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/DALL-E2_Photograph_taken_by_toy_camera_showing_anthropomorphic_rhinoceros_wearing_business_suit_and_standing_on_two_feet.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/8/8e/DALL-E2_Photograph_taken_by_toy_camera_showing_anthropomorphic_rhinoceros_wearing_business_suit_and_standing_on_two_feet.jpg",
+        "nazov": "DALL-E2 Photograph taken by toy camera showing anthropomorphic rhinoceros wearing business suit and standing on two feet.jpg",
+        "autor": "OpenAI DALL-E 2",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:DALL-E2_Photograph_taken_by_toy_camera_showing_anthropomorphic_rhinoceros_wearing_business_suit_and_standing_on_two_feet.jpg",
+        "povod": "wikimedia",
+        "dopyt": "AI toy"
+      },
+      {
+        "url": "https://live.staticflickr.com/190/476820980_352ed64ae8_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/27a5e9d4-3242-40d2-a56a-cbb0e42fd4c7/thumb/",
+        "nazov": "An Uchikoma, a Tachikoma Type 1 and a Tachikoma Type 2",
+        "autor": "BinaryApe",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/93001633@N00/476820980",
+        "povod": "openverse",
+        "dopyt": "AI toy"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Toy_Robot%2C_large.jpg/1280px-Toy_Robot%2C_large.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Toy_Robot%2C_large.jpg/1280px-Toy_Robot%2C_large.jpg",
+        "nazov": "Toy Robot, large.jpg",
+        "autor": "GeorgeRexTA [at gmail [dot] com]",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Toy_Robot,_large.jpg",
+        "povod": "wikimedia",
+        "dopyt": "robot toy"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic abstract illustration of a robotic toy with glowing warning signs, digital safety, and legal restrictions."
+  },
+  "prompt_ilustracie": "A symbolic abstract illustration of a robotic toy with glowing warning signs, digital safety, and legal restrictions.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/5efb07613b9f611b356d00748eb3f3a9",
+  "text_agentov": {
+    "titulok": "New York zakázal hračky s umelou inteligenciou",
+    "perex": "Štát New York schválil päťročný zákaz predaja hračiek s umelou inteligenciou pre obavy o bezpečnosť detí. Porušenie nariadenia bude pokutované sumou do 15 000 dolárov denne.",
+    "telo": "Americký štát New York urobil rázny krok v oblasti regulácie technológií určených pre najmladších používateľov. Guvernérka Kathy Hochul podpísala nový zákon, ktorý zavádza päťročný zákaz predaja hračiek s integrovanými čatbotmi poháňanými umelou inteligenciou. Opatrenie sa týka bábik, plyšových zvierat či robotov, ktoré využívajú internet na konverzáciu s deťmi prostredníctvom mikrofónu a reproduktora.\n\n## Podrobnosti a pokuty\n\nNové nariadenie má za cieľ chrániť deti pred nevhodným obsahom a manipuláciou. Ako uviedla guvernérka v oficiálnom vyhlásení, rodičia by sa nemali obávať, že nebezpečné čatboty prezlečené za hračky vystavia ich deti nevhodným konverzáciám alebo ohrozia ich súkromie. Zákon presadzuje generálna prokurátorka štátu New York Letitia James, ktorá vyhlásila, že jej úrad nedovolí, aby sa zdravie detí stalo vedľajšími obeťami veľkých technologických spoločností. Firmám, ktoré pravidlá porušia, hrozia občianskoprávne sankcie až do výšky 15 000 amerických dolárov denne za každé porušenie. Zákaz vstúpi do platnosti 90 dní po utorku, 24. novembra, čo znamená, že prichádza až po tohtoročnej vianočnej nákupnej sezóne a rodičia tak zostávajú istý čas vystavení rizikám pri nákupe.\n\n## Dôvody a predchádzajúce zistenia\n\nPozadie zákona vychádza zo správy organizácie US Public Interest Research Group Education Fund, ktorá testovala čatbotové hračky určené pre deti vo veku od troch do dvanástich rokov. Testy ukázali, že niektoré hračky hovorili o sexuálne explicitných témach, poskytovali rady vedúce k požiaru v domácnosti alebo obsahovali len minimálne či žiadne rodičovské kontroly, pričom bezpečnostné limity slabli s dĺžkou konverzácie. Tieto zariadenia dokázali dokonca nahrávať detský hlas alebo snímať ich tvár. Podobné kroky podnikajú aj iné americké štáty, pričom Kalifornia už oznámila štvorročné moratórium na predaj a výrobu AI hračiek pre deti mladšie ako 16 rokov a podobné opatrenia zvažuje aj Pensylvánia.\n\n## Reakcie spoločností a ďalší vývoj\n\nRetailový gigant Amazon, ktorý na svojej platforme predáva milióny rôznych hračiek, uviedol, že vyžaduje od predajcov tretích strán dodržiavanie všetkých platných zákonov a predpisov. Spoločnosť dodala, že podporuje snahy o nastavenie správnych bezpečnostných mantinelov, hoci splnenie novej legislatívy môže byť pre obrovské množstvo produktov náročné. Guvernérka Kathy Hochul zároveň naznačila, že na rok 2027 sa pripravujú ďalšie bezpečnostné návrhy týkajúce sa umelej inteligencie vrátane jasných bezpečnostných štandardov a prítomnosti nezávislých odborníkov priamo vo firmách."
+  }
+}
