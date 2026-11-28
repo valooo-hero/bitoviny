@@ -1,0 +1,520 @@
+{
+  "slug": "openai-zazalovala-apple-za-kradez-obchodnych-tajomstiev-a-zastrasovanie-dodavate",
+  "datum_sprav": "2026-11-27",
+  "dovod_vyberu": "Súťaž medzi OpenAI a Apple o obchodné tajomstvá má dopad na globálny trh AI a môže ovplyvniť regulácie v EÚ.",
+  "poznamky_pre_editora": "Odstránila som nepodloženú zmienku o Slovensku a Európskej únii, ktorú zdroje neobsahovali.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý a všetky overiteľné tvrdenia sú plne podporené poskytnutými zdrojmi. V texte sa nenachádzajú žiadne významové chyby ani nepodložené informácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 24,
+        "potvrdenych": 23,
+        "chyb": 1,
+        "upozorneni": 3
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 21,
+        "potvrdenych": 21,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "OpenAI zažalovala Apple za krádež obchodných tajomstiev a zastrašovanie dodávateľov",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "OpenAI has countersued Apple, accusing the iPhone maker of stealing trade secrets and threatening suppliers working on its upcoming devices.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tvorca ChatGPT podal v Kalifornii žalobu na Apple",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "The ChatGPT maker filed the lawsuit in a California court on Friday",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť OpenAI podala na kalifornskom súde žalobu na Apple, ktorá je odvetou za doterajšie právne kroky výrobcu iPhonov",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "OpenAI has countersued Apple, accusing the iPhone maker of stealing trade secrets and threatening suppliers working on its upcoming devices. The filing escalates a legal fight that began with Apple’s lawsuit against OpenAI in July.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa OpenAI sa technologický gigant snaží „nekalo súťažiť akýmikoľvek dostupnými prostriedkami“",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "compete unfairly by any means available",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jadrom novej žaloby sú tvrdenia, že Apple nátlakom a vyhrážkami vplýva na dodávateľov hardvérových komponentov, ktorí s OpenAI spolupracujú",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "OpenAI alleges Apple is “coercing and threatening” suppliers working with the ChatGPT maker.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť zameraná na umelú inteligenciu vyvíja vlastné spotrebiteľské zariadenia",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Its hardware ambitions include new personal devices following last year’s acquisition of Jony Ive’s “io” firm.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tieto plány urýchlila minuloročná akvizícia dizajnérskej firmy „io“, ktorú založil bývalý šéfdizajnér Applu Jony Ive",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "This was filed after OpenAI acquired an entity called io, which is a studio led by Apple's former design chief Jony Ive.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V sťažnosti sa podľa portálu Engadget objavili aj nezvyčajne ostré formulácie. OpenAI prirovnala pôsobenie zamestnancov v Cupertine k piesni Hotel California, odkiaľ sa dá kedykoľvek odhlásiť, no nemožno odísť",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Instead they were joining Hotel California: you can check out any time you like, but you can never leave.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Apple údajne nabádal zamestnancov, aby ukladali firemné súbory na osobné zariadenia a cloudové účty",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "The complaint also claims Apple encouraged employees to store corporate files on personal devices and cloud accounts.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vzájomný konflikt začal už v júli, keď Apple zažaloval OpenAI, firmu io Products a dvoch bývalých zamestnancov – Changa Liu a Tanga Tana",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Apple’s original lawsuit names OpenAI, io Products, and former Apple employees Chang Liu and Tang Tan.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tan v minulosti viedol produktový dizajn iPhonov a hodiniek Apple Watch",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Tan previously led iPhone and Apple Watch product design at Apple.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Apple ich obvinil, že pri odchode neoprávnene stiahli desiatky dôverných inžinierskych súborov, prezentácií a technických špecifikácií o nevydaných produktoch, aby pomohli vývoju zariadení v OpenAI",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "surreptitiously accessed and downloaded dozens of Apple's confidential hardware-related files, including voluminous, detailed information about unreleased products, engineering presentations, technical specifications",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "OpenAI obvinenia odmieta",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "OpenAI has disputed those allegations.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V októbri navyše uviedla, že jeden z jej zamestnancov, ktorý sa vrátil pracovať do Applu, odoslal na osobné účty viac ako sto dôverných súborov o nevydanom hardvéri OpenAI",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "The new action also follows OpenAI’s October claim that an employee who returned to Apple sent more than 100 confidential files about unreleased OpenAI hardware to personal accounts.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Tieto dokumenty mali obsahovať technické dáta, nákresy zariadení aj podrobnosti o dodávateľoch",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Those files allegedly included device images, engineering data, and supplier information.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Apple vtedy reagoval, že jeho interné vyšetrovanie žiadne cudzie tajné súbory nenašlo, no vyjadril ochotu na overení spolupracovať",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Apple responded at the time that its investigation had not located OpenAI confidential information. The company said it requested more specific information to continue searching and would work with OpenAI to investigate the allegations.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Súčasná situácia predstavuje výrazný obrat vo vzťahoch oboch spoločností, ktoré pôvodne oznámili partnerstvo zamerané na integráciu ChatGPT do iPhonov",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "it wasn't that long ago in which the two companies were partnered up to bring ChatGPT to iPhones.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vývoj vlastného hardvéru OpenAI z nich však robí priamych rivalov",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Now OpenAI is prepping its own line of hardware products that could directly compete with Apple.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Apple v oficiálnom vyjadrení pre portál 9to5Mac odmietol protinávrhy OpenAI a označil ich za priehľadný pokus odvrátiť pozornosť od podstaty pôvodnej žaloby",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "OpenAI’s counterclaims are a transparent attempt to distract from the substance of Apple’s lawsuit",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa Applu ide v jeho spore o úmyselnú krádež dát o nevydaných technológiách, pričom súd už OpenAI predbežne nariadil prestať používať sporné tajomstvá",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "This case is about OpenAI employees deliberately stealing, accessing, and using Apple’s secret and confidential information regarding our unreleased technologies... in which OpenAI has already been ordered to stop using Apple’s confidential information.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Hlavné súdne pojednávanie v pôvodnom spore Applu je naplánované na 19. júla 2027",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Apple’s original case is scheduled to go to trial on July 19, 2027.",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "eskaluje",
+        "kontext": "vny spor dvoch technologických gigantov eskaluje. Tvorca ChatGPT podal v Kalifornii žalo",
+        "navrhy": [
+          "neskalpuje",
+          "nespaľuje",
+          "nešaluje"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iPhonov",
+        "kontext": "etou za doterajšie právne kroky výrobcu iPhonov. Tvorkyňa populárneho chatbota ChatGPT ",
+        "navrhy": [
+          "Iónov",
+          "honov",
+          "iónov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "chatbota",
+        "kontext": "y výrobcu iPhonov. Tvorkyňa populárneho chatbota ChatGPT viní Apple z krádeže obchodných",
+        "navrhy": [
+          "chatová",
+          "chobota"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "krádeže",
+        "kontext": "pulárneho chatbota ChatGPT viní Apple z krádeže obchodných tajomstiev a z pokusov mariť",
+        "navrhy": [
+          "kadeže",
+          "krádež",
+          "krádež e"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "dodávateľovJadrom",
+        "kontext": "riedkami“.## Obvinenia zo zastrašovania dodávateľovJadrom novej žaloby sú tvrdenia, že Apple nátl",
+        "navrhy": [
+          "dodávateľov Jadrom"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "šéfdizajnér",
+        "kontext": "érskej firmy „io“, ktorú založil bývalý šéfdizajnér Applu Jony Ive.OpenAI v žalobe uvádza, ",
+        "navrhy": [
+          "šéf dizajnér"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cloudové",
+        "kontext": "i firemné súbory na osobné zariadenia a cloudové účty, čím si OpenAI vysvetľuje snahu ob",
+        "navrhy": [
+          "Chodove",
+          "chodové",
+          "clonové"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "súboryVzájomný",
+        "kontext": "## Spor o bývalých zamestnancov a tajné súboryVzájomný konflikt začal už v júli, keď Apple zaž",
+        "navrhy": [
+          "súbory Vzájomný"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "produktový",
+        "kontext": "iu a Tanga Tana. Tan v minulosti viedol produktový dizajn iPhonov a hodiniek Apple Watch. ",
+        "navrhy": [
+          "produktov",
+          "produktov ý"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iPhonov",
+        "kontext": "an v minulosti viedol produktový dizajn iPhonov a hodiniek Apple Watch. Apple ich obvin",
+        "navrhy": [
+          "Iónov",
+          "honov",
+          "iónov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ať do Applu, odoslal na osobné účty viac ako sto dôverných súborov o nevydanom hardv",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "súdeSúčasná",
+        "kontext": "racovať.## Od partnerstva k rivalite na súdeSúčasná situácia predstavuje výrazný obrat vo v",
+        "navrhy": [
+          "súde Súčasná"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iPhonov",
+        "kontext": "rstvo zamerané na integráciu ChatGPT do iPhonov. Vývoj vlastného hardvéru OpenAI z nich",
+        "navrhy": [
+          "Iónov",
+          "honov",
+          "iónov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": ""
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Legal_Gavel_%2827571702173%29.jpg/1280px-Legal_Gavel_%2827571702173%29.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/apple-vs-openai-01.jpg?quality=82&strip=all&w=800",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/af01c840dac8281fd5f1986a8504e54222700437fa19c3083e578c1ddf6386a6?s=96&d=mm&r=r",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Zac Hall",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets/l-intro-1795808637.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets/intro-1795808637.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "court gavel",
+      "courtroom",
+      "legal documents"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Legal_Gavel_%2827571702173%29.jpg/1280px-Legal_Gavel_%2827571702173%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Legal_Gavel_%2827571702173%29.jpg/1280px-Legal_Gavel_%2827571702173%29.jpg",
+        "nazov": "Legal Gavel (27571702173).jpg",
+        "autor": "Blogtrepreneur",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Legal_Gavel_(27571702173).jpg",
+        "povod": "wikimedia",
+        "dopyt": "court gavel"
+      },
+      {
+        "url": "https://live.staticflickr.com/7301/26682691294_385a8a19c4_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/27b6c0b8-9791-4182-9682-edef9a305871/thumb/",
+        "nazov": "Court Gavel - Judge's Gavel - Courtroom",
+        "autor": "weiss_paarz_photos",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/141290938@N03/26682691294",
+        "povod": "openverse",
+        "dopyt": "court gavel"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Beverley_Guildhall_Courtroom.jpg/1280px-Beverley_Guildhall_Courtroom.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Beverley_Guildhall_Courtroom.jpg/1280px-Beverley_Guildhall_Courtroom.jpg",
+        "nazov": "Beverley Guildhall Courtroom.jpg",
+        "autor": "Michael D Beckwith",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Beverley_Guildhall_Courtroom.jpg",
+        "povod": "wikimedia",
+        "dopyt": "courtroom"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Legal_hashish_shop_in_Kathmandu%2C_Nepal_in_1973.jpg/1280px-Legal_hashish_shop_in_Kathmandu%2C_Nepal_in_1973.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Legal_hashish_shop_in_Kathmandu%2C_Nepal_in_1973.jpg/1280px-Legal_hashish_shop_in_Kathmandu%2C_Nepal_in_1973.jpg",
+        "nazov": "Legal hashish shop in Kathmandu, Nepal in 1973.jpg",
+        "autor": "Roger McLassus.",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Legal_hashish_shop_in_Kathmandu,_Nepal_in_1973.jpg",
+        "povod": "wikimedia",
+        "dopyt": "legal documents"
+      },
+      {
+        "url": "https://live.staticflickr.com/3421/5725642109_af89c3f79f_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/f0e28243-2ad6-4dc2-8181-227b938effef/thumb/",
+        "nazov": "19th-century English legal document, possibly a contract between Henry Handy and Thomas Milbourne Blome, witnessed by Henry George Robinson, a solicitor who practiced at 6 Half-Moon Street, Piccadilly, London, in the mid-nineteenth century",
+        "autor": "Provenance Online Project",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "stranka": "https://www.flickr.com/photos/58558794@N07/5725642109",
+        "povod": "openverse",
+        "dopyt": "legal documents"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Cybersecurity_court_document_and_gavel.jpg/1280px-Cybersecurity_court_document_and_gavel.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Cybersecurity_court_document_and_gavel.jpg/1280px-Cybersecurity_court_document_and_gavel.jpg",
+        "nazov": "Cybersecurity court document and gavel.jpg",
+        "autor": "Nick Youngson",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Cybersecurity_court_document_and_gavel.jpg",
+        "povod": "wikimedia",
+        "dopyt": "court gavel"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/51958637795_6cfae4fe30_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/bc9466f4-8719-418a-abb9-e404d8ebe8f0/thumb/",
+        "nazov": "Divorce Court Gavel",
+        "autor": "advokatsmart.no",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/195273280@N04/51958637795",
+        "povod": "openverse",
+        "dopyt": "court gavel"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Courtroom_European_Court_of_Human_Rights_02.JPG/1280px-Courtroom_European_Court_of_Human_Rights_02.JPG",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Courtroom_European_Court_of_Human_Rights_02.JPG/1280px-Courtroom_European_Court_of_Human_Rights_02.JPG",
+        "nazov": "Courtroom European Court of Human Rights 02.JPG",
+        "autor": "Adrian Grycuk",
+        "licencia": "CC BY-SA 3.0 pl",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Courtroom_European_Court_of_Human_Rights_02.JPG",
+        "povod": "wikimedia",
+        "dopyt": "courtroom"
+      }
+    ],
+    "prompt_ilustracie": "Symbolic legal scales balancing a smartphone and a microchip in a minimalist corporate style."
+  },
+  "prompt_ilustracie": "Symbolic legal scales balancing a smartphone and a microchip in a minimalist corporate style.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/9272b30a886fe06a2ea4379b78313513",
+  "text_agentov": {
+    "titulok": "OpenAI zažalovala Apple za krádež obchodných tajomstiev a zastrašovanie dodávateľov",
+    "perex": "Právny spor dvoch technologických gigantov eskaluje. Tvorca ChatGPT podal v Kalifornii žalobu na Apple, v ktorej ho viní z nekalých praktík a blokovania dodávateľov pripravovaného hardvéru.",
+    "telo": "Spoločnosť OpenAI podala na kalifornskom súde žalobu na Apple, ktorá je odvetou za doterajšie právne kroky výrobcu iPhonov. Tvorkyňa populárneho chatbota ChatGPT viní Apple z krádeže obchodných tajomstiev a z pokusov mariť jej vlastné hardvérové ambície. Podľa OpenAI sa technologický gigant snaží „nekalo súťažiť akýmikoľvek dostupnými prostriedkami“.## Obvinenia zo zastrašovania dodávateľovJadrom novej žaloby sú tvrdenia, že Apple nátlakom a vyhrážkami vplýva na dodávateľov hardvérových komponentov, ktorí s OpenAI spolupracujú. Spoločnosť zameraná na umelú inteligenciu totiž vyvíja vlastné spotrebiteľské zariadenia. Tieto plány urýchlila minuloročná akvizícia dizajnérskej firmy „io“, ktorú založil bývalý šéfdizajnér Applu Jony Ive.OpenAI v žalobe uvádza, že Apple bráni jej prístupu k dodávateľskému reťazcu a cielene vytvára prekážky pre jej vstup na trh. V sťažnosti sa podľa portálu Engadget objavili aj nezvyčajne ostré formulácie. OpenAI prirovnala pôsobenie zamestnancov v Cupertine k piesni Hotel California, odkiaľ sa dá kedykoľvek odhlásiť, no nemožno odísť. Apple údajne nabádal zamestnancov, aby ukladali firemné súbory na osobné zariadenia a cloudové účty, čím si OpenAI vysvetľuje snahu obmedziť mobilitu pracovníkov a brániť im v prechode ku konkurencii.## Spor o bývalých zamestnancov a tajné súboryVzájomný konflikt začal už v júli, keď Apple zažaloval OpenAI, firmu io Products a dvoch bývalých zamestnancov – Changa Liu a Tanga Tana. Tan v minulosti viedol produktový dizajn iPhonov a hodiniek Apple Watch. Apple ich obvinil, že pri odchode neoprávnene stiahli desiatky dôverných inžinierskych súborov, prezentácií a technických špecifikácií o nevydaných produktoch, aby pomohli vývoju zariadení v OpenAI.OpenAI obvinenia odmieta. V októbri navyše uviedla, že jeden z jej zamestnancov, ktorý sa vrátil pracovať do Applu, odoslal na osobné účty viac ako sto dôverných súborov o nevydanom hardvéri OpenAI. Tieto dokumenty mali obsahovať technické dáta, nákresy zariadení aj podrobnosti o dodávateľoch. Apple vtedy reagoval, že jeho interné vyšetrovanie žiadne cudzie tajné súbory nenašlo, no vyjadril ochotu na overení spolupracovať.## Od partnerstva k rivalite na súdeSúčasná situácia predstavuje výrazný obrat vo vzťahoch oboch spoločností, ktoré pôvodne oznámili partnerstvo zamerané na integráciu ChatGPT do iPhonov. Vývoj vlastného hardvéru OpenAI z nich však robí priamych rivalov.Apple v oficiálnom vyjadrení pre portál 9to5Mac odmietol protinávrhy OpenAI a označil ich za priehľadný pokus odvrátiť pozornosť od podstaty pôvodnej žaloby. Podľa Applu ide v jeho spore o úmyselnú krádež dát o nevydaných technológiách, pričom súd už OpenAI predbežne nariadil prestať používať sporné tajomstvá. Hlavné súdne pojednávanie v pôvodnom spore Applu je naplánované na 19. júla 2027."
+  }
+}
