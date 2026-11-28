@@ -1,0 +1,568 @@
+{
+  "slug": "whatsapp-prinasa-cestovne-esim-karty-a-testuje-nove-spravy-aj-dizajn",
+  "datum_sprav": "2026-11-27",
+  "dovod_vyberu": "Podpora travel eSIM v aplikácii WhatsApp prináša novú funkčnosť pre používateľov na cestách a rozširuje ekosystém mobilných služieb.",
+  "poznamky_pre_editora": "Opravila som nepodložené tvrdenie o používateľoch v Európskej únii a vymazala ho.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý a verne sa drží predložených zdrojových článkov. Všetky overiteľné údaje v texte majú priamu oporu v zdrojoch bez akýchkoľvek vymyslených informácií.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 13,
+        "potvrdenych": 12,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 21,
+        "potvrdenych": 21,
+        "chyb": 0,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 19,
+        "potvrdenych": 19,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "WhatsApp prináša cestovné eSIM karty a testuje nové správy aj dizajn",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "WhatsApp announces travel eSIMs, tests view-once texts and a cleaner interface",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "podpora pre nákup cestovných eSIM kariet priamo v rozhraní",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "WhatsApp yesterday announced that iPhone and Android users will soon be able to purchase and install travel eSIMs directly from the app.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "testuje správy na jedno prečítanie a čistejší dizajn rozhrania",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "WhatsApp is now reportedly testing two new features on iOS",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "majitelia iPhonov aj zariadení s operačným systémom Android budú môcť čoskoro nakupovať a inštalovať cestovné digitálne eSIM karty priamo cez prostredie aplikácie",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "WhatsApp yesterday announced that iPhone and Android users will soon be able to purchase and install travel eSIMs directly from the app.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "získať mobilný dátový plán pre medzinárodné cestovanie pomocou niekoľkých kliknutí bez nutnosti opustiť aplikáciu",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "get a mobile data plan for international travel with just a few taps, without having to leave WhatsApp",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "pokračovať v používaní četovacej služby so svojím existujúcim telefónnym číslom",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "continuing to use the messaging service with their existing phone number",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "To, aby ste pri pristátí mohli ďalej používať WhatsApp na svojom pôvodnom čísle ako zvyčajne bez toho, aby ste museli hľadať najbližší kiosk na letisku, loviť kaviareň s Wi-Fi pripojením alebo hromadiť poplatky za roaming.",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "\"That way, when you land, you can keep using WhatsApp on your same phone number as you normally would without having to find the closest airport kiosk to buy a local SIM card, hunt for a cafe with Wi-FI or rack up roaming charges,\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Verizon, Jio, Smart Axiata či Smart Communications",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "telco partners including Jio, Smart Axiata, Smart Communications, Verizon and others",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Celková dostupnosť sa bude zavádzať postupne vo vybraných krajinách.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "we’ll begin rolling this out in select countries soon.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "WABetaInfo informoval, že používatelia zapojení do beta testovania cez TestFlight dostávajú možnosť posielať textové správy určené na jednorazové prečítanie",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "WABetaInfo reported this week that users running WhatsApp’s TestFlight beta are starting to see the option to send view-once text messages",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Táto funkcia doteraz existovala iba pre fotografie, videá a hlasové správy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "extending a feature that is already available for photos, videos, and voice messages.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Po dlhšom podržaní tlačidla odoslania si oprávnení používatelia môžu vybrať medzi naplánovaním správy a jej odoslaním v režime jednorazového prečítania.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "after long-pressing the send button, users who have access to the new feature can select between scheduling the message and sending it as a view-once message.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Príjemca si takúto správu otvorí v špeciálnom rozhraní, pričom WhatsApp zablokuje vytváranie snímok obrazovky, nahrávanie obrazovky, kopírovanie aj preposielanie obsahu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Recipients can then tap the message to read it in a separate interface, with WhatsApp blocking screenshots, screen recordings, copying, and forwarding.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Po zatvorení správy sa k nej už ani jedna strana nedokáže vrátiť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "Once the recipient closes the message, neither party can access its contents again.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Portál 9to5Mac pripomína, že zatiaľ nie je jasné, kedy presne sa tieto testované funkcie dostavia do oficiálnej verejnej verzie aplikácie pre všetkých používateľov.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "As is usually the case with WhatsApp beta features, there is no telling when (or if) these two changes will make their way to the public version of the app.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "spodnej lišty záložiek. Aplikácia odstránila textové popisky nachádzajúce sa pod jednotlivými ikonami pri zachovaní dizajnu označovaného ako Liquid Glass.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "removing the text labels that appear below each icon while preserving its existing Liquid Glass design.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Lišta teraz zobrazuje iba ikonky pre aktualizácie, hovory, kontakty, čety a osobný profil bez textu, čím sa stala kompaktnejšou.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "9to5Mac",
+        "dokaz": "The tab bar now shows icons for Updates, Calls, Contacts, Chats, and You without any labels. This makes the tab bar more compact",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Engadget v tejto súvislosti pripomenul aj ďalšie nedávne novinky, ktoré platforma postupne zavádza. Medzi ne patria nálepky so zvukom, funkcia plánovania správ vopred či zväčšenie maximálnej kapacity pre skupinové čety až na 1 500 ľudí.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "The platform recently introduced stickers with sound, to spice up chats, and the ability to schedule messages ahead of time. Group chats can also now hold up to 1,500 people",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "patrí medzi najpoužívanejšie komunikačné nástroje na svete",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "the world's most popular messaging app",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "Po zatvoreni správy sa",
+        "opravene": "Po zatvorení správy sa",
+        "dovod": "dĺžeň",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "titulok",
+        "text": "eSIM",
+        "kontext": "WhatsApp prináša cestovné eSIM karty a testuje nové správy aj dizajn",
+        "navrhy": [
+          "desím",
+          "esom",
+          "esám"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "četová",
+        "kontext": "Populárna četová aplikácia oznámila podporu pre nákup ce",
+        "navrhy": [
+          "celová",
+          "celtová",
+          "cenová"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "eSIM",
+        "kontext": "a oznámila podporu pre nákup cestovných eSIM kariet priamo v rozhraní. Zároveň testu",
+        "navrhy": [
+          "desím",
+          "esom",
+          "esám"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "eSIM",
+        "kontext": "e oznámila podporu pre nákup cestovných eSIM kariet priamo v aplikácii, pričom súčas",
+        "navrhy": [
+          "desím",
+          "esom",
+          "esám"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "eSIM",
+        "kontext": "aj každodennú komunikáciu.\n\n## Cestovné eSIM karty priamo v aplikácii\n\nSpoločnosť oz",
+        "navrhy": [
+          "desím",
+          "esom",
+          "esám"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "iPhonov",
+        "kontext": "ácii\n\nSpoločnosť oznámila, že majitelia iPhonov aj zariadení s operačným systémom Andro",
+        "navrhy": [
+          "Iónov",
+          "honov",
+          "iónov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "eSIM",
+        "kontext": "kupovať a inštalovať cestovné digitálne eSIM karty priamo cez prostredie aplikácie W",
+        "navrhy": [
+          "desím",
+          "esom",
+          "esám"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "četovacej",
+        "kontext": "elia navyše môžu pokračovať v používaní četovacej služby so svojím existujúcim telefónnym",
+        "navrhy": [
+          "letovacej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "užívať WhatsApp na svojom pôvodnom čísle ako zvyčajne bez toho, aby ste museli hľada",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "roaming",
+        "kontext": "i pripojením alebo hromadiť poplatky za roaming.“ Na realizácii tejto funkcie spoluprac",
+        "navrhy": [
+          "rating",
+          "rodamín"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "eSIM",
+        "kontext": " spolupracuje WhatsApp s poskytovateľmi eSIM a telekomunikačnými partnermi, medzi kt",
+        "navrhy": [
+          "desím",
+          "esom",
+          "esám"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "ermi, medzi ktorými figurujú spoločnosti ako Verizon, Jio, Smart Axiata či Smart Com",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "preposielanie",
+        "kontext": "y, nahrávanie obrazovky, kopírovanie aj preposielanie obsahu. Po zatvorení správy sa k nej už",
+        "navrhy": [
+          "pre posielanie"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "záložiek",
+        "kontext": "ateľmi na iPhone, sa týka spodnej lišty záložiek. Aplikácia odstránila textové popisky n",
+        "navrhy": [
+          "Maloriek",
+          "Zálužie",
+          "jaloviek"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "onami pri zachovaní dizajnu označovaného ako Liquid Glass. Lišta teraz zobrazuje iba",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "čety",
+        "kontext": "nky pre aktualizácie, hovory, kontakty, čety a osobný profil bez textu, čím sa stala",
+        "navrhy": [
+          "Ety",
+          "bety",
+          "celty"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "čety",
+        "kontext": "šenie maximálnej kapacity pre skupinové čety až na 1 500 ľudí. Vývojári tak neustále",
+        "navrhy": [
+          "Ety",
+          "bety",
+          "celty"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -17 +17 @@\n-Príjemca si takúto správu otvorí v špeciálnom rozhraní, pričom WhatsApp zablokuje vytváranie snímok obrazovky, nahrávanie obrazovky, kopírovanie aj preposielanie obsahu. Po zatvoreni správy sa k nej už ani jedna strana nedokáže vrátiť. Portál 9to5Mac pripomína, že zatiaľ nie je jasné, kedy presne sa tieto testované funkcie dostavia do oficiálnej verejnej verzie aplikácie pre všetkých používateľov.\n+Príjemca si takúto správu otvorí v špeciálnom rozhraní, pričom WhatsApp zablokuje vytváranie snímok obrazovky, nahrávanie obrazovky, kopírovanie aj preposielanie obsahu. Po zatvorení správy sa k nej už ani jedna strana nedokáže vrátiť. Portál 9to5Mac pripomína, že zatiaľ nie je jasné, kedy presne sa tieto testované funkcie dostavia do oficiálnej verejnej verzie aplikácie pre všetkých používateľov."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/PIIGS_Mk_4_map.png/1280px-PIIGS_Mk_4_map.png",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://www.engadget.com/img/gallery/whatsapp-adds-support-for-travel-esims/l-intro-1795796572.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/whatsapp-adds-support-for-travel-esims/intro-1795796572.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/whatsapp-ios27.jpg?quality=82&strip=all&w=800",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://secure.gravatar.com/avatar/bb78cec603180c1a17605af3930b21e40c59b276cb679e543c98215204aaf0f1?s=96&d=mm&r=r",
+        "zdroj_clanku": "9to5Mac",
+        "alt": "",
+        "popisok": "Marcus Mendes",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "WhatsApp eSIM",
+      "eSIM card",
+      "smartphone messaging"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/PIIGS_Mk_4_map.png/1280px-PIIGS_Mk_4_map.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/PIIGS_Mk_4_map.png/1280px-PIIGS_Mk_4_map.png",
+        "nazov": "PIIGS Mk 4 map.png",
+        "autor": "The original uploader was Snow storm in Eastern Asia at English Wikipedia .",
+        "licencia": "CC BY 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:PIIGS_Mk_4_map.png",
+        "povod": "wikimedia",
+        "dopyt": "WhatsApp eSIM"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/SIM_card_sizes.png/1280px-SIM_card_sizes.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/SIM_card_sizes.png/1280px-SIM_card_sizes.png",
+        "nazov": "SIM card sizes.png",
+        "autor": "Jbond2018",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:SIM_card_sizes.png",
+        "povod": "wikimedia",
+        "dopyt": "eSIM card"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/ESIM-Card_in_USB_Card_reader.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/8684db0b-6b63-4c55-b615-42389dcc0120/thumb/",
+        "nazov": "ESIM-Card in USB Card reader",
+        "autor": "Photograph: wdwd",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=169423318",
+        "povod": "openverse",
+        "dopyt": "eSIM card"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Messaging_on_smartphone_%2822389367255%29.jpg/1280px-Messaging_on_smartphone_%2822389367255%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Messaging_on_smartphone_%2822389367255%29.jpg/1280px-Messaging_on_smartphone_%2822389367255%29.jpg",
+        "nazov": "Messaging on smartphone (22389367255).jpg",
+        "autor": "StockyPics",
+        "licencia": "CC0",
+        "licencia_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Messaging_on_smartphone_(22389367255).jpg",
+        "povod": "wikimedia",
+        "dopyt": "smartphone messaging"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Reading_the_smartphone_messages_instead_of_the_book_%2835225380945%29.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/ba6b57a1-0446-4069-be6d-9a1023ad0ec7/thumb/",
+        "nazov": "Reading the smartphone messages instead of the book (35225380945)",
+        "autor": "Pedro Ribeiro Simões from Lisboa, Portugal",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=85144658",
+        "povod": "openverse",
+        "dopyt": "smartphone messaging"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/4FF_eUICC_%28eSIM%29_cards_2024.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/b23d0d00-be53-4943-b345-3280b90e1b52/thumb/",
+        "nazov": "4FF eUICC (eSIM) cards 2024",
+        "autor": "Perillamint",
+        "licencia": "BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=147006007",
+        "povod": "openverse",
+        "dopyt": "eSIM card"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/A_smartphone_with_XMPP_logotype_displayed_on_it.png/1280px-A_smartphone_with_XMPP_logotype_displayed_on_it.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/A_smartphone_with_XMPP_logotype_displayed_on_it.png/1280px-A_smartphone_with_XMPP_logotype_displayed_on_it.png",
+        "nazov": "A smartphone with XMPP logotype displayed on it.png",
+        "autor": "OliwierJaszczyszyn",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:A_smartphone_with_XMPP_logotype_displayed_on_it.png",
+        "povod": "wikimedia",
+        "dopyt": "smartphone messaging"
+      },
+      {
+        "url": "https://live.staticflickr.com/8099/8567961719_149876676a_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/eb01119a-80bd-43ea-8823-1cabe645a43a/thumb/",
+        "nazov": "Communication",
+        "autor": "kleuske",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/96798515@N00/8567961719",
+        "povod": "openverse",
+        "dopyt": "smartphone messaging"
+      }
+    ],
+    "prompt_ilustracie": "A symbolic abstract illustration of digital travel eSIM cards and messaging app interface elements floating in a modern minimalist style."
+  },
+  "prompt_ilustracie": "A symbolic abstract illustration of digital travel eSIM cards and messaging app interface elements floating in a modern minimalist style.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/30b91b5a2638970a61606f7893535461",
+  "text_agentov": {
+    "titulok": "WhatsApp prináša cestovné eSIM karty a testuje nové správy aj dizajn",
+    "perex": "Populárna četová aplikácia oznámila podporu pre nákup cestovných eSIM kariet priamo v rozhraní. Zároveň testuje správy na jedno prečítanie a čistejší dizajn rozhrania.",
+    "telo": "Populárna komunikačná platforma WhatsApp prináša viacero významných noviniek pre svojich používateľov na celom svete. Oficiálne oznámila podporu pre nákup cestovných eSIM kariet priamo v aplikácii, pričom súčasne testuje ďalšie funkcie v beta verzii pre operačný systém iOS. Nové funkcie majú spríjemniť cestovanie aj každodennú komunikáciu.\n\n## Cestovné eSIM karty priamo v aplikácii\n\nSpoločnosť oznámila, že majitelia iPhonov aj zariadení s operačným systémom Android budú môcť čoskoro nakupovať a inštalovať cestovné digitálne eSIM karty priamo cez prostredie aplikácie WhatsApp. Táto funkcia umožní používateľom získať mobilný dátový plán pre medzinárodné cestovanie pomocou niekoľkých kliknutí bez nutnosti opustiť aplikáciu. Používatelia navyše môžu pokračovať v používaní četovacej služby so svojím existujúcim telefónnym číslom.\n\nZástupcovia platformy vo svojom oficiálnom vyhlásení uviedli: „To, aby ste pri pristátí mohli ďalej používať WhatsApp na svojom pôvodnom čísle ako zvyčajne bez toho, aby ste museli hľadať najbližší kiosk na letisku, loviť kaviareň s Wi-Fi pripojením alebo hromadiť poplatky za roaming.“ Na realizácii tejto funkcie spolupracuje WhatsApp s poskytovateľmi eSIM a telekomunikačnými partnermi, medzi ktorými figurujú spoločnosti ako Verizon, Jio, Smart Axiata či Smart Communications. Celková dostupnosť sa bude zavádzať postupne vo vybraných krajinách.\n\n## Testovanie správ na jedno prečítanie\n\nOkrem cestovných dát sa v testovacom programe objavujú aj ďalšie novinky. Portál WABetaInfo informoval, že používatelia zapojení do beta testovania cez TestFlight dostávajú možnosť posielať textové správy určené na jednorazové prečítanie. Táto funkcia doteraz existovala iba pre fotografie, videá a hlasové správy. Po dlhšom podržaní tlačidla odoslania si oprávnení používatelia môžu vybrať medzi naplánovaním správy a jej odoslaním v režime jednorazového prečítania.\n\nPríjemca si takúto správu otvorí v špeciálnom rozhraní, pričom WhatsApp zablokuje vytváranie snímok obrazovky, nahrávanie obrazovky, kopírovanie aj preposielanie obsahu. Po zatvorení správy sa k nej už ani jedna strana nedokáže vrátiť. Portál 9to5Mac pripomína, že zatiaľ nie je jasné, kedy presne sa tieto testované funkcie dostavia do oficiálnej verejnej verzie aplikácie pre všetkých používateľov.\n\n## Minimalistické rozhranie a ďalšie novinky\n\nĎalšia zmena, ktorá sa testuje medzi beta používateľmi na iPhone, sa týka spodnej lišty záložiek. Aplikácia odstránila textové popisky nachádzajúce sa pod jednotlivými ikonami pri zachovaní dizajnu označovaného ako Liquid Glass. Lišta teraz zobrazuje iba ikonky pre aktualizácie, hovory, kontakty, čety a osobný profil bez textu, čím sa stala kompaktnejšou.\n\nEngadget v tejto súvislosti pripomenul aj ďalšie nedávne novinky, ktoré platforma postupne zavádza. Medzi ne patria nálepky so zvukom, funkcia plánovania správ vopred či zväčšenie maximálnej kapacity pre skupinové čety až na 1 500 ľudí. Vývojári tak neustále rozširujú možnosti aplikácie, ktorá patrí medzi najpoužívanejšie komunikačné nástroje na svete."
+  }
+}
