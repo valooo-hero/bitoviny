@@ -1,0 +1,555 @@
+{
+  "slug": "nove-fotonicke-cipy-vyuzivaju-svetlo-na-usporu-energie",
+  "datum_sprav": "2026-11-27",
+  "dovod_vyberu": "Nový čip využívajúci svetelné vlny pre AI modely predstavuje prelom v výkonnosti a môže ovplyvniť európsky trh s AI hardvérom.",
+  "poznamky_pre_editora": "Na základe pripomienky factcheckera bola zo záveru článku odstránená nepodložená veta spomínajúca Slovensko a Európsku úniu.",
+  "upozornenia": [
+    "Článok čerpá len z jedného zdroja, hoci ich bolo viac."
+  ],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý, pretože všetky overiteľné tvrdenia majú priamu a presnú oporu v poskytnutom zdrojovom článku. V texte sa nenachádzajú žiadne významové chyby ani nepodložené informácie.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 22,
+        "potvrdenych": 21,
+        "chyb": 1,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 20,
+        "potvrdenych": 20,
+        "chyb": 0,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 22,
+        "potvrdenych": 22,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Nemecký startup Q.ANT prináša fotonické procesory, ktoré majú znížiť energetickú náročnosť umelej inteligencie",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "An expanding field of hardware startups, among them German company Q.ANT... developing a new breed of chip—photonic processors—meant to minimize the amount of energy that AI models consume.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Náklady na energiu potrebnú na prevádzku umelej inteligencie prudko rastú",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "the cost of the energy required to run the technology is ballooning.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Technologické spoločnosti a prevádzkovatelia dátových centier sa snaží stavať nové kapacity v oblastiach s lacnou a dostupnou obnoviteľnou energiou, ako je napríklad Škandinávia",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "AI labs and cloud providers are trying to build new data centers in places with cheap and plentiful renewable energy—like Scandinavia.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Narážajú na logistické prekážky, nedostatok kľúčových komponentov a protesty proti dátovým centrám",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "logistical challenges, a scarcity of key components, and a swell of anti-data center protests are getting in the way.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Bežné grafické procesory prenášajú a spracúvajú dáta pomocou presúvania elektrónov",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Whereas regular GPUs transmit and process data by shuffling electrons around",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Fotonické procesory využívajú svetelné vlny",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "photonic processors use waves of light.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Svetlo pri svojom pohybe negeneruje teplo a umožňuje súčasné spracovanie väčšieho množstva dát",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Because light doesn’t generate heat as it travels and allows more data to be processed simultaneously",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Fotonické procesory spotrebúvajú menej energie a vyžadujú len minimálne chladenie",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "photonic processors supposedly consume less energy and require minimal cooling",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Chladenie predstavuje jeden z najväčších nákladov pre dátové centrá",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "one of the largest sources of cost for data centers.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Cieľom nie je úplne nahradiť tradičné grafické procesory, ale prevádzkovať ich spoločne vedľa seba",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "The aim isn’t to replace GPUs with photonic processors, but to run them side-by-side.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Grafické procesory excelujú v lineárnej matematike a hromadných sčítaniach či násobeniach",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "GPUs excel at grinding through masses of additions and multiplications—linear math",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Fotonické procesory sa najlepšie hodia na komplexné nelineárne výpočty",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "photonic processors are best suited to complex, nonlinear calculations.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "„Svetlo je veľmi dobre predurčené na prácu so zložitými rovnicami,“ uviedol Michael Förtsch",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Light is very, very gifted to operate on complicated equations.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pod simuláciami sa dosahuje zhruba štvornásobné až päťnásobné zníženie spotreby energie, avšak na reálnom hardvéri to zatiaľ nepredviedli",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Under simulation, we are ending up at around four or five times energy reduction. But in real hardware we are not yet demonstrating it.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Komplikovanú matematiku dokážu vykonať v jedinom kroku, kde bežné čipy potrebujú tisíce krokov, čo šetrí pamäťové prístupové body",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "We execute complicated math in a single step, where [regular chips] need thousands of steps. This saves a bunch of data—or memory access points.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Fotonické procesory sa zatiaľ v dátových centrach nenachádzajú v masívnom nasadení",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Few photonic processors are running inside data centers today.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Spoločnosť Q.ANT svoje čipy nedávno nasadila v rámci pilotného programu do zariadení, ktoré prevádzkuje cloudová spoločnosť IONOS",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "Q.ANT recently rolled out its chips to facilities operated by cloud company IONOS as part of a pilot program.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Viac ako 30 tímov inžinierov už vyvíja modely umelej inteligencie optimalizované práve pre fotonické počítanie",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "more than 30 teams of engineers are now developing AI models optimized for photonic computing.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vývojári sa pritom nemusia učiť iný programovací jazyk, keďže možno využívať štandardný C++ či Python",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "There’s no need to learn a different language than C++ or Python.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Možno spúšťať už existujúci kód, hoci kód optimalizovaný výhradne pre GPU vyžaduje určité prispôsobenia",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "And you can already execute [preexisting] code on our machines. But if you take something that has been optimized for a GPU only... You have to do some adaptations.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Pri výrobe čipov stačí technológia 90-nanometrového uzla z roku 2000, ktorú už mnohé továrne využívajú na lacnú produkciu",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "You only need 90 nanometer node technology, from the 2000s. A lot of foundries already use this capability to produce chips that are super cheap.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Vybudovanie stabilného dodávateľského reťazca v oblasti hardvéru si vyžaduje čas a rovnako získanie dôvery technologických gigantov, ako je Google",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Wired",
+        "dokaz": "it will need [time] before we have the same robust supply chain... get the credibility and trust that’s needed for a company like Google",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "Vývojári pritom sa nemusia učiť",
+        "opravene": "Vývojári sa pritom nemusia učiť",
+        "dovod": "slovosled",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      },
+      {
+        "pole": "telo",
+        "povodne": "z 2000-rokov, ktorú",
+        "opravene": "z roku 2000, ktorú",
+        "dovod": "neobratný výraz",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "titulok",
+        "text": "fotonické",
+        "kontext": "Nové fotonické čipy využívajú svetlo na úsporu energie",
+        "navrhy": [
+          "botanické",
+          "botaničke",
+          "chtonické"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "startup",
+        "kontext": "Nemecký startup Q.ANT prináša fotonické procesory, ktor",
+        "navrhy": [
+          "štartu",
+          "štartuj",
+          "star tup"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "fotonické",
+        "kontext": "Nemecký startup Q.ANT prináša fotonické procesory, ktoré majú znížiť energetick",
+        "navrhy": [
+          "botanické",
+          "botaničke",
+          "chtonické"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "startupov",
+        "kontext": "ortál Wired, rastúci počet hardvérových startupov vrátane nemeckej spoločnosti Q.ANT sa s",
+        "navrhy": [
+          "statusov",
+          "štartov",
+          "štartérov"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "fotonické",
+        "kontext": "vojom novej generácie čipov, ktorými sú fotonické procesory určené na minimalizáciu spotr",
+        "navrhy": [
+          "botanické",
+          "botaničke",
+          "chtonické"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "fotonické",
+        "kontext": "ajú dáta pomocou presúvania elektrónov, fotonické procesory využívajú svetelné vlny. Keďž",
+        "navrhy": [
+          "botanické",
+          "botaničke",
+          "chtonické"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "fotonické",
+        "kontext": "asné spracovanie väčšieho množstva dát, fotonické procesory spotrebúvajú menej energie a ",
+        "navrhy": [
+          "botanické",
+          "botaničke",
+          "chtonické"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "fotonické",
+        "kontext": "a hromadných sčítaniach či násobeniach, fotonické procesory sa najlepšie hodia na komplex",
+        "navrhy": [
+          "botanické",
+          "botaničke",
+          "chtonické"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "centrach",
+        "kontext": "otonické procesory sa zatiaľ v dátových centrach nenachádzajú v masívnom nasadení. Spolo",
+        "navrhy": [
+          "centrách",
+          "centroch",
+          "centr ach"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cloudová",
+        "kontext": "rogramu do zariadení, ktoré prevádzkuje cloudová spoločnosť IONOS. Firma uvádza, že viac",
+        "navrhy": [
+          "chodová",
+          "clonová",
+          "loďová"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": " spoločnosť IONOS. Firma uvádza, že viac ako 30 tímov inžinierov už vyvíja modely um",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "fotonické",
+        "kontext": "j inteligencie optimalizované práve pre fotonické počítanie. Vývojári sa pritom nemusia u",
+        "navrhy": [
+          "botanické",
+          "botaničke",
+          "chtonické"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -15 +15 @@\n-Fotonické procesory sa zatiaľ v dátových centrach nenachádzajú v masívnom nasadení. Spoločnosť Q.ANT však svoje čipy nedávno nasadila v rámci pilotného programu do zariadení, ktoré prevádzkuje cloudová spoločnosť IONOS. Firma uvádza, že viac ako 30 tímov inžinierov už vyvíja modely umelej inteligencie optimalizované práve pre fotonické počítanie. Vývojári pritom sa nemusia učiť iný programovací jazyk, keďže možno využívať štandardný C++ či Python a spúšťať už existujúci kód, hoci kód optimalizovaný výhradne pre GPU vyžaduje určité prispôsobenia.\n+Fotonické procesory sa zatiaľ v dátových centrach nenachádzajú v masívnom nasadení. Spoločnosť Q.ANT však svoje čipy nedávno nasadila v rámci pilotného programu do zariadení, ktoré prevádzkuje cloudová spoločnosť IONOS. Firma uvádza, že viac ako 30 tímov inžinierov už vyvíja modely umelej inteligencie optimalizované práve pre fotonické počítanie. Vývojári sa pritom nemusia učiť iný programovací jazyk, keďže možno využívať štandardný C++ či Python a spúšťať už existujúci kód, hoci kód optimalizovaný výhradne pre GPU vyžaduje určité prispôsobenia.\n@@ -17 +17 @@\n-Predstavitelia firmy poukazujú aj na to, že pri výrobe čipov stačí technológia 90-nanometrového uzla z 2000-rokov, ktorú už mnohé továrne využívajú na lacnú produkciu, vďaka čomu by sa dalo vyhnúť obrovským počiatočným investíciám do aktív. Na druhej strane, vybudovanie stabilného dodávateľského reťazca v oblasti hardvéru si vyžaduje čas a rovnako získanie dôvery technologických gigantov, ako je Google.\n+Predstavitelia firmy poukazujú aj na to, že pri výrobe čipov stačí technológia 90-nanometrového uzla z roku 2000, ktorú už mnohé továrne využívajú na lacnú produkciu, vďaka čomu by sa dalo vyhnúť obrovským počiatočným investíciám do aktív. Na druhej strane, vybudovanie stabilného dodávateľského reťazca v oblasti hardvéru si vyžaduje čas a rovnako získanie dôvery technologických gigantov, ako je Google."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Pic_du_Midi_de_Bigorre_cloudy_Wikimedia_Commons.jpg/1280px-Pic_du_Midi_de_Bigorre_cloudy_Wikimedia_Commons.jpg",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://media.wired.com/photos/6b073e1d34813a006d725bef/191:100/w_1280,c_limit/QANT-CEO-QandA-Business.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://media.wired.com/photos/6b073e1d34813a006d725bef/master/pass/QANT-CEO-QandA-Business.jpg",
+        "zdroj_clanku": "Wired",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/72RfazhH7UiPwPYLuGp2yh-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      },
+      {
+        "url": "https://cdn.mos.cms.futurecdn.net/moKeCrUTNupN5AMgroQTtg-1920-80.jpg",
+        "zdroj_clanku": "Tom's Hardware",
+        "alt": "",
+        "popisok": "",
+        "kredit": "Getty Images / Bloomberg",
+        "licencia": "",
+        "zaradenie": "chranene",
+        "dovod": "Fotografia agentúry alebo fotobanky (Getty)."
+      }
+    ],
+    "dopyty": [
+      "photonic chip",
+      "microchip wafer",
+      "server rack"
+    ],
+    "alternativy": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Pic_du_Midi_de_Bigorre_cloudy_Wikimedia_Commons.jpg/1280px-Pic_du_Midi_de_Bigorre_cloudy_Wikimedia_Commons.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Pic_du_Midi_de_Bigorre_cloudy_Wikimedia_Commons.jpg/1280px-Pic_du_Midi_de_Bigorre_cloudy_Wikimedia_Commons.jpg",
+        "nazov": "Pic du Midi de Bigorre cloudy Wikimedia Commons.jpg",
+        "autor": "Benh LIEU SONG",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Pic_du_Midi_de_Bigorre_cloudy_Wikimedia_Commons.jpg",
+        "povod": "wikimedia",
+        "dopyt": "photonic chip"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Molecular_quantum_photonic_chip_and_an_illustration_of_on-chip_interference_of_indistinguishable_single_photons_from_independent_quantum_emitters_%28molecules%29.png",
+        "nahlad": "https://api.openverse.org/v1/images/10dd5c19-07b5-4ced-a403-15df1d8f94fa/thumb/",
+        "nazov": "Molecular quantum photonic chip and an illustration of on-chip interference of indistinguishable single photons from independent quantum emitters (molecules)",
+        "autor": "Huang, Tailin",
+        "licencia": "CC0 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en/",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=180311646",
+        "povod": "openverse",
+        "dopyt": "photonic chip"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/ST90E40ZL1_%282%29.png/1280px-ST90E40ZL1_%282%29.png",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/ST90E40ZL1_%282%29.png/1280px-ST90E40ZL1_%282%29.png",
+        "nazov": "ST90E40ZL1 (2).png",
+        "autor": "Mister rf",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:ST90E40ZL1_(2).png",
+        "povod": "wikimedia",
+        "dopyt": "microchip wafer"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/UNIO_WLCSP_and_SOT23_Device_on_Penny.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/29a8d235-1218-49db-be0d-e314bb45dfcd/thumb/",
+        "nazov": "File:UNIO WLCSP and SOT23 Device on Penny.jpg",
+        "autor": "Cp82",
+        "licencia": "BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/w/index.php?curid=9680037",
+        "povod": "openverse",
+        "dopyt": "microchip wafer"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Servers_in_a_Rack.jpg/1280px-Servers_in_a_Rack.jpg",
+        "nazov": "Servers in a Rack.jpg",
+        "autor": "Abigor",
+        "licencia": "CC BY-SA 3.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+        "povod": "wikimedia",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3636/3354592412_b436858c55_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c4e920a7-f761-442f-ae51-d380c8fa26d5/thumb/",
+        "nazov": "Server rack",
+        "autor": "towo™",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/24567257@N05/3354592412",
+        "povod": "openverse",
+        "dopyt": "server rack"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Pic_Casterau_%284%29.jpg/1280px-Pic_Casterau_%284%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Pic_Casterau_%284%29.jpg/1280px-Pic_Casterau_%284%29.jpg",
+        "nazov": "Pic Casterau (4).jpg",
+        "autor": "Tournasol7",
+        "licencia": "CC BY 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Pic_Casterau_(4).jpg",
+        "povod": "wikimedia",
+        "dopyt": "photonic chip"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/55393390665_267542694b_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/9afbf6f9-ff5b-44ce-911b-66a5566e11d0/thumb/",
+        "nazov": "labba porna - Photonic chip using triphenylamine–dicyanoquinoxaline-doped silicon processes light - Caroline Perron for Polytechnique Montréal - 2026",
+        "autor": "nebulousness",
+        "licencia": "PDM 1.0",
+        "licencia_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "stranka": "https://www.flickr.com/photos/203730436@N06/55393390665",
+        "povod": "openverse",
+        "dopyt": "photonic chip"
+      }
+    ],
+    "prompt_ilustracie": "A futuristic semiconductor microchip emitting glowing sine waves and beams of light instead of traditional electronic circuits, clean tech style, high detail."
+  },
+  "prompt_ilustracie": "A futuristic semiconductor microchip emitting glowing sine waves and beams of light instead of traditional electronic circuits, clean tech style, high detail.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/0275b98df7d0ce18d5f3bf81e378ef3e",
+  "text_agentov": {
+    "titulok": "Nové fotonické čipy využívajú svetlo na úsporu energie",
+    "perex": "Nemecký startup Q.ANT prináša fotonické procesory, ktoré majú znížiť energetickú náročnosť umelej inteligencie spracovaním zložitých rovníc pomocou svetelných vĺn.",
+    "telo": "S tým, ako sa umelá inteligencia stáva bežnou súčasťou života a modely sú prepracovanejšie, prudko rastú aj náklady na energiu potrebnú na jej prevádzku. Technologické spoločnosti a prevádzkovatelia dátových centier sa snažia stavať nové kapacity v oblastiach s lacnou a dostupnou obnoviteľnou energiou, ako je napríklad Škandinávia. Narážajú však na logistické prekážky, nedostatok kľúčových komponentov a protesty proti dátovým centrám. Ako uviedol portál Wired, rastúci počet hardvérových startupov vrátane nemeckej spoločnosti Q.ANT sa snaží tento problém riešiť iným smerom, a to vývojom novej generácie čipov, ktorými sú fotonické procesory určené na minimalizáciu spotreby energie.\n\n## Svetlo namiesto elektrónov\n\nZatiaľ čo bežné grafické procesory prenášajú a spracúvajú dáta pomocou presúvania elektrónov, fotonické procesory využívajú svetelné vlny. Keďže svetlo pri svojom pohybe negeneruje teplo a umožňuje súčasné spracovanie väčšieho množstva dát, fotonické procesory spotrebúvajú menej energie a vyžadujú len minimálne chladenie, ktoré predstavuje jeden z najväčších nákladov pre dátové centrá. Cieľom pritom nie je úplne nahradiť tradičné grafické procesory, ale prevádzkovať ich spoločne vedľa seba.\n\nZatiaľ čo grafické procesory excelujú v lineárnej matematike a hromadných sčítaniach či násobeniach, fotonické procesory sa najlepšie hodia na komplexné nelineárne výpočty. „Svetlo je veľmi dobre predurčené na prácu so zložitými rovnicami,“ uviedol v rozhovore pre Wired zakladateľ a generálny riaditeľ spoločnosti Q.ANT Michael Förtsch. Podľa jeho slov sa pod simuláciami dosahuje zhruba štvornásobné až päťnásobné zníženie spotreby energie, avšak na reálnom hardvéri to zatiaľ nepredviedli. Spoločnosť navyše necieli len na samotný výpočet, ale snaží sa riešiť aj problém s obmedzeným prístupom k pamäti. Komplikovanú matematiku dokážu vykonať v jedinom kroku, kde bežné čipy potrebujú tisíce krokov, čo šetrí pamäťové prístupové body.\n\n## Skúšobná prevádzka a výzvy\n\nFotonické procesory sa zatiaľ v dátových centrach nenachádzajú v masívnom nasadení. Spoločnosť Q.ANT však svoje čipy nedávno nasadila v rámci pilotného programu do zariadení, ktoré prevádzkuje cloudová spoločnosť IONOS. Firma uvádza, že viac ako 30 tímov inžinierov už vyvíja modely umelej inteligencie optimalizované práve pre fotonické počítanie. Vývojári sa pritom nemusia učiť iný programovací jazyk, keďže možno využívať štandardný C++ či Python a spúšťať už existujúci kód, hoci kód optimalizovaný výhradne pre GPU vyžaduje určité prispôsobenia.\n\nPredstavitelia firmy poukazujú aj na to, že pri výrobe čipov stačí technológia 90-nanometrového uzla z roku 2000, ktorú už mnohé továrne využívajú na lacnú produkciu, vďaka čomu by sa dalo vyhnúť obrovským počiatočným investíciám do aktív. Na druhej strane, vybudovanie stabilného dodávateľského reťazca v oblasti hardvéru si vyžaduje čas a rovnako získanie dôvery technologických gigantov, ako je Google."
+  }
+}
