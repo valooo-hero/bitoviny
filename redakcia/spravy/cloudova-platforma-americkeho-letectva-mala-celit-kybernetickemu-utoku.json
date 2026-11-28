@@ -1,0 +1,448 @@
+{
+  "slug": "cloudova-platforma-americkeho-letectva-mala-celit-kybernetickemu-utoku",
+  "datum_sprav": "2026-11-27",
+  "dovod_vyberu": "Únik dát v cloudovej platforme US Air Force upozorňuje na riziká federálnych kybernetických útokov, čo je dôležité aj pre slovenské a európske inštitúcie.",
+  "poznamky_pre_editora": "Opravený rok spustenia platformy Cloud One – odstránená nepresná zmienka o roku 1987, ponechaný rok 2017 podľa zdrojov.",
+  "upozornenia": [],
+  "factcheck": {
+    "hodnotenie": "Koncept je mimoriadne spoľahlivý a všetky uvedené tvrdenia majú presnú oporu v zdrojových článkoch. Text verne a bez chýb sumarizuje informácie o útoku na Cloud One aj širší kontext.",
+    "kola": [
+      {
+        "kolo": 1,
+        "tvrdeni": 18,
+        "potvrdenych": 17,
+        "chyb": 1,
+        "upozorneni": 1
+      },
+      {
+        "kolo": 2,
+        "tvrdeni": 20,
+        "potvrdenych": 20,
+        "chyb": 0,
+        "upozorneni": 0
+      },
+      {
+        "kolo": 3,
+        "tvrdeni": 20,
+        "potvrdenych": 20,
+        "chyb": 0,
+        "upozorneni": 0
+      }
+    ],
+    "otvorene_nalezy": [],
+    "tvrdenia": [
+      {
+        "text": "Americké letectvo vyšetruje údajný prienik do svojej cloudovej platformy Cloud One.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Hackers have reportedly breached the US Air Force's Cloud One computing platform",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Incident je súčasťou vlny kybernetických útokov na viaceré federálne inštitúcie.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "adding to a recent wave of cyberattacks affecting US government agencies",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Americké letectvo sa stalo terčom údajného kybernetického útoku, ktorý zasiahol svoju podnikovú cloudovú platformu Cloud One.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Hackers have reportedly breached the US Air Force's Cloud One computing platform",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "vstúpilo v čase, keď Spojené štáty zaznamenávajú sériu narušení bezpečnosti vo viacerých vládnych agentúrach vrátane Federálneho úradu pre vyšetrovanie či Ústrednej spravodajskej služby.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "affecting US government agencies, including the FBI, CIA, and Treasury Department.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Podľa správ agentúry Reuters bola neoprávnená infiltrácia odhalená v priebehu posledného mesiaca počas prebiehajúcich prác na modernizácii systému.",
+        "typ": "datum",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "According to Reuters, the intrusion was discovered within the past month during an upgrade of the cloud platform",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Platforma Cloud One bola spustená v roku 2017 ako centrálny uzol pre technologické potreby letectva a ministerstva obrany",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "Launched in 2017, Cloud One is an enterprise cloud computing platform managed by the US Air Force",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "pričom využíva služby viacerých poskytovateľov vrátane Amazon Web Services, Google Cloud, Oracle Cloud Infrastructure a Microsoft Azure.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Cloud One was established in 2017 and it's powered by Amazon Web Services, Google Cloud, Oracle Cloud Infrastructure and Microsoft Azure.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Neznámi útočníci mali podľa dostupných informácií zneužiť doposiaľ neidentifikovanú softvérovú zraniteľnosť, aby získali prístup k takzvaným riadiacim mechanizmom platformy.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "One person familiar with the matter said the hackers exploited a vulnerability to access what's known as the control plane.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Jeden z informátorov pre agentúru Reuters prirovnal tento prístup k univerzálnemu ovládaču, ktorý by mohol teoreticky umožniť sledovanie stavu vojenských lietadiel alebo presunov náhradných dielov",
+        "typ": "citat",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "They compared this to \"a universal remote,\" that could potentially allow someone \"to check the operational status of military aircraft or the movement of spare parts.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "hoci rozsah škôd a prípadná krádež dát zatiaľ nie sú potvrdené.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "with the attackers, scope of the attack, and whether any data was stolen currently unknown.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "V reakcii na bezpečnostný incident boli pozastavené niektoré plánované projekty vrátane presunu nových aplikačných programov do cloudu.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "The emergence of the issue has put certain projects on hold, including an effort to shift more mission apps to Cloud One.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Používateľom boli dočasne odobraté administrátorské práva a zakázané boli aj aktualizácie už fungujúcich aplikácií, čo pracovníkom znemožnilo aplikovať bezpečnostné záplaty.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "Some users' admin rights were reportedly revoked and updates to applications that are already running on Cloud One were prohibited, stopping staff from applying various fixes.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Do vyšetrovania a posudzovania rozsahu škôd sa zapojilo aj americké kybernetické veliteľstvo US Cyber Command.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "US Cyber Command has reportedly been called in to assess the impact",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Samotné letectvo odmietlo komentovať operačný stav zasiahnutých systémov s vyhlásením, že neustále prijíma opatrenia na ochranu svojich misií a informácií.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "The Air Force said it \"does not comment on the security posture, vulnerabilities or operational status of specific networks and systems. We continuously take prudent measures to protect Department (of the Air Force) information, systems and mission capabilities.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Narušenie cloudového systému letectva nie je ojedinelým prípadom.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "The reported Air Force breach follows other cybersecurity incidents disclosed over the past week targeting US federal agencies.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zverejnené informácie hovoria o prieniku do databázy Národného centra pre kriminálne informácie patriaceho pod FBI, ako aj o útokoch na analytické systémy CIA či vyšetrovanie neoprávneného prístupu v americkom ministerstve financií.",
+        "typ": "meno",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "hackers reportedly breached the FBI's National Crime Information Center (NCIC)... breached an open-source intelligence (OSINT) analysis system at the Central Intelligence Agency (CIA)... US Treasury Department's Financial Crimes Enforcement Network (FinCEN) disclosed that it was investigating unauthorized access",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Odborníci v tejto súvislosti upozorňujú na rastúci trend využívania nástrojov umelej inteligencie pri automatizácii kybernetických útokov, hoci zatiaľ nie je jasné, či sa takýto nástroj uplatnil aj v prípade letectva.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "AI-powered hacking tools fuel cyberattacks... It remains unknown whether ARTEX or other AI-powered hacking tools were used in the attacks against the Air Force",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Systém Cloud One zohráva kľúčovú úlohu pri podpore vojenských operácií, personálnej správe, logistike a údržbe.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "BleepingComputer",
+        "dokaz": "allows Department of Defense agencies to host and manage applications supporting military operations, personnel management, logistics, and maintenance.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Slúži ako úložisko pre rôzne dáta od miezd zamestnancov až po systém sledovania munície v stovkách lokalít po celom svete.",
+        "typ": "cislo",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "including everything from payroll and personnel data to the Theater Integrated Combat Munitions System. This tracks bombs and missiles across more than 200 Air Force locations worldwide.",
+        "komentar": "",
+        "navrh_opravy": ""
+      },
+      {
+        "text": "Zdroje blízke vyšetrovaniu označujú tento prienik za závažný problém, pričom sa naďalej preveruje, aké informácie útočníci mohli reálne ohroziť.",
+        "typ": "ine",
+        "verdikt": "potvrdene",
+        "zdroj": "Engadget",
+        "dokaz": "One of Reuters' sources said \"A breach here is a big deal.\"",
+        "komentar": "",
+        "navrh_opravy": ""
+      }
+    ]
+  },
+  "korektura": {
+    "upravy": [
+      {
+        "pole": "telo",
+        "povodne": "útoku, ktorý zasiahol jej podnikovú",
+        "opravene": "útoku, ktorý zasiahol svoju podnikovú",
+        "dovod": "gramatická zhoda privlastňovacieho zámena",
+        "stav": "vykonana",
+        "poznamka": "",
+        "zdroj": "gemini-3.5-flash-lite (google)"
+      }
+    ],
+    "podozrive": [
+      {
+        "zdroj": "LanguageTool",
+        "pole": "perex",
+        "text": "cloudovej",
+        "kontext": "ctvo vyšetruje údajný prienik do svojej cloudovej platformy Cloud One. Incident je súčasť",
+        "navrhy": [
+          "clou dovej"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cloudovú",
+        "kontext": "o útoku, ktorý zasiahol svoju podnikovú cloudovú platformu Cloud One. Táto udalosť prich",
+        "navrhy": [
+          "chodovú",
+          "clonovú",
+          "loďovú"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "orma Cloud One bola spustená v roku 2017 ako centrálny uzol pre technologické potreb",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cloudu",
+        "kontext": "presunu nových aplikačných programov do cloudu. Používateľom boli dočasne odobraté adm",
+        "navrhy": [
+          "clou du"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "cloudového",
+        "kontext": "na útokov na federálne úrady\n\nNarušenie cloudového systému letectva nie je ojedinelým príp",
+        "navrhy": [
+          "chodového",
+          "clonového",
+          "loďového"
+        ],
+        "dovod": "Nájdený pravdepodobný preklep"
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": "širšom",
+        "kontext": "át nielen v Spojených štátoch, ale aj v širšom medzinárodnom kontexte.\n\n## Význam plat",
+        "navrhy": [
+          "širokom"
+        ],
+        "dovod": "Nespravny tvar prídavného mena (širšom) \"širokom\""
+      },
+      {
+        "zdroj": "LanguageTool",
+        "pole": "telo",
+        "text": " ako",
+        "kontext": "nálnej správe, logistike a údržbe. Slúži ako úložisko pre rôzne dáta od miezd zamest",
+        "navrhy": [
+          ", ako"
+        ],
+        "dovod": "Dajte čiarku pred „ako“: \", ako\"."
+      }
+    ],
+    "diff": "--- pred korektúrou\n+++ po korektúre\n@@ -5 +5 @@\n-Americké letectvo sa stalo terčom údajného kybernetického útoku, ktorý zasiahol jej podnikovú cloudovú platformu Cloud One. Táto udalosť prichádza v čase, keď Spojené štáty zaznamenávajú sériu narušení bezpečnosti vo viacerých vládnych agentúrach vrátane Federálneho úradu pre vyšetrovanie či Ústrednej spravodajskej služby. Podľa správ agentúry Reuters bola neoprávnená infiltrácia odhalená v priebehu posledného mesiaca počas prebiehajúcich prác na modernizácii systému. Platforma Cloud One bola spustená v roku 2017 ako centrálny uzol pre technologické potreby letectva a ministerstva obrany, pričom využíva služby viacerých poskytovateľov vrátane Amazon Web Services, Google Cloud, Oracle Cloud Infrastructure a Microsoft Azure.\n+Americké letectvo sa stalo terčom údajného kybernetického útoku, ktorý zasiahol svoju podnikovú cloudovú platformu Cloud One. Táto udalosť prichádza v čase, keď Spojené štáty zaznamenávajú sériu narušení bezpečnosti vo viacerých vládnych agentúrach vrátane Federálneho úradu pre vyšetrovanie či Ústrednej spravodajskej služby. Podľa správ agentúry Reuters bola neoprávnená infiltrácia odhalená v priebehu posledného mesiaca počas prebiehajúcich prác na modernizácii systému. Platforma Cloud One bola spustená v roku 2017 ako centrálny uzol pre technologické potreby letectva a ministerstva obrany, pričom využíva služby viacerých poskytovateľov vrátane Amazon Web Services, Google Cloud, Oracle Cloud Infrastructure a Microsoft Azure."
+  },
+  "obrazky": {
+    "odporucanie": {
+      "typ": "alternativa",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Commander_One.png",
+      "poznamka": "Voľná náhrada. Editor musí overiť licenciu na stránke pôvodu."
+    },
+    "povodne": [
+      {
+        "url": "https://www.bleepstatic.com/content/hl-images/2026/11/27/air-force-red-blue-2.jpg",
+        "zdroj_clanku": "BleepingComputer",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/hackers-reportedly-infiltrated-the-air-forces-cloud-systems/l-intro-1795798468.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      },
+      {
+        "url": "https://www.engadget.com/img/gallery/hackers-reportedly-infiltrated-the-air-forces-cloud-systems/intro-1795798468.jpg",
+        "zdroj_clanku": "Engadget",
+        "alt": "",
+        "popisok": "",
+        "kredit": "",
+        "licencia": "",
+        "zaradenie": "nejasne",
+        "dovod": "Bez kreditu a licencie. Predvolene sa považuje za chránené."
+      }
+    ],
+    "dopyty": [
+      "Cloud One server",
+      "Air Force server",
+      "military server rack"
+    ],
+    "alternativy": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Commander_One.png",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Commander_One.png",
+        "nazov": "Commander One.png",
+        "autor": "Rebecca",
+        "licencia": "CC BY-SA 4.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:Commander_One.png",
+        "povod": "wikimedia",
+        "dopyt": "Cloud One server"
+      },
+      {
+        "url": "https://live.staticflickr.com/6124/5989707595_8efc3a7650_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/c478bd22-656e-48f8-a5e5-41b324fbe385/thumb/",
+        "nazov": "HP ProLiant BL685c G7",
+        "autor": "seeweb",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/65475777@N06/5989707595",
+        "povod": "openverse",
+        "dopyt": "Cloud One server"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/U.S._Air_Force_Staff_Sgt._Gabriel_Lopez%2C_a_network_technician_with_the_509th_Communications_Squadron%2C_looks_through_a_network_management_server_Dec._5%2C_2013%2C_at_Whiteman_Air_Force_Base%2C_Mo_131205-F-EA289-032.jpg/1280px-thumbnail.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/U.S._Air_Force_Staff_Sgt._Gabriel_Lopez%2C_a_network_technician_with_the_509th_Communications_Squadron%2C_looks_through_a_network_management_server_Dec._5%2C_2013%2C_at_Whiteman_Air_Force_Base%2C_Mo_131205-F-EA289-032.jpg/1280px-thumbnail.jpg",
+        "nazov": "U.S. Air Force Staff Sgt. Gabriel Lopez, a network technician with the 509th Communications Squadron, looks through a network management server Dec. 5, 2013, at Whiteman Air Force Base, Mo 131205-F-EA289-032.jpg",
+        "autor": "SSgt Nicholas Wilson",
+        "licencia": "Public domain",
+        "licencia_url": "",
+        "stranka": "https://commons.wikimedia.org/wiki/File:U.S._Air_Force_Staff_Sgt._Gabriel_Lopez,_a_network_technician_with_the_509th_Communications_Squadron,_looks_through_a_network_management_server_Dec._5,_2013,_at_Whiteman_Air_Force_Base,_Mo_131205-F-EA289-032.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Air Force server"
+      },
+      {
+        "url": "https://live.staticflickr.com/7362/9152501358_b74cca9c7b_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/0d8d23a0-cae2-4ca9-9c8c-84bae21a8637/thumb/",
+        "nazov": "Server Cupboard cooling - Take 2",
+        "autor": "TJStamp",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/40246732@N00/9152501358",
+        "povod": "openverse",
+        "dopyt": "Air Force server"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/C4ISR_Senior_Leaders_Conference%2C_February_2011_%285424423905%29.jpg/1280px-C4ISR_Senior_Leaders_Conference%2C_February_2011_%285424423905%29.jpg",
+        "nahlad": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/C4ISR_Senior_Leaders_Conference%2C_February_2011_%285424423905%29.jpg/1280px-C4ISR_Senior_Leaders_Conference%2C_February_2011_%285424423905%29.jpg",
+        "nazov": "C4ISR Senior Leaders Conference, February 2011 (5424423905).jpg",
+        "autor": "US Army Africa from Vicenza, Italy",
+        "licencia": "CC BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:C4ISR_Senior_Leaders_Conference,_February_2011_(5424423905).jpg",
+        "povod": "wikimedia",
+        "dopyt": "military server rack"
+      },
+      {
+        "url": "https://live.staticflickr.com/3828/12657426844_1e538ac9f2_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/78095070-353f-4e0e-a7bb-10968b0d1f32/thumb/",
+        "nazov": "Two men stand next to the apparatus of a television and telephone communications network / Deux hommes debout à côté d’un appareil de réseau de communication par télévision et téléphone",
+        "autor": "BiblioArchives / LibraryArchives",
+        "licencia": "BY 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by/2.0/",
+        "stranka": "https://www.flickr.com/photos/28853433@N02/12657426844",
+        "povod": "openverse",
+        "dopyt": "military server rack"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/HP_ProLiant_BL685c_G7_Blade_server.jpg",
+        "nahlad": "https://upload.wikimedia.org/wikipedia/commons/c/c3/HP_ProLiant_BL685c_G7_Blade_server.jpg",
+        "nazov": "HP ProLiant BL685c G7 Blade server.jpg",
+        "autor": "Seeweb from Itay",
+        "licencia": "CC BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "stranka": "https://commons.wikimedia.org/wiki/File:HP_ProLiant_BL685c_G7_Blade_server.jpg",
+        "povod": "wikimedia",
+        "dopyt": "Cloud One server"
+      },
+      {
+        "url": "https://live.staticflickr.com/6126/5989706885_0f41849fbe_b.jpg",
+        "nahlad": "https://api.openverse.org/v1/images/aa575242-8d44-4b4b-8d2a-3cc06c468653/thumb/",
+        "nazov": "HP BladeSystem c7000 Enclosure",
+        "autor": "seeweb",
+        "licencia": "BY-SA 2.0",
+        "licencia_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "stranka": "https://www.flickr.com/photos/65475777@N06/5989706885",
+        "povod": "openverse",
+        "dopyt": "Cloud One server"
+      }
+    ],
+    "prompt_ilustracie": "Abstract digital illustration of a military jet silhouette emerging from a glowing, fractured cloud network with binary code streams, dark blue and cyan cyber aesthetic."
+  },
+  "prompt_ilustracie": "Abstract digital illustration of a military jet silhouette emerging from a glowing, fractured cloud network with binary code streams, dark blue and cyan cyber aesthetic.",
+  "trace": "https://cloud.langfuse.com/project/cmwdugaw1001vad0fu525g8us/traces/db4125056122c6ce605f34fc737be653",
+  "text_agentov": {
+    "titulok": "Cloudová platforma amerického letectva mala čeliť kybernetickému útoku",
+    "perex": "Americké letectvo vyšetruje údajný prienik do svojej cloudovej platformy Cloud One. Incident je súčasťou vlny kybernetických útokov na viaceré federálne inštitúcie.",
+    "telo": "Americké letectvo sa stalo terčom údajného kybernetického útoku, ktorý zasiahol svoju podnikovú cloudovú platformu Cloud One. Táto udalosť prichádza v čase, keď Spojené štáty zaznamenávajú sériu narušení bezpečnosti vo viacerých vládnych agentúrach vrátane Federálneho úradu pre vyšetrovanie či Ústrednej spravodajskej služby. Podľa správ agentúry Reuters bola neoprávnená infiltrácia odhalená v priebehu posledného mesiaca počas prebiehajúcich prác na modernizácii systému. Platforma Cloud One bola spustená v roku 2017 ako centrálny uzol pre technologické potreby letectva a ministerstva obrany, pričom využíva služby viacerých poskytovateľov vrátane Amazon Web Services, Google Cloud, Oracle Cloud Infrastructure a Microsoft Azure.\n\n## Priebeh incidentu a reakcia armády\n\nNeznámi útočníci mali podľa dostupných informácií zneužiť doposiaľ neidentifikovanú softvérovú zraniteľnosť, aby získali prístup k takzvaným riadiacim mechanizmom platformy. Jeden z informátorov pre agentúru Reuters prirovnal tento prístup k univerzálnemu ovládaču, ktorý by mohol teoreticky umožniť sledovanie stavu vojenských lietadiel alebo presunov náhradných dielov, hoci rozsah škôd a prípadná krádež dát zatiaľ nie sú potvrdené. V reakcii na bezpečnostný incident boli pozastavené niektoré plánované projekty vrátane presunu nových aplikačných programov do cloudu. Používateľom boli dočasne odobraté administrátorské práva a zakázané boli aj aktualizácie už fungujúcich aplikácií, čo pracovníkom znemožnilo aplikovať bezpečnostné záplaty. Do vyšetrovania a posudzovania rozsahu škôd sa zapojilo aj americké kybernetické veliteľstvo US Cyber Command. Samotné letectvo odmietlo komentovať operačný stav zasiahnutých systémov s vyhlásením, že neustále prijíma opatrenia na ochranu svojich misií a informácií.\n\n## Širšia vlna útokov na federálne úrady\n\nNarušenie cloudového systému letectva nie je ojedinelým prípadom. V priebehu posledných týždňov čelilo kybernetickým incidentom hneď niekoľko kľúčových amerických inštitúcií. Zverejnené informácie hovoria o prieniku do databázy Národného centra pre kriminálne informácie patriaceho pod FBI, ako aj o útokoch na analytické systémy CIA či vyšetrovanie neoprávneného prístupu v americkom ministerstve financií. Odborníci v tejto súvislosti upozorňujú na rastúci trend využívania nástrojov umelej inteligencie pri automatizácii kybernetických útokov, hoci zatiaľ nie je jasné, či sa takýto nástroj uplatnil aj v prípade letectva. Súčasná situácia vyvoláva obavy o bezpečnosť citlivých vládnych dát nielen v Spojených štátoch, ale aj v širšom medzinárodnom kontexte.\n\n## Význam platformy pre armádu\n\nSystém Cloud One zohráva kľúčovú úlohu pri podpore vojenských operácií, personálnej správe, logistike a údržbe. Slúži ako úložisko pre rôzne dáta od miezd zamestnancov až po systém sledovania munície v stovkách lokalít po celom svete. Zdroje blízke vyšetrovaniu označujú tento prienik za závažný problém, pričom sa naďalej preveruje, aké informácie útočníci mohli reálne ohroziť."
+  }
+}
